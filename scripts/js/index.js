@@ -1,18 +1,18 @@
-const form = document.getElementById("simplify-form");
-const simplifiedText = document.getElementById("simplified-text");
+const inputField = document.getElementById("inputField");
+const outputField = document.getElementById("outputField");
 
-form.addEventListener("submit", e => {
-  e.preventDefault();
-  const text = document.getElementById("text-input").value;
+inputField.addEventListener("input", () => {
+  const text = inputField.value;
   fetch("/simplify", {
     method: "POST",
     headers: {
       "Content-Type": "application/json"
     },
-    body: JSON.stringify({ text: text })
+    body: JSON.stringify({text: text})
   })
-    .then(response => response.json())
-    .then(data => {
-      simplifiedText.innerHTML = `<p>Original text:</p><p>${data.text}</p><p>Simplified text:</p><p>${data.simplified_text}</p>`;
-    });
+  .then(response => response.json())
+  .then(data => {
+    outputField.textContent = data.simplified_text;
+  });
 });
+
