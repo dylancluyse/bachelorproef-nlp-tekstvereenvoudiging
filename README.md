@@ -1,10 +1,12 @@
 # Bachelorproefonderzoek : 
 
-Onderzoeksonderwerp: Middelbare scholieren met dyslexie ondersteunen bij het verwerken van wetenschappelijke artikels via tekstsimplificatie
+Middelbare scholieren van het derde graad met dyslexie ondersteunen bij het lezen van wetenschappelijke papers via tekstsimplificatie.
 
-Klik [hier](verslag/voorstel/CluyseDylan-BPvoorstel.pdf) om naar het onderzoeksvoorstel te gaan.
-Klik [hier](verslag/bachproef/FamilienaamVoornaamBP.pdf) om naar de bachelorproef te gaan.
-Klik [hier](verslag/poster/) om naar de poster te gaan.
+* Klik [hier](verslag\voorstel\CluyseDylan-BPvoorstel.pdf) om naar het onderzoeksvoorstel te gaan.
+
+*De volgende links zijn nog onder voorbehoud:*
+* Klik [hier](verslag\bachproef\FamilienaamVoornaamBP.pdf) om naar de bachelorproef te gaan.
+* Klik [hier](verslag\poster) om naar de poster te gaan.
 
 
 ## TODO : Voorstel

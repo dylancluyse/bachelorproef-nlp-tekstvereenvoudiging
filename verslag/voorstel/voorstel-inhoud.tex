@@ -3,9 +3,13 @@
 \section{Introductie}%
 \label{sec:introductie}
 
-België is een koploper in het gebruik van artificiële intelligentie (AI) op de werkvloer. Jaarlijks investeert de Vlaamse overheid 32 miljoen in het vakgebied \autocite{Crevits2022}. Soortgelijke technologieën worden amper toegepast in het onderwijs. Er is terughoudendheid door enerzijds ouders van leerlingen \autocite{Martens2021}, anderzijds door de weinige ontwikkelingen in schoolgerelateerde AI-software. Toch zijn er reeds bewijzen dat artificiële intelligentie ook op school nuttig kan zijn. Machinaal leren wordt alsmaar toegankelijker, en toch is er een schaarste aan applicaties die hierop inspelen.
+% It's not just you: science papers are getting harder to read | Nature
+% Dyslexia and STEM | Landmark College
 
-Dit onderzoek beschrijft het gebruik van artificiële intelligentie in de vorm van tekstsimplificatie, als advies voor implementatie in het onderwijs. Specifiek om kinderen met dyslexie te ondersteunen bij het verwerken van leerstof.
+
+België is een koploper in het gebruik van artificiële intelligentie (AI) op de werkvloer. Jaarlijks investeert de Vlaamse overheid 32 miljoen in het vakgebied \autocite{Crevits2022}. Soortgelijke technologieën worden amper toegepast in het onderwijs. Er is terughoudendheid door enerzijds ouders van leerlingen \autocite{Martens2021}, anderzijds door de weinige ontwikkelingen in schoolgerelateerde AI-software. Toch zijn er reeds bewijzen dat artificiële intelligentie ook op school nuttig kan zijn. Er verschijnen ook meer en meer \textit{off-the-shelf} pakketten die complexe berekeningen vereenvoudigen, zodanig dat ontwikkelaars sneller aan de slag kunnen om complexe problemen op te lossen.
+
+Dit onderzoek beschrijft het gebruik van artificiële intelligentie in de vorm van tekstsimplificatie, als advies voor implementatie in het onderwijs. Specifiek om middelbare scholieren in het derde graad met dyslexie te ondersteunen bij het lezen van wetenschappelijke papers.
 
 Het doel wordt bereikt door eerst het proces van tekstvereenvoudiging te beschrijven. Nadien volgt er een analyse van de bewezen voordelen bij kinderen met dyslexie. Vervolgens worden de valkuilen bij taalverwerking met artificiële intelligentie onderzocht. Uiteindelijk volgt er de ontwikkeling van een \textit{proof-of-concept} in Python. 
 
@@ -21,6 +25,11 @@ De voorbije tien jaar is artificiële intelligentie sterk verder ontwikkeld. De 
 Het algemene doel van tekstsimplificatie is om ingewikkelde bronnen toegankelijker te maken. Het zorgt voor verkorte teksten zonder de oorspronkelijke context te verliezen. Tekstsimplificatie gebeurt doorgaans op één van drie manieren. Er is conceptuele simplificatie waarbij documenten naar een compacter formaat worden getransformeerd. Daarnaast is er uitgebreide modificatie die kernwoorden aanduidt door gebruik van redundantie. Als laatste is er samenvatting die documenten verandert in kortere teksten met alleen de topische zinnen. Met deze concepten zijn ontwikkelaars in staat om ingewikkelde woorden te vervangen door eenvoudigere synoniemen of zinnen te verkorten zodat ze sneller leesbaar zijn \autocite{Siddharthan2014}.
 
 Tekstsimplificatie behoort tot de zijtak van natuurlijke taalverwerking (NLP) in artificiële intelligentie. NLP omvat methodes om, door machinaal leren, menselijke teksten om te zetten in tekst voor machines. Documenten vereenvoudigen met NLP kan op twee manieren: extract of abstract. Bij extractieve simplificatie worden zinnen gelezen zoals ze zijn neergeschreven. Vervolgens bewaart een document de belangrijkste taalelementen om de tekst te kunnen hervormen. Deze vorm van tekstsimplificatie komt het meeste voor \autocite{Sciforce2020}. Daarnaast is er abstracte simplificatie die de oorspronkelijke context van de zin bewaart en daarmee een nieuwe zin opbouwt. Deze vorm heeft potentieel dankzij de menselijke interpretatie, maar zit nog in de kinderschoenen \autocite{Chowdhary2020}.
+
+
+% Complexiteit van teksten meten met de Flesch-Kincaid:
+% Flesch–Kincaid readability tests - Wikipedia
+
 
 % Deelvraag 2
 
@@ -38,8 +47,14 @@ Het merendeel van NLP-toepassingen maakt gebruik van Engelstalige invoer. Niet-E
 
 Om tekstsimplificatiemethoden te beoordelen, is er een tactvolle aanpak nodig. De studie van \textcite{Swayamdipta2019} haalt aan dat er extra nood is aan NLP-modellen waarbij de tekst zijn oorspronkelijke betekenis behoudt. Samen met Microsoft Research bouwden ze NLP-modellen die gericht waren op de bewaring van zinsstructuur en -context door \emph{scaffolded learning}. Hiervoor maakten de onderzoekers gebruik van een voorspellingsmethode die de positie van woorden en zinnen in een document beoordeelde.
 
-% Deelvraag 4 (herwerking)
+% Deelvraag 4
+
+% TODO bron toevoegen
+
+Alinea is een software suite dat capabel is om middelbare scholieren met dyslexie te ondersteunen bij het lezen en schrijven van teksten. Belgische studenten in een opleiding secundair onderwijs hebben recht op een gratis account. Alinea biedt functies aan dat middelbare scholieren helpt met het vlotter kunnen lezen van artikels en cursusmateriaal. Niet enkel vlotter, maar ook maken studenten minder fouten. Kortom kan een middelbare scholiers sneller de kern van een tekst inzien door gebruik te maken van Alinea.
+
 Vlaanderen heeft weinig zicht op de geïmplementeerde AI-software in scholen. Dit werd geconstateerd door \autocite{Martens2021}, een samenwerking tussen de Vlaamse universiteiten en overheid voor artificiële intelligentie. Vergeleken met andere Europese landen, maakt België het minst gebruik van leerling-georiënteerde hulpmiddelen. Degenen die wel gebruikt worden, zijn voornamelijk online leerplatformen voor zelfstandig werken. Ook maakt België amper gebruik van beschikbare software die de leermethoden en -noden van leerlingen evalueert \autocite{Martens2021a}. 
+
 
 
 
