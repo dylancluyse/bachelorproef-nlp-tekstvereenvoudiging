@@ -32,7 +32,7 @@ Dit onderzoek beschrijft het gebruik van artificiële intelligentie in de vorm v
 \section{State-of-the-art}%
 \label{sec:state-of-the-art}
 
-% Deelvraag 1
+% Deelvraag: Wat is tekstsimplificatie
 De voorbije tien jaar is artificiële intelligentie sterk verder ontwikkeld. De toename in kennis zorgde voor nieuwe toepassingen. Tekstsimplificatie vloeide hier uit voort. Momenteel bestaan er al robuuste applicaties voor tekstsimplificatie. Toch houdt de meerderheid niet genoeg rekening met het menselijk aspect van taalverwerking. Binnen het kader van tekstsimplificatie is er bestaande documentatie beschikbaar waar onderzoekers het voordeel van toegankelijkheid aanhalen, maar deze toepassingen ontbreken de extra noden die mensen met een leeraandoening vereisen.
 
 Het algemene doel van tekstsimplificatie is om ingewikkelde bronnen toegankelijker te maken. Het zorgt voor verkorte teksten zonder de oorspronkelijke context te verliezen. Tekstsimplificatie gebeurt doorgaans op één van drie manieren. Er is conceptuele simplificatie waarbij documenten naar een compacter formaat worden getransformeerd. Daarnaast is er uitgebreide modificatie die kernwoorden aanduidt door gebruik van redundantie. Als laatste is er samenvatting die documenten verandert in kortere teksten met alleen de topische zinnen. Met deze concepten zijn ontwikkelaars in staat om ingewikkelde woorden te vervangen door eenvoudigere synoniemen of zinnen te verkorten zodat ze sneller leesbaar zijn \autocite{Siddharthan2014}.
@@ -42,7 +42,6 @@ Tekstsimplificatie behoort tot de zijtak van natuurlijke taalverwerking (NLP) in
 % Deelvraag 2: Bewezen voordelen van tekstsimplificatie bij scholieren met dyslexie
 % It's not just you: science papers are getting harder to read | Nature
 % Dyslexia and STEM | Landmark College
-
 Voor kinderen met dyslexie bestaan digitale hulpmiddelen die voor een betere visuele presentatie zorgen van teksten. Het gaat over speciale lettertypes, spreiding tussen woorden en het gebruik van inzoomen op aparte zinnen. Weinig aandacht wordt besteed aan het veranderen van de tekst zelf, want dit kost tijd. Tekstsimplificatie door artificiële intelligentie kan een revolutionaire oplossing bieden. 
 
 Het onderzoek van Franse wetenschappers \textcite{Gala2016} illustreert dat manuele tekstsimplificatie schoolteksten toegankelijker maakt voor kinderen met dyslexie. Dit deden ze door simpelere synoniemen en zinsstructuren te gebruiken. Verwijswoorden werden vermeden en woorden kort gehouden. De resultaten waren veelbelovend. Het leestempo lag hoger en de kinderen maakten minder leesfouten. Ook bleek er geen verlies van begrip in de tekst bij geteste kinderen. Resultaten van de studie werden gebundeld voor de mogelijke ontwikkeling van een AI-hulpmiddel.
@@ -57,15 +56,17 @@ Het merendeel van NLP-toepassingen maakt gebruik van Engelstalige invoer. Niet-E
 Om tekstsimplificatiemethoden te beoordelen, is er een tactvolle aanpak nodig. De studie van \textcite{Swayamdipta2019} haalt aan dat er extra nood is aan NLP-modellen waarbij de tekst zijn kernboodschap behoudt. Samen met Microsoft Research bouwden ze NLP-modellen die gericht waren op de bewaring van zinsstructuur en -context door \emph{scaffolded learning}. Hiervoor maakten de onderzoekers gebruik van een voorspellingsmethode die de positie van woorden en zinnen in een document beoordeelde.
 
 % Deelvraag: Stand van zaken bij Belgische secundaire scholen
-% TODO bron toevoegen
+% TODO bronnen toevoegen voor elk
 De Vlaamse overheid leent gratis abonnementen uit voor voorlees- en schrijfsoftware, zoals SprintPlus, Alinea, Kurzweil3000, TextAid en Intowords. Middelbare scholieren met dyslexie in het secundair onderwijs in België kunnen een gratis Alinea-account aanvragen. Alinea is een software suite die hen ondersteunt bij het efficiënter lezen en schrijven van teksten, waardoor ze sneller en foutloos kunnen lezen zonder de kern van een artikel te verliezen. 
 
 Vlaanderen heeft weinig zicht op de geïmplementeerde AI-software in scholen. Dit werd geconstateerd door \autocite{Martens2021}, een samenwerking tussen de Vlaamse universiteiten en overheid voor artificiële intelligentie. Vergeleken met andere Europese landen, maakt België het minst gebruik van leerling-georiënteerde hulpmiddelen. Degenen die wel gebruikt worden, zijn voornamelijk online leerplatformen voor zelfstandig werken. Ook maakt België amper gebruik van beschikbare software die de leermethoden en -noden van leerlingen evalueert \autocite{Martens2021a}. 
 
 
-% Deelvraag 4: Ontwikkelen van een proof of concept pipeline met beschikbare word-embeddings en modellen
-
+% Deelvraag: Wat is er nodig voor tekstsimplificatie? 
+% Resultaat: Het ontwikkelen van een proof of concept pipeline met beschikbare word-embeddings en modellen
 % beschikbare word embeddings en modellen
+
+
 Er zijn specifieke formules in de wiskunde die gebruikt worden om de complexiteit van teksten te meten, met de Flesch-Kincaid leesbaarheidstest als het meest prominente voorbeeld. Deze test bepaalt de moeilijkheidsgraad van tekst door verschillende factoren, zoals zinlengte, woordfrequentie en complexiteit van de taalgebruik, in aanmerking te nemen. De uitslag is een score die aangeeft hoe toegankelijk en begrijpelijk de tekst is. Bovendien zijn er kant-en-klare modellen die de complexiteit van tekst kunnen bepalen, hoewel deze beperkt zijn en vooral gericht zijn op Engelse teksten, zoals BERT, PaLM, XLNet en GPT-3.
 
 % Teksten samenvatten
@@ -86,23 +87,22 @@ De kerninhoud van een tekst dient te allen tijde behouden te blijven. Om dit te 
 
 Het onderzoek houdt vijf fases in. De eerste fase is het proces van tekstsimplificatie beschrijven. Dit gebeurt via een grondige studie van vakliteratuur en wetenschappelijke teksten. Ook blogs van experten komen hier aan bod. Na het verwerven van de nodige inzichten wordt er een verklarende tekst opgesteld.
 
-De tweede fase bestaat uit het analyseren van wetenschappelijke werken over de bewezen voordelen van tekstsimplificatie bij kinderen met dyslexie. Hiervoor zijn geringe thesissen beschikbaar, die zorgvuldigheid vragen tijdens interpretatie. De resulterende tekst bevat de voordelen samen met hun wetenschappelijke onderbouwing.
+De tweede fase bestaat uit het analyseren van wetenschappelijke werken over de bewezen voordelen van tekstsimplificatie bij scholieren met dyslexie van het derde graad secundair onderwijs. Hiervoor zijn geringe thesissen beschikbaar, die zorgvuldigheid vragen tijdens interpretatie. De resulterende tekst bevat de voordelen samen met hun wetenschappelijke onderbouwing.
 
 De derde fase is opnieuw een beschrijving. Hier worden de valkuilen bij taalverwerking met AI-software nagegaan. Deze fase van het onderzoek brengt mogelijke nadelen en tekortkomingen van AI-software bij tekstsimplificatie aan het licht. Dit gebeurt aan de hand van een technische uitleg.
 
-De vierde fase omvat een toelichting en advies over de beschikbare Nederlandstalige AI-tools voor tekstsimplificatie. Aan de hand van een kort veldonderzoek op het internet en bij bedrijven wordt er op zoek gegaan naar dergelijke software. Het opzoekingswerk leidt uiteindelijk tot testen van de applicaties. Ten slotte volgt er een persoonlijk advies over de nodige ontwikkelingen in het vak op vlak van (Nederlandstalige) tekstsimplificatie.
+De vierde fase omvat een toelichting en advies over de beschikbare Nederlandstalige AI-tools voor tekstsimplificatie. Aan de hand van een kort veldonderzoek op het internet wordt er op zoek gegaan naar dergelijke software. Het opzoekingswerk leidt uiteindelijk tot testen van de applicaties. Ten slotte volgt er een persoonlijk advies over de nodige ontwikkelingen in het vak op vlak van Nederlandstalige tekstsimplificatie.
 
-Als vijfde en laatste fase is de ontwikkeling van een \textit{proof-of-concept} voor een tekstsimplificatiepipeline gepland. Met gebruik van de Python programmeertaal wordt een kleinschalige applicatie ontwikkeld, specifiek gericht op herwerken van een wetenschappelijk artikel volgens de noden van een scholier met dyslexie.
+In de laatste fase van de ontwikkeling wordt er een proof-of-concept (POC) ontwikkeld voor een tekstsimplificatiepipeline. Deze POC maakt gebruik van Python en is gericht op het verzamelen van machineleertechnieken die enerzijds de inhoud van wetenschappelijke artikelen vereenvoudigen voor scholieren met dyslexie in het derde graad secundair onderwijs, alsook het evalueren van het model. Het bevat de nodige en bestaande machineleertechnieken zoals \textit{word embeddings} en \textit{libraries} die ontwikkelaars nodig hebben om de teksten op de noden van deze groep scholieren aan te passen.
 
 % TODO: aanvullen met hoe de evaluatie zal verlopen
 
 
 %---------- Verwachte resultaten ----------------------------------------------
-\section{Verwacht resultaat, conclusie}%
+\section{Verwacht resultaat, conclusie}
 \label{sec:verwachte_resultaten}
 
-Er wordt verwacht dat er nog geen geschikte software beschikbaar is voor toepassing in een derde graad secundair onderwijs. Dit is omdat de technische aspecten verdere ontwikkeling vereisen voor algemene tekstsimplificatie. Ook houdt bestaande software onvoldoende rekening met de unieke uitdagingen omtrent leerstoornissen. Uit dit onderzoek moet duidelijk blijken of het mogelijk is om een Nederlandstalig tekstsimplificatiemodel aan de hand van off-the-shelf softwarepakketten op te zetten en te evalueren. Het model moet gefinetuned zijn afhankelijk van de noden dat een scholier met dyslexie van een derde graad secundair onderwijs nodig heeft. Dit model geeft de aanzet aan ontwikkelaars om op de POC verder te bouwen. Het vertalen van de zinnen, mede door het gebrek aan Nederlandstalige word embeddings en off-the-shelf modellen, verlaagt de nauwkeurigheid van het model. Er is nood aan Nederlandstalige word embeddings die de complexiteit per woord bijhouden. 
+Er wordt verwacht dat er nog geen geschikte software beschikbaar is voor toepassing in een derde graad secundair onderwijs. Dit is omdat de technische aspecten verdere ontwikkeling vereisen voor algemene tekstsimplificatie. Ook houdt bestaande software onvoldoende rekening met de unieke uitdagingen omtrent leerstoornissen. Uit dit onderzoek moet duidelijk blijken of het mogelijk is om een Nederlandstalig tekstsimplificatiemodel aan de hand van \textit{off-the-shelf} softwarepakketten op te zetten en te evalueren. Het model moet op de noden van een scholier met dyslexie van een derde graad secundair onderwijs toegespitst zijn. Het proof-of-concept geeft de aanzet aan ontwikkelaars om op de POC verder te bouwen. Het vertalen van de zinnen, mede door het gebrek aan Nederlandstalige word embeddings en off-the-shelf modellen, verlaagt de nauwkeurigheid van het model. Er is nood aan Nederlandstalige word embeddings die de complexiteit per woord bijhouden. 
 
 % N.v.t. want er is wel degelijk software beschikbaar.
 % Daarnaast is Engels de gebruikelijke voertaal van AI-software, wat niet gepast is voor implementatie in Vlaamse scholen. Nederlandstalige applicaties zullen te vinden zijn, maar voor generiek gebruik zonder ondersteunende functie en in schaarse aantallen. Anderzijds wordt er verwacht dat de software ontoegankelijk is. Hiermee wordt bedoeld dat ze enkel te verkrijgen is bij gespecialiseerde IT-bedrijven achter een hoge prijs.
-
