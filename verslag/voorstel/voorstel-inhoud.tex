@@ -1,31 +1,28 @@
+% TODO
+
+% Nodig om problemen van huidige wetenschappelijke papers op te delen? of samen te mengen met 
+
+
+
+
 %---------- Inleiding ---------------------------------------------------------
 
 \section{Introductie}%
 \label{sec:introductie}
 
-% TODO
-% https://amai.vlaanderen/
-% Bron voor de groei van python-pakketten toevoegen
-
-België is een koploper in het gebruik van artificiële intelligentie (AI) op de werkvloer. Jaarlijks investeert de Vlaamse overheid 32 miljoen in het vakgebied \autocite{Crevits2022}. Er verschijnen alsmaar meer \textit{off-the-shelf} pakketten die complexe wiskundige berekeningen vereenvoudigen, zodanig dat ontwikkelaars sneller aan de slag kunnen om complexe problemen op te lossen.  Soortgelijke technologieën worden amper toegepast in het middelbaar onderwijs, al zijn er wel taalgerelateerde AI-ontwikkelingen. Onder het amai!-project werden er twee applicaties ontwikkeld die momenteel in het basis en secundair onderwijs worden ingezet, waaronder real-time ondertiteling in de les en My Speech, een taalassistent voor leerkrachten bij meertalige klasgroepen.  Er is terughoudendheid door enerzijds ouders van leerlingen \autocite{Martens2021}, anderzijds door de trage ontwikkeling in schoolgerelateerde AI-software. Toch zijn er reeds bewijzen dat artificiële intelligentie ook op school nuttig kan zijn. 
-
-% nadruk op het probleem
-% It's not just you: science papers are getting harder to read | Nature
-%https://www.nature.com/nature-index/news-blog/science-research-papers-getting-harder-to-read-acronyms-jargon
-Sinds 2021 richt de Vlaamse Overheid haar pijlen om het STEM-onderwijs tegen 2030 aantrekkelijker te maken en door leraren, opleiders en begeleiders te ondersteunen. Het grote struikelblok voor dyslexiestudenten zijn de te complex opgebouwde wetenschappelijke artikelen.
-
-
-
-% TODO
-% Bron toevoegen
+% TODO Bron voor de groei van python-pakketten toevoegen
 % https://www.researchgate.net/publication/344569950_Python_current_trend_applications-an_overview
+België is een koploper in het gebruik van artificiële intelligentie (AI) op de werkvloer. Jaarlijks investeert de Vlaamse overheid 32 miljoen in het vakgebied \autocite{Crevits2022}. Er verschijnen alsmaar meer kant-en-klare pakketten die complexe wiskundige berekeningen vereenvoudigen, zodanig dat ontwikkelaars sneller aan de slag kunnen om complexe problemen op te lossen.  Soortgelijke technologieën worden amper toegepast in het derde graad van het secundair onderwijs, al zijn er wel taalgerelateerde AI-ontwikkelingen. Onder het amai!-project \footnotetext[1]{https://amai.vlaanderen/} zijn er twee applicaties ontwikkeld die momenteel in het basis en secundair onderwijs worden ingezet, waaronder real-time ondertiteling in de les en My Speech, een taalassistent voor leerkrachten bij meertalige klasgroepen.  Er is terughoudendheid door enerzijds ouders van leerlingen \autocite{Martens2021}, anderzijds door de trage ontwikkeling in schoolgerelateerde AI-software. Toch zijn er reeds bewijzen dat artificiële intelligentie ook op school nuttig kan zijn. 
 
-% TODO
-% Weglaten: Met de focus op STEM De vereenvoudiging is zo sterk dat programmeren met Python aan bod komt vanaf een eerste graad secundair onderwijs. Python wordt gekozen boven andere programmeertalen wegens een grote beschikbaarheid aan pakketten
+Het STEM-agenda\footnotetext[2]{https://www.vlaanderen.be/publicaties/stem-agenda-2030-stem-competenties-voor-een-toekomst-en-missiegericht-beleid} van de Vlaamse Overheid is een duidelijk initiatief om het STEM-onderwijs tegen 2030 aantrekkelijker te maken en door leraren, opleiders en begeleiders te ondersteunen. \textcite{PlavenSigray2017} halen aan hoe onderzoekers in hun complexe taalgeoriënteerde taalbubbel blijven, wat gevolgen voor de lezers met zich meebrengt. Daarnaast brengt de stijging aan het gebruik van acroniemen volgens \textcite{Barnett2020} een extra obstakel met zich mee. Dyslexiestudenten ondervinden hier uitermate veel last van, met een toename van \textit{dropouts} binnen STEM-richtingen ten gevolg. % bron
 
+% TODO Herwerk dit nu tot een specifieke beschrijving van een concrete probleemstelling en doelstelling. Vervat wat je wil onderzoeken in een hoofdonderzoeksvraag die je opsplitst in een aantal deelvragen (bijv. wat is tekstsimplicatie, welke ML/AI-technologiën bestaan er al om teksten te simplificeren, wat zijn de noden van kinderen van een bepaalde leeftijd met dyslexie, ...). De antwoorden op de deelvragen leiden samen tot een antwoord op de hoofdonderzoeksvraag. 
 
+Dit onderzoek richt zich op hoe het secundair onderwijs tekstsimplificatie kan bieden voor leerlingen met dyslexie in het derde graad. Het begint met het uitleggen van wat tekstsimplificatie is, bespreekt daarna de uitdagingen en voordelen van het lezen van wetenschappelijke teksten en hoe tekstsimplificatie en taalverwerking met AI kan helpen. Tenslotte bespreekt het de beschikbare software die momenteel in het secundair onderwijs wordt gebruikt en vermeldt de nodige machineleertechnieken en word embeddings in een proof-of-concept.
 
-Dit onderzoek beschrijft het gebruik van artificiële intelligentie in de vorm van tekstsimplificatie, als advies voor implementatie in het onderwijs. Specifiek om middelbare scholieren in het derde graad met dyslexie te ondersteunen bij het lezen van wetenschappelijke papers. Het doel wordt bereikt door eerst het proces van tekstvereenvoudiging te beschrijven. Nadien volgt er een analyse van de bewezen voordelen bij kinderen met dyslexie. Vervolgens worden de valkuilen bij taalverwerking met artificiële intelligentie onderzocht. Daarop volgt een vergelijkende studie bij 
+% Het onderzoek spitst zich toe welke middelen het secundair onderwijs kan inschakelen om tekstsimplificatie voor scholieren met dyslexie in het derde graad secundair onderwijs. Allereerst staat het onderzoek stil bij wat tekstsimplificatie inhoudt. Vervolgens worden de obstakels bij het lezen van een wetenschappelijke paper en de voordelen van tekstsimplificatie bij scholieren in het derde graad secundair onderwijs opgesomd. Aansluitend hierop worden de verschillende obstakels bij tekstsimplificatie en taalverwerking met artificiële intelligentie aangehaald. Uiteindelijke wordt er een shortlist aangehaald van de software dat momenteel in het secundair onderwijs wordt ingezet. Uiteindelijk worden de nodige machineleertechnieken en word embeddings aangehaald in een proof-of-concept.
+
+% Dit onderzoek beschrijft het gebruik van artificiële intelligentie in de vorm van tekstsimplificatie, als advies voor implementatie in het onderwijs. Specifiek om scholieren met dyslexie in het derde graad secundair onderwijs te ondersteunen bij het lezen van wetenschappelijke papers. Het doel wordt bereikt door eerst het proces van tekstvereenvoudiging te beschrijven. Nadien volgt er een analyse van de bewezen voordelen bij kinderen met dyslexie. Vervolgens worden de valkuilen bij taalverwerking met artificiële intelligentie onderzocht. Daarop volgt een vergelijkende studie bij 
 
 %---------- Stand van zaken ---------------------------------------------------
 
@@ -33,9 +30,9 @@ Dit onderzoek beschrijft het gebruik van artificiële intelligentie in de vorm v
 \label{sec:state-of-the-art}
 
 % Deelvraag: Wat is tekstsimplificatie
-De voorbije tien jaar is artificiële intelligentie sterk verder ontwikkeld. De toename in kennis zorgde voor nieuwe toepassingen. Tekstsimplificatie vloeide hier uit voort. Momenteel bestaan er al robuuste applicaties voor tekstsimplificatie. Toch houdt de meerderheid niet genoeg rekening met het menselijk aspect van taalverwerking. Binnen het kader van tekstsimplificatie is er bestaande documentatie beschikbaar waar onderzoekers het voordeel van toegankelijkheid aanhalen, maar deze toepassingen ontbreken de extra noden die mensen met een leeraandoening vereisen.
+De voorbije tien jaar is artificiële intelligentie sterk verder ontwikkeld. De toename in kennis zorgde voor nieuwe toepassingen. Tekstsimplificatie vloeide hier uit voort. Momenteel bestaan er al robuuste applicaties voor tekstsimplificatie. Toch houdt de meerderheid niet genoeg rekening met het menselijk aspect van taalverwerking. Binnen het kader van tekstsimplificatie is er bestaande documentatie beschikbaar waar onderzoekers het voordeel van toegankelijkheid aanhalen, maar deze toepassingen ontbreken de extra noden die scholieren met dyslexie in het derde graad secundair onderwijs vereisen.
 
-Het algemene doel van tekstsimplificatie is om ingewikkelde bronnen toegankelijker te maken. Het zorgt voor verkorte teksten zonder de oorspronkelijke context te verliezen. Tekstsimplificatie gebeurt doorgaans op één van drie manieren. Er is conceptuele simplificatie waarbij documenten naar een compacter formaat worden getransformeerd. Daarnaast is er uitgebreide modificatie die kernwoorden aanduidt door gebruik van redundantie. Als laatste is er samenvatting die documenten verandert in kortere teksten met alleen de topische zinnen. Met deze concepten zijn ontwikkelaars in staat om ingewikkelde woorden te vervangen door eenvoudigere synoniemen of zinnen te verkorten zodat ze sneller leesbaar zijn \autocite{Siddharthan2014}.
+Het algemene doel van tekstsimplificatie is om ingewikkelde bronnen toegankelijker te maken. Het zorgt voor verkorte teksten zonder de kernboodschap te verliezen. Tekstsimplificatie gebeurt doorgaans op één van drie manieren. Er is conceptuele simplificatie waarbij documenten naar een compacter formaat worden getransformeerd. Daarnaast is er uitgebreide modificatie die kernwoorden aanduidt door gebruik van redundantie. Als laatste is er samenvatting die documenten verandert in kortere teksten met alleen de topische zinnen. Met deze concepten zijn ontwikkelaars in staat om ingewikkelde woorden te vervangen door eenvoudigere synoniemen of zinnen te verkorten zodat ze sneller leesbaar zijn \autocite{Siddharthan2014}.
 
 Tekstsimplificatie behoort tot de zijtak van natuurlijke taalverwerking (NLP) in artificiële intelligentie. NLP omvat methodes om, door machinaal leren, menselijke teksten om te zetten in tekst voor machines. Documenten vereenvoudigen met NLP kan op twee manieren: extract of abstract. Bij extractieve simplificatie worden zinnen gelezen zoals ze zijn neergeschreven. Vervolgens bewaart een document de belangrijkste taalelementen om de tekst te kunnen hervormen. Deze vorm van tekstsimplificatie komt het meeste voor \autocite{Sciforce2020}. Daarnaast is er abstracte simplificatie die de kernboodschap van de zin bewaart en daarmee een nieuwe zin opbouwt. Deze vorm heeft potentieel dankzij de menselijke interpretatie, maar zit nog in de kinderschoenen \autocite{Chowdhary2020}.
 
@@ -72,7 +69,7 @@ Er zijn specifieke formules in de wiskunde die gebruikt worden om de complexitei
 % Teksten samenvatten
 De kerninhoud van een tekst dient te allen tijde behouden te blijven. Om dit te realiseren, worden er specifieke formules toegepast, waaronder de bekende Zipf's wet. Deze wet beschrijft de frequentie van woorden in een tekst in verhouding tot elkaar en stelt dat het meest voorkomende woord twee keer zo vaak aanwezig is als het tweede meest voorkomende woord, en zo verder.
 
-% TODO : off-the-shelf software
+% TODO : kant-en-klare software
 % Enkele beschikbare libraries voor tekstcomplexiteit is TRUNAJOD. Enkele datasets met Nederlandstalige teksten zijn link.
 
 % TODO: evaluatietechnieken
@@ -95,6 +92,9 @@ De vierde fase omvat een toelichting en advies over de beschikbare Nederlandstal
 
 In de laatste fase van de ontwikkeling wordt er een proof-of-concept (POC) ontwikkeld voor een tekstsimplificatiepipeline. Deze POC maakt gebruik van Python en is gericht op het verzamelen van machineleertechnieken die enerzijds de inhoud van wetenschappelijke artikelen vereenvoudigen voor scholieren met dyslexie in het derde graad secundair onderwijs, alsook het evalueren van het model. Het bevat de nodige en bestaande machineleertechnieken zoals \textit{word embeddings} en \textit{libraries} die ontwikkelaars nodig hebben om de teksten op de noden van deze groep scholieren aan te passen.
 
+%TODO WAAR?
+Uit dit onderzoek moet duidelijk blijken of het mogelijk is om een Nederlandstalig tekstsimplificatiemodel aan de hand van \textit{off-the-shelf} softwarepakketten op te zetten en te evalueren.
+
 % TODO: aanvullen met hoe de evaluatie zal verlopen
 
 
@@ -102,7 +102,7 @@ In de laatste fase van de ontwikkeling wordt er een proof-of-concept (POC) ontwi
 \section{Verwacht resultaat, conclusie}
 \label{sec:verwachte_resultaten}
 
-Er wordt verwacht dat er nog geen geschikte software beschikbaar is voor toepassing in een derde graad secundair onderwijs. Dit is omdat de technische aspecten verdere ontwikkeling vereisen voor algemene tekstsimplificatie. Ook houdt bestaande software onvoldoende rekening met de unieke uitdagingen omtrent leerstoornissen. Uit dit onderzoek moet duidelijk blijken of het mogelijk is om een Nederlandstalig tekstsimplificatiemodel aan de hand van \textit{off-the-shelf} softwarepakketten op te zetten en te evalueren. Het model moet op de noden van een scholier met dyslexie van een derde graad secundair onderwijs toegespitst zijn. Het proof-of-concept geeft de aanzet aan ontwikkelaars om op de POC verder te bouwen. Het vertalen van de zinnen, mede door het gebrek aan Nederlandstalige word embeddings en off-the-shelf modellen, verlaagt de nauwkeurigheid van het model. Er is nood aan Nederlandstalige word embeddings die de complexiteit per woord bijhouden. 
+Er wordt verwacht dat de longlist van software, dat momenteel in het onderwijs wordt ingezet, nog niet voldoet aan de noden van een scholier met dyslexie in het derde graad secundair onderwijs. Dit is omdat er onvolodende rekening wordt gehouden met de unieke uitdagingen omtrent leerstoornissen. De POC moet zich toespitsen op de noden van een scholier met dyslexie van een derde graad secundair onderwijs en moet de aanzet geven aan ontwikkelaars om hierop verder te bouwen. Het vertalen van de zinnen, mede door het gebrek aan Nederlandstalige \textit{word embeddings} en off-the-shelf modellen, verlaagt de nauwkeurigheid van het model. Er is nood aan Nederlandstalige \textit{word embeddings} die de complexiteit per woord bijhouden. 
 
 % N.v.t. want er is wel degelijk software beschikbaar.
 % Daarnaast is Engels de gebruikelijke voertaal van AI-software, wat niet gepast is voor implementatie in Vlaamse scholen. Nederlandstalige applicaties zullen te vinden zijn, maar voor generiek gebruik zonder ondersteunende functie en in schaarse aantallen. Anderzijds wordt er verwacht dat de software ontoegankelijk is. Hiermee wordt bedoeld dat ze enkel te verkrijgen is bij gespecialiseerde IT-bedrijven achter een hoge prijs.
