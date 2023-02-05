@@ -1,10 +1,3 @@
-% TODO
-
-% Nodig om problemen van huidige wetenschappelijke papers op te delen? of samen te mengen met 
-
-
-
-
 %---------- Inleiding ---------------------------------------------------------
 
 \section{Introductie}%
@@ -12,14 +5,32 @@
 
 % TODO Bron voor de groei van python-pakketten toevoegen
 % https://www.researchgate.net/publication/344569950_Python_current_trend_applications-an_overview
-België is een koploper in het gebruik van artificiële intelligentie (AI) op de werkvloer. Jaarlijks investeert de Vlaamse overheid 32 miljoen in het vakgebied \autocite{Crevits2022}. Er verschijnen alsmaar meer kant-en-klare pakketten die het programmeren van complexe wiskundige berekeningen vereenvoudigen, zodat ontwikkelaars sneller aan de slag kunnen om complexe problemen op te lossen.  Soortgelijke technologieën worden amper toegepast in het derde graad van het secundair onderwijs, al zijn er wel taalgerelateerde AI-ontwikkelingen. Onder het amai!-project \footnotetext[1]{https://amai.vlaanderen/} zijn er twee applicaties ontwikkeld die momenteel in het basis en secundair onderwijs worden ingezet, waaronder real-time ondertiteling in de les en My Speech, een taalassistent voor leerkrachten bij meertalige klasgroepen.  Er is terughoudendheid door enerzijds ouders van leerlingen \autocite{Martens2021}, anderzijds door de trage ontwikkeling in schoolgerelateerde AI-software. Toch zijn er reeds bewijzen dat artificiële intelligentie ook op school nuttig kan zijn. 
+België is een koploper in het gebruik van artificiële intelligentie (AI) op de werkvloer. Jaarlijks investeert de Vlaamse overheid 32 miljoen in het vakgebied \autocite{Crevits2022}. Er verschijnen alsmaar meer kant-en-klare pakketten die het programmeren van ingewikkelde wiskundige berekeningen vereenvoudigen, zodat ontwikkelaars sneller aan de slag kunnen om complexe problemen op te lossen. Soortgelijke technologieën worden amper toegepast in het derde graad van het secundair onderwijs, al zijn er wel taalgerelateerde AI-ontwikkelingen. Onder het amai!-project \footnotetext[1]{https://amai.vlaanderen/} zijn er twee applicaties ontwikkeld die momenteel in het basis en secundair onderwijs worden ingezet, waaronder \textit{real-time} ondertiteling in de les en \textit{My Speech}, een taalassistent voor leerkrachten bij meertalige klasgroepen.  Er is terughoudendheid door enerzijds ouders van leerlingen \autocite{Martens2021}, anderzijds door de trage ontwikkeling in schoolgerelateerde AI-toepassingen. Toch zijn er reeds bewijzen dat artificiële intelligentie ook op school nuttig kan zijn. 
 
 Het STEM-agenda\footnotetext[2]{https://www.vlaanderen.be/publicaties/stem-agenda-2030-stem-competenties-voor-een-toekomst-en-missiegericht-beleid} van de Vlaamse Overheid is een duidelijk initiatief om het STEM-onderwijs tegen 2030 aantrekkelijker te maken en door leraren, opleiders en begeleiders te ondersteunen. \textcite{PlavenSigray2017} halen aan hoe onderzoekers in hun complexe taalgeoriënteerde taalbubbel blijven, wat gevolgen voor de lezers met zich meebrengt. Daarnaast brengt de stijging aan het gebruik van acroniemen volgens \textcite{Barnett2020} een extra obstakel met zich mee. Dyslexiestudenten ondervinden hier uitermate veel last van, met een toename van \textit{dropouts} binnen STEM-richtingen ten gevolg. % bron
 
 % TODO Herwerk dit nu tot een specifieke beschrijving van een concrete probleemstelling en doelstelling. Vervat wat je wil onderzoeken in een hoofdonderzoeksvraag die je opsplitst in een aantal deelvragen (bijv. wat is tekstsimplicatie, welke ML/AI-technologiën bestaan er al om teksten te simplificeren, wat zijn de noden van kinderen van een bepaalde leeftijd met dyslexie, ...). De antwoorden op de deelvragen leiden samen tot een antwoord op de hoofdonderzoeksvraag. 
 
-% inclusief probleemstelling?
-Dit onderzoek spitst zich toe hoe de inhoud van wetenschappelijke papers kunnen herwerkt worden welke kant-en-klare pakketten er beschikbaar zijn om een tekstsimplificatiepipeline op te stellen, verzorgd voor leerlingen met dyslexie in het derde graad secundair onderwijs. Het onderzoek start met een technische omschrijving van tekstsimplificatie. Vervolgens worden de voordelen besproken hoe tekstsimplificatie en taalverwerking met AI kan helpen. Tenslotte bespreekt het onderzoek de beschikbare software die momenteel in het secundair onderwijs wordt gebruikt. Uiteindelijk wordt in de vorm van een proof-of-concept de nodige libraries, \textit{pre-trained pipelines}, algoritmes en databronnen aangehaald om tekstsimplificatie gericht op scholieren met dyslexie in het derde graad secundair onderwijs mogelijk te maken. 
+% Hoofdvraag: welke tekstsimplificatietoepassing geeft scholieren met dyslexie in het derde graad secundair onderwijs de meest nauwkeurige en betekenisvolle tekst weer bij het lezen van wetenschappelijke papers
+% 1. wat tekstsimplificatie inhoudt
+% 2. welke verschillende soorten van tekstsimplificatie
+% 3. hoe helpt tekstsimplificatie en taalverwerking met AI scholieren met dyslexie van het derde graad secundair onderwijs
+% 4. welke struikelblokken op taalvlak kan een tekstsimplificatietoepassing mee te maken hebben
+% 5. welke off-the-shelf tekstsimplificatiesoftware is er momenteel beschikbaar, zowel in het onderwijs als online beschikbaar materiaal
+% 6. welke kant-en-klare modellen en ai-modules zijn er nodig om een tekstsimplificatiepipeline op te zetten?
+% 7. welke evaluatietechnieken zijn vereist om de transformatie te kunnen beoordelen
+% 8. terug naar de hoofdvraag
+
+
+Dit onderzoek achterhaalt welke tekstsimplificatietoepassing scholieren met dyslexie in het derde graad secundair onderwijs de meest nauwkeurige en betekenisvolle tekst weergeeft bij het lezen van wetenschappelijke papers. Allereerst zal het onderzoek een technische omschrijving geven van wat tekstsimplificatie inhoudt. Aansluitend zal het onderzoek omschrijven uit welke verschillende soorten tekstsimplificatie wordt ingezet, inclusief een overtuiging over welke soort het beste aansluit voor deze casus. 
+
+Vervolgens bespreekt het onderzoek hoe tekstsimplificatie en taalverwerking met AI scholieren met dyslexie van het derde graad secundair onderwijs kan helpen. Nadien staat het onderzoek stil bij de struikelblokken op taalvlak waarmee een tekstsimplificatietoepassing rekening mee moet houden. 
+
+Tenslotte bespreekt het onderzoek welke software er momenteel wordt ingezet, alsook software die vrij beschikbaar is en eenzelfde tekstsimplificatiefunctie aanbiedt. Op basis van de online-documentatie wordt er een van een tekstsimplificatiepipeline opgebouwd. Het resultaat van deze fase is een proof-of-concept pipeline waar de werking van tekstsimplificatie wordt weergegeven door middel van kant-en-klare \textit{libraries} en modellen.
+
+
+Als volgt geeft het onderzoek aan welke evaluatietechnieken er nodig zijn om een tekstsimplificatietransformatie te beoordelen. Tenslotte worden de momenteel ingezette applicaties, de absente applicaties en de tekstsimplificatiepipeline geëvalueerd, zo om aan te tonen welke toepassing de best mogelijke tekstinhoud als output geeft voor scholieren met dyslexie in het secundair onderwijs.
+
 
 %---------- Stand van zaken ---------------------------------------------------
 
