@@ -14,13 +14,13 @@ Middelbare scholieren van het derde graad met dyslexie ondersteunen bij het leze
 - [x] Onderzoekstitel aanpassen
 - [x] Extra bronnen ophalen over de noden aan AI-software binnen het onderzoeksdomein
 - [ ] Gekregen feedback verwerken
-  - [ ] Opzet in abstract schrijven
-  - [ ] Onderzoeksvraag in abstract exclameren
+  - [x] Opzet in abstract schrijven
+  - [x] Onderzoeksvraag in abstract exclameren
   - [ ] Bronnen toevoegen waar nodig
-  - [ ] Onderzoeksdomein concretiseren in het onderzoeksvoorstel
-  - [ ] Uitschrijven en aanpassingen maken over het 'nieuwe' onderzoeksdomein
-  - [ ] Technisch component uitschrijven
-  - [ ] Methodologie aanpassen naargelang technisch component
+  - [x] Onderzoeksdomein concretiseren in het onderzoeksvoorstel
+  - [x] Uitschrijven en aanpassingen maken over het 'nieuwe' onderzoeksdomein
+  - [x] Technisch component uitschrijven
+  - [x] Methodologie aanpassen naargelang technisch component
 
 
 ### Feedback
