@@ -2,10 +2,10 @@
 
 Middelbare scholieren van het derde graad met dyslexie ondersteunen bij het lezen van wetenschappelijke papers via tekstsimplificatie.
 
-* Klik [hier](verslag/voorstel/CluyseDylan-BPvoorstel.pdf) om naar het onderzoeksvoorstel te gaan.
+* Klik [hier](verslag/output/CluyseDylan-BPvoorstel.pdf) om naar het onderzoeksvoorstel te gaan.
 
 *De volgende links zijn nog onder voorbehoud:*
-* Klik [hier](verslag/bachproef/FamilienaamVoornaamBP.pdf) om naar de bachelorproef te gaan.
+* Klik [hier](verslag/output/CluyseDylanBP.pdf) om naar de bachelorproef te gaan.
 * Klik [hier](verslag/poster) om naar de poster te gaan.
 
 
@@ -92,6 +92,16 @@ middelbare scholieren:
 	--> samenwerking met scholen
 ```
 
-## TODO : BaP
+## TODO : Bachelorproef
+
+- [ ] Literatuurstudie
+  - [ ] Fase 1 & 2: tekstvereenvoudiging en de verschillende soorten ervan
+  - [ ] Fase 3 & 4: voordelen, struikelblokken van geautomatiseerde tekstvereenvoudiging 
+  - [ ] Fase 5: noden van een middelbare scholier met dyslexie bij het lezen van wetenschappelijke artikelen
+  - [ ] Copromotor van vakgebied logopedie mailen in verband met vakliteratuur voor bronnen rond voordelen, struikelblokken en noden van een scholieren met dyslexie in het derde graad middelbaar onderwijs.
+  - [ ] Technische copromotor mailen in verband met tekstvereenvoudiging + extra bronnen
+  - [ ] Feedback
+
+
 
 ## TODO : Poster
