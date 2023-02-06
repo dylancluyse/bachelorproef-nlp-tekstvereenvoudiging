@@ -4,10 +4,10 @@
 \label{sec:introductie}
 
 % TODO Bron voor de groei van python-pakketten toevoegen
-België is een koploper in het gebruik van artificiële intelligentie (AI) op de werkvloer. Jaarlijks investeert de Vlaamse overheid 32 miljoen in het vakgebied \autocite{Crevits2022}. Zo zijn er verschillende projecten uit de grond gestampt om taalgerelateerde AI-ontwikkelingen op te starten. Vooral het amai!-project \footnote{https://amai.vlaanderen/} geeft de aanzet door twee toepassingen te ontwikkelen die nu in middelbare klassen terug te vinden zijn, namelijk \textit{real-time} ondertiteling en een taalassistent voor leerkrachten bij meertalige klasgroepen.
+België is een koploper in het gebruik van artificiële intelligentie (AI) op de werkvloer. Jaarlijks investeert de Vlaamse overheid 32 miljoen in het vakgebied \autocite{Crevits2022}. Zo zijn er verschillende projecten uit de grond gestampt om taalgerelateerde AI-ontwikkelingen op te starten. Het amai!-project \footnote{https://amai.vlaanderen/} geeft softwarebedrijven de aanzet door twee toepassingen te ontwikkelen die nu in het middelbaar onderwijs te vinden zijn, namelijk \textit{real-time} ondertiteling en een taalassistent voor leerkrachten bij meertalige klasgroepen.
 
 Het STEM-agenda\footnote{https://www.vlaanderen.be/publicaties/stem-agenda-2030-stem-competenties-voor-een-toekomst-en-missiegericht-beleid}
-van de Vlaamse Overheid omvat aandachtspunten om het STEM-onderwijs tegen 2030 aantrekkelijker te maken door leraren, opleiders en begeleiders te ondersteunen. Het overbruggen van wetenschappelijke jargon is nergens in de aandachtspunten terug te vinden. Dit is echter spijtig, want de derde graad van het middelbaar onderwijs is een cruciale stap voor de verdere loopbaan van scholieren. 
+van de Vlaamse Overheid omvat aandachtspunten om het STEM-onderwijs tegen 2030 aantrekkelijker te maken door leraren, opleiders en begeleiders te ondersteunen. Het overbruggen van wetenschappelijke jargon is nergens in de aandachtspunten terug te vinden. De derde graad van het middelbaar onderwijs is nochtans een cruciale stap voor de verdere loopbaan van scholieren. 
 
 Dit onderzoek achterhaalt welke toepassing het meest conform is aan de noden van een scholier met dyslexie in het derde graad middelbaar onderwijs bij het lezen van wetenschappelijke papers. Eerst vat het onderzoek samen wat tekstsimplificatie inhoudt en uit welke soorten deze technologie bestaat. Vervolgens bespreekt het onderzoek hoe tekstsimplificatie en taalverwerking met AI scholieren met dyslexie van het derde graad middelbaar onderwijs kan helpen. Nadien staat het onderzoek stil bij de struikelblokken op taalvlak waarmee een tekstsimplificatietoepassing rekening mee moet houden. Als volgt haalt het onderzoek aan welke tekstsimplificatietoepassingen er momenteel in het onderwijs worden ingezet, welke internationale applicaties er beschikbaar zijn en hoe ontwikkelaars zelf een zelfgemaakte pipeline kunnen opbouwen. Vervolgens geeft het onderzoek aan welke evaluatietechnieken er nodig zijn om de transformatie van tekstsimplificatie te beoordelen. Het onderzoek eindigt met een vergelijkende studie van de aangehaalde toepassingen, waarbij de getransformeerde tekst subjectief en objectief wordt beoordeeld.
 
@@ -56,8 +56,7 @@ Vlaanderen heeft weinig zicht op de geïmplementeerde AI-software in scholen. Di
 Getransformeerde tekst op een objectieve manier beoordelen, gebeurt aan de hand van dan leesbaarheidsformules. Allereerst haalt \textcite{Readable2021} de Flesch-Kincaid leesbaarheidstest aan. Die bepaalt de moeilijkheidsgraad van een tekst door drie factoren in acht te nemen, namelijk: zinlengte, woordfrequentie en complexiteit taalgebruik. Deze score op Nederlandse tekst berekenen gebeurt eenvoudig met de Python-library textstat\footnote{https://pypi.org/project/textstat/}. 
 
 \begin{figure}
-	\includegraphics[width=\linewidth]{img/Screenshot_302.png}
-	\caption{Bron van \textcite{Readable2021}}
+	\includegraphics{img/Screenshot_302.png}
 \end{figure}
 
 % Bovendien zijn er kant-en-klare modellen die de complexiteit van tekst kunnen bepalen, hoewel deze beperkt zijn en vooral gericht zijn op Engelse teksten, zoals BERT\footnote{https://huggingface.co/docs/transformers/model\_doc/bert}, XLNet\footnote{https://huggingface.co/docs/transformers/model\_doc/xlnet}, GPT-3\footnote{https://platform.openai.com/docs/} en een open-source model genaamd TRUNAJOD\footnote{https://trunajod20.readthedocs.io/}.
@@ -70,7 +69,6 @@ Getransformeerde tekst op een objectieve manier beoordelen, gebeurt aan de hand 
 % hoe bevoordeelt het aan scholieren met dyslexie in het derde graad secundair - wat zijn de struikelblokken
 % welke software wordt er momenteel ingezet + vrij beschikbare software
 % opbouw van een tekstsimplificatiepipeline + evaluatietechnieken
-
 Het onderzoek houdt zeven fases in. De eerste fase is het proces van tekstsimplificatie beschrijven, waaronder een omschrijving van het begrip en de verschillende soorten van technologische tekstsimplificatie. Dit gebeurt via een grondige studie van vakliteratuur en wetenschappelijke teksten. Ook blogs van experten komen hier aan bod. Na het verwerven van de nodige inzichten wordt er een verklarende tekst opgesteld.
 
 De tweede fase bestaat uit het analyseren van wetenschappelijke werken over de bewezen voordelen van tekstsimplificatie bij scholieren met dyslexie van het derde graad middelbaar onderwijs. Hiervoor zijn geringe thesissen beschikbaar, die zorgvuldigheid vragen tijdens interpretatie. De resulterende tekst bevat de voordelen samen met hun wetenschappelijke onderbouwing.
