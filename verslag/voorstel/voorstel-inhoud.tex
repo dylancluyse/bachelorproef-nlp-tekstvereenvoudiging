@@ -9,7 +9,7 @@ België is een koploper in het gebruik van artificiële intelligentie (AI) op de
 Het STEM-agenda\footnote{https://www.vlaanderen.be/publicaties/stem-agenda-2030-stem-competenties-voor-een-toekomst-en-missiegericht-beleid}
 van de Vlaamse Overheid omvat aandachtspunten om het STEM-onderwijs tegen 2030 aantrekkelijker te maken door leraren, opleiders en begeleiders te ondersteunen. Het overbruggen van wetenschappelijke jargon is nergens in de aandachtspunten terug te vinden. Dit is echter spijtig, want de derde graad van het middelbaar onderwijs is een cruciale stap voor de verdere loopbaan van scholieren. 
 
-Dit onderzoek achterhaalt welke toepassing het meest conform is aan de noden van een scholier met dyslexie in het derde graad middelbaar onderwijs bij het lezen van wetenschappelijke papers. Eerst vat het onderzoek samen wat tekstsimplificatie inhoudt en uit welke soorten deze technologie bestaat. Vervolgens bespreekt het onderzoek hoe tekstsimplificatie en taalverwerking met AI scholieren met dyslexie van het derde graad middelbaar onderwijs kan helpen. Nadien staat het onderzoek stil bij de struikelblokken op taalvlak waarmee een tekstsimplificatietoepassing rekening mee moet houden. Als volgt bespreekt het onderzoek de tekstsimplificatietoepassingen die momenteel in het onderwijs worden ingezet, internationale applicaties en een zelfgemaakte pipeline. Vervolgens geeft het onderzoek aan welke evaluatietechnieken er nodig zijn om de transformatie van een tekstsimplificatie te beoordelen. Het onderzoek eindigt met een vergelijkende studie van de aangehaalde toepassingen, waarbij de getransformeerde tekst wordt subjectief en objectief wordt beoordeeld.
+Dit onderzoek achterhaalt welke toepassing het meest conform is aan de noden van een scholier met dyslexie in het derde graad middelbaar onderwijs bij het lezen van wetenschappelijke papers. Eerst vat het onderzoek samen wat tekstsimplificatie inhoudt en uit welke soorten deze technologie bestaat. Vervolgens bespreekt het onderzoek hoe tekstsimplificatie en taalverwerking met AI scholieren met dyslexie van het derde graad middelbaar onderwijs kan helpen. Nadien staat het onderzoek stil bij de struikelblokken op taalvlak waarmee een tekstsimplificatietoepassing rekening mee moet houden. Als volgt haalt het onderzoek aan welke tekstsimplificatietoepassingen er momenteel in het onderwijs worden ingezet, welke internationale applicaties er beschikbaar zijn en hoe ontwikkelaars zelf een zelfgemaakte pipeline kunnen opbouwen. Vervolgens geeft het onderzoek aan welke evaluatietechnieken er nodig zijn om de transformatie van tekstsimplificatie te beoordelen. Het onderzoek eindigt met een vergelijkende studie van de aangehaalde toepassingen, waarbij de getransformeerde tekst subjectief en objectief wordt beoordeeld.
 
 %---------- Stand van zaken ---------------------------------------------------
 
@@ -55,14 +55,10 @@ Vlaanderen heeft weinig zicht op de geïmplementeerde AI-software in scholen. Di
 % De kerninhoud van een tekst dient te allen tijde behouden te blijven. Bij het beoordelen van de correctheid van getransformeerde tekst met \textit{supervised} machinaal leren worden twee belangrijke metrieken gebruikt: ROUGE en BLEU. De berekening bij beide gebeurt op basis van overlappende n-grammen ofwel opeenvolgingen van tokens. ROUGE meet de overlappende n-grammen tussen getransformeerde en referentietekst. BLEU is een aangepaste versie van ROUGE gebruikt een precisie-gebaseerde scoringmethode met oog op niet alleen exacte, maar ook gedeeltelijke overeenkomsten. 
 Getransformeerde tekst op een objectieve manier beoordelen, gebeurt aan de hand van dan leesbaarheidsformules. Allereerst haalt \textcite{Readable2021} de Flesch-Kincaid leesbaarheidstest aan. Die bepaalt de moeilijkheidsgraad van een tekst door drie factoren in acht te nemen, namelijk: zinlengte, woordfrequentie en complexiteit taalgebruik. Deze score op Nederlandse tekst berekenen gebeurt eenvoudig met de Python-library textstat\footnote{https://pypi.org/project/textstat/}. 
 
-
 \begin{figure}
 	\includegraphics[width=\linewidth]{img/Screenshot_302.png}
 	\caption{Bron van \textcite{Readable2021}}
 \end{figure}
-
-
-% https://readable.com/readability/flesch-reading-ease-flesch-kincaid-grade-level/
 
 % Bovendien zijn er kant-en-klare modellen die de complexiteit van tekst kunnen bepalen, hoewel deze beperkt zijn en vooral gericht zijn op Engelse teksten, zoals BERT\footnote{https://huggingface.co/docs/transformers/model\_doc/bert}, XLNet\footnote{https://huggingface.co/docs/transformers/model\_doc/xlnet}, GPT-3\footnote{https://platform.openai.com/docs/} en een open-source model genaamd TRUNAJOD\footnote{https://trunajod20.readthedocs.io/}.
 
