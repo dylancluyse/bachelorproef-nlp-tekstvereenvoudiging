@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.9)  5 FEB 2023 22:35
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.9)  6 FEB 2023 13:38
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1434,69 +1434,44 @@ File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 
 
 ]
-Overfull \hbox (3.11237pt too wide) in paragraph at lines 31--32
+Overfull \hbox (3.11237pt too wide) in paragraph at lines 29--30
 []\TU/Montserrat(2)/m/n/10 Gala en Ziegler ([][]2016[][]) illustreert dat manue
 le tekst-
  []
 
 
-Overfull \hbox (2.11787pt too wide) in paragraph at lines 41--42
+Overfull \hbox (2.11787pt too wide) in paragraph at lines 39--40
 \TU/Montserrat(2)/m/n/10 gebruik van Engelstalige invoer. Niet-Engelstalige
  []
 
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
 [2]
-Overfull \hbox (0.95168pt too wide) in paragraph at lines 55--55
-[][][]\TU/Montserrat(2)/m/n/8 https://huggingface.co/docs/transformers/model_do
-c/bert| 
+Overfull \hbox (5.18456pt too wide) in paragraph at lines 57--58
+\TU/Montserrat(2)/m/n/10 ([][]2021[][]) de Flesch-Kincaid leesbaarheidstest aan
+. Die
  []
 
+File: img/Screenshot_302.png Graphic file (type bmp)
+<img/Screenshot_302.png>
 
-Overfull \hbox (3.55167pt too wide) in paragraph at lines 55--55
-[][][]\TU/Montserrat(2)/m/n/8 https://huggingface.co/docs/transformers/model_do
-c/xlnet| 
- []
-
-
-Overfull \hbox (9.23076pt too wide) in paragraph at lines 55--56
-[]\TU/Montserrat(2)/m/n/10 Het onderzoek van []Vásquez-Rodrı́guez e.a. ([][]202
-1[][])
- []
-
-
-Overfull \hbox (4.6537pt too wide) in paragraph at lines 55--56
-\TU/Montserrat(2)/m/n/10 baarheidstest, wat de moeilijkheidsgraad van tekst
- []
-
-
-Overfull \hbox (11.4737pt too wide) in paragraph at lines 55--56
-\TU/Montserrat(2)/m/n/10 bepaald door verschillende factoren, zoals zinlengte,
- []
-
-
-Overfull \hbox (0.7441pt too wide) in paragraph at lines 55--56
-\TU/Montserrat(2)/m/n/10 GPT-3[][][][][] en een open-source model genaamd TRU-
- []
-
-
-Overfull \hbox (2.63902pt too wide) in paragraph at lines 66--67
+Overfull \hbox (2.63902pt too wide) in paragraph at lines 79--80
 \TU/Montserrat(2)/m/n/10 studie van vakliteratuur en wetenschappelijke tek-
  []
 
 
-Overfull \hbox (3.00572pt too wide) in paragraph at lines 68--69
+Overfull \hbox (3.00572pt too wide) in paragraph at lines 81--82
 \TU/Montserrat(2)/m/n/10 delen van tekstsimplificatie bij scholieren met dys-
- []
-
-
-Overfull \hbox (5.03905pt too wide) in paragraph at lines 74--75
-\TU/Montserrat(2)/m/n/10 over de beschikbare Nederlandstalige AI-tools voor
  []
 
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
-[3])
+[3]
+Overfull \hbox (5.03905pt too wide) in paragraph at lines 87--88
+\TU/Montserrat(2)/m/n/10 over de beschikbare Nederlandstalige AI-tools voor
+ []
+
+)
 Overfull \hbox (0.17401pt too wide) in paragraph at lines 47--47
 [][]\TU/Montserrat(2)/m/n/10 Barnett, A., & Doubleday, Z. (2020). Meta-Research
 :
@@ -1514,12 +1489,20 @@ Overfull \hbox (7.49068pt too wide) in paragraph at lines 47--47
  []
 
 
+Overfull \hbox (9.09253pt too wide) in paragraph at lines 47--47
+\TU/Montserrat(2)/m/it/10 Flesch Kincaid Grade Level\TU/Montserrat(2)/m/n/10 . 
+[][]$[][][][][] [] [] [] [][][][][][][][] []
+ []
+
+
 Overfull \hbox (15.33923pt too wide) in paragraph at lines 47--47
 \TU/Montserrat(2)/m/n/10 lexics. \TU/Montserrat(2)/m/it/10 Proceedings of the I
 nternational Cross-
  []
 
-
+File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
+<img//HOGENT_Logo_Pos_rgb.png>
+[4]
 Overfull \hbox (11.80923pt too wide) in paragraph at lines 47--47
 \TU/Montserrat(2)/m/it/10 of Natural Language Processing (NLP)\TU/Montserrat(2)
 /m/n/10 . Mon-
@@ -1556,17 +1539,12 @@ Overfull \hbox (1.63065pt too wide) in paragraph at lines 47--47
  []
 
 
-Overfull \hbox (24.8085pt too wide) in paragraph at lines 47--47
-\TU/Montserrat(2)/m/n/10 Simplification Evaluation. \TU/Montserrat(2)/m/it/10 C
-oRR\TU/Montserrat(2)/m/n/10 , \TU/Montserrat(2)/m/it/10 abs/2107.13662\TU/Monts
-errat(2)/m/n/10 . 
- []
-
-
 AED: lastpage setting LastPage
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
-[4] (CluyseDylan-BPvoorstel.aux)
+[5
+
+] (CluyseDylan-BPvoorstel.aux)
 Package rerunfilecheck Info: File `CluyseDylan-BPvoorstel.out' has not changed.
 
 (rerunfilecheck)             Checksum: 2486E0888F0C4C851FED5AD1F3E3A95F;616.
@@ -1580,12 +1558,12 @@ Package logreq Info: Writing requests to 'CluyseDylan-BPvoorstel.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27649 strings out of 410532
- 521407 string characters out of 2813299
- 1526076 words of memory out of 3000000
- 48461 multiletter control sequences out of 15000+600000
+ 27660 strings out of 410532
+ 521605 string characters out of 2813299
+ 1523060 words of memory out of 3000000
+ 48469 multiletter control sequences out of 15000+600000
  473477 words of font info for 101 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,12n,128p,1464b,5524s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,13n,128p,1464b,5524s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on CluyseDylan-BPvoorstel.pdf (4 pages).
+Output written on CluyseDylan-BPvoorstel.pdf (5 pages).

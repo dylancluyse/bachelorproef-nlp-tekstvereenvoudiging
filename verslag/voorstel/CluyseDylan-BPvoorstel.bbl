@@ -473,6 +473,35 @@
       \range{pages}{-1}
       \keyw{metascience,readability,data analysis,jargon,scientific communication}
     \endentry
+    \entry{Readable2021}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4b8123df4e2b3456270c11394adf7607}{%
+           family={Readable},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b8123df4e2b3456270c11394adf7607}
+      \strng{fullhash}{4b8123df4e2b3456270c11394adf7607}
+      \strng{bibnamehash}{4b8123df4e2b3456270c11394adf7607}
+      \strng{authorbibnamehash}{4b8123df4e2b3456270c11394adf7607}
+      \strng{authornamehash}{4b8123df4e2b3456270c11394adf7607}
+      \strng{authorfullhash}{4b8123df4e2b3456270c11394adf7607}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Flesch Reading Ease and the Flesch Kincaid Grade Level}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://readable.com/readability/flesch-reading-ease-flesch-kincaid-grade-level/
+      \endverb
+      \verb{url}
+      \verb https://readable.com/readability/flesch-reading-ease-flesch-kincaid-grade-level/
+      \endverb
+    \endentry
     \entry{Rello2012}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=beb516ae4b9334129c564a1d33d9ec9b}{%
@@ -671,55 +700,6 @@
       \endverb
       \verb{url}
       \verb https://www.microsoft.com/en-us/research/video/learning-challenges-in-natural-language-processing/
-      \endverb
-    \endentry
-    \entry{VasquezRodriguez2021}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=1c86a5e079a885baec1a3cac95ab3c71}{%
-           family={Vásquez{-}Rodrı́guez},
-           familyi={V\bibinitperiod},
-           given={Laura},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d15f65dc3a8314f8ec6692eb6b0f5c1a}{%
-           family={Shardlow},
-           familyi={S\bibinitperiod},
-           given={Matthew},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=388f15914c2f268e7c47da0ee1503a98}{%
-           family={Przybyla},
-           familyi={P\bibinitperiod},
-           given={Piotr},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3780b2d12b907a7196c92d8269005aba}{%
-           family={Ananiadou},
-           familyi={A\bibinitperiod},
-           given={Sophia},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{fe18c01a16470e781902f85dd174cfe4}
-      \strng{fullhash}{e2a92888a9f7d2e9dc5bf21b203f01fa}
-      \strng{bibnamehash}{e2a92888a9f7d2e9dc5bf21b203f01fa}
-      \strng{authorbibnamehash}{e2a92888a9f7d2e9dc5bf21b203f01fa}
-      \strng{authornamehash}{fe18c01a16470e781902f85dd174cfe4}
-      \strng{authorfullhash}{e2a92888a9f7d2e9dc5bf21b203f01fa}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{CoRR}
-      \field{title}{Investigating Text Simplification Evaluation}
-      \field{volume}{abs/2107.13662}
-      \field{year}{2021}
-      \verb{eprint}
-      \verb 2107.13662
       \endverb
     \endentry
   \enddatalist
@@ -1178,6 +1158,35 @@
       \range{pages}{-1}
       \keyw{metascience,readability,data analysis,jargon,scientific communication}
     \endentry
+    \entry{Readable2021}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4b8123df4e2b3456270c11394adf7607}{%
+           family={Readable},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b8123df4e2b3456270c11394adf7607}
+      \strng{fullhash}{4b8123df4e2b3456270c11394adf7607}
+      \strng{bibnamehash}{4b8123df4e2b3456270c11394adf7607}
+      \strng{authorbibnamehash}{4b8123df4e2b3456270c11394adf7607}
+      \strng{authornamehash}{4b8123df4e2b3456270c11394adf7607}
+      \strng{authorfullhash}{4b8123df4e2b3456270c11394adf7607}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Flesch Reading Ease and the Flesch Kincaid Grade Level}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://readable.com/readability/flesch-reading-ease-flesch-kincaid-grade-level/
+      \endverb
+      \verb{url}
+      \verb https://readable.com/readability/flesch-reading-ease-flesch-kincaid-grade-level/
+      \endverb
+    \endentry
     \entry{Rello2012}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=beb516ae4b9334129c564a1d33d9ec9b}{%
@@ -1376,55 +1385,6 @@
       \endverb
       \verb{url}
       \verb https://www.microsoft.com/en-us/research/video/learning-challenges-in-natural-language-processing/
-      \endverb
-    \endentry
-    \entry{VasquezRodriguez2021}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=1c86a5e079a885baec1a3cac95ab3c71}{%
-           family={Vásquez{-}Rodrı́guez},
-           familyi={V\bibinitperiod},
-           given={Laura},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d15f65dc3a8314f8ec6692eb6b0f5c1a}{%
-           family={Shardlow},
-           familyi={S\bibinitperiod},
-           given={Matthew},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=388f15914c2f268e7c47da0ee1503a98}{%
-           family={Przybyla},
-           familyi={P\bibinitperiod},
-           given={Piotr},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3780b2d12b907a7196c92d8269005aba}{%
-           family={Ananiadou},
-           familyi={A\bibinitperiod},
-           given={Sophia},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{fe18c01a16470e781902f85dd174cfe4}
-      \strng{fullhash}{e2a92888a9f7d2e9dc5bf21b203f01fa}
-      \strng{bibnamehash}{e2a92888a9f7d2e9dc5bf21b203f01fa}
-      \strng{authorbibnamehash}{e2a92888a9f7d2e9dc5bf21b203f01fa}
-      \strng{authornamehash}{fe18c01a16470e781902f85dd174cfe4}
-      \strng{authorfullhash}{e2a92888a9f7d2e9dc5bf21b203f01fa}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{CoRR}
-      \field{title}{Investigating Text Simplification Evaluation}
-      \field{volume}{abs/2107.13662}
-      \field{year}{2021}
-      \verb{eprint}
-      \verb 2107.13662
       \endverb
     \endentry
   \enddatalist
