@@ -1,22 +1,22 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'CluyseDylan-BPvoorstel.blg'
-[128] biber-MSWIN64:340> INFO - === 
-[166] Biber.pm:418> INFO - Reading 'CluyseDylan-BPvoorstel.bcf'
-[307] Biber.pm:978> INFO - Found 15 citekeys in bib section 0
-[331] Biber.pm:4401> INFO - Processing section 0
-[344] Biber.pm:4592> INFO - Looking for bibtex file 'voorstel.bib' for section 0
-[400] bibtex.pm:1713> INFO - LaTeX decoding ...
-[435] bibtex.pm:1518> INFO - Found BibTeX data source 'voorstel.bib'
-[582] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[583] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[583] Biber.pm:4221> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[583] Biber.pm:4227> INFO - No sort tailoring available for locale 'nl-NL'
-[617] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[617] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[617] Biber.pm:4221> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[617] Biber.pm:4227> INFO - No sort tailoring available for locale 'nl-NL'
-[639] bbl.pm:654> INFO - Writing 'CluyseDylan-BPvoorstel.bbl' with encoding 'UTF-8'
-[660] bbl.pm:757> INFO - Output to CluyseDylan-BPvoorstel.bbl
-[661] Biber.pm:130> WARN - legacy month field 'sep' in entry 'PlavenSigray2017' is not an integer - this will probably not sort properly.
-[661] Biber.pm:130> WARN - legacy month field 'jul' in entry 'Barnett2020' is not an integer - this will probably not sort properly.
-[661] Biber.pm:132> INFO - WARNINGS: 2
+[186] biber-MSWIN64:340> INFO - === 
+[249] Biber.pm:418> INFO - Reading 'CluyseDylan-BPvoorstel.bcf'
+[385] Biber.pm:978> INFO - Found 15 citekeys in bib section 0
+[408] Biber.pm:4401> INFO - Processing section 0
+[441] Biber.pm:4592> INFO - Looking for bibtex file 'voorstel.bib' for section 0
+[487] bibtex.pm:1713> INFO - LaTeX decoding ...
+[519] bibtex.pm:1518> INFO - Found BibTeX data source 'voorstel.bib'
+[717] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[717] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[717] Biber.pm:4221> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[717] Biber.pm:4227> INFO - No sort tailoring available for locale 'nl-NL'
+[751] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[751] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[751] Biber.pm:4221> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[751] Biber.pm:4227> INFO - No sort tailoring available for locale 'nl-NL'
+[793] bbl.pm:654> INFO - Writing 'CluyseDylan-BPvoorstel.bbl' with encoding 'UTF-8'
+[814] bbl.pm:757> INFO - Output to CluyseDylan-BPvoorstel.bbl
+[814] Biber.pm:130> WARN - legacy month field 'sep' in entry 'PlavenSigray2017' is not an integer - this will probably not sort properly.
+[814] Biber.pm:130> WARN - legacy month field 'jul' in entry 'Barnett2020' is not an integer - this will probably not sort properly.
+[815] Biber.pm:132> INFO - WARNINGS: 2

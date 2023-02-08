@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.9)  8 FEB 2023 11:58
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.9)  8 FEB 2023 13:10
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1413,54 +1413,49 @@ LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
 (Font)              scaled to size 7.99915pt on input line 7.
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-[][][]\TU/Montserrat(2)/m/n/8 https://www.vlaanderen.be/publicaties/stem-agenda
--
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
-\TU/Montserrat(2)/m/n/8 2030-stem-competenties-voor-een-toekomst-en-
- []
-
-
-Overfull \hbox (1.99905pt too wide) in paragraph at lines 7--9
+Overfull \hbox (1.99905pt too wide) in paragraph at lines 7--8
 []\TU/Montserrat(2)/m/n/10 België is een koploper in het gebruik van kunst-
  []
 
 
-Overfull \hbox (2.00034pt too wide) in paragraph at lines 7--9
+Overfull \hbox (2.00034pt too wide) in paragraph at lines 7--8
 \TU/Montserrat(2)/m/n/10 projecten, om taalgerelateerde AI-ontwikkelingen
  []
 
 
-Overfull \hbox (2.69823pt too wide) in paragraph at lines 7--9
+Overfull \hbox (2.69823pt too wide) in paragraph at lines 7--8
 \TU/Montserrat(2)/m/n/10 project [][][][][] verenigt AI-softwarebedrijven uit v
 erschil-
  []
 
 
-Overfull \hbox (0.59236pt too wide) in paragraph at lines 7--9
+Overfull \hbox (0.59236pt too wide) in paragraph at lines 7--8
 \TU/Montserrat(2)/m/n/10 taaltoepassingen ontwikkeld voor het middelbaar
  []
 
 
-Overfull \hbox (22.03903pt too wide) in paragraph at lines 7--9
-\TU/Montserrat(2)/m/n/10 heid omvat aandachtspunten om het STEM-onderwijs
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[][][]\TU/Montserrat(2)/m/n/8 https://www.vlaanderen.be/publicaties/stem-agenda
+-
  []
 
 
-Overfull \hbox (10.45903pt too wide) in paragraph at lines 10--11
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+\TU/Montserrat(2)/m/n/8 2030-stem-competenties-voor-een-toekomst-en-
+ []
+
+
+Overfull \hbox (10.45903pt too wide) in paragraph at lines 12--13
 \TU/Montserrat(2)/m/n/10 wetenschappelijke artikelen door middel van kunst-
  []
 
 
-Underfull \hbox (badness 1052) in paragraph at lines 10--11
+Underfull \hbox (badness 1052) in paragraph at lines 12--13
 \TU/Montserrat(2)/m/n/10 men wat tekstvereenvoudiging inhoudt en uit
  []
 
 
-Overfull \hbox (5.84456pt too wide) in paragraph at lines 10--11
+Overfull \hbox (5.84456pt too wide) in paragraph at lines 12--13
 \TU/Montserrat(2)/m/n/10 een zelfgemaakte pipeline kunnen opbouwen. Ten
  []
 
@@ -1470,76 +1465,68 @@ File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 
 
 ]
-Overfull \hbox (1.73572pt too wide) in paragraph at lines 20--21
+Overfull \hbox (1.73572pt too wide) in paragraph at lines 22--23
 \TU/Montserrat(2)/m/n/10 is om ingewikkelde bronnen toegankelijker te ma-
  []
 
 
-Overfull \hbox (0.98901pt too wide) in paragraph at lines 22--23
+Overfull \hbox (0.98901pt too wide) in paragraph at lines 24--25
 []\TU/Montserrat(2)/m/n/10 Tekstvereenvoudiging behoort tot de zijtak van
  []
 
 
-Overfull \hbox (3.11237pt too wide) in paragraph at lines 27--28
+Overfull \hbox (3.11237pt too wide) in paragraph at lines 29--30
 []\TU/Montserrat(2)/m/n/10 Gala en Ziegler ([][]2016[][]) illustreert dat manue
 le tekst-
  []
 
 
-Overfull \hbox (18.54567pt too wide) in paragraph at lines 27--28
+Overfull \hbox (18.54567pt too wide) in paragraph at lines 29--30
 \TU/Montserrat(2)/m/n/10 vereenvoudiging schoolteksten toegankelijker maakt
  []
 
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
 [2]
-Overfull \hbox (2.11787pt too wide) in paragraph at lines 37--38
+Overfull \hbox (2.11787pt too wide) in paragraph at lines 39--40
 \TU/Montserrat(2)/m/n/10 gebruik van Engelstalige invoer. Niet-Engelstalige
  []
 
 
-Overfull \hbox (7.33237pt too wide) in paragraph at lines 40--41
+Overfull \hbox (7.33237pt too wide) in paragraph at lines 42--43
 \TU/Montserrat(2)/m/n/10 focus ligt echter op spreek- en luistersoftware waar-
  []
 
 
-Overfull \hbox (6.60121pt too wide) in paragraph at lines 42--43
+Overfull \hbox (6.60121pt too wide) in paragraph at lines 44--45
 \TU/Montserrat(2)/m/n/10 verschillende samenvattingstools beschikbaar. En-
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 54--55
+Underfull \hbox (badness 1112) in paragraph at lines 56--57
 []\TU/Montserrat(2)/m/n/10 Om de transformatie van tekstvereenvoudi-
  []
 
 
-Overfull \hbox (9.24504pt too wide) in paragraph at lines 56--57
+Overfull \hbox (9.24504pt too wide) in paragraph at lines 58--59
 \TU/Montserrat(2)/m/n/10 test neemt drie factoren, namelijk zinlengte, woord-
  []
 
 File: img/Screenshot_302.png Graphic file (type bmp)
 <img/Screenshot_302.png>
-
-Overfull \hbox (265.09251pt too wide) in paragraph at lines 59--60
-[][] 
- []
-
-
-Overfull \hbox (3.63904pt too wide) in paragraph at lines 74--75
-\TU/Montserrat(2)/m/n/10 delen van tekstvereenvoudiging bij scholieren met
- []
-
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
 [3]
-Overfull \hbox (5.03905pt too wide) in paragraph at lines 80--81
+Overfull \hbox (3.63904pt too wide) in paragraph at lines 76--77
+\TU/Montserrat(2)/m/n/10 delen van tekstvereenvoudiging bij scholieren met
+ []
+
+
+Overfull \hbox (5.03905pt too wide) in paragraph at lines 82--83
 \TU/Montserrat(2)/m/n/10 over de beschikbare Nederlandstalige AI-tools voor
  []
 
 )
-File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
-<img//HOGENT_Logo_Pos_rgb.png>
- [4]
 Overfull \hbox (0.17401pt too wide) in paragraph at lines 47--47
 [][]\TU/Montserrat(2)/m/n/10 Barnett, A., & Doubleday, Z. (2020). Meta-Research
 :
@@ -1550,7 +1537,9 @@ Overfull \hbox (3.01402pt too wide) in paragraph at lines 47--47
 \TU/Montserrat(2)/m/n/10 Students with dyslexia between school and
  []
 
-
+File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
+<img//HOGENT_Logo_Pos_rgb.png>
+[4]
 Overfull \hbox (7.49068pt too wide) in paragraph at lines 47--47
 [][][][][][][][][][][][] [] [][] [] [][][][][][] [] [][][][][][] [][] [][][][][
 ][][][][][] [][]
@@ -1608,7 +1597,9 @@ Overfull \hbox (1.63065pt too wide) in paragraph at lines 47--47
 AED: lastpage setting LastPage
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
-[5] (CluyseDylan-BPvoorstel.aux)
+[5
+
+] (CluyseDylan-BPvoorstel.aux)
 Package rerunfilecheck Info: File `CluyseDylan-BPvoorstel.out' has not changed.
 
 (rerunfilecheck)             Checksum: 2486E0888F0C4C851FED5AD1F3E3A95F;616.
