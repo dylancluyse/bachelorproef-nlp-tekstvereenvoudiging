@@ -1,25 +1,25 @@
 # Fdb version 3
-["biber ../output/CluyseDylanBP"] 1675809074 "../output/CluyseDylanBP.bcf" "../output/CluyseDylanBP.bbl" "../output/CluyseDylanBP" 1675877861
-  "../output/CluyseDylanBP.bcf" 1675877860 125523 6d0cedf30a479c7193bb5473b77c1ad5 "xelatex"
+["biber ../output/CluyseDylanBP"] 1675809074 "../output/CluyseDylanBP.bcf" "../output/CluyseDylanBP.bbl" "../output/CluyseDylanBP" 1675885953
+  "../output/CluyseDylanBP.bcf" 1675885952 125523 6d0cedf30a479c7193bb5473b77c1ad5 "xelatex"
   "bachproef.bib" 1675785369 16116 01d5e121e5a72494abde8f44b449c358 ""
   (generated)
   "../output/CluyseDylanBP.blg"
   "../output/CluyseDylanBP.bbl"
-["xdvipdfmx"] 1675877860 "../output/CluyseDylanBP.xdv" "../output/CluyseDylanBP.pdf" "../output/CluyseDylanBP" 1675877861
-  "../output/CluyseDylanBP.xdv" 1675877860 576048 8a0d997644e1d413904f3ffe593de2b1 "xelatex"
+["xdvipdfmx"] 1675885952 "../output/CluyseDylanBP.xdv" "../output/CluyseDylanBP.pdf" "../output/CluyseDylanBP" 1675885953
+  "../output/CluyseDylanBP.xdv" 1675885952 575620 05133d5566615ff5f451054697c1494a "xelatex"
   (generated)
   "../output/CluyseDylanBP.pdf"
-["xelatex"] 1675877857 "./CluyseDylanBP.tex" "../output/CluyseDylanBP.xdv" "CluyseDylanBP" 1675877861
+["xelatex"] 1675885949 "./CluyseDylanBP.tex" "../output/CluyseDylanBP.xdv" "CluyseDylanBP" 1675885953
   "../output/../voorstel/voorstel-inhoud.tex" 1675866806 17748 0cf73f8cc2151329047aa802caac03b6 ""
-  "../output/CluyseDylanBP.aux" 1675877860 12970 09d0a1e4856d23e26eb87eaa37fe2217 "xelatex"
+  "../output/CluyseDylanBP.aux" 1675885952 12971 9a693b6195ee2d0babcd5ac86c349a23 "xelatex"
   "../output/CluyseDylanBP.bbl" 1675809075 36762 1be7501a53146ef3304dfc1b8d3f6cd7 "biber ../output/CluyseDylanBP"
-  "../output/CluyseDylanBP.lof" 1675877860 417 70c217f5722f6dd34d80e380cf3abd1d "xelatex"
-  "../output/CluyseDylanBP.out" 1675877860 2294 69a183eb7ee5e6393fa2005c492e830d "xelatex"
-  "../output/CluyseDylanBP.run.xml" 1675877860 2530 b77248075feeb8281ba442f79a8d110d "xelatex"
-  "../output/CluyseDylanBP.toc" 1675877860 4145 172f86a9fc9cd92f6e827612a1e1536f "xelatex"
+  "../output/CluyseDylanBP.lof" 1675885952 417 70c217f5722f6dd34d80e380cf3abd1d "xelatex"
+  "../output/CluyseDylanBP.out" 1675885952 2294 69a183eb7ee5e6393fa2005c492e830d "xelatex"
+  "../output/CluyseDylanBP.run.xml" 1675885952 2530 b77248075feeb8281ba442f79a8d110d "xelatex"
+  "../output/CluyseDylanBP.toc" 1675885952 4146 7aca89d7380284ca93ae68c5f8ff8567 "xelatex"
   "../voorstel/voorstel-inhoud.tex" 1675866806 17748 0cf73f8cc2151329047aa802caac03b6 ""
   "./CluyseDylanBP.tex" 1675810935 7441 66b6203df3a8c7673dc8dcb84a659b5c ""
-  "/dev/null" 1675877853 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/dev/null" 1675885945 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/etc/texmf/web2c/texmf.cnf" 1672154544 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -264,14 +264,14 @@
   "inleiding.tex" 1675869324 9085 12fef805c9b39f3d9da7b752bdb12f87 ""
   "methodologie.tex" 1675700765 600 ab0ffc93dd0723a6433100749e1d8456 ""
   "samenvatting.tex" 1675700765 1658 da944876ddb8b9a1b307350ed4141854 ""
-  "standvanzaken.tex" 1675877846 4817 81985ab73959f79a94d3050f5632f576 ""
+  "standvanzaken.tex" 1675885919 4776 eb662137abb043d82f1e22ece4fbc9bf ""
   "voorwoord.tex" 1675700765 534 8740d2f5b6abd2bf16d2c289dc8afd4c ""
   (generated)
-  "../output/CluyseDylanBP.log"
   "../output/CluyseDylanBP.toc"
-  "../output/CluyseDylanBP.xdv"
   "../output/CluyseDylanBP.out"
-  "../output/CluyseDylanBP.run.xml"
+  "../output/CluyseDylanBP.lof"
+  "../output/CluyseDylanBP.xdv"
+  "../output/CluyseDylanBP.log"
   "../output/CluyseDylanBP.bcf"
   "../output/CluyseDylanBP.aux"
-  "../output/CluyseDylanBP.lof"
+  "../output/CluyseDylanBP.run.xml"

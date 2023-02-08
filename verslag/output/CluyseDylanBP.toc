@@ -21,11 +21,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Gebruiksdomeinen}{4}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Natuurlijke taalverwerking}{4}{section.2.1}%
+\contentsline {subsubsection}{Natural Language Processing}{4}{section.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}De verschillende soorten tekstvereenvoudiging}{4}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Lexicale vereenvoudiging}{5}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}Lexicale vereenvoudiging}{4}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.2}Syntactische vereenvoudiging}{5}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
