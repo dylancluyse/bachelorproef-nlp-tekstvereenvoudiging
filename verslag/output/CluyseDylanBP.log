@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  7 FEB 2023 23:02
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  8 FEB 2023 17:37
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2276,11 +2276,11 @@ Hoofdstuk 1.
 [1
 
 
-]) (./standvanzaken.tex [2]
+] [2]) (./standvanzaken.tex [3]
 Hoofdstuk 2.
-[3
+[4
 
-]) [4]
+]) [5] [6]
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
 (fancyhdr)                Make it at least 26.66998pt, for example:
@@ -2289,15 +2289,15 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
 
-[5] (./methodologie.tex [6]
+[7] (./methodologie.tex [8]
 Hoofdstuk 3.
-[7
-
-]) (./conclusie.tex [8]
-Hoofdstuk 4.
 [9
 
-]) [10]
+]) (./conclusie.tex [10]
+Hoofdstuk 4.
+[11
+
+]) [12]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
 
@@ -2334,7 +2334,13 @@ ping=tex-text;"
 (fontspec)             <->"Montserrat/BI/OT:script=latn;language=dflt;+sups;+sm
 cp;mapping=tex-text;"
 
- [11
+
+Overfull \hbox (1.08932pt too wide) in paragraph at lines 7--8
+\TU/Montserrat(1)/m/n/10.95 te starten, uit de grond gestampt. Het amai!-projec
+t [][][][][] verenigt AI-softwarebedrijven
+ []
+
+[13
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 9--9
@@ -2349,38 +2355,32 @@ Overfull \hbox (6.35603pt too wide) in paragraph at lines 9--11
  []
 
 
-Overfull \hbox (1.13531pt too wide) in paragraph at lines 12--13
-\TU/Montserrat(1)/m/n/10.95 wijs. Eerst vat het onderzoek samen wat tekstvereen
-voudiging inhoudt en uit welke
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
  []
 
-[12] [13]
+[14] [15]
 Overfull \hbox (8.7273pt too wide) in paragraph at lines 37--38
 \TU/Montserrat(1)/m/n/10.95 op uitdagingen. Het gaat om zowel interpretatie- al
 s dataproblemen bij AI-machines.
  []
 
-[14]
+[16]
 File: img/Screenshot_302.png Graphic file (type bmp)
 <img/Screenshot_302.png>
-
-Overfull \hbox (62.34596pt too wide) in paragraph at lines 61--62
-[][] 
- []
-
-[15] [16]
+ [17]
 Overfull \hbox (5.59319pt too wide) in paragraph at lines 84--85
 []\TU/Montserrat(1)/m/n/10.95 De zesde fase omschrijft een technisch uitwerking
  van een tekstvereenvoudigingspi-
  []
 
-
+[18]
 Overfull \hbox (0.27292pt too wide) in paragraph at lines 86--87
 \TU/Montserrat(1)/m/n/10.95 schappelijke papers, die in een derde graad middelb
 aar onderwijs worden gebruikt,
  []
 
-) [17] [18]
+) [19]
 Overfull \hbox (17.6088pt too wide) in paragraph at lines 172--172
 \TU/Montserrat(1)/m/n/10.95 E. M. (2022). Students with dyslexia between school
  and university: Post-diploma
@@ -2408,23 +2408,23 @@ Overfull \hbox (0.81898pt too wide) in paragraph at lines 172--172
 ve Technologies (SLPAT-
  []
 
-[19
+[20
 
 
-] [20] (../output/CluyseDylanBP.aux)
+] [21] (../output/CluyseDylanBP.aux)
 Package rerunfilecheck Info: File `CluyseDylanBP.out' has not changed.
-(rerunfilecheck)             Checksum: 489ADE24B63F23FE9E8624097219762C;1979.
+(rerunfilecheck)             Checksum: 69A183EB7EE5E6393FA2005C492E830D;2294.
 Package logreq Info: Writing requests to 'CluyseDylanBP.run.xml'.
 \openout1 = `CluyseDylanBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46263 strings out of 478657
- 902385 string characters out of 5861312
- 2005044 words of memory out of 5000000
- 65046 multiletter control sequences out of 15000+600000
+ 46274 strings out of 478657
+ 902540 string characters out of 5861312
+ 2005045 words of memory out of 5000000
+ 65057 multiletter control sequences out of 15000+600000
  406474 words of font info for 97 fonts, out of 8000000 for 9000
  351 hyphenation exceptions out of 8191
- 113i,12n,139p,1680b,5376s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 113i,11n,139p,1680b,5376s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../output/CluyseDylanBP.xdv (26 pages, 519944 bytes).
+Output written on ../output/CluyseDylanBP.xdv (27 pages, 576048 bytes).

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  8 FEB 2023 10:32
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  8 FEB 2023 11:51
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1526,11 +1526,6 @@ Overfull \hbox (7.75458pt too wide) in paragraph at lines 56--57
 File: img/Screenshot_302.png Graphic file (type bmp)
 <img/Screenshot_302.png>
 
-Overfull \hbox (265.09251pt too wide) in paragraph at lines 59--60
-[][] 
- []
-
-
 Overfull \hbox (3.63904pt too wide) in paragraph at lines 74--75
 \TU/Montserrat(2)/m/n/10 delen van tekstvereenvoudiging bij scholieren met
  []
@@ -1550,12 +1545,7 @@ LaTeX Warning: Empty bibliography on input line 47.
 AED: lastpage setting LastPage
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
-[4]
-File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
-<img//HOGENT_Logo_Pos_rgb.png>
- [5
-
-] (../output/CluyseDylan-BPvoorstel.aux)
+[4] (../output/CluyseDylan-BPvoorstel.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1572,13 +1562,13 @@ Package logreq Info: Writing requests to 'CluyseDylan-BPvoorstel.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26746 strings out of 478657
- 485762 string characters out of 5861312
- 1466283 words of memory out of 5000000
- 45978 multiletter control sequences out of 15000+600000
- 407672 words of font info for 103 fonts, out of 8000000 for 9000
+ 26748 strings out of 478657
+ 485849 string characters out of 5861312
+ 1464283 words of memory out of 5000000
+ 45979 multiletter control sequences out of 15000+600000
+ 407680 words of font info for 104 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
- 112i,11n,130p,1632b,3758s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 112i,11n,130p,1519b,3758s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../output/CluyseDylan-BPvoorstel.xdv (5 pages, 190476 bytes).
+Output written on ../output/CluyseDylan-BPvoorstel.xdv (4 pages, 188184 bytes).
 

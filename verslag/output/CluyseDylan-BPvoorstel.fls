@@ -1016,9 +1016,6 @@ INPUT img//HOGENT_Logo_Pos_rgb.png
 INPUT ./img//HOGENT_Logo_Pos_rgb.png
 INPUT ./img//HOGENT_Logo_Pos_rgb.png
 INPUT img//HOGENT_Logo_Pos_rgb.png
-INPUT ./img//HOGENT_Logo_Pos_rgb.png
-INPUT ./img//HOGENT_Logo_Pos_rgb.png
-INPUT img//HOGENT_Logo_Pos_rgb.png
 INPUT ../output/CluyseDylan-BPvoorstel.aux
 INPUT ../output/CluyseDylan-BPvoorstel.out
 INPUT ../output/CluyseDylan-BPvoorstel.out
