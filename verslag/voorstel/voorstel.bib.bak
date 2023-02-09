@@ -207,7 +207,7 @@ In the second part of the talk, I will showcase some of the properties exhibited
   url    = {https://www.demorgen.be/snelnieuws/scholen-krijgen-meer-steun-om-leerlingen-met-beperking-op-te-vangen~bb2469df/},
 }
 
-@Online{Miszczak2022,
+@Online{,
   author = {Patryk Miszczak},
   date   = {2022-09-20},
   title  = {Natural Language Processing Statistics (2022)},

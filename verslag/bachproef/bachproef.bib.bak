@@ -1,3 +1,31 @@
+% Encoding: UTF-8
+
+@book{Knuth1998,
+ author = {Knuth, Donald E.},
+ title = {The art of computer programming,  volume 3: (2nd ed.) sorting and searching},
+ year = {1998},
+ publisher = {Addison Wesley Longman Publishing Co., Inc.},
+ address = {Redwood City, CA, USA}
+}
+
+@book{Pollefliet2011,
+  author = {Pollefliet, Leen},
+  title = {Schrijven van verslag tot eindwerk: do's en don'ts},
+  year = {2011},
+  publisher = {Academia Press},
+  address = {Gent}
+}
+
+@article{Creeger2009,
+  author = {Creeger, Mache},
+  journal = {Communications of the ACM},
+  number = {8},
+  pages = {50--56},
+  title = {{CTO Roundtable: Cloud Computing}},
+  volume = {52},
+  year = {2009}
+}
+
 @Online{Martens2021,
   author       = {Martens, Marijn and De Wolf, Ralf and Evens, Tom},
   date         = {2021},
@@ -121,7 +149,6 @@ In the second part of the talk, I will showcase some of the properties exhibited
   citation     = {eLife 2017;6:e27725},
   journal      = {eLife},
   keywords     = {metascience, readability, data analysis, jargon, scientific communication},
-  month        = {sep},
   pub_date     = {2017-09-05},
   publisher    = {eLife Sciences Publications, Ltd},
   year         = {2017},
@@ -139,7 +166,6 @@ In the second part of the talk, I will showcase some of the properties exhibited
   citation     = {eLife 2020;9:e60080},
   journal      = {eLife},
   keywords     = {meta-research, scientific writing, acronyms, communication, knowledge, scientific publishing},
-  month        = {jul},
   pub_date     = {2020-07-23},
   publisher    = {eLife Sciences Publications, Ltd},
   year         = {2020},
@@ -200,11 +226,18 @@ In the second part of the talk, I will showcase some of the properties exhibited
   url    = {https://readable.com/readability/flesch-reading-ease-flesch-kincaid-grade-level/},
 }
 
-@Online{Droogenbroeck2022,
-  author = {Kelly Van Droogenbroeck},
-  date   = {2022-11-23},
-  title  = {Scholen krijgen meer steun om leerlingen met beperking op te vangen},
-  url    = {https://www.demorgen.be/snelnieuws/scholen-krijgen-meer-steun-om-leerlingen-met-beperking-op-te-vangen~bb2469df/},
+@inproceedings{Gooding2022,
+    title = "On the Ethical Considerations of Text Simplification",
+    author = "Gooding, Sian",
+    booktitle = "Ninth Workshop on Speech and Language Processing for Assistive Technologies (SLPAT-2022)",
+    month = "05",
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.slpat-1.7",
+    doi = "10.18653/v1/2022.slpat-1.7",
+    pages = "50--57",
+    abstract = "This paper outlines the ethical implications of text simplification within the framework of assistive systems. We argue that a distinction should be made between the technologies that perform text simplification and the realisation of these in assistive technologies. When using the latter as a motivation for research, it is important that the subsequent ethical implications be carefully considered. We provide guidelines for the framing of text simplification independently of assistive systems, as well as suggesting directions for future research and discussion based on the concerns raised.",
 }
 
 @Online{Miszczak2022,
