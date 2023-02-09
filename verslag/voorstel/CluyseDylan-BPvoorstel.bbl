@@ -66,7 +66,6 @@
       \field{abstract}{Some acronyms are useful and are widely understood, but many of the acronyms used in scientific papers hinder understanding and contribute to the increasing fragmentation of science. Here we report the results of an analysis of more than 24 million article titles and 18 million article abstracts published between 1950 and 2019. There was at least one acronym in 19\% of the titles and 73\% of the abstracts. Acronym use has also increased over time, but the re-use of acronyms has declined. We found that from more than one million unique acronyms in our data, just over 2,000 (0.2\%) were used regularly, and most acronyms (79\%) appeared fewer than 10 times. Acronyms are not the biggest current problem in science communication, but reducing their use is a simple change that would help readers and potentially increase the value of science.}
       \field{issn}{2050-084X}
       \field{journaltitle}{eLife}
-      \field{month}{7}
       \field{title}{Meta-Research: The growth of acronyms in the scientific literature}
       \field{volume}{9}
       \field{year}{2020}
@@ -116,7 +115,6 @@
       \field{labeltitlesource}{title}
       \field{abstract}{Most previous research in text simplification has aimed to develop generic solutions, assuming very homogeneous target audiences with consistent intra-group simplification needs. We argue that this assumption does not hold, and that instead we need to develop simplification systems that adapt to the individual needs of specific users. As a first step towards personalized simplification, we propose a framework for adaptive lexical simplification and introduce Lexi, a free open-source and easily extensible tool for adaptive, personalized text simplification. Lexi is easily installed as a browser extension, enabling easy access to the service for its users.}
       \field{journaltitle}{Proceedings of the 27th International Conference on Computational Linguistics}
-      \field{month}{8}
       \field{title}{{L}exi: A tool for adaptive, personalized text simplification}
       \field{year}{2018}
       \field{dateera}{ce}
@@ -253,7 +251,6 @@
       \field{labeltitlesource}{title}
       \field{abstract}{Lexical complexity plays a central role in readability, particularly for dyslexic children and poor readers because of their slow and laborious decoding and word recognition skills. Although some features to aid readability may be common to most languages (e.g., the majority of {`}easy{'} words are of low frequency), we believe that lexical complexity is mainly language-specific. In this paper, we define lexical complexity for French and we present a pilot study on the effects of text simplification in dyslexic children. The participants were asked to read out loud original and manually simplified versions of a standardized French text corpus and to answer comprehension questions after reading each text. The analysis of the results shows that the simplifications performed were beneficial in terms of reading speed and they reduced the number of reading errors (mainly lexical ones) without a loss in comprehension. Although the number of participants in this study was rather small (N=10), the results are promising and contribute to the development of applications in computational linguistics.}
       \field{journaltitle}{Proceedings of the Workshop on Computational Linguistics for Linguistic Complexity ({CL}4{LC})}
-      \field{month}{12}
       \field{title}{Reducing lexical complexity as a tool to increase text accessibility for children with dyslexia}
       \field{year}{2016}
       \field{dateera}{ce}
@@ -261,6 +258,68 @@
       \range{pages}{8}
       \verb{file}
       \verb :Reducing lexical complexity as a tool to increase text accessibility.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Garbacea2021}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=6f7b7e6d6cd38a15f6be00643ce82f71}{%
+           family={Garbacea},
+           familyi={G\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f28f6fa87c0f4949b475e02a6ad6d03}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Mengtian},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=47d71d143d2d509f11c3b42f237d5462}{%
+           family={Carton},
+           familyi={C\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ca1c136fc4a8c4c39869eeaf7fade74}{%
+           family={Mei},
+           familyi={M\bibinitperiod},
+           given={Qiaozhu},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Online}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{0b438a809bd2cd087cd72f68927dca23}
+      \strng{fullhash}{4d4c216cbeec339e7616d1cd12fa3481}
+      \strng{bibnamehash}{4d4c216cbeec339e7616d1cd12fa3481}
+      \strng{authorbibnamehash}{4d4c216cbeec339e7616d1cd12fa3481}
+      \strng{authornamehash}{0b438a809bd2cd087cd72f68927dca23}
+      \strng{authorfullhash}{4d4c216cbeec339e7616d1cd12fa3481}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Text simplification reduces the language complexity of professional content for accessibility purposes. End-to-end neural network models have been widely adopted to directly generate the simplified version of input text, usually functioning as a blackbox. We show that text simplification can be decomposed into a compact pipeline of tasks to ensure the transparency and explainability of the process. The first two steps in this pipeline are often neglected: 1) to predict whether a given piece of text needs to be simplified, and 2) if yes, to identify complex parts of the text. The two tasks can be solved separately using either lexical or deep learning methods, or solved jointly. Simply applying explainable complexity prediction as a preliminary step, the out-of-sample text simplification performance of the state-of-the-art, black-box simplification models can be improved by a large margin.}
+      \field{journaltitle}{Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)}
+      \field{title}{Explainable Prediction of Text Complexity: The Missing Preliminaries for Text Simplification}
+      \field{year}{2021}
+      \field{pages}{1086\bibrangedash 1097}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.18653/v1/2021.acl-long.88
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/2021.acl-long.88
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2021.acl-long.88
       \endverb
     \endentry
     \entry{Martens2021}{online}{}
@@ -371,40 +430,6 @@
       \verb https://data-en-maatschappij.ai/nieuws/school-innovation-forum-2021
       \endverb
     \endentry
-    \entry{Miszczak2022}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=1acc8b310aa98998ee298879bf5f5740}{%
-           family={Miszczak},
-           familyi={M\bibinitperiod},
-           given={Patryk},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{1acc8b310aa98998ee298879bf5f5740}
-      \strng{fullhash}{1acc8b310aa98998ee298879bf5f5740}
-      \strng{bibnamehash}{1acc8b310aa98998ee298879bf5f5740}
-      \strng{authorbibnamehash}{1acc8b310aa98998ee298879bf5f5740}
-      \strng{authornamehash}{1acc8b310aa98998ee298879bf5f5740}
-      \strng{authorfullhash}{1acc8b310aa98998ee298879bf5f5740}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{20}
-      \field{month}{9}
-      \field{title}{Natural Language Processing Statistics (2022)}
-      \field{year}{2022}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://businessolution.org/natural-language-processing-statistics/
-      \endverb
-      \verb{url}
-      \verb https://businessolution.org/natural-language-processing-statistics/
-      \endverb
-    \endentry
     \entry{PlavenSigray2017}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=e0937b5b8d7347d247d3386989e98477}{%
@@ -464,7 +489,6 @@
       \field{abstract}{Clarity and accuracy of reporting are fundamental to the scientific process. Readability formulas can estimate how difficult a text is to read. Here, in a corpus consisting of 709,577 abstracts published between 1881 and 2015 from 123 scientific journals, we show that the readability of science is steadily decreasing. Our analyses show that this trend is indicative of a growing use of general scientific jargon. These results are concerning for scientists and for the wider public, as they impact both the reproducibility and accessibility of research findings.}
       \field{issn}{2050-084X}
       \field{journaltitle}{eLife}
-      \field{month}{9}
       \field{title}{Research: The readability of scientific texts is decreasing over time}
       \field{volume}{6}
       \field{year}{2017}
@@ -750,7 +774,6 @@
       \field{abstract}{Some acronyms are useful and are widely understood, but many of the acronyms used in scientific papers hinder understanding and contribute to the increasing fragmentation of science. Here we report the results of an analysis of more than 24 million article titles and 18 million article abstracts published between 1950 and 2019. There was at least one acronym in 19\% of the titles and 73\% of the abstracts. Acronym use has also increased over time, but the re-use of acronyms has declined. We found that from more than one million unique acronyms in our data, just over 2,000 (0.2\%) were used regularly, and most acronyms (79\%) appeared fewer than 10 times. Acronyms are not the biggest current problem in science communication, but reducing their use is a simple change that would help readers and potentially increase the value of science.}
       \field{issn}{2050-084X}
       \field{journaltitle}{eLife}
-      \field{month}{7}
       \field{title}{Meta-Research: The growth of acronyms in the scientific literature}
       \field{volume}{9}
       \field{year}{2020}
@@ -800,7 +823,6 @@
       \field{labeltitlesource}{title}
       \field{abstract}{Most previous research in text simplification has aimed to develop generic solutions, assuming very homogeneous target audiences with consistent intra-group simplification needs. We argue that this assumption does not hold, and that instead we need to develop simplification systems that adapt to the individual needs of specific users. As a first step towards personalized simplification, we propose a framework for adaptive lexical simplification and introduce Lexi, a free open-source and easily extensible tool for adaptive, personalized text simplification. Lexi is easily installed as a browser extension, enabling easy access to the service for its users.}
       \field{journaltitle}{Proceedings of the 27th International Conference on Computational Linguistics}
-      \field{month}{8}
       \field{title}{{L}exi: A tool for adaptive, personalized text simplification}
       \field{year}{2018}
       \field{dateera}{ce}
@@ -937,7 +959,6 @@
       \field{labeltitlesource}{title}
       \field{abstract}{Lexical complexity plays a central role in readability, particularly for dyslexic children and poor readers because of their slow and laborious decoding and word recognition skills. Although some features to aid readability may be common to most languages (e.g., the majority of {`}easy{'} words are of low frequency), we believe that lexical complexity is mainly language-specific. In this paper, we define lexical complexity for French and we present a pilot study on the effects of text simplification in dyslexic children. The participants were asked to read out loud original and manually simplified versions of a standardized French text corpus and to answer comprehension questions after reading each text. The analysis of the results shows that the simplifications performed were beneficial in terms of reading speed and they reduced the number of reading errors (mainly lexical ones) without a loss in comprehension. Although the number of participants in this study was rather small (N=10), the results are promising and contribute to the development of applications in computational linguistics.}
       \field{journaltitle}{Proceedings of the Workshop on Computational Linguistics for Linguistic Complexity ({CL}4{LC})}
-      \field{month}{12}
       \field{title}{Reducing lexical complexity as a tool to increase text accessibility for children with dyslexia}
       \field{year}{2016}
       \field{dateera}{ce}
@@ -945,6 +966,68 @@
       \range{pages}{8}
       \verb{file}
       \verb :Reducing lexical complexity as a tool to increase text accessibility.pdf:PDF
+      \endverb
+    \endentry
+    \entry{Garbacea2021}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=6f7b7e6d6cd38a15f6be00643ce82f71}{%
+           family={Garbacea},
+           familyi={G\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f28f6fa87c0f4949b475e02a6ad6d03}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Mengtian},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=47d71d143d2d509f11c3b42f237d5462}{%
+           family={Carton},
+           familyi={C\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ca1c136fc4a8c4c39869eeaf7fade74}{%
+           family={Mei},
+           familyi={M\bibinitperiod},
+           given={Qiaozhu},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Online}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{0b438a809bd2cd087cd72f68927dca23}
+      \strng{fullhash}{4d4c216cbeec339e7616d1cd12fa3481}
+      \strng{bibnamehash}{4d4c216cbeec339e7616d1cd12fa3481}
+      \strng{authorbibnamehash}{4d4c216cbeec339e7616d1cd12fa3481}
+      \strng{authornamehash}{0b438a809bd2cd087cd72f68927dca23}
+      \strng{authorfullhash}{4d4c216cbeec339e7616d1cd12fa3481}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Text simplification reduces the language complexity of professional content for accessibility purposes. End-to-end neural network models have been widely adopted to directly generate the simplified version of input text, usually functioning as a blackbox. We show that text simplification can be decomposed into a compact pipeline of tasks to ensure the transparency and explainability of the process. The first two steps in this pipeline are often neglected: 1) to predict whether a given piece of text needs to be simplified, and 2) if yes, to identify complex parts of the text. The two tasks can be solved separately using either lexical or deep learning methods, or solved jointly. Simply applying explainable complexity prediction as a preliminary step, the out-of-sample text simplification performance of the state-of-the-art, black-box simplification models can be improved by a large margin.}
+      \field{journaltitle}{Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)}
+      \field{title}{Explainable Prediction of Text Complexity: The Missing Preliminaries for Text Simplification}
+      \field{year}{2021}
+      \field{pages}{1086\bibrangedash 1097}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.18653/v1/2021.acl-long.88
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/2021.acl-long.88
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2021.acl-long.88
       \endverb
     \endentry
     \entry{Martens2021}{online}{}
@@ -1055,40 +1138,6 @@
       \verb https://data-en-maatschappij.ai/nieuws/school-innovation-forum-2021
       \endverb
     \endentry
-    \entry{Miszczak2022}{online}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=1acc8b310aa98998ee298879bf5f5740}{%
-           family={Miszczak},
-           familyi={M\bibinitperiod},
-           given={Patryk},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{1acc8b310aa98998ee298879bf5f5740}
-      \strng{fullhash}{1acc8b310aa98998ee298879bf5f5740}
-      \strng{bibnamehash}{1acc8b310aa98998ee298879bf5f5740}
-      \strng{authorbibnamehash}{1acc8b310aa98998ee298879bf5f5740}
-      \strng{authornamehash}{1acc8b310aa98998ee298879bf5f5740}
-      \strng{authorfullhash}{1acc8b310aa98998ee298879bf5f5740}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{20}
-      \field{month}{9}
-      \field{title}{Natural Language Processing Statistics (2022)}
-      \field{year}{2022}
-      \field{dateera}{ce}
-      \verb{urlraw}
-      \verb https://businessolution.org/natural-language-processing-statistics/
-      \endverb
-      \verb{url}
-      \verb https://businessolution.org/natural-language-processing-statistics/
-      \endverb
-    \endentry
     \entry{PlavenSigray2017}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=e0937b5b8d7347d247d3386989e98477}{%
@@ -1148,7 +1197,6 @@
       \field{abstract}{Clarity and accuracy of reporting are fundamental to the scientific process. Readability formulas can estimate how difficult a text is to read. Here, in a corpus consisting of 709,577 abstracts published between 1881 and 2015 from 123 scientific journals, we show that the readability of science is steadily decreasing. Our analyses show that this trend is indicative of a growing use of general scientific jargon. These results are concerning for scientists and for the wider public, as they impact both the reproducibility and accessibility of research findings.}
       \field{issn}{2050-084X}
       \field{journaltitle}{eLife}
-      \field{month}{9}
       \field{title}{Research: The readability of scientific texts is decreasing over time}
       \field{volume}{6}
       \field{year}{2017}

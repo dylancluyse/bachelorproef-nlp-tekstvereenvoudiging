@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.9)  9 FEB 2023 14:52
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.9)  9 FEB 2023 18:30
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1423,84 +1423,65 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 \TU/Montserrat(2)/m/n/8 2030-stem-competenties-voor-een-toekomst-en-
  []
 
-
-Overfull \hbox (4.1557pt too wide) in paragraph at lines 10--11
-\TU/Montserrat(2)/m/n/10 waarmee een toepassing rekening mee moet hou-
- []
-
-
-Overfull \hbox (2.06567pt too wide) in paragraph at lines 10--11
-\TU/Montserrat(2)/m/n/10 zelfgemaakte pipeline voor tekstvereenvoudiging.
- []
-
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
 [1
 
 
 ]
-Overfull \hbox (1.73572pt too wide) in paragraph at lines 20--21
+Overfull \hbox (5.60902pt too wide) in paragraph at lines 20--21
+\TU/Montserrat(2)/m/n/10 mentatie beschikbaar waar onderzoekers het voor-
+ []
+
+
+Overfull \hbox (1.73572pt too wide) in paragraph at lines 22--23
 \TU/Montserrat(2)/m/n/10 is om ingewikkelde bronnen toegankelijker te ma-
  []
 
 
-Overfull \hbox (0.98901pt too wide) in paragraph at lines 22--23
+Overfull \hbox (0.98901pt too wide) in paragraph at lines 24--25
 []\TU/Montserrat(2)/m/n/10 Tekstvereenvoudiging behoort tot de zijtak van
  []
 
 
-Overfull \hbox (3.11237pt too wide) in paragraph at lines 27--28
+Overfull \hbox (3.11237pt too wide) in paragraph at lines 29--30
 []\TU/Montserrat(2)/m/n/10 Gala en Ziegler ([][]2016[][]) illustreert dat manue
 le tekst-
- []
-
-
-Overfull \hbox (18.54567pt too wide) in paragraph at lines 27--28
-\TU/Montserrat(2)/m/n/10 vereenvoudiging schoolteksten toegankelijker maakt
- []
-
-
-Overfull \hbox (2.11787pt too wide) in paragraph at lines 37--38
-\TU/Montserrat(2)/m/n/10 gebruik van Engelstalige invoer. Niet-Engelstalige
  []
 
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
 [2]
-Overfull \hbox (7.33237pt too wide) in paragraph at lines 40--41
-\TU/Montserrat(2)/m/n/10 focus ligt echter op spreek- en luistersoftware waar-
+Overfull \hbox (2.11787pt too wide) in paragraph at lines 39--40
+\TU/Montserrat(2)/m/n/10 gebruik van Engelstalige invoer. Niet-Engelstalige
  []
 
 
-Overfull \hbox (6.60121pt too wide) in paragraph at lines 42--43
-\TU/Montserrat(2)/m/n/10 verschillende samenvattingstools beschikbaar. En-
+Overfull \hbox (7.81287pt too wide) in paragraph at lines 42--43
+\TU/Montserrat(2)/m/n/10 naamste zijn SprintPlus[][][][][], Alinea[][][][][] en
+ Kurzweil3000[][][][][].
  []
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 54--55
-[]\TU/Montserrat(2)/m/n/10 Om de transformatie van tekstvereenvoudi-
+Overfull \hbox (5.00038pt too wide) in paragraph at lines 42--43
+\TU/Montserrat(2)/m/n/10 menvattingsfunctie, de focus ligt echter op spreek-
  []
 
 
-Overfull \hbox (9.24504pt too wide) in paragraph at lines 56--57
-\TU/Montserrat(2)/m/n/10 test neemt drie factoren, namelijk zinlengte, woord-
+Overfull \hbox (0.95233pt too wide) in paragraph at lines 56--57
+\TU/Montserrat(2)/m/n/10 Moeilijke wiskundige berekeningen of statistische
  []
 
 File: img/Screenshot_302.png Graphic file (type bmp)
 <img/Screenshot_302.png>
 
-Overfull \hbox (3.63904pt too wide) in paragraph at lines 74--75
+Overfull \hbox (3.63904pt too wide) in paragraph at lines 77--78
 \TU/Montserrat(2)/m/n/10 delen van tekstvereenvoudiging bij scholieren met
  []
 
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
-[3]
-Overfull \hbox (5.03905pt too wide) in paragraph at lines 80--81
-\TU/Montserrat(2)/m/n/10 over de beschikbare Nederlandstalige AI-tools voor
- []
-
-)
+[3])
 Overfull \hbox (0.17401pt too wide) in paragraph at lines 47--47
 [][]\TU/Montserrat(2)/m/n/10 Barnett, A., & Doubleday, Z. (2020). Meta-Research
 :
@@ -1511,7 +1492,9 @@ Overfull \hbox (3.01402pt too wide) in paragraph at lines 47--47
 \TU/Montserrat(2)/m/n/10 Students with dyslexia between school and
  []
 
-
+File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
+<img//HOGENT_Logo_Pos_rgb.png>
+[4]
 Overfull \hbox (7.49068pt too wide) in paragraph at lines 47--47
 [][][][][][][][][][][][] [] [][] [] [][][][][][] [] [][][][][][] [][] [][][][][
 ][][][][][] [][]
@@ -1523,9 +1506,7 @@ Overfull \hbox (9.09253pt too wide) in paragraph at lines 47--47
 [][]$[][][][][] [] [] [] [][][][][][][][] []
  []
 
-File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
-<img//HOGENT_Logo_Pos_rgb.png>
-[4]
+
 Overfull \hbox (15.33923pt too wide) in paragraph at lines 47--47
 \TU/Montserrat(2)/m/n/10 lexics. \TU/Montserrat(2)/m/it/10 Proceedings of the I
 nternational Cross-
@@ -1574,28 +1555,20 @@ File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 [5
 
 ] (CluyseDylan-BPvoorstel.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `CluyseDylan-BPvoorstel.out' has not changed.
 
 (rerunfilecheck)             Checksum: 2486E0888F0C4C851FED5AD1F3E3A95F;616.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                CluyseDylan-BPvoorstel
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'CluyseDylan-BPvoorstel.run.xml'.
 \openout1 = `CluyseDylan-BPvoorstel.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27657 strings out of 410532
- 521562 string characters out of 2813299
+ 27658 strings out of 410532
+ 521573 string characters out of 2813299
  1523065 words of memory out of 3000000
- 48466 multiletter control sequences out of 15000+600000
+ 48467 multiletter control sequences out of 15000+600000
  473477 words of font info for 101 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,12n,128p,1436b,5524s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,13n,128p,1436b,5716s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 Output written on CluyseDylan-BPvoorstel.pdf (5 pages).

@@ -1,22 +1,19 @@
 [0] Config.pm:306> INFO - This is Biber 2.18
 [0] Config.pm:309> INFO - Logfile is 'CluyseDylan-BPvoorstel.blg'
-[182] biber-MSWIN64:340> INFO - === 
-[231] Biber.pm:418> INFO - Reading 'CluyseDylan-BPvoorstel.bcf'
-[464] Biber.pm:978> INFO - Found 15 citekeys in bib section 0
-[505] Biber.pm:4401> INFO - Processing section 0
-[526] Biber.pm:4592> INFO - Looking for bibtex file 'voorstel.bib' for section 0
-[597] bibtex.pm:1713> INFO - LaTeX decoding ...
-[653] bibtex.pm:1518> INFO - Found BibTeX data source 'voorstel.bib'
-[952] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[952] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[952] Biber.pm:4221> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[952] Biber.pm:4227> INFO - No sort tailoring available for locale 'nl-NL'
-[1008] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1008] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1008] Biber.pm:4221> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[1008] Biber.pm:4227> INFO - No sort tailoring available for locale 'nl-NL'
-[1046] bbl.pm:654> INFO - Writing 'CluyseDylan-BPvoorstel.bbl' with encoding 'UTF-8'
-[1091] bbl.pm:757> INFO - Output to CluyseDylan-BPvoorstel.bbl
-[1091] Biber.pm:130> WARN - legacy month field 'sep' in entry 'PlavenSigray2017' is not an integer - this will probably not sort properly.
-[1092] Biber.pm:130> WARN - legacy month field 'jul' in entry 'Barnett2020' is not an integer - this will probably not sort properly.
-[1092] Biber.pm:132> INFO - WARNINGS: 2
+[140] biber-MSWIN64:340> INFO - === 
+[175] Biber.pm:418> INFO - Reading 'CluyseDylan-BPvoorstel.bcf'
+[338] Biber.pm:978> INFO - Found 15 citekeys in bib section 0
+[362] Biber.pm:4401> INFO - Processing section 0
+[374] Biber.pm:4592> INFO - Looking for bibtex file 'voorstel.bib' for section 0
+[439] bibtex.pm:1713> INFO - LaTeX decoding ...
+[480] bibtex.pm:1518> INFO - Found BibTeX data source 'voorstel.bib'
+[662] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[662] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[662] Biber.pm:4221> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[662] Biber.pm:4227> INFO - No sort tailoring available for locale 'nl-NL'
+[701] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[701] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[701] Biber.pm:4221> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[701] Biber.pm:4227> INFO - No sort tailoring available for locale 'nl-NL'
+[727] bbl.pm:654> INFO - Writing 'CluyseDylan-BPvoorstel.bbl' with encoding 'UTF-8'
+[753] bbl.pm:757> INFO - Output to CluyseDylan-BPvoorstel.bbl

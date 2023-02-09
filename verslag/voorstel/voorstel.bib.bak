@@ -207,11 +207,36 @@ In the second part of the talk, I will showcase some of the properties exhibited
   url    = {https://www.demorgen.be/snelnieuws/scholen-krijgen-meer-steun-om-leerlingen-met-beperking-op-te-vangen~bb2469df/},
 }
 
-@Online{,
+@Online{Miszczak2022,
   author = {Patryk Miszczak},
   date   = {2022-09-20},
   title  = {Natural Language Processing Statistics (2022)},
   url    = {https://businessolution.org/natural-language-processing-statistics/},
+}
+
+@InProceedings{Garbacea2021,
+  author    = {Garbacea, Cristina and Guo, Mengtian and Carton, Samuel and Mei, Qiaozhu},
+  booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)},
+  title     = {Explainable Prediction of Text Complexity: The Missing Preliminaries for Text Simplification},
+  doi       = {10.18653/v1/2021.acl-long.88},
+  pages     = {1086--1097},
+  publisher = {Association for Computational Linguistics},
+  url       = {https://aclanthology.org/2021.acl-long.88},
+  abstract  = {Text simplification reduces the language complexity of professional content for accessibility purposes. End-to-end neural network models have been widely adopted to directly generate the simplified version of input text, usually functioning as a blackbox. We show that text simplification can be decomposed into a compact pipeline of tasks to ensure the transparency and explainability of the process. The first two steps in this pipeline are often neglected: 1) to predict whether a given piece of text needs to be simplified, and 2) if yes, to identify complex parts of the text. The two tasks can be solved separately using either lexical or deep learning methods, or solved jointly. Simply applying explainable complexity prediction as a preliminary step, the out-of-sample text simplification performance of the state-of-the-art, black-box simplification models can be improved by a large margin.},
+  address   = {Online},
+  year      = {2021},
+}
+
+@Article{Bulté_Sevens_Vandeghinste_2018,
+  author       = {Bulté, Bram and Sevens, Leen and Vandeghinste, Vincent},
+  title        = {Automating lexical simplification in Dutch},
+  pages        = {24–48},
+  url          = {https://clinjournal.org/clinj/article/view/78},
+  volume       = {8},
+  abstractnote = {&amp;lt;p&amp;gt;We discuss the design, development and evaluation of an automated lexical simplification tool for Dutch. A basic pipeline approach is used to perform both text adaptation and annotation. First, sentences are preprocessed and word sense disambiguation is performed. Then, the difficulty of each token is estimated by looking at their average age of acquisition and frequency in a corpus of simplified Dutch. We use Cornetto to find synonyms of words that have been identified as difficult and the SONAR500 corpus to perform reverse lemmatisation. Finally, we rely on a largescale language model to verify whether the selected replacement word fits the local context. In addition, the text is augmented with information from Wikipedia (word definitions and links). We tune and evaluate the system with sentences taken from the Flemish newspaper De Standaard. The results show that the system’s adaptation component has low coverage, since it only correctly simplifies around one in five ‘difficult’ words, but reasonable accuracy, with no grammatical errors being introduced in the text. The Wikipedia annotations have a broader coverage, but their potential for simplification needs to be further developed and more thoroughly evaluated.&amp;lt;/p&amp;gt;},
+  journal      = {Computational Linguistics in the Netherlands Journal},
+  month        = {Dec.},
+  year         = {2018},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}
