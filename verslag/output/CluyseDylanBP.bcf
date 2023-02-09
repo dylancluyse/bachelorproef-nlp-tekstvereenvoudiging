@@ -2812,32 +2812,35 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">../voorstel/voorstel.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Gooding2022</bcf:citekey>
     <bcf:citekey order="2">Crevits2022</bcf:citekey>
-    <bcf:citekey order="3">Siddharthan2014</bcf:citekey>
-    <bcf:citekey order="4">Sciforce2020</bcf:citekey>
-    <bcf:citekey order="5">Chowdhary2020</bcf:citekey>
+    <bcf:citekey order="3">Gooding2022</bcf:citekey>
+    <bcf:citekey order="4">Siddharthan2014</bcf:citekey>
+    <bcf:citekey order="5">Sciforce2020</bcf:citekey>
     <bcf:citekey order="6">Chowdhary2020</bcf:citekey>
-    <bcf:citekey order="7">Rello2012</bcf:citekey>
+    <bcf:citekey order="7">Chowdhary2020</bcf:citekey>
     <bcf:citekey order="8">Rello2012</bcf:citekey>
-    <bcf:citekey order="9">Gala2016</bcf:citekey>
+    <bcf:citekey order="9">Rello2012</bcf:citekey>
     <bcf:citekey order="10">Gala2016</bcf:citekey>
-    <bcf:citekey order="11">Bingel2018</bcf:citekey>
+    <bcf:citekey order="11">Gala2016</bcf:citekey>
     <bcf:citekey order="12">Bingel2018</bcf:citekey>
-    <bcf:citekey order="13">PlavenSigray2017</bcf:citekey>
+    <bcf:citekey order="13">Bingel2018</bcf:citekey>
     <bcf:citekey order="14">PlavenSigray2017</bcf:citekey>
-    <bcf:citekey order="15">Barnett2020</bcf:citekey>
+    <bcf:citekey order="15">PlavenSigray2017</bcf:citekey>
     <bcf:citekey order="16">Barnett2020</bcf:citekey>
-    <bcf:citekey order="17">Donato2022</bcf:citekey>
+    <bcf:citekey order="17">Barnett2020</bcf:citekey>
     <bcf:citekey order="18">Donato2022</bcf:citekey>
-    <bcf:citekey order="19">Roldos2020</bcf:citekey>
-    <bcf:citekey order="20">Sciforce2020</bcf:citekey>
-    <bcf:citekey order="21">Martens2021</bcf:citekey>
-    <bcf:citekey order="22">Martens2021a</bcf:citekey>
-    <bcf:citekey order="23">Swayamdipta2019</bcf:citekey>
-    <bcf:citekey order="24">Swayamdipta2019</bcf:citekey>
-    <bcf:citekey order="25">Readable2021</bcf:citekey>
-    <bcf:citekey order="26">Readable2021</bcf:citekey>
+    <bcf:citekey order="19">Donato2022</bcf:citekey>
+    <bcf:citekey order="20">Roldos2020</bcf:citekey>
+    <bcf:citekey order="21">Sciforce2020</bcf:citekey>
+    <bcf:citekey order="22">Martens2021</bcf:citekey>
+    <bcf:citekey order="23">Martens2021a</bcf:citekey>
+    <bcf:citekey order="24">Garbacea2021</bcf:citekey>
+    <bcf:citekey order="25">Garbacea2021</bcf:citekey>
+    <bcf:citekey order="26">Swayamdipta2019</bcf:citekey>
+    <bcf:citekey order="27">Swayamdipta2019</bcf:citekey>
+    <bcf:citekey order="28">Readable2021</bcf:citekey>
+    <bcf:citekey order="29">Readable2021</bcf:citekey>
+    <bcf:citekey order="30">Readable2021</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

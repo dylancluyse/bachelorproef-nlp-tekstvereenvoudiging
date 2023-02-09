@@ -297,6 +297,68 @@
       \verb :Reducing lexical complexity as a tool to increase text accessibility.pdf:PDF
       \endverb
     \endentry
+    \entry{Garbacea2021}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=6f7b7e6d6cd38a15f6be00643ce82f71}{%
+           family={Garbacea},
+           familyi={G\bibinitperiod},
+           given={Cristina},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f28f6fa87c0f4949b475e02a6ad6d03}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Mengtian},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=47d71d143d2d509f11c3b42f237d5462}{%
+           family={Carton},
+           familyi={C\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ca1c136fc4a8c4c39869eeaf7fade74}{%
+           family={Mei},
+           familyi={M\bibinitperiod},
+           given={Qiaozhu},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Online}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{0b438a809bd2cd087cd72f68927dca23}
+      \strng{fullhash}{4d4c216cbeec339e7616d1cd12fa3481}
+      \strng{bibnamehash}{4d4c216cbeec339e7616d1cd12fa3481}
+      \strng{authorbibnamehash}{4d4c216cbeec339e7616d1cd12fa3481}
+      \strng{authornamehash}{0b438a809bd2cd087cd72f68927dca23}
+      \strng{authorfullhash}{4d4c216cbeec339e7616d1cd12fa3481}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Text simplification reduces the language complexity of professional content for accessibility purposes. End-to-end neural network models have been widely adopted to directly generate the simplified version of input text, usually functioning as a blackbox. We show that text simplification can be decomposed into a compact pipeline of tasks to ensure the transparency and explainability of the process. The first two steps in this pipeline are often neglected: 1) to predict whether a given piece of text needs to be simplified, and 2) if yes, to identify complex parts of the text. The two tasks can be solved separately using either lexical or deep learning methods, or solved jointly. Simply applying explainable complexity prediction as a preliminary step, the out-of-sample text simplification performance of the state-of-the-art, black-box simplification models can be improved by a large margin.}
+      \field{journaltitle}{Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)}
+      \field{title}{Explainable Prediction of Text Complexity: The Missing Preliminaries for Text Simplification}
+      \field{year}{2021}
+      \field{pages}{1086\bibrangedash 1097}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.18653/v1/2021.acl-long.88
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/2021.acl-long.88
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2021.acl-long.88
+      \endverb
+    \endentry
     \entry{Gooding2022}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=641874c2c50473d46ebdd78ff57c967d}{%

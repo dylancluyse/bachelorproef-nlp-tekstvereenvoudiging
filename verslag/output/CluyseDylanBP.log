@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  8 FEB 2023 19:52
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  9 FEB 2023 22:28
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2264,42 +2264,32 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 95.
 
  [5
 
-] (../output/CluyseDylanBP.lof)
+] [6] (../output/CluyseDylanBP.lof
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `FiraMathRegular' (encoding: TU).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 10.95116pt on input line 14.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 7.88484pt on input line 14.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 6.35167pt on input line 14.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 10.94882pt on input line 14.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 7.88315pt on input line 14.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 6.35031pt on input line 14.
+)
 \tf@lof=\write11
 \openout11 = `CluyseDylanBP.lof'.
 
- [6
+ [7
 
 ]
 (./inleiding.tex
 Hoofdstuk 1.
-[1
-
-
-] [2]) (./standvanzaken.tex [3]
-Hoofdstuk 2.
-[4
-
-]) [5] [6]
-
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 26.66998pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.66998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
-
-[7] (./methodologie.tex [8]
-Hoofdstuk 3.
-[9
-
-]) (./conclusie.tex [10]
-Hoofdstuk 4.
-[11
-
-]) [12]
-B\babelshorthand{"y}lage A.
-(../voorstel/voorstel-inhoud.tex
 
 Package fontspec Info: Font family 'Montserrat(4)' created for font
 (fontspec)             'Montserrat' with options
@@ -2334,97 +2324,102 @@ ping=tex-text;"
 (fontspec)             <->"Montserrat/BI/OT:script=latn;language=dflt;+sups;+sm
 cp;mapping=tex-text;"
 
+[1
 
-Overfull \hbox (1.08932pt too wide) in paragraph at lines 7--8
-\TU/Montserrat(1)/m/n/10.95 te starten, uit de grond gestampt. Het amai!-projec
-t [][][][][] verenigt AI-softwarebedrijven
- []
-
-[13
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
+Overfull \hbox (17.41185pt too wide) in paragraph at lines 31--32
+[]\TU/Montserrat(1)/m/n/10.95 Wetenschappelijke artikelen vereenvoudigen kost t
+ijd en energie voor STEM-docenten
+ []
+
+[2] [3]) (./standvanzaken.tex [4]
+Hoofdstuk 2.
+[5
+
+] [6]) [7] [8]
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 26.66998pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.66998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
+
+[9] (./methodologie.tex [10]
+Hoofdstuk 3.
+[11
+
+]) (./conclusie.tex [12]
+Hoofdstuk 4.
+[13
+
+]) [14]
+B\babelshorthand{"y}lage A.
+(../voorstel/voorstel-inhoud.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
 [][][][]\TU/Montserrat(2)/m/n/9 https://www.vlaanderen.be/publicaties/stem-agen
 da-2030-stem-competenties-voor-een-
  []
 
 
-Overfull \hbox (6.35603pt too wide) in paragraph at lines 9--11
-[]\TU/Montserrat(1)/m/n/10.95 Het STEM-agenda[][][][][] van de Vlaamse Overheid
- omvat aandachtspunten om het STEM-
+Overfull \hbox (4.27795pt too wide) in paragraph at lines 8--9
+\TU/Montserrat(1)/m/n/10.95 werkdruk bij leraren en scholieren in het middelbaa
+r onderwijs ligt torenhoog. STEM
  []
 
+[15
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--11
-
+]
+Overfull \hbox (4.72691pt too wide) in paragraph at lines 20--21
+\TU/Montserrat(1)/m/n/10.95 toename in kennis zorgde voor nieuwe toepassingen. 
+Tekstvereenvoudiging vloeide
  []
 
-[14] [15]
+[16] [17]
 Overfull \hbox (8.7273pt too wide) in paragraph at lines 37--38
 \TU/Montserrat(1)/m/n/10.95 op uitdagingen. Het gaat om zowel interpretatie- al
 s dataproblemen bij AI-machines.
  []
 
-[16]
+[18]
 File: img/Screenshot_302.png Graphic file (type bmp)
 <img/Screenshot_302.png>
- [17]
-Overfull \hbox (5.59319pt too wide) in paragraph at lines 84--85
-[]\TU/Montserrat(1)/m/n/10.95 De zesde fase omschrijft een technisch uitwerking
- van een tekstvereenvoudigingspi-
- []
-
-[18]
-Overfull \hbox (0.27292pt too wide) in paragraph at lines 86--87
+ [19] [20]
+Overfull \hbox (0.27292pt too wide) in paragraph at lines 85--86
 \TU/Montserrat(1)/m/n/10.95 schappelijke papers, die in een derde graad middelb
 aar onderwijs worden gebruikt,
  []
 
-) [19]
+) [21]
 Overfull \hbox (17.6088pt too wide) in paragraph at lines 172--172
 \TU/Montserrat(1)/m/n/10.95 E. M. (2022). Students with dyslexia between school
  and university: Post-diploma
  []
 
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `FiraMathRegular' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 172.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 7.88484pt on input line 172.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 6.35167pt on input line 172.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 172.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 7.88315pt on input line 172.
-LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 6.35031pt on input line 172.
 
 Overfull \hbox (0.81898pt too wide) in paragraph at lines 172--172
 \TU/Montserrat(2)/m/it/10.95 shop on Speech and Language Processing for Assisti
 ve Technologies (SLPAT-
  []
 
-[20
+[22
 
 
-] [21] (../output/CluyseDylanBP.aux)
+] [23] (../output/CluyseDylanBP.aux)
 Package rerunfilecheck Info: File `CluyseDylanBP.out' has not changed.
-(rerunfilecheck)             Checksum: 69A183EB7EE5E6393FA2005C492E830D;2294.
+(rerunfilecheck)             Checksum: ABC02988492AC0D6D82ABA56EFD6548D;2381.
 Package logreq Info: Writing requests to 'CluyseDylanBP.run.xml'.
 \openout1 = `CluyseDylanBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46274 strings out of 478657
- 902540 string characters out of 5861312
- 2005045 words of memory out of 5000000
- 65057 multiletter control sequences out of 15000+600000
- 406474 words of font info for 97 fonts, out of 8000000 for 9000
+ 46284 strings out of 478657
+ 902822 string characters out of 5861312
+ 2005108 words of memory out of 5000000
+ 65066 multiletter control sequences out of 15000+600000
+ 406482 words of font info for 98 fonts, out of 8000000 for 9000
  351 hyphenation exceptions out of 8191
- 113i,11n,139p,1680b,5376s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 113i,11n,139p,1680b,7099s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../output/CluyseDylanBP.xdv (27 pages, 575620 bytes).
+Output written on ../output/CluyseDylanBP.xdv (30 pages, 622324 bytes).

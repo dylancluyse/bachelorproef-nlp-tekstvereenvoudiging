@@ -6,28 +6,60 @@
 % TODO
 Inleiding
 
+\subsection{Natural Language Processing}
+
+Natuurlijke taalverwerking of NLP is een brede term die zich richt op het verwerken en analyseren van menselijke taal door computers en andere technologieën. Het omvat verschillende technieken, zoals tekstanalyse, taalherkenning en -generatie, spraakherkenning en -synthese, en semantische analyse. Computers zijn ertoe in staat om op een menselijke manier te communiceren en begrijpen wat er wordt gezegd. Vooraleer het onderzoek zich verdiept in hoe teksten worden vereenvoudigd, moeten er eerst begrippen worden aangehaald die noodzakelijk zijn om de volgende fasen te kunnen uitleggen.
+
+\begin{itemize}
+	\item Tokenisatie
+	\item Lemmatizatie en omgekeerde lemmatizatie
+	\item \textit{Parsing}
+\end{itemize}
+
+\subsubsection{Tokenisatie}
+
+% https://dair.ai/notebooks/nlp/2020/03/19/nlp_basics_tokenization_segmentation.html
+
+Om de basisvorm of stam van woorden in een tekst te gaan opsplitsen, wordt tokenisatie ingezet. Gebruikelijk wordt deze stap door ontwikkelaars ingezet om een woordenschat voor een taalmodel op te bouwen. Bij tokenisatie wordt er geen rekening gehouden met de betekenis achter ieder woord.
+
+
+\subsubsection{Lemmatiseren en parsen}
+
+https://www.flex4medics.nl/5445-2/
+
+Lemmatiseren in NLP bouwt verder op \textit{stemming}, maar de betekenis van ieder woord wordt in acht genomen. Voor het lemmatiseren bestaan er Nederlandstalige modellen, waaronder JohnSnow\footnote{https://nlp.johnsnowlabs.com/2020/05/03/lemma\_nl.html}. Bij omgekeerd lemmatiseren wordt er een afgeleide achterhaald vanuit de stam. Bijvoorbeeld voor het werkwoord 'zijn' zou dit 'is', 'was' of 'ben' zijn. Voor zelfstandige naamwoorden, zoals 'hond', is dit dan enkelvoud of meervoud.
+
+Bij een parsing-fase wordt er een label aan ieder woord of zinsdeel toegekend. Voorbeelden van labels zijn zelfstandig naamwoord, bijwoord, werkwoord, bijzin of stopwoord. Het herkennen van zinsdelen wordt \textit{chunking} genoemd. Parsing heeft een dubbelzinnigheidsprobleem, want een 'plant' staat niet gelijk aan de vervoeging van werkwoord 'planten'. 
+
+\subsubsection{Word Sense Ambiguation}
+
+Book: Word Sense Disambiguation: Algorithms and Applications
+
+
+
 \subsubsection{Tekstvereenvoudiging}
 
-Tekstvereenvoudiging is het proces waarin het technisch leesniveau of woordgebruik van een geschreven tekst wordt verminderd. De vereenvoudiging mag geen effect hebben op de kerninhoud. Als lezer moet de basisinformatie na een tekstvereenvoudiging nog steeds terug te vinden zijn. ... haalt een definitie van tekstvereenvouding aan, namelijk "het proces dat de syntactische of lexicale vereenvoudiging van een tekst omvat en een samenhangende tekst als resultaat heeft". 
+Tekstvereenvoudiging is het proces waarin het technisch leesniveau en/of woordgebruik van een geschreven tekst wordt verminderd. 
+
+Belangrijk hierbij is dat de vereenvoudiging geen effect mag hebben op de kerninhoud. 
+
+
+
+% Als lezer moet de basisinformatie na een tekstvereenvoudiging nog steeds terug te vinden zijn. ... haalt een definitie van tekstvereenvouding aan, namelijk "het proces dat de syntactische of lexicale vereenvoudiging van een tekst omvat en een samenhangende tekst als resultaat heeft". 
 
 % todo bron aanvullen
 
 \subsubsection{Gebruiksdomeinen}
 
-
-\subsubsection{Natural Language Processing}
-
-Natuurlijke taalverwerking of NLP is een brede term die zich richt op het verwerken en analyseren van menselijke taal door computers en andere technologieën. Het omvat diverse technieken, zoals tekstanalyse, taalherkenning en -generatie, spraakherkenning en -synthese, en semantische analyse. Met NLP zijn om computers ertoe in staat om op een menselijke wijze te communiceren en begrijpen wat er gezegd wordt, en om zo taal te verrijken en te verbeteren.
-
 \section{De verschillende soorten tekstvereenvoudiging}
 
-Inleiding. Tekstvereenvoudiging is in drie vormen terug te vinden: lexicale, syntactische en semantische vereenvoudiging.
+Inleiding op de soorten tekstvereenvoudiging. Tekstvereenvoudiging is in drie vormen terug te vinden: lexicale, syntactische en semantische vereenvoudiging.
 
 \subsection{Lexicale vereenvoudiging}
 
 Bij lexicale vereenvoudiging worden complexe woorden vervangen door eenvoudigere synoniemen. Bijvoorbeeld, het woord "adhesief" kan worden vervangen door "klevend". De zinsstructuur verandert niet en zo is er garantie dat de kerninhoud en nuancering identiek blijft. Het doel van lexicale vereenvoudiging is om de complexiteit van de woordenschat te verlagen.
 
-Antwoord op waar het wordt ingezet?
+Een onderzoek van de KU Leuven (bron) ging met dit concept aan de slag. Het resultaat van hun onderzoek was een pipeline ontworpen om complexe woorden naar simpele synoniemen te vervangen. Eerst ging de tekstinhoud door een \textit{preprocessing}-fase, samen met het uitvoeren van WSE. Daarna werd de moeilijkheidsgraad van ieder token overlopen. De moeilijkheidsgraad is gebaseerd op hoe vaak een woord voorkomt in SONAR500\footnote{https://taalmaterialen.ivdnt.org/download/tstc-sonar-corpus/} een corpus met eenvoudige Nederlandstalige woorden. Synoniemen werden teruggevonden met Cornetto\footnote{https://github.com/emsrc/pycornetto}, een lexicale databank met Nederlandstalige woorden. Hiervoor gebruikten de onderzoekers een \textit{reverse lemmatization} fase.
 
 \subsection{Syntactische vereenvoudiging}
 
