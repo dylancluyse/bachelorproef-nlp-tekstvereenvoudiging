@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.9)  9 FEB 2023 18:30
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.9)  10 FEB 2023 16:01
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1423,28 +1423,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 \TU/Montserrat(2)/m/n/8 2030-stem-competenties-voor-een-toekomst-en-
  []
 
+
+Overfull \hbox (1.97458pt too wide) in paragraph at lines 10--11
+\TU/Montserrat(2)/m/n/10 sche soorten tekstvereenvoudiging er zijn. Daarna
+ []
+
+
+Overfull \hbox (3.37903pt too wide) in paragraph at lines 10--11
+\TU/Montserrat(2)/m/n/10 zoek welke taal-gerelateerde uitdagingen een toe-
+ []
+
+
+Overfull \hbox (1.5557pt too wide) in paragraph at lines 10--11
+\TU/Montserrat(2)/m/n/10 een door het onderzoek ontwikkelde pipeline voor
+ []
+
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
 [1
 
 
 ]
-Overfull \hbox (5.60902pt too wide) in paragraph at lines 20--21
+Overfull \hbox (5.60902pt too wide) in paragraph at lines 18--19
 \TU/Montserrat(2)/m/n/10 mentatie beschikbaar waar onderzoekers het voor-
  []
 
 
-Overfull \hbox (1.73572pt too wide) in paragraph at lines 22--23
+Overfull \hbox (1.73572pt too wide) in paragraph at lines 20--21
 \TU/Montserrat(2)/m/n/10 is om ingewikkelde bronnen toegankelijker te ma-
  []
 
 
-Overfull \hbox (0.98901pt too wide) in paragraph at lines 24--25
+Overfull \hbox (0.98901pt too wide) in paragraph at lines 22--23
 []\TU/Montserrat(2)/m/n/10 Tekstvereenvoudiging behoort tot de zijtak van
  []
 
 
-Overfull \hbox (3.11237pt too wide) in paragraph at lines 29--30
+Overfull \hbox (3.11237pt too wide) in paragraph at lines 27--28
 []\TU/Montserrat(2)/m/n/10 Gala en Ziegler ([][]2016[][]) illustreert dat manue
 le tekst-
  []
@@ -1452,36 +1467,61 @@ le tekst-
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
 [2]
-Overfull \hbox (2.11787pt too wide) in paragraph at lines 39--40
-\TU/Montserrat(2)/m/n/10 gebruik van Engelstalige invoer. Niet-Engelstalige
+Overfull \hbox (0.47903pt too wide) in paragraph at lines 37--38
+\TU/Montserrat(2)/m/n/10 dat het merendeel van NLP-toepassingen Engels-
  []
 
 
-Overfull \hbox (7.81287pt too wide) in paragraph at lines 42--43
+Overfull \hbox (7.81287pt too wide) in paragraph at lines 40--41
 \TU/Montserrat(2)/m/n/10 naamste zijn SprintPlus[][][][][], Alinea[][][][][] en
  Kurzweil3000[][][][][].
  []
 
 
-Overfull \hbox (5.00038pt too wide) in paragraph at lines 42--43
-\TU/Montserrat(2)/m/n/10 menvattingsfunctie, de focus ligt echter op spreek-
+Overfull \hbox (5.49568pt too wide) in paragraph at lines 40--41
+\TU/Montserrat(2)/m/n/10 en luisterfuncties waarbij het samenvatten en mar-
  []
 
 
-Overfull \hbox (0.95233pt too wide) in paragraph at lines 56--57
-\TU/Montserrat(2)/m/n/10 Moeilijke wiskundige berekeningen of statistische
+Overfull \hbox (0.11877pt too wide) in paragraph at lines 42--43
+[]\TU/Montserrat(2)/m/n/10 ChatGPT[][][][][] van OpenAI is een \TU/Montserrat(2
+)/m/it/10 chatbot \TU/Montserrat(2)/m/n/10 gebouwd
  []
 
-File: img/Screenshot_302.png Graphic file (type bmp)
-<img/Screenshot_302.png>
 
-Overfull \hbox (3.63904pt too wide) in paragraph at lines 77--78
-\TU/Montserrat(2)/m/n/10 delen van tekstvereenvoudiging bij scholieren met
+Overfull \hbox (10.57701pt too wide) in paragraph at lines 51--52
+\TU/Montserrat(2)/m/n/10 vereenvoudiging, namelijk het achterhalen waarom
  []
 
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
-[3])
+[3]
+File: img/Screenshot_302.png Graphic file (type bmp)
+<img/Screenshot_302.png>
+
+Overfull \hbox (3.63904pt too wide) in paragraph at lines 70--71
+\TU/Montserrat(2)/m/n/10 delen van tekstvereenvoudiging bij scholieren met
+ []
+
+
+Overfull \hbox (0.1857pt too wide) in paragraph at lines 80--81
+\TU/Montserrat(2)/m/n/10 stinhoud van wetenschappelijke papers die in een
+ []
+
+
+Overfull \hbox (31.63123pt too wide) in paragraph at lines 86--87
+\TU/Montserrat(2)/m/n/10 uitdagingen. Bestaande internationale AI-toepassingen
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 86--87
+\TU/Montserrat(2)/m/n/10 bieden een gelijkwaardige oplossing, al steekt
+ []
+
+)
+File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
+<img//HOGENT_Logo_Pos_rgb.png>
+ [4]
 Overfull \hbox (0.17401pt too wide) in paragraph at lines 47--47
 [][]\TU/Montserrat(2)/m/n/10 Barnett, A., & Doubleday, Z. (2020). Meta-Research
 :
@@ -1492,9 +1532,19 @@ Overfull \hbox (3.01402pt too wide) in paragraph at lines 47--47
 \TU/Montserrat(2)/m/n/10 Students with dyslexia between school and
  []
 
-File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
-<img//HOGENT_Logo_Pos_rgb.png>
-[4]
+
+Overfull \hbox (15.14258pt too wide) in paragraph at lines 47--47
+\TU/Montserrat(2)/m/n/10 Sentence Complexity in Context. \TU/Montserrat(2)/m/it
+/10 Proceedings
+ []
+
+
+Overfull \hbox (18.80519pt too wide) in paragraph at lines 47--47
+\TU/Montserrat(2)/m/it/10 and Computational Linguistics\TU/Montserrat(2)/m/n/10
+ , 186–199. [][]$[][][][][] []
+ []
+
+
 Overfull \hbox (7.49068pt too wide) in paragraph at lines 47--47
 [][][][][][][][][][][][] [] [][] [] [][][][][][] [] [][][][][][] [][] [][][][][
 ][][][][][] [][]
@@ -1543,18 +1593,34 @@ Overfull \hbox (1.27063pt too wide) in paragraph at lines 47--47
  []
 
 
+Overfull \hbox (1.63257pt too wide) in paragraph at lines 47--47
+\TU/Montserrat(2)/m/n/10 Simplification. \TU/Montserrat(2)/m/it/10 Internationa
+l Journal of Ad-
+ []
+
+
 Overfull \hbox (1.63065pt too wide) in paragraph at lines 47--47
 [][][][][][][][] [][] [][][][][][][][][][] [][] [][] [][] [][][][][][][] [][] [
 ][][][][][][][] [][]
  []
 
 
+Overfull \hbox (35.81877pt too wide) in paragraph at lines 47--47
+[][]\TU/Montserrat(2)/m/n/10 Thangarajah, V. (2019). Python current trend appli
+cations-
+ []
+
+
+Overfull \hbox (1.16733pt too wide) in paragraph at lines 47--47
+\TU/Montserrat(2)/m/it/10 studenten die ChatGPT gebruiken \TU/Montserrat(2)/m/n
+/10 (Trends,
+ []
+
+
 AED: lastpage setting LastPage
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
-[5
-
-] (CluyseDylan-BPvoorstel.aux)
+[5] (CluyseDylan-BPvoorstel.aux)
 Package rerunfilecheck Info: File `CluyseDylan-BPvoorstel.out' has not changed.
 
 (rerunfilecheck)             Checksum: 2486E0888F0C4C851FED5AD1F3E3A95F;616.
@@ -1563,12 +1629,12 @@ Package logreq Info: Writing requests to 'CluyseDylan-BPvoorstel.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27658 strings out of 410532
- 521573 string characters out of 2813299
- 1523065 words of memory out of 3000000
- 48467 multiletter control sequences out of 15000+600000
+ 27689 strings out of 410532
+ 522633 string characters out of 2813299
+ 1532376 words of memory out of 3000000
+ 48498 multiletter control sequences out of 15000+600000
  473477 words of font info for 101 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,13n,128p,1436b,5716s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,12n,128p,1436b,5716s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 Output written on CluyseDylan-BPvoorstel.pdf (5 pages).

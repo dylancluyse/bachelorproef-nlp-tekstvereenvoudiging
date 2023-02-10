@@ -1,0 +1,121 @@
+% Encoding: UTF-8
+
+@Online{Martens2021,
+  author       = {Martens, Marijn and De Wolf, Ralf and Evens, Tom},
+  date         = {2021},
+  title        = {Algoritmes en AI in de onderwijscontext: Een studie naar de perceptie, mening en houding van leerlingen en ouders in Vlaanderen},
+  url          = {https://data-en-maatschappij.ai/publicaties/survey-onderwijs-2021},
+  organization = {{Kenniscentrum Data en Maatschappij}},
+  urldate      = {2022-03-30},
+}
+
+@Report{Crevits2022,
+  author      = {Crevits, Hilde},
+  date        = {2022-03-13},
+  institution = {Vlaamse Overheid Departement Economie, Wetenschap en Innovatie},
+  title       = {Kwart van bedrijven gebruikt artificiële intelligentie: Vlaanderen bij beste leerlingen van de klas},
+  type        = {Persbericht},
+  file        = {:persbericht_-_kwart_van_bedrijven_gebruikt_artificiele_intelligentie_-_vlaanderen_bij_beste_leerlingen_van_de_klas.pdf:PDF},
+}
+
+@InProceedings{Gala2016,
+  author    = {Gala, N{\'u}ria and Ziegler, Johannes},
+  booktitle = {Proceedings of the Workshop on Computational Linguistics for Linguistic Complexity ({CL}4{LC})},
+  date      = {2016},
+  title     = {Reducing lexical complexity as a tool to increase text accessibility for children with dyslexia},
+  pages     = {59--66},
+  publisher = {The COLING 2016 Organizing Committee},
+  abstract  = {Lexical complexity plays a central role in readability, particularly for dyslexic children and poor readers because of their slow and laborious decoding and word recognition skills. Although some features to aid readability may be common to most languages (e.g., the majority of {`}easy{'} words are of low frequency), we believe that lexical complexity is mainly language-specific. In this paper, we define lexical complexity for French and we present a pilot study on the effects of text simplification in dyslexic children. The participants were asked to read out loud original and manually simplified versions of a standardized French text corpus and to answer comprehension questions after reading each text. The analysis of the results shows that the simplifications performed were beneficial in terms of reading speed and they reduced the number of reading errors (mainly lexical ones) without a loss in comprehension. Although the number of participants in this study was rather small (N=10), the results are promising and contribute to the development of applications in computational linguistics.},
+  address   = {Osaka, Japan},
+  file      = {:Reducing lexical complexity as a tool to increase text accessibility.pdf:PDF},
+  month     = dec,
+  year      = {2016},
+}
+
+@InProceedings{Bingel2018,
+  author    = {Bingel, Joachim and Paetzold, Gustavo and S{\o}gaard, Anders},
+  booktitle = {Proceedings of the 27th International Conference on Computational Linguistics},
+  date      = {2018},
+  title     = {{L}exi: A tool for adaptive, personalized text simplification},
+  pages     = {245--258},
+  publisher = {Association for Computational Linguistics},
+  abstract  = {Most previous research in text simplification has aimed to develop generic solutions, assuming very homogeneous target audiences with consistent intra-group simplification needs. We argue that this assumption does not hold, and that instead we need to develop simplification systems that adapt to the individual needs of specific users. As a first step towards personalized simplification, we propose a framework for adaptive lexical simplification and introduce Lexi, a free open-source and easily extensible tool for adaptive, personalized text simplification. Lexi is easily installed as a browser extension, enabling easy access to the service for its users.},
+  address   = {Santa Fe, New Mexico, USA},
+  file      = {:Lexi - A tool for adaptive, personalized text simplification.pdf:PDF},
+  month     = aug,
+  year      = {2018},
+}
+
+@Report{Muyters2019,
+  author      = {Muyters, Philippe},
+  date        = {2019-03-22},
+  institution = {Vlaamse Regering},
+  title       = {Vlaams Beleidsplan Artificiële Intelligentie},
+  file        = {:Vlaams Beleidsplan.pdf:PDF},
+}
+
+@Online{Martens2021a,
+  author       = {Martens, Marijn and De Wolf, Ralf and Evens, Tom},
+  date         = {2021-06-28},
+  title        = {School innovation forum 2021},
+  url          = {https://data-en-maatschappij.ai/nieuws/school-innovation-forum-2021},
+  organization = {{Kenniscentrum Data en Maatschappij}},
+  urldate      = {2022-04-01},
+}
+
+@Online{Swayamdipta2019,
+  author   = {Swabha Swayamdipta},
+  date     = {2019-01-22},
+  title    = {Learning Challenges in Natural Language Processing},
+  url      = {https://www.microsoft.com/en-us/research/video/learning-challenges-in-natural-language-processing/},
+  language = {Engels},
+  urldate  = {2022-04-01},
+  abstract = {As the availability of data for language learning grows, the role of linguistic structure is under scrutiny. At the same time, it is imperative to closely inspect patterns in data which might present loopholes for models to obtain high performance on benchmarks. In a two-part talk, I will address each of these challenges.
+First, I will introduce the paradigm of scaffolded learning. Scaffolds enable us to leverage inductive biases from one structural source for prediction of a different, but related structure, using only as much supervision as is necessary. We show that the resulting representations achieve improved performance across a range of tasks, indicating that linguistic structure remains beneficial even with powerful deep learning architectures.
+In the second part of the talk, I will showcase some of the properties exhibited by NLP models in large data regimes. Even as these models report excellent performance, sometimes claimed to beat humans, a closer look reveals that predictions are not a result of complex reasoning, and the task is not being completed in a generalizable way. Instead, this success can be largely attributed to exploitation of some artifacts of annotation in the datasets. I will discuss some questions our finding raises, as well as directions for future work.},
+}
+
+@Online{Roldos2020,
+  author       = {Inés Roldós},
+  date         = {2020-12-22},
+  title        = {Major Challenges of Natural Language Processing (NLP)},
+  url          = {https://monkeylearn.com/blog/natural-language-processing-challenges/},
+  organization = {MonkeyLearn},
+  urldate      = {2022-04-01},
+}
+
+@Article{Siddharthan2014,
+  author  = {Siddharthan, Advaith},
+  title   = {A survey of research on text simplification},
+  pages   = {259-298},
+  volume  = {165},
+  journal = {ITL - International Journal of Applied Linguistics},
+  month   = {12},
+  year    = {2014},
+}
+
+@Book{Chowdhary2020,
+  author    = {K.R. Chowdhary},
+  date      = {2020},
+  title     = {Fundamentals of Artificial Intelligence},
+  publisher = {Springer, New Delhi},
+}
+
+@Online{Sciforce2020,
+  author   = {{Sciforce}},
+  date     = {2020-02-04},
+  title    = {Biggest Open Problems in Natural Language Processing},
+  url      = {https://medium.com/sciforce/biggest-open-problems-in-natural-language-processing-7eb101ccfc9},
+  language = {Engels},
+  urldate  = {2022-04-01},
+  abstract = {The NLP domain reports great advances to the extent that a number of problems, such as part-of-speech tagging, are considered to be fully solved. At the same time, such tasks as text summarization or machine dialog systems are notoriously hard to crack and remain open for the past decades.},
+}
+
+@Article{PlavenSigray2017,
+  author       = {Plavén-Sigray, Pontus and Matheson, Granville James and Schiffler, Björn Christian and Thompson, William Hedley},
+  title        = {Research: The readability of scientific texts is decreasing over time},
+  editor       = {King, Stuart},
+  issn         = {2050-084X},
+  pages        = {e27725},
+  volume       = {6},
+  abstract     = {Clarity and accuracy of reporting are fundamental to the scientific process. Readability formulas can estimate how difficult a text is to read. Here, in a corpus consisting of 709,577 abstracts published between 1881 and 2015 

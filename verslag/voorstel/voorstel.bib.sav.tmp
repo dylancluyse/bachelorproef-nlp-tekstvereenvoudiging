@@ -26,7 +26,6 @@
   abstract  = {Lexical complexity plays a central role in readability, particularly for dyslexic children and poor readers because of their slow and laborious decoding and word recognition skills. Although some features to aid readability may be common to most languages (e.g., the majority of {`}easy{'} words are of low frequency), we believe that lexical complexity is mainly language-specific. In this paper, we define lexical complexity for French and we present a pilot study on the effects of text simplification in dyslexic children. The participants were asked to read out loud original and manually simplified versions of a standardized French text corpus and to answer comprehension questions after reading each text. The analysis of the results shows that the simplifications performed were beneficial in terms of reading speed and they reduced the number of reading errors (mainly lexical ones) without a loss in comprehension. Although the number of participants in this study was rather small (N=10), the results are promising and contribute to the development of applications in computational linguistics.},
   address   = {Osaka, Japan},
   file      = {:Reducing lexical complexity as a tool to increase text accessibility.pdf:PDF},
-  month     = dec,
   year      = {2016},
 }
 
@@ -40,7 +39,6 @@
   abstract  = {Most previous research in text simplification has aimed to develop generic solutions, assuming very homogeneous target audiences with consistent intra-group simplification needs. We argue that this assumption does not hold, and that instead we need to develop simplification systems that adapt to the individual needs of specific users. As a first step towards personalized simplification, we propose a framework for adaptive lexical simplification and introduce Lexi, a free open-source and easily extensible tool for adaptive, personalized text simplification. Lexi is easily installed as a browser extension, enabling easy access to the service for its users.},
   address   = {Santa Fe, New Mexico, USA},
   file      = {:Lexi - A tool for adaptive, personalized text simplification.pdf:PDF},
-  month     = aug,
   year      = {2018},
 }
 
@@ -121,7 +119,6 @@ In the second part of the talk, I will showcase some of the properties exhibited
   citation     = {eLife 2017;6:e27725},
   journal      = {eLife},
   keywords     = {metascience, readability, data analysis, jargon, scientific communication},
-  month        = {sep},
   pub_date     = {2017-09-05},
   publisher    = {eLife Sciences Publications, Ltd},
   year         = {2017},
@@ -139,7 +136,6 @@ In the second part of the talk, I will showcase some of the properties exhibited
   citation     = {eLife 2020;9:e60080},
   journal      = {eLife},
   keywords     = {meta-research, scientific writing, acronyms, communication, knowledge, scientific publishing},
-  month        = {jul},
   pub_date     = {2020-07-23},
   publisher    = {eLife Sciences Publications, Ltd},
   year         = {2020},
@@ -222,4 +218,4 @@ In the second part of the talk, I will showcase some of the properties exhibited
   pages     = {1086--1097},
   publisher = {Association for Computational Linguistics},
   url       = {https://aclanthology.org/2021.acl-long.88},
-  abstract  = {Text simplification reduces the language complexity of professional content for accessibility purposes. End-to-end neural network models have been widely adopted to directly generate the simplified version of input text, usually functioning as a blackbox. We show that text simplification can be decomposed into a compact pipeline of tasks to ensure the transparency and explainability of the process. The first two steps in this pipeline are often neglected: 1) to predict whether a given piece of text needs to be simplified, and 2) if yes, to identify complex parts of the text. The two tasks can be solved separately using either lexical 
+  abstract  = {Text simplification reduces the language complexity of professional content for accessibility purposes. End-to-end neural network models have been widely adopted to directly generate the simplified version of input text, usually functioning as a blackbox. We show that text simplification can be decomposed into a compact pipeline of tasks to ensure the transparency and explainability of the process. The first two steps in this pipeline are often neglected: 1) to predict whether a given piece of text needs to be simplified, and 2) if yes, to identify complex parts of the text. The two tasks can be solved separately using either lexical or deep learning methods, or solved jointly. Simply applying explainable complexity predic

@@ -26,7 +26,6 @@
   abstract  = {Lexical complexity plays a central role in readability, particularly for dyslexic children and poor readers because of their slow and laborious decoding and word recognition skills. Although some features to aid readability may be common to most languages (e.g., the majority of {`}easy{'} words are of low frequency), we believe that lexical complexity is mainly language-specific. In this paper, we define lexical complexity for French and we present a pilot study on the effects of text simplification in dyslexic children. The participants were asked to read out loud original and manually simplified versions of a standardized French text corpus and to answer comprehension questions after reading each text. The analysis of the results shows that the simplifications performed were beneficial in terms of reading speed and they reduced the number of reading errors (mainly lexical ones) without a loss in comprehension. Although the number of participants in this study was rather small (N=10), the results are promising and contribute to the development of applications in computational linguistics.},
   address   = {Osaka, Japan},
   file      = {:Reducing lexical complexity as a tool to increase text accessibility.pdf:PDF},
-  month     = dec,
   year      = {2016},
 }
 
@@ -40,7 +39,6 @@
   abstract  = {Most previous research in text simplification has aimed to develop generic solutions, assuming very homogeneous target audiences with consistent intra-group simplification needs. We argue that this assumption does not hold, and that instead we need to develop simplification systems that adapt to the individual needs of specific users. As a first step towards personalized simplification, we propose a framework for adaptive lexical simplification and introduce Lexi, a free open-source and easily extensible tool for adaptive, personalized text simplification. Lexi is easily installed as a browser extension, enabling easy access to the service for its users.},
   address   = {Santa Fe, New Mexico, USA},
   file      = {:Lexi - A tool for adaptive, personalized text simplification.pdf:PDF},
-  month     = aug,
   year      = {2018},
 }
 
@@ -121,7 +119,6 @@ In the second part of the talk, I will showcase some of the properties exhibited
   citation     = {eLife 2017;6:e27725},
   journal      = {eLife},
   keywords     = {metascience, readability, data analysis, jargon, scientific communication},
-  month        = {sep},
   pub_date     = {2017-09-05},
   publisher    = {eLife Sciences Publications, Ltd},
   year         = {2017},
@@ -139,7 +136,6 @@ In the second part of the talk, I will showcase some of the properties exhibited
   citation     = {eLife 2020;9:e60080},
   journal      = {eLife},
   keywords     = {meta-research, scientific writing, acronyms, communication, knowledge, scientific publishing},
-  month        = {jul},
   pub_date     = {2020-07-23},
   publisher    = {eLife Sciences Publications, Ltd},
   year         = {2020},
@@ -227,7 +223,7 @@ In the second part of the talk, I will showcase some of the properties exhibited
   year      = {2021},
 }
 
-@Article{Bulté_Sevens_Vandeghinste_2018,
+@Article{Bulte2018,
   author       = {Bulté, Bram and Sevens, Leen and Vandeghinste, Vincent},
   title        = {Automating lexical simplification in Dutch},
   pages        = {24–48},
@@ -235,8 +231,56 @@ In the second part of the talk, I will showcase some of the properties exhibited
   volume       = {8},
   abstractnote = {&amp;lt;p&amp;gt;We discuss the design, development and evaluation of an automated lexical simplification tool for Dutch. A basic pipeline approach is used to perform both text adaptation and annotation. First, sentences are preprocessed and word sense disambiguation is performed. Then, the difficulty of each token is estimated by looking at their average age of acquisition and frequency in a corpus of simplified Dutch. We use Cornetto to find synonyms of words that have been identified as difficult and the SONAR500 corpus to perform reverse lemmatisation. Finally, we rely on a largescale language model to verify whether the selected replacement word fits the local context. In addition, the text is augmented with information from Wikipedia (word definitions and links). We tune and evaluate the system with sentences taken from the Flemish newspaper De Standaard. The results show that the system’s adaptation component has low coverage, since it only correctly simplifies around one in five ‘difficult’ words, but reasonable accuracy, with no grammatical errors being introduced in the text. The Wikipedia annotations have a broader coverage, but their potential for simplification needs to be further developed and more thoroughly evaluated.&amp;lt;/p&amp;gt;},
   journal      = {Computational Linguistics in the Netherlands Journal},
-  month        = {Dec.},
   year         = {2018},
+}
+
+@Online{Verhoeven2023,
+  author = {Wim Verhoeven},
+  date   = {2023-02-08},
+  editor = {Trends},
+  title  = {Applaus voor de studenten die ChatGPT gebruiken},
+  url    = {https://trends.knack.be/economie/bedrijven/applaus-voor-de-studenten-die-chatgpt-gebruiken/article-opinion-1934277.html?cookie_check=1676034368},
+}
+
+@Online{Malik2022,
+  author = {Rijul Sing Malik},
+  date   = {2022-07-04},
+  editor = {Towards AI},
+  title  = {Top 5 NLP Libraries To Use in Your Projects},
+  url    = {https://towardsai.net/p/l/top-5-nlp-libraries-to-use-in-your-projects},
+}
+
+@Article{Shardlow2014,
+  author    = {Matthew Shardlow},
+  title     = {A Survey of Automated Text Simplification},
+  doi       = {10.14569/SpecialIssue.2014.040109},
+  number    = {1},
+  url       = {http://dx.doi.org/10.14569/SpecialIssue.2014.040109},
+  volume    = {4},
+  journal   = {International Journal of Advanced Computer Science and Applications(IJACSA), Special Issue on Natural Language Processing 2014},
+  publisher = {The Science and Information Organization},
+  year      = {2014},
+}
+
+@Article{Thangarajah2019,
+  author = {Thangarajah, Vinothraj},
+  title  = {Python current trend applications-an overview},
+  month  = {10},
+  year   = {2019},
+}
+
+@InProceedings{iavarone-etal-2021-sentence,
+  author    = {Iavarone, Benedetta and Brunato, Dominique and Dell{'}Orletta, Felice},
+  booktitle = {Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics},
+  title     = {Sentence Complexity in Context},
+  doi       = {10.18653/v1/2021.cmcl-1.23},
+  pages     = {186--199},
+  publisher = {Association for Computational Linguistics},
+  url       = {https://aclanthology.org/2021.cmcl-1.23},
+  abstract  = {We study the influence of context on how humans evaluate the complexity of a sentence in English. We collect a new dataset of sentences, where each sentence is rated for perceived complexity within different contextual windows. We carry out an in-depth analysis to detect which linguistic features correlate more with complexity judgments and with the degree of agreement among annotators. We train several regression models, using either explicit linguistic features or contextualized word embeddings, to predict the mean complexity values assigned to sentences in the different contextual windows, as well as their standard deviation. Results show that models leveraging explicit features capturing morphosyntactic and syntactic phenomena perform always better, especially when they have access to features extracted from all contextual sentences.},
+  address   = {Online},
+  month     = jun,
+  year      = {2021},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

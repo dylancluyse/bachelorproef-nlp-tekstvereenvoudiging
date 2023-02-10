@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 % $ biblatex auxiliary file $
 % $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
@@ -323,6 +322,107 @@
       \verb https://aclanthology.org/2021.acl-long.88
       \endverb
     \endentry
+    \entry{Iavarone2021}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=378a356cb4c4a2e7bbc58982f8fe7c43}{%
+           family={Iavarone},
+           familyi={I\bibinitperiod},
+           given={Benedetta},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0743dd7569b8a6d973b08ed0f49a882}{%
+           family={Brunato},
+           familyi={B\bibinitperiod},
+           given={Dominique},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18dc967263b005b6c493d7bb502cc88b}{%
+           family={Dell{'}Orletta},
+           familyi={D\bibinitperiod},
+           given={Felice},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Online}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{ef84a039f012fc4cac4b2c00cdf60923}
+      \strng{fullhash}{7d44b7009388d00a06c6331ddd98cbc1}
+      \strng{bibnamehash}{7d44b7009388d00a06c6331ddd98cbc1}
+      \strng{authorbibnamehash}{7d44b7009388d00a06c6331ddd98cbc1}
+      \strng{authornamehash}{ef84a039f012fc4cac4b2c00cdf60923}
+      \strng{authorfullhash}{7d44b7009388d00a06c6331ddd98cbc1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We study the influence of context on how humans evaluate the complexity of a sentence in English. We collect a new dataset of sentences, where each sentence is rated for perceived complexity within different contextual windows. We carry out an in-depth analysis to detect which linguistic features correlate more with complexity judgments and with the degree of agreement among annotators. We train several regression models, using either explicit linguistic features or contextualized word embeddings, to predict the mean complexity values assigned to sentences in the different contextual windows, as well as their standard deviation. Results show that models leveraging explicit features capturing morphosyntactic and syntactic phenomena perform always better, especially when they have access to features extracted from all contextual sentences.}
+      \field{journaltitle}{Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics}
+      \field{month}{6}
+      \field{title}{Sentence Complexity in Context}
+      \field{year}{2021}
+      \field{pages}{186\bibrangedash 199}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.18653/v1/2021.cmcl-1.23
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/2021.cmcl-1.23
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2021.cmcl-1.23
+      \endverb
+    \endentry
+    \entry{Malik2022}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=acc9b20b0e882f7bad79ff07f866e756}{%
+           family={Malik},
+           familyi={M\bibinitperiod},
+           given={Rijul\bibnamedelima Sing},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=43a8886fd70084e650ac0521c147e1f1}{%
+           family={AI},
+           familyi={A\bibinitperiod},
+           given={Towards},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{acc9b20b0e882f7bad79ff07f866e756}
+      \strng{fullhash}{acc9b20b0e882f7bad79ff07f866e756}
+      \strng{bibnamehash}{acc9b20b0e882f7bad79ff07f866e756}
+      \strng{authorbibnamehash}{acc9b20b0e882f7bad79ff07f866e756}
+      \strng{authornamehash}{acc9b20b0e882f7bad79ff07f866e756}
+      \strng{authorfullhash}{acc9b20b0e882f7bad79ff07f866e756}
+      \strng{editorbibnamehash}{43a8886fd70084e650ac0521c147e1f1}
+      \strng{editornamehash}{43a8886fd70084e650ac0521c147e1f1}
+      \strng{editorfullhash}{43a8886fd70084e650ac0521c147e1f1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{month}{7}
+      \field{title}{Top 5 NLP Libraries To Use in Your Projects}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://towardsai.net/p/l/top-5-nlp-libraries-to-use-in-your-projects
+      \endverb
+      \verb{url}
+      \verb https://towardsai.net/p/l/top-5-nlp-libraries-to-use-in-your-projects
+      \endverb
+    \endentry
     \entry{Martens2021}{online}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=748b4791936091d1cfa1ed6eef897b00}{%
@@ -654,6 +754,47 @@
       \verb https://medium.com/sciforce/biggest-open-problems-in-natural-language-processing-7eb101ccfc9
       \endverb
     \endentry
+    \entry{Shardlow2014}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d15f65dc3a8314f8ec6692eb6b0f5c1a}{%
+           family={Shardlow},
+           familyi={S\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {The Science}%
+        {Information Organization}%
+      }
+      \strng{namehash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \strng{fullhash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \strng{bibnamehash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \strng{authorbibnamehash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \strng{authornamehash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \strng{authorfullhash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Advanced Computer Science and Applications(IJACSA), Special Issue on Natural Language Processing 2014}
+      \field{number}{1}
+      \field{title}{A Survey of Automated Text Simplification}
+      \field{volume}{4}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.14569/SpecialIssue.2014.040109
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.14569/SpecialIssue.2014.040109
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.14569/SpecialIssue.2014.040109
+      \endverb
+    \endentry
     \entry{Siddharthan2014}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cb280ee34b558048f3051f70a81863a7}{%
@@ -724,6 +865,74 @@
       \endverb
       \verb{url}
       \verb https://www.microsoft.com/en-us/research/video/learning-challenges-in-natural-language-processing/
+      \endverb
+    \endentry
+    \entry{Thangarajah2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4e2ee739837d14190e574c05b7e9980a}{%
+           family={Thangarajah},
+           familyi={T\bibinitperiod},
+           given={Vinothraj},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4e2ee739837d14190e574c05b7e9980a}
+      \strng{fullhash}{4e2ee739837d14190e574c05b7e9980a}
+      \strng{bibnamehash}{4e2ee739837d14190e574c05b7e9980a}
+      \strng{authorbibnamehash}{4e2ee739837d14190e574c05b7e9980a}
+      \strng{authornamehash}{4e2ee739837d14190e574c05b7e9980a}
+      \strng{authorfullhash}{4e2ee739837d14190e574c05b7e9980a}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Python current trend applications-an overview}
+      \field{year}{2019}
+    \endentry
+    \entry{Verhoeven2023}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a1cc7fa46d72b7efc0ca39a8b7e5c4c3}{%
+           family={Verhoeven},
+           familyi={V\bibinitperiod},
+           given={Wim},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9cf69763de83f9db7f4a87c51fe6ae23}{%
+           family={Trends},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{a1cc7fa46d72b7efc0ca39a8b7e5c4c3}
+      \strng{fullhash}{a1cc7fa46d72b7efc0ca39a8b7e5c4c3}
+      \strng{bibnamehash}{a1cc7fa46d72b7efc0ca39a8b7e5c4c3}
+      \strng{authorbibnamehash}{a1cc7fa46d72b7efc0ca39a8b7e5c4c3}
+      \strng{authornamehash}{a1cc7fa46d72b7efc0ca39a8b7e5c4c3}
+      \strng{authorfullhash}{a1cc7fa46d72b7efc0ca39a8b7e5c4c3}
+      \strng{editorbibnamehash}{9cf69763de83f9db7f4a87c51fe6ae23}
+      \strng{editornamehash}{9cf69763de83f9db7f4a87c51fe6ae23}
+      \strng{editorfullhash}{9cf69763de83f9db7f4a87c51fe6ae23}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{8}
+      \field{month}{2}
+      \field{title}{Applaus voor de studenten die ChatGPT gebruiken}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://trends.knack.be/economie/bedrijven/applaus-voor-de-studenten-die-chatgpt-gebruiken/article-opinion-1934277.html?cookie_check=1676034368
+      \endverb
+      \verb{url}
+      \verb https://trends.knack.be/economie/bedrijven/applaus-voor-de-studenten-die-chatgpt-gebruiken/article-opinion-1934277.html?cookie_check=1676034368
       \endverb
     \endentry
   \enddatalist
@@ -1031,6 +1240,107 @@
       \verb https://aclanthology.org/2021.acl-long.88
       \endverb
     \endentry
+    \entry{Iavarone2021}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=378a356cb4c4a2e7bbc58982f8fe7c43}{%
+           family={Iavarone},
+           familyi={I\bibinitperiod},
+           given={Benedetta},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0743dd7569b8a6d973b08ed0f49a882}{%
+           family={Brunato},
+           familyi={B\bibinitperiod},
+           given={Dominique},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18dc967263b005b6c493d7bb502cc88b}{%
+           family={Dell{'}Orletta},
+           familyi={D\bibinitperiod},
+           given={Felice},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Online}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{ef84a039f012fc4cac4b2c00cdf60923}
+      \strng{fullhash}{7d44b7009388d00a06c6331ddd98cbc1}
+      \strng{bibnamehash}{7d44b7009388d00a06c6331ddd98cbc1}
+      \strng{authorbibnamehash}{7d44b7009388d00a06c6331ddd98cbc1}
+      \strng{authornamehash}{ef84a039f012fc4cac4b2c00cdf60923}
+      \strng{authorfullhash}{7d44b7009388d00a06c6331ddd98cbc1}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We study the influence of context on how humans evaluate the complexity of a sentence in English. We collect a new dataset of sentences, where each sentence is rated for perceived complexity within different contextual windows. We carry out an in-depth analysis to detect which linguistic features correlate more with complexity judgments and with the degree of agreement among annotators. We train several regression models, using either explicit linguistic features or contextualized word embeddings, to predict the mean complexity values assigned to sentences in the different contextual windows, as well as their standard deviation. Results show that models leveraging explicit features capturing morphosyntactic and syntactic phenomena perform always better, especially when they have access to features extracted from all contextual sentences.}
+      \field{journaltitle}{Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics}
+      \field{month}{6}
+      \field{title}{Sentence Complexity in Context}
+      \field{year}{2021}
+      \field{pages}{186\bibrangedash 199}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.18653/v1/2021.cmcl-1.23
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/2021.cmcl-1.23
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2021.cmcl-1.23
+      \endverb
+    \endentry
+    \entry{Malik2022}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=acc9b20b0e882f7bad79ff07f866e756}{%
+           family={Malik},
+           familyi={M\bibinitperiod},
+           given={Rijul\bibnamedelima Sing},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=43a8886fd70084e650ac0521c147e1f1}{%
+           family={AI},
+           familyi={A\bibinitperiod},
+           given={Towards},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{acc9b20b0e882f7bad79ff07f866e756}
+      \strng{fullhash}{acc9b20b0e882f7bad79ff07f866e756}
+      \strng{bibnamehash}{acc9b20b0e882f7bad79ff07f866e756}
+      \strng{authorbibnamehash}{acc9b20b0e882f7bad79ff07f866e756}
+      \strng{authornamehash}{acc9b20b0e882f7bad79ff07f866e756}
+      \strng{authorfullhash}{acc9b20b0e882f7bad79ff07f866e756}
+      \strng{editorbibnamehash}{43a8886fd70084e650ac0521c147e1f1}
+      \strng{editornamehash}{43a8886fd70084e650ac0521c147e1f1}
+      \strng{editorfullhash}{43a8886fd70084e650ac0521c147e1f1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{month}{7}
+      \field{title}{Top 5 NLP Libraries To Use in Your Projects}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://towardsai.net/p/l/top-5-nlp-libraries-to-use-in-your-projects
+      \endverb
+      \verb{url}
+      \verb https://towardsai.net/p/l/top-5-nlp-libraries-to-use-in-your-projects
+      \endverb
+    \endentry
     \entry{Martens2021}{online}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=748b4791936091d1cfa1ed6eef897b00}{%
@@ -1362,6 +1672,47 @@
       \verb https://medium.com/sciforce/biggest-open-problems-in-natural-language-processing-7eb101ccfc9
       \endverb
     \endentry
+    \entry{Shardlow2014}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d15f65dc3a8314f8ec6692eb6b0f5c1a}{%
+           family={Shardlow},
+           familyi={S\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {The Science}%
+        {Information Organization}%
+      }
+      \strng{namehash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \strng{fullhash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \strng{bibnamehash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \strng{authorbibnamehash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \strng{authornamehash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \strng{authorfullhash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Advanced Computer Science and Applications(IJACSA), Special Issue on Natural Language Processing 2014}
+      \field{number}{1}
+      \field{title}{A Survey of Automated Text Simplification}
+      \field{volume}{4}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.14569/SpecialIssue.2014.040109
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.14569/SpecialIssue.2014.040109
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.14569/SpecialIssue.2014.040109
+      \endverb
+    \endentry
     \entry{Siddharthan2014}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cb280ee34b558048f3051f70a81863a7}{%
@@ -1434,9 +1785,75 @@
       \verb https://www.microsoft.com/en-us/research/video/learning-challenges-in-natural-language-processing/
       \endverb
     \endentry
+    \entry{Thangarajah2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4e2ee739837d14190e574c05b7e9980a}{%
+           family={Thangarajah},
+           familyi={T\bibinitperiod},
+           given={Vinothraj},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4e2ee739837d14190e574c05b7e9980a}
+      \strng{fullhash}{4e2ee739837d14190e574c05b7e9980a}
+      \strng{bibnamehash}{4e2ee739837d14190e574c05b7e9980a}
+      \strng{authorbibnamehash}{4e2ee739837d14190e574c05b7e9980a}
+      \strng{authornamehash}{4e2ee739837d14190e574c05b7e9980a}
+      \strng{authorfullhash}{4e2ee739837d14190e574c05b7e9980a}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Python current trend applications-an overview}
+      \field{year}{2019}
+    \endentry
+    \entry{Verhoeven2023}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a1cc7fa46d72b7efc0ca39a8b7e5c4c3}{%
+           family={Verhoeven},
+           familyi={V\bibinitperiod},
+           given={Wim},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9cf69763de83f9db7f4a87c51fe6ae23}{%
+           family={Trends},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{a1cc7fa46d72b7efc0ca39a8b7e5c4c3}
+      \strng{fullhash}{a1cc7fa46d72b7efc0ca39a8b7e5c4c3}
+      \strng{bibnamehash}{a1cc7fa46d72b7efc0ca39a8b7e5c4c3}
+      \strng{authorbibnamehash}{a1cc7fa46d72b7efc0ca39a8b7e5c4c3}
+      \strng{authornamehash}{a1cc7fa46d72b7efc0ca39a8b7e5c4c3}
+      \strng{authorfullhash}{a1cc7fa46d72b7efc0ca39a8b7e5c4c3}
+      \strng{editorbibnamehash}{9cf69763de83f9db7f4a87c51fe6ae23}
+      \strng{editornamehash}{9cf69763de83f9db7f4a87c51fe6ae23}
+      \strng{editorfullhash}{9cf69763de83f9db7f4a87c51fe6ae23}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{8}
+      \field{month}{2}
+      \field{title}{Applaus voor de studenten die ChatGPT gebruiken}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://trends.knack.be/economie/bedrijven/applaus-voor-de-studenten-die-chatgpt-gebruiken/article-opinion-1934277.html?cookie_check=1676034368
+      \endverb
+      \verb{url}
+      \verb https://trends.knack.be/economie/bedrijven/applaus-voor-de-studenten-die-chatgpt-gebruiken/article-opinion-1934277.html?cookie_check=1676034368
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
 
-=======
->>>>>>> Stashed changes
