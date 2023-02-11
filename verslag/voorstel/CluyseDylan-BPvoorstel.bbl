@@ -153,6 +153,56 @@
       \field{year}{2020}
       \field{dateera}{ce}
     \endentry
+    \entry{Dapaah2022}{online}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=993d444a600643f17bde7fe6b5366784}{%
+           family={Dapaah},
+           familyi={D\bibinitperiod},
+           given={Josephine},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62b338f43af32adfddaf8492d5886294}{%
+           family={Maenhout},
+           familyi={M\bibinitperiod},
+           given={Klaas},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=09e6ab761d283a3f2fb6ac2c5247a056}{%
+           family={Standaard},
+           familyi={S\bibinitperiod},
+           given={De},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{9744d7c83d7eb830dd9fa0e4837149df}
+      \strng{fullhash}{9744d7c83d7eb830dd9fa0e4837149df}
+      \strng{bibnamehash}{9744d7c83d7eb830dd9fa0e4837149df}
+      \strng{authorbibnamehash}{9744d7c83d7eb830dd9fa0e4837149df}
+      \strng{authornamehash}{9744d7c83d7eb830dd9fa0e4837149df}
+      \strng{authorfullhash}{9744d7c83d7eb830dd9fa0e4837149df}
+      \strng{editorbibnamehash}{09e6ab761d283a3f2fb6ac2c5247a056}
+      \strng{editornamehash}{09e6ab761d283a3f2fb6ac2c5247a056}
+      \strng{editorfullhash}{09e6ab761d283a3f2fb6ac2c5247a056}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{8}
+      \field{month}{7}
+      \field{title}{Iedereen heeft boter op zijn hoofd}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.standaard.be/cnt/dmf20220607_97763592
+      \endverb
+      \verb{url}
+      \verb https://www.standaard.be/cnt/dmf20220607_97763592
+      \endverb
+    \endentry
     \entry{Donato2022}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=d8e81a3a7edd3a121de6cffb2c1fc333}{%
@@ -1070,6 +1120,56 @@
       \field{title}{Fundamentals of Artificial Intelligence}
       \field{year}{2020}
       \field{dateera}{ce}
+    \endentry
+    \entry{Dapaah2022}{online}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=993d444a600643f17bde7fe6b5366784}{%
+           family={Dapaah},
+           familyi={D\bibinitperiod},
+           given={Josephine},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62b338f43af32adfddaf8492d5886294}{%
+           family={Maenhout},
+           familyi={M\bibinitperiod},
+           given={Klaas},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=09e6ab761d283a3f2fb6ac2c5247a056}{%
+           family={Standaard},
+           familyi={S\bibinitperiod},
+           given={De},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{9744d7c83d7eb830dd9fa0e4837149df}
+      \strng{fullhash}{9744d7c83d7eb830dd9fa0e4837149df}
+      \strng{bibnamehash}{9744d7c83d7eb830dd9fa0e4837149df}
+      \strng{authorbibnamehash}{9744d7c83d7eb830dd9fa0e4837149df}
+      \strng{authornamehash}{9744d7c83d7eb830dd9fa0e4837149df}
+      \strng{authorfullhash}{9744d7c83d7eb830dd9fa0e4837149df}
+      \strng{editorbibnamehash}{09e6ab761d283a3f2fb6ac2c5247a056}
+      \strng{editornamehash}{09e6ab761d283a3f2fb6ac2c5247a056}
+      \strng{editorfullhash}{09e6ab761d283a3f2fb6ac2c5247a056}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{8}
+      \field{month}{7}
+      \field{title}{Iedereen heeft boter op zijn hoofd}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.standaard.be/cnt/dmf20220607_97763592
+      \endverb
+      \verb{url}
+      \verb https://www.standaard.be/cnt/dmf20220607_97763592
+      \endverb
     \endentry
     \entry{Donato2022}{article}{}
       \name{author}{6}{}{%

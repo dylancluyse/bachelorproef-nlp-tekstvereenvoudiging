@@ -269,7 +269,7 @@ In the second part of the talk, I will showcase some of the properties exhibited
   year   = {2019},
 }
 
-@InProceedings{iavarone-etal-2021-sentence,
+@InProceedings{Iavarone2021,
   author    = {Iavarone, Benedetta and Brunato, Dominique and Dell{'}Orletta, Felice},
   booktitle = {Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics},
   title     = {Sentence Complexity in Context},
@@ -281,6 +281,14 @@ In the second part of the talk, I will showcase some of the properties exhibited
   address   = {Online},
   month     = jun,
   year      = {2021},
+}
+
+@Online{Dapaah2022,
+  author = {Dapaah, Josephine; Maenhout, Klaas},
+  date   = {2022-07-08},
+  editor = {De Standaard},
+  title  = {Iedereen heeft boter op zijn hoofd},
+  url    = {https://www.standaard.be/cnt/dmf20220607_97763592},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

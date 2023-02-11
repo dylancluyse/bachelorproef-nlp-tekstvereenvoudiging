@@ -1,3 +1,5 @@
+% Encoding: UTF-8
+
 @Online{Martens2021,
   author       = {Martens, Marijn and De Wolf, Ralf and Evens, Tom},
   date         = {2021},
@@ -26,6 +28,7 @@
   abstract  = {Lexical complexity plays a central role in readability, particularly for dyslexic children and poor readers because of their slow and laborious decoding and word recognition skills. Although some features to aid readability may be common to most languages (e.g., the majority of {`}easy{'} words are of low frequency), we believe that lexical complexity is mainly language-specific. In this paper, we define lexical complexity for French and we present a pilot study on the effects of text simplification in dyslexic children. The participants were asked to read out loud original and manually simplified versions of a standardized French text corpus and to answer comprehension questions after reading each text. The analysis of the results shows that the simplifications performed were beneficial in terms of reading speed and they reduced the number of reading errors (mainly lexical ones) without a loss in comprehension. Although the number of participants in this study was rather small (N=10), the results are promising and contribute to the development of applications in computational linguistics.},
   address   = {Osaka, Japan},
   file      = {:Reducing lexical complexity as a tool to increase text accessibility.pdf:PDF},
+  month     = dec,
   year      = {2016},
 }
 
@@ -39,6 +42,7 @@
   abstract  = {Most previous research in text simplification has aimed to develop generic solutions, assuming very homogeneous target audiences with consistent intra-group simplification needs. We argue that this assumption does not hold, and that instead we need to develop simplification systems that adapt to the individual needs of specific users. As a first step towards personalized simplification, we propose a framework for adaptive lexical simplification and introduce Lexi, a free open-source and easily extensible tool for adaptive, personalized text simplification. Lexi is easily installed as a browser extension, enabling easy access to the service for its users.},
   address   = {Santa Fe, New Mexico, USA},
   file      = {:Lexi - A tool for adaptive, personalized text simplification.pdf:PDF},
+  month     = aug,
   year      = {2018},
 }
 
@@ -196,11 +200,18 @@ In the second part of the talk, I will showcase some of the properties exhibited
   url    = {https://readable.com/readability/flesch-reading-ease-flesch-kincaid-grade-level/},
 }
 
-@Online{Droogenbroeck2022,
-  author = {Kelly Van Droogenbroeck},
-  date   = {2022-11-23},
-  title  = {Scholen krijgen meer steun om leerlingen met beperking op te vangen},
-  url    = {https://www.demorgen.be/snelnieuws/scholen-krijgen-meer-steun-om-leerlingen-met-beperking-op-te-vangen~bb2469df/},
+@inproceedings{Gooding2022,
+    title = "On the Ethical Considerations of Text Simplification",
+    author = "Gooding, Sian",
+    booktitle = "Ninth Workshop on Speech and Language Processing for Assistive Technologies (SLPAT-2022)",
+    month = "05",
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.slpat-1.7",
+    doi = "10.18653/v1/2022.slpat-1.7",
+    pages = "50--57",
+    abstract = "This paper outlines the ethical implications of text simplification within the framework of assistive systems. We argue that a distinction should be made between the technologies that perform text simplification and the realisation of these in assistive technologies. When using the latter as a motivation for research, it is important that the subsequent ethical implications be carefully considered. We provide guidelines for the framing of text simplification independently of assistive systems, as well as suggesting directions for future research and discussion based on the concerns raised.",
 }
 
 @Online{Miszczak2022,
@@ -208,6 +219,23 @@ In the second part of the talk, I will showcase some of the properties exhibited
   date   = {2022-09-20},
   title  = {Natural Language Processing Statistics (2022)},
   url    = {https://businessolution.org/natural-language-processing-statistics/},
+}
+
+@article{Khyani2021,
+    author = {Khyani, Divya and B S, Siddhartha},
+    year = {2021},
+    month = {01},
+    pages = {350-357},
+    title = {An Interpretation of Lemmatization and Stemming in Natural Language Processing},
+    volume = {22},
+    journal = {Shanghai Ligong Daxue Xuebao/Journal of University of Shanghai for Science and Technology}
+}
+
+@Online{Droogenbroeck2022,
+  author = {Kelly Van Droogenbroeck},
+  date   = {2022-11-23},
+  title  = {Scholen krijgen meer steun om leerlingen met beperking op te vangen},
+  url    = {https://www.demorgen.be/snelnieuws/scholen-krijgen-meer-steun-om-leerlingen-met-beperking-op-te-vangen~bb2469df/},
 }
 
 @InProceedings{Garbacea2021,
@@ -283,12 +311,42 @@ In the second part of the talk, I will showcase some of the properties exhibited
   year      = {2021},
 }
 
-@Online{Dapaah2022,
-  author = {Dapaah, Josephine and Maenhout, Klaas},
-  date   = {2022-07-08},
-  editor = {De Standaard},
-  title  = {Iedereen heeft boter op zijn hoofd},
-  url    = {https://www.standaard.be/cnt/dmf20220607_97763592},
+@Book{Sohom2019,
+  author    = {Sohom, Ghosh; Dwight, Gunning},
+  date      = {2019},
+  title     = {Natural Language Processing Fundamentals},
+  isbn      = {9781789954043},
+  language  = {English},
+  publisher = {Packt Publishing},
+  url       = {https://medium.com/analytics-vidhya/natural-language-processing-basic-concepts-a3c7f50bf5d3},
+  abstract  = {Use Python and NLTK (Natural Language Toolkit) to build out your own text classifiers and solve common NLP problems. Key Features Assimilate key NLP concepts and terminologies Explore popular NLP tools and techniques Gain practical experience using NLP in application code Book Description If NLP hasn't been your forte, Natural Language Processing Fundamentals will make sure you set off to a steady start. This comprehensive guide will show you how to effectively use Python libraries and NLP concepts to solve various problems. You'll be introduced to natural language processing and its applications through examples and exercises. This will be followed by an introduction to the initial stages of solving a problem, which includes problem definition, getting text data, and preparing it for modeling. With exposure to concepts like advanced natural language processing algorithms and visualization techniques, you'll learn how to create applications that can extract information from unstructured data and present it as impactful visuals. Although you will continue to learn NLP-based techniques, the focus will gradually shift to developing useful applications. In these sections, you'll understand how to apply NLP techniques to answer questions as can be used in chatbots. By the end of this book, you'll be able to accomplish a varied range of assignments ranging from identifying the most suitable type of NLP task for solving a problem to using a tool like spacy or gensim for performing sentiment analysis. The book will easily equip you with the knowledge you need to build applications that interpret human language. What you will learn Obtain, verify, and clean data before transforming it into a correct format for use Perform data analysis and machine learning tasks using Python Understand the basics of computational linguistics Build models for general natural language processing tasks Evaluate the performance of a model with the right metrics Visualize, quantify, and perform exploratory analysis from any text data Who this book is for Natural Language Processing Fundamentals is designed for novice and mid-level data scientists and machine learning developers who want to gather and analyze text data to build an NLP-powered product. It'll help you to have prior experience of coding in Python using data types, writing functions, and importing libraries. Some experience with linguistics and probability is useful but not necessary.},
+}
+
+@Conference{DeBelder2010,
+  author    = {De Belder, Jan; Moens, Marie-Francine},
+  date      = {2010},
+  title     = {Text simplification for children},
+  language  = {eng},
+  publisher = {ACM; New York},
+  abstract  = {The goal in this paper is to automatically transform text into a simpler text, so that it is easier to understand by children. We perform syntactic simplification, i.e. the splitting of sentences, and lexical simplification, i.e. replacing difficult words with easier synonyms. We test the performance of this approach for each component separately on a per sentence basis, and globally with the automatic construction of simplified news articles and encyclopedia articles. By including information from a language model in the lexical simplification step, we obtain better results over a baseline method. The syntactic simplification shows that some phenomena are hard to recognize by a parser, and that errors are often introduced. Although the reading difficulty goes down, it still doesn’t reach the required level needed for young children.},
+  journal   = {Prroceedings of the SIGIR workshop on accessible search systems},
+  keywords  = {Text simplification},
+  year      = {2010},
+}
+
+@Article{oro58888,
+  author    = {Advaith Siddharthan},
+  title     = {Syntactic Simplification and Text Cohesion},
+  number    = {1},
+  pages     = {77--109},
+  url       = {http://oro.open.ac.uk/58888/},
+  volume    = {4},
+  abstract  = {Syntactic simplification is the process of reducing the grammatical complexity of a text, while retaining its information content and meaning. The aim of syntactic simplification is to make text easier to comprehend for human readers, or process by programs. In this paper, we formalise the interactions that take place between syntax and discourse during the simplification process. This is important because the usefulness of syntactic simplification in making a text accessible to a wider audience can be undermined if the rewritten text lacks cohesion. We describe how various generation issues like sentence ordering, cue-word selection, referring-expression generation, determiner choice and pronominal use can be resolved so as to preserve conjunctive and anaphoric cohesive relations during syntactic simplification and present the results of an evaluation of our syntactic simplification system.},
+  journal   = {Research on Language and Computation},
+  keywords  = {anaphoric structure; cue-word selection; determiner choice; discourse structure; sentence ordering; syntactic simplification; text cohesion},
+  month     = {June},
+  publisher = {Springer Netherlands},
+  year      = {2006},
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

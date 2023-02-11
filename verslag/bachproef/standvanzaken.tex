@@ -3,53 +3,20 @@
 
 \section{Tekstvereenvoudiging}
 
-% TODO
-Inleiding
-
 \subsection{Natural Language Processing}
 
-Natuurlijke taalverwerking of NLP is een brede term die zich richt op het verwerken en analyseren van menselijke taal door computers en andere technologieën. Het omvat verschillende technieken, zoals tekstanalyse, taalherkenning en -generatie, spraakherkenning en -synthese, en semantische analyse. Computers zijn ertoe in staat om op een menselijke manier te communiceren en begrijpen wat er wordt gezegd. Vooraleer het onderzoek zich verdiept in hoe teksten worden vereenvoudigd, moeten er eerst begrippen worden aangehaald die noodzakelijk zijn om de volgende fasen te kunnen uitleggen.
+Natuurlijke taalverwerking of NLP is een brede term die zich richt op het verwerken en analyseren van menselijke taal door computers en andere technologieën. Het omvat verschillende technieken, zoals tekstanalyse, taalherkenning en -generatie, spraakherkenning en -synthese, en semantische analyse. Computers zijn ertoe in staat om op een menselijke manier te communiceren en begrijpen wat er wordt gezegd. Vooraleer het onderzoek zich verdiept in hoe teksten worden vereenvoudigd, moeten er eerst begrippen worden aangehaald die noodzakelijk zijn om de volgende fasen te kunnen uitleggen. \textcite{Sohom2019} haalt de volgende begrippen aan.
 
 \begin{itemize}
-	\item Tokenisatie
-	\item Lemmatizatie en omgekeerde lemmatizatie
-	\item \textit{Parsing}
+	\item \textbf{Tokenisatie} splitst de stam of basisvorm van woorden in een tekst. Gebruikelijk zetten ontwikkelaars deze stap in om een woordenschat voor een taalmodel op te bouwen. Bij tokenisatie wordt er geen rekening gehouden met de betekenis achter ieder woord.
+	\item \textbf{Lemmatiseren} in NLP bouwt verder op \textit{stemming}, maar de betekenis van ieder woord wordt in acht genomen. Voor het lemmatiseren bestaan er Nederlandstalige modellen, waaronder JohnSnow\footnote{https://nlp.johnsnowlabs.com/2020/05/03/lemma\_nl.html}. Bij \textbf{omgekeerd lemmatiseren} wordt er een afgeleide achterhaald vanuit de stam. Bijvoorbeeld voor het werkwoord 'zijn' zou dit 'is', 'was' of 'ben' zijn. Voor zelfstandige naamwoorden, zoals 'hond', is dit dan enkelvoud of meervoud.
+	\item Bij een \textbf{parsing}-fase wordt er een label aan ieder woord of zinsdeel toegekend. Voorbeelden van labels zijn zelfstandig naamwoord, bijwoord, werkwoord, bijzin of stopwoord. Het herkennen van zinsdelen wordt \textit{chunking} genoemd. Parsing heeft een dubbelzinnigheidsprobleem, want een 'plant' staat niet gelijk aan de vervoeging van werkwoord 'planten'.
 \end{itemize}
-
-\subsubsection{Tokenisatie}
-
-% https://dair.ai/notebooks/nlp/2020/03/19/nlp_basics_tokenization_segmentation.html
-
-Om de basisvorm of stam van woorden in een tekst te gaan opsplitsen, wordt tokenisatie ingezet. Gebruikelijk wordt deze stap door ontwikkelaars ingezet om een woordenschat voor een taalmodel op te bouwen. Bij tokenisatie wordt er geen rekening gehouden met de betekenis achter ieder woord.
-
-
-\subsubsection{Lemmatiseren en parsen}
-
-https://www.flex4medics.nl/5445-2/
-
-Lemmatiseren in NLP bouwt verder op \textit{stemming}, maar de betekenis van ieder woord wordt in acht genomen. Voor het lemmatiseren bestaan er Nederlandstalige modellen, waaronder JohnSnow\footnote{https://nlp.johnsnowlabs.com/2020/05/03/lemma\_nl.html}. Bij omgekeerd lemmatiseren wordt er een afgeleide achterhaald vanuit de stam. Bijvoorbeeld voor het werkwoord 'zijn' zou dit 'is', 'was' of 'ben' zijn. Voor zelfstandige naamwoorden, zoals 'hond', is dit dan enkelvoud of meervoud.
-
-Bij een parsing-fase wordt er een label aan ieder woord of zinsdeel toegekend. Voorbeelden van labels zijn zelfstandig naamwoord, bijwoord, werkwoord, bijzin of stopwoord. Het herkennen van zinsdelen wordt \textit{chunking} genoemd. Parsing heeft een dubbelzinnigheidsprobleem, want een 'plant' staat niet gelijk aan de vervoeging van werkwoord 'planten'. 
-
-\subsubsection{Word Sense Ambiguation}
-
-Book: Word Sense Disambiguation: Algorithms and Applications
-
 
 
 \subsubsection{Tekstvereenvoudiging}
 
-Tekstvereenvoudiging is het proces waarin het technisch leesniveau en/of woordgebruik van een geschreven tekst wordt verminderd. 
-
-Belangrijk hierbij is dat de vereenvoudiging geen effect mag hebben op de kerninhoud. 
-
-
-
-% Als lezer moet de basisinformatie na een tekstvereenvoudiging nog steeds terug te vinden zijn. ... haalt een definitie van tekstvereenvouding aan, namelijk "het proces dat de syntactische of lexicale vereenvoudiging van een tekst omvat en een samenhangende tekst als resultaat heeft". 
-
-% todo bron aanvullen
-
-\subsubsection{Gebruiksdomeinen}
+Tekstvereenvoudiging is het proces waarin het technisch leesniveau en/of woordgebruik van een geschreven tekst wordt verminderd. Belangrijk hierbij is dat de vereenvoudiging geen effect mag hebben op de kerninhoud. 
 
 \section{De verschillende soorten tekstvereenvoudiging}
 
@@ -59,17 +26,27 @@ Inleiding op de soorten tekstvereenvoudiging. Tekstvereenvoudiging is in drie vo
 
 Bij lexicale vereenvoudiging worden complexe woorden vervangen door eenvoudigere synoniemen. Bijvoorbeeld, het woord "adhesief" kan worden vervangen door "klevend". De zinsstructuur verandert niet en zo is er garantie dat de kerninhoud en nuancering identiek blijft. Het doel van lexicale vereenvoudiging is om de complexiteit van de woordenschat te verlagen.
 
-Een onderzoek van de KU Leuven (bron) ging met dit concept aan de slag. Het resultaat van hun onderzoek was een pipeline ontworpen om complexe woorden naar simpele synoniemen te vervangen. Eerst ging de tekstinhoud door een \textit{preprocessing}-fase, samen met het uitvoeren van WSE. Daarna werd de moeilijkheidsgraad van ieder token overlopen. De moeilijkheidsgraad is gebaseerd op hoe vaak een woord voorkomt in SONAR500\footnote{https://taalmaterialen.ivdnt.org/download/tstc-sonar-corpus/} een corpus met eenvoudige Nederlandstalige woorden. Synoniemen werden teruggevonden met Cornetto\footnote{https://github.com/emsrc/pycornetto}, een lexicale databank met Nederlandstalige woorden. Hiervoor gebruikten de onderzoekers een \textit{reverse lemmatization} fase.
+Een onderzoek van de KU Leuven \textcite{Bulte2018} ging met dit concept aan de slag. Het resultaat van hun onderzoek was een pipeline ontworpen om complexe woorden naar simpele synoniemen te vervangen. Eerst ging de tekstinhoud door een \textit{preprocessing}-fase, samen met het uitvoeren van WSE. Daarna werd de moeilijkheidsgraad van ieder token overlopen. De moeilijkheidsgraad is gebaseerd op hoe vaak een woord voorkomt in SONAR500\footnote{https://taalmaterialen.ivdnt.org/download/tstc-sonar-corpus/} een corpus met eenvoudige Nederlandstalige woorden. Synoniemen werden teruggevonden met Cornetto\footnote{https://github.com/emsrc/pycornetto}, een lexicale databank met Nederlandstalige woorden. Hiervoor gebruikten de onderzoekers een \textit{reverse lemmatization} fase.
 
 \subsection{Syntactische vereenvoudiging}
+Syntactische vereenvoudiging transformeert de grammatica en zinsstructuur van een tekst om de complexiteit van een zin te verlagen. Bijvoorbeeld, twee afzonderlijke zinnen kunnen worden samengevoegd tot één eenvoudigere zin. Syntactische vereenvoudiging richt zich op het verminderen van complexe of onduidelijke zinsconstructies, terwijl de inhoud en betekenis van de tekst behouden blijft. Transformaties die hiertoe behoren zijn de syntax te vereenvoudigen door de zinnen korter te maken of door . Kortom worden teksten toegankelijker, zonder de kerninhoud of relevante inhoud te verwerpen.
 
-Syntactische vereenvoudiging transformeert de grammatica en zinsstructuur van een tekst om de complexiteit van een zin te verlagen. Bijvoorbeeld, twee afzonderlijke zinnen kunnen worden samengevoegd tot één eenvoudigere zin. Syntactische vereenvoudiging richt zich op het verminderen van complexe of onduidelijke zinsconstructies, terwijl de inhoud en betekenis van de tekst behouden blijft. Kortom worden teksten toegankelijker, zonder de kerninhoud of relevante inhoud te verwerpen.
+\subsection{Conceptuele vereenvoudiging}
 
-Antwoord op waar het wordt ingezet?
+Lexicale vereenvoudiging is ingewikkeld wanneer er geen eenvoudigere synoniemen zijn. In dat geval blijft een moeilijk woord voor wat het is. Conceptuele vereenvoudiging lost dit probleem op door een extra concept uit te leggen in de zin waarop conceptuele vereenvoudiging wordt toegepast. Theoretische kennis hierover is schaars, maar \textcite{Siddharthan2006}
 
-\subsection{Semantische vereenvoudiging}
+\subsection{Discourse edits}
+
+\textit{Discourse}
 
 \subsection{Samenvatten}
+
+
+\subsection{Combineren tot het geheel van tekstvereenvoudiging}
+
+Tekstvereenvoudiging omvat alle vier soorten van vereenvoudiging.
+
+Het onderzoek van \textcite{DeBelder2010} richt zich op tekstvereenvoudiging voor kinderen. De doelgroep ligt echter jonger dan deze casus, maar het doel ging aan de slag om een methode op te zetten dat bestaat uit lexicale en syntactische vereenvoudiging.
 
 
 
@@ -77,13 +54,17 @@ Antwoord op waar het wordt ingezet?
 
 \section{Struikelblokken}
 
+\subsection{Problemen bij lexicale vereenvoudiging}
+
+\subsection{Problemen bij syntactische vereenvoudiging}
+
 Volgende zaken aanhalen:
 \begin{itemize}
 	\item Acroniemen
 	\item Homoniemen
 	\item Kerninhoud verliezen
 	\item Ethisch aspect
-	\item ...
+	\item Word Sense Ambiguity
 \end{itemize}
 
 \subsection{Acroniemen}
@@ -93,6 +74,8 @@ Volgende zaken aanhalen:
 \subsection{Kerninhoud verliezen}
 
 \subsection{Ethisch aspect}
+
+
 
 \cite{Gooding2022}
 
