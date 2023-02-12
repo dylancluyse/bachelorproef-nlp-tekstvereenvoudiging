@@ -372,6 +372,51 @@
       \verb https://aclanthology.org/2021.acl-long.88
       \endverb
     \endentry
+    \entry{Gooding2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=641874c2c50473d46ebdd78ff57c967d}{%
+           family={Gooding},
+           familyi={G\bibinitperiod},
+           given={Sian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Dublin, Ireland}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{641874c2c50473d46ebdd78ff57c967d}
+      \strng{fullhash}{641874c2c50473d46ebdd78ff57c967d}
+      \strng{bibnamehash}{641874c2c50473d46ebdd78ff57c967d}
+      \strng{authorbibnamehash}{641874c2c50473d46ebdd78ff57c967d}
+      \strng{authornamehash}{641874c2c50473d46ebdd78ff57c967d}
+      \strng{authorfullhash}{641874c2c50473d46ebdd78ff57c967d}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper outlines the ethical implications of text simplification within the framework of assistive systems. We argue that a distinction should be made between the technologies that perform text simplification and the realisation of these in assistive technologies. When using the latter as a motivation for research, it is important that the subsequent ethical implications be carefully considered. We provide guidelines for the framing of text simplification independently of assistive systems, as well as suggesting directions for future research and discussion based on the concerns raised.}
+      \field{journaltitle}{Ninth Workshop on Speech and Language Processing for Assistive Technologies (SLPAT-2022)}
+      \field{month}{05}
+      \field{title}{On the Ethical Considerations of Text Simplification}
+      \field{year}{2022}
+      \field{pages}{50\bibrangedash 57}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.18653/v1/2022.slpat-1.7
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/2022.slpat-1.7
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2022.slpat-1.7
+      \endverb
+    \endentry
     \entry{Iavarone2021}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=378a356cb4c4a2e7bbc58982f8fe7c43}{%
@@ -942,6 +987,43 @@
       \field{month}{10}
       \field{title}{Python current trend applications-an overview}
       \field{year}{2019}
+    \endentry
+    \entry{Vasista2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=393944a75e014494a6c6ea234f37838d}{%
+           family={Vasista},
+           familyi={V\bibinitperiod},
+           given={Kola},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{393944a75e014494a6c6ea234f37838d}
+      \strng{fullhash}{393944a75e014494a6c6ea234f37838d}
+      \strng{bibnamehash}{393944a75e014494a6c6ea234f37838d}
+      \strng{authorbibnamehash}{393944a75e014494a6c6ea234f37838d}
+      \strng{authornamehash}{393944a75e014494a6c6ea234f37838d}
+      \strng{authorfullhash}{393944a75e014494a6c6ea234f37838d}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Central Asian Journal of Theoretical and Applied Science}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Evolution of AI Design Models}
+      \field{volume}{3}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{urlraw}
+      \verb https://www.cajotas.centralasianstudies.org/index.php/CAJOTAS/article/view/415
+      \endverb
+      \verb{url}
+      \verb https://www.cajotas.centralasianstudies.org/index.php/CAJOTAS/article/view/415
+      \endverb
     \endentry
     \entry{Verhoeven2023}{online}{}
       \name{author}{1}{}{%
@@ -1340,6 +1422,51 @@
       \verb https://aclanthology.org/2021.acl-long.88
       \endverb
     \endentry
+    \entry{Gooding2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=641874c2c50473d46ebdd78ff57c967d}{%
+           family={Gooding},
+           familyi={G\bibinitperiod},
+           given={Sian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Dublin, Ireland}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{641874c2c50473d46ebdd78ff57c967d}
+      \strng{fullhash}{641874c2c50473d46ebdd78ff57c967d}
+      \strng{bibnamehash}{641874c2c50473d46ebdd78ff57c967d}
+      \strng{authorbibnamehash}{641874c2c50473d46ebdd78ff57c967d}
+      \strng{authornamehash}{641874c2c50473d46ebdd78ff57c967d}
+      \strng{authorfullhash}{641874c2c50473d46ebdd78ff57c967d}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper outlines the ethical implications of text simplification within the framework of assistive systems. We argue that a distinction should be made between the technologies that perform text simplification and the realisation of these in assistive technologies. When using the latter as a motivation for research, it is important that the subsequent ethical implications be carefully considered. We provide guidelines for the framing of text simplification independently of assistive systems, as well as suggesting directions for future research and discussion based on the concerns raised.}
+      \field{journaltitle}{Ninth Workshop on Speech and Language Processing for Assistive Technologies (SLPAT-2022)}
+      \field{month}{05}
+      \field{title}{On the Ethical Considerations of Text Simplification}
+      \field{year}{2022}
+      \field{pages}{50\bibrangedash 57}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.18653/v1/2022.slpat-1.7
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/2022.slpat-1.7
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2022.slpat-1.7
+      \endverb
+    \endentry
     \entry{Iavarone2021}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=378a356cb4c4a2e7bbc58982f8fe7c43}{%
@@ -1910,6 +2037,43 @@
       \field{month}{10}
       \field{title}{Python current trend applications-an overview}
       \field{year}{2019}
+    \endentry
+    \entry{Vasista2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=393944a75e014494a6c6ea234f37838d}{%
+           family={Vasista},
+           familyi={V\bibinitperiod},
+           given={Kola},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{393944a75e014494a6c6ea234f37838d}
+      \strng{fullhash}{393944a75e014494a6c6ea234f37838d}
+      \strng{bibnamehash}{393944a75e014494a6c6ea234f37838d}
+      \strng{authorbibnamehash}{393944a75e014494a6c6ea234f37838d}
+      \strng{authornamehash}{393944a75e014494a6c6ea234f37838d}
+      \strng{authorfullhash}{393944a75e014494a6c6ea234f37838d}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Central Asian Journal of Theoretical and Applied Science}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Evolution of AI Design Models}
+      \field{volume}{3}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{urlraw}
+      \verb https://www.cajotas.centralasianstudies.org/index.php/CAJOTAS/article/view/415
+      \endverb
+      \verb{url}
+      \verb https://www.cajotas.centralasianstudies.org/index.php/CAJOTAS/article/view/415
+      \endverb
     \endentry
     \entry{Verhoeven2023}{online}{}
       \name{author}{1}{}{%

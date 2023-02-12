@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.9)  12 FEB 2023 14:11
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.9)  12 FEB 2023 15:32
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1424,8 +1424,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
  []
 
 
-Overfull \hbox (7.08902pt too wide) in paragraph at lines 10--11
-\TU/Montserrat(2)/m/n/10 het onderzoek een pipeline voor geautomatiseerde
+Overfull \hbox (8.07904pt too wide) in paragraph at lines 10--11
+\TU/Montserrat(2)/m/n/10 schillende metrieken om een vereenvoudigde tekst
  []
 
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
@@ -1434,13 +1434,34 @@ File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 
 
 ]
-Overfull \hbox (5.60902pt too wide) in paragraph at lines 21--22
-\TU/Montserrat(2)/m/n/10 mentatie beschikbaar waar onderzoekers het voor-
+Overfull \hbox (1.79456pt too wide) in paragraph at lines 21--22
+[][]\TU/Montserrat(2)/m/n/10 2022[][]). Tekstvereenvoudiging vloeide hier uit v
+oort.
  []
 
 
-Overfull \hbox (1.73572pt too wide) in paragraph at lines 23--24
-\TU/Montserrat(2)/m/n/10 is om ingewikkelde bronnen toegankelijker te ma-
+Overfull \hbox (3.74236pt too wide) in paragraph at lines 21--22
+\TU/Montserrat(2)/m/n/10 documentatie beschikbaar waar onderzoekers het
+ []
+
+
+Overfull \hbox (2.00371pt too wide) in paragraph at lines 21--22
+\TU/Montserrat(2)/m/n/10 voordeel van toegankelijkheid aanhalen, maar vol-
+ []
+
+
+Overfull \hbox (4.12904pt too wide) in paragraph at lines 23--24
+\TU/Montserrat(2)/m/n/10 doel van tekstvereenvoudiging is om ingewikkelde
+ []
+
+
+Overfull \hbox (1.52455pt too wide) in paragraph at lines 23--24
+\TU/Montserrat(2)/m/n/10 gebeurt. Er is conceptuele vereenvoudiging waar-
+ []
+
+
+Overfull \hbox (1.5657pt too wide) in paragraph at lines 23--24
+\TU/Montserrat(2)/m/n/10 bij documenten naar een compacter formaat wor-
  []
 
 
@@ -1478,40 +1499,28 @@ Overfull \hbox (0.11877pt too wide) in paragraph at lines 45--46
 )/m/it/10 chatbot \TU/Montserrat(2)/m/n/10 gebouwd
  []
 
-
-Overfull \hbox (10.57701pt too wide) in paragraph at lines 54--55
-\TU/Montserrat(2)/m/n/10 vereenvoudiging, namelijk het achterhalen waarom
- []
-
+File: img/Screenshot_302.png Graphic file (type bmp)
+<img/Screenshot_302.png>
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
 [3]
-File: img/Screenshot_302.png Graphic file (type bmp)
-<img/Screenshot_302.png>
-
-Overfull \hbox (3.63904pt too wide) in paragraph at lines 73--74
+Overfull \hbox (3.63904pt too wide) in paragraph at lines 71--72
 \TU/Montserrat(2)/m/n/10 delen van tekstvereenvoudiging bij scholieren met
  []
 
 
-Overfull \hbox (0.1857pt too wide) in paragraph at lines 83--84
-\TU/Montserrat(2)/m/n/10 stinhoud van wetenschappelijke papers die in een
- []
-
-
-Overfull \hbox (31.63123pt too wide) in paragraph at lines 89--90
-\TU/Montserrat(2)/m/n/10 uitdagingen. Bestaande internationale AI-toepassingen
- []
-
-
-Underfull \hbox (badness 1062) in paragraph at lines 89--90
-\TU/Montserrat(2)/m/n/10 bieden een gelijkwaardige oplossing, al steekt
+Overfull \hbox (9.82457pt too wide) in paragraph at lines 87--88
+\TU/Montserrat(2)/m/n/10 graad middelbaar onderwijs. Er wordt onvoldoende
  []
 
 )
+Overfull \hbox (0.77573pt too wide) in paragraph at lines 89--46
+\TU/Montserrat(2)/m/n/10 modellen beschikbaar om een pipeline voor tekst-
+ []
+
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
- [4]
+[4]
 Overfull \hbox (0.17401pt too wide) in paragraph at lines 47--47
 [][]\TU/Montserrat(2)/m/n/10 Barnett, A., & Doubleday, Z. (2020). Meta-Research
 :
@@ -1619,12 +1628,12 @@ Package logreq Info: Writing requests to 'CluyseDylan-BPvoorstel.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27695 strings out of 410532
- 522833 string characters out of 2813299
- 1534439 words of memory out of 3000000
- 48504 multiletter control sequences out of 15000+600000
+ 27710 strings out of 410532
+ 523277 string characters out of 2813299
+ 1536569 words of memory out of 3000000
+ 48519 multiletter control sequences out of 15000+600000
  473477 words of font info for 101 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,12n,128p,1436b,5716s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,13n,128p,1436b,5716s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 Output written on CluyseDylan-BPvoorstel.pdf (5 pages).
