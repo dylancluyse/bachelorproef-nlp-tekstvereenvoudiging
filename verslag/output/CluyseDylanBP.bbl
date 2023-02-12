@@ -125,6 +125,53 @@
       \verb :Lexi - A tool for adaptive, personalized text simplification.pdf:PDF
       \endverb
     \endentry
+    \entry{Bulte2018}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a5a8fc2aeb985a232b6685f57a9b5f85}{%
+           family={Bulté},
+           familyi={B\bibinitperiod},
+           given={Bram},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09429fc0db3035f384fcd623614d695c}{%
+           family={Sevens},
+           familyi={S\bibinitperiod},
+           given={Leen},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9395b40e90e112d02f65f89ea87f8553}{%
+           family={Vandeghinste},
+           familyi={V\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{469b48862f3302e3580b613e30ea19d6}
+      \strng{fullhash}{e346deab7707a118bf9659d667415227}
+      \strng{bibnamehash}{e346deab7707a118bf9659d667415227}
+      \strng{authorbibnamehash}{e346deab7707a118bf9659d667415227}
+      \strng{authornamehash}{469b48862f3302e3580b613e30ea19d6}
+      \strng{authorfullhash}{e346deab7707a118bf9659d667415227}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computational Linguistics in the Netherlands Journal}
+      \field{title}{Automating lexical simplification in Dutch}
+      \field{volume}{8}
+      \field{year}{2018}
+      \field{pages}{24\bibrangedash 48}
+      \range{pages}{25}
+      \verb{urlraw}
+      \verb https://clinjournal.org/clinj/article/view/78
+      \endverb
+      \verb{url}
+      \verb https://clinjournal.org/clinj/article/view/78
+      \endverb
+    \endentry
     \entry{Chowdhary2020}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8b85e59bf81a08b351c1b0047ffe26df}{%
@@ -189,6 +236,94 @@
       \verb :persbericht_-_kwart_van_bedrijven_gebruikt_artificiele_intelligentie_-_vlaanderen_bij_beste_leerlingen_van_de_klas.pdf:PDF
       \endverb
     \endentry
+    \entry{Dapaah2022}{online}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=993d444a600643f17bde7fe6b5366784}{%
+           family={Dapaah},
+           familyi={D\bibinitperiod},
+           given={Josephine},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62b338f43af32adfddaf8492d5886294}{%
+           family={Maenhout},
+           familyi={M\bibinitperiod},
+           given={Klaas},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=09e6ab761d283a3f2fb6ac2c5247a056}{%
+           family={Standaard},
+           familyi={S\bibinitperiod},
+           given={De},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{9744d7c83d7eb830dd9fa0e4837149df}
+      \strng{fullhash}{9744d7c83d7eb830dd9fa0e4837149df}
+      \strng{bibnamehash}{9744d7c83d7eb830dd9fa0e4837149df}
+      \strng{authorbibnamehash}{9744d7c83d7eb830dd9fa0e4837149df}
+      \strng{authornamehash}{9744d7c83d7eb830dd9fa0e4837149df}
+      \strng{authorfullhash}{9744d7c83d7eb830dd9fa0e4837149df}
+      \strng{editorbibnamehash}{09e6ab761d283a3f2fb6ac2c5247a056}
+      \strng{editornamehash}{09e6ab761d283a3f2fb6ac2c5247a056}
+      \strng{editorfullhash}{09e6ab761d283a3f2fb6ac2c5247a056}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{8}
+      \field{month}{7}
+      \field{title}{Iedereen heeft boter op zijn hoofd}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.standaard.be/cnt/dmf20220607_97763592
+      \endverb
+      \verb{url}
+      \verb https://www.standaard.be/cnt/dmf20220607_97763592
+      \endverb
+    \endentry
+    \entry{DeBelder2010}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f0d8a63f483db67abaa008de1644127c}{%
+           family={De\bibnamedelima Belder},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Marie-Francine},
+           giveni={M\bibinithyphendelim F\bibinitperiod},
+           givenun=0,
+           suffix={Jan;\bibnamedelima Moens},
+           suffixi={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           suffixun=0}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{publisher}{1}{%
+        {ACM; New York}%
+      }
+      \strng{namehash}{f0d8a63f483db67abaa008de1644127c}
+      \strng{fullhash}{f0d8a63f483db67abaa008de1644127c}
+      \strng{bibnamehash}{f0d8a63f483db67abaa008de1644127c}
+      \strng{authorbibnamehash}{f0d8a63f483db67abaa008de1644127c}
+      \strng{authornamehash}{f0d8a63f483db67abaa008de1644127c}
+      \strng{authorfullhash}{f0d8a63f483db67abaa008de1644127c}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The goal in this paper is to automatically transform text into a simpler text, so that it is easier to understand by children. We perform syntactic simplification, i.e. the splitting of sentences, and lexical simplification, i.e. replacing difficult words with easier synonyms. We test the performance of this approach for each component separately on a per sentence basis, and globally with the automatic construction of simplified news articles and encyclopedia articles. By including information from a language model in the lexical simplification step, we obtain better results over a baseline method. The syntactic simplification shows that some phenomena are hard to recognize by a parser, and that errors are often introduced. Although the reading difficulty goes down, it still doesn’t reach the required level needed for young children.}
+      \field{journaltitle}{Prroceedings of the SIGIR workshop on accessible search systems}
+      \field{title}{Text simplification for children}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \keyw{Text simplification}
+    \endentry
     \entry{Donato2022}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=d8e81a3a7edd3a121de6cffb2c1fc333}{%
@@ -250,6 +385,65 @@
       \field{pages}{110\bibrangedash 127}
       \range{pages}{18}
       \keyw{choices,dyslexia,reasons,students,university}
+    \endentry
+    \entry{Wafaa2021}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=ea1c905d8bf36e913507bf30a4c30d0e}{%
+           family={El-Kassas},
+           familyi={E\bibinithyphendelim K\bibinitperiod},
+           given={Wafaa\bibnamedelima S.},
+           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=454314f79cbfef64d19c45470581a04a}{%
+           family={Salama},
+           familyi={S\bibinitperiod},
+           given={Cherif\bibnamedelima R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=081e28dc38e938f4d9ff705722db13ce}{%
+           family={Rafea},
+           familyi={R\bibinitperiod},
+           given={Ahmed\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e56016486cfad9ce3fe323e25b5d95f}{%
+           family={Mohamed},
+           familyi={M\bibinitperiod},
+           given={Hoda\bibnamedelima K.},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{28f89422156ad06d1dd8f16c626f578a}
+      \strng{fullhash}{99e9e1ba192957edcc2f310a9478eb42}
+      \strng{bibnamehash}{99e9e1ba192957edcc2f310a9478eb42}
+      \strng{authorbibnamehash}{99e9e1ba192957edcc2f310a9478eb42}
+      \strng{authornamehash}{28f89422156ad06d1dd8f16c626f578a}
+      \strng{authorfullhash}{99e9e1ba192957edcc2f310a9478eb42}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Automatic Text Summarization (ATS) is becoming much more important because of the huge amount of textual content that grows exponentially on the Internet and the various archives of news articles, scientific papers, legal documents, etc. Manual text summarization consumes a lot of time, effort, cost, and even becomes impractical with the gigantic amount of textual content. Researchers have been trying to improve ATS techniques since the 1950s. ATS approaches are either extractive, abstractive, or hybrid. The extractive approach selects the most important sentences in the input document(s) then concatenates them to form the summary. The abstractive approach represents the input document(s) in an intermediate representation then generates the summary with sentences that are different than the original sentences. The hybrid approach combines both the extractive and abstractive approaches. Despite all the proposed methods, the generated summaries are still far away from the human-generated summaries. Most researches focus on the extractive approach. It is required to focus more on the abstractive and hybrid approaches. This research provides a comprehensive survey for the researchers by presenting the different aspects of ATS: approaches, methods, building blocks, techniques, datasets, evaluation methods, and future research directions.}
+      \field{issn}{0957-4174}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{title}{Automatic text summarization: A comprehensive survey}
+      \field{volume}{165}
+      \field{year}{2021}
+      \field{pages}{113679}
+      \range{pages}{1}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.eswa.2020.113679
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0957417420305030
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0957417420305030
+      \endverb
+      \keyw{Automatic text summarization,Text summarization approaches,Text summarization techniques,Text summarization evaluation}
     \endentry
     \entry{Gala2016}{article}{}
       \name{author}{2}{}{%
@@ -404,6 +598,107 @@
       \verb https://aclanthology.org/2022.slpat-1.7
       \endverb
     \endentry
+    \entry{Iavarone2021}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=378a356cb4c4a2e7bbc58982f8fe7c43}{%
+           family={Iavarone},
+           familyi={I\bibinitperiod},
+           given={Benedetta},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0743dd7569b8a6d973b08ed0f49a882}{%
+           family={Brunato},
+           familyi={B\bibinitperiod},
+           given={Dominique},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18dc967263b005b6c493d7bb502cc88b}{%
+           family={Dell{'}Orletta},
+           familyi={D\bibinitperiod},
+           given={Felice},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Online}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{ef84a039f012fc4cac4b2c00cdf60923}
+      \strng{fullhash}{7d44b7009388d00a06c6331ddd98cbc1}
+      \strng{bibnamehash}{7d44b7009388d00a06c6331ddd98cbc1}
+      \strng{authorbibnamehash}{7d44b7009388d00a06c6331ddd98cbc1}
+      \strng{authornamehash}{ef84a039f012fc4cac4b2c00cdf60923}
+      \strng{authorfullhash}{7d44b7009388d00a06c6331ddd98cbc1}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We study the influence of context on how humans evaluate the complexity of a sentence in English. We collect a new dataset of sentences, where each sentence is rated for perceived complexity within different contextual windows. We carry out an in-depth analysis to detect which linguistic features correlate more with complexity judgments and with the degree of agreement among annotators. We train several regression models, using either explicit linguistic features or contextualized word embeddings, to predict the mean complexity values assigned to sentences in the different contextual windows, as well as their standard deviation. Results show that models leveraging explicit features capturing morphosyntactic and syntactic phenomena perform always better, especially when they have access to features extracted from all contextual sentences.}
+      \field{journaltitle}{Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics}
+      \field{month}{6}
+      \field{title}{Sentence Complexity in Context}
+      \field{year}{2021}
+      \field{pages}{186\bibrangedash 199}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.18653/v1/2021.cmcl-1.23
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/2021.cmcl-1.23
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/2021.cmcl-1.23
+      \endverb
+    \endentry
+    \entry{Malik2022}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=acc9b20b0e882f7bad79ff07f866e756}{%
+           family={Malik},
+           familyi={M\bibinitperiod},
+           given={Rijul\bibnamedelima Sing},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=43a8886fd70084e650ac0521c147e1f1}{%
+           family={AI},
+           familyi={A\bibinitperiod},
+           given={Towards},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{acc9b20b0e882f7bad79ff07f866e756}
+      \strng{fullhash}{acc9b20b0e882f7bad79ff07f866e756}
+      \strng{bibnamehash}{acc9b20b0e882f7bad79ff07f866e756}
+      \strng{authorbibnamehash}{acc9b20b0e882f7bad79ff07f866e756}
+      \strng{authornamehash}{acc9b20b0e882f7bad79ff07f866e756}
+      \strng{authorfullhash}{acc9b20b0e882f7bad79ff07f866e756}
+      \strng{editorbibnamehash}{43a8886fd70084e650ac0521c147e1f1}
+      \strng{editornamehash}{43a8886fd70084e650ac0521c147e1f1}
+      \strng{editorfullhash}{43a8886fd70084e650ac0521c147e1f1}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{month}{7}
+      \field{title}{Top 5 NLP Libraries To Use in Your Projects}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://towardsai.net/p/l/top-5-nlp-libraries-to-use-in-your-projects
+      \endverb
+      \verb{url}
+      \verb https://towardsai.net/p/l/top-5-nlp-libraries-to-use-in-your-projects
+      \endverb
+    \endentry
     \entry{Martens2021}{online}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=748b4791936091d1cfa1ed6eef897b00}{%
@@ -510,6 +805,76 @@
       \endverb
       \verb{url}
       \verb https://data-en-maatschappij.ai/nieuws/school-innovation-forum-2021
+      \endverb
+    \endentry
+    \entry{Niemeijer2010}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=e532657db2926fe48522a7cb17e9b2a6}{%
+           family={Niemeijer},
+           familyi={N\bibinitperiod},
+           given={A.R.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0366d0c1c0522f41a6b69c021dbf882d}{%
+           family={Frederiks},
+           familyi={F\bibinitperiod},
+           given={B.J.M.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d06fab03f6541c4e238361da7fe7a43}{%
+           family={Riphagen},
+           familyi={R\bibinitperiod},
+           given={II},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ff1b5066e7f366d9ca2de81526b3c998}{%
+           family={Legemaate},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=371e9f4d3781faf70f2eb9d45ffff9aa}{%
+           family={Eefsting},
+           familyi={E\bibinitperiod},
+           given={J.A.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e55c014a21acd06e28f4e557f47ab03}{%
+           family={Hertogh},
+           familyi={H\bibinitperiod},
+           given={C.M.P.M.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {Undefined/Unknown}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{1f9e0e0c79ec42b028331bc2595e06b9}
+      \strng{fullhash}{646d8f5df4c2ad44c5ab6617610d5b2e}
+      \strng{bibnamehash}{646d8f5df4c2ad44c5ab6617610d5b2e}
+      \strng{authorbibnamehash}{646d8f5df4c2ad44c5ab6617610d5b2e}
+      \strng{authornamehash}{1f9e0e0c79ec42b028331bc2595e06b9}
+      \strng{authorfullhash}{646d8f5df4c2ad44c5ab6617610d5b2e}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1041-6102}
+      \field{journaltitle}{Psychogeriatrics}
+      \field{number}{7}
+      \field{title}{Ethical and practical concerns of surveillance technologies in residential care for people with dementia or intellectual disabilities: an overview of the literature}
+      \field{volume}{22}
+      \field{year}{2010}
+      \field{pages}{1129\bibrangedash 1142}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1017/S1041610210000037
       \endverb
     \endentry
     \entry{PlavenSigray2017}{article}{}
@@ -735,6 +1100,90 @@
       \verb https://medium.com/sciforce/biggest-open-problems-in-natural-language-processing-7eb101ccfc9
       \endverb
     \endentry
+    \entry{Shardlow2014}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d15f65dc3a8314f8ec6692eb6b0f5c1a}{%
+           family={Shardlow},
+           familyi={S\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {The Science}%
+        {Information Organization}%
+      }
+      \strng{namehash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \strng{fullhash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \strng{bibnamehash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \strng{authorbibnamehash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \strng{authornamehash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \strng{authorfullhash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Advanced Computer Science and Applications(IJACSA), Special Issue on Natural Language Processing 2014}
+      \field{number}{1}
+      \field{title}{A Survey of Automated Text Simplification}
+      \field{volume}{4}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.14569/SpecialIssue.2014.040109
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.14569/SpecialIssue.2014.040109
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.14569/SpecialIssue.2014.040109
+      \endverb
+    \endentry
+    \entry{Siddharthan2006}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cb280ee34b558048f3051f70a81863a7}{%
+           family={Siddharthan},
+           familyi={S\bibinitperiod},
+           given={Advaith},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Netherlands}%
+      }
+      \strng{namehash}{cb280ee34b558048f3051f70a81863a7}
+      \strng{fullhash}{cb280ee34b558048f3051f70a81863a7}
+      \strng{bibnamehash}{cb280ee34b558048f3051f70a81863a7}
+      \strng{authorbibnamehash}{cb280ee34b558048f3051f70a81863a7}
+      \strng{authornamehash}{cb280ee34b558048f3051f70a81863a7}
+      \strng{authorfullhash}{cb280ee34b558048f3051f70a81863a7}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Syntactic simplification is the process of reducing the grammatical complexity of a text, while retaining its information content and meaning. The aim of syntactic simplification is to make text easier to comprehend for human readers, or process by programs. In this paper, we formalise the interactions that take place between syntax and discourse during the simplification process. This is important because the usefulness of syntactic simplification in making a text accessible to a wider audience can be undermined if the rewritten text lacks cohesion. We describe how various generation issues like sentence ordering, cue-word selection, referring-expression generation, determiner choice and pronominal use can be resolved so as to preserve conjunctive and anaphoric cohesive relations during syntactic simplification and present the results of an evaluation of our syntactic simplification system.}
+      \field{journaltitle}{Research on Language and Computation}
+      \field{month}{6}
+      \field{number}{1}
+      \field{title}{Syntactic Simplification and Text Cohesion}
+      \field{volume}{4}
+      \field{year}{2006}
+      \field{pages}{77\bibrangedash 109}
+      \range{pages}{33}
+      \verb{urlraw}
+      \verb http://oro.open.ac.uk/58888/
+      \endverb
+      \verb{url}
+      \verb http://oro.open.ac.uk/58888/
+      \endverb
+      \keyw{anaphoric structure; cue-word selection; determiner choice; discourse structure; sentence ordering; syntactic simplification; text cohesion}
+    \endentry
     \entry{Siddharthan2014}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cb280ee34b558048f3051f70a81863a7}{%
@@ -750,6 +1199,7 @@
       \strng{authorbibnamehash}{cb280ee34b558048f3051f70a81863a7}
       \strng{authornamehash}{cb280ee34b558048f3051f70a81863a7}
       \strng{authorfullhash}{cb280ee34b558048f3051f70a81863a7}
+      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{extradatescope}{labelyear}
@@ -764,6 +1214,92 @@
       \field{year}{2014}
       \field{pages}{259\bibrangedash 298}
       \range{pages}{40}
+    \endentry
+    \entry{Punardeep2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=24058ae9c6ed549fc265e147066eb538}{%
+           family={Sikka},
+           familyi={S\bibinitperiod},
+           given={Punardeep},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e70a5e3b611bad499261ad36873dee4}{%
+           family={Mago},
+           familyi={M\bibinitperiod},
+           given={Vijay},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d09033f99e60c84c3c6114727be75ff3}
+      \strng{fullhash}{d09033f99e60c84c3c6114727be75ff3}
+      \strng{bibnamehash}{d09033f99e60c84c3c6114727be75ff3}
+      \strng{authorbibnamehash}{d09033f99e60c84c3c6114727be75ff3}
+      \strng{authornamehash}{d09033f99e60c84c3c6114727be75ff3}
+      \strng{authorfullhash}{d09033f99e60c84c3c6114727be75ff3}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{A Survey on Text Simplification}
+      \field{volume}{abs/2008.08612}
+      \field{year}{2020}
+      \verb{eprint}
+      \verb 2008.08612
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2008.08612
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2008.08612
+      \endverb
+    \endentry
+    \entry{Sohom2019}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d58f396c0dd0af55ec715e3cb63a0867}{%
+           family={Sohom},
+           familyi={S\bibinitperiod},
+           given={Gunning},
+           giveni={G\bibinitperiod},
+           givenun=0,
+           suffix={Ghosh;\bibnamedelima Dwight},
+           suffixi={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+           suffixun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{publisher}{1}{%
+        {Packt Publishing}%
+      }
+      \strng{namehash}{d58f396c0dd0af55ec715e3cb63a0867}
+      \strng{fullhash}{d58f396c0dd0af55ec715e3cb63a0867}
+      \strng{bibnamehash}{d58f396c0dd0af55ec715e3cb63a0867}
+      \strng{authorbibnamehash}{d58f396c0dd0af55ec715e3cb63a0867}
+      \strng{authornamehash}{d58f396c0dd0af55ec715e3cb63a0867}
+      \strng{authorfullhash}{d58f396c0dd0af55ec715e3cb63a0867}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Use Python and NLTK (Natural Language Toolkit) to build out your own text classifiers and solve common NLP problems. Key Features Assimilate key NLP concepts and terminologies Explore popular NLP tools and techniques Gain practical experience using NLP in application code Book Description If NLP hasn't been your forte, Natural Language Processing Fundamentals will make sure you set off to a steady start. This comprehensive guide will show you how to effectively use Python libraries and NLP concepts to solve various problems. You'll be introduced to natural language processing and its applications through examples and exercises. This will be followed by an introduction to the initial stages of solving a problem, which includes problem definition, getting text data, and preparing it for modeling. With exposure to concepts like advanced natural language processing algorithms and visualization techniques, you'll learn how to create applications that can extract information from unstructured data and present it as impactful visuals. Although you will continue to learn NLP-based techniques, the focus will gradually shift to developing useful applications. In these sections, you'll understand how to apply NLP techniques to answer questions as can be used in chatbots. By the end of this book, you'll be able to accomplish a varied range of assignments ranging from identifying the most suitable type of NLP task for solving a problem to using a tool like spacy or gensim for performing sentiment analysis. The book will easily equip you with the knowledge you need to build applications that interpret human language. What you will learn Obtain, verify, and clean data before transforming it into a correct format for use Perform data analysis and machine learning tasks using Python Understand the basics of computational linguistics Build models for general natural language processing tasks Evaluate the performance of a model with the right metrics Visualize, quantify, and perform exploratory analysis from any text data Who this book is for Natural Language Processing Fundamentals is designed for novice and mid-level data scientists and machine learning developers who want to gather and analyze text data to build an NLP-powered product. It'll help you to have prior experience of coding in Python using data types, writing functions, and importing libraries. Some experience with linguistics and probability is useful but not necessary.}
+      \field{isbn}{9781789954043}
+      \field{title}{Natural Language Processing Fundamentals}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://medium.com/analytics-vidhya/natural-language-processing-basic-concepts-a3c7f50bf5d3
+      \endverb
+      \verb{url}
+      \verb https://medium.com/analytics-vidhya/natural-language-processing-basic-concepts-a3c7f50bf5d3
+      \endverb
     \endentry
     \entry{Swayamdipta2019}{online}{}
       \name{author}{1}{}{%
@@ -806,6 +1342,118 @@
       \verb{url}
       \verb https://www.microsoft.com/en-us/research/video/learning-challenges-in-natural-language-processing/
       \endverb
+    \endentry
+    \entry{Thangarajah2019}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4e2ee739837d14190e574c05b7e9980a}{%
+           family={Thangarajah},
+           familyi={T\bibinitperiod},
+           given={Vinothraj},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4e2ee739837d14190e574c05b7e9980a}
+      \strng{fullhash}{4e2ee739837d14190e574c05b7e9980a}
+      \strng{bibnamehash}{4e2ee739837d14190e574c05b7e9980a}
+      \strng{authorbibnamehash}{4e2ee739837d14190e574c05b7e9980a}
+      \strng{authornamehash}{4e2ee739837d14190e574c05b7e9980a}
+      \strng{authorfullhash}{4e2ee739837d14190e574c05b7e9980a}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Python current trend applications-an overview}
+      \field{year}{2019}
+    \endentry
+    \entry{Verhoeven2023}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a1cc7fa46d72b7efc0ca39a8b7e5c4c3}{%
+           family={Verhoeven},
+           familyi={V\bibinitperiod},
+           given={Wim},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9cf69763de83f9db7f4a87c51fe6ae23}{%
+           family={Trends},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{a1cc7fa46d72b7efc0ca39a8b7e5c4c3}
+      \strng{fullhash}{a1cc7fa46d72b7efc0ca39a8b7e5c4c3}
+      \strng{bibnamehash}{a1cc7fa46d72b7efc0ca39a8b7e5c4c3}
+      \strng{authorbibnamehash}{a1cc7fa46d72b7efc0ca39a8b7e5c4c3}
+      \strng{authornamehash}{a1cc7fa46d72b7efc0ca39a8b7e5c4c3}
+      \strng{authorfullhash}{a1cc7fa46d72b7efc0ca39a8b7e5c4c3}
+      \strng{editorbibnamehash}{9cf69763de83f9db7f4a87c51fe6ae23}
+      \strng{editornamehash}{9cf69763de83f9db7f4a87c51fe6ae23}
+      \strng{editorfullhash}{9cf69763de83f9db7f4a87c51fe6ae23}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{8}
+      \field{month}{2}
+      \field{title}{Applaus voor de studenten die ChatGPT gebruiken}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://trends.knack.be/economie/bedrijven/applaus-voor-de-studenten-die-chatgpt-gebruiken/article-opinion-1934277.html?cookie_check=1676034368
+      \endverb
+      \verb{url}
+      \verb https://trends.knack.be/economie/bedrijven/applaus-voor-de-studenten-die-chatgpt-gebruiken/article-opinion-1934277.html?cookie_check=1676034368
+      \endverb
+    \endentry
+    \entry{Xu2015}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b1dd1a9ff59cc6aeba590fc68bcc39cf}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f7acd168ce346c83b255e5386dee1c67}{%
+           family={Callison-Burch},
+           familyi={C\bibinithyphendelim B\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=65c258278914dd5e7df5d0d7fb54fc1d}{%
+           family={Napoles},
+           familyi={N\bibinitperiod},
+           given={Courtney},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{fd08904658d79d66387382803b131d84}
+      \strng{fullhash}{19d1af6ba448a224e95b58103d26a4ac}
+      \strng{bibnamehash}{19d1af6ba448a224e95b58103d26a4ac}
+      \strng{authorbibnamehash}{19d1af6ba448a224e95b58103d26a4ac}
+      \strng{authornamehash}{fd08904658d79d66387382803b131d84}
+      \strng{authorfullhash}{19d1af6ba448a224e95b58103d26a4ac}
+      \field{sortinit}{X}
+      \field{sortinithash}{e90038f30fa4b9ce59606fc8347e3cc7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Transactions of the Association for Computational Linguistics}
+      \field{title}{Problems in current text simplification research: New data can help}
+      \field{volume}{3}
+      \field{year}{2015}
+      \field{pages}{283\bibrangedash 297}
+      \range{pages}{15}
     \endentry
   \enddatalist
 \endrefsection

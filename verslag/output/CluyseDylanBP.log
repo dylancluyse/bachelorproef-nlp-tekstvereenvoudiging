@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  9 FEB 2023 22:28
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  12 FEB 2023 12:58
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2258,13 +2258,13 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 95.
 ]) [4
 
 ]
-(../output/CluyseDylanBP.toc)
+(../output/CluyseDylanBP.toc [5
+
+])
 \tf@toc=\write10
 \openout10 = `CluyseDylanBP.toc'.
 
- [5
-
-] [6] (../output/CluyseDylanBP.lof
+ [6] (../output/CluyseDylanBP.lof
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraMathRegular' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
@@ -2327,17 +2327,11 @@ cp;mapping=tex-text;"
 [1
 
 
-]
-Overfull \hbox (17.41185pt too wide) in paragraph at lines 31--32
-[]\TU/Montserrat(1)/m/n/10.95 Wetenschappelijke artikelen vereenvoudigen kost t
-ijd en energie voor STEM-docenten
- []
-
-[2] [3]) (./standvanzaken.tex [4]
+] [2] [3]) (./standvanzaken.tex [4]
 Hoofdstuk 2.
 [5
 
-] [6]) [7] [8]
+] [6] [7] [8]) [9] [10] (./methodologie.tex
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
 (fancyhdr)                Make it at least 26.66998pt, for example:
@@ -2346,15 +2340,15 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
 
-[9] (./methodologie.tex [10]
+[11] [12]
 Hoofdstuk 3.
-[11
-
-]) (./conclusie.tex [12]
-Hoofdstuk 4.
 [13
 
-]) [14]
+]) (./conclusie.tex [14]
+Hoofdstuk 4.
+[15
+
+]) [16]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--8
@@ -2362,36 +2356,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 da-2030-stem-competenties-voor-een-
  []
 
-
-Overfull \hbox (4.27795pt too wide) in paragraph at lines 8--9
-\TU/Montserrat(1)/m/n/10.95 werkdruk bij leraren en scholieren in het middelbaa
-r onderwijs ligt torenhoog. STEM
- []
-
-[15
+[17
 
 ]
-Overfull \hbox (4.72691pt too wide) in paragraph at lines 20--21
+Overfull \hbox (0.95647pt too wide) in paragraph at lines 10--11
+\TU/Montserrat(1)/m/n/10.95 geeft het onderzoek een theoretische basis van teks
+tvereenvoudiging. Daarna wijst
+ []
+
+
+Overfull \hbox (4.72691pt too wide) in paragraph at lines 21--22
 \TU/Montserrat(1)/m/n/10.95 toename in kennis zorgde voor nieuwe toepassingen. 
 Tekstvereenvoudiging vloeide
  []
 
-[16] [17]
-Overfull \hbox (8.7273pt too wide) in paragraph at lines 37--38
-\TU/Montserrat(1)/m/n/10.95 op uitdagingen. Het gaat om zowel interpretatie- al
-s dataproblemen bij AI-machines.
+[18] [19]
+Overfull \hbox (14.44443pt too wide) in paragraph at lines 40--41
+[]\TU/Montserrat(1)/m/n/10.95 Het onderzoek van []Sciforce ([][]2020[][]) haalt
+ aan dat het merendeel van NLP-toepassingen
  []
 
-[18]
+[20]
+Overfull \hbox (3.30486pt too wide) in paragraph at lines 50--51
+\TU/Montserrat(1)/m/n/10.95 tax, kleine leercurve en grote beschikbaarheid van 
+kant-en-klare bibliotheken. Moei-
+ []
+
+[21]
 File: img/Screenshot_302.png Graphic file (type bmp)
 <img/Screenshot_302.png>
- [19] [20]
-Overfull \hbox (0.27292pt too wide) in paragraph at lines 85--86
-\TU/Montserrat(1)/m/n/10.95 schappelijke papers, die in een derde graad middelb
-aar onderwijs worden gebruikt,
+ [22] [23]) [24]
+Overfull \hbox (2.13918pt too wide) in paragraph at lines 172--172
+\TU/Montserrat(1)/m/n/10.95 Dutch. \TU/Montserrat(2)/m/it/10.95 Computational L
+inguistics in the Netherlands Journal\TU/Montserrat(1)/m/n/10.95 , \TU/Montserr
+at(2)/m/it/10.95 8\TU/Montserrat(1)/m/n/10.95 , 24–48. [][]$[][][][][] []
  []
 
-) [21]
+
 Overfull \hbox (17.6088pt too wide) in paragraph at lines 172--172
 \TU/Montserrat(1)/m/n/10.95 E. M. (2022). Students with dyslexia between school
  and university: Post-diploma
@@ -2403,23 +2404,31 @@ Overfull \hbox (0.81898pt too wide) in paragraph at lines 172--172
 ve Technologies (SLPAT-
  []
 
-[22
+[25
 
 
-] [23] (../output/CluyseDylanBP.aux)
+]
+Overfull \hbox (18.56651pt too wide) in paragraph at lines 172--172
+\TU/Montserrat(2)/m/it/10.95 on Natural Language Processing 2014\TU/Montserrat(
+1)/m/n/10.95 , \TU/Montserrat(2)/m/it/10.95 4\TU/Montserrat(1)/m/n/10.95 (1). [
+][]$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][][] [] [][][][][][][
+][][][][][] []
+ []
+
+[26] [27] (../output/CluyseDylanBP.aux)
 Package rerunfilecheck Info: File `CluyseDylanBP.out' has not changed.
-(rerunfilecheck)             Checksum: ABC02988492AC0D6D82ABA56EFD6548D;2381.
+(rerunfilecheck)             Checksum: D79CDA1B303D9DA04B508570A5DD655C;2886.
 Package logreq Info: Writing requests to 'CluyseDylanBP.run.xml'.
 \openout1 = `CluyseDylanBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46284 strings out of 478657
- 902822 string characters out of 5861312
- 2005108 words of memory out of 5000000
- 65066 multiletter control sequences out of 15000+600000
+ 46343 strings out of 478657
+ 904649 string characters out of 5861312
+ 2013977 words of memory out of 5000000
+ 65125 multiletter control sequences out of 15000+600000
  406482 words of font info for 98 fonts, out of 8000000 for 9000
  351 hyphenation exceptions out of 8191
- 113i,11n,139p,1680b,7099s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 113i,12n,139p,2569b,7099s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../output/CluyseDylanBP.xdv (30 pages, 622324 bytes).
+Output written on ../output/CluyseDylanBP.xdv (34 pages, 736196 bytes).

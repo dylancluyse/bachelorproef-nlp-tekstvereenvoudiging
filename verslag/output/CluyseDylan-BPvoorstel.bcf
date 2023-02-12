@@ -2811,7 +2811,7 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">voorstel.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Crevits2022</bcf:citekey>
+    <bcf:citekey order="1">Dapaah2022</bcf:citekey>
     <bcf:citekey order="2">Siddharthan2014</bcf:citekey>
     <bcf:citekey order="3">Sciforce2020</bcf:citekey>
     <bcf:citekey order="4">Chowdhary2020</bcf:citekey>
@@ -2822,11 +2822,19 @@
     <bcf:citekey order="14">Barnett2020</bcf:citekey>
     <bcf:citekey order="16">Donato2022</bcf:citekey>
     <bcf:citekey order="18">Roldos2020</bcf:citekey>
-    <bcf:citekey order="19">Sciforce2020</bcf:citekey>
-    <bcf:citekey order="20">Martens2021</bcf:citekey>
-    <bcf:citekey order="21">Martens2021a</bcf:citekey>
-    <bcf:citekey order="22">Swayamdipta2019</bcf:citekey>
-    <bcf:citekey order="24">Readable2021</bcf:citekey>
+    <bcf:citekey order="20">Sciforce2020</bcf:citekey>
+    <bcf:citekey order="22">Verhoeven2023</bcf:citekey>
+    <bcf:citekey order="24">Martens2021</bcf:citekey>
+    <bcf:citekey order="25">Martens2021a</bcf:citekey>
+    <bcf:citekey order="26">Thangarajah2019</bcf:citekey>
+    <bcf:citekey order="28">Malik2022</bcf:citekey>
+    <bcf:citekey order="30">Shardlow2014</bcf:citekey>
+    <bcf:citekey order="32">Garbacea2021</bcf:citekey>
+    <bcf:citekey order="34">Iavarone2021</bcf:citekey>
+    <bcf:citekey order="36">Garbacea2021</bcf:citekey>
+    <bcf:citekey order="38">Swayamdipta2019</bcf:citekey>
+    <bcf:citekey order="40">Readable2021</bcf:citekey>
+    <bcf:citekey order="42">Readable2021</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

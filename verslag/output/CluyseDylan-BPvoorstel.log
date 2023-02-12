@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  8 FEB 2023 11:51
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  12 FEB 2023 11:17
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1341,74 +1341,53 @@ Package mdframed Info: mdframed inside a box
 
  (./voorstel-inhoud.tex
 
-LaTeX Warning: Citation 'Crevits2022' on page 1 undefined on input line 7.
+LaTeX Warning: Citation 'Dapaah2022' on page 1 undefined on input line 8.
 
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 7.
+(Font)              scaled to size 10.00107pt on input line 8.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 7.20076pt on input line 7.
+(Font)              scaled to size 7.20076pt on input line 8.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 5.80061pt on input line 7.
+(Font)              scaled to size 5.80061pt on input line 8.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 7.
+(Font)              scaled to size 9.99893pt on input line 8.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 7.19922pt on input line 7.
+(Font)              scaled to size 7.19922pt on input line 8.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 5.79938pt on input line 7.
+(Font)              scaled to size 5.79938pt on input line 8.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 7.
+(Font)              scaled to size 8.00085pt on input line 8.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 7.
+(Font)              scaled to size 7.99915pt on input line 8.
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
 [][][]\TU/Montserrat(2)/m/n/8 https://www.vlaanderen.be/publicaties/stem-agenda
 -
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--7
+Underfull \hbox (badness 10000) in paragraph at lines 8--8
 \TU/Montserrat(2)/m/n/8 2030-stem-competenties-voor-een-toekomst-en-
  []
 
 
-Overfull \hbox (1.99905pt too wide) in paragraph at lines 7--9
-[]\TU/Montserrat(2)/m/n/10 België is een koploper in het gebruik van kunst-
+Overfull \hbox (3.58376pt too wide) in paragraph at lines 8--9
+\TU/Montserrat(2)/m/n/10 ([]). Het STEM-agenda[][][][][] van de Vlaamse
  []
 
 
-Overfull \hbox (2.00034pt too wide) in paragraph at lines 7--9
-\TU/Montserrat(2)/m/n/10 projecten, om taalgerelateerde AI-ontwikkelingen
+Overfull \hbox (3.05904pt too wide) in paragraph at lines 8--9
+\TU/Montserrat(2)/m/n/10 STEM-onderwijs tegen 2030 aantrekkelijker te ma-
  []
 
 
-Overfull \hbox (2.69823pt too wide) in paragraph at lines 7--9
-\TU/Montserrat(2)/m/n/10 project [][][][][] verenigt AI-softwarebedrijven uit v
-erschil-
+Overfull \hbox (7.19789pt too wide) in paragraph at lines 10--11
+\TU/Montserrat(2)/m/n/10 tekstvereenvoudiging beoordeeld kan worden. Ten
  []
 
 
-Overfull \hbox (0.59236pt too wide) in paragraph at lines 7--9
-\TU/Montserrat(2)/m/n/10 taaltoepassingen ontwikkeld voor het middelbaar
- []
-
-
-Overfull \hbox (22.03903pt too wide) in paragraph at lines 7--9
-\TU/Montserrat(2)/m/n/10 heid omvat aandachtspunten om het STEM-onderwijs
- []
-
-
-Overfull \hbox (10.45903pt too wide) in paragraph at lines 10--11
-\TU/Montserrat(2)/m/n/10 wetenschappelijke artikelen door middel van kunst-
- []
-
-
-Underfull \hbox (badness 1052) in paragraph at lines 10--11
-\TU/Montserrat(2)/m/n/10 men wat tekstvereenvoudiging inhoudt en uit
- []
-
-
-Overfull \hbox (5.84456pt too wide) in paragraph at lines 10--11
-\TU/Montserrat(2)/m/n/10 een zelfgemaakte pipeline kunnen opbouwen. Ten
+Overfull \hbox (1.60902pt too wide) in paragraph at lines 10--11
+\TU/Montserrat(2)/m/n/10 slotte vergelijkt het onderzoek de vereenvoudigde
  []
 
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
@@ -1417,127 +1396,163 @@ File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 
 
 ]
+Overfull \hbox (5.60902pt too wide) in paragraph at lines 21--22
+\TU/Montserrat(2)/m/n/10 mentatie beschikbaar waar onderzoekers het voor-
+ []
 
-LaTeX Warning: Citation 'Siddharthan2014' on page 2 undefined on input line 20.
+
+LaTeX Warning: Citation 'Siddharthan2014' on page 2 undefined on input line 23.
 
 
 
-Overfull \hbox (1.73572pt too wide) in paragraph at lines 20--21
+Overfull \hbox (1.73572pt too wide) in paragraph at lines 23--24
 \TU/Montserrat(2)/m/n/10 is om ingewikkelde bronnen toegankelijker te ma-
  []
 
 
-LaTeX Warning: Citation 'Sciforce2020' on page 2 undefined on input line 22.
+LaTeX Warning: Citation 'Sciforce2020' on page 2 undefined on input line 25.
 
 
-LaTeX Warning: Citation 'Chowdhary2020' on page 2 undefined on input line 22.
+LaTeX Warning: Citation 'Chowdhary2020' on page 2 undefined on input line 25.
 
 
-Overfull \hbox (0.98901pt too wide) in paragraph at lines 22--23
+Overfull \hbox (0.98901pt too wide) in paragraph at lines 25--26
 []\TU/Montserrat(2)/m/n/10 Tekstvereenvoudiging behoort tot de zijtak van
  []
 
 
-Overfull \hbox (5.72902pt too wide) in paragraph at lines 22--23
+Overfull \hbox (5.72902pt too wide) in paragraph at lines 25--26
 [] \TU/Montserrat(2)/m/n/10 heeft deze vorm potentieel dank-
  []
 
 
-LaTeX Warning: Citation 'Rello2012' on page 2 undefined on input line 25.
+LaTeX Warning: Citation 'Rello2012' on page 2 undefined on input line 28.
 
 
-LaTeX Warning: Citation 'Gala2016' on page 2 undefined on input line 27.
+LaTeX Warning: Citation 'Gala2016' on page 2 undefined on input line 30.
 
 
-LaTeX Warning: Citation 'Bingel2018' on page 2 undefined on input line 29.
+LaTeX Warning: Citation 'Bingel2018' on page 2 undefined on input line 32.
 
 
-LaTeX Warning: Citation 'PlavenSigray2017' on page 2 undefined on input line 32
+LaTeX Warning: Citation 'PlavenSigray2017' on page 2 undefined on input line 35
 .
 
 
-LaTeX Warning: Citation 'Barnett2020' on page 2 undefined on input line 32.
+LaTeX Warning: Citation 'Barnett2020' on page 2 undefined on input line 35.
 
 
-LaTeX Warning: Citation 'Donato2022' on page 2 undefined on input line 32.
+LaTeX Warning: Citation 'Donato2022' on page 2 undefined on input line 35.
 
 
-Overfull \hbox (1.42235pt too wide) in paragraph at lines 32--33
+Overfull \hbox (1.42235pt too wide) in paragraph at lines 35--36
 [][] \TU/Montserrat(2)/m/n/10 halen aan hoe onderzoekers
  []
 
 
-LaTeX Warning: Citation 'Roldos2020' on page 2 undefined on input line 35.
+LaTeX Warning: Citation 'Roldos2020' on page 2 undefined on input line 38.
 
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
 [2]
 
-LaTeX Warning: Citation 'Sciforce2020' on page 3 undefined on input line 37.
+LaTeX Warning: Citation 'Sciforce2020' on page 3 undefined on input line 40.
 
 
-Overfull \hbox (2.11787pt too wide) in paragraph at lines 37--38
-\TU/Montserrat(2)/m/n/10 gebruik van Engelstalige invoer. Niet-Engelstalige
+Overfull \hbox (7.81287pt too wide) in paragraph at lines 43--44
+\TU/Montserrat(2)/m/n/10 naamste zijn SprintPlus[][][][][], Alinea[][][][][] en
+ Kurzweil3000[][][][][].
  []
 
 
-Overfull \hbox (7.33237pt too wide) in paragraph at lines 40--41
-\TU/Montserrat(2)/m/n/10 focus ligt echter op spreek- en luistersoftware waar-
+Overfull \hbox (5.49568pt too wide) in paragraph at lines 43--44
+\TU/Montserrat(2)/m/n/10 en luisterfuncties waarbij het samenvatten en mar-
  []
 
 
-Overfull \hbox (6.60121pt too wide) in paragraph at lines 42--43
-\TU/Montserrat(2)/m/n/10 verschillende samenvattingstools beschikbaar. En-
+LaTeX Warning: Citation 'Verhoeven2023' on page 3 undefined on input line 45.
+
+
+Overfull \hbox (0.13878pt too wide) in paragraph at lines 45--46
+[]\TU/Montserrat(2)/m/n/10 ChatGPT[][][][][] van OpenAI is een \TU/Montserrat(2
+)/m/it/10 chatbot \TU/Montserrat(2)/m/n/10 gebouwd
  []
 
 
-LaTeX Warning: Citation 'Martens2021' on page 3 undefined on input line 44.
+LaTeX Warning: Citation 'Martens2021' on page 3 undefined on input line 47.
 
 
-LaTeX Warning: Citation 'Martens2021a' on page 3 undefined on input line 44.
+LaTeX Warning: Citation 'Martens2021a' on page 3 undefined on input line 47.
 
 
-LaTeX Warning: Citation 'Swayamdipta2019' on page 3 undefined on input line 54.
+LaTeX Warning: Citation 'Thangarajah2019' on page 3 undefined on input line 50.
 
 
 
-Underfull \hbox (badness 1112) in paragraph at lines 54--55
-[]\TU/Montserrat(2)/m/n/10 Om de transformatie van tekstvereenvoudi-
+LaTeX Warning: Citation 'Malik2022' on page 3 undefined on input line 50.
+
+
+Overfull \hbox (3.3557pt too wide) in paragraph at lines 50--51
+[] \TU/Montserrat(2)/m/n/10 haalt de twee meest voorkomende aan,
  []
+
+
+LaTeX Warning: Citation 'Shardlow2014' on page 3 undefined on input line 52.
+
+
+Overfull \hbox (5.25456pt too wide) in paragraph at lines 52--53
+\TU/Montserrat(2)/m/n/10 schillende fases. Het onderzoek van []
+ []
+
+
+LaTeX Warning: Citation 'Garbacea2021' on page 3 undefined on input line 54.
+
+
+LaTeX Warning: Citation 'Iavarone2021' on page 3 undefined on input line 54.
+
+
+LaTeX Warning: Citation 'Garbacea2021' on page 3 undefined on input line 54.
+
+
+LaTeX Warning: Citation 'Swayamdipta2019' on page 3 undefined on input line 56.
+
 
 
 LaTeX Warning: Citation 'Readable2021' on page 3 undefined on input line 56.
 
-
-Overfull \hbox (12.45901pt too wide) in paragraph at lines 56--57
-[]\TU/Montserrat(2)/m/n/10 Daarnaast wijst het onderzoek van []
- []
-
-
-Overfull \hbox (2.31236pt too wide) in paragraph at lines 56--57
-\TU/Montserrat(2)/m/n/10 objectieve manier aanbiedt om getransformeerde
- []
-
-
-Overfull \hbox (7.75458pt too wide) in paragraph at lines 56--57
-\TU/Montserrat(2)/m/n/10 teksten te beoordelen. De leesbaarheidstest neemt
- []
-
-File: img/Screenshot_302.png Graphic file (type bmp)
-<img/Screenshot_302.png>
-
-Overfull \hbox (3.63904pt too wide) in paragraph at lines 74--75
-\TU/Montserrat(2)/m/n/10 delen van tekstvereenvoudiging bij scholieren met
- []
-
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
 [3]
-Overfull \hbox (5.03905pt too wide) in paragraph at lines 80--81
-\TU/Montserrat(2)/m/n/10 over de beschikbare Nederlandstalige AI-tools voor
+File: img/Screenshot_302.png Graphic file (type bmp)
+<img/Screenshot_302.png>
+
+
+LaTeX Warning: Citation 'Readable2021' on page 4 undefined on input line 60.
+
+
+Overfull \hbox (3.63904pt too wide) in paragraph at lines 73--74
+\TU/Montserrat(2)/m/n/10 delen van tekstvereenvoudiging bij scholieren met
+ []
+
+
+Overfull \hbox (0.1857pt too wide) in paragraph at lines 83--84
+\TU/Montserrat(2)/m/n/10 stinhoud van wetenschappelijke papers die in een
+ []
+
+
+Overfull \hbox (31.63123pt too wide) in paragraph at lines 89--90
+\TU/Montserrat(2)/m/n/10 uitdagingen. Bestaande internationale AI-toepassingen
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 89--90
+\TU/Montserrat(2)/m/n/10 bieden een gelijkwaardige oplossing, al steekt
  []
 
 )
+File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
+<img//HOGENT_Logo_Pos_rgb.png>
+ [4]
 
 LaTeX Warning: Empty bibliography on input line 47.
 
@@ -1545,7 +1560,9 @@ LaTeX Warning: Empty bibliography on input line 47.
 AED: lastpage setting LastPage
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
-[4] (../output/CluyseDylan-BPvoorstel.aux)
+[5
+
+] (../output/CluyseDylan-BPvoorstel.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1562,13 +1579,13 @@ Package logreq Info: Writing requests to 'CluyseDylan-BPvoorstel.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26748 strings out of 478657
- 485849 string characters out of 5861312
- 1464283 words of memory out of 5000000
- 45979 multiletter control sequences out of 15000+600000
+ 26749 strings out of 478657
+ 485860 string characters out of 5861312
+ 1466445 words of memory out of 5000000
+ 45980 multiletter control sequences out of 15000+600000
  407680 words of font info for 104 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
- 112i,11n,130p,1519b,3758s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 112i,11n,130p,1654b,3758s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../output/CluyseDylan-BPvoorstel.xdv (4 pages, 188184 bytes).
+Output written on ../output/CluyseDylan-BPvoorstel.xdv (5 pages, 211660 bytes).
 
