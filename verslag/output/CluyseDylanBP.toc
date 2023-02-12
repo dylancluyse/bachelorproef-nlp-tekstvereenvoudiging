@@ -33,7 +33,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2.6}Combineren tot het geheel van tekstvereenvoudiging}{7}{subsection.2.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.7}Samenvatten}{7}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.2.7}Samenvatten}{8}{subsection.2.2.7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Voordelen van tekstvereenvoudiging}{8}{section.2.3}%
 \defcounter {refsection}{0}\relax 
@@ -51,27 +51,35 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.6}Problemen bij syntactische vereenvoudiging}{9}{subsection.2.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Tekstvereenvoudigingssoftware in het onderwijs}{9}{section.2.5}%
+\contentsline {section}{\numberline {2.5}Beschikbare software voor tekstvereenvoudiging}{9}{section.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Beschikbare tekstvereenvoudigingssoftware}{9}{section.2.6}%
+\contentsline {subsection}{\numberline {2.5.1}Toepassingen nu in het onderwijs beschikbaar}{9}{subsection.2.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Tekstvereenvoudigingspipeline opbouwen}{9}{section.2.7}%
+\contentsline {subsection}{\numberline {2.5.2}Online toepassingen}{9}{subsection.2.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.8}Metrieken om de transformatie van tekstvereenvoudiging te beoordelen}{9}{section.2.8}%
+\contentsline {section}{\numberline {2.6}Pipeline voor tekstvereenvoudiging}{9}{section.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Methodologie}{13}{chapter.3}%
+\contentsline {subsection}{\numberline {2.6.1}Lexicale vereenvoudiging}{9}{subsection.2.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusie}{15}{chapter.4}%
+\contentsline {subsection}{\numberline {2.6.2}Syntactische vereenvoudiging}{9}{subsection.2.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{17}{appendix.A}%
+\contentsline {subsection}{\numberline {2.6.3}Samenvatten}{9}{subsection.2.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{18}{section.A.1}%
+\contentsline {section}{\numberline {2.7}Evaluatiemetrieken}{9}{section.2.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{18}{section.A.2}%
+\contentsline {chapter}{\numberline {3}Methodologie}{10}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{23}{section.A.3}%
+\contentsline {chapter}{\numberline {4}Conclusie}{12}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{24}{section.A.4}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{14}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{25}{appendix*.6}%
+\contentsline {section}{\numberline {A.1}Introductie}{15}{section.A.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.2}State-of-the-art}{15}{section.A.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.3}Methodologie}{19}{section.A.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{20}{section.A.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{22}{appendix*.7}%
 \contentsfinish 

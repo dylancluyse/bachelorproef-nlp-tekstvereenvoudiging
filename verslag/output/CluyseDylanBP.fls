@@ -1829,6 +1829,9 @@ INPUT ./standvanzaken.tex
 INPUT ./standvanzaken.tex
 INPUT ./standvanzaken.tex
 INPUT standvanzaken.tex
+INPUT ./img/voorbeeld-manuele-vereenvoudiging.png
+INPUT ./img/voorbeeld-manuele-vereenvoudiging.png
+INPUT img/voorbeeld-manuele-vereenvoudiging.png
 INPUT ./methodologie.tex
 INPUT ./methodologie.tex
 INPUT ./methodologie.tex

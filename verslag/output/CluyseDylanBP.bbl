@@ -172,6 +172,80 @@
       \verb https://clinjournal.org/clinj/article/view/78
       \endverb
     \endentry
+    \entry{Canning2000}{inbook}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=afd40cf29bfe7fdf18ac0d5412f46682}{%
+           family={Canning},
+           familyi={C\bibinitperiod},
+           given={Yvonne},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e2da60b57e07cc73204b9a9b9a68ab7}{%
+           family={Tait},
+           familyi={T\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33144e6b85a79aaa0dcab0d33917298a}{%
+           family={Archibald},
+           familyi={A\bibinitperiod},
+           given={Jackie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76f31190a8568cf1321f4a5f91bd231b}{%
+           family={Crawley},
+           familyi={C\bibinitperiod},
+           given={Ros},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=6279e9bacedcff3b6605bcd9faaaf41c}{%
+           family={Sojka},
+           familyi={S\bibinitperiod},
+           given={Petr},
+           giveni={P\bibinitperiod}}}%
+        {{hash=36ba2a32d37125a39ba195e788c8751a}{%
+           family={Kopeček},
+           familyi={K\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+        {{hash=c9904ca2bf60ee9332c3e3be3c04a0c8}{%
+           family={Pala},
+           familyi={P\bibinitperiod},
+           given={Karel},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{181f5edbbe4aed96c824ca4d392250f1}
+      \strng{fullhash}{a27522e5ab5608f11f38f42b7898eeee}
+      \strng{bibnamehash}{a27522e5ab5608f11f38f42b7898eeee}
+      \strng{authorbibnamehash}{a27522e5ab5608f11f38f42b7898eeee}
+      \strng{authornamehash}{181f5edbbe4aed96c824ca4d392250f1}
+      \strng{authorfullhash}{a27522e5ab5608f11f38f42b7898eeee}
+      \strng{editorbibnamehash}{ed2445f1ea1c058f3c92a7d0b802b540}
+      \strng{editornamehash}{8e3ec056519d526d2e76e22bb77c7112}
+      \strng{editorfullhash}{ed2445f1ea1c058f3c92a7d0b802b540}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper describes SYSTAR (SYntactic Simplification of Text for Aphasic Readers), the PSet module which splits compound sentences, activises seven agentive passive clause types, and resolves and replaces eight frequently occurring anaphoric pronouns. We describe our techniques and strategies, report on the results obtained after evaluation of a corpus of 100 newspaper articles downloaded from the website of a daily provincial, and briefly report on experimental studies with aphasic participants.}
+      \field{booktitle}{Text, Speech and Dialogue}
+      \field{isbn}{978-3-540-45323-9}
+      \field{title}{Cohesive Generation of Syntactically Simplified Newspaper Text}
+      \field{year}{2000}
+      \field{pages}{145\bibrangedash 150}
+      \range{pages}{6}
+    \endentry
     \entry{Chowdhary2020}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8b85e59bf81a08b351c1b0047ffe26df}{%
@@ -200,6 +274,53 @@
       \field{title}{Fundamentals of Artificial Intelligence}
       \field{year}{2020}
       \field{dateera}{ce}
+    \endentry
+    \entry{Coster2011}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b727a7de50818436c3ac4eb4510d2d2c}{%
+           family={Coster},
+           familyi={C\bibinitperiod},
+           given={Will},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0582db81566df6dabf0146eb50f90b65}{%
+           family={Kauchak},
+           familyi={K\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Portland, Oregon}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{90ce048acc0af824c6b99b3b21943761}
+      \strng{fullhash}{90ce048acc0af824c6b99b3b21943761}
+      \strng{bibnamehash}{90ce048acc0af824c6b99b3b21943761}
+      \strng{authorbibnamehash}{90ce048acc0af824c6b99b3b21943761}
+      \strng{authornamehash}{90ce048acc0af824c6b99b3b21943761}
+      \strng{authorfullhash}{90ce048acc0af824c6b99b3b21943761}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Workshop on Monolingual Text-To-Text Generation}
+      \field{month}{6}
+      \field{title}{Learning to Simplify Sentences Using {W}ikipedia}
+      \field{year}{2011}
+      \field{pages}{1\bibrangedash 9}
+      \range{pages}{9}
+      \verb{urlraw}
+      \verb https://aclanthology.org/W11-1601
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/W11-1601
+      \endverb
     \endentry
     \entry{Crevits2022}{report}{}
       \name{author}{1}{}{%
@@ -1368,6 +1489,43 @@
       \field{month}{10}
       \field{title}{Python current trend applications-an overview}
       \field{year}{2019}
+    \endentry
+    \entry{Vasista2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=393944a75e014494a6c6ea234f37838d}{%
+           family={Vasista},
+           familyi={V\bibinitperiod},
+           given={Kola},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{393944a75e014494a6c6ea234f37838d}
+      \strng{fullhash}{393944a75e014494a6c6ea234f37838d}
+      \strng{bibnamehash}{393944a75e014494a6c6ea234f37838d}
+      \strng{authorbibnamehash}{393944a75e014494a6c6ea234f37838d}
+      \strng{authornamehash}{393944a75e014494a6c6ea234f37838d}
+      \strng{authorfullhash}{393944a75e014494a6c6ea234f37838d}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Central Asian Journal of Theoretical and Applied Science}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Evolution of AI Design Models}
+      \field{volume}{3}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{urlraw}
+      \verb https://www.cajotas.centralasianstudies.org/index.php/CAJOTAS/article/view/415
+      \endverb
+      \verb{url}
+      \verb https://www.cajotas.centralasianstudies.org/index.php/CAJOTAS/article/view/415
+      \endverb
     \endentry
     \entry{Verhoeven2023}{online}{}
       \name{author}{1}{}{%
