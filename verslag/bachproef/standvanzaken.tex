@@ -15,30 +15,51 @@ Natuurlijke taalverwerking of NLP is een brede term die zich richt op het verwer
 	\item Bij een \textbf{parsing}-fase wordt er een label aan ieder woord of zinsdeel toegekend. Voorbeelden van labels zijn zelfstandig naamwoord, bijwoord, werkwoord, bijzin of stopwoord. Het herkennen van zinsdelen wordt \textit{chunking} genoemd. Parsing heeft een dubbelzinnigheidsprobleem, want een 'plant' staat niet gelijk aan de vervoeging van werkwoord 'planten'.
 \end{itemize}
 
+\subsubsection{Sequence Labeling}
+
+Volgens \textcite{Eisenstein2019} is \textit{sequence labeling} essentieel tot het achterhalen van de structuur van een tekst met \textit{supervised learning}. Elk woord in een tekst of zin wordt geclassificeerd met behulp van specifieke labels, zoals bijvoorbeeld een Part of Speech (PoS) label of een Named Entity Recognition label. De structuur van de tekst wordt achterhaald en informatie en patronen kunnen uit de tekst worden gehaald. 
+
 \section{De verschillende soorten tekstvereenvoudiging}
 
 Tekstvereenvoudiging bestaat uit vier soorten transformaties: lexicale, syntactische en semantische vereenvoudiging en samenvatten.
-
 
 \begin{figure}
 	\begin{center}
 			\includegraphics[width=5cm]{img/voorbeeld-manuele-vereenvoudiging.png}
 	\end{center}
-	\caption{Voorbeeld van manuele tekstvereenvoudiging. Oorspronkelijke tekst uit ...}
+	\caption{Voorbeeld van manuele tekstvereenvoudiging. Oorspronkelijke tekst uit Historia 5 bron toe te voegen}
 \end{figure}
 
 \subsection{Lexicale vereenvoudiging}
 
 % todo bron
-Bij lexicale vereenvoudiging worden complexe woorden vervangen door eenvoudigere synoniemen. Bijvoorbeeld, het woord 'adhesief' kan worden vervangen door 'klevend'. De zinsstructuur verandert niet en er is garantie dat de kerninhoud en benadrukking hetzelfde blijft. Het doel van lexicale vereenvoudiging is om de moeilijkheidsgraad van de woordenschat in een zin of tekst te verlagen.
+Bij lexicale vereenvoudiging worden complexe woorden vervangen door eenvoudigere synoniemen. Bijvoorbeeld, het woord 'adhesief' kan worden vervangen door 'klevend'. De zinsstructuur verandert niet en er is garantie dat de kerninhoud en benadrukking hetzelfde blijft. Het doel van lexicale vereenvoudiging is om de moeilijkheidsgraad van de woordenschat in een zin of tekst te verlagen. Dit is, volgens het aantal onderzoeken, de meest gekende vorm van vereenvoudiging en een noodzakelijke stap bij het vereenvoudigen van een tekst. Voor prevalente domeinen, zoals de onderwijs-, medische en financiële sector, zijn er onderzoeken vrij beschikbaar. 
+
+In de medische sector haalt \textcite{Kandula2010} twee manieren aan om lexicale vereenvoudiging mogelijk te maken, namelijk het vervangen door een synoniem en het aanmaken of genereren van extra uitleg. Zij bouwden verder op een vorig onderzoek van \textcite{Zeng2005}.
 
 \subsection{Syntactische vereenvoudiging}
 
 Syntactische vereenvoudiging transformeert de grammatica en zinsstructuur van een tekst om de complexiteit van een zin te verlagen. Bijvoorbeeld, twee afzonderlijke zinnen kunnen worden samengevoegd tot één eenvoudigere zin. Syntactische vereenvoudiging richt zich op het verminderen van complexe of onduidelijke zinsconstructies, terwijl de inhoud en betekenis van de tekst behouden blijft. Dergelijke transformaties zijn het vereenvoudigen van de syntax of door de zinnen korter te maken. Zinnen worden toegankelijker, zonder de kerninhoud of relevante inhoud te verliezen.
 
+Het vereenvoudigen van medische journalen wordt besproken in het onderzoek van \textcite{Kandula2010}. Zij ontwikkelden een toepassing om medische informatie te vereenvoudigen met beschikbare biomedische bronnen, door syntactische vereenvoudiging op zinniveau toe te passen. Zinnen met meer dan 10 woorden worden als complex beschouwd en worden verwerkt door drie modules. Op het einde van deze vereenvoudiging kan de oorspronkelijke zin ongewijzigd worden behouden of vervangen worden door twee of meer kortere zinnen. De architectuur van het model omvat drie onderdelen: een \textit{Part of Speech (PoS) Tagger}, een \textit{Grammar Simplifier} en een \textit{Output Validator}.
+
+\begin{itemize}
+	\item Voor de \textit{PoS Tagger}-fase gebruikten de onderzoekers beschikbare functies uit het open-source pakket OpenNLP\footnote{https://opennlp.apache.org/}.
+	\item De \textit{Grammar Simplifier} module splitst de lange zin in twee of meer kortere zinnen door POS-patronen te identificeren en een set transformatieregels toe te passen.
+	\item De \textit{Output Validator} module controleert de output van de Grammar Simplifier op grammatica en leesbaarheid. Er zijn drie condities:
+	\begin{itemize}
+		\item 
+	\end{itemize}
+\end{itemize}  
+
+% De toepassing werd getest met vier leesbaarheidsmetrieken en een "cloze"-test op verschillende soorten medische documenten, en liet verbeteringen zien in alle metingen. De verbeteringen waren echter relatief klein en er is meer uitgebreide gebruikerstesten nodig voor een betere validatie van het hulpmiddel. De resultaten lieten zien dat het hulpmiddel verbeterd was ten opzichte van eerdere versies. Er is verder werk nodig om de cohesiemeting te verbeteren en de methode voor het genereren van uitleg, waaronder het identificeren van geschikte verbindingswoorden en bronnen voor het genereren van betekenisvolle uitleg.
+
 \subsection{Conceptuele vereenvoudiging}
 
 Conceptuele vereenvoudiging lost dit probleem op. Theoretische kennis hierover is schaars, maar \textcite{Siddharthan2006} bestudeerde dit concept verder. Dit type vereenvoudiging betreft het opdelen van complexe concepten in eenvoudigere delen, het gebruik van duidelijke en bondige taal en het vermijden van technische jargon en abstracte uitdrukkingen. Het doel is om de inhoud begrijpelijker te maken, zonder dat hierbij de betekenis of nauwkeurigheid wordt aangetast. \textcite{Siddharthan2006} noemt deze transformatie een vorm van elaboratie of het uiteenzetten van een begrip.
+
+\subsection{Semantische vereenvoudiging}
+
 
 
 \subsection{Tekstvereenvoudiging automatiseren}
@@ -74,7 +95,9 @@ Lexicale, conceptuele en syntactische vereenvoudiging is er geen garantie dat de
 
 \subsection{Meaning distortion}
 
+\subsection{Word Ambiguity}
 
+Sequence Labeling voorziet labels aan tokens in een tekst. Homoniemen kunnen echter roet in het eten gooien, want . 
 
 \subsection{Paternalisme}
 De doelstelling van assisterende software is om gelijke kansen te bieden aan iedereen. Zoals eerder vermeld, zorgt tekstvereenvoudiging voor een simpelere syntax en woordenschat in een tekst. Volgens \textcite{Niemeijer2010} zijn de ethische overwegingen die samenhangen met tekstvereenvoudiging via implicaties voor assistieve technologie niet gemakkelijk te scheiden van de technologie die wordt gebruikt om het resultaat te bereiken. Ontwikkelaars moeten, volgens deze auteur, rekening houden met de doelgroep waarvoor ze een toepassing maken.

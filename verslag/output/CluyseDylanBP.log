@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  12 FEB 2023 18:23
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  13 FEB 2023 16:38
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2334,21 +2334,21 @@ Hoofdstuk 2.
 ]
 File: img/voorbeeld-manuele-vereenvoudiging.png Graphic file (type bmp)
 <img/voorbeeld-manuele-vereenvoudiging.png>
- [6] [7]
-Overfull \hbox (1.6548pt too wide) in paragraph at lines 82--83
+ [6] [7] [8]
+Overfull \hbox (1.6548pt too wide) in paragraph at lines 105--106
 \TU/Montserrat(1)/m/n/10.95 de eindgebruiker een keuze aanbieden om aan te pass
 en wat vereenvoudigd wordt,
  []
 
-[8]) (./methodologie.tex [9]
+[9]) (./methodologie.tex [10]
 Hoofdstuk 3.
-[10
+[11
 
-]) (./conclusie.tex [11]
+]) (./conclusie.tex [12]
 Hoofdstuk 4.
-[12
+[13
 
-]) [13]
+]) [14]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--8
@@ -2356,24 +2356,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 da-2030-stem-competenties-voor-een-
  []
 
-[14
+[15
 
-] [15] [16]
-Overfull \hbox (14.44443pt too wide) in paragraph at lines 40--41
+] [16] [17]
+Overfull \hbox (14.44443pt too wide) in paragraph at lines 42--43
 []\TU/Montserrat(1)/m/n/10.95 Het onderzoek van []Sciforce ([][]2020[][]) haalt
  aan dat het merendeel van NLP-toepassingen
  []
 
-[17]
-Overfull \hbox (3.30486pt too wide) in paragraph at lines 50--51
+[18]
+Overfull \hbox (3.30486pt too wide) in paragraph at lines 52--53
 \TU/Montserrat(1)/m/n/10.95 tax, kleine leercurve en grote beschikbaarheid van 
 kant-en-klare bibliotheken. Moei-
  []
 
-[18]
+[19]
 File: img/Screenshot_302.png Graphic file (type bmp)
 <img/Screenshot_302.png>
- [19] [20]) [21]
+ [20] [21]) [22]
 Overfull \hbox (2.13918pt too wide) in paragraph at lines 172--172
 \TU/Montserrat(1)/m/n/10.95 Dutch. \TU/Montserrat(2)/m/it/10.95 Computational L
 inguistics in the Netherlands Journal\TU/Montserrat(1)/m/n/10.95 , \TU/Montserr
@@ -2386,7 +2386,7 @@ Overfull \hbox (17.6088pt too wide) in paragraph at lines 172--172
  and university: Post-diploma
  []
 
-[22
+[23
 
 
 ]
@@ -2395,7 +2395,7 @@ Overfull \hbox (0.81898pt too wide) in paragraph at lines 172--172
 ve Technologies (SLPAT-
  []
 
-
+[24]
 Overfull \hbox (18.56651pt too wide) in paragraph at lines 172--172
 \TU/Montserrat(2)/m/it/10.95 on Natural Language Processing 2014\TU/Montserrat(
 1)/m/n/10.95 , \TU/Montserrat(2)/m/it/10.95 4\TU/Montserrat(1)/m/n/10.95 (1). [
@@ -2403,20 +2403,20 @@ Overfull \hbox (18.56651pt too wide) in paragraph at lines 172--172
 ][][][][][] []
  []
 
-[23] [24] (../output/CluyseDylanBP.aux)
+[25] (../output/CluyseDylanBP.aux)
 Package rerunfilecheck Info: File `CluyseDylanBP.out' has not changed.
-(rerunfilecheck)             Checksum: 46BA42C92244BE549935831432627F3F;3143.
+(rerunfilecheck)             Checksum: 1C9AC1163E0ACF2E9D34EE8D8484FA17;3298.
 Package logreq Info: Writing requests to 'CluyseDylanBP.run.xml'.
 \openout1 = `CluyseDylanBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46370 strings out of 478657
- 905357 string characters out of 5861312
- 2015184 words of memory out of 5000000
- 65151 multiletter control sequences out of 15000+600000
+ 46392 strings out of 478657
+ 905835 string characters out of 5861312
+ 2014375 words of memory out of 5000000
+ 65173 multiletter control sequences out of 15000+600000
  406482 words of font info for 98 fonts, out of 8000000 for 9000
  351 hyphenation exceptions out of 8191
  113i,12n,139p,2569b,7099s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../output/CluyseDylanBP.xdv (31 pages, 666060 bytes).
+Output written on ../output/CluyseDylanBP.xdv (32 pages, 704784 bytes).

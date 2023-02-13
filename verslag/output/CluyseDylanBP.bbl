@@ -507,6 +507,42 @@
       \range{pages}{18}
       \keyw{choices,dyslexia,reasons,students,university}
     \endentry
+    \entry{Eisenstein2019}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=669f8ea45634b48726e58516b2ddf8aa}{%
+           family={Eisenstein},
+           familyi={E\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{669f8ea45634b48726e58516b2ddf8aa}
+      \strng{fullhash}{669f8ea45634b48726e58516b2ddf8aa}
+      \strng{bibnamehash}{669f8ea45634b48726e58516b2ddf8aa}
+      \strng{authorbibnamehash}{669f8ea45634b48726e58516b2ddf8aa}
+      \strng{authornamehash}{669f8ea45634b48726e58516b2ddf8aa}
+      \strng{authorfullhash}{669f8ea45634b48726e58516b2ddf8aa}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780262042840}
+      \field{series}{Adaptive Computation and Machine Learning series}
+      \field{title}{Introduction to Natural Language Processing}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://books.google.be/books?id=72yuDwAAQBAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.be/books?id=72yuDwAAQBAJ
+      \endverb
+    \endentry
     \entry{Wafaa2021}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=ea1c905d8bf36e913507bf30a4c30d0e}{%
@@ -775,6 +811,50 @@
       \verb{url}
       \verb https://aclanthology.org/2021.cmcl-1.23
       \endverb
+    \endentry
+    \entry{Kandula2010}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8f639bbed93ef10fb5bb373e9627faf4}{%
+           family={Kandula},
+           familyi={K\bibinitperiod},
+           given={Sasikiran},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8186a4848ff38d712c519ad7005fcb8c}{%
+           family={Curtis},
+           familyi={C\bibinitperiod},
+           given={Dorothy},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8169594f21f8e2cd3ffb141e068154f2}{%
+           family={Zeng-Treitler},
+           familyi={Z\bibinithyphendelim T\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {American Medical Informatics Association}%
+      }
+      \strng{namehash}{cb038d68b5ec71590d2a060736896fb8}
+      \strng{fullhash}{64ebe61a56fd7f82cb38ea898246eeab}
+      \strng{bibnamehash}{64ebe61a56fd7f82cb38ea898246eeab}
+      \strng{authorbibnamehash}{64ebe61a56fd7f82cb38ea898246eeab}
+      \strng{authornamehash}{cb038d68b5ec71590d2a060736896fb8}
+      \strng{authorfullhash}{64ebe61a56fd7f82cb38ea898246eeab}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AMIA annual symposium proceedings}
+      \field{title}{A semantic and syntactic text simplification tool for health content}
+      \field{volume}{2010}
+      \field{year}{2010}
+      \field{pages}{366}
+      \range{pages}{1}
     \endentry
     \entry{Malik2022}{online}{}
       \name{author}{1}{}{%
@@ -1612,6 +1692,85 @@
       \field{year}{2015}
       \field{pages}{283\bibrangedash 297}
       \range{pages}{15}
+    \endentry
+    \entry{Zeng2005}{inbook}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7109bca89276fec068287d1a6ae66835}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=73a52e3215cbded1ee02e9e77a827eef}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Eunjung},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1bf7e8e91f104f825eb027ca176cb01f}{%
+           family={Crowell},
+           familyi={C\bibinitperiod},
+           given={Jon},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f3d0f50252db908230ad78f51d27108}{%
+           family={Tse},
+           familyi={T\bibinitperiod},
+           given={Tony},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=42c8d8d9e926dc1fde515088d7949b7e}{%
+           family={"Oliveira},
+           familyi={"\bibinitperiod},
+           given={José\bibnamedelima Luís},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=a6f3933ab2c899a08fe8ba9b971d9b10}{%
+           family={Maojo},
+           familyi={M\bibinitperiod},
+           given={Víctor},
+           giveni={V\bibinitperiod}}}%
+        {{hash=5e84fccdf425e62970a9421da9f2ddf1}{%
+           family={Martín-Sánchez},
+           familyi={M\bibinithyphendelim S\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8004c0f709af6f95646d5ed4bc6d4750}{%
+           family={Pereira},
+           familyi={P\bibinitperiod},
+           given={António\bibnamedelima Sousa"},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{3921c502387ce050125899b84e44bdb1}
+      \strng{fullhash}{7d4d4e849d622b887e7065bc90bd0496}
+      \strng{bibnamehash}{7d4d4e849d622b887e7065bc90bd0496}
+      \strng{authorbibnamehash}{7d4d4e849d622b887e7065bc90bd0496}
+      \strng{authornamehash}{3921c502387ce050125899b84e44bdb1}
+      \strng{authorfullhash}{7d4d4e849d622b887e7065bc90bd0496}
+      \strng{editorbibnamehash}{7425fe493892c816298e434b61101205}
+      \strng{editornamehash}{6310f0fd7b8a3fdfc4c41b2b9c30aae2}
+      \strng{editorfullhash}{7425fe493892c816298e434b61101205}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In a pilot effort to improve health communication we created a method for measuring the familiarity of various medical terms. To obtain term familiarity data, we recruited 21 volunteers who agreed to take medical terminology quizzes containing 68 terms. We then created predictive models for familiarity based on term occurrence in text corpora and reader's demographics. Although the sample size was small, our preliminary results indicate that predicting the familiarity of medical terms based on an analysis of the frequency in text corpora is feasible. Further, individualized familiarity assessment is feasible when demographic features are included as predictors.}
+      \field{booktitle}{Biological and Medical Data Analysis}
+      \field{isbn}{978-3-540-31658-9}
+      \field{title}{A Text Corpora-Based Estimation of the Familiarity of Health Terminology}
+      \field{year}{2005}
+      \field{pages}{184\bibrangedash 192}
+      \range{pages}{9}
     \endentry
   \enddatalist
 \endrefsection
