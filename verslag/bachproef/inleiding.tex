@@ -19,6 +19,8 @@
 
 Het middelbaar onderwijs staat op springen. Dagelijks sneuvelen leerkrachten en leerlingen van het middelbaar onderwijs onder de te harde werkdruk. Daarnaast is taal vrijwel onmogelijk om aan te ontsnappen. Dagelijks komen mensen in aanraking met taal, van Nederlandse nieuwsartikelen tot de ondertiteling van Koreaanse Netflix-series, ongeacht de doelgroep. Het onderwijs richt zich de afgelopen tien jaar sterk op het gebruik van gevarieerde bronnen in lessen. De moeilijkheidsgraad van deze bronnen verandert echter niet, want de noodzaak aan verscheidenheid brengt ook de noodzaak aan uitdagingen met zich mee. STEM-leerkrachten in een derde graad middelbaar onderwijs moeten volgens het leerplan van zowel het katholiek\footnote{https://pro.katholiekonderwijs.vlaanderen/basisoptie-stem/ondersteunend-materiaal} als het gemeenschapsonderwijs\footnote{https://g-o.be/stem/} hun theorielessen op een toegankelijke manier aanbieden, zodat iedereen betrokken is bij het verhaal.
 
+\newline
+
 Met een jaarlijks budget van 32 miljoen is België een pionier \autocite{Crevits2022} in het vakgebied kunstmatige intelligentie (AI) op de werkvloer.  Zo zijn er verschillende projecten, om Vlaamse AI-ontwikkelingen in het onderwijs op te starten, uit de grond gestampt. Het amai!-project\footnote{https://amai.vlaanderen/}  brengt AI-softwarebedrijven samen uit verschillende domeinen. Dit project leidt tot het ontstaan van AI-toepassingen die processen automatiseren om de werkdruk te verminderen, zoals binnen het onderwijs \textit{real-time} ondertiteling en een taalassistent voor leerkrachten in meertalige klasgroepen.
 
 \section{\IfLanguageName{dutch}{Probleemstelling}{Problem Statement}}%
@@ -26,9 +28,13 @@ Met een jaarlijks budget van 32 miljoen is België een pionier \autocite{Crevits
 
 % Uit je probleemstelling moet duidelijk zijn dat je onderzoek een meerwaarde heeft voor een concrete doelgroep. De doelgroep moet goed gedefinieerd en afgelijnd zijn. Doelgroepen als ``bedrijven,'' ``KMO's'', systeembeheerders, enz.~zijn nog te vaag. Als je een lijstje kan maken van de personen/organisaties die een meerwaarde zullen vinden in deze bachelorproef (dit is eigenlijk je steekproefkader), dan is dat een indicatie dat de doelgroep goed gedefinieerd is. Dit kan een enkel bedrijf zijn of zelfs één persoon (je co-promotor/opdrachtgever).
 
-Scholieren met dyslexie in het middelbare onderwijs krijgen te maken met vele uitdagingen. Gelukkig worden ze niet aan hun lot overgelaten en kunnen ze rekenen op ondersteuning van coaches en beschikbare hulpmiddelen om hun achterstand te beperken. Het leerplan voor STEM-vakken stimuleert het gebruik van wetenschappelijke artikelen, maar houdt niet altijd rekening met de moeilijkheidsgraad ervan. De complexe woordenschat en zinsopbouw in deze artikelen vormen een barrière voor begrijpelijkheid, waardoor de scholieren de kerninhoud moeilijk kunnen doorgronden.
+% Uitleg over dyslexie.
 
-Het vereenvoudigen van wetenschappelijke artikelen vraagt tijd en inspanning van STEM-docenten in het derde graad middelbare onderwijs. Het onderwijs staat onder druk en docenten hebben al moeite om hun werklast aan te kunnen. Daarom is er behoefte aan software die wetenschappelijke artikelen automatisch kan vereenvoudigen, specifiek afgestemd op de behoeften van scholieren met dyslexie. Een dergelijke toepassing zou het routinematige werk van STEM-docenten verlichten en scholieren met dyslexie in het derde graad middelbare onderwijs de mogelijkheid bieden om de kern van een tekst beter te begrijpen.
+Volgens \textcite{Ghesquiere2018} heeft ongeveer 5 tot 9 \% van de bevolking te maken met dyslexie. Verder benadrukt de studie van \textcite{Lissens2020} dat de impact van leerstoornissen niet stopt na het middelbaar onderwijs. Scholieren met dyslexie in het middelbare onderwijs krijgen te maken met unieke uitdagingen. Gelukkig worden ze niet aan hun lot overgelaten en kunnen ze rekenen op ondersteuning van coaches en beschikbare hulpmiddelen om hun achterstand te beperken. Het leerplan voor STEM-vakken stimuleert het gebruik van wetenschappelijke artikelen, maar houdt niet altijd rekening met de moeilijkheidsgraad ervan. De complexe woordenschat en zinsopbouw in deze artikelen vormen een barrière voor de begrijpelijkheid van een tekst, waardoor de scholieren de kerninhoud moeilijk kunnen doorgronden. Een oplossing hiervoor is om de tekst te vereenvoudigen, waardoor de kerninhoud wordt behouden.
+
+\newline
+
+Wetenschappelijke artikelen vereenvoudigen vraagt tijd en inspanning van STEM-docenten in het derde graad middelbaar onderwijs. Het middelbaar onderwijs staat onder druk en docenten hebben moeite om hun werklast aan te kunnen. Daarom is er behoefte aan software die wetenschappelijke artikelen automatisch kan vereenvoudigen, specifiek afgestemd op de behoeften van scholieren met dyslexie. Een dergelijke toepassing verlicht het routinematige werk van STEM-docenten en biedt scholieren met dyslexie in het derde graad middelbare onderwijs de mogelijkheid om de kern van een tekst sneller te begrijpen.
 
 
 \section{\IfLanguageName{dutch}{Onderzoeksvraag}{Research question}}%
@@ -36,14 +42,15 @@ Het vereenvoudigen van wetenschappelijke artikelen vraagt tijd en inspanning van
 
 % Wees zo concreet mogelijk bij het formuleren van je onderzoeksvraag. Een onderzoeksvraag is trouwens iets waar nog niemand op dit moment een antwoord heeft (voor zover je kan nagaan). Het opzoeken van bestaande informatie (bv. ``welke tools bestaan er voor deze toepassing?'') is dus geen onderzoeksvraag. Je kan de onderzoeksvraag verder specifiëren in deelvragen. Bv.~als je onderzoek gaat over performantiemetingen, dan 
 
-Dit onderzoek toont aan hoe de inhoud van wetenschappelijke artikelen met kunstmatige intelligentie automatisch vereenvoudigd kan worden, specifiek gericht op de noden van een scholier met dyslexie in het derde graad middelbaar onderwijs. Om een antwoord op deze onderzoeksvraag te vinden, moet het onderzoek eerst zeven fasen doorlopen.
+% Dit onderzoek toont aan hoe de inhoud van wetenschappelijke artikelen met kunstmatige intelligentie automatisch vereenvoudigd kan worden, specifiek gericht op de noden van een scholier met dyslexie in het derde graad middelbaar onderwijs. Om een antwoord op deze onderzoeksvraag te vinden, moet het onderzoek eerst zeven fasen doorlopen. Het doel van dit onderzoek is om te achterhalen met welke technologische en logopedische aspecten AI ontwikkelaars rekening moeten houden bij het een de ontwikkeling van een adaptieve AI toepassing voor geautomatiseerde tekstvereenvoudiging. 
+
+De volgende onderzoeksvraag is opgesteld: ”Hoe kan de inhoud van een wetenschappelijke artikel op een geautomatiseerde wijze vereenvoudigd worden, specifiek gericht op de verschillende behoeften van scholieren met dyslexie in de derde graad middelbaar onderwijs?”.
 
 \begin{itemize}
 	\item Wat is geautomatiseerde tekstvereenvoudiging? Allereerst moeten er een definitie worden gevormd wat geautomatiseerde tekstvereenvoudiging is en welke transformaties bijdragen tot een tekstvereenvoudiging. De nodige theoretische concepten om tekstvereenvoudiging mogelijk te maken, worden aangehaald. 
 	\item Wat zijn de voordelen van wetenschappelijke artikelen te vereenvoudigen bij scholieren met dyslexie in de derde graad middelbaar onderwijs? Waarom speelt tekstvereenvoudiging een rol bij wetenschappelijke artikelen?
 	\item Wat zijn de struikelblokken bij het vereenvoudigen van wetenschappelijke artikelen?
 	\item Welke fasen heeft een pipeline voor tekstvereenvoudiging bij wetenschappelijke artikelen? Welke modellen zijn er white-box of black-box?
-	\item Aan welke metrieken moet een vereenvoudigd wetenschappelijk artikel voldoen? In welke mate kan de eindgebruiker hiervan op de hoogte gesteld worden? 
 \end{itemize}
 
 
@@ -52,16 +59,9 @@ Dit onderzoek toont aan hoe de inhoud van wetenschappelijke artikelen met kunstm
 
 % Wat is het beoogde resultaat van je bachelorproef? Wat zijn de criteria voor succes? Beschrijf die zo concreet mogelijk. Gaat het bv.\ om een proof-of-concept, een prototype, een verslag met aanbevelingen, een vergelijkende studie, enz.
 
-Het resultaat van dit onderzoek is een vergelijkende studie en een prototype voor een toepassing die de tekstinhoud van een wetenschappelijke paper zal omzetten.
+Het doel van dit onderzoek is om te achterhalen met welke technologische en logopedische aspecten AI ontwikkelaars rekening moeten houden bij het een de ontwikkeling van een adaptieve AI toepassing voor geautomatiseerde tekstvereenvoudiging. Het resultaat van dit onderzoek is een prototype voor een toepassing die de tekstinhoud van een wetenschappelijke paper zal vereenvoudigen, naargelang de specifieke noden van een scholier met dyslexie in de derde graad middelbaar onderwijs. Het prototype houdt rekening met de transformatie van het bronbestand, bijvoorbeeld een PDF of een afbeelding, naar de tekstinhoud. Hiervoor bestaan er kant-en-klare pakketten die het omzettingswerk al voor de ontwikkelaar doen. De invoer van dit prototype is een wetenschappelijk artikel van minstens 500 woorden lang. Verdere concretisering volgt...
 
-De vergelijkende studie zal vereenvoudigde of samengevatte teksten van drie verschillende soorten programma's vergelijken:
-\begin{itemize}
-	\item Toepassingen die momenteel in het onderwijs worden ingezet en waarvan licenties aan te vragen zijn voor scholieren in het derde graad van het middelbaar.
-	\item Toepassingen die online terug te vinden zijn.
-	\item Een zelfgemaakte prototype dat de inhoud van een wetenschappelijke paper automatisch zal vereenvoudigen met kunstmatige intelligentie.
-\end{itemize}
-
-Als tweede onderdeel wordt er een prototype ontwikkeld om wetenschappelijke artikelen automatisch te vereenvoudigen, specifiek gericht op de noden van een scholier in de derde graad middelbaar onderwijs. Het prototype houdt geen rekening met de transformatie van het bronbestand, bijvoorbeeld een PDF of een afbeelding, naar de tekstinhoud. Dergelijke AI-toepassingen of AI-modellen die tekst uit afbeeldingen of PDF-bestanden halen, bestaan al. De invoer van dit prototype is een wetenschappelijk artikel van 300 tot 500 woorden lang. De uitvoer van dit prototype is een vereenvoudigde versie van ditzelfde wetenschappelijk artikel. Metrieken, indien mogelijk per zin, worden weergegeven. Verdere concretisering volgt...
+% Als tweede onderdeel wordt er een prototype ontwikkeld om wetenschappelijke artikelen automatisch te vereenvoudigen, specifiek gericht op de noden van een scholier in de derde graad middelbaar onderwijs. Het prototype houdt geen rekening met de transformatie van het bronbestand, bijvoorbeeld een PDF of een afbeelding, naar de tekstinhoud. Dergelijke AI-toepassingen of AI-modellen die tekst uit afbeeldingen of PDF-bestanden halen, bestaan al. De invoer van dit prototype is een wetenschappelijk artikel van 300 tot 500 woorden lang. De uitvoer van dit prototype is een vereenvoudigde versie van ditzelfde wetenschappelijk artikel. Metrieken, indien mogelijk per zin, worden weergegeven. Verdere concretisering volgt...
 
 \section{\IfLanguageName{dutch}{Opzet van deze bachelorproef}{Structure of this bachelor thesis}}%
 \label{sec:opzet-bachelorproef}
