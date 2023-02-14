@@ -305,7 +305,7 @@ In the second part of the talk, I will showcase some of the properties exhibited
     abstract = "This paper outlines the ethical implications of text simplification within the framework of assistive systems. We argue that a distinction should be made between the technologies that perform text simplification and the realisation of these in assistive technologies. When using the latter as a motivation for research, it is important that the subsequent ethical implications be carefully considered. We provide guidelines for the framing of text simplification independently of assistive systems, as well as suggesting directions for future research and discussion based on the concerns raised.",
 }
 
-@Article{Vasista_2022,
+@Article{Vasista2022,
   author       = {Vasista, Kola},
   title        = {Evolution of AI Design Models},
   number       = {3},
@@ -316,6 +316,15 @@ In the second part of the talk, I will showcase some of the properties exhibited
   journal      = {Central Asian Journal of Theoretical and Applied Science},
   month        = {Mar.},
   year         = {2022},
+}
+
+
+@inproceedings{Suter2016,
+author = {Suter, Julia and Ebling, Sarah and Volk, Martin},
+year = {2016},
+month = {09},
+pages = {},
+title = {Rule-based Automatic Text Simplification for German}
 }
 
 @Comment{jabref-meta: databaseType:biblatex;}

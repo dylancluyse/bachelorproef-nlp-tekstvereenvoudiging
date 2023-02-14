@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.9)  14 FEB 2023 14:16
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.9)  14 FEB 2023 14:44
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1499,6 +1499,17 @@ Overfull \hbox (0.47903pt too wide) in paragraph at lines 45--46
  []
 
 
+Overfull \hbox (4.77567pt too wide) in paragraph at lines 48--48
+[][][]\TU/Montserrat(2)/m/n/8 https://onderwijs.vlaanderen.be/nl/onderwijsperso
+neel/van-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+\TU/Montserrat(2)/m/n/8 basis-tot-volwassenenonderwijs/lespraktijk/ict-in-de-
+ []
+
+
 Overfull \hbox (2.09238pt too wide) in paragraph at lines 48--49
 []\TU/Montserrat(2)/m/n/10 Voor scholieren met dyslexie in het derde graad
  []
@@ -1509,38 +1520,54 @@ Overfull \hbox (12.95703pt too wide) in paragraph at lines 50--51
  []
 
 
-Overfull \hbox (0.59877pt too wide) in paragraph at lines 55--56
+Overfull \hbox (2.21957pt too wide) in paragraph at lines 52--53
+[]\TU/Montserrat(2)/m/n/10 ChatGPT[][][][][] van OpenAI is een chatbot gebouwd
+ []
+
+
+Overfull \hbox (2.08917pt too wide) in paragraph at lines 55--56
 \TU/Montserrat(2)/m/n/10 de twee meest voorkomende aan, namelijk NLTK[][][][][]
 
  []
 
 
-Overfull \hbox (10.73901pt too wide) in paragraph at lines 59--60
+Overfull \hbox (2.51903pt too wide) in paragraph at lines 57--58
+\TU/Montserrat(2)/m/n/10 tal vereenvoudigde datasets en word embeddings
+ []
+
+
+Overfull \hbox (3.81123pt too wide) in paragraph at lines 57--58
+\TU/Montserrat(2)/m/n/10 beschikbaar. Binnen Germaanse talen zijn er meer
+ []
+
+
+Overfull \hbox (10.73901pt too wide) in paragraph at lines 61--62
 \TU/Montserrat(2)/m/n/10 Kincaid leesbaarheidstest is volgens []Readable ([][]2
 021[][])
  []
 
 
-Overfull \hbox (4.37706pt too wide) in paragraph at lines 59--60
+Overfull \hbox (4.37706pt too wide) in paragraph at lines 61--62
 \TU/Montserrat(2)/m/n/10 stinhoud te beoordelen, zonder de nood van vooraf
  []
 
-File: img/Screenshot_302.png Graphic file (type bmp)
-<img/Screenshot_302.png>
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
 [3]
-Overfull \hbox (3.63904pt too wide) in paragraph at lines 71--72
+File: img/Screenshot_302.png Graphic file (type bmp)
+<img/Screenshot_302.png>
+
+Overfull \hbox (3.63904pt too wide) in paragraph at lines 73--74
 \TU/Montserrat(2)/m/n/10 delen van tekstvereenvoudiging bij scholieren met
  []
 
 
-Overfull \hbox (10.80905pt too wide) in paragraph at lines 75--76
+Overfull \hbox (10.80905pt too wide) in paragraph at lines 77--78
 \TU/Montserrat(2)/m/n/10 opgesteld van beschikbare toepassingen voor tekst-
  []
 
 
-Overfull \hbox (4.92569pt too wide) in paragraph at lines 85--86
+Overfull \hbox (4.92569pt too wide) in paragraph at lines 87--88
 \TU/Montserrat(2)/m/n/10 lossingen voor tekstvereenvoudiging onvoldoende
  []
 
@@ -1548,11 +1575,6 @@ Overfull \hbox (4.92569pt too wide) in paragraph at lines 85--86
 Overfull \hbox (0.17401pt too wide) in paragraph at lines 49--49
 [][]\TU/Montserrat(2)/m/n/10 Barnett, A., & Doubleday, Z. (2020). Meta-Research
 :
- []
-
-
-Overfull \hbox (3.01402pt too wide) in paragraph at lines 49--49
-\TU/Montserrat(2)/m/n/10 Students with dyslexia between school and
  []
 
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
@@ -1646,26 +1668,18 @@ AED: lastpage setting LastPage
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
 [5] (CluyseDylan-BPvoorstel.aux)
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `CluyseDylan-BPvoorstel.out' has not changed.
 
 (rerunfilecheck)             Checksum: 2486E0888F0C4C851FED5AD1F3E3A95F;616.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                CluyseDylan-BPvoorstel
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'CluyseDylan-BPvoorstel.run.xml'.
 \openout1 = `CluyseDylan-BPvoorstel.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27714 strings out of 410532
- 523271 string characters out of 2813299
- 1528406 words of memory out of 3000000
- 48524 multiletter control sequences out of 15000+600000
+ 27712 strings out of 410532
+ 523143 string characters out of 2813299
+ 1533458 words of memory out of 3000000
+ 48522 multiletter control sequences out of 15000+600000
  473469 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,13n,128p,1520b,5716s stack positions out of 10000i,1000n,20000p,200000b,80000s

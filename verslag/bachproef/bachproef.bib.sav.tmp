@@ -319,4 +319,117 @@ In the second part of the talk, I will showcase some of the properties exhibited
   language  = {English},
   publisher = {Packt Publishing},
   url       = {https://medium.com/analytics-vidhya/natural-language-processing-basic-concepts-a3c7f50bf5d3},
-  abstract  = {Use Python and NLTK (Natural Language Toolkit) to build out your own text classifiers and solve common NLP problems. Key Features Assimilate key NLP concepts and terminologies Explore popular NLP tools and techniques Gain practical experience using NLP in application code Book Description If NLP hasn't been your forte, Natural Language Processing Fundamentals will make sure you set off to a steady start. This comprehensive guide will show you how to effectively use Python libraries and NLP concepts to solve various problems. You'll be introduced to natural language processing and its applications through examples and exercises. This will be followed by an introduction to the initial stages of solving a problem, which includes problem definition, getting text data, and preparing it for modeling. With exposure to concepts like advanced natural language processing algorithms and visualization techniques, you'll learn how to create applications that can extract information from unstructured data and present it as impactful visuals. Although you will continue to learn NLP-based techniques, the focus will gradually shift to developing useful applications. In these sections, you'll understand how to apply NLP techniques to answer questions as can be used in chatbots. By the end of this book, you'll be able to accomplish a varied range of assignments ranging from identifying the most suitable type of NLP task for solving a problem to using a tool like spacy or gensim for performing sentiment analysis. The book will easily equip you with the knowledge you need to build applications that interpret human language. What you will learn Obtain, verify, and clean data before transforming it into a correct 
+  abstract  = {Use Python and NLTK (Natural Language Toolkit) to build out your own text classifiers and solve common NLP problems. Key Features Assimilate key NLP concepts and terminologies Explore popular NLP tools and techniques Gain practical experience using NLP in application code Book Description If NLP hasn't been your forte, Natural Language Processing Fundamentals will make sure you set off to a steady start. This comprehensive guide will show you how to effectively use Python libraries and NLP concepts to solve various problems. You'll be introduced to natural language processing and its applications through examples and exercises. This will be followed by an introduction to the initial stages of solving a problem, which includes problem definition, getting text data, and preparing it for modeling. With exposure to concepts like advanced natural language processing algorithms and visualization techniques, you'll learn how to create applications that can extract information from unstructured data and present it as impactful visuals. Although you will continue to learn NLP-based techniques, the focus will gradually shift to developing useful applications. In these sections, you'll understand how to apply NLP techniques to answer questions as can be used in chatbots. By the end of this book, you'll be able to accomplish a varied range of assignments ranging from identifying the most suitable type of NLP task for solving a problem to using a tool like spacy or gensim for performing sentiment analysis. The book will easily equip you with the knowledge you need to build applications that interpret human language. What you will learn Obtain, verify, and clean data before transforming it into a correct format for use Perform data analysis and machine learning tasks using Python Understand the basics of computational linguistics Build models for general natural language processing tasks Evaluate the performance of a model with the right metrics Visualize, quantify, and perform exploratory analysis from any text data Who this book is for Natural Language Processing Fundamentals is designed for novice and mid-level data scientists and machine learning developers who want to gather and analyze text data to build an NLP-powered product. It'll help you to have prior experience of coding in Python using data types, writing functions, and importing libraries. Some experience with linguistics and probability is useful but not necessary.},
+}
+
+@Conference{DeBelder2010,
+  author    = {De Belder, Jan; Moens, Marie-Francine},
+  date      = {2010},
+  title     = {Text simplification for children},
+  language  = {eng},
+  publisher = {ACM; New York},
+  abstract  = {The goal in this paper is to automatically transform text into a simpler text, so that it is easier to understand by children. We perform syntactic simplification, i.e. the splitting of sentences, and lexical simplification, i.e. replacing difficult words with easier synonyms. We test the performance of this approach for each component separately on a per sentence basis, and globally with the automatic construction of simplified news articles and encyclopedia articles. By including information from a language model in the lexical simplification step, we obtain better results over a baseline method. The syntactic simplification shows that some phenomena are hard to recognize by a parser, and that errors are often introduced. Although the reading difficulty goes down, it still doesn’t reach the required level needed for young children.},
+  journal   = {Prroceedings of the SIGIR workshop on accessible search systems},
+  keywords  = {Text simplification},
+  year      = {2010},
+}
+
+@Article{Siddharthan2006,
+  author    = {Advaith Siddharthan},
+  title     = {Syntactic Simplification and Text Cohesion},
+  number    = {1},
+  pages     = {77--109},
+  url       = {http://oro.open.ac.uk/58888/},
+  volume    = {4},
+  abstract  = {Syntactic simplification is the process of reducing the grammatical complexity of a text, while retaining its information content and meaning. The aim of syntactic simplification is to make text easier to comprehend for human readers, or process by programs. In this paper, we formalise the interactions that take place between syntax and discourse during the simplification process. This is important because the usefulness of syntactic simplification in making a text accessible to a wider audience can be undermined if the rewritten text lacks cohesion. We describe how various generation issues like sentence ordering, cue-word selection, referring-expression generation, determiner choice and pronominal use can be resolved so as to preserve conjunctive and anaphoric cohesive relations during syntactic simplification and present the results of an evaluation of our syntactic simplification system.},
+  journal   = {Research on Language and Computation},
+  keywords  = {anaphoric structure; cue-word selection; determiner choice; discourse structure; sentence ordering; syntactic simplification; text cohesion},
+  month     = {June},
+  publisher = {Springer Netherlands},
+  year      = {2006},
+}
+
+@Online{Dapaah2022,
+  author = {Dapaah, Josephine and Maenhout, Klaas},
+  date   = {2022-07-08},
+  editor = {De Standaard},
+  title  = {Iedereen heeft boter op zijn hoofd},
+  url    = {https://www.standaard.be/cnt/dmf20220607_97763592},
+}
+
+@Article{Wafaa2021,
+title = {Automatic text summarization: A comprehensive survey},
+journal = {Expert Systems with Applications},
+volume = {165},
+pages = {113679},
+year = {2021},
+issn = {0957-4174},
+doi = {https://doi.org/10.1016/j.eswa.2020.113679},
+url = {https://www.sciencedirect.com/science/article/pii/S0957417420305030},
+author = {Wafaa S. El-Kassas and Cherif R. Salama and Ahmed A. Rafea and Hoda K. Mohamed},
+keywords = {Automatic text summarization, Text summarization approaches, Text summarization techniques, Text summarization evaluation},
+abstract = {Automatic Text Summarization (ATS) is becoming much more important because of the huge amount of textual content that grows exponentially on the Internet and the various archives of news articles, scientific papers, legal documents, etc. Manual text summarization consumes a lot of time, effort, cost, and even becomes impractical with the gigantic amount of textual content. Researchers have been trying to improve ATS techniques since the 1950s. ATS approaches are either extractive, abstractive, or hybrid. The extractive approach selects the most important sentences in the input document(s) then concatenates them to form the summary. The abstractive approach represents the input document(s) in an intermediate representation then generates the summary with sentences that are different than the original sentences. The hybrid approach combines both the extractive and abstractive approaches. Despite all the proposed methods, the generated summaries are still far away from the human-generated summaries. Most researches focus on the extractive approach. It is required to focus more on the abstractive and hybrid approaches. This research provides a comprehensive survey for the researchers by presenting the different aspects of ATS: approaches, methods, building blocks, techniques, datasets, evaluation methods, and future research directions.}
+}
+
+@Article{Niemeijer2010,
+title = "Ethical and practical concerns of surveillance technologies in residential care for people with dementia or intellectual disabilities: an overview of the literature",
+author = "A.R. Niemeijer and B.J.M. Frederiks and II Riphagen and J. Legemaate and J.A. Eefsting and C.M.P.M. Hertogh",
+year = "2010",
+doi = "10.1017/S1041610210000037",
+language = "Undefined/Unknown",
+volume = "22",
+pages = "1129--1142",
+journal = "Psychogeriatrics",
+issn = "1041-6102",
+publisher = "Cambridge University Press",
+number = "7",
+}
+
+@article{Punardeep2020,
+  author    = {Punardeep Sikka and
+               Vijay Mago},
+  title     = {A Survey on Text Simplification},
+  journal   = {CoRR},
+  volume    = {abs/2008.08612},
+  year      = {2020},
+  url       = {https://arxiv.org/abs/2008.08612},
+  eprinttype = {arXiv},
+  eprint    = {2008.08612},
+  timestamp = {Fri, 28 Aug 2020 09:01:07 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-2008-08612.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{Xu2015,
+  title={Problems in current text simplification research: New data can help},
+  author={Xu, Wei and Callison-Burch, Chris and Napoles, Courtney},
+  journal={Transactions of the Association for Computational Linguistics},
+  volume={3},
+  pages={283--297},
+  year={2015},
+  publisher={MIT Press}
+}
+
+@InProceedings{Canning2000,
+author="Canning, Yvonne
+and Tait, John
+and Archibald, Jackie
+and Crawley, Ros",
+editor="Sojka, Petr
+and Kope{\v{c}}ek, Ivan
+and Pala, Karel",
+title="Cohesive Generation of Syntactically Simplified Newspaper Text",
+booktitle="Text, Speech and Dialogue",
+year="2000",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="145--150",
+abstract="This paper describes SYSTAR (SYntactic Simplification of Text for Aphasic Readers), the PSet module which splits compound sentences, activises seven agentive passive clause types, and resolves and replaces eight frequently occurring anaphoric pronouns. We describe our techniques and strategies, report on the results obtained after evaluation of a corpus of 100 newspaper articles downloaded from the website of a daily provincial, and briefly report on experimental studies with aphasic participants.",
+isbn="978-3-540-45323-9"
+}
+
+@inproceedings{Coster2011,
+    title = "Learning to Simplify Sentences Using {W}ikipedia",
+    author = "Coster, Will  and
+      Kauchak, David",
+    booktitle = "Proceedings of the Workshop on Monolingual Text-
