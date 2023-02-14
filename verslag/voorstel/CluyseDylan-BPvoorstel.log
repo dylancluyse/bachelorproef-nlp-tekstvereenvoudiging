@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.9)  13 FEB 2023 12:50
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.9)  14 FEB 2023 01:44
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1488,34 +1488,30 @@ Overfull \hbox (2.09238pt too wide) in paragraph at lines 45--46
  []
 
 
-Overfull \hbox (0.11877pt too wide) in paragraph at lines 47--48
-[]\TU/Montserrat(2)/m/n/10 ChatGPT[][][][][] van OpenAI is een \TU/Montserrat(2
-)/m/it/10 chatbot \TU/Montserrat(2)/m/n/10 gebouwd
+Overfull \hbox (12.95703pt too wide) in paragraph at lines 47--48
+\TU/Montserrat(2)/m/n/10 landen, maakt België het minst gebruik van leerling-
  []
 
+File: img/Screenshot_302.png Graphic file (type bmp)
+<img/Screenshot_302.png>
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
 [3]
-File: img/Screenshot_302.png Graphic file (type bmp)
-<img/Screenshot_302.png>
-
-Overfull \hbox (3.63904pt too wide) in paragraph at lines 73--74
+Overfull \hbox (3.63904pt too wide) in paragraph at lines 69--70
 \TU/Montserrat(2)/m/n/10 delen van tekstvereenvoudiging bij scholieren met
  []
 
 
-Overfull \hbox (9.82457pt too wide) in paragraph at lines 89--90
-\TU/Montserrat(2)/m/n/10 graad middelbaar onderwijs. Er wordt onvoldoende
+Overfull \hbox (10.80905pt too wide) in paragraph at lines 73--74
+\TU/Montserrat(2)/m/n/10 opgesteld van beschikbare toepassingen voor tekst-
+ []
+
+
+Overfull \hbox (4.92569pt too wide) in paragraph at lines 83--84
+\TU/Montserrat(2)/m/n/10 lossingen voor tekstvereenvoudiging onvoldoende
  []
 
 )
-Overfull \hbox (0.77573pt too wide) in paragraph at lines 91--46
-\TU/Montserrat(2)/m/n/10 modellen beschikbaar om een pipeline voor tekst-
- []
-
-File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
-<img//HOGENT_Logo_Pos_rgb.png>
-[4]
 Overfull \hbox (0.17401pt too wide) in paragraph at lines 47--47
 [][]\TU/Montserrat(2)/m/n/10 Barnett, A., & Doubleday, Z. (2020). Meta-Research
 :
@@ -1526,7 +1522,9 @@ Overfull \hbox (3.01402pt too wide) in paragraph at lines 47--47
 \TU/Montserrat(2)/m/n/10 Students with dyslexia between school and
  []
 
-
+File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
+<img//HOGENT_Logo_Pos_rgb.png>
+[4]
 Overfull \hbox (15.14258pt too wide) in paragraph at lines 47--47
 \TU/Montserrat(2)/m/n/10 Sentence Complexity in Context. \TU/Montserrat(2)/m/it
 /10 Proceedings
@@ -1610,15 +1608,11 @@ Overfull \hbox (1.16733pt too wide) in paragraph at lines 47--47
 /10 (Trends,
  []
 
-File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
-<img//HOGENT_Logo_Pos_rgb.png>
-[5] 
+
 AED: lastpage setting LastPage
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
-[6
-
-] (CluyseDylan-BPvoorstel.aux)
+[5] (CluyseDylan-BPvoorstel.aux)
 Package rerunfilecheck Info: File `CluyseDylan-BPvoorstel.out' has not changed.
 
 (rerunfilecheck)             Checksum: 2486E0888F0C4C851FED5AD1F3E3A95F;616.
@@ -1627,12 +1621,12 @@ Package logreq Info: Writing requests to 'CluyseDylan-BPvoorstel.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27711 strings out of 410532
- 523288 string characters out of 2813299
- 1536568 words of memory out of 3000000
- 48520 multiletter control sequences out of 15000+600000
- 473477 words of font info for 101 fonts, out of 8000000 for 9000
+ 27709 strings out of 410532
+ 523201 string characters out of 2813299
+ 1530568 words of memory out of 3000000
+ 48519 multiletter control sequences out of 15000+600000
+ 473469 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,12n,128p,1436b,5716s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
-Output written on CluyseDylan-BPvoorstel.pdf (6 pages).
+Output written on CluyseDylan-BPvoorstel.pdf (5 pages).
