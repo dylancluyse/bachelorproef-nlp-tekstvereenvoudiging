@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.9)  14 FEB 2023 01:44
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.9)  14 FEB 2023 13:47
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1424,8 +1424,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
  []
 
 
-Overfull \hbox (11.04568pt too wide) in paragraph at lines 8--9
-\TU/Montserrat(2)/m/n/10 adaptieve tekstvereenvoudiging een baanbrekende
+Overfull \hbox (3.39902pt too wide) in paragraph at lines 8--9
+\TU/Montserrat(2)/m/n/10 vereenvoudiging biedt hier een baanbrekende op-
+ []
+
+
+Overfull \hbox (2.78574pt too wide) in paragraph at lines 10--11
+\TU/Montserrat(2)/m/n/10 dyslexie in de derde graad middelbaar onderwijs?” 
  []
 
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
@@ -1434,43 +1439,43 @@ File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 
 
 ]
-Overfull \hbox (1.79456pt too wide) in paragraph at lines 21--22
+Overfull \hbox (1.79456pt too wide) in paragraph at lines 27--28
 [][]\TU/Montserrat(2)/m/n/10 2022[][]). Tekstvereenvoudiging vloeide hier uit v
 oort.
  []
 
 
-Overfull \hbox (3.74236pt too wide) in paragraph at lines 21--22
+Overfull \hbox (3.74236pt too wide) in paragraph at lines 27--28
 \TU/Montserrat(2)/m/n/10 documentatie beschikbaar waar onderzoekers het
  []
 
 
-Overfull \hbox (2.00371pt too wide) in paragraph at lines 21--22
+Overfull \hbox (2.00371pt too wide) in paragraph at lines 27--28
 \TU/Montserrat(2)/m/n/10 voordeel van toegankelijkheid aanhalen, maar vol-
  []
 
 
-Overfull \hbox (4.12904pt too wide) in paragraph at lines 23--24
+Overfull \hbox (4.12904pt too wide) in paragraph at lines 29--30
 \TU/Montserrat(2)/m/n/10 doel van tekstvereenvoudiging is om ingewikkelde
  []
 
 
-Overfull \hbox (1.52455pt too wide) in paragraph at lines 23--24
+Overfull \hbox (1.52455pt too wide) in paragraph at lines 29--30
 \TU/Montserrat(2)/m/n/10 gebeurt. Er is conceptuele vereenvoudiging waar-
  []
 
 
-Overfull \hbox (1.5657pt too wide) in paragraph at lines 23--24
+Overfull \hbox (1.5657pt too wide) in paragraph at lines 29--30
 \TU/Montserrat(2)/m/n/10 bij documenten naar een compacter formaat wor-
  []
 
 
-Overfull \hbox (0.98901pt too wide) in paragraph at lines 25--26
+Overfull \hbox (0.98901pt too wide) in paragraph at lines 31--32
 []\TU/Montserrat(2)/m/n/10 Tekstvereenvoudiging behoort tot de zijtak van
  []
 
 
-Overfull \hbox (3.11237pt too wide) in paragraph at lines 33--34
+Overfull \hbox (3.11237pt too wide) in paragraph at lines 36--37
 []\TU/Montserrat(2)/m/n/10 Gala en Ziegler ([][]2016[][]) illustreert dat manue
 le tekst-
  []
@@ -1478,18 +1483,35 @@ le tekst-
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
 [2]
-Overfull \hbox (0.47903pt too wide) in paragraph at lines 42--43
+Overfull \hbox (0.47903pt too wide) in paragraph at lines 45--46
 \TU/Montserrat(2)/m/n/10 dat het merendeel van NLP-toepassingen Engels-
  []
 
 
-Overfull \hbox (2.09238pt too wide) in paragraph at lines 45--46
+Overfull \hbox (2.09238pt too wide) in paragraph at lines 48--49
 []\TU/Montserrat(2)/m/n/10 Voor scholieren met dyslexie in het derde graad
  []
 
 
-Overfull \hbox (12.95703pt too wide) in paragraph at lines 47--48
+Overfull \hbox (12.95703pt too wide) in paragraph at lines 50--51
 \TU/Montserrat(2)/m/n/10 landen, maakt België het minst gebruik van leerling-
+ []
+
+
+Overfull \hbox (0.59877pt too wide) in paragraph at lines 55--56
+\TU/Montserrat(2)/m/n/10 de twee meest voorkomende aan, namelijk NLTK[][][][][]
+
+ []
+
+
+Overfull \hbox (10.73901pt too wide) in paragraph at lines 59--60
+\TU/Montserrat(2)/m/n/10 Kincaid leesbaarheidstest is volgens []Readable ([][]2
+021[][])
+ []
+
+
+Overfull \hbox (4.37706pt too wide) in paragraph at lines 59--60
+\TU/Montserrat(2)/m/n/10 stinhoud te beoordelen, zonder de nood van vooraf
  []
 
 File: img/Screenshot_302.png Graphic file (type bmp)
@@ -1497,113 +1519,113 @@ File: img/Screenshot_302.png Graphic file (type bmp)
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
 [3]
-Overfull \hbox (3.63904pt too wide) in paragraph at lines 69--70
+Overfull \hbox (3.63904pt too wide) in paragraph at lines 71--72
 \TU/Montserrat(2)/m/n/10 delen van tekstvereenvoudiging bij scholieren met
  []
 
 
-Overfull \hbox (10.80905pt too wide) in paragraph at lines 73--74
+Overfull \hbox (10.80905pt too wide) in paragraph at lines 75--76
 \TU/Montserrat(2)/m/n/10 opgesteld van beschikbare toepassingen voor tekst-
  []
 
 
-Overfull \hbox (4.92569pt too wide) in paragraph at lines 83--84
+Overfull \hbox (4.92569pt too wide) in paragraph at lines 85--86
 \TU/Montserrat(2)/m/n/10 lossingen voor tekstvereenvoudiging onvoldoende
  []
 
 )
-Overfull \hbox (0.17401pt too wide) in paragraph at lines 47--47
+Overfull \hbox (0.17401pt too wide) in paragraph at lines 49--49
 [][]\TU/Montserrat(2)/m/n/10 Barnett, A., & Doubleday, Z. (2020). Meta-Research
 :
  []
 
 
-Overfull \hbox (3.01402pt too wide) in paragraph at lines 47--47
+Overfull \hbox (3.01402pt too wide) in paragraph at lines 49--49
 \TU/Montserrat(2)/m/n/10 Students with dyslexia between school and
  []
 
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
 [4]
-Overfull \hbox (15.14258pt too wide) in paragraph at lines 47--47
+Overfull \hbox (15.14258pt too wide) in paragraph at lines 49--49
 \TU/Montserrat(2)/m/n/10 Sentence Complexity in Context. \TU/Montserrat(2)/m/it
 /10 Proceedings
  []
 
 
-Overfull \hbox (18.80519pt too wide) in paragraph at lines 47--47
+Overfull \hbox (18.80519pt too wide) in paragraph at lines 49--49
 \TU/Montserrat(2)/m/it/10 and Computational Linguistics\TU/Montserrat(2)/m/n/10
  , 186–199. [][]$[][][][][] []
  []
 
 
-Overfull \hbox (7.49068pt too wide) in paragraph at lines 47--47
+Overfull \hbox (7.49068pt too wide) in paragraph at lines 49--49
 [][][][][][][][][][][][] [] [][] [] [][][][][][] [] [][][][][][] [][] [][][][][
 ][][][][][] [][]
  []
 
 
-Overfull \hbox (9.09253pt too wide) in paragraph at lines 47--47
+Overfull \hbox (9.09253pt too wide) in paragraph at lines 49--49
 \TU/Montserrat(2)/m/it/10 Flesch Kincaid Grade Level\TU/Montserrat(2)/m/n/10 . 
 [][]$[][][][][] [] [] [] [][][][][][][][] []
  []
 
 
-Overfull \hbox (15.33923pt too wide) in paragraph at lines 47--47
+Overfull \hbox (15.33923pt too wide) in paragraph at lines 49--49
 \TU/Montserrat(2)/m/n/10 lexics. \TU/Montserrat(2)/m/it/10 Proceedings of the I
 nternational Cross-
  []
 
 
-Overfull \hbox (11.80923pt too wide) in paragraph at lines 47--47
+Overfull \hbox (11.80923pt too wide) in paragraph at lines 49--49
 \TU/Montserrat(2)/m/it/10 of Natural Language Processing (NLP)\TU/Montserrat(2)
 /m/n/10 . Mon-
  []
 
 
-Overfull \hbox (0.89116pt too wide) in paragraph at lines 47--47
+Overfull \hbox (0.89116pt too wide) in paragraph at lines 49--49
 \TU/Montserrat(2)/m/n/10 keyLearn. Verkregen april 1, 2022, van [][]$[][][][][]
  []
  []
 
 
-Overfull \hbox (10.36064pt too wide) in paragraph at lines 47--47
+Overfull \hbox (10.36064pt too wide) in paragraph at lines 49--49
 [] [] [][][][][][][][][][][] [] [][][] [] [][][][] [] [][][][][][][] [][] [][][
 ][][][][][] [][]
  []
 
 
-Overfull \hbox (2.95876pt too wide) in paragraph at lines 47--47
+Overfull \hbox (2.95876pt too wide) in paragraph at lines 49--49
 [][]\TU/Montserrat(2)/m/n/10 Sciforce. (2020, februari 4). \TU/Montserrat(2)/m/
 it/10 Biggest Open Problems
  []
 
 
-Overfull \hbox (1.27063pt too wide) in paragraph at lines 47--47
+Overfull \hbox (1.27063pt too wide) in paragraph at lines 49--49
 [][][][][][][] [][] [][][][][][][][] [][] [][][][][][][][][][] [][] [][][][][][
 ][][][][][]$[][] 
  []
 
 
-Overfull \hbox (1.63257pt too wide) in paragraph at lines 47--47
+Overfull \hbox (1.63257pt too wide) in paragraph at lines 49--49
 \TU/Montserrat(2)/m/n/10 Simplification. \TU/Montserrat(2)/m/it/10 Internationa
 l Journal of Ad-
  []
 
 
-Overfull \hbox (1.63065pt too wide) in paragraph at lines 47--47
+Overfull \hbox (1.63065pt too wide) in paragraph at lines 49--49
 [][][][][][][][] [][] [][][][][][][][][][] [][] [][] [][] [][][][][][][] [][] [
 ][][][][][][][] [][]
  []
 
 
-Overfull \hbox (35.81877pt too wide) in paragraph at lines 47--47
+Overfull \hbox (35.81877pt too wide) in paragraph at lines 49--49
 [][]\TU/Montserrat(2)/m/n/10 Thangarajah, V. (2019). Python current trend appli
 cations-
  []
 
 
-Overfull \hbox (1.16733pt too wide) in paragraph at lines 47--47
+Overfull \hbox (1.16733pt too wide) in paragraph at lines 49--49
 \TU/Montserrat(2)/m/it/10 studenten die ChatGPT gebruiken \TU/Montserrat(2)/m/n
 /10 (Trends,
  []
@@ -1613,18 +1635,26 @@ AED: lastpage setting LastPage
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
 [5] (CluyseDylan-BPvoorstel.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `CluyseDylan-BPvoorstel.out' has not changed.
 
 (rerunfilecheck)             Checksum: 2486E0888F0C4C851FED5AD1F3E3A95F;616.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                CluyseDylan-BPvoorstel
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'CluyseDylan-BPvoorstel.run.xml'.
 \openout1 = `CluyseDylan-BPvoorstel.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27709 strings out of 410532
- 523201 string characters out of 2813299
- 1530568 words of memory out of 3000000
- 48519 multiletter control sequences out of 15000+600000
+ 27713 strings out of 410532
+ 523258 string characters out of 2813299
+ 1530406 words of memory out of 3000000
+ 48523 multiletter control sequences out of 15000+600000
  473469 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,12n,128p,1436b,5716s stack positions out of 10000i,1000n,20000p,200000b,80000s
