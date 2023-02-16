@@ -247,6 +247,68 @@
       \verb https://www.standaard.be/cnt/dmf20210319_05008561
       \endverb
     \endentry
+    \entry{Donato2022}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=d8e81a3a7edd3a121de6cffb2c1fc333}{%
+           family={Donato},
+           familyi={D\bibinitperiod},
+           given={Antonella},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2662dfaef82a935adcba46694442a30b}{%
+           family={Muscolo},
+           familyi={M\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ddcdb3b0424bad805144fc38872ff291}{%
+           family={Arias\bibnamedelima Romero},
+           familyi={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Mateo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7495c125b77117bd5fc4ae4bf974c4c7}{%
+           family={Caprì},
+           familyi={C\bibinitperiod},
+           given={Tindara},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2bcac707aab8ce3fb7ece8d5375fb8a6}{%
+           family={Calarese},
+           familyi={C\bibinitperiod},
+           given={Tiziana},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=574b7f22dcf2421bf32fd50ae02561ff}{%
+           family={Olmedo\bibnamedelima Moreno},
+           familyi={O\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Eva\bibnamedelima María},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3d5a6122e9f9817328588fc014656927}
+      \strng{fullhash}{b0f849cc5abf5cd61e13f355acba013e}
+      \strng{bibnamehash}{b0f849cc5abf5cd61e13f355acba013e}
+      \strng{authorbibnamehash}{b0f849cc5abf5cd61e13f355acba013e}
+      \strng{authornamehash}{3d5a6122e9f9817328588fc014656927}
+      \strng{authorfullhash}{b0f849cc5abf5cd61e13f355acba013e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Although the number of students with dyslexia enrolled in Italian universities is constantly growing, their presence remains relatively limited. The aim of this study was therefore to investigate the choices made by students with dyslexia in relation to university studies, and the underlying reasons for their choices. This study also compares these choices for students with and without dyslexia. In all, 440 high school students and their families agreed to take part in this project. Socio-demographic data was collected for the 47 students with dyslexia and 47 class-matched students without dyslexia, along with information on their current schools and their future educational plans. A specially developed questionnaire was used for the students, in combination with structured interviews with their families. The results show significant differences between these groups regarding both choices for university studies and the underlying motivations for these choices. Furthermore, certain psychological and emotional factors are implicated here in the decisions of the students with dyslexia regarding both university studies and their underlying reasons. Future research is needed to further investigate these factors in the educational choices of students with dyslexia.}
+      \field{journaltitle}{Dyslexia}
+      \field{number}{1}
+      \field{title}{Students with dyslexia between school and university: Post-diploma choices and the reasons that determine them. An Italian study}
+      \field{volume}{28}
+      \field{year}{2022}
+      \field{pages}{110\bibrangedash 127}
+      \range{pages}{18}
+      \keyw{choices,dyslexia,reasons,students,university}
+    \endentry
     \entry{Gala2016}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=2d6c91557f3b168f0a6f4351a0c4e095}{%
@@ -607,6 +669,72 @@
       \verb{url}
       \verb https://data-en-maatschappij.ai/nieuws/school-innovation-forum-2021
       \endverb
+    \endentry
+    \entry{PlavenSigray2017}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e0937b5b8d7347d247d3386989e98477}{%
+           family={Plavén-Sigray},
+           familyi={P\bibinithyphendelim S\bibinitperiod},
+           given={Pontus},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=01c276fd7b6c47cb3c85bc21c350ad1f}{%
+           family={Matheson},
+           familyi={M\bibinitperiod},
+           given={Granville\bibnamedelima James},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f62415a29511a4483022a8b981c41b34}{%
+           family={Schiffler},
+           familyi={S\bibinitperiod},
+           given={Björn\bibnamedelima Christian},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dbe1dfbf816c27c2ae2350230cda97b8}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={William\bibnamedelima Hedley},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=b5b6fc78668a017deed7aae19aaf2efa}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{citation}{1}{%
+        {eLife 2017;6:e27725}%
+      }
+      \list{publisher}{1}{%
+        {eLife Sciences Publications, Ltd}%
+      }
+      \strng{namehash}{6ba740adb39374fef91d7ed73f275d54}
+      \strng{fullhash}{dfd1fa08f4eb24fce522ab8cb3aa3a3b}
+      \strng{bibnamehash}{dfd1fa08f4eb24fce522ab8cb3aa3a3b}
+      \strng{authorbibnamehash}{dfd1fa08f4eb24fce522ab8cb3aa3a3b}
+      \strng{authornamehash}{6ba740adb39374fef91d7ed73f275d54}
+      \strng{authorfullhash}{dfd1fa08f4eb24fce522ab8cb3aa3a3b}
+      \strng{editorbibnamehash}{b5b6fc78668a017deed7aae19aaf2efa}
+      \strng{editornamehash}{b5b6fc78668a017deed7aae19aaf2efa}
+      \strng{editorfullhash}{b5b6fc78668a017deed7aae19aaf2efa}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Clarity and accuracy of reporting are fundamental to the scientific process. Readability formulas can estimate how difficult a text is to read. Here, in a corpus consisting of 709,577 abstracts published between 1881 and 2015 from 123 scientific journals, we show that the readability of science is steadily decreasing. Our analyses show that this trend is indicative of a growing use of general scientific jargon. These results are concerning for scientists and for the wider public, as they impact both the reproducibility and accessibility of research findings.}
+      \field{issn}{2050-084X}
+      \field{journaltitle}{eLife}
+      \field{title}{Research: The readability of scientific texts is decreasing over time}
+      \field{volume}{6}
+      \field{year}{2017}
+      \field{pages}{e27725}
+      \range{pages}{-1}
+      \keyw{metascience,readability,data analysis,jargon,scientific communication}
     \endentry
     \entry{Readable2021}{online}{}
       \name{author}{1}{}{%
@@ -1251,6 +1379,68 @@
       \verb https://www.standaard.be/cnt/dmf20210319_05008561
       \endverb
     \endentry
+    \entry{Donato2022}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=d8e81a3a7edd3a121de6cffb2c1fc333}{%
+           family={Donato},
+           familyi={D\bibinitperiod},
+           given={Antonella},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2662dfaef82a935adcba46694442a30b}{%
+           family={Muscolo},
+           familyi={M\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ddcdb3b0424bad805144fc38872ff291}{%
+           family={Arias\bibnamedelima Romero},
+           familyi={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Mateo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7495c125b77117bd5fc4ae4bf974c4c7}{%
+           family={Caprì},
+           familyi={C\bibinitperiod},
+           given={Tindara},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2bcac707aab8ce3fb7ece8d5375fb8a6}{%
+           family={Calarese},
+           familyi={C\bibinitperiod},
+           given={Tiziana},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=574b7f22dcf2421bf32fd50ae02561ff}{%
+           family={Olmedo\bibnamedelima Moreno},
+           familyi={O\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Eva\bibnamedelima María},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3d5a6122e9f9817328588fc014656927}
+      \strng{fullhash}{b0f849cc5abf5cd61e13f355acba013e}
+      \strng{bibnamehash}{b0f849cc5abf5cd61e13f355acba013e}
+      \strng{authorbibnamehash}{b0f849cc5abf5cd61e13f355acba013e}
+      \strng{authornamehash}{3d5a6122e9f9817328588fc014656927}
+      \strng{authorfullhash}{b0f849cc5abf5cd61e13f355acba013e}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Although the number of students with dyslexia enrolled in Italian universities is constantly growing, their presence remains relatively limited. The aim of this study was therefore to investigate the choices made by students with dyslexia in relation to university studies, and the underlying reasons for their choices. This study also compares these choices for students with and without dyslexia. In all, 440 high school students and their families agreed to take part in this project. Socio-demographic data was collected for the 47 students with dyslexia and 47 class-matched students without dyslexia, along with information on their current schools and their future educational plans. A specially developed questionnaire was used for the students, in combination with structured interviews with their families. The results show significant differences between these groups regarding both choices for university studies and the underlying motivations for these choices. Furthermore, certain psychological and emotional factors are implicated here in the decisions of the students with dyslexia regarding both university studies and their underlying reasons. Future research is needed to further investigate these factors in the educational choices of students with dyslexia.}
+      \field{journaltitle}{Dyslexia}
+      \field{number}{1}
+      \field{title}{Students with dyslexia between school and university: Post-diploma choices and the reasons that determine them. An Italian study}
+      \field{volume}{28}
+      \field{year}{2022}
+      \field{pages}{110\bibrangedash 127}
+      \range{pages}{18}
+      \keyw{choices,dyslexia,reasons,students,university}
+    \endentry
     \entry{Gala2016}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=2d6c91557f3b168f0a6f4351a0c4e095}{%
@@ -1611,6 +1801,72 @@
       \verb{url}
       \verb https://data-en-maatschappij.ai/nieuws/school-innovation-forum-2021
       \endverb
+    \endentry
+    \entry{PlavenSigray2017}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e0937b5b8d7347d247d3386989e98477}{%
+           family={Plavén-Sigray},
+           familyi={P\bibinithyphendelim S\bibinitperiod},
+           given={Pontus},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=01c276fd7b6c47cb3c85bc21c350ad1f}{%
+           family={Matheson},
+           familyi={M\bibinitperiod},
+           given={Granville\bibnamedelima James},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f62415a29511a4483022a8b981c41b34}{%
+           family={Schiffler},
+           familyi={S\bibinitperiod},
+           given={Björn\bibnamedelima Christian},
+           giveni={B\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dbe1dfbf816c27c2ae2350230cda97b8}{%
+           family={Thompson},
+           familyi={T\bibinitperiod},
+           given={William\bibnamedelima Hedley},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=b5b6fc78668a017deed7aae19aaf2efa}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{citation}{1}{%
+        {eLife 2017;6:e27725}%
+      }
+      \list{publisher}{1}{%
+        {eLife Sciences Publications, Ltd}%
+      }
+      \strng{namehash}{6ba740adb39374fef91d7ed73f275d54}
+      \strng{fullhash}{dfd1fa08f4eb24fce522ab8cb3aa3a3b}
+      \strng{bibnamehash}{dfd1fa08f4eb24fce522ab8cb3aa3a3b}
+      \strng{authorbibnamehash}{dfd1fa08f4eb24fce522ab8cb3aa3a3b}
+      \strng{authornamehash}{6ba740adb39374fef91d7ed73f275d54}
+      \strng{authorfullhash}{dfd1fa08f4eb24fce522ab8cb3aa3a3b}
+      \strng{editorbibnamehash}{b5b6fc78668a017deed7aae19aaf2efa}
+      \strng{editornamehash}{b5b6fc78668a017deed7aae19aaf2efa}
+      \strng{editorfullhash}{b5b6fc78668a017deed7aae19aaf2efa}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Clarity and accuracy of reporting are fundamental to the scientific process. Readability formulas can estimate how difficult a text is to read. Here, in a corpus consisting of 709,577 abstracts published between 1881 and 2015 from 123 scientific journals, we show that the readability of science is steadily decreasing. Our analyses show that this trend is indicative of a growing use of general scientific jargon. These results are concerning for scientists and for the wider public, as they impact both the reproducibility and accessibility of research findings.}
+      \field{issn}{2050-084X}
+      \field{journaltitle}{eLife}
+      \field{title}{Research: The readability of scientific texts is decreasing over time}
+      \field{volume}{6}
+      \field{year}{2017}
+      \field{pages}{e27725}
+      \range{pages}{-1}
+      \keyw{metascience,readability,data analysis,jargon,scientific communication}
     \endentry
     \entry{Readable2021}{online}{}
       \name{author}{1}{}{%
