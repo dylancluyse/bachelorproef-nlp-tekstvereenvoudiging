@@ -406,15 +406,6 @@
       \field{year}{2021}
       \field{pages}{1086\bibrangedash 1097}
       \range{pages}{12}
-      \verb{doi}
-      \verb 10.18653/v1/2021.acl-long.88
-      \endverb
-      \verb{urlraw}
-      \verb https://aclanthology.org/2021.acl-long.88
-      \endverb
-      \verb{url}
-      \verb https://aclanthology.org/2021.acl-long.88
-      \endverb
     \endentry
     \entry{Gooding2022}{article}{}
       \name{author}{1}{}{%
@@ -451,15 +442,6 @@
       \field{year}{2022}
       \field{pages}{50\bibrangedash 57}
       \range{pages}{8}
-      \verb{doi}
-      \verb 10.18653/v1/2022.slpat-1.7
-      \endverb
-      \verb{urlraw}
-      \verb https://aclanthology.org/2022.slpat-1.7
-      \endverb
-      \verb{url}
-      \verb https://aclanthology.org/2022.slpat-1.7
-      \endverb
     \endentry
     \entry{Iavarone2021}{article}{}
       \name{author}{3}{}{%
@@ -503,20 +485,10 @@
       \field{labeltitlesource}{title}
       \field{abstract}{We study the influence of context on how humans evaluate the complexity of a sentence in English. We collect a new dataset of sentences, where each sentence is rated for perceived complexity within different contextual windows. We carry out an in-depth analysis to detect which linguistic features correlate more with complexity judgments and with the degree of agreement among annotators. We train several regression models, using either explicit linguistic features or contextualized word embeddings, to predict the mean complexity values assigned to sentences in the different contextual windows, as well as their standard deviation. Results show that models leveraging explicit features capturing morphosyntactic and syntactic phenomena perform always better, especially when they have access to features extracted from all contextual sentences.}
       \field{journaltitle}{Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics}
-      \field{month}{6}
       \field{title}{Sentence Complexity in Context}
       \field{year}{2021}
       \field{pages}{186\bibrangedash 199}
       \range{pages}{14}
-      \verb{doi}
-      \verb 10.18653/v1/2021.cmcl-1.23
-      \endverb
-      \verb{urlraw}
-      \verb https://aclanthology.org/2021.cmcl-1.23
-      \endverb
-      \verb{url}
-      \verb https://aclanthology.org/2021.cmcl-1.23
-      \endverb
     \endentry
     \entry{Malik2022}{online}{}
       \name{author}{1}{}{%
@@ -924,15 +896,6 @@
       \field{title}{A Survey of Automated Text Simplification}
       \field{volume}{4}
       \field{year}{2014}
-      \verb{doi}
-      \verb 10.14569/SpecialIssue.2014.040109
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.14569/SpecialIssue.2014.040109
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.14569/SpecialIssue.2014.040109
-      \endverb
     \endentry
     \entry{Siddharthan2014}{article}{}
       \name{author}{1}{}{%
@@ -1093,19 +1056,12 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Central Asian Journal of Theoretical and Applied Science}
-      \field{month}{3}
       \field{number}{3}
       \field{title}{Evolution of AI Design Models}
       \field{volume}{3}
       \field{year}{2022}
       \field{pages}{1\bibrangedash 4}
       \range{pages}{4}
-      \verb{urlraw}
-      \verb https://www.cajotas.centralasianstudies.org/index.php/CAJOTAS/article/view/415
-      \endverb
-      \verb{url}
-      \verb https://www.cajotas.centralasianstudies.org/index.php/CAJOTAS/article/view/415
-      \endverb
     \endentry
     \entry{Verhoeven2023}{online}{}
       \name{author}{1}{}{%
@@ -1538,15 +1494,6 @@
       \field{year}{2021}
       \field{pages}{1086\bibrangedash 1097}
       \range{pages}{12}
-      \verb{doi}
-      \verb 10.18653/v1/2021.acl-long.88
-      \endverb
-      \verb{urlraw}
-      \verb https://aclanthology.org/2021.acl-long.88
-      \endverb
-      \verb{url}
-      \verb https://aclanthology.org/2021.acl-long.88
-      \endverb
     \endentry
     \entry{Gooding2022}{article}{}
       \name{author}{1}{}{%
@@ -1583,15 +1530,6 @@
       \field{year}{2022}
       \field{pages}{50\bibrangedash 57}
       \range{pages}{8}
-      \verb{doi}
-      \verb 10.18653/v1/2022.slpat-1.7
-      \endverb
-      \verb{urlraw}
-      \verb https://aclanthology.org/2022.slpat-1.7
-      \endverb
-      \verb{url}
-      \verb https://aclanthology.org/2022.slpat-1.7
-      \endverb
     \endentry
     \entry{Iavarone2021}{article}{}
       \name{author}{3}{}{%
@@ -1635,20 +1573,10 @@
       \field{labeltitlesource}{title}
       \field{abstract}{We study the influence of context on how humans evaluate the complexity of a sentence in English. We collect a new dataset of sentences, where each sentence is rated for perceived complexity within different contextual windows. We carry out an in-depth analysis to detect which linguistic features correlate more with complexity judgments and with the degree of agreement among annotators. We train several regression models, using either explicit linguistic features or contextualized word embeddings, to predict the mean complexity values assigned to sentences in the different contextual windows, as well as their standard deviation. Results show that models leveraging explicit features capturing morphosyntactic and syntactic phenomena perform always better, especially when they have access to features extracted from all contextual sentences.}
       \field{journaltitle}{Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics}
-      \field{month}{6}
       \field{title}{Sentence Complexity in Context}
       \field{year}{2021}
       \field{pages}{186\bibrangedash 199}
       \range{pages}{14}
-      \verb{doi}
-      \verb 10.18653/v1/2021.cmcl-1.23
-      \endverb
-      \verb{urlraw}
-      \verb https://aclanthology.org/2021.cmcl-1.23
-      \endverb
-      \verb{url}
-      \verb https://aclanthology.org/2021.cmcl-1.23
-      \endverb
     \endentry
     \entry{Malik2022}{online}{}
       \name{author}{1}{}{%
@@ -2056,15 +1984,6 @@
       \field{title}{A Survey of Automated Text Simplification}
       \field{volume}{4}
       \field{year}{2014}
-      \verb{doi}
-      \verb 10.14569/SpecialIssue.2014.040109
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.14569/SpecialIssue.2014.040109
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.14569/SpecialIssue.2014.040109
-      \endverb
     \endentry
     \entry{Siddharthan2014}{article}{}
       \name{author}{1}{}{%
@@ -2225,19 +2144,12 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Central Asian Journal of Theoretical and Applied Science}
-      \field{month}{3}
       \field{number}{3}
       \field{title}{Evolution of AI Design Models}
       \field{volume}{3}
       \field{year}{2022}
       \field{pages}{1\bibrangedash 4}
       \range{pages}{4}
-      \verb{urlraw}
-      \verb https://www.cajotas.centralasianstudies.org/index.php/CAJOTAS/article/view/415
-      \endverb
-      \verb{url}
-      \verb https://www.cajotas.centralasianstudies.org/index.php/CAJOTAS/article/view/415
-      \endverb
     \endentry
     \entry{Verhoeven2023}{online}{}
       \name{author}{1}{}{%

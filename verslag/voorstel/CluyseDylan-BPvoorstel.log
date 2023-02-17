@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.9)  16 FEB 2023 21:46
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.9)  17 FEB 2023 11:44
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1429,9 +1429,13 @@ Overfull \hbox (0.8257pt too wide) in paragraph at lines 8--9
  []
 
 
-Overfull \hbox (14.8137pt too wide) in paragraph at lines 8--9
-\TU/Montserrat(2)/m/n/10 lexie in het middelbaar onderwijs, is tijds- en energi
-e-
+Overfull \hbox (6.18234pt too wide) in paragraph at lines 8--9
+\TU/Montserrat(2)/m/n/10 matische en adaptieve tekstvereenvoudiging biedt
+ []
+
+
+Overfull \hbox (3.27238pt too wide) in paragraph at lines 10--11
+\TU/Montserrat(2)/m/n/10 het veldonderzoek een antwoord op de vijfde deel-
  []
 
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
@@ -1440,38 +1444,6 @@ File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 
 
 ]
-Overfull \hbox (3.20572pt too wide) in paragraph at lines 19--20
-\TU/Montserrat(2)/m/n/10 noden hebben scholieren van de derde graad
- []
-
-
-Overfull \hbox (11.42903pt too wide) in paragraph at lines 23--24
-\TU/Montserrat(2)/m/n/10 vereenvoudiging mogelijk te maken voor scho-
- []
-
-
-Overfull \hbox (10.1404pt too wide) in paragraph at lines 34--35
-\TU/Montserrat(2)/m/n/10 nis zorgde voor nieuwe toepassingen ([]Vasista, [][]20
-22[][]).
- []
-
-
-Overfull \hbox (4.41661pt too wide) in paragraph at lines 34--35
-\TU/Montserrat(2)/m/n/10 teksten kunnen vereenvoudigen, zoals Resoomer[][][][][
-],
- []
-
-
-Overfull \hbox (5.60902pt too wide) in paragraph at lines 34--35
-\TU/Montserrat(2)/m/n/10 mentatie beschikbaar waar onderzoekers het voor-
- []
-
-
-Overfull \hbox (1.05371pt too wide) in paragraph at lines 34--35
-\TU/Montserrat(2)/m/n/10 deel van toegankelijkheid aanhalen, maar volgens
- []
-
-
 Overfull \hbox (4.12904pt too wide) in paragraph at lines 36--37
 \TU/Montserrat(2)/m/n/10 doel van tekstvereenvoudiging is om ingewikkelde
  []
@@ -1492,8 +1464,13 @@ Overfull \hbox (0.98901pt too wide) in paragraph at lines 38--39
  []
 
 
-Overfull \hbox (7.42458pt too wide) in paragraph at lines 40--41
-\TU/Montserrat(2)/m/n/10 van een wetenschappelijk artikel. Bovendien vormt
+Overfull \hbox (3.95905pt too wide) in paragraph at lines 38--39
+\TU/Montserrat(2)/m/n/10 vorm van tekstvereenvoudiging komt volgens ([]Sci-
+ []
+
+
+Overfull \hbox (5.97969pt too wide) in paragraph at lines 40--40
+|[]\TU/Montserrat(0)/b/n/12 Noden van scholieren met dyslexie| 
  []
 
 
@@ -1510,36 +1487,25 @@ Overfull \hbox (0.47903pt too wide) in paragraph at lines 54--55
  []
 
 
-Overfull \hbox (12.95703pt too wide) in paragraph at lines 59--60
+Overfull \hbox (7.42458pt too wide) in paragraph at lines 61--62
+\TU/Montserrat(2)/m/n/10 van een wetenschappelijk artikel. Bovendien vormt
+ []
+
+
+Overfull \hbox (12.95703pt too wide) in paragraph at lines 65--66
 \TU/Montserrat(2)/m/n/10 landen, maakt België het minst gebruik van leerling-
  []
 
 
-Overfull \hbox (0.73238pt too wide) in paragraph at lines 61--62
-\TU/Montserrat(2)/m/n/10 middel zijn om de werklast van routinematig werk
+Overfull \hbox (4.48901pt too wide) in paragraph at lines 67--68
+[][]\TU/Montserrat(2)/m/n/10 Verhoeven ([][]2023[][]) haalt aan dat AI-toepassi
+ngen
  []
 
 
-Overfull \hbox (12.09789pt too wide) in paragraph at lines 67--68
-\TU/Montserrat(2)/m/n/10 meest voorkomende aan, namelijk NLTK[][][][][] en Spac
-y[][][][][].
- []
-
-
-Overfull \hbox (0.94902pt too wide) in paragraph at lines 69--70
-\TU/Montserrat(2)/m/n/10 digde datasets en \TU/Montserrat(2)/m/it/10 word embed
-dings \TU/Montserrat(2)/m/n/10 beschikbaar.
- []
-
-
-Overfull \hbox (10.73901pt too wide) in paragraph at lines 73--74
-\TU/Montserrat(2)/m/n/10 Kincaid leesbaarheidstest is volgens []Readable ([][]2
-021[][])
- []
-
-
-Overfull \hbox (4.37706pt too wide) in paragraph at lines 73--74
-\TU/Montserrat(2)/m/n/10 stinhoud te beoordelen, zonder de nood van vooraf
+Overfull \hbox (4.93716pt too wide) in paragraph at lines 76--77
+\TU/Montserrat(2)/m/it/10 Martin[][][][][] \TU/Montserrat(2)/m/n/10 bouwt verde
+r op het onderzoek van []Shard-
  []
 
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
@@ -1548,27 +1514,22 @@ File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 File: img/Screenshot_302.png Graphic file (type bmp)
 <img/Screenshot_302.png>
 
-Overfull \hbox (5.71455pt too wide) in paragraph at lines 83--84
-\TU/Montserrat(2)/m/n/10 graad middelbaar onderwijs. Het onderzoek houdt
- []
-
-
-Overfull \hbox (3.63904pt too wide) in paragraph at lines 85--86
+Overfull \hbox (3.63904pt too wide) in paragraph at lines 94--95
 \TU/Montserrat(2)/m/n/10 delen van tekstvereenvoudiging bij scholieren met
  []
 
 
-Overfull \hbox (10.80905pt too wide) in paragraph at lines 89--90
+Overfull \hbox (10.80905pt too wide) in paragraph at lines 98--99
 \TU/Montserrat(2)/m/n/10 opgesteld van beschikbare toepassingen voor tekst-
  []
 
 
-Overfull \hbox (5.10457pt too wide) in paragraph at lines 89--90
+Overfull \hbox (5.10457pt too wide) in paragraph at lines 98--99
 \TU/Montserrat(2)/m/n/10 vereenvoudiging in het middelbaar onderwijs. Met
  []
 
 
-Overfull \hbox (4.92569pt too wide) in paragraph at lines 109--110
+Overfull \hbox (4.92569pt too wide) in paragraph at lines 116--117
 \TU/Montserrat(2)/m/n/10 lossingen voor tekstvereenvoudiging onvoldoende
  []
 
@@ -1589,12 +1550,6 @@ Overfull \hbox (3.01402pt too wide) in paragraph at lines 54--54
 Overfull \hbox (15.14258pt too wide) in paragraph at lines 54--54
 \TU/Montserrat(2)/m/n/10 Sentence Complexity in Context. \TU/Montserrat(2)/m/it
 /10 Proceedings
- []
-
-
-Overfull \hbox (18.80519pt too wide) in paragraph at lines 54--54
-\TU/Montserrat(2)/m/it/10 and Computational Linguistics\TU/Montserrat(2)/m/n/10
- , 186–199. [][]$[][][][][] []
  []
 
 
@@ -1676,23 +1631,18 @@ File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 [5] (CluyseDylan-BPvoorstel.aux)
 Package rerunfilecheck Info: File `CluyseDylan-BPvoorstel.out' has not changed.
 
-(rerunfilecheck)             Checksum: 2486E0888F0C4C851FED5AD1F3E3A95F;616.
-
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
+(rerunfilecheck)             Checksum: 3A5A49DDD21AE539EFE9854F3404816A;1516.
 Package logreq Info: Writing requests to 'CluyseDylan-BPvoorstel.run.xml'.
 \openout1 = `CluyseDylan-BPvoorstel.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27732 strings out of 410532
- 523738 string characters out of 2813299
- 1535587 words of memory out of 3000000
- 48542 multiletter control sequences out of 15000+600000
- 473469 words of font info for 100 fonts, out of 8000000 for 9000
+ 27737 strings out of 410532
+ 523931 string characters out of 2813299
+ 1533587 words of memory out of 3000000
+ 48545 multiletter control sequences out of 15000+600000
+ 473485 words of font info for 102 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 99i,12n,128p,1452b,5716s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 99i,12n,128p,1436b,5716s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 Output written on CluyseDylan-BPvoorstel.pdf (5 pages).
