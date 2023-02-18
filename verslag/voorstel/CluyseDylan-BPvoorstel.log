@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.9)  17 FEB 2023 11:44
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.9)  17 FEB 2023 16:28
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1434,8 +1434,8 @@ Overfull \hbox (6.18234pt too wide) in paragraph at lines 8--9
  []
 
 
-Overfull \hbox (3.27238pt too wide) in paragraph at lines 10--11
-\TU/Montserrat(2)/m/n/10 het veldonderzoek een antwoord op de vijfde deel-
+Overfull \hbox (4.73573pt too wide) in paragraph at lines 10--11
+\TU/Montserrat(2)/m/n/10 dyslexie in de derde graad middelbaar onderwijs?”.
  []
 
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
@@ -1444,6 +1444,11 @@ File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 
 
 ]
+Overfull \hbox (3.7157pt too wide) in paragraph at lines 23--24
+\TU/Montserrat(2)/m/n/10 eenvoudiging komen niet in deze tools voor?” 
+ []
+
+
 Overfull \hbox (4.12904pt too wide) in paragraph at lines 36--37
 \TU/Montserrat(2)/m/n/10 doel van tekstvereenvoudiging is om ingewikkelde
  []
@@ -1513,6 +1518,11 @@ File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 [3]
 File: img/Screenshot_302.png Graphic file (type bmp)
 <img/Screenshot_302.png>
+
+Overfull \hbox (3.73569pt too wide) in paragraph at lines 92--93
+\TU/Montserrat(2)/m/n/10 toepassingen automatisch een wetenschappelijke
+ []
+
 
 Overfull \hbox (3.63904pt too wide) in paragraph at lines 94--95
 \TU/Montserrat(2)/m/n/10 delen van tekstvereenvoudiging bij scholieren met
@@ -1631,16 +1641,16 @@ File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 [5] (CluyseDylan-BPvoorstel.aux)
 Package rerunfilecheck Info: File `CluyseDylan-BPvoorstel.out' has not changed.
 
-(rerunfilecheck)             Checksum: 3A5A49DDD21AE539EFE9854F3404816A;1516.
+(rerunfilecheck)             Checksum: D40981CBA75EF76E3707246E76A46F0C;1320.
 Package logreq Info: Writing requests to 'CluyseDylan-BPvoorstel.run.xml'.
 \openout1 = `CluyseDylan-BPvoorstel.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27737 strings out of 410532
- 523931 string characters out of 2813299
+ 27739 strings out of 410532
+ 523960 string characters out of 2813299
  1533587 words of memory out of 3000000
- 48545 multiletter control sequences out of 15000+600000
+ 48547 multiletter control sequences out of 15000+600000
  473485 words of font info for 102 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,12n,128p,1436b,5716s stack positions out of 10000i,1000n,20000p,200000b,80000s
