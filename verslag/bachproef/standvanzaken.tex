@@ -61,14 +61,9 @@ Conceptuele vereenvoudiging lost dit probleem op. Theoretische kennis hierover i
 \subsection{Semantische vereenvoudiging}
 
 
-
 \subsection{Tekstvereenvoudiging automatiseren}
 
 Geautomatiseerde tekstvereenvoudiging is niets nieuws. Volgens het onderzoek van \textcite{Canning2000} en \textcite{Siddharthan2006} waren de eerste aanpakken op geautomatiseerde tekstvereenvoudiging gebouwd op rule-based modellen. Deze modellen bewerken de syntax door zinnen te splitsen, te verwijderen of de volgorde van de zinnen in een tekst aan te passen. Lexicale vereenvoudiging kwam hier niet aan de pas. Enkel bij recentere onderzoeken van \textcite{Coster2011} en \textcite{Bulte2018} werd het duidelijk hoe lexicale en syntactische vereenvoudiging gecombineerd kon worden.
-
-\subsection{Discourse edits}
-
-\textit{Discourse}
 
 \subsection{Combineren tot het geheel van tekstvereenvoudiging}
 
@@ -80,9 +75,23 @@ Een onderzoek van \textcite{Bulte2018} ging met dit concept aan de slag. Het res
 
 \subsection{Samenvatten}
 
-Lexicale, conceptuele en syntactische vereenvoudiging is er geen garantie dat de tekstinhoud korter zal worden. Eenvoudigere woordenschat 
+Lexicale, conceptuele en syntactische vereenvoudiging is er geen garantie dat de tekstinhoud korter zal worden. Een langer woord is volgens ... geen indicatief op een complexer woord, zeker wanneer het woord te maken heeft met de opeenvolging van medeklinkers en klinkers.
 
-\textcite{Wafaa2021} deed verder onderzoek op geautomatiseerd samenvatten.
+\textcite{Wafaa2021} deed verder onderzoek op geautomatiseerd samenvatten. Zo zijn er twee verschillende soorten summarization. 
+
+Het onderzoek van \textcite{Hahn2000} bevat vele citaties en is een sterk uitgangspunt om te vertrekken bij samenvatting. Zij halen twee aanpakken hoe een machine een tekst kan samenvatten: extractief en abstractief.
+
+\subsubsection*{Extractief samenvatten}
+
+Bij deze vorm worden de belangrijkste zinnen gemarkeerd en vervolgens opnieuw neergeschreven \textcite{Hahn2000}. Dit is het equivalent van handmatig zinnen te fluoriseren en vervolgens op een blanco papier neerschrijven. 
+
+\textcite{McKeown1999} onderzochten naar de use case voor het extractief samenvatten van teksten. Zij achterhaalden dat deze vorm zeer zwak is voor bias. Bij nieuwsartikelen wordt er geen rekening gehouden met de aanwezige gekantheid van de auteur. De zinnen worden genomen zoals ze zijn.
+
+\textcite{Nallapati2017} wilden de nauwkeurigheid van andere modellen overbruggen. Dit doen ze met \textit{SummaRuNNer}\footnote{https://github.com/hpzhao/SummaRuNNer}, een oplossing voor het extractief samenvatten van teksten met een neuraal netwerk. De toepassing werd opgebouwd met PyTorch in Python en bestaat uit een combinatie van drie modellen: een recurrent neuraal netwerk, een convolutioneel recurrent neuraal netwerk en een \textit{hiërarchical attention network}.
+
+\subsubsection*{Abstractief samenvatten}
+
+Om een abstractieve samenvatting op te bouwen bestaan er verschillende modellen. Het Pegasus-model vloeide voort uit een onderzoek van \textcite{Zhang2020} over het afhandelen van \textit{gap-sentences} met pre-trained models voor samenvatting met NLP. Pegasus haalt kernzinnen uit een invoertekst en zal die zinnen vervolgens als één uitvoerzin uitschrijven. Dit model werd getrained en beoordeeld op samenvattingstaken zoals emails, patenten, rekeningen en ook wetenschappelijke artikelen. Hieronder een code-snippet van hoe een simpele abstractieve samenvatting kan worden gemaakt met Google Pegasus.
 
 
 \section{Voordelen van tekstvereenvoudiging}
