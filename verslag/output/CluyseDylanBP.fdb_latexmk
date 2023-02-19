@@ -1,25 +1,25 @@
 # Fdb version 3
-["biber ../output/CluyseDylanBP"] 1676812576 "../output/CluyseDylanBP.bcf" "../output/CluyseDylanBP.bbl" "../output/CluyseDylanBP" 1676813306
-  "../output/CluyseDylanBP.bcf" 1676812603 131831 2d92b2854f9ebeed4d5d28c5ae2ec621 "xelatex"
-  "bachproef.bib" 1676812218 43839 a981bd01174487322d1b43ff8febbf1a ""
+["biber ../output/CluyseDylanBP"] 1676838652 "../output/CluyseDylanBP.bcf" "../output/CluyseDylanBP.bbl" "../output/CluyseDylanBP" 1676838669
+  "../output/CluyseDylanBP.bcf" 1676838665 132273 99f2fd04275b59931cf96caa098e49c7 "xelatex"
+  "bachproef.bib" 1676838179 45482 e5cf0342c074c5d569a3e5575681d69c ""
   (generated)
-  "../output/CluyseDylanBP.bbl"
   "../output/CluyseDylanBP.blg"
-["xdvipdfmx"] 1676813305 "../output/CluyseDylanBP.xdv" "../output/CluyseDylanBP.pdf" "../output/CluyseDylanBP" 1676813306
-  "../output/CluyseDylanBP.xdv" 1676812603 808540 7b6b338ce4dec894398632b9a8f46385 "xelatex"
+  "../output/CluyseDylanBP.bbl"
+["xdvipdfmx"] 1676838668 "../output/CluyseDylanBP.xdv" "../output/CluyseDylanBP.pdf" "../output/CluyseDylanBP" 1676838669
+  "../output/CluyseDylanBP.xdv" 1676838665 840140 97df6ebf969abedbe75f46fbec06531d "xelatex"
   (generated)
   "../output/CluyseDylanBP.pdf"
-["xelatex"] 1676812594 "./CluyseDylanBP.tex" "../output/CluyseDylanBP.xdv" "CluyseDylanBP" 1676813306
+["xelatex"] 1676838661 "./CluyseDylanBP.tex" "../output/CluyseDylanBP.xdv" "CluyseDylanBP" 1676838669
   "../output/../voorstel/voorstel-inhoud.tex" 1676724503 19867 f19ffe2690b40176134e83e105ce025a ""
-  "../output/CluyseDylanBP.aux" 1676812603 28269 4e249effbb0223530a3eb146ceaed9d9 "xelatex"
-  "../output/CluyseDylanBP.bbl" 1676812580 100880 a1954b774774b33154f02c8222c70435 "biber ../output/CluyseDylanBP"
-  "../output/CluyseDylanBP.lof" 1676812603 1290 9e6ab2112ec04a3597d6bdd22bf26b46 "xelatex"
-  "../output/CluyseDylanBP.out" 1676812603 3639 619512a63163b5519063cfa4d2c47a21 "xelatex"
-  "../output/CluyseDylanBP.run.xml" 1676812603 2530 b77248075feeb8281ba442f79a8d110d "xelatex"
-  "../output/CluyseDylanBP.toc" 1676812603 6042 42011dbc7e3018ba597c4412aac7de19 "xelatex"
+  "../output/CluyseDylanBP.aux" 1676838665 30029 eaca2df93c98e7e6bd4a8c3fe55ba588 "xelatex"
+  "../output/CluyseDylanBP.bbl" 1676838654 106710 4a6a99ecc59512b4a63a912adf3cc886 "biber ../output/CluyseDylanBP"
+  "../output/CluyseDylanBP.lof" 1676838665 1290 295f0033c17a2d3a4937d82fe8ecee54 "xelatex"
+  "../output/CluyseDylanBP.out" 1676838665 3711 d63feecc21acdf62a81cb06c07b2acf5 "xelatex"
+  "../output/CluyseDylanBP.run.xml" 1676838665 2530 b77248075feeb8281ba442f79a8d110d "xelatex"
+  "../output/CluyseDylanBP.toc" 1676838665 6567 c0111090894c3a7f3c1a336966422b78 "xelatex"
   "../voorstel/voorstel-inhoud.tex" 1676724503 19867 f19ffe2690b40176134e83e105ce025a ""
   "./CluyseDylanBP.tex" 1675810935 7441 66b6203df3a8c7673dc8dcb84a659b5c ""
-  "/dev/null" 1676813305 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/dev/null" 1676838668 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/etc/texmf/web2c/texmf.cnf" 1672154544 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -267,14 +267,14 @@
   "inleiding.tex" 1676729931 11618 face84d38896b8a3c3b8e58d635ae1ad ""
   "methodologie.tex" 1675700765 600 ab0ffc93dd0723a6433100749e1d8456 ""
   "samenvatting.tex" 1675700765 1658 da944876ddb8b9a1b307350ed4141854 ""
-  "standvanzaken.tex" 1676812524 23625 2f593fee639cf6b048a4539e246e8061 ""
+  "standvanzaken.tex" 1676838607 26029 5a4156030ef27878731c25765aba0384 ""
   "voorwoord.tex" 1675700765 534 8740d2f5b6abd2bf16d2c289dc8afd4c ""
   (generated)
-  "../output/CluyseDylanBP.run.xml"
   "../output/CluyseDylanBP.toc"
   "../output/CluyseDylanBP.log"
+  "../output/CluyseDylanBP.xdv"
+  "../output/CluyseDylanBP.bcf"
   "../output/CluyseDylanBP.aux"
   "../output/CluyseDylanBP.lof"
   "../output/CluyseDylanBP.out"
-  "../output/CluyseDylanBP.xdv"
-  "../output/CluyseDylanBP.bcf"
+  "../output/CluyseDylanBP.run.xml"

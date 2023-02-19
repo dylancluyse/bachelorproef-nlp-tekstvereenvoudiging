@@ -274,6 +274,40 @@
       \field{pages}{145\bibrangedash 150}
       \range{pages}{6}
     \endentry
+    \entry{Carbonell1998}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4e523aba9ce388c6b542f2f6e52293c2}{%
+           family={Carbonell},
+           familyi={C\bibinitperiod},
+           given={Jaime},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a7bdcff9ed8ccf984fb863a5b17c7a0}{%
+           family={Goldstein},
+           familyi={G\bibinitperiod},
+           given={Jade},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{488667490aaee0d602674e7f0ff3fa66}
+      \strng{fullhash}{488667490aaee0d602674e7f0ff3fa66}
+      \strng{bibnamehash}{488667490aaee0d602674e7f0ff3fa66}
+      \strng{authorbibnamehash}{488667490aaee0d602674e7f0ff3fa66}
+      \strng{authornamehash}{488667490aaee0d602674e7f0ff3fa66}
+      \strng{authorfullhash}{488667490aaee0d602674e7f0ff3fa66}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 21st annual international ACM SIGIR conference on Research and development in information retrieval}
+      \field{title}{The use of MMR, diversity-based reranking for reordering documents and producing summaries}
+      \field{year}{1998}
+      \field{pages}{335\bibrangedash 336}
+      \range{pages}{2}
+    \endentry
     \entry{Chowdhary2020}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8b85e59bf81a08b351c1b0047ffe26df}{%
@@ -1033,6 +1067,40 @@
       \field{year}{2018}
       \keyw{Computation and Language (cs.CL),FOS: Computer and information sciences,FOS: Computer and information sciences}
     \endentry
+    \entry{Lin2010}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7c8b2289031d27d57fc9c7e7239ec517}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e284097865f61b75b0b6bba6f066b8c}{%
+           family={Bilmes},
+           familyi={B\bibinitperiod},
+           given={Jeff},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a35be8dfb15c4d2518b9765e5ba54270}
+      \strng{fullhash}{a35be8dfb15c4d2518b9765e5ba54270}
+      \strng{bibnamehash}{a35be8dfb15c4d2518b9765e5ba54270}
+      \strng{authorbibnamehash}{a35be8dfb15c4d2518b9765e5ba54270}
+      \strng{authornamehash}{a35be8dfb15c4d2518b9765e5ba54270}
+      \strng{authorfullhash}{a35be8dfb15c4d2518b9765e5ba54270}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics}
+      \field{title}{Multi-document summarization via budgeted maximization of submodular functions}
+      \field{year}{2010}
+      \field{pages}{912\bibrangedash 920}
+      \range{pages}{9}
+    \endentry
     \entry{Lissens2020}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3a1600a328bf8a02bd9faa7c1e1afc84}{%
@@ -1217,6 +1285,37 @@
       \verb{url}
       \verb https://data-en-maatschappij.ai/nieuws/school-innovation-forum-2021
       \endverb
+    \endentry
+    \entry{McDonald2007}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c89c5fee46ef8f26ee51eb1a51c0b154}{%
+           family={McDonald},
+           familyi={M\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{c89c5fee46ef8f26ee51eb1a51c0b154}
+      \strng{fullhash}{c89c5fee46ef8f26ee51eb1a51c0b154}
+      \strng{bibnamehash}{c89c5fee46ef8f26ee51eb1a51c0b154}
+      \strng{authorbibnamehash}{c89c5fee46ef8f26ee51eb1a51c0b154}
+      \strng{authornamehash}{c89c5fee46ef8f26ee51eb1a51c0b154}
+      \strng{authorfullhash}{c89c5fee46ef8f26ee51eb1a51c0b154}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Information Retrieval: 29th European Conference on IR Research, ECIR 2007, Rome, Italy, April 2-5, 2007. Proceedings 29}
+      \field{title}{A study of global inference algorithms in multi-document summarization}
+      \field{year}{2007}
+      \field{pages}{557\bibrangedash 564}
+      \range{pages}{8}
     \endentry
     \entry{McKeown1999}{article}{}
       \name{author}{5}{}{%
@@ -1986,6 +2085,42 @@
       \verb{url}
       \verb https://trends.knack.be/economie/bedrijven/applaus-voor-de-studenten-die-chatgpt-gebruiken/article-opinion-1934277.html?cookie_check=1676034368
       \endverb
+    \endentry
+    \entry{Verma2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=3e79f633d56a67ab12f99056171d50a5}{%
+           family={Verma},
+           familyi={V\bibinitperiod},
+           given={Pradeepika},
+           giveni={P\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=4b4c768f6cad79ccf1ce3c229118461e}{%
+           family={Verma},
+           familyi={V\bibinitperiod},
+           given={Anshul},
+           giveni={A\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{8a4c71c8ec1062a2e7d9c4c6687960d3}
+      \strng{fullhash}{8a4c71c8ec1062a2e7d9c4c6687960d3}
+      \strng{bibnamehash}{8a4c71c8ec1062a2e7d9c4c6687960d3}
+      \strng{authorbibnamehash}{8a4c71c8ec1062a2e7d9c4c6687960d3}
+      \strng{authornamehash}{8a4c71c8ec1062a2e7d9c4c6687960d3}
+      \strng{authorfullhash}{8a4c71c8ec1062a2e7d9c4c6687960d3}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of scientific research}
+      \field{number}{1}
+      \field{title}{A review on text summarization techniques}
+      \field{volume}{64}
+      \field{year}{2020}
+      \field{pages}{251\bibrangedash 257}
+      \range{pages}{7}
     \endentry
     \entry{Xu2015}{article}{}
       \name{author}{3}{}{%

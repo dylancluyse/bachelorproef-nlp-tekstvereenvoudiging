@@ -1,17 +1,17 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [1] Config.pm:314> INFO - Logfile is '../output/CluyseDylanBP.blg'
-[109] biber:340> INFO - === Sun Feb 19, 2023, 13:16:17
-[151] Biber.pm:415> INFO - Reading '../output/CluyseDylanBP.bcf'
-[360] Biber.pm:952> INFO - Found 47 citekeys in bib section 0
-[392] Biber.pm:4340> INFO - Processing section 0
-[417] Biber.pm:4531> INFO - Looking for bibtex format file 'bachproef.bib' for section 0
-[422] bibtex.pm:1689> INFO - LaTeX decoding ...
-[526] bibtex.pm:1494> INFO - Found BibTeX data source 'bachproef.bib'
-[657] Utils.pm:384> WARN - legacy year field '{2020}' in entry 'Lissens2020' is not an integer - this will probably not sort properly.
-[3284] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[3294] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[3294] Biber.pm:4168> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[3294] Biber.pm:4174> INFO - No sort tailoring available for locale 'nl-NL'
-[3531] bbl.pm:654> INFO - Writing '../output/CluyseDylanBP.bbl' with encoding 'UTF-8'
-[3593] bbl.pm:757> INFO - Output to ../output/CluyseDylanBP.bbl
-[3594] Biber.pm:128> INFO - WARNINGS: 1
+[61] biber:340> INFO - === Sun Feb 19, 2023, 20:30:53
+[74] Biber.pm:415> INFO - Reading '../output/CluyseDylanBP.bcf'
+[167] Biber.pm:952> INFO - Found 51 citekeys in bib section 0
+[183] Biber.pm:4340> INFO - Processing section 0
+[193] Biber.pm:4531> INFO - Looking for bibtex format file 'bachproef.bib' for section 0
+[199] bibtex.pm:1689> INFO - LaTeX decoding ...
+[257] bibtex.pm:1494> INFO - Found BibTeX data source 'bachproef.bib'
+[295] Utils.pm:384> WARN - legacy year field '{2020}' in entry 'Lissens2020' is not an integer - this will probably not sort properly.
+[655] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[655] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[655] Biber.pm:4168> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[655] Biber.pm:4174> INFO - No sort tailoring available for locale 'nl-NL'
+[787] bbl.pm:654> INFO - Writing '../output/CluyseDylanBP.bbl' with encoding 'UTF-8'
+[818] bbl.pm:757> INFO - Output to ../output/CluyseDylanBP.bbl
+[818] Biber.pm:128> INFO - WARNINGS: 1

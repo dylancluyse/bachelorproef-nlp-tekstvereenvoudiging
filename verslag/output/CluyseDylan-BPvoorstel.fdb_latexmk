@@ -1,19 +1,19 @@
 # Fdb version 3
-["bibtex CluyseDylan-BPvoorstel"] 1676200634 "CluyseDylan-BPvoorstel.aux" "CluyseDylan-BPvoorstel.bbl" "CluyseDylan-BPvoorstel" 1676204847
-  "CluyseDylan-BPvoorstel.aux" 1676195823 8239 979013e9b02517af29400aa71c7e4d6e ""
+["bibtex CluyseDylan-BPvoorstel"] 1676804025 "CluyseDylan-BPvoorstel.aux" "CluyseDylan-BPvoorstel.bbl" "CluyseDylan-BPvoorstel" 1676804369
+  "CluyseDylan-BPvoorstel.aux" 1676724503 10851 57ebd4d1dd479b41d340f609ba19f672 ""
   (generated)
-  "CluyseDylan-BPvoorstel.bbl"
   "CluyseDylan-BPvoorstel.blg"
-["xdvipdfmx"] 1676200654 "../output/CluyseDylan-BPvoorstel.xdv" "../output/CluyseDylan-BPvoorstel.pdf" "../output/CluyseDylan-BPvoorstel" 1676204847
-  "../output/CluyseDylan-BPvoorstel.xdv" 1676200654 211660 2ad84ef9677dbf770a6ead3e444a8248 "xelatex"
+  "CluyseDylan-BPvoorstel.bbl"
+["xdvipdfmx"] 1676804037 "../output/CluyseDylan-BPvoorstel.xdv" "../output/CluyseDylan-BPvoorstel.pdf" "../output/CluyseDylan-BPvoorstel" 1676804369
+  "../output/CluyseDylan-BPvoorstel.xdv" 1676804037 200860 495ac6212f0650186c956374108ad335 "xelatex"
   (generated)
   "../output/CluyseDylan-BPvoorstel.pdf"
-["xelatex"] 1676200652 "./CluyseDylan-BPvoorstel.tex" "../output/CluyseDylan-BPvoorstel.xdv" "CluyseDylan-BPvoorstel" 1676204847
-  "../output/CluyseDylan-BPvoorstel.aux" 1676200654 4052 f0328c82e3c8ab7ace7af88b481ddfe6 "xelatex"
-  "../output/CluyseDylan-BPvoorstel.out" 1676200654 214 2852fb18221052cc705f20250bf6932c "xelatex"
-  "../output/CluyseDylan-BPvoorstel.run.xml" 1676200654 2514 79f7d5aaef6a3778333abb809988fd47 "xelatex"
-  "../output/CluyseDylan-BPvoorstel.toc" 1676200654 574 d9a504eca3bdeff994e57f68747d8a00 "xelatex"
-  "./CluyseDylan-BPvoorstel.tex" 1676195823 2900 0af09216328df5cedd9c43975b8eca0f ""
+["xelatex"] 1676804033 "./CluyseDylan-BPvoorstel.tex" "../output/CluyseDylan-BPvoorstel.xdv" "CluyseDylan-BPvoorstel" 1676804369
+  "../output/CluyseDylan-BPvoorstel.aux" 1676804037 5254 5a2b1310ec5c0f5aa7333a6eea6ddbcf "xelatex"
+  "../output/CluyseDylan-BPvoorstel.out" 1676804037 522 9de3e5ee96efb9397730ac4f8c1b86f8 "xelatex"
+  "../output/CluyseDylan-BPvoorstel.run.xml" 1676804037 2514 79f7d5aaef6a3778333abb809988fd47 "xelatex"
+  "../output/CluyseDylan-BPvoorstel.toc" 1676804037 1069 7414bc10a5744f5efc7adc72ac33a6cf "xelatex"
+  "./CluyseDylan-BPvoorstel.tex" 1676724503 3403 5b8bd6a7045e69192a882dc766db6900 ""
   "/etc/texmf/web2c/texmf.cnf" 1672154544 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -133,17 +133,17 @@
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1613593815 38841 799d1dd9682a55ce442e10c99777ecc1 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1613593815 38841 799d1dd9682a55ce442e10c99777ecc1 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1672154581 4241119 3c017769f502e2958d7936df0ca6e467 ""
-  "CluyseDylan-BPvoorstel.bbl" 1676200635 0 d41d8cd98f00b204e9800998ecf8427e "bibtex CluyseDylan-BPvoorstel"
-  "CluyseDylan-BPvoorstel.tex" 1676195823 2900 0af09216328df5cedd9c43975b8eca0f ""
+  "CluyseDylan-BPvoorstel.bbl" 1676804025 0 d41d8cd98f00b204e9800998ecf8427e "bibtex CluyseDylan-BPvoorstel"
+  "CluyseDylan-BPvoorstel.tex" 1676724503 3403 5b8bd6a7045e69192a882dc766db6900 ""
   "hogent-article.cls" 1675700765 13290 79b3ea90fa03b59a7b1c0fde81bdd6da ""
   "img//HOGENT_Logo_Pos_rgb.png" 1675700765 70624 2a3768fb14a71ce1a1b2815e9d5ef86c ""
   "img/Screenshot_302.png" 1675700765 35446 28c61794d1b370364aa3083860cb5ec4 ""
-  "voorstel-inhoud.tex" 1676195823 19678 9c308f2c889e06403539e032d000d67f ""
+  "voorstel-inhoud.tex" 1676724503 19867 f19ffe2690b40176134e83e105ce025a ""
   (generated)
-  "../output/CluyseDylan-BPvoorstel.aux"
   "../output/CluyseDylan-BPvoorstel.run.xml"
-  "../output/CluyseDylan-BPvoorstel.out"
   "../output/CluyseDylan-BPvoorstel.xdv"
   "../output/CluyseDylan-BPvoorstel.bcf"
-  "../output/CluyseDylan-BPvoorstel.toc"
   "../output/CluyseDylan-BPvoorstel.log"
+  "../output/CluyseDylan-BPvoorstel.out"
+  "../output/CluyseDylan-BPvoorstel.aux"
+  "../output/CluyseDylan-BPvoorstel.toc"

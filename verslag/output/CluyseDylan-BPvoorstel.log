@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  12 FEB 2023 11:17
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  19 FEB 2023 10:53
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1321,19 +1321,19 @@ LaTeX Info: Redefining \nameref on input line 37.
 \openout4 = `CluyseDylan-BPvoorstel.out'.
 
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 9.00096pt on input line 41.
+(Font)              scaled to size 9.00096pt on input line 46.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 41.
+(Font)              scaled to size 6.00064pt on input line 46.
 LaTeX Font Info:    Font shape `TU/FiraMath(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 41.
+(Font)              scaled to size 5.00053pt on input line 46.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 41.
+(Font)              scaled to size 8.99904pt on input line 46.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 41.
+(Font)              scaled to size 5.99936pt on input line 46.
 LaTeX Font Info:    Font shape `TU/FiraMath(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 41.
+(Font)              scaled to size 4.99947pt on input line 46.
 Package mdframed Info: mdframed inside a box 
- mdframed uses option nobreak mdframed on input line 41.
+ mdframed uses option nobreak mdframed on input line 46.
 
 (../output/CluyseDylan-BPvoorstel.toc)
 \tf@toc=\write5
@@ -1371,23 +1371,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
  []
 
 
-Overfull \hbox (3.58376pt too wide) in paragraph at lines 8--9
-\TU/Montserrat(2)/m/n/10 ([]). Het STEM-agenda[][][][][] van de Vlaamse
+LaTeX Warning: Citation 'Barnett2020' on page 1 undefined on input line 8.
+
+
+Overfull \hbox (0.8257pt too wide) in paragraph at lines 8--9
+[]\TU/Montserrat(2)/m/n/10 Het Vlaams middelbaar onderwijs staat op bar-
  []
 
 
-Overfull \hbox (3.05904pt too wide) in paragraph at lines 8--9
-\TU/Montserrat(2)/m/n/10 STEM-onderwijs tegen 2030 aantrekkelijker te ma-
+Overfull \hbox (14.20703pt too wide) in paragraph at lines 8--9
+\TU/Montserrat(2)/m/n/10 lieren, al hebben zij volgens [] dan moeite
  []
 
 
-Overfull \hbox (7.19789pt too wide) in paragraph at lines 10--11
-\TU/Montserrat(2)/m/n/10 tekstvereenvoudiging beoordeeld kan worden. Ten
+Overfull \hbox (0.68039pt too wide) in paragraph at lines 8--9
+\TU/Montserrat(2)/m/n/10 trekkelijker te maken, door de ondersteuning voor
  []
 
 
-Overfull \hbox (1.60902pt too wide) in paragraph at lines 10--11
-\TU/Montserrat(2)/m/n/10 slotte vergelijkt het onderzoek de vereenvoudigde
+Overfull \hbox (4.73573pt too wide) in paragraph at lines 10--11
+\TU/Montserrat(2)/m/n/10 dyslexie in de derde graad middelbaar onderwijs?”.
  []
 
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
@@ -1396,129 +1399,150 @@ File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 
 
 ]
-Overfull \hbox (5.60902pt too wide) in paragraph at lines 21--22
-\TU/Montserrat(2)/m/n/10 mentatie beschikbaar waar onderzoekers het voor-
+Overfull \hbox (3.7157pt too wide) in paragraph at lines 23--24
+\TU/Montserrat(2)/m/n/10 eenvoudiging komen niet in deze tools voor?” 
  []
 
 
-LaTeX Warning: Citation 'Siddharthan2014' on page 2 undefined on input line 23.
+LaTeX Warning: Citation 'Vasista2022' on page 2 undefined on input line 34.
+
+
+LaTeX Warning: Citation 'Gooding2022' on page 2 undefined on input line 34.
+
+
+LaTeX Warning: Citation 'Shardlow2014' on page 2 undefined on input line 36.
+
+
+LaTeX Warning: Citation 'Siddharthan2014' on page 2 undefined on input line 36.
 
 
 
-Overfull \hbox (1.73572pt too wide) in paragraph at lines 23--24
-\TU/Montserrat(2)/m/n/10 is om ingewikkelde bronnen toegankelijker te ma-
+LaTeX Warning: Citation 'Siddharthan2014' on page 2 undefined on input line 36.
+
+
+
+Overfull \hbox (3.4057pt too wide) in paragraph at lines 36--37
+[][] \TU/Montserrat(2)/m/n/10 haalt aan dat het algemene doel
  []
 
 
-LaTeX Warning: Citation 'Sciforce2020' on page 2 undefined on input line 25.
+Overfull \hbox (9.86905pt too wide) in paragraph at lines 36--37
+\TU/Montserrat(2)/m/n/10 van tekstvereenvoudiging is om ingewikkelde bron-
+ []
 
 
-LaTeX Warning: Citation 'Chowdhary2020' on page 2 undefined on input line 25.
+LaTeX Warning: Citation 'Chowdhary2020' on page 2 undefined on input line 38.
 
 
-Overfull \hbox (0.98901pt too wide) in paragraph at lines 25--26
+LaTeX Warning: Citation 'Sciforce2020' on page 2 undefined on input line 38.
+
+
+LaTeX Warning: Citation 'Chowdhary2020' on page 2 undefined on input line 38.
+
+
+Overfull \hbox (0.98901pt too wide) in paragraph at lines 38--39
 []\TU/Montserrat(2)/m/n/10 Tekstvereenvoudiging behoort tot de zijtak van
  []
 
 
-Overfull \hbox (5.72902pt too wide) in paragraph at lines 25--26
-[] \TU/Montserrat(2)/m/n/10 heeft deze vorm potentieel dank-
+Overfull \hbox (14.64815pt too wide) in paragraph at lines 38--39
+\TU/Montserrat(2)/m/n/10 eenvoudigen met NLP kan volgens []
  []
 
 
-LaTeX Warning: Citation 'Rello2012' on page 2 undefined on input line 28.
-
-
-LaTeX Warning: Citation 'Gala2016' on page 2 undefined on input line 30.
-
-
-LaTeX Warning: Citation 'Bingel2018' on page 2 undefined on input line 32.
-
-
-LaTeX Warning: Citation 'PlavenSigray2017' on page 2 undefined on input line 35
-.
-
-
-LaTeX Warning: Citation 'Barnett2020' on page 2 undefined on input line 35.
-
-
-LaTeX Warning: Citation 'Donato2022' on page 2 undefined on input line 35.
-
-
-Overfull \hbox (1.42235pt too wide) in paragraph at lines 35--36
-[][] \TU/Montserrat(2)/m/n/10 halen aan hoe onderzoekers
+Overfull \hbox (3.31905pt too wide) in paragraph at lines 38--39
+\TU/Montserrat(2)/m/n/10 een document de belangrijkste taalelementen om
  []
 
 
-LaTeX Warning: Citation 'Roldos2020' on page 2 undefined on input line 38.
+Overfull \hbox (8.65567pt too wide) in paragraph at lines 38--39
+\TU/Montserrat(2)/m/n/10 tekstvereenvoudiging komt volgens ([])
+ []
+
+
+Overfull \hbox (5.97969pt too wide) in paragraph at lines 40--40
+|[]\TU/Montserrat(0)/b/n/12 Noden van scholieren met dyslexie| 
+ []
+
+
+LaTeX Warning: Citation 'Gala2016' on page 2 undefined on input line 43.
+
+
+LaTeX Warning: Citation 'Rello2012' on page 2 undefined on input line 49.
+
+
+LaTeX Warning: Citation 'Bingel2018' on page 2 undefined on input line 49.
 
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
 [2]
 
-LaTeX Warning: Citation 'Sciforce2020' on page 3 undefined on input line 40.
+LaTeX Warning: Citation 'Roldos2020' on page 3 undefined on input line 52.
 
 
-Overfull \hbox (7.81287pt too wide) in paragraph at lines 43--44
-\TU/Montserrat(2)/m/n/10 naamste zijn SprintPlus[][][][][], Alinea[][][][][] en
- Kurzweil3000[][][][][].
+LaTeX Warning: Citation 'Sciforce2020' on page 3 undefined on input line 54.
+
+
+LaTeX Warning: Citation 'PlavenSigray2017' on page 3 undefined on input line 61
+.
+
+
+LaTeX Warning: Citation 'Barnett2020' on page 3 undefined on input line 61.
+
+
+LaTeX Warning: Citation 'Donato2022' on page 3 undefined on input line 61.
+
+
+LaTeX Warning: Citation 'Martens2021' on page 3 undefined on input line 65.
+
+
+LaTeX Warning: Citation 'Martens2021a' on page 3 undefined on input line 65.
+
+
+Overfull \hbox (12.95703pt too wide) in paragraph at lines 65--66
+\TU/Montserrat(2)/m/n/10 landen, maakt België het minst gebruik van leerling-
  []
 
 
-Overfull \hbox (5.49568pt too wide) in paragraph at lines 43--44
-\TU/Montserrat(2)/m/n/10 en luisterfuncties waarbij het samenvatten en mar-
+LaTeX Warning: Citation 'Verhoeven2023' on page 3 undefined on input line 67.
+
+
+LaTeX Warning: Citation 'Deckmyn2021' on page 3 undefined on input line 67.
+
+
+LaTeX Warning: Citation 'Thangarajah2019' on page 3 undefined on input line 76.
+
+
+
+LaTeX Warning: Citation 'Malik2022' on page 3 undefined on input line 76.
+
+
+LaTeX Warning: Citation 'Shardlow2014' on page 3 undefined on input line 76.
+
+
+Overfull \hbox (44.63716pt too wide) in paragraph at lines 76--77
+\TU/Montserrat(2)/m/it/10 Martin[][][][][] \TU/Montserrat(2)/m/n/10 bouwt verde
+r op het onderzoek van []
  []
 
 
-LaTeX Warning: Citation 'Verhoeven2023' on page 3 undefined on input line 45.
+LaTeX Warning: Citation 'Suter2016' on page 3 undefined on input line 78.
 
 
-Overfull \hbox (0.13878pt too wide) in paragraph at lines 45--46
-[]\TU/Montserrat(2)/m/n/10 ChatGPT[][][][][] van OpenAI is een \TU/Montserrat(2
-)/m/it/10 chatbot \TU/Montserrat(2)/m/n/10 gebouwd
- []
+LaTeX Warning: Citation 'Garbacea2021' on page 3 undefined on input line 80.
 
 
-LaTeX Warning: Citation 'Martens2021' on page 3 undefined on input line 47.
+LaTeX Warning: Citation 'Iavarone2021' on page 3 undefined on input line 80.
 
 
-LaTeX Warning: Citation 'Martens2021a' on page 3 undefined on input line 47.
+LaTeX Warning: Citation 'Garbacea2021' on page 3 undefined on input line 80.
 
 
-LaTeX Warning: Citation 'Thangarajah2019' on page 3 undefined on input line 50.
+LaTeX Warning: Citation 'Swayamdipta2019' on page 3 undefined on input line 82.
 
 
 
-LaTeX Warning: Citation 'Malik2022' on page 3 undefined on input line 50.
-
-
-Overfull \hbox (3.3557pt too wide) in paragraph at lines 50--51
-[] \TU/Montserrat(2)/m/n/10 haalt de twee meest voorkomende aan,
- []
-
-
-LaTeX Warning: Citation 'Shardlow2014' on page 3 undefined on input line 52.
-
-
-Overfull \hbox (5.25456pt too wide) in paragraph at lines 52--53
-\TU/Montserrat(2)/m/n/10 schillende fases. Het onderzoek van []
- []
-
-
-LaTeX Warning: Citation 'Garbacea2021' on page 3 undefined on input line 54.
-
-
-LaTeX Warning: Citation 'Iavarone2021' on page 3 undefined on input line 54.
-
-
-LaTeX Warning: Citation 'Garbacea2021' on page 3 undefined on input line 54.
-
-
-LaTeX Warning: Citation 'Swayamdipta2019' on page 3 undefined on input line 56.
-
-
-
-LaTeX Warning: Citation 'Readable2021' on page 3 undefined on input line 56.
+LaTeX Warning: Citation 'Readable2021' on page 3 undefined on input line 82.
 
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
@@ -1527,48 +1551,48 @@ File: img/Screenshot_302.png Graphic file (type bmp)
 <img/Screenshot_302.png>
 
 
-LaTeX Warning: Citation 'Readable2021' on page 4 undefined on input line 60.
+LaTeX Warning: Citation 'Readable2021' on page 4 undefined on input line 86.
 
 
-Overfull \hbox (3.63904pt too wide) in paragraph at lines 73--74
+Overfull \hbox (3.73569pt too wide) in paragraph at lines 92--93
+\TU/Montserrat(2)/m/n/10 toepassingen automatisch een wetenschappelijke
+ []
+
+
+Overfull \hbox (3.63904pt too wide) in paragraph at lines 94--95
 \TU/Montserrat(2)/m/n/10 delen van tekstvereenvoudiging bij scholieren met
  []
 
 
-Overfull \hbox (0.1857pt too wide) in paragraph at lines 83--84
-\TU/Montserrat(2)/m/n/10 stinhoud van wetenschappelijke papers die in een
+Overfull \hbox (10.80905pt too wide) in paragraph at lines 98--99
+\TU/Montserrat(2)/m/n/10 opgesteld van beschikbare toepassingen voor tekst-
  []
 
 
-Overfull \hbox (31.63123pt too wide) in paragraph at lines 89--90
-\TU/Montserrat(2)/m/n/10 uitdagingen. Bestaande internationale AI-toepassingen
+Overfull \hbox (5.10457pt too wide) in paragraph at lines 98--99
+\TU/Montserrat(2)/m/n/10 vereenvoudiging in het middelbaar onderwijs. Met
  []
 
 
-Underfull \hbox (badness 1062) in paragraph at lines 89--90
-\TU/Montserrat(2)/m/n/10 bieden een gelijkwaardige oplossing, al steekt
+Overfull \hbox (4.92569pt too wide) in paragraph at lines 116--117
+\TU/Montserrat(2)/m/n/10 lossingen voor tekstvereenvoudiging onvoldoende
  []
 
 )
-File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
-<img//HOGENT_Logo_Pos_rgb.png>
- [4]
 
-LaTeX Warning: Empty bibliography on input line 47.
+LaTeX Warning: Empty bibliography on input line 54.
 
 
 AED: lastpage setting LastPage
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
-[5
-
-] (../output/CluyseDylan-BPvoorstel.aux)
+[4] (../output/CluyseDylan-BPvoorstel.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `CluyseDylan-BPvoorstel.out' has not changed.
 
-(rerunfilecheck)             Checksum: 2852FB18221052CC705F20250BF6932C;214.
+(rerunfilecheck)             Checksum: 9DE3E5EE96EFB9397730AC4F8C1B86F8;522.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                CluyseDylan-BPvoorstel
@@ -1579,13 +1603,13 @@ Package logreq Info: Writing requests to 'CluyseDylan-BPvoorstel.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26749 strings out of 478657
- 485860 string characters out of 5861312
- 1466445 words of memory out of 5000000
- 45980 multiletter control sequences out of 15000+600000
- 407680 words of font info for 104 fonts, out of 8000000 for 9000
+ 26765 strings out of 478657
+ 486129 string characters out of 5861312
+ 1467437 words of memory out of 5000000
+ 45995 multiletter control sequences out of 15000+600000
+ 407688 words of font info for 105 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
- 112i,11n,130p,1654b,3758s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 112i,11n,130p,1432b,3758s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../output/CluyseDylan-BPvoorstel.xdv (5 pages, 211660 bytes).
+Output written on ../output/CluyseDylan-BPvoorstel.xdv (4 pages, 200860 bytes).
 
