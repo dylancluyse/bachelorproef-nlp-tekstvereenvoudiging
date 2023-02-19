@@ -73,6 +73,35 @@
       \range{pages}{-1}
       \keyw{meta-research,scientific writing,acronyms,communication,knowledge,scientific publishing}
     \endentry
+    \entry{Bilisci2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6ed06f67f851532501599dd31ff5adbf}{%
+           family={Bilici},
+           familyi={B\bibinitperiod},
+           given={Şafak},
+           giveni={Ş\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Artiwise NLP}%
+      }
+      \strng{namehash}{6ed06f67f851532501599dd31ff5adbf}
+      \strng{fullhash}{6ed06f67f851532501599dd31ff5adbf}
+      \strng{bibnamehash}{6ed06f67f851532501599dd31ff5adbf}
+      \strng{authorbibnamehash}{6ed06f67f851532501599dd31ff5adbf}
+      \strng{authornamehash}{6ed06f67f851532501599dd31ff5adbf}
+      \strng{authorfullhash}{6ed06f67f851532501599dd31ff5adbf}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medium}
+      \field{title}{Sequence labeling}
+      \field{year}{2021}
+    \endentry
     \entry{Bingel2018}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=30664427b42981e3ff578e2712ef4b22}{%
@@ -115,7 +144,6 @@
       \field{labeltitlesource}{title}
       \field{abstract}{Most previous research in text simplification has aimed to develop generic solutions, assuming very homogeneous target audiences with consistent intra-group simplification needs. We argue that this assumption does not hold, and that instead we need to develop simplification systems that adapt to the individual needs of specific users. As a first step towards personalized simplification, we propose a framework for adaptive lexical simplification and introduce Lexi, a free open-source and easily extensible tool for adaptive, personalized text simplification. Lexi is easily installed as a browser extension, enabling easy access to the service for its users.}
       \field{journaltitle}{Proceedings of the 27th International Conference on Computational Linguistics}
-      \field{month}{8}
       \field{title}{{L}exi: A tool for adaptive, personalized text simplification}
       \field{year}{2018}
       \field{dateera}{ce}
@@ -310,7 +338,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the Workshop on Monolingual Text-To-Text Generation}
-      \field{month}{6}
       \field{title}{Learning to Simplify Sentences Using {W}ikipedia}
       \field{year}{2011}
       \field{pages}{1\bibrangedash 9}
@@ -587,65 +614,6 @@
       \verb https://books.google.be/books?id=72yuDwAAQBAJ
       \endverb
     \endentry
-    \entry{Wafaa2021}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=ea1c905d8bf36e913507bf30a4c30d0e}{%
-           family={El-Kassas},
-           familyi={E\bibinithyphendelim K\bibinitperiod},
-           given={Wafaa\bibnamedelima S.},
-           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=454314f79cbfef64d19c45470581a04a}{%
-           family={Salama},
-           familyi={S\bibinitperiod},
-           given={Cherif\bibnamedelima R.},
-           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=081e28dc38e938f4d9ff705722db13ce}{%
-           family={Rafea},
-           familyi={R\bibinitperiod},
-           given={Ahmed\bibnamedelima A.},
-           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2e56016486cfad9ce3fe323e25b5d95f}{%
-           family={Mohamed},
-           familyi={M\bibinitperiod},
-           given={Hoda\bibnamedelima K.},
-           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{28f89422156ad06d1dd8f16c626f578a}
-      \strng{fullhash}{99e9e1ba192957edcc2f310a9478eb42}
-      \strng{bibnamehash}{99e9e1ba192957edcc2f310a9478eb42}
-      \strng{authorbibnamehash}{99e9e1ba192957edcc2f310a9478eb42}
-      \strng{authornamehash}{28f89422156ad06d1dd8f16c626f578a}
-      \strng{authorfullhash}{99e9e1ba192957edcc2f310a9478eb42}
-      \field{sortinit}{E}
-      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Automatic Text Summarization (ATS) is becoming much more important because of the huge amount of textual content that grows exponentially on the Internet and the various archives of news articles, scientific papers, legal documents, etc. Manual text summarization consumes a lot of time, effort, cost, and even becomes impractical with the gigantic amount of textual content. Researchers have been trying to improve ATS techniques since the 1950s. ATS approaches are either extractive, abstractive, or hybrid. The extractive approach selects the most important sentences in the input document(s) then concatenates them to form the summary. The abstractive approach represents the input document(s) in an intermediate representation then generates the summary with sentences that are different than the original sentences. The hybrid approach combines both the extractive and abstractive approaches. Despite all the proposed methods, the generated summaries are still far away from the human-generated summaries. Most researches focus on the extractive approach. It is required to focus more on the abstractive and hybrid approaches. This research provides a comprehensive survey for the researchers by presenting the different aspects of ATS: approaches, methods, building blocks, techniques, datasets, evaluation methods, and future research directions.}
-      \field{issn}{0957-4174}
-      \field{journaltitle}{Expert Systems with Applications}
-      \field{title}{Automatic text summarization: A comprehensive survey}
-      \field{volume}{165}
-      \field{year}{2021}
-      \field{pages}{113679}
-      \range{pages}{1}
-      \verb{doi}
-      \verb https://doi.org/10.1016/j.eswa.2020.113679
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0957417420305030
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0957417420305030
-      \endverb
-      \keyw{Automatic text summarization,Text summarization approaches,Text summarization techniques,Text summarization evaluation}
-    \endentry
     \entry{Gala2016}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=2d6c91557f3b168f0a6f4351a0c4e095}{%
@@ -682,7 +650,6 @@
       \field{labeltitlesource}{title}
       \field{abstract}{Lexical complexity plays a central role in readability, particularly for dyslexic children and poor readers because of their slow and laborious decoding and word recognition skills. Although some features to aid readability may be common to most languages (e.g., the majority of {`}easy{'} words are of low frequency), we believe that lexical complexity is mainly language-specific. In this paper, we define lexical complexity for French and we present a pilot study on the effects of text simplification in dyslexic children. The participants were asked to read out loud original and manually simplified versions of a standardized French text corpus and to answer comprehension questions after reading each text. The analysis of the results shows that the simplifications performed were beneficial in terms of reading speed and they reduced the number of reading errors (mainly lexical ones) without a loss in comprehension. Although the number of participants in this study was rather small (N=10), the results are promising and contribute to the development of applications in computational linguistics.}
       \field{journaltitle}{Proceedings of the Workshop on Computational Linguistics for Linguistic Complexity ({CL}4{LC})}
-      \field{month}{12}
       \field{title}{Reducing lexical complexity as a tool to increase text accessibility for children with dyslexia}
       \field{year}{2016}
       \field{dateera}{ce}
@@ -908,7 +875,6 @@
       \field{labeltitlesource}{title}
       \field{abstract}{We study the influence of context on how humans evaluate the complexity of a sentence in English. We collect a new dataset of sentences, where each sentence is rated for perceived complexity within different contextual windows. We carry out an in-depth analysis to detect which linguistic features correlate more with complexity judgments and with the degree of agreement among annotators. We train several regression models, using either explicit linguistic features or contextualized word embeddings, to predict the mean complexity values assigned to sentences in the different contextual windows, as well as their standard deviation. Results show that models leveraging explicit features capturing morphosyntactic and syntactic phenomena perform always better, especially when they have access to features extracted from all contextual sentences.}
       \field{journaltitle}{Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics}
-      \field{month}{6}
       \field{title}{Sentence Complexity in Context}
       \field{year}{2021}
       \field{pages}{186\bibrangedash 199}
@@ -921,6 +887,59 @@
       \endverb
       \verb{url}
       \verb https://aclanthology.org/2021.cmcl-1.23
+      \endverb
+    \endentry
+    \entry{Jurafsky2014}{book}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a738d2b067b10056a964d6114b69b2f9}{%
+           family={Jurafsky},
+           familyi={J\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b69f16750e1f373654cab08afa9fa64f}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={J.H.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3b036468531df77415a71361fc4468a9}{%
+           family={Norvig},
+           familyi={N\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c451164a0a4a9471276b7e4fb5a8cbd6}{%
+           family={Russell},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Education}%
+      }
+      \strng{namehash}{87f69543d900d6908eff940c6a5f6219}
+      \strng{fullhash}{a0fdd6138ddee42b3b749994276ed637}
+      \strng{bibnamehash}{a0fdd6138ddee42b3b749994276ed637}
+      \strng{authorbibnamehash}{a0fdd6138ddee42b3b749994276ed637}
+      \strng{authornamehash}{87f69543d900d6908eff940c6a5f6219}
+      \strng{authorfullhash}{a0fdd6138ddee42b3b749994276ed637}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780133252934}
+      \field{title}{Speech and Language Processing}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://books.google.be/books?id=Cq2gBwAAQBAJ
+      \endverb
+      \verb{url}
+      \verb https://books.google.be/books?id=Cq2gBwAAQBAJ
       \endverb
     \endentry
     \entry{Kandula2010}{article}{}
@@ -966,6 +985,53 @@
       \field{year}{2010}
       \field{pages}{366}
       \range{pages}{1}
+    \endentry
+    \entry{Li2018}{misc}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=bcdd73174e26b44169c10e9083e72469}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b562490f05b03da5ef1aca562e8b589}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Aixin},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06eef6f527a582806a78aaff94f5b2c6}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Jianglei},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc90189e403c903655a1cbc1af93456b}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Chenliang},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{0797a8fa4ff947089a1c0b1996838ed7}
+      \strng{fullhash}{b87de2f35a7b2d102447375b42b5473a}
+      \strng{bibnamehash}{b87de2f35a7b2d102447375b42b5473a}
+      \strng{authorbibnamehash}{b87de2f35a7b2d102447375b42b5473a}
+      \strng{authornamehash}{0797a8fa4ff947089a1c0b1996838ed7}
+      \strng{authorfullhash}{b87de2f35a7b2d102447375b42b5473a}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Survey on Deep Learning for Named Entity Recognition}
+      \field{year}{2018}
+      \keyw{Computation and Language (cs.CL),FOS: Computer and information sciences,FOS: Computer and information sciences}
     \endentry
     \entry{Lissens2020}{article}{}
       \name{author}{1}{}{%
@@ -1612,7 +1678,6 @@
       \field{labeltitlesource}{title}
       \field{abstract}{Syntactic simplification is the process of reducing the grammatical complexity of a text, while retaining its information content and meaning. The aim of syntactic simplification is to make text easier to comprehend for human readers, or process by programs. In this paper, we formalise the interactions that take place between syntax and discourse during the simplification process. This is important because the usefulness of syntactic simplification in making a text accessible to a wider audience can be undermined if the rewritten text lacks cohesion. We describe how various generation issues like sentence ordering, cue-word selection, referring-expression generation, determiner choice and pronominal use can be resolved so as to preserve conjunctive and anaphoric cohesive relations during syntactic simplification and present the results of an evaluation of our syntactic simplification system.}
       \field{journaltitle}{Research on Language and Computation}
-      \field{month}{6}
       \field{number}{1}
       \field{title}{Syntactic Simplification and Text Cohesion}
       \field{volume}{4}

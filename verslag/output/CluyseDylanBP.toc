@@ -21,77 +21,79 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Sequence Labeling}{6}{subsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}De verschillende soorten tekstvereenvoudiging}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.2}De verschillende soorten tekstvereenvoudiging}{7}{section.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.1}Lexicale vereenvoudiging}{6}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.1}Lexicale vereenvoudiging}{7}{subsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.2}Syntactische vereenvoudiging}{7}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.2}Syntactische vereenvoudiging}{8}{subsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.3}Conceptuele vereenvoudiging}{8}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.3}Conceptuele of semantische vereenvoudiging}{9}{subsection.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.4}Semantische vereenvoudiging}{8}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.4}Semantische vereenvoudiging}{9}{subsection.2.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.5}Tekstvereenvoudiging automatiseren}{8}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.5}Tekstvereenvoudiging automatiseren}{9}{subsection.2.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.6}Combineren tot het geheel van tekstvereenvoudiging}{8}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.6}Combineren tot het geheel van tekstvereenvoudiging}{9}{subsection.2.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2.7}Samenvatten}{9}{subsection.2.2.7}%
+\contentsline {subsection}{\numberline {2.2.7}Samenvatten}{10}{subsection.2.2.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Voordelen van tekstvereenvoudiging}{10}{section.2.3}%
+\contentsline {subsection}{\numberline {2.2.8}Conclusie}{12}{subsection.2.2.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Struikelblokken}{10}{section.2.4}%
+\contentsline {section}{\numberline {2.3}Voordelen van tekstvereenvoudiging}{12}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Evaluatie van de toepassing}{10}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.4}Struikelblokken}{12}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Datasets}{10}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.1}Evaluatie van de toepassing}{12}{subsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.3}Meaning distortion}{10}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.2}Datasets}{12}{subsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.4}Word Ambiguity}{10}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.3}Meaning distortion}{12}{subsection.2.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.5}Paternalisme}{10}{subsection.2.4.5}%
+\contentsline {subsection}{\numberline {2.4.4}Word Ambiguity}{12}{subsection.2.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.6}Problemen bij lexicale vereenvoudiging}{11}{subsection.2.4.6}%
+\contentsline {subsection}{\numberline {2.4.5}Paternalisme}{12}{subsection.2.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.7}Problemen bij syntactische vereenvoudiging}{11}{subsection.2.4.7}%
+\contentsline {subsection}{\numberline {2.4.6}Problemen bij lexicale vereenvoudiging}{13}{subsection.2.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Beschikbare software voor tekstvereenvoudiging}{11}{section.2.5}%
+\contentsline {subsection}{\numberline {2.4.7}Problemen bij syntactische vereenvoudiging}{13}{subsection.2.4.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}Toepassingen nu in het onderwijs beschikbaar}{11}{subsection.2.5.1}%
+\contentsline {section}{\numberline {2.5}Beschikbare software voor tekstvereenvoudiging}{13}{section.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.2}Online toepassingen}{11}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.1}Toepassingen nu in het onderwijs beschikbaar}{13}{subsection.2.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Pipeline voor tekstvereenvoudiging}{11}{section.2.6}%
+\contentsline {subsection}{\numberline {2.5.2}Online toepassingen}{13}{subsection.2.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.1}Lexicale vereenvoudiging}{11}{subsection.2.6.1}%
+\contentsline {section}{\numberline {2.6}Prototype voor tekstvereenvoudiging}{13}{section.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.2}Syntactische vereenvoudiging}{11}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.1}Lexicale vereenvoudiging}{13}{subsection.2.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6.3}Samenvatten}{11}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.2}Syntactische vereenvoudiging}{13}{subsection.2.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Evaluatiemetrieken}{11}{section.2.7}%
+\contentsline {subsection}{\numberline {2.6.3}Samenvatten}{13}{subsection.2.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Methodologie}{12}{chapter.3}%
+\contentsline {section}{\numberline {2.7}Evaluatiemetrieken}{13}{section.2.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusie}{14}{chapter.4}%
+\contentsline {chapter}{\numberline {3}Methodologie}{14}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{16}{appendix.A}%
+\contentsline {chapter}{\numberline {4}Conclusie}{16}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{17}{section.A.1}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{18}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{18}{section.A.2}%
+\contentsline {section}{\numberline {A.1}Introductie}{19}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Tekstvereenvoudiging}{18}{subsection.A.2.1}%
+\contentsline {section}{\numberline {A.2}State-of-the-art}{20}{section.A.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Noden van scholieren met dyslexie}{19}{subsection.A.2.2}%
+\contentsline {subsection}{\numberline {A.2.1}Tekstvereenvoudiging}{20}{subsection.A.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Huidige toepassingen}{20}{subsection.A.2.3}%
+\contentsline {subsection}{\numberline {A.2.2}Noden van scholieren met dyslexie}{21}{subsection.A.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.4}Ontwikkelen met AI}{20}{subsection.A.2.4}%
+\contentsline {subsection}{\numberline {A.2.3}Huidige toepassingen}{22}{subsection.A.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{21}{section.A.3}%
+\contentsline {subsection}{\numberline {A.2.4}Ontwikkelen met AI}{22}{subsection.A.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{23}{section.A.4}%
+\contentsline {section}{\numberline {A.3}Methodologie}{23}{section.A.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{24}{appendix*.7}%
+\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{25}{section.A.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{26}{appendix*.9}%
 \contentsfinish 

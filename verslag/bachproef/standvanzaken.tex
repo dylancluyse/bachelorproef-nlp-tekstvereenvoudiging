@@ -3,11 +3,11 @@
 
 \section{Tekstvereenvoudiging}
 
-Tekstvereenvoudiging is het proces waarin het technisch leesniveau en/of woordgebruik van een geschreven tekst wordt verminderd. Belangrijk hierbij is dat de vereenvoudiging geen effect mag hebben op de kerninhoud. Een complete vereenvoudiging van een tekst bestaat uit minstens drie transformaties \autocite{Siddharthan2014}. Daarnaast is tekstvereenvoudiging een taalbewerking dat geautomatiseerd kan worden. Tekstvereenvoudiging is namelijk een zijtak van natuurlijke taalverwerking.
+Tekstvereenvoudiging is het proces waarin het technisch leesniveau en/of woordgebruik van een geschreven tekst wordt verminderd. Zo mag de vereenvoudiging geen invloed hebben op de betekenis van de kerninhoud. Het langlopende onderzoek van Advaith Siddharthan is met meer dan 140 citaties een goed vertrekpunt voor dit onderzoek. Volgens \autocite{Siddharthan2014} bestaat een complete vereenvoudiging van een tekst uit precies vier transformaties. Binnen machine learning is tekstvereenvoudiging een zijtak van natuurlijke taalverwerking. % Daarnaast is tekstvereenvoudiging een taalbewerking dat geautomatiseerd kan worden.
 
 \subsection{Natural Language Processing}
 
-Natuurlijke taalverwerking of NLP is een brede term die zich richt op het verwerken en analyseren van menselijke taal door computers en andere technologieën. Het omvat verschillende technieken, zoals tekstanalyse, taalherkenning en -generatie, spraakherkenning en -synthese, en semantische analyse. Computers zijn ertoe in staat om op een menselijke manier te communiceren en begrijpen wat er wordt gezegd. Vooraleer het onderzoek zich verdiept in hoe teksten worden vereenvoudigd, moeten er eerst begrippen worden aangehaald die noodzakelijk zijn om de volgende fasen te kunnen uitleggen. \textcite{Sohom2019} haalt de volgende begrippen aan.
+Natuurlijke taalverwerking of NLP is een brede term die zich richt op het verwerken en analyseren van menselijke taal door computers en andere technologieën. Het omvat verschillende technieken, zoals tekstanalyse, taalherkenning en -generatie, spraakherkenning en -synthese, en semantische analyse. Computers zijn ertoe in staat om op een menselijke manier te communiceren en begrijpen wat er wordt gezegd. Voordat het onderzoek zich verdiept in hoe teksten worden vereenvoudigd, moeten er eerst begrippen worden aangehaald die noodzakelijk zijn om de volgende fasen te kunnen uitleggen. \textcite{Sohom2019} haalt de volgende begrippen aan.
 
 \begin{itemize}
 	\item \textbf{Tokenisatie} splitst de stam of basisvorm van woorden in een tekst. Gebruikelijk zetten ontwikkelaars deze stap in om een woordenschat voor een taalmodel op te bouwen. Bij tokenisatie wordt er geen rekening gehouden met de betekenis achter ieder woord.
@@ -17,7 +17,36 @@ Natuurlijke taalverwerking of NLP is een brede term die zich richt op het verwer
 
 \subsubsection{Sequence Labeling}
 
-Volgens \textcite{Eisenstein2019} is \textit{sequence labeling} essentieel tot het achterhalen van de structuur van een tekst met \textit{supervised learning}. Elk woord in een tekst of zin wordt geclassificeerd met behulp van specifieke labels, zoals bijvoorbeeld een Part of Speech (PoS) label of een Named Entity Recognition label. De structuur van de tekst wordt achterhaald en informatie en patronen kunnen uit de tekst worden gehaald. 
+
+Volgens \textcite{Eisenstein2019} is \textit{sequence labeling} essentieel tot het achterhalen van de structuur van een tekst met \textit{supervised learning}. Elk woord in een tekst of zin wordt geclassificeerd met behulp van specifieke labels, zoals bijvoorbeeld een Part of Speech (PoS) label of een Named Entity Recognition (NER) label. De structuur van de tekst wordt achterhaald en informatie en patronen kunnen uit de tekst worden gehaald. \textcite{Jurafsky2014} haalt PoS- en NER-labeling verder aan in hun boek. Terwijl POS-tagging zich richt op grammaticale categorieën van woorden, richt NER-labeling zich op het identificeren van specifieke entiteiten in tekst. 
+
+\begin{itemize}
+	\item Bij \textbf{POS-tagging} worden de woorden in een zin geanalyseerd en krijgt elk woord een grammaticale categorie of een deel van de rede toegewezen, zoals zelfstandig naamwoord, werkwoord, bijvoeglijk naamwoord of bijwoord. POS-tagging helpt volgens \textcite{Jurafsky2014} bij het identificeren van de syntactische structuur van een zin. Dit is volgens de onderzoeker handig voor taken zoals parsing en machinevertaling. Dit wordt aanschouwelijk gemaakt op \ref{fig:pos}
+	\item Aan de andere kant houdt \textbf{NER-labeling} zich bezig met het herkennen en classificeren van \textit{named entities} in een zin, zoals namen van personen, organisaties, locaties, data, enzovoort. NER-labeling wordt volgens \textcite{Jurafsky2014} gebruikt om specifieke informatie uit tekst te halen, zoals het identificeren van de namen van personen, plaatsen of bedrijven die in nieuwsartikelen worden genoemd, of het extraheren van belangrijke data of getallen uit financiële rapporten. Dit wordt aanschouwelijk gemaakt \ref{fig:ner}. \textcite{Li2018} haalt vier technieken aan waarop NER-labeling kan gebeuren:
+	\begin{itemize}
+		\item \textit{Dictionary-based} systemen waarbij een dictionary een verzameling van de woordenschat bijhoudt. Hierop wordt \textit{basic string matching} toegepast.
+		\item \textit{Rule-based} systemen met een vooraf gekregen verzameling van regels voor het ophalen van informatie. Het toewijzen gebeurt met patronen, of met de context van een woord.
+		\item \textit{ML-based} modellen trainen eerst op geannoteerde tekstdocumenten, vervolgens gebruikt het getrainede model deze annotaties.
+		\item \textit{Deep-learning} of DL-modellen mappen de invoerdata aan een niet-lineaire representatie. De complexe modellen maken het mogelijk om niet voor de hand liggende relaties uit te pluizen, wat het de sterkste van de vier opties maakt.
+	\end{itemize}
+	Daarnaast haalt \textcite{Li2018} modellen aan om een pipeline voor NER-labeling mogelijk te maken. Spacy heeft deze functie ingebouwd. Standford NER tagger is een tool die samen met het NLTK-pakket werkt.
+\end{itemize}
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=10cm]{img/poslabeling.png}
+	\end{center}
+	\caption{Voorbeeld van PoS-labeling op de Engelstalige zin "She sells seashells on the seashore". Afbeelding van \textcite{Bilisci2021} }
+	\label{fig:pos}
+\end{figure}
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=10cm]{img/nerlabeling.jpg}
+	\end{center}
+	\caption{Voorbeeld van sequence labeling op de Engelstalige zin "She sells seashells on the seashore". Afbeelding van \textcite{Bilisci2021} }
+	\label{fig:ner}
+\end{figure}
 
 \section{De verschillende soorten tekstvereenvoudiging}
 
@@ -41,33 +70,30 @@ In de medische sector haalt \textcite{Kandula2010} twee manieren aan om lexicale
 
 Syntactische vereenvoudiging transformeert de grammatica en zinsstructuur van een tekst om de complexiteit van een zin te verlagen. Bijvoorbeeld, twee afzonderlijke zinnen kunnen worden samengevoegd tot één eenvoudigere zin. Syntactische vereenvoudiging richt zich op het verminderen van complexe of onduidelijke zinsconstructies, terwijl de inhoud en betekenis van de tekst behouden blijft. Dergelijke transformaties zijn het vereenvoudigen van de syntax of door de zinnen korter te maken. Zinnen worden toegankelijker, zonder de kerninhoud of relevante inhoud te verliezen.
 
-Het vereenvoudigen van medische journalen wordt besproken in het onderzoek van \textcite{Kandula2010}. Zij ontwikkelden een toepassing om medische informatie te vereenvoudigen met beschikbare biomedische bronnen, door syntactische vereenvoudiging op zinniveau toe te passen. Zinnen met meer dan 10 woorden worden als complex beschouwd en worden verwerkt door drie modules. Op het einde van deze vereenvoudiging kan de oorspronkelijke zin ongewijzigd worden behouden of vervangen worden door twee of meer kortere zinnen. De architectuur van het model omvat drie onderdelen: een \textit{Part of Speech (PoS) Tagger}, een \textit{Grammar Simplifier} en een \textit{Output Validator}.
-
+Het vereenvoudigen van medische journalen wordt besproken in het onderzoek van \textcite{Kandula2010}. Zij ontwikkelden een toepassing om medische informatie te vereenvoudigen met beschikbare biomedische bronnen, door syntactische vereenvoudiging op zinniveau toe te passen. Zinnen met meer dan 10 woorden worden als complex beschouwd en worden verwerkt door drie modules. Op het einde van deze vereenvoudiging kan de oorspronkelijke zin ongewijzigd worden behouden of vervangen worden door twee of meer kortere zinnen. De architectuur van het model omvat drie onderdelen: een \textit{Part of Speech (PoS) Tagger}, een \textit{Grammar Simplifier} en een \textit{Output Validator}. 
 \begin{itemize}
-	\item Voor de \textit{PoS Tagger}-fase gebruikten de onderzoekers beschikbare functies uit het open-source pakket OpenNLP\footnote{https://opennlp.apache.org/}.
+	\item Voor de \textit{PoS Tagger}-fase gebruikten \textcite{Kandula2010} beschikbare functies uit het open-source pakket OpenNLP\footnote{https://opennlp.apache.org/}.
 	\item De \textit{Grammar Simplifier} module splitst de lange zin in twee of meer kortere zinnen door POS-patronen te identificeren en een set transformatieregels toe te passen.
 	\item De \textit{Output Validator} module controleert de output van de Grammar Simplifier op grammatica en leesbaarheid. Er zijn drie condities:
-	\begin{itemize}
-		\item 
-	\end{itemize}
 \end{itemize}  
 
 % De toepassing werd getest met vier leesbaarheidsmetrieken en een "cloze"-test op verschillende soorten medische documenten, en liet verbeteringen zien in alle metingen. De verbeteringen waren echter relatief klein en er is meer uitgebreide gebruikerstesten nodig voor een betere validatie van het hulpmiddel. De resultaten lieten zien dat het hulpmiddel verbeterd was ten opzichte van eerdere versies. Er is verder werk nodig om de cohesiemeting te verbeteren en de methode voor het genereren van uitleg, waaronder het identificeren van geschikte verbindingswoorden en bronnen voor het genereren van betekenisvolle uitleg.
 
-\subsection{Conceptuele vereenvoudiging}
+% todo probleemstelling van lexicaal vereenvoudigen
+
+\subsection{Conceptuele of semantische vereenvoudiging}
 
 Conceptuele vereenvoudiging lost dit probleem op. Theoretische kennis hierover is schaars, maar \textcite{Siddharthan2006} bestudeerde dit concept verder. Dit type vereenvoudiging betreft het opdelen van complexe concepten in eenvoudigere delen, het gebruik van duidelijke en bondige taal en het vermijden van technische jargon en abstracte uitdrukkingen. Het doel is om de inhoud begrijpelijker te maken, zonder dat hierbij de betekenis of nauwkeurigheid wordt aangetast. \textcite{Siddharthan2006} noemt deze transformatie een vorm van elaboratie of het uiteenzetten van een begrip.
 
 \subsection{Semantische vereenvoudiging}
 
+Semantisch vereenvoudigen is volgens \textcite{Siddharthan2006} de inhoud of betekenis van een tekst aanpassen om het begrijpelijker te maken voor een doelgroep. Zo wordt er meer uitleg of voorbeelden gegeven, of dat niet-relevante delen van de tekst worden weggelaten. 
 
 \subsection{Tekstvereenvoudiging automatiseren}
 
-Geautomatiseerde tekstvereenvoudiging is niets nieuws. Volgens het onderzoek van \textcite{Canning2000} en \textcite{Siddharthan2006} waren de eerste aanpakken op geautomatiseerde tekstvereenvoudiging gebouwd op rule-based modellen. Deze modellen bewerken de syntax door zinnen te splitsen, te verwijderen of de volgorde van de zinnen in een tekst aan te passen. Lexicale vereenvoudiging kwam hier niet aan de pas. Enkel bij recentere onderzoeken van \textcite{Coster2011} en \textcite{Bulte2018} werd het duidelijk hoe lexicale en syntactische vereenvoudiging gecombineerd kon worden.
+Geautomatiseerde tekstvereenvoudiging is geen nieuw concept. Volgens onderzoeken van \textcite{Canning2000, Siddharthan2006} waren de eerste aanpakken op geautomatiseerde tekstvereenvoudiging gebouwd op rule-based modellen. Deze modellen bewerken de syntax door zinnen te splitsen, te verwijderen of de volgorde van de zinnen in een tekst aan te passen. Lexicale vereenvoudiging kwam hier niet aan de pas. Enkel bij recentere onderzoeken van \textcite{Coster2011, Bulte2018} werd het duidelijk hoe lexicale en syntactische vereenvoudiging gecombineerd kon worden.
 
 \subsection{Combineren tot het geheel van tekstvereenvoudiging}
-
-% Tekstvereenvoudiging omvat drie transformaties. 
 
 Het onderzoek van \textcite{DeBelder2010} richt zich op tekstvereenvoudiging voor kinderen. De doelgroep ligt echter jonger dan deze casus, maar het onderzoek haalt aan hoe de onderzoekers een methode opzetten voor lexicale en syntactische vereenvoudiging.
 
@@ -75,26 +101,62 @@ Een onderzoek van \textcite{Bulte2018} ging met dit concept aan de slag. Het res
 
 \subsection{Samenvatten}
 
-Lexicale, conceptuele en syntactische vereenvoudiging is er geen garantie dat de tekstinhoud korter zal worden. Een langer woord is volgens ... geen indicatief op een complexer woord, zeker wanneer het woord te maken heeft met de opeenvolging van medeklinkers en klinkers.
+% Probleem met de voorbije fasen
 
-\textcite{Wafaa2021} deed verder onderzoek op geautomatiseerd samenvatten. Zo zijn er twee verschillende soorten summarization. 
+Teksten vereenvoudigen met lexicale, conceptuele en/of syntactische vereenvoudiging biedt geen garantie dat de tekstinhoud korter zal worden. Bij deze drie soorten wordt er enkel binnen een zin gekeken, zo wordt er geen rekening gehouden met de zinnen die daarop voorafgaan of volgen.
 
-Het onderzoek van \textcite{Hahn2000} bevat vele citaties en is een sterk uitgangspunt om te vertrekken bij samenvatting. Zij halen twee aanpakken hoe een machine een tekst kan samenvatten: extractief en abstractief.
+% Zinnen opsplitsen leidt volgens \textcite{Siddharthan2014} vaak uit tot langere zinnen, omdat de zinsbouw per opsplitsing vanaf nul moet worden opgebouwd. 
+
+% TODO https://files.eric.ed.gov/fulltext/ED490073.pdf --> bron !!!
+
+% Informatieve, indicatieve en kritische samenvattingen
+
+Teksten machinaal samenvatten is geen nieuw concept. Het onderzoek van \textcite{Hahn2000} bevat vele citaties en een uitgangspunt om te vertrekken hoe teksten automatisch kunnen worden samengevat. Zij halen twee aanpakken hoe een machine een tekst kan samenvatten: extractief en abstractief. Verder reikt \textcite{Hahn2000} drie soorten samenvattingen aan:
+
+\begin{itemize}
+	\item Informatieve samenvattingen vervangen de oorspronkelijke tekst. Alles wat de lezer nodig heeft, dus hoofd- en bijzaken, zijn betrokken in de samengevatte tekst.
+	\item Indicatieve samenvattingen behouden enkel een tekst met links die een lezer doorverwijzen naar andere bronnen. 
+	\item Kritische samenvattingen of \textit{reviews} bestaan uit de kerninhoud van de oorspronkelijke tekst en een opiniestuk over die specifieke kerninhoud.
+\end{itemize}
+
+% Generiek en gebruikersgerichte samenvatting
+
+Verder haalt \textcite{Hahn2000} ook het onderscheid tussen een generieke en een gebruikersgerichte samenvatting. Een generieke samenvatting staat niet stil bij speciale noden of interesses van de eindgebruiker. Daarnaast houdt een gebruikersgerichte samenvatting wel rekening met sleutelwoorden of thema's in een tekst. \textcite{Hahn2000} haalt aan dat technologieën zoals full-text-search en gepersonaliseerd informatiefiltering het belang van gebruikersgerichte samenvatting naar voor duwen.
+
+\textcite{Hahn2000} omschrijft de architectuur van een samenvattingssysteem aan de hand van drie fases. Allereerst wordt de brontekst geanalyseerd. Daarna worden de \textit{salient points} of kernpunten in een tekst aangeduid. Deze punten zijn zinnen of tokens. Ten slotte worden de punten samengevoegd tot één uitvoertekst. De nadruk is verschillend per samenvattingsmethode.
 
 \subsubsection*{Extractief samenvatten}
 
-Bij deze vorm worden de belangrijkste zinnen gemarkeerd en vervolgens opnieuw neergeschreven \textcite{Hahn2000}. Dit is het equivalent van handmatig zinnen te fluoriseren en vervolgens op een blanco papier neerschrijven. 
+Bij deze vorm worden de belangrijkste zinnen gemarkeerd en vervolgens opnieuw neergeschreven \textcite{Hahn2000}. Dit is het equivalent van handmatig zinnen te fluoriseren en vervolgens op een blanco papier neerschrijven. Het nadeel hiervan is dat de uitvoertekst niet samenhangend zal zijn na het samenvatten. Dit maakt de tekst minder aangenaam om te lezen. 
 
-\textcite{McKeown1999} onderzochten naar de use case voor het extractief samenvatten van teksten. Zij achterhaalden dat deze vorm zeer zwak is voor bias. Bij nieuwsartikelen wordt er geen rekening gehouden met de aanwezige gekantheid van de auteur. De zinnen worden genomen zoals ze zijn.
+\textcite{McKeown1999} onderzochten naar de use case voor het extractief samenvatten van teksten. Zij achterhalen dat deze vorm vatbaar is op vooroordelen. Bij nieuwsartikelen wordt er geen rekening gehouden met vooroordelen van de auteur. De zinnen worden genomen zoals ze zijn. \textcite{Hahn2000} bouwde hierop verder om een mix van \textit{knowledge-rich} en \textit{knowledge-poor} methoden te combineren, met succesvolle resultaten tot gevolg.
+
+De nadruk bij extractief samenvatten ligt in het kiezen van de \textit{salient text units}. Deze punten zijn typisch in de vorm van zinnen. Er is nood aan een manier om de lexicale en statistische relevantie van een zin te kunnen aanduiden. Hiervoor haalt \textcite{Hahn2000} twee manieren aan:
+
+\begin{itemize}
+	\item Met een lineair gewicht model. Iedere teksteenheid wordt gewogen op factoren zoals de \textit{location weight} en het aantal voorkomens.
+	\item Een gewicht model op basis van de statistische opvallendheid van een eenheid. Zo wordt er rekening gehouden met de aanwezigheid van een woord in (sub)titels.
+\end{itemize}
+
+
 
 \textcite{Nallapati2017} wilden de nauwkeurigheid van andere modellen overbruggen. Dit doen ze met \textit{SummaRuNNer}\footnote{https://github.com/hpzhao/SummaRuNNer}, een oplossing voor het extractief samenvatten van teksten met een neuraal netwerk. De toepassing werd opgebouwd met PyTorch in Python en bestaat uit een combinatie van drie modellen: een recurrent neuraal netwerk, een convolutioneel recurrent neuraal netwerk en een \textit{hiërarchical attention network}.
+
+
 
 \subsubsection*{Abstractief samenvatten}
 
 Om een abstractieve samenvatting op te bouwen bestaan er verschillende modellen. Het Pegasus-model vloeide voort uit een onderzoek van \textcite{Zhang2020} over het afhandelen van \textit{gap-sentences} met pre-trained models voor samenvatting met NLP. Pegasus haalt kernzinnen uit een invoertekst en zal die zinnen vervolgens als één uitvoerzin uitschrijven. Dit model werd getrained en beoordeeld op samenvattingstaken zoals emails, patenten, rekeningen en ook wetenschappelijke artikelen. Hieronder een code-snippet van hoe een simpele abstractieve samenvatting kan worden gemaakt met Google Pegasus.
 
+\subsection{Conclusie}
+
+De theoretische concepten om teksten te vereenvoudigen. Teksten kunnen op vier manieren worden vereenvoudigd, namelijk door 
 
 \section{Voordelen van tekstvereenvoudiging}
+
+% \textcite{Leopold2015} voerden een experiment uit om een leerstrategie te achterhalen bij het leren van wetenschappelijke teksten. Ze testen drie leermethoden: het markeren van zinnen, \textit{concept mapping} en het visualiseren van de tekst. Dit experiment werd uitgevoerd bij 51 scholieren van gemiddeld vijftien jaar en met een licht overwegend vrouwelijk publiek. Het experiment gaf geen inzicht over de leesbegaafdheid van een scholier. Als resultaat
+
+% Improving students’ science text comprehension through metacognitive self-regulation when applying learning strategies
 
 \section{Struikelblokken}
 
@@ -138,7 +200,7 @@ Om dit probleem op te lossen, is het belangrijk om de eindgebruiker, in dit geva
 
 \subsection{Online toepassingen}
 
-\section{Pipeline voor tekstvereenvoudiging}
+\section{Prototype voor tekstvereenvoudiging}
 
 % fasen aanhalen
 
