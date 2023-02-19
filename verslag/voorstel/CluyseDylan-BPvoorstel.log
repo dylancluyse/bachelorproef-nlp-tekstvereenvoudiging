@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.9)  17 FEB 2023 16:28
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.10) (preloaded format=xelatex 2022.11.9)  19 FEB 2023 21:34
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1639,18 +1639,30 @@ AED: lastpage setting LastPage
 File: img//HOGENT_Logo_Pos_rgb.png Graphic file (type bmp)
 <img//HOGENT_Logo_Pos_rgb.png>
 [5] (CluyseDylan-BPvoorstel.aux)
-Package rerunfilecheck Info: File `CluyseDylan-BPvoorstel.out' has not changed.
 
-(rerunfilecheck)             Checksum: D40981CBA75EF76E3707246E76A46F0C;1320.
+LaTeX Warning: There were undefined references.
+
+
+Package rerunfilecheck Warning: File `CluyseDylan-BPvoorstel.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `CluyseDylan-BPvoorstel.out':
+(rerunfilecheck)             Before: 22F28344B21F52F8998F28037EB3B1FF;1222
+(rerunfilecheck)             After:  D40981CBA75EF76E3707246E76A46F0C;1320.
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
 Package logreq Info: Writing requests to 'CluyseDylan-BPvoorstel.run.xml'.
 \openout1 = `CluyseDylan-BPvoorstel.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27739 strings out of 410532
- 523960 string characters out of 2813299
- 1533587 words of memory out of 3000000
- 48547 multiletter control sequences out of 15000+600000
+ 27683 strings out of 410532
+ 523348 string characters out of 2813299
+ 1532686 words of memory out of 3000000
+ 48491 multiletter control sequences out of 15000+600000
  473485 words of font info for 102 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,12n,128p,1436b,5716s stack positions out of 10000i,1000n,20000p,200000b,80000s
