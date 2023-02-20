@@ -1020,6 +1020,36 @@
       \field{pages}{366}
       \range{pages}{1}
     \endentry
+    \entry{Khan2014}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=562a74729805dfe84a54f4414568b450}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Atif},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{562a74729805dfe84a54f4414568b450}
+      \strng{fullhash}{562a74729805dfe84a54f4414568b450}
+      \strng{bibnamehash}{562a74729805dfe84a54f4414568b450}
+      \strng{authorbibnamehash}{562a74729805dfe84a54f4414568b450}
+      \strng{authornamehash}{562a74729805dfe84a54f4414568b450}
+      \strng{authorfullhash}{562a74729805dfe84a54f4414568b450}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Theoretical and Applied Information Technology}
+      \field{month}{01}
+      \field{title}{A Review on Abstractive Summarization Methods}
+      \field{volume}{59}
+      \field{year}{2014}
+      \field{pages}{64\bibrangedash 72}
+      \range{pages}{9}
+    \endentry
     \entry{Li2018}{misc}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=bcdd73174e26b44169c10e9083e72469}{%

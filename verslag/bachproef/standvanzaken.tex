@@ -127,7 +127,7 @@ Verder haalt \textcite{Hahn2000} ook het onderscheid tussen een generieke en een
 
 \subsection{Extractief samenvatten}
 
-\textcite{Verma2020} onderzocht de verschillende manieren waarop een tekst op een extractieve manier kan worden samengevat. Zij halen drie grote componenten aan, namelijk:
+Bij deze vorm worden de belangrijkste zinnen gemarkeerd en vervolgens opnieuw neergeschreven.  Dit is het equivalent van handmatig zinnen te fluoriseren en vervolgens op een blanco papier neerschrijven. Het nadeel hiervan is dat de uitvoertekst niet samenhangend zal zijn na het samenvatten. Dit maakt de tekst minder aangenaam om te lezen. \textcite{Verma2020} onderzocht de verschillende manieren waarop een tekst op een extractieve manier kan worden samengevat. Zij halen drie grote componenten aan, namelijk:
 
 \begin{itemize}
 	\item Graph-based
@@ -135,10 +135,9 @@ Verder haalt \textcite{Hahn2000} ook het onderscheid tussen een generieke en een
 	\item Meta-heuristic-based
 \end{itemize}
 
-
 % todo Bij deze vorm worden de belangrijkste zinnen gemarkeerd en vervolgens opnieuw neergeschreven.  Dit is het equivalent van handmatig zinnen te fluoriseren en vervolgens op een blanco papier neerschrijven. Het nadeel hiervan is dat de uitvoertekst niet samenhangend zal zijn na het samenvatten. Dit maakt de tekst minder aangenaam om te lezen.
 
-\subsubsection{Graph Based}
+\subsubsection{Graafgebaseerd extractief samenvatten}
 
 \subsubsection{Maximal Marginal Relevance}
 
@@ -146,7 +145,7 @@ De traditionele extractieve samenvattingssystemen bouwen verder op de architectu
 
 Extractief samenvatten met de MMR-methode is de methode bij uitstek voor ML-toepassingen. Onderzoekers bouwden verder op dit principe. In \textcite{McDonald2007} stelt de onderzoeker voor om de gulzige zoekalgoritme van MMR te vervangen door een globaal optimale formulering, waarbij het MMR-framework wordt uitgedrukt als een knapzakprobleem en er een integer lineair programmering (ILP) solver kan worden gebruikt om de functie te maximaliseren. De MMR-methode hield voordien enkel rekening met relevantie en diversiteit, maar niet met de optimale combinatie van zinnnen die in een samenvatting moet worden opgenomen. Deze aanpak vereist echter meer rekenkracht en tijd dan de standaard MMR-methode, maar het experiment van \textcite{McDonald2007} haalde wel aan dat dit leidde tot betere resultaten. \textcite{Lin2010} evolueerde het oorspronkelijke MMR-algoritme. Bij de evaluatie van deze architectuur benadrukte zij de betere resultaten. 
 
-\subsubsection{title}
+\subsubsection{Meta-heuristiek-gebaseerd}
 
 \subsubsection{title}
 
@@ -161,12 +160,11 @@ De nadruk bij extractief samenvatten ligt in het kiezen van de \textit{salient t
 	\item Een gewicht model op basis van de statistische opvallendheid van een eenheid. Zo wordt er rekening gehouden met de aanwezigheid van een woord in (sub)titels.
 \end{itemize}
 
-
 \textcite{Nallapati2017} wilden de nauwkeurigheid van andere modellen overbruggen. Dit doen ze met \textit{SummaRuNNer}\footnote{https://github.com/hpzhao/SummaRuNNer}, een oplossing voor het extractief samenvatten van teksten met een neuraal netwerk. De toepassing werd opgebouwd met PyTorch in Python en bestaat uit een combinatie van drie modellen: een recurrent neuraal netwerk, een convolutioneel recurrent neuraal netwerk en een \textit{hiërarchical attention network}.
 
+\subsection{Abstractief samenvatten}
 
-
-\subsubsection*{Abstractief samenvatten}
+Kernzinnen achterhalen gebeurt op basis van zes belangrijke features volgens \textcite{Khan2014}. Zij onderzochten de verschillende manieren om een tekst samen te vatten. Zo haalt het onderzoek een semantische en een structuurgerichte aanpak aan.
 
 Om een abstractieve samenvatting op te bouwen bestaan er verschillende modellen. Het Pegasus-model vloeide voort uit een onderzoek van \textcite{Zhang2020} over het afhandelen van \textit{gap-sentences} met pre-trained models voor samenvatting met NLP. Pegasus haalt kernzinnen uit een invoertekst en zal die zinnen vervolgens als één uitvoerzin uitschrijven. Dit model werd getrained en beoordeeld op samenvattingstaken zoals emails, patenten, rekeningen en ook wetenschappelijke artikelen. Hieronder een code-snippet van hoe een simpele abstractieve samenvatting kan worden gemaakt met Google Pegasus.
 
@@ -174,7 +172,38 @@ Om een abstractieve samenvatting op te bouwen bestaan er verschillende modellen.
 
 De theoretische concepten om teksten te vereenvoudigen. Teksten kunnen op vier manieren worden vereenvoudigd, namelijk door 
 
+\section{Onderzoeken rond dyslexie}
+
+Vlaamse en Nederlandse onderzoeken wijzen uit dat gemiddeld 4\% van de Nederlandstalige bevolking een vorm van dyslexie heeft. De prevalentie van dyslexie is taalafhankelijk. China heeft volgens ... 1\% van de bevolking, terwijl het cijfer bij het Engels, een orthografisch inconsistente taal, drastisch hoger ligt. 
+
+Dyslectische kinderen ondervinden een last bij het technisch lezen van een tekst. Het is geen checklist van 'kwalen' waaraan een scholier moet voldoen om dit te bezitten. Zo halen Ghesquière en de Stichting Dyslexie van Nederland samen drie verschillende criteria.
+
+\begin{itemize}
+	\item Het \textbf{achterstandscriterium} wijst aan dat er een ernstige lees- of spellingsachterstand is. 
+	\item Het \textbf{hardnekkigheidscriterium} houdt in dat de lees- of spellingsachterstand het gevolg is van een moeizame automatisering van het lees- en spellingsproces. De leessnelheid vertraagt, terwijl het aantal lees- of spellingsfouten verhoogt terwijl een scholier complexe taken uitvoert.
+	\item Het \textbf{exclusiviteitscriterium} volgens Ghesquière wijst erop dat lees- en spellingsstoornissen niet volledig verklaard worden door andere condities, zoals verstandelijke beperkingen, emotionele moeilijkheden of zintuiglijke beperkingen.
+\end{itemize}
+
+% todo bronnen
+
+Bij de derde criterium moet er extra worden stilgestaan en staat parallel met dit onderzoek. Niet alle personen met dyslexie hebben dezelfde problemen en noden. Zo halen ... de volgende kenmerken aan die kunnen verschillen per individu.
+
+\begin{itemize}
+	\item De ernst of uigebreidheid van een stoornis.
+	\item De gevolgen van een stoornis, zoals faalangst.
+	\item De mate waarin iemand al dan niet kan compenseren.
+	\item De secundaire kenmerken zoals problemen met werkhouden en structuur.
+\end{itemize}
+
+% todo bronnnen
+
+Verder wijst ... aan dat de prevalentie van gecombineerde reken- en leesstoornissen hoger ligt, geschat op een 25 tot 50\%. De prevalentie van het voorkomen van spraak- en taalstoornissen ligt op 50 tot 80\%. 
+
+
+
 \section{Voordelen van tekstvereenvoudiging}
+
+
 
 % \textcite{Leopold2015} voerden een experiment uit om een leerstrategie te achterhalen bij het leren van wetenschappelijke teksten. Ze testen drie leermethoden: het markeren van zinnen, \textit{concept mapping} en het visualiseren van de tekst. Dit experiment werd uitgevoerd bij 51 scholieren van gemiddeld vijftien jaar en met een licht overwegend vrouwelijk publiek. Het experiment gaf geen inzicht over de leesbegaafdheid van een scholier. Als resultaat
 

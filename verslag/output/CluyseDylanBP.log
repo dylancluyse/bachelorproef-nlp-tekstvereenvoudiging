@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  19 FEB 2023 20:31
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  20 FEB 2023 21:03
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2418,21 +2418,27 @@ File: img/nerlabeling.jpg Graphic file (type bmp)
 <img/nerlabeling.jpg>
 File: img/voorbeeld-manuele-vereenvoudiging.png Graphic file (type bmp)
 <img/voorbeeld-manuele-vereenvoudiging.png>
-[7] [8] [9] [10] [11] [12]
-Overfull \hbox (1.6548pt too wide) in paragraph at lines 198--199
+[7] [8] [9] [10] [11]
+Overfull \hbox (1.3738pt too wide) in paragraph at lines 167--168
+\TU/Montserrat(1)/m/n/10.95 Kernzinnen achterhalen gebeurt op basis van zes bel
+angrijke features volgens []Khan
+ []
+
+[12] [13]
+Overfull \hbox (1.6548pt too wide) in paragraph at lines 227--228
 \TU/Montserrat(1)/m/n/10.95 de eindgebruiker een keuze aanbieden om aan te pass
 en wat vereenvoudigd wordt,
  []
 
-[13]) (./methodologie.tex [14]
+[14]) (./methodologie.tex [15]
 Hoofdstuk 3.
-[15
+[16
 
-]) (./conclusie.tex [16]
+]) (./conclusie.tex [17]
 Hoofdstuk 4.
-[17
+[18
 
-]) [18]
+]) [19]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--8
@@ -2440,37 +2446,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 da-2030-stem-competenties-voor-een-
  []
 
-[19
+[20
 
-] [20]
+]
 Overfull \hbox (3.46771pt too wide) in paragraph at lines 34--35
 \TU/Montserrat(1)/m/n/10.95 ([][]2022[][]) benadrukt dat de toename in kennis v
 oor nieuwe toepassingen zorgde. Tekst-
  []
 
-
+[21]
 Overfull \hbox (2.54906pt too wide) in paragraph at lines 38--39
 []\TU/Montserrat(1)/m/n/10.95 Tekstvereenvoudiging behoort tot de zijtak van \T
 U/Montserrat(2)/m/it/10.95 Natural Language Processing \TU/Montserrat(1)/m/n/10
 .95 (NLP)
  []
 
-[21]
+[22]
 Overfull \hbox (14.44443pt too wide) in paragraph at lines 54--55
 []\TU/Montserrat(1)/m/n/10.95 Het onderzoek van []Sciforce ([][]2020[][]) haalt
  aan dat het merendeel van NLP-toepassingen
  []
 
-[22]
+[23]
 Overfull \hbox (1.14409pt too wide) in paragraph at lines 65--66
 \TU/Montserrat(1)/m/n/10.95 wel gebruikt worden, zijn vooral online leerplatfor
 men voor zelfstandig werken. Ook
  []
 
-[23]
+[24]
 File: img/Screenshot_302.png Graphic file (type bmp)
 <img/Screenshot_302.png>
- [24] [25]) [26]
+ [25] [26]) [27]
 Overfull \hbox (2.13918pt too wide) in paragraph at lines 172--172
 \TU/Montserrat(1)/m/n/10.95 Dutch. \TU/Montserrat(2)/m/it/10.95 Computational L
 inguistics in the Netherlands Journal\TU/Montserrat(1)/m/n/10.95 , \TU/Montserr
@@ -2483,7 +2489,7 @@ Overfull \hbox (17.6088pt too wide) in paragraph at lines 172--172
  and university: Post-diploma
  []
 
-[27
+[28
 
 
 ]
@@ -2499,7 +2505,7 @@ n. [][]$[][][][][] [] [] [] [][][][][] [] [][][][][][] [] [][] [] [][][][][] []
  [][] [] [][][][][][][][][][][][]$[][] 
  []
 
-[28]
+[29] [30]
 Overfull \hbox (18.56651pt too wide) in paragraph at lines 172--172
 \TU/Montserrat(2)/m/it/10.95 on Natural Language Processing 2014\TU/Montserrat(
 1)/m/n/10.95 , \TU/Montserrat(2)/m/it/10.95 4\TU/Montserrat(1)/m/n/10.95 (1). [
@@ -2507,20 +2513,20 @@ Overfull \hbox (18.56651pt too wide) in paragraph at lines 172--172
 ][][][][][] []
  []
 
-[29] [30] (../output/CluyseDylanBP.aux)
+[31] (../output/CluyseDylanBP.aux)
 Package rerunfilecheck Info: File `CluyseDylanBP.out' has not changed.
-(rerunfilecheck)             Checksum: D63FEECC21ACDF62A81CB06C07B2ACF5;3711.
+(rerunfilecheck)             Checksum: 2E8E2425A8236F3757BFA45CFDD38A91;3869.
 Package logreq Info: Writing requests to 'CluyseDylanBP.run.xml'.
 \openout1 = `CluyseDylanBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46483 strings out of 478657
- 907971 string characters out of 5861312
- 2015575 words of memory out of 5000000
- 65262 multiletter control sequences out of 15000+600000
+ 46487 strings out of 478657
+ 908076 string characters out of 5861312
+ 2014630 words of memory out of 5000000
+ 65266 multiletter control sequences out of 15000+600000
  406482 words of font info for 98 fonts, out of 8000000 for 9000
  351 hyphenation exceptions out of 8191
  113i,12n,139p,2569b,7099s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../output/CluyseDylanBP.xdv (37 pages, 840140 bytes).
+Output written on ../output/CluyseDylanBP.xdv (38 pages, 869688 bytes).
