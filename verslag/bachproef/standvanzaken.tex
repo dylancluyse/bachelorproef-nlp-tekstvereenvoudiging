@@ -3,11 +3,11 @@
 
 \section{Tekstvereenvoudiging}
 
-Tekstvereenvoudiging is het proces waarin het technisch leesniveau en/of woordgebruik van een geschreven tekst wordt verminderd. Zo mag de vereenvoudiging geen invloed hebben op de betekenis van de kerninhoud. Het langlopende onderzoek van Advaith Siddharthan is met meer dan 140 citaties een goed vertrekpunt voor dit onderzoek. Volgens \autocite{Siddharthan2014} bestaat een complete vereenvoudiging van een tekst uit precies vier transformaties. Binnen machine learning is tekstvereenvoudiging een zijtak van natuurlijke taalverwerking. % Daarnaast is tekstvereenvoudiging een taalbewerking dat geautomatiseerd kan worden.
+Eerst moet er een technologische fundering gelegd worden over de basisconcepten en verschillende soorten van tekstvereenvoudiging. Tekstvereenvoudiging is het proces waarin het technisch leesniveau en/of woordgebruik van een geschreven tekst wordt verminderd. Zo mag de vereenvoudiging geen invloed hebben op de betekenis van de kerninhoud. Het langlopende onderzoek van Advaith Siddharthan is met meer dan 140 citaties een goed vertrekpunt voor dit onderzoek. Volgens \autocite{Siddharthan2014} bestaat een complete vereenvoudiging van een tekst uit precies vier transformaties. Binnen machinaal leren (ML) is tekstvereenvoudiging een zijtak van natuurlijke taalverwerking. % Daarnaast is tekstvereenvoudiging een taalbewerking dat geautomatiseerd kan worden.
 
 \subsection{Natural Language Processing}
 
-Natuurlijke taalverwerking of NLP is een brede term die zich richt op het verwerken en analyseren van menselijke taal door computers en andere technologieën. Het omvat verschillende technieken, zoals tekstanalyse, taalherkenning en -generatie, spraakherkenning en -synthese, en semantische analyse. Computers zijn ertoe in staat om op een menselijke manier te communiceren en begrijpen wat er wordt gezegd. Voordat het onderzoek zich verdiept in hoe teksten worden vereenvoudigd, moeten er eerst begrippen worden aangehaald die noodzakelijk zijn om de volgende fasen te kunnen uitleggen. \textcite{Sohom2019} haalt de volgende begrippen aan.
+Natural Language Processing (NLP) of natuurlijke taalverwerking is een brede term die zich richt op het verwerken en analyseren van menselijke taal door computers en andere technologieën. Het omvat verschillende technieken, zoals tekstanalyse, taalherkenning en -generatie, spraakherkenning en -synthese, en semantische analyse. Computers zijn in staat om op een menselijke manier te communiceren en begrijpen wat er wordt gezegd. \textcite{Sohom2019} haalt de volgende begrippen aan.
 
 \begin{itemize}
 	\item \textbf{Tokenisatie} splitst de stam of basisvorm van woorden in een tekst. Gebruikelijk zetten ontwikkelaars deze stap in om een woordenschat voor een taalmodel op te bouwen. Bij tokenisatie wordt er geen rekening gehouden met de betekenis achter ieder woord.
@@ -16,7 +16,6 @@ Natuurlijke taalverwerking of NLP is een brede term die zich richt op het verwer
 \end{itemize}
 
 \subsubsection{Sequence Labeling}
-
 
 Volgens \textcite{Eisenstein2019} is \textit{sequence labeling} essentieel tot het achterhalen van de structuur van een tekst met \textit{supervised learning}. Elk woord in een tekst of zin wordt geclassificeerd met behulp van specifieke labels, zoals bijvoorbeeld een Part of Speech (PoS) label of een Named Entity Recognition (NER) label. De structuur van de tekst wordt achterhaald en informatie en patronen kunnen uit de tekst worden gehaald. \textcite{Jurafsky2014} haalt PoS- en NER-labeling verder aan in hun boek. Terwijl POS-tagging zich richt op grammaticale categorieën van woorden, richt NER-labeling zich op het identificeren van specifieke entiteiten in tekst. 
 
@@ -29,7 +28,7 @@ Volgens \textcite{Eisenstein2019} is \textit{sequence labeling} essentieel tot h
 		\item \textit{ML-based} modellen trainen eerst op geannoteerde tekstdocumenten, vervolgens gebruikt het getrainede model deze annotaties.
 		\item \textit{Deep-learning} of DL-modellen mappen de invoerdata aan een niet-lineaire representatie. De complexe modellen maken het mogelijk om niet voor de hand liggende relaties uit te pluizen, wat het de sterkste van de vier opties maakt.
 	\end{itemize}
-	Daarnaast haalt \textcite{Li2018} modellen aan om een pipeline voor NER-labeling mogelijk te maken. Spacy heeft deze functie ingebouwd. Standford NER tagger is een tool die samen met het NLTK-pakket werkt.
+	Daarnaast haalt \textcite{Li2018} modellen aan om een pipeline voor NER-labeling mogelijk te maken. Spacy heeft deze functie ingebouwd. Standford NER-tagger is een tool die samen met het NLTK-pakket werkt.
 \end{itemize}
 
 \begin{figure}
@@ -71,6 +70,7 @@ In de medische sector haalt \textcite{Kandula2010} twee manieren aan om lexicale
 Syntactische vereenvoudiging transformeert de grammatica en zinsstructuur van een tekst om de complexiteit van een zin te verlagen. Bijvoorbeeld, twee afzonderlijke zinnen kunnen worden samengevoegd tot één eenvoudigere zin. Syntactische vereenvoudiging richt zich op het verminderen van complexe of onduidelijke zinsconstructies, terwijl de inhoud en betekenis van de tekst behouden blijft. Dergelijke transformaties zijn het vereenvoudigen van de syntax of door de zinnen korter te maken. Zinnen worden toegankelijker, zonder de kerninhoud of relevante inhoud te verliezen.
 
 Het vereenvoudigen van medische journalen wordt besproken in het onderzoek van \textcite{Kandula2010}. Zij ontwikkelden een toepassing om medische informatie te vereenvoudigen met beschikbare biomedische bronnen, door syntactische vereenvoudiging op zinniveau toe te passen. Zinnen met meer dan 10 woorden worden als complex beschouwd en worden verwerkt door drie modules. Op het einde van deze vereenvoudiging kan de oorspronkelijke zin ongewijzigd worden behouden of vervangen worden door twee of meer kortere zinnen. De architectuur van het model omvat drie onderdelen: een \textit{Part of Speech (PoS) Tagger}, een \textit{Grammar Simplifier} en een \textit{Output Validator}. 
+
 \begin{itemize}
 	\item Voor de \textit{PoS Tagger}-fase gebruikten \textcite{Kandula2010} beschikbare functies uit het open-source pakket OpenNLP\footnote{https://opennlp.apache.org/}.
 	\item De \textit{Grammar Simplifier} module splitst de lange zin in twee of meer kortere zinnen door POS-patronen te identificeren en een set transformatieregels toe te passen.
@@ -139,6 +139,10 @@ Bij deze vorm worden de belangrijkste zinnen gemarkeerd en vervolgens opnieuw ne
 
 \subsubsection{Graafgebaseerd extractief samenvatten}
 
+Graafgebaseerd extractief samenvatten is een techniek die een document voorstelt als een graaf, waarbij de knopen zinnen voorstellen en bogen de relatie tussen de zinnen voorstellen. Deze algoritmen achterhalen de belangrijkste zinnen in de graaf. Bijvoorbeeld kan het PageRank-algoritme, dat vaak wordt gebruikt voor het rangschikken van webpagina's in zoekmachines, worden gebruikt om de zinnen in de grafiek te rangschikken op basis van hun belangrijkheid.
+
+\textcite{AbdelSalam2022} % https://www.mdpi.com/2078-2489/13/2/67
+
 \subsubsection{Maximal Marginal Relevance}
 
 De traditionele extractieve samenvattingssystemen bouwen verder op de architectuur dat \textcite{Carbonell1998} ontworp. Hun ontworpen architectuur gebruikt een maximaal marginale relevantiescore of MMR. Deze architectuur houdt rekening met de diversiteit en de relevantie van de gemarkeerde zinnen. De relevantie van een zin wordt bepaald door de mate waarin het de belangrijkste informatie overbrengt van de tekst waarvan het afkomstig is. Om diversiteit te waarborgen, wordt er gekeken naar de mate waarin de geselecteerde zinnen verschillen van de eerder geselecteerde zinnen in de samenvatting. Met andere woorden, als er een zin is die erg relevant is, maar qua inhoud te veel overlapt met de eerder geselecteerde zinnen, dan heeft deze minder kans om geselecteerd te worden in de samenvatting. Deze score kan doorgaans berekend worden met KeyBERT\footnote{https://maartengr.github.io/KeyBERT/api/mmr.html}.
@@ -147,7 +151,7 @@ Extractief samenvatten met de MMR-methode is de methode bij uitstek voor ML-toep
 
 \subsubsection{Meta-heuristiek-gebaseerd}
 
-\subsubsection{title}
+% \subsubsection{title}
 
 % todo https://medium.com/jatana/unsupervised-text-summarization-using-sentence-embeddings-adb15ce83db1 --> voorbeeld van een pipeline
 
@@ -229,13 +233,29 @@ Het onderzoek beklemtoont dat er nood is aan verregaande en geïndividualiseerde
 Het onderzoek van ... haalt drie factoren aan dat scholieren met dyslexie kan helpen bij het lezen van teksten. Allereerst bevoordeelt een hoge woordfrequentie de leessnelheid van een scholier met dyslexie. Dit feit wordt ondersteund in meerdere onderzoeken (...). 
 
 
-Het onderzoek van (...) verzamelde de noodzakelijke leesproblemen voor deze casus. % https://wij-leren.nl/leesproblemen-dyslexie-woordbenoeming-woordherkenning-begripsprobleem-deel-twee.php#_edn11
+Het onderzoek van \textcite{Filipak2020} verzamelde de noodzakelijke leesproblemen voor deze casus. Zo haalt hij de volgende leesproblemen aan die kunnen voorkomen bij een scholier met dyslexie in het middelbaar onderwijs.
 
 \begin{itemize}
-	\item Langzame woordbenoeming: Het correct spellen van pseudowoorden en regelmatig gespelde woorden is mogelijk via beheerste letterklankkoppelingen. Echter verloopt het automatiseren van moeilijke en nieuwe woorden stroef, met een trage woordbenoeming tot gevolgd. Lezers kunnen met dit leesprobleem veel woorden niet als één geheel herkennen. (...) raadt aan om pseudowoorden en het identificeren te oefenen als mogelijke hulp. De meeste schrijffouten komen voor in onregelmatig gespelde woorden waardoor een fonologische route die wel takt is, leidt tot het schrijven van 'gedaan' als 'guhdaan'.
-	
-	\item Begripsproblemen: Typerende symptomen van ‘Deep Dyslexia’ is de verstoring van leesbegrip en het spreken in qua betekenis onbedoelde klanken, woorden en woordgroepen (parphasias). Bij ‘Deep dyslexia’ kan bos bijvoorbeeld gelezen worden als boom. Begripsproblemen bij het lezen kunnen goed visueel, met steun van film en afbeeldingen ondersteund worden, beter dan alleen via gedrukte woorden. Daarbij moet de lezer die het gedrukte woord wil ontcijferen, gebruik kunnen maken van bronnen van kennis op een hoger niveau: een grote woordenschat en een goed redeneervermogen. Schriftelijke expressie is uit den boze.
-	
+	\item Langzame woordbenoeming
+	\item Begripsproblemen
+	\item Hardnekkig letter-voor-letter lezen
+	\item Woordherkenning
+	\item Visuele dysfunctie
+	\item Letter- en klankvorming
+\end{itemize}
+
+\subsubsection{Langzame woordbenoeming}
+
+Het correct spellen van pseudowoorden en regelmatig gespelde woorden is mogelijk via beheerste letterklankkoppelingen. Echter verloopt het automatiseren van moeilijke en nieuwe woorden stroef, met een trage woordbenoeming tot gevolgd. Lezers kunnen met dit leesprobleem veel woorden niet als één geheel herkennen. (...) raadt aan om pseudowoorden en het identificeren te oefenen als mogelijke hulp. De meeste schrijffouten komen voor in onregelmatig gespelde woorden waardoor een fonologische route die wel takt is, leidt tot het schrijven van 'gedaan' als 'guhdaan'.
+
+% todo oplossing
+
+\subsubsection{Begripsproblemen}
+
+Typerende symptomen van ‘Deep Dyslexia’ is de verstoring van leesbegrip en het spreken in qua betekenis onbedoelde klanken, woorden en woordgroepen (parphasias). Bij ‘Deep dyslexia’ kan bos bijvoorbeeld gelezen worden als boom. Begripsproblemen bij het lezen kunnen goed visueel, met steun van film en afbeeldingen ondersteund worden, beter dan alleen via gedrukte woorden. Daarbij moet de lezer die het gedrukte woord wil ontcijferen, gebruik kunnen maken van bronnen van kennis op een hoger niveau: een grote woordenschat en een goed redeneervermogen. Schriftelijke expressie is uit den boze.
+
+\begin{itemize}
+
 	\item Hardnekkig letter-voor-letter lezen: Milene Bonte merkt op: wat wel typerend is voor ‘dyslexie’ is een minder optimale informatie-verwerking in visuele gebieden die belangrijk zijn voor letter- en woordherkenning. Ze haalt verder aan dat dit een gevolg is van een minder optimale leesontwikkeling en niet zozeer een oorzaak van dyslexie. Het visuele proces vindt plaats in de 'letterbox'\footnote{Het primaire visuele cortex van het brein}. Lezers zijn niet in staat woorden goed te lezen, zelfs niet met een langzame en spellende letter-klankroute. Lange woorden worden moeizaam gelezen en scholieren hebben de neiging om visueel gedesoriënteerde te raken. Er is verwarring over de richting van de letters.
 	
 	\item Woordherkenning: Onderzoeken waarbij de oogbewegingen van lezers worden gevolgd tonen aan dat een geoefende lezer bij vijftig tot tachtig procent van de woorden pauzeert. Hij moet zich op woorden fixeren om ze te kunnen zien en dat gaat heel snel. Gedurende deze zogenoemde saccade, een snelle beweging van de ogen die tot doel heeft een nieuw fixatiepunt te vinden, wordt het woordbeeld van de vorige woordfixatie onderdrukt, voordat een volgende woord wordt gefixeerd. Leesonderzoekers de Universiteit van Tel Aviv in Israël vonden in 2010 bijvoorbeeld een soort leesprobleem dat men ‘aandachts-dyslexie’ noemde, waarin kinderen letters correct identificeren, maar tijdens het lezen last hebben van verspringende letters tussen de woorden in de zinnen.[xiii] Dit is minder bij het lezen van woorden in lijsten dan met woorden in lopende tekst. [xiv] Denk aan het verschil in leesprestaties op de Drie-Minuten-Test (losse woorden lezen) en op de AVI -toets (tekstlezen). Zie ook in de breinafbeelding het gebied ‘Top-down attention and serial reading’. In een WISC-afname kan blijken dat de organisatie van de ruimtelijke waarneming redelijk is, maar dat een leerling zwakker is met doolhoven, plaatjes ordenen, onvolledige tekeningen, substitutie-taken en vooral met symboolverwerking. Dan kan er sprake zijn van een visueel en/of neuropsychologische dysfunctie dat ten grondslag ligt aan de moeite met lezen. Dan gaat het dus , nogmaals, niet om een fonologische dysfunctie.
