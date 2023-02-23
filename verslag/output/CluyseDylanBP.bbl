@@ -19,6 +19,42 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{AbdelSalam2022}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=af7a4566eff557d6afba523e20597169}{%
+           family={Abdel-Salam},
+           familyi={A\bibinithyphendelim S\bibinitperiod},
+           given={Shehab},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb098306b54582d57e9d173e33b9a7ca}{%
+           family={Rafea},
+           familyi={R\bibinitperiod},
+           given={Ahmed},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d2e9cea0adb010221e80f74910dc3007}
+      \strng{fullhash}{d2e9cea0adb010221e80f74910dc3007}
+      \strng{bibnamehash}{d2e9cea0adb010221e80f74910dc3007}
+      \strng{authorbibnamehash}{d2e9cea0adb010221e80f74910dc3007}
+      \strng{authornamehash}{d2e9cea0adb010221e80f74910dc3007}
+      \strng{authorfullhash}{d2e9cea0adb010221e80f74910dc3007}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The task of summarization can be categorized into two methods, extractive and abstractive. Extractive summarization selects the salient sentences from the original document to form a summary while abstractive summarization interprets the original document and generates the summary in its own words. The task of generating a summary, whether extractive or abstractive, has been studied with different approaches in the literature, including statistical-, graph-, and deep learning-based approaches. Deep learning has achieved promising performances in comparison to the classical approaches, and with the advancement of different neural architectures such as the attention network (commonly known as the transformer), there are potential areas of improvement for the summarization task. The introduction of transformer architecture and its encoder model &ldquo;BERT&rdquo; produced an improved performance in downstream tasks in NLP. BERT is a bidirectional encoder representation from a transformer modeled as a stack of encoders. There are different sizes for BERT, such as BERT-base with 12 encoders and BERT-larger with 24 encoders, but we focus on the BERT-base for the purpose of this study. The objective of this paper is to produce a study on the performance of variants of BERT-based models on text summarization through a series of experiments, and propose &ldquo;SqueezeBERTSum&rdquo;, a trained summarization model fine-tuned with the SqueezeBERT encoder variant, which achieved competitive ROUGE scores retaining the BERTSum baseline model performance by 98%, with 49% fewer trainable parameters.}
+      \field{issn}{2078-2489}
+      \field{journaltitle}{Information}
+      \field{number}{2}
+      \field{title}{Performance Study on Extractive Text Summarization Using BERT Models}
+      \field{volume}{13}
+      \field{year}{2022}
+    \endentry
     \entry{Barnett2020}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=b13ccee6642fee40f7da5bdea3589ec2}{%
@@ -648,6 +684,41 @@
       \verb https://books.google.be/books?id=72yuDwAAQBAJ
       \endverb
     \endentry
+    \entry{Filipak2020}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8e0593018f9ba152d2faee08ede48f2c}{%
+           family={Filipiak},
+           familyi={F\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wij leren}%
+      }
+      \strng{namehash}{8e0593018f9ba152d2faee08ede48f2c}
+      \strng{fullhash}{8e0593018f9ba152d2faee08ede48f2c}
+      \strng{bibnamehash}{8e0593018f9ba152d2faee08ede48f2c}
+      \strng{authorbibnamehash}{8e0593018f9ba152d2faee08ede48f2c}
+      \strng{authornamehash}{8e0593018f9ba152d2faee08ede48f2c}
+      \strng{authorfullhash}{8e0593018f9ba152d2faee08ede48f2c}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wij leren}
+      \field{title}{Leesproblemen en Dyslexie: Leesproblemen -2-}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://wij-leren.nl/leesproblemen-dyslexie-woordbenoeming-woordherkenning-begripsprobleem-deel-twee.php#_edn11
+      \endverb
+      \verb{url}
+      \verb https://wij-leren.nl/leesproblemen-dyslexie-woordbenoeming-woordherkenning-begripsprobleem-deel-twee.php#_edn11
+      \endverb
+    \endentry
     \entry{Gala2016}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=2d6c91557f3b168f0a6f4351a0c4e095}{%
@@ -1159,7 +1230,7 @@
       \field{number}{{6}}
       \field{title}{{Het stopt nooit… : de impact van dyslexie en/of dyscalculie op het welbevinden en studeren van (jong)volwassenen en op de transitie naar de arbeidsmarkt : een bundeling van Vlaamse pilootstudies}}
       \field{volume}{{2020}}
-      \field{year}{{2020}}
+      \field{year}{2020}
       \field{pages}{{10\bibrangedash 28}}
       \range{pages}{-1}
       \keyw{{Dyslexie,drempels,sterktes,arbeidshandicap,inclusie,dyscalculie,volwassenen}}
@@ -1515,6 +1586,38 @@
       \verb 10.1017/S1041610210000037
       \endverb
     \endentry
+    \entry{Parveen2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c69ab5b1fe3590cf241c73c6794c59fc}{%
+           family={Parveen},
+           familyi={P\bibinitperiod},
+           given={Daraksha},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6ed0f37c23e807bba1a5237a69cc2c4}{%
+           family={Strube},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{40ab69d5aebaa07178d7e37c400be585}
+      \strng{fullhash}{40ab69d5aebaa07178d7e37c400be585}
+      \strng{bibnamehash}{40ab69d5aebaa07178d7e37c400be585}
+      \strng{authorbibnamehash}{40ab69d5aebaa07178d7e37c400be585}
+      \strng{authornamehash}{40ab69d5aebaa07178d7e37c400be585}
+      \strng{authorfullhash}{40ab69d5aebaa07178d7e37c400be585}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Twenty-Fourth International Joint Conference on Artificial Intelligence}
+      \field{title}{Integrating importance, non-redundancy and coherence in graph-based extractive summarization}
+      \field{year}{2015}
+    \endentry
     \entry{PlavenSigray2017}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=e0937b5b8d7347d247d3386989e98477}{%
@@ -1580,6 +1683,86 @@
       \field{pages}{e27725}
       \range{pages}{-1}
       \keyw{metascience,readability,data analysis,jargon,scientific communication}
+    \endentry
+    \entry{Premjith2015}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f2c39fed2ab5484e1695bc4e383a389f}{%
+           family={Premjith},
+           familyi={P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e94ab217e6f8bc1d254b928bb6c4c8c1}{%
+           family={John},
+           familyi={J\bibinitperiod},
+           given={Ansamma},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05a9d0fd4fb4493f3ebd6ad1259f94e7}{%
+           family={Wilscy},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{45ac2f2b3cfe09a58efab9f2bd88f554}
+      \strng{fullhash}{e67381d6e7b29cd7e94a20ebdc405e47}
+      \strng{bibnamehash}{e67381d6e7b29cd7e94a20ebdc405e47}
+      \strng{authorbibnamehash}{e67381d6e7b29cd7e94a20ebdc405e47}
+      \strng{authornamehash}{45ac2f2b3cfe09a58efab9f2bd88f554}
+      \strng{authorfullhash}{e67381d6e7b29cd7e94a20ebdc405e47}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-319-26831-6}
+      \field{month}{01}
+      \field{title}{Metaheuristic Optimization Using Sentence Level Semantics for Extractive Document Summarization}
+      \field{year}{2015}
+      \field{pages}{347\bibrangedash 358}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/978-3-319-26832-3_33
+      \endverb
+    \endentry
+    \entry{Rani2021}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=c7441d9ead9fd172d35bfd747635d19d}{%
+           family={Rani},
+           familyi={R\bibinitperiod},
+           given={Rimpi},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2ca7fe8f0babf8ac29d3ff920a7a909}{%
+           family={Kaur},
+           familyi={K\bibinitperiod},
+           given={Baljinder},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7af14ed6503bfb3ceafc730256a264d1}
+      \strng{fullhash}{7af14ed6503bfb3ceafc730256a264d1}
+      \strng{bibnamehash}{7af14ed6503bfb3ceafc730256a264d1}
+      \strng{authorbibnamehash}{7af14ed6503bfb3ceafc730256a264d1}
+      \strng{authornamehash}{7af14ed6503bfb3ceafc730256a264d1}
+      \strng{authorfullhash}{7af14ed6503bfb3ceafc730256a264d1}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Turkish Journal of Computer and Mathematics Education (TURCOMAT)}
+      \field{number}{1}
+      \field{title}{The TEXT SUMMARIZATION AND ITS EVALUATION TECHNIQUE}
+      \field{volume}{12}
+      \field{year}{2021}
+      \field{pages}{745\bibrangedash 752}
+      \range{pages}{8}
     \endentry
     \entry{Readable2021}{online}{}
       \name{author}{1}{}{%

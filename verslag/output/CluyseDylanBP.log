@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  21 FEB 2023 19:54
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  23 FEB 2023 20:16
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2098,6 +2098,18 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'CluyseDylanBP.bbl' found.
 
 (../output/CluyseDylanBP.bbl)
+Runaway argument?
+{The task of summarization can be categorized into two methods, extra\ETC.
+./CluyseDylanBP.tex:77: File ended while scanning use of \field.
+<inserted text> 
+                \par 
+l.77 \begin{document}
+                     
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
 Package biblatex Info: Reference section=0 on input line 77.
 Package biblatex Info: Reference segment=0 on input line 77.
 Package caption Info: Begin \AtBeginDocument code.
@@ -2106,7 +2118,6 @@ Package caption Info: hyperref package is loaded.
 Package caption Info: rotating package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
 * driver: xetex
@@ -2343,10 +2354,19 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
+LaTeX Warning: Citation 'Crevits2022' on page 1 undefined on input line 24.
+
+
 Overfull \hbox (18.5458pt too wide) in paragraph at lines 24--25
 \TU/Montserrat(1)/m/n/10.95 men uit verschillende domeinen. Dit project leidt t
 ot het ontstaan van AI-toepassingen
  []
+
+
+LaTeX Warning: Citation 'Ghesquiere2018' on page 1 undefined on input line 33.
+
+
+LaTeX Warning: Citation 'Lissens2020' on page 1 undefined on input line 33.
 
 [1
 
@@ -2365,17 +2385,16 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-Overfull \hbox (1.73875pt too wide) in paragraph at lines 38--39
-\TU/Montserrat(1)/m/n/10.95 dyslexie hebben naast problemen met technisch lezen
- (maken meer lees-
- []
-
-
-Overfull \hbox (2.51985pt too wide) in paragraph at lines 38--39
-\TU/Montserrat(1)/m/n/10.95 gankelijke tekststructuur kan voor veel doelgroepen
- soelaas brengen (dat
- []
+./inleiding.tex:37: Undefined control sequence.
+<argument> \blx@bbl@data 
+                         
+l.37 \begin{quote}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
 ./inleiding.tex:41: LaTeX Error: There's no line here to end.
@@ -2390,173 +2409,3920 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[2]
-Overfull \hbox (1.97966pt too wide) in paragraph at lines 60--61
-[]\TU/Montserrat(1)/m/n/10.95 Welke functies ontbreken AI-toepassingen om geaut
-omatiseerde tekstvereen-
+./inleiding.tex:55: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.55 \item
+           Welke aanpakken zijn er voor geautomatiseerde tekstvereenvoudigin...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./inleiding.tex:55: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.55 \item
+           Welke aanpakken zijn er voor geautomatiseerde tekstvereenvoudigin...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./inleiding.tex:55: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.55 \item
+           Welke aanpakken zijn er voor geautomatiseerde tekstvereenvoudigin...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./inleiding.tex:55: Undefined control sequence.
+<argument> \blx@bbl@data 
+                         
+l.55 \item
+           Welke aanpakken zijn er voor geautomatiseerde tekstvereenvoudigin...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./inleiding.tex:55: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.55 \item
+           Welke aanpakken zijn er voor geautomatiseerde tekstvereenvoudigin...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./inleiding.tex:55: Argument of \MT@res@a has an extra }.
+<inserted text> 
+                \par 
+l.55 \item
+           Welke aanpakken zijn er voor geautomatiseerde tekstvereenvoudigin...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+##1,\TU/Montserrat(0)/b/n/14.4 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@false 
+\ETC.
+./inleiding.tex:55: Paragraph ended before \MT@res@a was complete.
+<to be read again> 
+                   \par 
+l.55 \item
+           Welke aanpakken zijn er voor geautomatiseerde tekstvereenvoudigin...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+./inleiding.tex:55: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.55 \item W
+            elke aanpakken zijn er voor geautomatiseerde tekstvereenvoudigin...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 55
+[][]
  []
 
-[3]) (./standvanzaken.tex [4]
+
+./inleiding.tex:56: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.56 \item W
+            elke specifieke noden hebben scholieren van de derde graad midde...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 56
+[][]
+ []
+
+
+./inleiding.tex:57: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \item W
+            at zijn de specifieke kenmerken van wetenschappelijke artikelen?
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 57
+[][]
+ []
+
+
+./inleiding.tex:58: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.58 \item M
+            et welke valkuilen bij taalverwerking met AI moeten ontwikkelaar...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 58
+[][]
+ []
+
+
+./inleiding.tex:59: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.59 \item W
+            elke toepassingen, tools en modellen zijn er beschikbaar om Nede...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 59
+[][]
+ []
+
+[2]
+
+./inleiding.tex:60: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.60 \item W
+            elke functies ontbreken AI-toepassingen om geautomatiseerde teks...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 60
+[][]
+ []
+
+./inleiding.tex:61: Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.61 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./inleiding.tex:61: Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.61 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./inleiding.tex:61: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.61 \end{itemize}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./inleiding.tex:61: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.61 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./inleiding.tex:61: Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.61 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./inleiding.tex:61: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.61 \end{itemize}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./inleiding.tex:61: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.61 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./inleiding.tex:88: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.88 ^^I\item
+              Welke aanpakken zijn er voor geautomatiseerde tekstvereenvoudi...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./inleiding.tex:88: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.88 ^^I\item
+              Welke aanpakken zijn er voor geautomatiseerde tekstvereenvoudi...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./inleiding.tex:88: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.88 ^^I\item
+              Welke aanpakken zijn er voor geautomatiseerde tekstvereenvoudi...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./inleiding.tex:88: Undefined control sequence.
+<argument> \blx@bbl@data 
+                         
+l.88 ^^I\item
+              Welke aanpakken zijn er voor geautomatiseerde tekstvereenvoudi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./inleiding.tex:88: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.88 ^^I\item
+              Welke aanpakken zijn er voor geautomatiseerde tekstvereenvoudi...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./inleiding.tex:88: Argument of \MT@res@a has an extra }.
+<inserted text> 
+                \par 
+l.88 ^^I\item
+              Welke aanpakken zijn er voor geautomatiseerde tekstvereenvoudi...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+##1,\TU/Montserrat(0)/b/n/14.4 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@false 
+\ETC.
+./inleiding.tex:88: Paragraph ended before \MT@res@a was complete.
+<to be read again> 
+                   \par 
+l.88 ^^I\item
+              Welke aanpakken zijn er voor geautomatiseerde tekstvereenvoudi...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+./inleiding.tex:88: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.88 ^^I\item W
+               elke aanpakken zijn er voor geautomatiseerde tekstvereenvoudi...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 88
+[][]
+ []
+
+
+./inleiding.tex:89: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.89 ^^I\item W
+               elke specifieke noden hebben scholieren van de derde graad mi...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 89
+[][]
+ []
+
+
+./inleiding.tex:90: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ^^I\item W
+               at zijn de specifieke kenmerken van wetenschappelijke artikelen?
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 90
+[][]
+ []
+
+
+./inleiding.tex:91: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.91 ^^I\item M
+               et welke valkuilen bij taalverwerking met AI moeten ontwikkel...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 91
+[][]
+ []
+
+
+./inleiding.tex:92: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.92 ^^I\item W
+               elke toepassingen, tools en modellen zijn er beschikbaar om N...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 92
+[][]
+ []
+
+
+./inleiding.tex:93: LaTeX Error: Lonely \item--perhaps a missing list environme
+nt.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.93 ^^I\item W
+               elke functies ontbreken AI-toepassingen om geautomatiseerde é...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 93
+[][]
+ []
+
+./inleiding.tex:94: Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.94 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (9.25412pt too wide) in paragraph at lines 93--94
+[]\TU/Montserrat(1)/m/n/10.95 Welke functies ontbreken AI-toepassingen om geaut
+omatiseerde én adaptieve tekst-
+ []
+
+[3]
+./inleiding.tex:94: Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.94 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./inleiding.tex:94: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.94 \end{itemize}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./inleiding.tex:94: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.94 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./inleiding.tex:94: Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.94 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./inleiding.tex:94: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.94 \end{itemize}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./inleiding.tex:94: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.94 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) (./standvanzaken.tex [4]
 Hoofdstuk 2.
+
+LaTeX Warning: Citation 'Siddharthan2014' on page 5 undefined on input line 6.
+
+
+LaTeX Warning: Citation 'Sohom2019' on page 5 undefined on input line 10.
+
+./standvanzaken.tex:13: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.13 ^^I\item
+              \textbf{Tokenisatie} splitst de stam of basisvorm van woorden ...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:13: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.13 ^^I\item
+              \textbf{Tokenisatie} splitst de stam of basisvorm van woorden ...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:13: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.13 ^^I\item
+              \textbf{Tokenisatie} splitst de stam of basisvorm van woorden ...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:13: Undefined control sequence.
+<argument> \blx@bbl@data 
+                         
+l.13 ^^I\item
+              \textbf{Tokenisatie} splitst de stam of basisvorm van woorden ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:13: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.13 ^^I\item
+              \textbf{Tokenisatie} splitst de stam of basisvorm van woorden ...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:13: Argument of \MT@res@a has an extra }.
+<inserted text> 
+                \par 
+l.13 ^^I\item
+              \textbf{Tokenisatie} splitst de stam of basisvorm van woorden ...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+##1,\TU/Montserrat(2)/b/n/10.95 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@false
+ \ETC.
+./standvanzaken.tex:13: Paragraph ended before \MT@res@a was complete.
+<to be read again> 
+                   \par 
+l.13 ^^I\item
+              \textbf{Tokenisatie} splitst de stam of basisvorm van woorden ...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+./standvanzaken.tex:13: LaTeX Error: Lonely \item--perhaps a missing list envir
+onment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 ^^I\item \textbf
+                     {Tokenisatie} splitst de stam of basisvorm van woorden ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 13
+[][]
+ []
+
+
+./standvanzaken.tex:14: LaTeX Error: Lonely \item--perhaps a missing list envir
+onment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 ^^I\item \textbf
+                     {Lemmatiseren} in NLP bouwt verder op \textit{stemming}...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 14
+[][]
+ []
+
 [5
 
 ]
-Overfull \hbox (3.39366pt too wide) in paragraph at lines 29--30
-[]\TU/Montserrat(2)/m/it/10.95 ML-based \TU/Montserrat(1)/m/n/10.95 modellen tr
-ainen eerst op geannoteerde tekstdocumenten, ver-
+
+./standvanzaken.tex:15: LaTeX Error: Lonely \item--perhaps a missing list envir
+onment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.15 ^^I\item B
+               ij een \textbf{parsing}-fase wordt er een label aan ieder woo...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 15
+[][]
+ []
+
+./standvanzaken.tex:16: Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.16 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:16: Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.16 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:16: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.16 \end{itemize}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:16: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.16 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:16: Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.16 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:16: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.16 \end{itemize}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:16: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.16 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'Eisenstein2019' on page 6 undefined on input line 20.
+
+
+LaTeX Warning: Citation 'Jurafsky2014' on page 6 undefined on input line 20.
+
+./standvanzaken.tex:23: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.23 ^^I\item
+              Bij \textbf{POS-tagging} worden de woorden in een zin geanalys...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:23: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.23 ^^I\item
+              Bij \textbf{POS-tagging} worden de woorden in een zin geanalys...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:23: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.23 ^^I\item
+              Bij \textbf{POS-tagging} worden de woorden in een zin geanalys...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:23: Undefined control sequence.
+<argument> \blx@bbl@data 
+                         
+l.23 ^^I\item
+              Bij \textbf{POS-tagging} worden de woorden in een zin geanalys...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:23: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.23 ^^I\item
+              Bij \textbf{POS-tagging} worden de woorden in een zin geanalys...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:23: Argument of \MT@res@a has an extra }.
+<inserted text> 
+                \par 
+l.23 ^^I\item
+              Bij \textbf{POS-tagging} worden de woorden in een zin geanalys...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+##1,\TU/Montserrat(2)/b/n/10.95 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@false
+ \ETC.
+./standvanzaken.tex:23: Paragraph ended before \MT@res@a was complete.
+<to be read again> 
+                   \par 
+l.23 ^^I\item
+              Bij \textbf{POS-tagging} worden de woorden in een zin geanalys...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+./standvanzaken.tex:23: LaTeX Error: Lonely \item--perhaps a missing list envir
+onment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ^^I\item B
+               ij \textbf{POS-tagging} worden de woorden in een zin geanalys...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 23
+[][]
+ []
+
+
+LaTeX Warning: Citation 'Jurafsky2014' on page 6 undefined on input line 23.
+
+
+./standvanzaken.tex:24: LaTeX Error: Lonely \item--perhaps a missing list envir
+onment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ^^I\item A
+               an de andere kant houdt \textbf{NER-labeling} zich bezig met ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 24
+[][]
+ []
+
+
+LaTeX Warning: Citation 'Jurafsky2014' on page 6 undefined on input line 24.
+
+
+LaTeX Warning: Citation 'Li2018' on page 6 undefined on input line 24.
+
+./standvanzaken.tex:26: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.26 ^^I^^I\item
+                 \textit{Dictionary-based} systemen waarbij een dictionary e...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:26: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.26 ^^I^^I\item
+                 \textit{Dictionary-based} systemen waarbij een dictionary e...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:26: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.26 ^^I^^I\item
+                 \textit{Dictionary-based} systemen waarbij een dictionary e...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:26: Undefined control sequence.
+<argument> \blx@bbl@data 
+                         
+l.26 ^^I^^I\item
+                 \textit{Dictionary-based} systemen waarbij een dictionary e...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:26: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.26 ^^I^^I\item
+                 \textit{Dictionary-based} systemen waarbij een dictionary e...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:26: Argument of \MT@res@a has an extra }.
+<inserted text> 
+                \par 
+l.26 ^^I^^I\item
+                 \textit{Dictionary-based} systemen waarbij een dictionary e...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+##1,\TU/Montserrat(2)/b/n/10.95 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@false
+ \ETC.
+./standvanzaken.tex:26: Paragraph ended before \MT@res@a was complete.
+<to be read again> 
+                   \par 
+l.26 ^^I^^I\item
+                 \textit{Dictionary-based} systemen waarbij een dictionary e...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+./standvanzaken.tex:26: LaTeX Error: Lonely \item--perhaps a missing list envir
+onment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 ^^I^^I\item \textit
+                        {Dictionary-based} systemen waarbij een dictionary e...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 26
+[][]
+ []
+
+
+./standvanzaken.tex:27: LaTeX Error: Lonely \item--perhaps a missing list envir
+onment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ^^I^^I\item \textit
+                        {Rule-based} systemen met een vooraf gekregen verzam...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 27
+[][]
+ []
+
+
+./standvanzaken.tex:28: LaTeX Error: Lonely \item--perhaps a missing list envir
+onment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 ^^I^^I\item \textit
+                        {ML-based} modellen trainen eerst op geannoteerde te...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 28
+[][]
  []
 
 [6]
-Overfull \hbox (7.83058pt too wide) in paragraph at lines 30--31
-[]\TU/Montserrat(2)/m/it/10.95 Deep-learning \TU/Montserrat(1)/m/n/10.95 of DL-
-modellen mappen de invoerdata aan een niet-lineaire
+
+./standvanzaken.tex:29: LaTeX Error: Lonely \item--perhaps a missing list envir
+onment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ^^I^^I\item \textit
+                        {Deep-learning} of DL-modellen mappen de invoerdata ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 29
+[][]
  []
+
+./standvanzaken.tex:30: Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.30 ^^I\end{itemize}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:30: Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.30 ^^I\end{itemize}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:30: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.30 ^^I\end{itemize}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:30: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.30 ^^I\end{itemize}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:30: Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.30 ^^I\end{itemize}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:30: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.30 ^^I\end{itemize}
+                     
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:30: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.30 ^^I\end{itemize}
+                     
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'Li2018' on page 7 undefined on input line 31.
+
+./standvanzaken.tex:32: Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.32 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:32: Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.32 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:32: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.32 \end{itemize}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:32: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.32 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:32: Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.32 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:32: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.32 \end{itemize}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:32: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.32 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 File: img/poslabeling.png Graphic file (type bmp)
 <img/poslabeling.png>
+
+LaTeX Warning: Citation 'Bilisci2021' on page 7 undefined on input line 38.
+
 File: img/nerlabeling.jpg Graphic file (type bmp)
 <img/nerlabeling.jpg>
+
+LaTeX Warning: Citation 'Bilisci2021' on page 7 undefined on input line 46.
+
 File: img/voorbeeld-manuele-vereenvoudiging.png Graphic file (type bmp)
 <img/voorbeeld-manuele-vereenvoudiging.png>
-[7] [8] [9] [10] [11]
-Overfull \hbox (1.3738pt too wide) in paragraph at lines 167--168
-\TU/Montserrat(1)/m/n/10.95 Kernzinnen achterhalen gebeurt op basis van zes bel
-angrijke features volgens []Khan
+[7]
+
+LaTeX Warning: Citation 'Kandula2010' on page 8 undefined on input line 66.
+
+
+LaTeX Warning: Citation 'Zeng2005' on page 8 undefined on input line 66.
+
+
+LaTeX Warning: Citation 'Kandula2010' on page 8 undefined on input line 72.
+
+./standvanzaken.tex:75: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.75 ^^I\item
+              Voor de \textit{PoS Tagger}-fase gebruikten \textcite{Kandula2...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:75: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.75 ^^I\item
+              Voor de \textit{PoS Tagger}-fase gebruikten \textcite{Kandula2...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:75: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.75 ^^I\item
+              Voor de \textit{PoS Tagger}-fase gebruikten \textcite{Kandula2...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:75: Undefined control sequence.
+<argument> \blx@bbl@data 
+                         
+l.75 ^^I\item
+              Voor de \textit{PoS Tagger}-fase gebruikten \textcite{Kandula2...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:75: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.75 ^^I\item
+              Voor de \textit{PoS Tagger}-fase gebruikten \textcite{Kandula2...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:75: Argument of \MT@res@a has an extra }.
+<inserted text> 
+                \par 
+l.75 ^^I\item
+              Voor de \textit{PoS Tagger}-fase gebruikten \textcite{Kandula2...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+##1,\TU/Montserrat(2)/m/it/10.95 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@fals
+e \ETC.
+./standvanzaken.tex:75: Paragraph ended before \MT@res@a was complete.
+<to be read again> 
+                   \par 
+l.75 ^^I\item
+              Voor de \textit{PoS Tagger}-fase gebruikten \textcite{Kandula2...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+./standvanzaken.tex:75: LaTeX Error: Lonely \item--perhaps a missing list envir
+onment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.75 ^^I\item V
+               oor de \textit{PoS Tagger}-fase gebruikten \textcite{Kandula2...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 75
+[][]
  []
 
-[12] [13]
-Overfull \hbox (1.99425pt too wide) in paragraph at lines 210--211
-[]\TU/Montserrat(1)/m/n/10.95 Logische inferenties waarbij de voorkennis wordt 
-opgeroepen en geïntegreerd
+
+LaTeX Warning: Citation 'Kandula2010' on page 8 undefined on input line 75.
+
+
+Overfull \hbox (6.02658pt too wide) in paragraph at lines 75--76
+[]\TU/Montserrat(1)/m/n/10.95 Voor de \TU/Montserrat(2)/m/it/10.95 PoS Tagger\T
+U/Montserrat(1)/m/n/10.95 -fase gebruikten [] beschikbare functies uit het open
+-
+ []
+
+[8]
+
+./standvanzaken.tex:76: LaTeX Error: Lonely \item--perhaps a missing list envir
+onment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.76 ^^I\item D
+               e \textit{Grammar Simplifier} module splitst de lange zin in ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 76
+[][]
  []
 
 
-Overfull \hbox (1.02338pt too wide) in paragraph at lines 217--218
+./standvanzaken.tex:77: LaTeX Error: Lonely \item--perhaps a missing list envir
+onment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 ^^I\item D
+               e \textit{Output Validator} module controleert de output van ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 77
+[][]
+ []
+
+./standvanzaken.tex:78: Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.78 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:78: Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.78 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:78: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.78 \end{itemize}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:78: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.78 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:78: Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.78 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:78: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.78 \end{itemize}
+                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:78: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.78 \end{itemize}
+                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'Siddharthan2006' on page 9 undefined on input line 86.
+
+
+
+LaTeX Warning: Citation 'Siddharthan2006' on page 9 undefined on input line 86.
+
+
+
+LaTeX Warning: Citation 'Siddharthan2006' on page 9 undefined on input line 90.
+
+
+
+LaTeX Warning: Citation 'Canning2000' on page 9 undefined on input line 94.
+
+
+LaTeX Warning: Citation 'Siddharthan2006' on page 9 undefined on input line 94.
+
+
+
+LaTeX Warning: Citation 'Coster2011' on page 9 undefined on input line 94.
+
+
+LaTeX Warning: Citation 'Bulte2018' on page 9 undefined on input line 94.
+
+
+LaTeX Warning: Citation 'DeBelder2010' on page 9 undefined on input line 98.
+
+
+LaTeX Warning: Citation 'Bulte2018' on page 9 undefined on input line 100.
+
+[9]
+
+LaTeX Warning: Citation 'Hahn2000' on page 10 undefined on input line 114.
+
+
+LaTeX Warning: Citation 'Hahn2000' on page 10 undefined on input line 114.
+
+
+Overfull \hbox (19.63348pt too wide) in paragraph at lines 114--115
+[]\TU/Montserrat(1)/m/n/10.95 Teksten machinaal samenvatten is geen nieuw conce
+pt. Het onderzoek van []
+ []
+
+./standvanzaken.tex:117: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.117 ^^I\item
+               Informatieve samenvattingen vervangen de oorspronkelijke teks...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:117: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.117 ^^I\item
+               Informatieve samenvattingen vervangen de oorspronkelijke teks...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:117: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.117 ^^I\item
+               Informatieve samenvattingen vervangen de oorspronkelijke teks...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:117: Undefined control sequence.
+<argument> \blx@bbl@data 
+                         
+l.117 ^^I\item
+               Informatieve samenvattingen vervangen de oorspronkelijke teks...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:117: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.117 ^^I\item
+               Informatieve samenvattingen vervangen de oorspronkelijke teks...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:117: Argument of \MT@res@a has an extra }.
+<inserted text> 
+                \par 
+l.117 ^^I\item
+               Informatieve samenvattingen vervangen de oorspronkelijke teks...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+##1,\TU/Montserrat(2)/b/n/10.95 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@false
+ \ETC.
+./standvanzaken.tex:117: Paragraph ended before \MT@res@a was complete.
+<to be read again> 
+                   \par 
+l.117 ^^I\item
+               Informatieve samenvattingen vervangen de oorspronkelijke teks...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+./standvanzaken.tex:117: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.117 ^^I\item I
+                nformatieve samenvattingen vervangen de oorspronkelijke teks...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 117
+[][]
+ []
+
+
+./standvanzaken.tex:118: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.118 ^^I\item I
+                ndicatieve samenvattingen behouden enkel een tekst met links...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 118
+[][]
+ []
+
+
+./standvanzaken.tex:119: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 ^^I\item K
+                ritische samenvattingen of \textit{reviews} bestaan uit de k...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 119
+[][]
+ []
+
+./standvanzaken.tex:120: Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.120 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:120: Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.120 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:120: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.120 \end{itemize}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:120: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.120 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:120: Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.120 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:120: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.120 \end{itemize}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:120: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.120 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'Hahn2000' on page 10 undefined on input line 124.
+
+
+LaTeX Warning: Citation 'Hahn2000' on page 10 undefined on input line 124.
+
+
+LaTeX Warning: Citation 'Hahn2000' on page 10 undefined on input line 126.
+
+
+LaTeX Warning: Citation 'Verma2020' on page 10 undefined on input line 130.
+
+[10]
+./standvanzaken.tex:133: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.133 ^^I\item
+               Graph-based
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:133: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.133 ^^I\item
+               Graph-based
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:133: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.133 ^^I\item
+               Graph-based
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:133: Undefined control sequence.
+<argument> \blx@bbl@data 
+                         
+l.133 ^^I\item
+               Graph-based
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:133: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.133 ^^I\item
+               Graph-based
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:133: Argument of \MT@res@a has an extra }.
+<inserted text> 
+                \par 
+l.133 ^^I\item
+               Graph-based
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+##1,\TU/Montserrat(2)/m/n/10.95 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@false
+ \ETC.
+./standvanzaken.tex:133: Paragraph ended before \MT@res@a was complete.
+<to be read again> 
+                   \par 
+l.133 ^^I\item
+               Graph-based
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+./standvanzaken.tex:133: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 ^^I\item G
+                raph-based
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 133
+[][]
+ []
+
+
+./standvanzaken.tex:134: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.134 ^^I\item M
+                aximal Marginal Relevance
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 134
+[][]
+ []
+
+
+./standvanzaken.tex:135: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.135 ^^I\item M
+                eta-heuristic-based
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 135
+[][]
+ []
+
+./standvanzaken.tex:136: Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.136 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:136: Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.136 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:136: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.136 \end{itemize}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:136: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.136 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:136: Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.136 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:136: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.136 \end{itemize}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:136: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.136 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'Parveen2015' on page 11 undefined on input line 143.
+
+
+LaTeX Warning: Citation 'Parveen2015' on page 11 undefined on input line 143.
+
+
+LaTeX Warning: Citation 'Parveen2015' on page 11 undefined on input line 143.
+
+[11]
+
+LaTeX Warning: Citation 'Carbonell1998' on page 12 undefined on input line 152.
+
+
+
+LaTeX Warning: Citation 'McDonald2007' on page 12 undefined on input line 154.
+
+
+LaTeX Warning: Citation 'McDonald2007' on page 12 undefined on input line 154.
+
+
+LaTeX Warning: Citation 'Lin2010' on page 12 undefined on input line 154.
+
+
+LaTeX Warning: Citation 'Verma2020' on page 12 undefined on input line 158.
+
+
+LaTeX Warning: Citation 'Premjith2015' on page 12 undefined on input line 158.
+
+[12]
+
+LaTeX Warning: Citation 'Rani2021' on page 13 undefined on input line 160.
+
+
+LaTeX Warning: Citation 'McKeown1999' on page 13 undefined on input line 171.
+
+
+LaTeX Warning: Citation 'Hahn2000' on page 13 undefined on input line 171.
+
+
+LaTeX Warning: Citation 'Hahn2000' on page 13 undefined on input line 173.
+
+./standvanzaken.tex:176: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.176 ^^I\item
+               Met een lineair gewicht model. Iedere teksteenheid wordt gewo...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:176: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.176 ^^I\item
+               Met een lineair gewicht model. Iedere teksteenheid wordt gewo...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:176: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.176 ^^I\item
+               Met een lineair gewicht model. Iedere teksteenheid wordt gewo...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:176: Undefined control sequence.
+<argument> \blx@bbl@data 
+                         
+l.176 ^^I\item
+               Met een lineair gewicht model. Iedere teksteenheid wordt gewo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:176: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.176 ^^I\item
+               Met een lineair gewicht model. Iedere teksteenheid wordt gewo...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:176: Argument of \MT@res@a has an extra }.
+<inserted text> 
+                \par 
+l.176 ^^I\item
+               Met een lineair gewicht model. Iedere teksteenheid wordt gewo...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+##1,\TU/Montserrat(2)/b/n/10.95 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@false
+ \ETC.
+./standvanzaken.tex:176: Paragraph ended before \MT@res@a was complete.
+<to be read again> 
+                   \par 
+l.176 ^^I\item
+               Met een lineair gewicht model. Iedere teksteenheid wordt gewo...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+./standvanzaken.tex:176: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 ^^I\item M
+                et een lineair gewicht model. Iedere teksteenheid wordt gewo...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 176
+[][]
+ []
+
+
+./standvanzaken.tex:177: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 ^^I\item E
+                en gewicht model op basis van de statistische opvallendheid ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 177
+[][]
+ []
+
+./standvanzaken.tex:178: Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.178 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:178: Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.178 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:178: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.178 \end{itemize}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:178: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.178 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:178: Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.178 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:178: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.178 \end{itemize}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:178: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.178 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'Nallapati2017' on page 13 undefined on input line 180.
+
+
+
+LaTeX Warning: Citation 'Khan2014' on page 13 undefined on input line 186.
+
+
+LaTeX Warning: Citation 'Zhang2020' on page 13 undefined on input line 188.
+
+[13]
+./standvanzaken.tex:203: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.203 ^^I\item
+               Het \textbf{achterstandscriterium} wijst aan dat er een ernst...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:203: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.203 ^^I\item
+               Het \textbf{achterstandscriterium} wijst aan dat er een ernst...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:203: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.203 ^^I\item
+               Het \textbf{achterstandscriterium} wijst aan dat er een ernst...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:203: Undefined control sequence.
+<argument> \blx@bbl@data 
+                         
+l.203 ^^I\item
+               Het \textbf{achterstandscriterium} wijst aan dat er een ernst...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:203: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.203 ^^I\item
+               Het \textbf{achterstandscriterium} wijst aan dat er een ernst...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:203: Argument of \MT@res@a has an extra }.
+<inserted text> 
+                \par 
+l.203 ^^I\item
+               Het \textbf{achterstandscriterium} wijst aan dat er een ernst...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+##1,\TU/Montserrat(0)/b/n/12 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@false \E
+TC.
+./standvanzaken.tex:203: Paragraph ended before \MT@res@a was complete.
+<to be read again> 
+                   \par 
+l.203 ^^I\item
+               Het \textbf{achterstandscriterium} wijst aan dat er een ernst...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+./standvanzaken.tex:203: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.203 ^^I\item H
+                et \textbf{achterstandscriterium} wijst aan dat er een ernst...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 203
+[][]
+ []
+
+
+./standvanzaken.tex:204: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.204 ^^I\item H
+                et \textbf{hardnekkigheidscriterium} houdt in dat de lees- o...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 204
+[][]
+ []
+
+
+./standvanzaken.tex:205: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 ^^I\item H
+                et \textbf{exclusiviteitscriterium} volgens Ghesquière wijst...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 205
+[][]
+ []
+
+./standvanzaken.tex:206: Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.206 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:206: Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.206 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:206: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.206 \end{itemize}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:206: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.206 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:206: Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.206 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:206: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.206 \end{itemize}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:206: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.206 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:213: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.213 ^^I\item
+               De ernst of uigebreidheid van een stoornis.
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:213: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.213 ^^I\item
+               De ernst of uigebreidheid van een stoornis.
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:213: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.213 ^^I\item
+               De ernst of uigebreidheid van een stoornis.
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:213: Undefined control sequence.
+<argument> \blx@bbl@data 
+                         
+l.213 ^^I\item
+               De ernst of uigebreidheid van een stoornis.
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:213: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.213 ^^I\item
+               De ernst of uigebreidheid van een stoornis.
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:213: Argument of \MT@res@a has an extra }.
+<inserted text> 
+                \par 
+l.213 ^^I\item
+               De ernst of uigebreidheid van een stoornis.
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+##1,\TU/Montserrat(2)/b/n/10.95 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@false
+ \ETC.
+./standvanzaken.tex:213: Paragraph ended before \MT@res@a was complete.
+<to be read again> 
+                   \par 
+l.213 ^^I\item
+               De ernst of uigebreidheid van een stoornis.
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+./standvanzaken.tex:213: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.213 ^^I\item D
+                e ernst of uigebreidheid van een stoornis.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 213
+[][]
+ []
+
+
+./standvanzaken.tex:214: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.214 ^^I\item D
+                e gevolgen van een stoornis, zoals faalangst.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 214
+[][]
+ []
+
+
+./standvanzaken.tex:215: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 ^^I\item D
+                e mate waarin iemand al dan niet kan compenseren.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 215
+[][]
+ []
+
+
+./standvanzaken.tex:216: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.216 ^^I\item D
+                e secundaire kenmerken zoals problemen met werkhouden en str...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 216
+[][]
+ []
+
+./standvanzaken.tex:217: Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.217 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:217: Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.217 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:217: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.217 \end{itemize}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:217: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.217 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:217: Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.217 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:217: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.217 \end{itemize}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:217: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.217 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[14]
+./standvanzaken.tex:224: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.224 ^^I\item
+               De handelingsgerichte opbouw en de analyse van het begrijpend...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:224: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.224 ^^I\item
+               De handelingsgerichte opbouw en de analyse van het begrijpend...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:224: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.224 ^^I\item
+               De handelingsgerichte opbouw en de analyse van het begrijpend...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:224: Undefined control sequence.
+<argument> \blx@bbl@data 
+                         
+l.224 ^^I\item
+               De handelingsgerichte opbouw en de analyse van het begrijpend...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:224: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.224 ^^I\item
+               De handelingsgerichte opbouw en de analyse van het begrijpend...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:224: Argument of \MT@res@a has an extra }.
+<inserted text> 
+                \par 
+l.224 ^^I\item
+               De handelingsgerichte opbouw en de analyse van het begrijpend...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+##1,\TU/Montserrat(2)/m/n/10.95 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@false
+ \ETC.
+./standvanzaken.tex:224: Paragraph ended before \MT@res@a was complete.
+<to be read again> 
+                   \par 
+l.224 ^^I\item
+               De handelingsgerichte opbouw en de analyse van het begrijpend...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+./standvanzaken.tex:224: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.224 ^^I\item D
+                e handelingsgerichte opbouw en de analyse van het begrijpend...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 224
+[][]
+ []
+
+
+./standvanzaken.tex:225: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.225 ^^I\item H
+                et begrip van complextalige informatie in een tekst in kaart...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 225
+[][]
+ []
+
+
+./standvanzaken.tex:226: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.226 ^^I\item H
+                et interpretatieniveau van de lezer.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 226
+[][]
+ []
+
+
+./standvanzaken.tex:227: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 ^^I\item V
+                erbanden leggen met de gelezen informatie op een actieve niv...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 227
+[][]
+ []
+
+
+./standvanzaken.tex:228: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.228 ^^I\item C
+                ategorale inferenties waar de lezer een begrip in een bepaal...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 228
+[][]
+ []
+
+
+./standvanzaken.tex:229: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 ^^I\item L
+                ogische inferenties waarbij de voorkennis wordt opgeroepen e...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 229
+[][]
+ []
+
+
+./standvanzaken.tex:230: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.230 ^^I\item B
+                ij de anaforische inferenties wordt er gepolst naar het gebr...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 230
+[][]
+ []
+
+
+./standvanzaken.tex:231: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.231 ^^I\item C
+                ausale en anaforische inferenties zijn de belangrijkste inte...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 231
+[][]
+ []
+
+
+./standvanzaken.tex:232: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.232 ^^I\item O
+                m de denkrelatie uit te voeren, moeten meerdere elementen ui...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 232
+[][]
+ []
+
+
+./standvanzaken.tex:233: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.233 ^^I\item E
+                en kind moet verder kunnen redeneren over de inhoud van een ...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 233
+[][]
+ []
+
+./standvanzaken.tex:234: Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.234 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:234: Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.234 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:234: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.234 \end{itemize}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:234: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.234 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:234: Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.234 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:234: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.234 \end{itemize}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:234: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.234 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (1.02338pt too wide) in paragraph at lines 236--237
 []\TU/Montserrat(1)/m/n/10.95 Het onderzoek van VanVreckem2022 benadrukt dat th
 erapeuten in de eerste plaats
  []
 
-[14]
-Overfull \hbox (6.03845pt too wide) in paragraph at lines 221--222
-[]\TU/Montserrat(1)/m/n/10.95 Kinderen met dyslexie hebben meer problemen met d
-e spelling van bestaande
- []
-
 [15]
-Overfull \hbox (3.63095pt too wide) in paragraph at lines 236--237
-\TU/Montserrat(1)/m/n/10.95 ring van leesbegrip en het spreken in qua betekenis
- onbedoelde klanken, woor-
+./standvanzaken.tex:239: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.239 ^^I\item
+               Kinderen met dyslexie ondervinden minder problemen bij het sp...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:239: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.239 ^^I\item
+               Kinderen met dyslexie ondervinden minder problemen bij het sp...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:239: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.239 ^^I\item
+               Kinderen met dyslexie ondervinden minder problemen bij het sp...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:239: Undefined control sequence.
+<argument> \blx@bbl@data 
+                         
+l.239 ^^I\item
+               Kinderen met dyslexie ondervinden minder problemen bij het sp...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:239: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.239 ^^I\item
+               Kinderen met dyslexie ondervinden minder problemen bij het sp...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:239: Argument of \MT@res@a has an extra }.
+<inserted text> 
+                \par 
+l.239 ^^I\item
+               Kinderen met dyslexie ondervinden minder problemen bij het sp...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+##1,\TU/Montserrat(2)/m/n/10.95 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@false
+ \ETC.
+./standvanzaken.tex:239: Paragraph ended before \MT@res@a was complete.
+<to be read again> 
+                   \par 
+l.239 ^^I\item
+               Kinderen met dyslexie ondervinden minder problemen bij het sp...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+./standvanzaken.tex:239: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.239 ^^I\item K
+                inderen met dyslexie ondervinden minder problemen bij het sp...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 239
+[][]
  []
 
 
-Overfull \hbox (11.79747pt too wide) in paragraph at lines 238--239
-\TU/Montserrat(1)/m/n/10.95 ‘aandachts-dyslexie’ noemde, waarin kinderen letter
-s correct identificeren, maar
+./standvanzaken.tex:240: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.240 ^^I\item K
+                inderen met dyslexie hebben meer problemen met de spelling v...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 240
+[][]
  []
+
+./standvanzaken.tex:241: Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.241 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:241: Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.241 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:241: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.241 \end{itemize}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:241: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.241 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:241: Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.241 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:241: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.241 \end{itemize}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:241: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.241 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'Filipak2020' on page 16 undefined on input line 251.
+
+./standvanzaken.tex:254: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.254 ^^I\item
+               Langzame woordbenoeming
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:254: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.254 ^^I\item
+               Langzame woordbenoeming
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:254: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.254 ^^I\item
+               Langzame woordbenoeming
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:254: Undefined control sequence.
+<argument> \blx@bbl@data 
+                         
+l.254 ^^I\item
+               Langzame woordbenoeming
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:254: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.254 ^^I\item
+               Langzame woordbenoeming
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:254: Argument of \MT@res@a has an extra }.
+<inserted text> 
+                \par 
+l.254 ^^I\item
+               Langzame woordbenoeming
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+##1,\TU/Montserrat(2)/b/n/10.95 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@false
+ \ETC.
+./standvanzaken.tex:254: Paragraph ended before \MT@res@a was complete.
+<to be read again> 
+                   \par 
+l.254 ^^I\item
+               Langzame woordbenoeming
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+./standvanzaken.tex:254: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.254 ^^I\item L
+                angzame woordbenoeming
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 254
+[][]
+ []
+
+
+./standvanzaken.tex:255: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.255 ^^I\item B
+                egripsproblemen
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 255
+[][]
+ []
+
+
+./standvanzaken.tex:256: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.256 ^^I\item H
+                ardnekkig letter-voor-letter lezen
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 256
+[][]
+ []
+
+
+./standvanzaken.tex:257: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.257 ^^I\item W
+                oordherkenning
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 257
+[][]
+ []
+
+
+./standvanzaken.tex:258: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.258 ^^I\item V
+                isuele dysfunctie
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 258
+[][]
+ []
+
+
+./standvanzaken.tex:259: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.259 ^^I\item L
+                etter- en klankvorming
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 259
+[][]
+ []
+
+./standvanzaken.tex:260: Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.260 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 [16]
-Overfull \hbox (1.6548pt too wide) in paragraph at lines 267--268
-\TU/Montserrat(1)/m/n/10.95 de eindgebruiker een keuze aanbieden om aan te pass
-en wat vereenvoudigd wordt,
+./standvanzaken.tex:260: Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.260 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:260: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.260 \end{itemize}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:260: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.260 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:260: Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.260 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:260: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.260 \end{itemize}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:260: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.260 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:273: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.273 
+      
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:273: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.273 
+      
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:273: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.273 
+      
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:273: Undefined control sequence.
+<argument> \blx@bbl@data 
+                         
+l.273 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:273: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.273 
+      
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:273: Argument of \MT@res@a has an extra }.
+<inserted text> 
+                \par 
+l.273 
+      
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+##1,\TU/Montserrat(0)/b/n/10.95 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@false
+ \ETC.
+./standvanzaken.tex:273: Paragraph ended before \MT@res@a was complete.
+<to be read again> 
+                   \par 
+l.273 
+      
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+./standvanzaken.tex:274: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.274 ^^I\item H
+                ardnekkig letter-voor-letter lezen: Milene Bonte merkt op: w...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 274
+[][]
  []
 
-[17]) (./methodologie.tex [18]
+
+./standvanzaken.tex:276: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.276 ^^I\item W
+                oordherkenning: Onderzoeken waarbij de oogbewegingen van lez...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 276
+[][]
+ []
+
+[17]
+
+./standvanzaken.tex:278: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.278 ^^I\item V
+                isuele dysfunctie
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 278
+[][]
+ []
+
+
+./standvanzaken.tex:280: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.280 ^^I\item L
+                etter- en klankverwarring: Verder gaat het om de verwisselin...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 280
+[][]
+ []
+
+./standvanzaken.tex:281: Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.281 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:281: Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.281 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:281: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.281 \end{itemize}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:281: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.281 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:281: Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.281 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:281: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.281 \end{itemize}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:281: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.281 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation 'Niemeijer2010' on page 18 undefined on input line 305.
+
+
+
+LaTeX Warning: Citation 'Gooding2022' on page 18 undefined on input line 307.
+
+
+LaTeX Warning: Citation 'Punardeep2020' on page 18 undefined on input line 310.
+
+
+
+LaTeX Warning: Citation 'Xu2015' on page 18 undefined on input line 310.
+
+[18]
+
+LaTeX Warning: Citation 'Gooding2022' on page 19 undefined on input line 312.
+
+./standvanzaken.tex:318: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.318 ^^I\item
+               Acroniemen
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:318: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.318 ^^I\item
+               Acroniemen
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:318: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.318 ^^I\item
+               Acroniemen
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:318: Undefined control sequence.
+<argument> \blx@bbl@data 
+                         
+l.318 ^^I\item
+               Acroniemen
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:318: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.318 ^^I\item
+               Acroniemen
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:318: Argument of \MT@res@a has an extra }.
+<inserted text> 
+                \par 
+l.318 ^^I\item
+               Acroniemen
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+##1,\TU/Montserrat(0)/b/n/12 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@false \E
+TC.
+./standvanzaken.tex:318: Paragraph ended before \MT@res@a was complete.
+<to be read again> 
+                   \par 
+l.318 ^^I\item
+               Acroniemen
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+./standvanzaken.tex:318: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.318 ^^I\item A
+                croniemen
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 318
+[][]
+ []
+
+
+./standvanzaken.tex:319: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.319 ^^I\item H
+                omoniemen
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 319
+[][]
+ []
+
+./standvanzaken.tex:320: Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.320 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:320: Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.320 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:320: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.320 \end{itemize}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:320: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.320 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:320: Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.320 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:320: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.320 \end{itemize}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:320: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.320 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:325: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.325 ^^I\item
+               Kerninhoud verliezen
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:325: Illegal parameter number in definition of \NewCount.
+<to be read again> 
+                   1
+l.325 ^^I\item
+               Kerninhoud verliezen
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+./standvanzaken.tex:325: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.325 ^^I\item
+               Kerninhoud verliezen
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:325: Undefined control sequence.
+<argument> \blx@bbl@data 
+                         
+l.325 ^^I\item
+               Kerninhoud verliezen
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:325: Missing \endcsname inserted.
+<to be read again> 
+                   \protect 
+l.325 ^^I\item
+               Kerninhoud verliezen
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+./standvanzaken.tex:325: Argument of \MT@res@a has an extra }.
+<inserted text> 
+                \par 
+l.325 ^^I\item
+               Kerninhoud verliezen
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+##1,\TU/Montserrat(0)/b/n/12 ,##2##3\@nnil {\ifx ##2\@empty \MT@inlist@false \E
+TC.
+./standvanzaken.tex:325: Paragraph ended before \MT@res@a was complete.
+<to be read again> 
+                   \par 
+l.325 ^^I\item
+               Kerninhoud verliezen
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+
+./standvanzaken.tex:325: LaTeX Error: Lonely \item--perhaps a missing list envi
+ronment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.325 ^^I\item K
+                erninhoud verliezen
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 325
+[][]
+ []
+
+./standvanzaken.tex:326: Undefined control sequence.
+\enit@enditemize ->\enit@after 
+                               \endlist \ifx \enit@series \relax \else \ifnu...
+l.326 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:326: Undefined control sequence.
+\enit@enditemize ...x \else \ifnum \enit@resuming 
+                                                  =\@ne \enit@setresumekeys ...
+l.326 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:326: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.326 \end{itemize}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:326: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.326 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:326: Undefined control sequence.
+\enit@enditemize ...ist \fi \ifnum \enit@resuming 
+                                                  =\thr@@ \enit@setresumekey...
+l.326 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./standvanzaken.tex:326: Missing number, treated as zero.
+<to be read again> 
+                   =
+l.326 \end{itemize}
+                   
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+./standvanzaken.tex:326: Undefined control sequence.
+\enit@setresumekeys ...xpandafter {\enit@savekeys 
+                                                  }\xdef \enit@afterlist {#2...
+l.326 \end{itemize}
+                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+) (./methodologie.tex [19]
 Hoofdstuk 3.
-[19
+[20
 
-]) (./conclusie.tex [20]
+]) (./conclusie.tex [21]
 Hoofdstuk 4.
-[21
+[22
 
-]) [22]
+]) [23]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
+
+LaTeX Warning: Citation 'Dapaah2022' on page 24 undefined on input line 8.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 8--8
 [][][][]\TU/Montserrat(2)/m/n/9 https://www.vlaanderen.be/publicaties/stem-agen
 da-2030-stem-competenties-voor-een-
  []
 
-[23
+
+LaTeX Warning: Citation 'Barnett2020' on page 24 undefined on input line 8.
+
+[24
 
 ]
-Overfull \hbox (3.46771pt too wide) in paragraph at lines 34--35
-\TU/Montserrat(1)/m/n/10.95 ([][]2022[][]) benadrukt dat de toename in kennis v
-oor nieuwe toepassingen zorgde. Tekst-
- []
+../voorstel/voorstel-inhoud.tex:18: Illegal parameter number in definition of \
+NewCount.
+<to be read again> 
+                   1
+l.18 ^^I\item
+              Welke aanpakken zijn er voor geautomatiseerde tekstvereenvoudi...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
-[24]
-Overfull \hbox (2.54906pt too wide) in paragraph at lines 38--39
-[]\TU/Montserrat(1)/m/n/10.95 Tekstvereenvoudiging behoort tot de zijtak van \T
-U/Montserrat(2)/m/it/10.95 Natural Language Processing \TU/Montserrat(1)/m/n/10
-.95 (NLP)
- []
+../voorstel/voorstel-inhoud.tex:18: Illegal parameter number in definition of \
+NewCount.
+<to be read again> 
+                   1
+l.18 ^^I\item
+              Welke aanpakken zijn er voor geautomatiseerde tekstvereenvoudi...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
 
-[25]
-Overfull \hbox (14.44443pt too wide) in paragraph at lines 54--55
-[]\TU/Montserrat(1)/m/n/10.95 Het onderzoek van []Sciforce ([][]2020[][]) haalt
- aan dat het merendeel van NLP-toepassingen
- []
+../voorstel/voorstel-inhoud.tex:18: Undefined control sequence.
+<argument> \blx@bbl@data 
+                         
+l.18 ^^I\item
+              Welke aanpakken zijn er voor geautomatiseerde tekstvereenvoudi...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-[26]
-Overfull \hbox (1.14409pt too wide) in paragraph at lines 65--66
-\TU/Montserrat(1)/m/n/10.95 wel gebruikt worden, zijn vooral online leerplatfor
-men voor zelfstandig werken. Ook
- []
+)
+./CluyseDylanBP.tex:160: Incomplete \iffalse; all text was ignored after line 1
+8.
+<inserted text> 
+                \fi 
+l.160 \input{../voorstel/voorstel-inhoud}
+                                         
+The file ended while I was skipping conditional text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
 
-[27]
-File: img/Screenshot_302.png Graphic file (type bmp)
-<img/Screenshot_302.png>
- [28] [29]) [30]
-Overfull \hbox (2.13918pt too wide) in paragraph at lines 172--172
-\TU/Montserrat(1)/m/n/10.95 Dutch. \TU/Montserrat(2)/m/it/10.95 Computational L
-inguistics in the Netherlands Journal\TU/Montserrat(1)/m/n/10.95 , \TU/Montserr
-at(2)/m/it/10.95 8\TU/Montserrat(1)/m/n/10.95 , 24–48. [][]$[][][][][] []
- []
+)
+! Incomplete \iffalse; all text was ignored after line 169.
+<inserted text> 
+                \fi 
+<*> ./CluyseDylanBP.tex
+                       
+The file ended while I was skipping conditional text.
+This kind of error happens when you say `\if...' and forget
+the matching `\fi'. I've inserted a `\fi'; this might work.
 
+! Emergency stop.
+<*> ./CluyseDylanBP.tex
+                       
+*** (job aborted, no legal \end found)
 
-Overfull \hbox (17.6088pt too wide) in paragraph at lines 172--172
-\TU/Montserrat(1)/m/n/10.95 E. M. (2022). Students with dyslexia between school
- and university: Post-diploma
- []
-
-[31
-
-
-]
-Overfull \hbox (0.81898pt too wide) in paragraph at lines 172--172
-\TU/Montserrat(2)/m/it/10.95 shop on Speech and Language Processing for Assisti
-ve Technologies (SLPAT-
- []
-
-
-Overfull \hbox (4.43297pt too wide) in paragraph at lines 172--172
-\TU/Montserrat(2)/m/it/10.95 sing\TU/Montserrat(1)/m/n/10.95 . Pearson Educatio
-n. [][]$[][][][][] [] [] [] [][][][][] [] [][][][][][] [] [][] [] [][][][][] []
- [][] [] [][][][][][][][][][][][]$[][] 
- []
-
-[32] [33]
-Overfull \hbox (18.56651pt too wide) in paragraph at lines 172--172
-\TU/Montserrat(2)/m/it/10.95 on Natural Language Processing 2014\TU/Montserrat(
-1)/m/n/10.95 , \TU/Montserrat(2)/m/it/10.95 4\TU/Montserrat(1)/m/n/10.95 (1). [
-][]$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][][] [] [][][][][][][
-][][][][][] []
- []
-
-[34] (../output/CluyseDylanBP.aux)
-Package rerunfilecheck Info: File `CluyseDylanBP.out' has not changed.
-(rerunfilecheck)             Checksum: A0D5374A803AB68D9372C21B97AA796A;4096.
-Package logreq Info: Writing requests to 'CluyseDylanBP.run.xml'.
-\openout1 = `CluyseDylanBP.run.xml'.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 46488 strings out of 478657
- 908089 string characters out of 5861312
- 2014630 words of memory out of 5000000
- 65267 multiletter control sequences out of 15000+600000
+ 46191 strings out of 478657
+ 900471 string characters out of 5861312
+ 2004703 words of memory out of 5000000
+ 64978 multiletter control sequences out of 15000+600000
  406482 words of font info for 98 fonts, out of 8000000 for 9000
  351 hyphenation exceptions out of 8191
- 113i,12n,139p,2569b,7099s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-Output written on ../output/CluyseDylanBP.xdv (41 pages, 965728 bytes).
+ 113i,11n,139p,2522b,6224s stack positions out of 5000i,500n,10000p,200000b,80000s
+Output written on ../output/CluyseDylanBP.xdv (31 pages, 697356 bytes).

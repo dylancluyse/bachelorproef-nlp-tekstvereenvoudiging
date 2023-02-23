@@ -1871,11 +1871,3 @@ INPUT ../output/../voorstel/voorstel-inhoud.tex
 INPUT ../voorstel/voorstel-inhoud.tex
 INPUT ../output/../voorstel/voorstel-inhoud.tex
 INPUT ../voorstel/voorstel-inhoud.tex
-INPUT ./img/Screenshot_302.png
-INPUT ./img/Screenshot_302.png
-INPUT img/Screenshot_302.png
-INPUT ../output/CluyseDylanBP.aux
-INPUT ../output/CluyseDylanBP.out
-INPUT ../output/CluyseDylanBP.out
-INPUT ../output/CluyseDylanBP.run.xml
-OUTPUT ../output/CluyseDylanBP.run.xml
