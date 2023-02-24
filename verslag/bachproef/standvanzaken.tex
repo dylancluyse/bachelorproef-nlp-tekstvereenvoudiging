@@ -177,7 +177,10 @@ De nadruk bij extractief samenvatten ligt in het kiezen van de \textit{salient t
 	\item Een gewicht model op basis van de statistische opvallendheid van een eenheid. Zo wordt er rekening gehouden met de aanwezigheid van een woord in (sub)titels.
 \end{itemize}
 
-\textcite{Nallapati2017} wilden de nauwkeurigheid van andere modellen overbruggen. Dit doen ze met \textit{SummaRuNNer}\footnote{https://github.com/hpzhao/SummaRuNNer}, een oplossing voor het extractief samenvatten van teksten met een neuraal netwerk. De toepassing werd opgebouwd met PyTorch in Python en bestaat uit een combinatie van drie modellen: een recurrent neuraal netwerk, een convolutioneel recurrent neuraal netwerk en een \textit{hiërarchical attention network}.
+% resultaten lineair gewicht model
+% resultaten statistische opvallendheid
+
+\textcite{Nallapati2017} wilden de nauwkeurigheid van andere modellen overbruggen. Dit doen ze met \textit{SummaRuNNer}\footnote{https://github.com/hpzhao/SummaRuNNer}, een oplossing voor het extractief samenvatten van teksten met een neuraal netwerk. De toepassing werd opgebouwd met PyTorch in  en bestaat uit een combinatie van drie modellen: een recurrent neuraal netwerk, een convolutioneel recurrent neuraal netwerk en een \textit{hiërarchical attention network}.
 
 \subsubsection{Programmeren}
 
@@ -186,6 +189,10 @@ De nadruk bij extractief samenvatten ligt in het kiezen van de \textit{salient t
 Kernzinnen achterhalen gebeurt met zes belangrijke features volgens \textcite{Khan2014}. Zij onderzochten de verschillende manieren om een tekst samen te vatten. Ze halen een semantische en een structuurgerichte aanpak aan.
 
 Om een abstractieve samenvatting op te bouwen bestaan er verschillende modellen. Het Pegasus-model vloeide voort uit een onderzoek van \textcite{Zhang2020} over het afhandelen van \textit{gap-sentences} met pre-trained models voor samenvatting met NLP. Pegasus haalt kernzinnen uit een invoertekst en zal die zinnen vervolgens als één uitvoerzin uitschrijven. Dit model werd getrained en beoordeeld op samenvattingstaken zoals emails, patenten, rekeningen en ook wetenschappelijke artikelen. Hieronder een code-snippet van hoe een simpele abstractieve samenvatting kan worden gemaakt met Google Pegasus.
+
+\begin{lstlisting}[language=Python]
+def test return
+\end{lstlisting}
 
 \subsection{Conclusie}
 

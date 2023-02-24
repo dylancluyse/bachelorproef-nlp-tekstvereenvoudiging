@@ -12,6 +12,35 @@
 %   explicit approval!), remove the option "dutch," or replace with "english".
 
 \usepackage{lipsum} % For blind text, can be removed after adding actual content
+\usepackage{listings}
+
+\lstdefinelanguage{Python}{
+	keywords=[1]{def, return, for, in, class, from, import},
+	keywordstyle=[1]\color{Bittersweet},
+	keywords=[2]{conn, cursor, rows, session, engine, metadata, Base, session, connect, create\_engine, Table, desc, func, sessionmaker, declarative, query},
+	keywordstyle=[2]\color{purple},	
+	keywords=[3]{cursor(), fetchall, close, execute}, 
+	keywordstyle=[3]\color{violet},
+	keywords=[4]{pyodbc, sqlalchemy},
+	keywordstyle=[4]\color{RoyalBlue},
+	keywords=[5]{select, with\_only\_columns, where, order\_by, limit},
+	keywordstyle=[5]\color{Aquamarine},
+	keywords=[6]{},
+	keywordstyle=[6]\color{OliveGreen}\bfseries,
+	keywords=[7]{},
+	keywordstyle=[7]\color{PineGreen},
+	keywords=[8]{pickuplatitude, pickuplongitude, dropofflatitude, dropofflongitude}, %input
+	keywordstyle=[8]\color{Periwinkle},
+	identifierstyle=\color{black},
+	sensitive=false,
+	comment=[l]{//},
+	morecomment=[s]{/*}{*/},
+	commentstyle=\color{red}\ttfamily,
+	stringstyle=\color{Sepia}\ttfamily,
+	morestring=[b]',
+	morestring=[b]"
+}
+
 
 %% Pictures to include in the text can be put in the graphics/ folder
 \graphicspath{{graphics/}}
