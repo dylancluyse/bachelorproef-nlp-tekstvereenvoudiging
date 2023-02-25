@@ -1,9 +1,24 @@
 \chapter{\IfLanguageName{dutch}{Stand van zaken}{State of the art}}%
 \label{ch:stand-van-zaken}
 
+% todo bronnen:
+
+% \textcite{Rosetti2022}
+
 \section{Tekstvereenvoudiging}
 
-Eerst moet er een technologische fundering gelegd worden over de basisconcepten en verschillende soorten van tekstvereenvoudiging. Tekstvereenvoudiging is het proces waarin het technisch leesniveau en/of woordgebruik van een geschreven tekst wordt verminderd. Zo mag de vereenvoudiging geen invloed hebben op de betekenis van de kerninhoud. Het langlopende onderzoek van Advaith Siddharthan is met meer dan 140 citaties een goed vertrekpunt voor dit onderzoek. Volgens \autocite{Siddharthan2014} bestaat een complete vereenvoudiging van een tekst uit precies vier transformaties. Binnen machinaal leren (ML) is tekstvereenvoudiging een zijtak van natuurlijke taalverwerking. % Daarnaast is tekstvereenvoudiging een taalbewerking dat geautomatiseerd kan worden.
+% teksten vereenvoudigen tips:
+% * inkorten: teksten meermaals lezen en een samenvatting schrijven met een tekstlengte die haalbaar is voor scholieren
+% * 'opwarmen': woordenschat, grammatica of aanleg vooraf meegeven; vooraf ook zinnen markeren die voor scholieren belangrijk zijn; extra inleiding schrijven; vragen vooraf schrijven om scholieren te prikkelen over wat ze zometeen zullen lezen
+% * aanschouwelijkheid met afbeeldingen; 
+% * woorden aanpassen naargelang moeilijkheidsgraad; de schrijver suggereert om de moeilijkheidsgraad te baseren op de leesleeftijd van de persoon waarvoor dit wordt vereenvoudigd; evt aanhalen dat de leesleeftijd niet gelijk is per graad
+% * in een ander formaat schrijven; de schrijver haalt drie formaten aan: notes, postcards en emails; bijvoorbeeld het omzetten van een magazine-artikel naar een brief
+% * pas het gebruik van verwijswoorden aan; een multilinguale student heeft zo volgens .. problemen bij het bijhouden van naarwaar deze verwijzen; dit kan worden aangepast naar eenvoudige verwijswoorden zoals 'zij' of de namen zelf; wel moet er rekening worden gehouden dat de tekst de flow niet verliest
+
+% vermijden:
+% * glossary toevoegen, al heeft dit nadelige effecten bij het lezen van een tekst; wordt vooral gebruikt bij oudere doelgroepen;
+
+Eerst moet er een technologische fundering gelegd worden over de basisconcepten en verschillende soorten van tekstvereenvoudiging. Tekstvereenvoudiging is het proces waarin het technisch leesniveau en/of woordgebruik van een geschreven tekst wordt verminderd. Zo mag de vereenvoudiging geen invloed hebben op de betekenis van de kerninhoud. Het langlopende onderzoek van Advaith Siddharthan is een goed vertrekpunt voor dit onderzoek. Volgens \autocite{Siddharthan2014} bestaat een complete vereenvoudiging van een tekst uit precies vier transformaties. Binnen machinaal leren (ML) is tekstvereenvoudiging een zijtak van natuurlijke taalverwerking. % Daarnaast is tekstvereenvoudiging een taalbewerking dat geautomatiseerd kan worden.
 
 \subsection{Natural Language Processing}
 
@@ -136,6 +151,7 @@ Bij deze vorm worden de belangrijkste zinnen gemarkeerd en vervolgens opnieuw ne
 \end{itemize}
 
 % todo Bij deze vorm worden de belangrijkste zinnen gemarkeerd en vervolgens opnieuw neergeschreven.  Dit is het equivalent van handmatig zinnen te fluoriseren en vervolgens op een blanco papier neerschrijven. Het nadeel hiervan is dat de uitvoertekst niet samenhangend zal zijn na het samenvatten. Dit maakt de tekst minder aangenaam om te lezen.
+
 \subsubsection{Graafgebaseerd extractief samenvatten}
 
 Graafgebaseerd extractief samenvatten is een techniek die een document voorstelt als een graaf, waarbij de knopen zinnen voorstellen en bogen de relatie tussen de zinnen voorstellen. Deze algoritmen achterhalen de belangrijkste zinnen in de graaf. Bijvoorbeeld kan het PageRank-algoritme, dat vaak wordt gebruikt voor het rangschikken van webpagina's in zoekmachines, worden gebruikt om de zinnen in de grafiek te rangschikken op basis van hun belangrijkheid.
@@ -186,25 +202,66 @@ De nadruk bij extractief samenvatten ligt in het kiezen van de \textit{salient t
 
 \subsection{Abstractief samenvatten}
 
-Kernzinnen achterhalen gebeurt met zes belangrijke features volgens \textcite{Khan2014}. Zij onderzochten de verschillende manieren om een tekst samen te vatten. Ze halen een semantische en een structuurgerichte aanpak aan.
+% Kernzinnen achterhalen gebeurt met zes belangrijke features volgens \textcite{Khan2014}. Zij onderzochten de verschillende manieren om een tekst samen te vatten. Ze halen een semantische en een structuurgerichte aanpak aan.
+
+\textcite{Cao2022} deed verder onderzoek naar \textit{deep learning} methoden om abstractieve samenvattingen te automatiseren. 
+
+De \textit{survey} van 
+
+\subsubsection{Semantische aanpak}
+
+\subsubsection{Structuurgerichte aanpak}
+
+\subsubsection{Programmeren}
 
 Om een abstractieve samenvatting op te bouwen bestaan er verschillende modellen. Het Pegasus-model vloeide voort uit een onderzoek van \textcite{Zhang2020} over het afhandelen van \textit{gap-sentences} met pre-trained models voor samenvatting met NLP. Pegasus haalt kernzinnen uit een invoertekst en zal die zinnen vervolgens als één uitvoerzin uitschrijven. Dit model werd getrained en beoordeeld op samenvattingstaken zoals emails, patenten, rekeningen en ook wetenschappelijke artikelen. Hieronder een code-snippet van hoe een simpele abstractieve samenvatting kan worden gemaakt met Google Pegasus.
 
 \begin{lstlisting}[language=Python]
-def test return
+todo
 \end{lstlisting}
 
 \subsection{Conclusie}
 
-De theoretische concepten om teksten te vereenvoudigen. Teksten kunnen op vier manieren worden vereenvoudigd, namelijk door 
+% De theoretische concepten om teksten te vereenvoudigen. Teksten kunnen op vier manieren worden vereenvoudig 
 
 \section{Onderzoeken rond dyslexie}
 
+\subsection{Problemen bij taal}
+
+% inleiding rond taal
+% hoe zit taal in mekaar
+
+Taal speelt een prominente rol om dyslexie beter te begrijpen.  In het boek van (Dyslexie bij volwassenen) worden confessions rond taalaspecten zoals fonologie, morfologie, zinsbouw en semantiek aangehaald:
+
+\begin{quote}
+	André, een man van 45 jaar met een managementfunctie, betrapt zichzelf erop dat hij 'zijn' kan schrijven in plaats van zien en 'fliegende' in plaats van vliegende.
+\end{quote}
+
+\begin{quote}
+	Koen, een jongeman van 20 jaar, heeft veel moeite met samengestelde woorden. Hij schrijft ze veelal los, bijvoorbeeld 'zee spiegel', 'uit wisseling', 'oogst maand'. Hij heeft dit zelf niet in de gaten. Voor hem zijn het twee aparte woorden.
+\end{quote}
+
+\begin{quote}
+	Marc, een universitair student, mailt naar een vriend: 'Ik kan het weekend van de 20e september zou kunnen' en 'Ik mag vanaf heden ben ik bachelor of science.' Dit soort dingen schrijft hij herhaaldelijk, vertelt hij, en hij ziet het zelf niet, vult hij enigszins gefrustreerd aan. Hij geeft aan dat het eenvoudige zinnetjes zijn en zelfs die schrijft hij fout.
+\end{quote}
+
+\begin{quote}
+	Myrthe studeert rechten. In werkcolleges kan ze goed meedoen en geeft ze blijk van voldoende kennis. Ze moet zich echter bovenmatig inspannen om de lesstof in de studieboeken te lezen en te verwerken. Het kost haar veel tijd en ze krijgt er hoofdpijn van.
+\end{quote}
+
 \subsection{Noden van een student dyslexie}
 
-Vlaamse en Nederlandse onderzoeken wijzen uit dat gemiddeld 4\% van de Nederlandstalige bevolking een vorm van dyslexie heeft. De prevalentie van dyslexie is taalafhankelijk. China heeft volgens ... 1\% van de bevolking, terwijl het cijfer bij het Engels, een orthografisch inconsistente taal, drastisch hoger ligt. 
 
-Dyslectische kinderen ondervinden een last bij het technisch lezen van een tekst. Het is geen checklist van 'kwalen' waaraan een scholier moet voldoen om dit te bezitten. Zo halen Ghesquière en de Stichting Dyslexie van Nederland samen drie verschillende criteria.
+
+Vlaamse en Nederlandse onderzoeken zoals \textcite{Wentink2008, Desoete2017} wijzen uit dat gemiddeld 4\% van de Nederlandstalige bevolking een vorm van dyslexie heeft. De prevalentie van dyslexie is taalafhankelijk. Zo is volgens DSM-5 het percentage met mensen met dyslexie in China slechts circa 1\% van de bevolking, terwijl het cijfer bij het Engels, een orthografisch inconsistente\footnote{Opake talen, ofwel talen met complexe klank-tekenkoppelingen.} taal, drastisch hoger wordt geschat op circa 15\% van de bevolking. Scholieren in het lager en middelbaar onderwijs uit verschillende culturen worden ingeschat op 5 tot 10\%. \autocite{}
+
+Zoals eerder aangegeven ondervinden dyslectische kinderen een last bij het technisch lezen van een tekst. Al werden er eerder onderzoeken gedaan naar de doelgroep van jongvolwassenen en volwassenen, de meeste onderzoeken rond dyslexie centreren zich op kinderen in het kleuter- en basisonderwijs. % todo bron
+
+
+% todo bron JvD
+Het onderzoek van \textcite{Lissens2020} benadrukt deze vaak over het hoofd gekeken doelgroep. Mensen met dyslexie ervaren vaak een aantal uitdagingen bij het lezen en schrijven. Een van de belangrijkste problemen is het niet begrepen worden door anderen, omdat ze woorden vaak verkeerd uitspreken of verkeerd spellen. Ze hebben vaak ook moeite om het tempo van anderen bij te houden en moeten harder werken om informatie te verwerken. Ondanks dat ze veel oefenen, blijft snel en veel lezen moeilijk. Het toepassen van spellingsregels is ook een groot obstakel voor mensen met dyslexie, wat vaak leidt tot een gevoel van onzekerheid en angst om fouten te maken. Dit kan leiden tot frustratie en stress, waardoor het voor hen moeilijker wordt om hun vaardigheden te verbeteren. Toch motiveren de onderzoekers deze doelgroep door het sterk doorzettingsvermogen te benadrukken. Dit helpt hen om te blijven oefenen en hun vaardigheden te ontwikkelen, ondanks de uitdagingen die ze tegenkomen.
+
+Het is echter geen checklist van 'kwalen' waaraan een scholier moet voldoen om dit te bezitten. Zo halen Ghesquière en de Stichting Dyslexie van Nederland samen drie verschillende criteria.
 
 \begin{itemize}
 	\item Het \textbf{achterstandscriterium} wijst aan dat er een ernstige lees- of spellingsachterstand is. 
@@ -240,7 +297,7 @@ Verder wijst ... aan dat de prevalentie van gecombineerde reken- en leesstoornis
 	\item Een kind moet verder kunnen redeneren over de inhoud van een tekst, nadat de lezer een deel van de tekst of de volledige tekst heeft gelezen. 
 \end{itemize}
 
-Het onderzoek van VanVreckem2022 benadrukt dat therapeuten in de eerste plaats een beeld moeten krijgen van de beheersing van de belangrijkste leesstrategieën, zoals het onthouden van gelezen informatie en het verbaal begrip. Daarnaast is er een zicht nodig op de beheersing van de belangrijkste leesstrategieën bij begrijpend lezen. Het interpreteren op mesoniveau wijkt onderling sterk af. Om een behandelplan op maat van een client te  kunnen maken, moet een testleider een zicht hebben op de beheersing van de belangrijkste begrippen. Als tweede moet het onderzoek aantonen of een groep met een comorbide stoornis beter of slechter presteert voor spelling dan de geïsoleerde groep. Alsook of er een verschil was tussen de spellingvaardigheden voor bestaande woorden vergeleken met pseudowoorden. Alle woorden uit alle dictees sluiten aan bij de Vlaamse leerplannen, alsook alle spellingcategorieën werden opgenomen in het experiment. Ten slotte hield het experiment rekening met de structurele en linguïstische moeilijkheidsgraad van woorden.
+Het onderzoek van VanVreckem2022 benadrukt dat therapeuten in de eerste plaats een beeld moeten krijgen van de beheersing van de belangrijkste leesstrategieën, zoals het onthouden van gelezen informatie en het verbaal begrip. Daarnaast is er een zicht nodig op de beheersing van de belangrijkste leesstrategieën bij begrijpend lezen. Het interpreteren op mesoniveau wijkt onderling sterk af. Om een behandelplan op maat van een client te  kunnen maken, moet een testleider een zicht hebben op de beheersing van de belangrijkste begrippen. Als tweede moet het onderzoek aantonen of een groep met een comorbide\footnote{De aanwezigheid van een aandoening, naast de hoofddiagnose. Bijvoorbeeld ADD bij de hoofddiagnose dyslexie. } stoornis beter of slechter presteert voor spelling dan de geïsoleerde groep. Alsook of er een verschil was tussen de spellingvaardigheden voor bestaande woorden vergeleken met pseudowoorden. Alle woorden uit alle dictees sluiten aan bij de Vlaamse leerplannen, alsook alle spellingcategorieën werden opgenomen in het experiment. Ten slotte hield het experiment rekening met de structurele en linguïstische moeilijkheidsgraad van woorden.
 
 \begin{itemize}
 	\item Kinderen met dyslexie ondervinden minder problemen bij het spellen van pseudowoorden.
@@ -252,10 +309,10 @@ Het onderzoek beklemtoont dat er nood is aan verregaande en geïndividualiseerde
 
 \subsection{Tekstvereenvoudiging voor scholieren met dyslexie in het onderwijs}
 
-Het onderzoek van ... haalt drie factoren aan dat scholieren met dyslexie kan helpen bij het lezen van teksten. Allereerst bevoordeelt een hoge woordfrequentie de leessnelheid van een scholier met dyslexie. Dit feit wordt ondersteund in meerdere onderzoeken (...). 
+% Het onderzoek van ... haalt drie factoren aan dat scholieren met dyslexie kan helpen bij het lezen van teksten. Allereerst bevoordeelt een hoge woordfrequentie de leessnelheid van een scholier met dyslexie. Dit feit wordt ondersteund door meerdere onderzoeken (...). 
 
 
-Het onderzoek van \textcite{Filipak2020} verzamelde de noodzakelijke leesproblemen voor deze casus. Zo haalt hij de volgende leesproblemen aan die kunnen voorkomen bij een scholier met dyslexie in het middelbaar onderwijs.
+\textcite{Filipak2020} haalt zes leesproblemen aan die kunnen voorkomen bij een scholier met dyslexie in het middelbaar onderwijs.
 
 \begin{itemize}
 	\item Langzame woordbenoeming
@@ -276,16 +333,21 @@ Het correct spellen van pseudowoorden en regelmatig gespelde woorden is mogelijk
 
 Typerende symptomen van ‘Deep Dyslexia’ is de verstoring van leesbegrip en het spreken in qua betekenis onbedoelde klanken, woorden en woordgroepen (parphasias). Bij ‘Deep dyslexia’ kan bos bijvoorbeeld gelezen worden als boom. Begripsproblemen bij het lezen kunnen goed visueel, met steun van film en afbeeldingen ondersteund worden, beter dan alleen via gedrukte woorden. Daarbij moet de lezer die het gedrukte woord wil ontcijferen, gebruik kunnen maken van bronnen van kennis op een hoger niveau: een grote woordenschat en een goed redeneervermogen. Schriftelijke expressie is uit den boze.
 
-\begin{itemize}
+\subsubsection{Hardnekkig letter-voor-letter lezen}
 
-	\item Hardnekkig letter-voor-letter lezen: Milene Bonte merkt op: wat wel typerend is voor ‘dyslexie’ is een minder optimale informatie-verwerking in visuele gebieden die belangrijk zijn voor letter- en woordherkenning. Ze haalt verder aan dat dit een gevolg is van een minder optimale leesontwikkeling en niet zozeer een oorzaak van dyslexie. Het visuele proces vindt plaats in de 'letterbox'\footnote{Het primaire visuele cortex van het brein}. Lezers zijn niet in staat woorden goed te lezen, zelfs niet met een langzame en spellende letter-klankroute. Lange woorden worden moeizaam gelezen en scholieren hebben de neiging om visueel gedesoriënteerde te raken. Er is verwarring over de richting van de letters.
+% todo milene bonte
+
+Milene Bonte merkt op: wat wel typerend is voor ‘dyslexie’ is een minder optimale informatie-verwerking in visuele gebieden die belangrijk zijn voor letter- en woordherkenning. Ze haalt verder aan dat dit een gevolg is van een minder optimale leesontwikkeling en niet zozeer een oorzaak van dyslexie. Het visuele proces vindt plaats in de 'letterbox'\footnote{Het primaire visuele cortex van het brein}. Lezers zijn niet in staat woorden goed te lezen, zelfs niet met een langzame en spellende letter-klankroute. Lange woorden worden moeizaam gelezen en scholieren hebben de neiging om visueel gedesoriënteerde te raken. Er is verwarring over de richting van de letters.
 	
-	\item Woordherkenning: Onderzoeken waarbij de oogbewegingen van lezers worden gevolgd tonen aan dat een geoefende lezer bij vijftig tot tachtig procent van de woorden pauzeert. Hij moet zich op woorden fixeren om ze te kunnen zien en dat gaat heel snel. Gedurende deze zogenoemde saccade, een snelle beweging van de ogen die tot doel heeft een nieuw fixatiepunt te vinden, wordt het woordbeeld van de vorige woordfixatie onderdrukt, voordat een volgende woord wordt gefixeerd. Leesonderzoekers de Universiteit van Tel Aviv in Israël vonden in 2010 bijvoorbeeld een soort leesprobleem dat men ‘aandachts-dyslexie’ noemde, waarin kinderen letters correct identificeren, maar tijdens het lezen last hebben van verspringende letters tussen de woorden in de zinnen.[xiii] Dit is minder bij het lezen van woorden in lijsten dan met woorden in lopende tekst. [xiv] Denk aan het verschil in leesprestaties op de Drie-Minuten-Test (losse woorden lezen) en op de AVI -toets (tekstlezen). Zie ook in de breinafbeelding het gebied ‘Top-down attention and serial reading’. In een WISC-afname kan blijken dat de organisatie van de ruimtelijke waarneming redelijk is, maar dat een leerling zwakker is met doolhoven, plaatjes ordenen, onvolledige tekeningen, substitutie-taken en vooral met symboolverwerking. Dan kan er sprake zijn van een visueel en/of neuropsychologische dysfunctie dat ten grondslag ligt aan de moeite met lezen. Dan gaat het dus , nogmaals, niet om een fonologische dysfunctie.
+\subsubsection{Woordherkenning}
+% todo welke onderzoeken?
+Onderzoeken waarbij de oogbewegingen van lezers worden gevolgd tonen aan dat een geoefende lezer bij vijftig tot tachtig procent van de woorden pauzeert. Hij moet zich op woorden fixeren om ze te kunnen zien en dat gaat heel snel. Gedurende deze zogenoemde saccade, een snelle beweging van de ogen die tot doel heeft een nieuw fixatiepunt te vinden, wordt het woordbeeld van de vorige woordfixatie onderdrukt, voordat een volgende woord wordt gefixeerd. Leesonderzoekers de Universiteit van Tel Aviv in Israël vonden in 2010 bijvoorbeeld een soort leesprobleem dat men ‘aandachts-dyslexie’ noemde, waarin kinderen letters correct identificeren, maar tijdens het lezen last hebben van verspringende letters tussen de woorden in de zinnen.[xiii] Dit is minder bij het lezen van woorden in lijsten dan met woorden in lopende tekst. [xiv] Denk aan het verschil in leesprestaties op de Drie-Minuten-Test (losse woorden lezen) en op de AVI -toets (tekstlezen). Zie ook in de breinafbeelding het gebied ‘Top-down attention and serial reading’. In een WISC-afname kan blijken dat de organisatie van de ruimtelijke waarneming redelijk is, maar dat een leerling zwakker is met doolhoven, plaatjes ordenen, onvolledige tekeningen, substitutie-taken en vooral met symboolverwerking. Dan kan er sprake zijn van een visueel en/of neuropsychologische dysfunctie dat ten grondslag ligt aan de moeite met lezen. Dan gaat het dus , nogmaals, niet om een fonologische dysfunctie.
 	
-	\item Visuele dysfunctie
-	
-	\item Letter- en klankverwarring: Verder gaat het om de verwisseling van de lettervolgorde, om letterweglatingen, letter-toevoegingen, letter-vervangingen, en het onherkenbaar verminken van woorden in dictees. En ook om de moeite met auditieve analyse en synthese. Veel kinderen kunnen deze leesfouten maken en dat is dan niet meteen fonologische dyslexie. [xviii]
-\end{itemize}
+\subsubsection{Visuele dysfunctie}
+
+
+\subsubsection{Letter- en klankverwarring}
+Verder gaat het om de verwisseling van de lettervolgorde, om letterweglatingen, letter-toevoegingen, letter-vervangingen, en het onherkenbaar verminken van woorden in dictees. En ook om de moeite met auditieve analyse en synthese. Veel kinderen kunnen deze leesfouten maken en dat is dan niet meteen fonologische dyslexie. [xviii]
 
 % https://wij-leren.nl/leesproblemen-dyslexie-woordbenoeming-woordherkenning-begripsprobleem-deel-twee.php#_edn11
 
@@ -296,7 +358,7 @@ Typerende symptomen van ‘Deep Dyslexia’ is de verstoring van leesbegrip en h
 
 % Improving students’ science text comprehension through metacognitive self-regulation when applying learning strategies
 
-\section{Struikelblokken}
+\section{Valkuilen}
 
 \subsection{Evaluatie van de toepassing}
 
@@ -309,12 +371,21 @@ Typerende symptomen van ‘Deep Dyslexia’ is de verstoring van leesbegrip en h
 Sequence Labeling voorziet labels aan tokens in een tekst. Homoniemen kunnen echter roet in het eten gooien, want . 
 
 \subsection{Paternalisme}
+
+
 De doelstelling van assisterende software is om gelijke kansen te bieden aan iedereen. Zoals eerder vermeld, zorgt tekstvereenvoudiging voor een simpelere syntax en woordenschat in een tekst. Volgens \textcite{Niemeijer2010} zijn de ethische overwegingen die samenhangen met tekstvereenvoudiging via implicaties voor assistieve technologie niet gemakkelijk te scheiden van de technologie die wordt gebruikt om het resultaat te bereiken. Ontwikkelaars moeten, volgens deze auteur, rekening houden met de doelgroep waarvoor ze een toepassing maken.
 
-Het onderzoek van \textcite{Gooding2022} richtte zich op dit probleem. Ontwikkelaars moeten zich meer bewust worden van de behoeften en verwachtingen van de eindgebruiker bij het ontwikkelen van een tekstvereenvoudigingstoepassing. Haar onderzoek benadrukt de paternalistische en afhankelijke aard van assisterende toepassingen. Tekstvereenvoudiging omvat drie transformaties, maar de moeilijkheidsgraad is niet statisch. Een adaptieve tekstvereenvoudigingstoepassing moet de eindgebruiker een keuze aanbieden om aan te passen wat vereenvoudigd wordt, afhankelijk van zijn of haar specifieke behoeften.
+\subsubsection{Ethische implicaties}
+
+Het onderzoek van \textcite{Gooding2022} onderzocht waar ontwikkelaars rekening mee moeten houden bij de ontwikkeling van adaptieve software, waaronder het vereenvoudigen van teksten. Ontwikkelaars moeten zich meer bewust worden van de behoeften en verwachtingen van de eindgebruiker bij het ontwikkelen van een tekstvereenvoudigingstoepassing. Haar onderzoek benadrukt de paternalistische en afhankelijke aard van assisterende toepassingen. Tekstvereenvoudiging omvat drie transformaties, maar de moeilijkheidsgraad is niet statisch. Een adaptieve tekstvereenvoudigingstoepassing moet de eindgebruiker een keuze aanbieden om aan te passen wat vereenvoudigd wordt, afhankelijk van zijn of haar specifieke behoeften.
 
 % Xu bron
-Volgens \textcite{Punardeep2020}, maken de meeste AI-toepassingen voor tekstvereenvoudiging gebruik van \textit{black-box} modellen. Een \textit{black-box} model maakt het onmogelijk om transparant te zijn over waarom bepaalde transformaties worden uitgevoerd, bijvoorbeeld het vervangen van een woord door een eenvoudiger synoniem. Het model kan dus niet aangeven waarom het juist dat woord heeft vervangen door dat specifieke synoniem. Deze AI-toepassingen vallen onder de categorie van \textit{supervised learning} en het model leert handelingen uit de data waarop het is getraind. Dit is echter problematisch, aangezien \textcite{Xu2015} benadrukt dat veel toepassingen voor tekstvereenvoudiging geen rekening houden met de doelgroep waarvoor ze zijn ontwikkeld.
+
+Volgens \textcite{Punardeep2020}, maken de meeste AI-toepassingen voor tekstvereenvoudiging gebruik van \textit{black-box} modellen. Een \textit{black-box} model geeft niet aan waarom specifieke transformaties worden uitgevoerd, bijvoorbeeld het vervangen van een woord door een eenvoudiger synoniem. Het model kan dus niet aangeven waarom het juist dat woord heeft vervangen door dat specifieke synoniem. Deze AI-toepassingen vallen onder de categorie van \textit{supervised learning} en het model leert handelingen uit de data waarop het is getraind. Dit is echter problematisch, aangezien \textcite{Xu2015} benadrukt dat veel toepassingen voor tekstvereenvoudiging geen rekening houden met de doelgroep waarvoor ze zijn ontwikkeld. 
+
+% https://hdsr.mitpress.mit.edu/pub/f9kuryi8/release/8 --> benadruk gevaar van black-box modellen
+
+\subsubsection{Oplossing}
 
 Om dit probleem op te lossen, is het belangrijk om de eindgebruiker, in dit geval scholieren met dyslexie in het derde graad middelbaar onderwijs, de keuze te geven. Zoals beschreven in \textcite{Gooding2022}, zijn er verschillende mogelijkheden. Bijvoorbeeld, de eindgebruiker moet de mogelijkheid hebben om te kiezen welke synoniemen de tekst lexicaal zullen aanpassen. Een alternatieve aanpak voor syntactische vereenvoudiging is om de scholier zelf zinnen te laten markeren die moeilijk te begrijpen zijn, zodat het systeem alleen de door de eindgebruiker aangegeven zinnen vereenvoudigt.
 
@@ -334,27 +405,53 @@ Om dit probleem op te lossen, is het belangrijk om de eindgebruiker, in dit geva
 
 \section{Wetenschappelijke artikelen}
 
-% https://goldbio.com/articles/article/how-to-read-and-understand-hard-scientific-papers
+% inleiding over het formaat van teksten
+
+De leesbaarheid van wetenschappelijke teksten volgt al sinds de twintigste eeuw een neergaande trend \autocite{Hayes1992}. Meerdere onderzoeken in de voorbije tien jaar trokken besluit dat de complexe woordenschat en zinsbouw simpelweg ontoegankelijk maakt. \textcite{Ball2017, PlavenSigray2017}
+
+
+\textcite{Ball2017}
+
+\textcite{PlavenSigray2017} onderzocht de verschillende trends waarom wetenschappelijke artikelen alsmaar moeilijker te lezen worden. Dit deden ze door de relatie tussen de leesbaarheid van een abstract te vergelijken met het jaar waarin het wetenschappelijk artikel werd gepubliceerd. De complexiteit van het wetenschappelijk artikel beoordelen werd gedaan met de Flesch-Reading Ease (FRE) score. Om te bevestigen dat de relatie tussen de complexiteit van een abstract overeenstemt met die van de volledige tekstinhoud, werden er vergelijkingen gemaakt met zes verschillende wetenschappelijke journalen. Zij vertrokken uit een onderzoek van \textcite{Dronberger1975}. Zij onderzochten de correlatie tussen de complexiteit van een abstract en de inhoud van het artikel zelf. Die toonden aan dat een abstract complexere werd geschreven, vergeleken met de rest van een wetenschappelijk artikel.
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{img/fre-ndc.png}
+	\caption{Afbeelding uit \textcite{PlavenSigray2017}. Links wordt de evolutie per FRE-score getoond. Hoe hoger de score, hoe hoger de gemiddelde complexiteit van een tekst. Rechts wordt de evolutie volgens de NDC-score getoond. Hoe hoger de score, hoe lager de gemiddelde complexiteit van een tekst.}
+\end{figure}
+
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{img/ndc-number-of-authors.png}
+	\caption{Afbeelding uit \textcite{PlavenSigray2017}. Horizontaal worden het aantal auteurs per wetenschappelijk artikel aangeduidt. Verticaal wordt de gemiddelde NDC-score weergegeven. HOe hoger de NDC-score, hoe hoger de vereiste leesgraad om de tekst te kunnen lezen.}
+\end{figure}
+
+
+\subsection{Formaat}
+
+\subsection{Inhoud}
+
+\subsection{}
+
 % https://www.science.org/content/article/how-seriously-read-scientific-paper
 % https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0189753
 
-\section{Beschikbare software voor tekstvereenvoudiging}
+% \section{Beschikbare software voor tekstvereenvoudiging}
 
-\subsection{Toepassingen nu in het onderwijs beschikbaar}
+% \subsection{Toepassingen nu in het onderwijs beschikbaar}
 
-\subsection{Online toepassingen}
+% \subsection{Online toepassingen}
 
-\section{Prototype voor tekstvereenvoudiging}
+% \section{Prototype voor tekstvereenvoudiging}
 
 % fasen aanhalen
 
-\subsection{Lexicale vereenvoudiging}
+% \subsection{Lexicale vereenvoudiging}
 
-\subsection{Syntactische vereenvoudiging}
+% \subsection{Syntactische vereenvoudiging}
 
-\subsection{Samenvatten}
+% \subsection{Samenvatten}
 
-\section{Evaluatiemetrieken}
+% \section{Evaluatiemetrieken}
 
 % Tip: Begin elk hoofdstuk met een paragraaf inleiding die beschrijft hoe
 % dit hoofdstuk past binnen het geheel van de bachelorproef. Geef in het

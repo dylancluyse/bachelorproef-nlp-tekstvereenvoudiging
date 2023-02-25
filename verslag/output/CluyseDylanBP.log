@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  24 FEB 2023 07:20
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  25 FEB 2023 13:06
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2357,20 +2357,7 @@ ping=tex-text;"
 cp;mapping=tex-text;"
 
 
-./inleiding.tex:22: LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 \newline
-             
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-Overfull \hbox (18.5458pt too wide) in paragraph at lines 24--25
+Overfull \hbox (18.5458pt too wide) in paragraph at lines 12--13
 \TU/Montserrat(1)/m/n/10.95 men uit verschillende domeinen. Dit project leidt t
 ot het ontstaan van AI-toepassingen
  []
@@ -2428,13 +2415,13 @@ Hoofdstuk 2.
 [5
 
 ]
-Overfull \hbox (3.39366pt too wide) in paragraph at lines 28--29
+Overfull \hbox (3.39366pt too wide) in paragraph at lines 43--44
 []\TU/Montserrat(2)/m/it/10.95 ML-based \TU/Montserrat(1)/m/n/10.95 modellen tr
 ainen eerst op geannoteerde tekstdocumenten, ver-
  []
 
 [6]
-Overfull \hbox (7.83058pt too wide) in paragraph at lines 29--30
+Overfull \hbox (7.83058pt too wide) in paragraph at lines 44--45
 []\TU/Montserrat(2)/m/it/10.95 Deep-learning \TU/Montserrat(1)/m/n/10.95 of DL-
 modellen mappen de invoerdata aan een niet-lineaire
  []
@@ -2445,45 +2432,44 @@ File: img/nerlabeling.jpg Graphic file (type bmp)
 <img/nerlabeling.jpg>
 File: img/voorbeeld-manuele-vereenvoudiging.png Graphic file (type bmp)
 <img/voorbeeld-manuele-vereenvoudiging.png>
-[7] [8] [9] [10] [11] [12] [13] [14]
-Overfull \hbox (1.99425pt too wide) in paragraph at lines 236--237
+[7] [8] [9] [10] [11] [12] [13] [14] [15]
+Overfull \hbox (1.99425pt too wide) in paragraph at lines 293--294
 []\TU/Montserrat(1)/m/n/10.95 Logische inferenties waarbij de voorkennis wordt 
 opgeroepen en geïntegreerd
  []
 
-[15]
-Overfull \hbox (1.02338pt too wide) in paragraph at lines 243--244
+[16]
+Overfull \hbox (1.02338pt too wide) in paragraph at lines 300--301
 []\TU/Montserrat(1)/m/n/10.95 Het onderzoek van VanVreckem2022 benadrukt dat th
 erapeuten in de eerste plaats
  []
 
 
-Overfull \hbox (6.03845pt too wide) in paragraph at lines 247--248
+Overfull \hbox (6.03845pt too wide) in paragraph at lines 304--305
 []\TU/Montserrat(1)/m/n/10.95 Kinderen met dyslexie hebben meer problemen met d
 e spelling van bestaande
  []
 
-[16] [17]
-Overfull \hbox (11.79747pt too wide) in paragraph at lines 283--284
-\TU/Montserrat(1)/m/n/10.95 ‘aandachts-dyslexie’ noemde, waarin kinderen letter
-s correct identificeren, maar
+[17] [18]
+Overfull \hbox (7.35176pt too wide) in paragraph at lines 350--351
+\TU/Montserrat(1)/m/n/10.95 letter-toevoegingen, letter-vervangingen, en het on
+herkenbaar verminken van woor-
  []
 
-[18]
-Overfull \hbox (1.6548pt too wide) in paragraph at lines 314--315
-\TU/Montserrat(1)/m/n/10.95 de eindgebruiker een keuze aanbieden om aan te pass
-en wat vereenvoudigd wordt,
- []
-
-[19]) (./methodologie.tex [20]
+[19] [20]
+File: img/fre-ndc.png Graphic file (type bmp)
+<img/fre-ndc.png>
+File: img/ndc-number-of-authors.png Graphic file (type bmp)
+<img/ndc-number-of-authors.png>
+) (./methodologie.tex [21] [22]
 Hoofdstuk 3.
-[21
-
-]) (./conclusie.tex [22]
-Hoofdstuk 4.
 [23
 
-]) [24]
+]) (./conclusie.tex [24]
+Hoofdstuk 4.
+[25
+
+]) [26]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--8
@@ -2491,7 +2477,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 da-2030-stem-competenties-voor-een-
  []
 
-[25
+[27
 
 ]
 Overfull \hbox (3.46771pt too wide) in paragraph at lines 34--35
@@ -2499,45 +2485,45 @@ Overfull \hbox (3.46771pt too wide) in paragraph at lines 34--35
 oor nieuwe toepassingen zorgde. Tekst-
  []
 
-[26]
+[28]
 Overfull \hbox (2.54906pt too wide) in paragraph at lines 38--39
 []\TU/Montserrat(1)/m/n/10.95 Tekstvereenvoudiging behoort tot de zijtak van \T
 U/Montserrat(2)/m/it/10.95 Natural Language Processing \TU/Montserrat(1)/m/n/10
 .95 (NLP)
  []
 
-[27]
+[29]
 Overfull \hbox (14.44443pt too wide) in paragraph at lines 54--55
 []\TU/Montserrat(1)/m/n/10.95 Het onderzoek van []Sciforce ([][]2020[][]) haalt
  aan dat het merendeel van NLP-toepassingen
  []
 
-[28]
+[30]
 Overfull \hbox (1.14409pt too wide) in paragraph at lines 65--66
 \TU/Montserrat(1)/m/n/10.95 wel gebruikt worden, zijn vooral online leerplatfor
 men voor zelfstandig werken. Ook
  []
 
-[29]
+[31]
 File: img/Screenshot_302.png Graphic file (type bmp)
 <img/Screenshot_302.png>
- [30] [31]) [32]
+ [32] [33]) [34]
 Overfull \hbox (2.13918pt too wide) in paragraph at lines 201--201
 \TU/Montserrat(1)/m/n/10.95 Dutch. \TU/Montserrat(2)/m/it/10.95 Computational L
 inguistics in the Netherlands Journal\TU/Montserrat(1)/m/n/10.95 , \TU/Montserr
 at(2)/m/it/10.95 8\TU/Montserrat(1)/m/n/10.95 , 24–48. [][]$[][][][][] []
  []
 
+[35
 
+
+]
 Overfull \hbox (17.6088pt too wide) in paragraph at lines 201--201
 \TU/Montserrat(1)/m/n/10.95 E. M. (2022). Students with dyslexia between school
  and university: Post-diploma
  []
 
-[33
 
-
-]
 Overfull \hbox (44.50203pt too wide) in paragraph at lines 201--201
 [][] [] [][][][][][][][][][][][][] [][] [][][][][][][][] [][] [][][][][][][][][
 ][][][][][] [][] [][][][][][][][][][][][][][][] [][] [][][][][][][][][][][][][]
@@ -2557,7 +2543,7 @@ n. [][]$[][][][][] [] [] [] [][][][][] [] [][][][][][] [] [][] [] [][][][][] []
  [][] [] [][][][][][][][][][][][]$[][] 
  []
 
-[34] [35]
+[36] [37]
 Overfull \hbox (18.56651pt too wide) in paragraph at lines 201--201
 \TU/Montserrat(2)/m/it/10.95 on Natural Language Processing 2014\TU/Montserrat(
 1)/m/n/10.95 , \TU/Montserrat(2)/m/it/10.95 4\TU/Montserrat(1)/m/n/10.95 (1). [
@@ -2565,20 +2551,26 @@ Overfull \hbox (18.56651pt too wide) in paragraph at lines 201--201
 ][][][][][] []
  []
 
-[36] [37] (../output/CluyseDylanBP.aux)
+
+Overfull \hbox (1.71274pt too wide) in paragraph at lines 201--201
+\TU/Montserrat(2)/m/it/10.95 Wijze lessen: twaalf bouwstenen voor effectieve di
+dactiek \TU/Montserrat(1)/m/n/10.95 (1ste ed.). Ten Brink
+ []
+
+[38] [39] (../output/CluyseDylanBP.aux)
 Package rerunfilecheck Info: File `CluyseDylanBP.out' has not changed.
-(rerunfilecheck)             Checksum: A0D5374A803AB68D9372C21B97AA796A;4096.
+(rerunfilecheck)             Checksum: 1E5B9AC38236441DB269EF2BA9DEE272;3669.
 Package logreq Info: Writing requests to 'CluyseDylanBP.run.xml'.
 \openout1 = `CluyseDylanBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47801 strings out of 478657
- 927814 string characters out of 5861312
- 2037019 words of memory out of 5000000
- 66568 multiletter control sequences out of 15000+600000
+ 47839 strings out of 478657
+ 928703 string characters out of 5861312
+ 2035395 words of memory out of 5000000
+ 66604 multiletter control sequences out of 15000+600000
  406482 words of font info for 98 fonts, out of 8000000 for 9000
  351 hyphenation exceptions out of 8191
  113i,12n,139p,2569b,7099s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../output/CluyseDylanBP.xdv (44 pages, 1022476 bytes).
+Output written on ../output/CluyseDylanBP.xdv (46 pages, 1073844 bytes).

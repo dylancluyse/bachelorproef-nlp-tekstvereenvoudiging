@@ -1,15 +1,17 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
-[2] Config.pm:314> INFO - Logfile is '../output/CluyseDylanBP.blg'
-[122] biber:340> INFO - === Fri Feb 24, 2023, 07:11:55
-[144] Biber.pm:415> INFO - Reading '../output/CluyseDylanBP.bcf'
-[310] Biber.pm:952> INFO - Found 57 citekeys in bib section 0
-[335] Biber.pm:4340> INFO - Processing section 0
-[348] Biber.pm:4531> INFO - Looking for bibtex format file 'bachproef.bib' for section 0
-[357] bibtex.pm:1689> INFO - LaTeX decoding ...
-[469] bibtex.pm:1494> INFO - Found BibTeX data source 'bachproef.bib'
-[1245] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1246] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1246] Biber.pm:4168> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[1246] Biber.pm:4174> INFO - No sort tailoring available for locale 'nl-NL'
-[1498] bbl.pm:654> INFO - Writing '../output/CluyseDylanBP.bbl' with encoding 'UTF-8'
-[1554] bbl.pm:757> INFO - Output to ../output/CluyseDylanBP.bbl
+[0] Config.pm:314> INFO - Logfile is '../output/CluyseDylanBP.blg'
+[59] biber:340> INFO - === Sat Feb 25, 2023, 13:06:32
+[72] Biber.pm:415> INFO - Reading '../output/CluyseDylanBP.bcf'
+[176] Biber.pm:952> INFO - Found 63 citekeys in bib section 0
+[194] Biber.pm:4340> INFO - Processing section 0
+[202] Biber.pm:4531> INFO - Looking for bibtex format file 'bachproef.bib' for section 0
+[207] bibtex.pm:1689> INFO - LaTeX decoding ...
+[284] bibtex.pm:1494> INFO - Found BibTeX data source 'bachproef.bib'
+[488] Utils.pm:384> WARN - legacy year field '{2017}' in entry 'Desoete2017' is not an integer - this will probably not sort properly.
+[751] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[752] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[752] Biber.pm:4168> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[752] Biber.pm:4174> INFO - No sort tailoring available for locale 'nl-NL'
+[827] bbl.pm:654> INFO - Writing '../output/CluyseDylanBP.bbl' with encoding 'UTF-8'
+[864] bbl.pm:757> INFO - Output to ../output/CluyseDylanBP.bbl
+[864] Biber.pm:128> INFO - WARNINGS: 1

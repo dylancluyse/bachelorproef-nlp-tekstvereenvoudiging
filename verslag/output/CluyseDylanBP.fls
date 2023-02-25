@@ -1859,6 +1859,12 @@ INPUT img/nerlabeling.jpg
 INPUT ./img/voorbeeld-manuele-vereenvoudiging.png
 INPUT ./img/voorbeeld-manuele-vereenvoudiging.png
 INPUT img/voorbeeld-manuele-vereenvoudiging.png
+INPUT ./img/fre-ndc.png
+INPUT ./img/fre-ndc.png
+INPUT img/fre-ndc.png
+INPUT ./img/ndc-number-of-authors.png
+INPUT ./img/ndc-number-of-authors.png
+INPUT img/ndc-number-of-authors.png
 INPUT ./methodologie.tex
 INPUT ./methodologie.tex
 INPUT ./methodologie.tex
