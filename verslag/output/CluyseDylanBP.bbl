@@ -686,6 +686,76 @@
       \verb https://www.standaard.be/cnt/dmf20210319_05008561
       \endverb
     \endentry
+    \entry{Desoete2015}{book}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=15bc3f7508695e1f43d70e007985206a}{%
+           family={Desoete},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b80f05a7554528b832b6ccd2e0158f7}{%
+           family={Vanderswalmen},
+           familyi={V\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8da57b04cee0263fd87c00ebb2eb9c26}{%
+           family={Bondt},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi De},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=47731ac59bde686af66329a4691f2a27}{%
+           family={Van},
+           familyi={V\bibinitperiod},
+           given={C.\bibnamedelimi Vreckem},
+           giveni={C\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a5acae2ba09463c418758fa47a63f17}{%
+           family={Vooren},
+           familyi={V\bibinitperiod},
+           given={V.\bibnamedelimi Van},
+           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40b5a36f49cba35dcd2c8767a5433569}{%
+           family={Beken},
+           familyi={B\bibinitperiod},
+           given={I.\bibnamedelimi Vander},
+           giveni={I\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f36ee060fc6f2ee8b29553bc9b3636e5}{%
+           family={Dycke},
+           familyi={D\bibinitperiod},
+           given={S.\bibnamedelimi Van},
+           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f3bddfe6d67cc122818fe13f3ce9395}{%
+           family={Baert},
+           familyi={B\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Academia Press}%
+      }
+      \strng{namehash}{46df3ed0bddfdfbf0c2d3ce69caa54d8}
+      \strng{fullhash}{909a3b902db94e68b912b54adbd6c224}
+      \strng{bibnamehash}{909a3b902db94e68b912b54adbd6c224}
+      \strng{authorbibnamehash}{909a3b902db94e68b912b54adbd6c224}
+      \strng{authornamehash}{46df3ed0bddfdfbf0c2d3ce69caa54d8}
+      \strng{authorfullhash}{909a3b902db94e68b912b54adbd6c224}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dyscalculie}
+      \field{year}{2015}
+    \endentry
     \entry{Desoete2017}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=676ad9498fb7e21eded516abc0749884}{%
@@ -716,6 +786,59 @@
       \field{year}{{2017}}
       \field{pages}{{17\bibrangedash 31}}
       \range{pages}{-1}
+    \endentry
+    \entry{Dirks2008}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=ff3f3ffac387bf450d99a729f9476d77}{%
+           family={Dirks},
+           familyi={D\bibinitperiod},
+           given={Evelien},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f34a16e604bf6ff863b332871f35a510}{%
+           family={Spyer},
+           familyi={S\bibinitperiod},
+           given={Ginny},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5f7bc99ae8a8f08040d41adfb94958c}{%
+           family={Van\bibnamedelima Lieshout},
+           familyi={V\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Ernest},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38540a2b3c27d041e90a0f3ab80b1518}{%
+           family={Sonneville},
+           familyi={S\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{abeb31a8ca14e6164ea3aa2e2c30abe0}
+      \strng{fullhash}{3ac438ca649834c064f024f559159074}
+      \strng{bibnamehash}{3ac438ca649834c064f024f559159074}
+      \strng{authorbibnamehash}{3ac438ca649834c064f024f559159074}
+      \strng{authornamehash}{abeb31a8ca14e6164ea3aa2e2c30abe0}
+      \strng{authorfullhash}{3ac438ca649834c064f024f559159074}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of learning disabilities}
+      \field{month}{09}
+      \field{title}{Prevalence of Combined Reading and Arithmetic Disabilities}
+      \field{volume}{41}
+      \field{year}{2008}
+      \field{pages}{460\bibrangedash 73}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1177/0022219408321128
+      \endverb
     \endentry
     \entry{Donato2022}{article}{}
       \name{author}{6}{}{%
@@ -1213,6 +1336,47 @@
       \verb https://www.nature.com/articles/356739a0
       \endverb
     \endentry
+    \entry{Hubbard2017}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3f02523ffbe3a09a929eb80e949c25c7}{%
+           family={Hubbard},
+           familyi={H\bibinitperiod},
+           given={Katharine\bibnamedelima E.},
+           giveni={K\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91ac239ed5e3c3654412115616adf838}{%
+           family={Dunbar},
+           familyi={D\bibinitperiod},
+           given={Sonja\bibnamedelima D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{c755543e5a2f93848d4f3111bd6f61f9}
+      \strng{fullhash}{c755543e5a2f93848d4f3111bd6f61f9}
+      \strng{bibnamehash}{c755543e5a2f93848d4f3111bd6f61f9}
+      \strng{authorbibnamehash}{c755543e5a2f93848d4f3111bd6f61f9}
+      \strng{authornamehash}{c755543e5a2f93848d4f3111bd6f61f9}
+      \strng{authorfullhash}{c755543e5a2f93848d4f3111bd6f61f9}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Reading primary research literature is an essential skill for all scientists and students on science degree programmes, however little is known about how researchers at different career stages interact with and interpret scientific papers. To explore this, we conducted a survey of 260 undergraduate students and researchers in Biological Sciences at a research intensive UK university. Responses to Likert scale questions demonstrated increases in confidence and skill with reading the literature between individuals at each career stage, including between postdoctoral researchers and faculty academics. The survey indicated that individuals at different career stages valued different sections of scientific papers, and skill in reading the results section develops slowly over the course of an academic career. Inexperienced readers found the methods and results sections of research papers the most difficult to read, and undervalued the importance of the results section and critical interpretation of data. These data highlight a need for structured support with reading scientific literature at multiple career stages, and for senior academics to be aware that junior colleagues may prioritise their reading differently. We propose a model for the development of literature processing skills, and consider the need for training strategies to help inexperienced readers engage with primary literature, and therefore develop important skills that underpin scientific careers. We also encourage researchers to be mindful of language used when writing papers, and to be more inclusive of diverse audiences when disseminating their work.}
+      \field{journaltitle}{PLOS ONE}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Perceptions of scientific research literature and strategies for reading papers depend on academic career stage}
+      \field{volume}{12}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 16}
+      \range{pages}{16}
+    \endentry
     \entry{Iavarone2021}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=378a356cb4c4a2e7bbc58982f8fe7c43}{%
@@ -1416,6 +1580,90 @@
       \field{year}{2010}
       \field{pages}{366}
       \range{pages}{1}
+    \endentry
+    \entry{Kleijnen2008}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=a3dcc1f03c36c80ecea826d312cf54f6}{%
+           family={Kleijnen},
+           familyi={K\bibinitperiod},
+           given={R\bibnamedelima ea},
+           giveni={R\bibinitperiod\bibinitdelim e\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b2c4c1b6fcf9cfecbc16b03c8e5231b}{%
+           family={Bosman},
+           familyi={B\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb59beff709840bf0889d52a929f8978}{%
+           family={De\bibnamedelima Jong},
+           familyi={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d822b30e429f20c4e6ccc9eb4bf2a87}{%
+           family={Henneman},
+           familyi={H\bibinitperiod},
+           given={K},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=599bc24a8d24ef87d7b0c296c78c66d2}{%
+           family={Pasman},
+           familyi={P\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5a5e0192f92c70c8b88b1b9720cdb68}{%
+           family={Paternotte},
+           familyi={P\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0d43c11c91f147065b070bb9de5470b}{%
+           family={Ruijssenaars},
+           familyi={R\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=624914ecf932243d8635d517961a22cc}{%
+           family={Struiksma},
+           familyi={S\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=137555d7958fcced416f8e828cde42e8}{%
+           family={Van\bibnamedelimb den\bibnamedelima Bos},
+           familyi={V\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={KP},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b489698a6464a1a0de5f913e4493f45}{%
+           family={Van\bibnamedelimb der\bibnamedelima Leij},
+           familyi={V\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={A},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Bilthoven4eStichting Dyslexie Nederland (SDN)}%
+      }
+      \strng{namehash}{d7648315b9cb164199591f3300303187}
+      \strng{fullhash}{deaa1b880323c71366466e6da0e75ea2}
+      \strng{bibnamehash}{deaa1b880323c71366466e6da0e75ea2}
+      \strng{authorbibnamehash}{deaa1b880323c71366466e6da0e75ea2}
+      \strng{authornamehash}{d7648315b9cb164199591f3300303187}
+      \strng{authorfullhash}{deaa1b880323c71366466e6da0e75ea2}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dyslexie: Diagnose en behandeling van dyslexie}
+      \field{year}{2008}
     \endentry
     \entry{Li2018}{misc}{}
       \name{author}{4}{}{%
@@ -1858,6 +2106,34 @@
       \verb{url}
       \verb https://www.science.org/doi/abs/10.1126/science.1250475
       \endverb
+    \endentry
+    \entry{Bonte2020}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f8b3f1ec76210c9ab0abcccff36d085d}{%
+           family={Milene},
+           familyi={M\bibinitperiod},
+           given={Bonte},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {uitgeverij SWP}%
+      }
+      \strng{namehash}{f8b3f1ec76210c9ab0abcccff36d085d}
+      \strng{fullhash}{f8b3f1ec76210c9ab0abcccff36d085d}
+      \strng{bibnamehash}{f8b3f1ec76210c9ab0abcccff36d085d}
+      \strng{authorbibnamehash}{f8b3f1ec76210c9ab0abcccff36d085d}
+      \strng{authornamehash}{f8b3f1ec76210c9ab0abcccff36d085d}
+      \strng{authorfullhash}{f8b3f1ec76210c9ab0abcccff36d085d}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bestaat Dyslexie?: En is het een relevante vraag?}
+      \field{year}{2020}
     \endentry
     \entry{Glorieux2018}{misc}{}
       \name{author}{3}{}{%
@@ -2802,6 +3078,35 @@
       \field{title}{Python current trend applications-an overview}
       \field{year}{2019}
     \endentry
+    \entry{VanVreckem2015}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c8a3e19e568612beea8d10b96f3b310b}{%
+           family={{Van Vreckem, Christel and Desoete, Annemie}},
+           familyi={V\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {dut}%
+      }
+      \strng{namehash}{c8a3e19e568612beea8d10b96f3b310b}
+      \strng{fullhash}{c8a3e19e568612beea8d10b96f3b310b}
+      \strng{bibnamehash}{c8a3e19e568612beea8d10b96f3b310b}
+      \strng{authorbibnamehash}{c8a3e19e568612beea8d10b96f3b310b}
+      \strng{authornamehash}{c8a3e19e568612beea8d10b96f3b310b}
+      \strng{authorfullhash}{c8a3e19e568612beea8d10b96f3b310b}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{{1370-706X}}
+      \field{journaltitle}{{LOGOPEDIE}}
+      \field{title}{{Het ene kind met dyslexie is het andere niet: implicaties uit begrijpend leesonderzoek en spellingonderzoek voor diagnostiek en therapie}}
+      \field{year}{{2015}}
+      \field{pages}{{58\bibrangedash 66}}
+      \range{pages}{-1}
+    \endentry
     \entry{Vasista2022}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=393944a75e014494a6c6ea234f37838d}{%
@@ -3122,6 +3427,7 @@
       \range{pages}{12}
     \endentry
   \enddatalist
+  \missing{Leopold2015}
 \endrefsection
 \endinput
 

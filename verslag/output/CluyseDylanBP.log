@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  25 FEB 2023 17:31
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  25 FEB 2023 21:01
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2122,7 +2122,15 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'CluyseDylanBP.bbl' found.
 
-(../output/CluyseDylanBP.bbl)
+(../output/CluyseDylanBP.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Leopold2015
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 106.
 Package biblatex Info: Reference segment=0 on input line 106.
 Package caption Info: Begin \AtBeginDocument code.
@@ -2391,6 +2399,12 @@ omatiseerde tekstvereen-
 
 [3]) (./standvanzaken.tex [4]
 Hoofdstuk 2.
+
+Overfull \hbox (1.55896pt too wide) in paragraph at lines 25--26
+\TU/Montserrat(2)/m/it/10.95 Natural Language Processing \TU/Montserrat(1)/m/n/
+10.95 (NLP) of natuurlijke taalverwerking is een brede term
+ []
+
 [5
 
 ]
@@ -2412,25 +2426,25 @@ File: img/nerlabeling.jpg Graphic file (type bmp)
 File: img/voorbeeld-manuele-vereenvoudiging.png Graphic file (type bmp)
 <img/voorbeeld-manuele-vereenvoudiging.png>
 [7] [8] [9] [10] [11] [12] [13] [14] [15]
-Overfull \hbox (1.99425pt too wide) in paragraph at lines 293--294
+Overfull \hbox (0.38828pt too wide) in paragraph at lines 296--297
+[]\TU/Montserrat(1)/m/n/10.95 Een hulpverlener een beeld kan krijgen van de beh
+eersing van leesstrategieën,
+ []
+
+
+Overfull \hbox (1.99425pt too wide) in paragraph at lines 301--302
 []\TU/Montserrat(1)/m/n/10.95 Logische inferenties waarbij de voorkennis wordt 
 opgeroepen en geïntegreerd
  []
 
 [16]
-Overfull \hbox (1.02338pt too wide) in paragraph at lines 300--301
-[]\TU/Montserrat(1)/m/n/10.95 Het onderzoek van VanVreckem2022 benadrukt dat th
-erapeuten in de eerste plaats
- []
-
-
-Overfull \hbox (6.03845pt too wide) in paragraph at lines 304--305
+Overfull \hbox (6.03845pt too wide) in paragraph at lines 312--313
 []\TU/Montserrat(1)/m/n/10.95 Kinderen met dyslexie hebben meer problemen met d
 e spelling van bestaande
  []
 
 [17] [18]
-Overfull \hbox (7.35176pt too wide) in paragraph at lines 350--351
+Overfull \hbox (7.35176pt too wide) in paragraph at lines 360--361
 \TU/Montserrat(1)/m/n/10.95 letter-toevoegingen, letter-vervangingen, en het on
 herkenbaar verminken van woor-
  []
@@ -2445,7 +2459,7 @@ File: img/oeso-graphic-wetenschappelijke-geletterdheid-2.png Graphic file (type
  bmp)
 <img/oeso-graphic-wetenschappelijke-geletterdheid-2.png>
  [22]
-Overfull \hbox (4.00008pt too wide) in paragraph at lines 443--444
+Overfull \hbox (4.00008pt too wide) in paragraph at lines 450--451
 [][]\TU/Montserrat(1)/m/n/10.95 Plavén-Sigray e.a. ([][]2017[][]) onderzochten 
 de verschillende trends waarom wetenschap-
  []
@@ -2456,7 +2470,7 @@ File: img/fre-ndc.png Graphic file (type bmp)
 File: img/ndc-number-of-authors.png Graphic file (type bmp)
 <img/ndc-number-of-authors.png>
 
-Overfull \hbox (0.37733pt too wide) in paragraph at lines 459--460
+Overfull \hbox (0.37733pt too wide) in paragraph at lines 466--467
 \TU/Montserrat(1)/m/n/10.95 gen maken dat moderne samenlevingen minder streng w
 orden met feitelijke waar-
  []
@@ -2559,18 +2573,18 @@ dactiek \TU/Montserrat(1)/m/n/10.95 (1ste ed.). Ten Brink
 
 [43] [44] (../output/CluyseDylanBP.aux)
 Package rerunfilecheck Info: File `CluyseDylanBP.out' has not changed.
-(rerunfilecheck)             Checksum: 03C7AA5E232BB27E8DC8A13ED6B03417;3889.
+(rerunfilecheck)             Checksum: 499A0E98034A4FB72282482B87D77B72;4192.
 Package logreq Info: Writing requests to 'CluyseDylanBP.run.xml'.
 \openout1 = `CluyseDylanBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47892 strings out of 478657
- 930418 string characters out of 5861312
- 2037875 words of memory out of 5000000
- 66654 multiletter control sequences out of 15000+600000
+ 47926 strings out of 478657
+ 931202 string characters out of 5861312
+ 2038304 words of memory out of 5000000
+ 66688 multiletter control sequences out of 15000+600000
  406482 words of font info for 98 fonts, out of 8000000 for 9000
  351 hyphenation exceptions out of 8191
  113i,12n,139p,2569b,7099s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../output/CluyseDylanBP.xdv (51 pages, 1180572 bytes).
+Output written on ../output/CluyseDylanBP.xdv (51 pages, 1217836 bytes).
