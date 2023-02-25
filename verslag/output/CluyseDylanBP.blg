@@ -1,17 +1,19 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is '../output/CluyseDylanBP.blg'
-[59] biber:340> INFO - === Sat Feb 25, 2023, 13:06:32
-[72] Biber.pm:415> INFO - Reading '../output/CluyseDylanBP.bcf'
-[176] Biber.pm:952> INFO - Found 63 citekeys in bib section 0
-[194] Biber.pm:4340> INFO - Processing section 0
-[202] Biber.pm:4531> INFO - Looking for bibtex format file 'bachproef.bib' for section 0
-[207] bibtex.pm:1689> INFO - LaTeX decoding ...
-[284] bibtex.pm:1494> INFO - Found BibTeX data source 'bachproef.bib'
-[488] Utils.pm:384> WARN - legacy year field '{2017}' in entry 'Desoete2017' is not an integer - this will probably not sort properly.
-[751] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[752] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[752] Biber.pm:4168> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[752] Biber.pm:4174> INFO - No sort tailoring available for locale 'nl-NL'
-[827] bbl.pm:654> INFO - Writing '../output/CluyseDylanBP.bbl' with encoding 'UTF-8'
-[864] bbl.pm:757> INFO - Output to ../output/CluyseDylanBP.bbl
-[864] Biber.pm:128> INFO - WARNINGS: 1
+[60] biber:340> INFO - === Sat Feb 25, 2023, 16:48:37
+[74] Biber.pm:415> INFO - Reading '../output/CluyseDylanBP.bcf'
+[182] Biber.pm:952> INFO - Found 71 citekeys in bib section 0
+[197] Biber.pm:4340> INFO - Processing section 0
+[205] Biber.pm:4531> INFO - Looking for bibtex format file 'bachproef.bib' for section 0
+[211] bibtex.pm:1689> INFO - LaTeX decoding ...
+[296] bibtex.pm:1494> INFO - Found BibTeX data source 'bachproef.bib'
+[329] Utils.pm:384> WARN - legacy month field 'Aug' in entry 'Glorieux2018' is not an integer - this will probably not sort properly.
+[511] Utils.pm:384> WARN - legacy year field '{2017}' in entry 'Desoete2017' is not an integer - this will probably not sort properly.
+[578] Utils.pm:384> WARN - legacy month field 'Mar' in entry 'Pain2016' is not an integer - this will probably not sort properly.
+[805] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[806] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[806] Biber.pm:4168> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[806] Biber.pm:4174> INFO - No sort tailoring available for locale 'nl-NL'
+[888] bbl.pm:654> INFO - Writing '../output/CluyseDylanBP.bbl' with encoding 'UTF-8'
+[929] bbl.pm:757> INFO - Output to ../output/CluyseDylanBP.bbl
+[929] Biber.pm:128> INFO - WARNINGS: 3
