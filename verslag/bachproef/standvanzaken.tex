@@ -73,12 +73,30 @@ Tekstvereenvoudiging bestaat uit vier soorten transformaties: lexicale, syntacti
 	\caption{Voorbeeld van manuele tekstvereenvoudiging. Oorspronkelijke tekst uit Historia 5 bron toe te voegen}
 \end{figure}
 
+Verder haalt \textcite{Dubay2004} de vier basiselementen aan die bijdragen tot een eenvoudigere tekst.
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=5cm]{img/text-simplification-reading-ease.png}
+	\end{center}
+	\caption{Afbeelding van \textcite{Dubay2004}}
+\end{figure}
+
 \subsection{Lexicale vereenvoudiging}
 
 % todo bron
 Bij lexicale vereenvoudiging worden complexe woorden vervangen door eenvoudigere synoniemen. Bijvoorbeeld, het woord 'adhesief' kan worden vervangen door 'klevend'. De zinsstructuur verandert niet en er is garantie dat de kerninhoud en benadrukking hetzelfde blijft. Het doel van lexicale vereenvoudiging is om de moeilijkheidsgraad van de woordenschat in een zin of tekst te verlagen. Dit is, volgens het aantal onderzoeken, de meest gekende vorm van vereenvoudiging en een noodzakelijke stap bij het vereenvoudigen van een tekst. Voor prevalente domeinen, zoals de onderwijs-, medische en financiële sector, zijn er onderzoeken vrij beschikbaar. 
 
 In de medische sector haalt \textcite{Kandula2010} twee manieren aan om lexicale vereenvoudiging mogelijk te maken, namelijk het vervangen door een synoniem en het aanmaken of genereren van extra uitleg. Zij bouwden verder op een vorig onderzoek van \textcite{Zeng2005}.
+
+\subsubsection{Complex Word Identification}
+
+Complex word identification of CWI is een NLP-component in een pipeline voor tekstvereenvoudiging waarbij moeilijke woorden of \textit{multi-word expressions} (MWE) in een tekst worden achterhaald \autocite{Shardlow2013, Gooding2019}. Dit is volgens \textcite{Shardlow2013} een cruciale stap, want een lage recall van dit component zal een uitvoertekst geven waar moeilijke woorden onaangepast zijn. 
+
+% FrenLys
+
+% CWI
+% todo \textcite{Bingel2018}
 
 \subsection{Syntactische vereenvoudiging}
 
@@ -112,21 +130,15 @@ Geautomatiseerde tekstvereenvoudiging is geen nieuw concept. Volgens onderzoeken
 
 Het onderzoek van \textcite{DeBelder2010} richt zich op tekstvereenvoudiging voor kinderen. De doelgroep ligt echter jonger dan deze casus, maar het onderzoek haalt aan hoe de onderzoekers een methode opzetten voor lexicale en syntactische vereenvoudiging.
 
-Een onderzoek van \textcite{Bulte2018} ging met dit concept aan de slag. Het resultaat van hun onderzoek was een \textit{pipeline} ontworpen om moeilijke woordenschat naar simpele synoniemen te vervangen. Eerst ging de tekstinhoud door een \textit{preprocessing}-fase, samen met het uitvoeren van WSE. Daarna werd de moeilijkheidsgraad van ieder token overlopen. De moeilijkheidsgraad is gebaseerd op hoe vaak een woord voorkomt in SONAR500\footnote{https://taalmaterialen.ivdnt.org/download/tstc-sonar-corpus/} een corpus met eenvoudige Nederlandstalige woorden. Synoniemen werden teruggevonden met Cornetto\footnote{https://github.com/emsrc/pycornetto}, een lexicale databank met Nederlandstalige woorden. Hiervoor gebruikten de onderzoekers een \textit{reverse lemmatization} fase. Lexicale vereenvoudiging is ingewikkeld wanneer er geen eenvoudigere synoniemen zijn. In dat geval blijft een moeilijk woord voor wat het is.
+\textcite{Bulte2018} ging met dit concept aan de slag. Het resultaat van hun onderzoek was een \textit{pipeline} ontworpen om moeilijke woordenschat naar simpele synoniemen te vervangen. Eerst ging de tekstinhoud door een \textit{preprocessing}-fase, samen met het uitvoeren van WSE. Daarna werd de moeilijkheidsgraad van ieder token overlopen. De moeilijkheidsgraad is gebaseerd op hoe vaak een woord voorkomt in SONAR500\footnote{https://taalmaterialen.ivdnt.org/download/tstc-sonar-corpus/} een corpus met eenvoudige Nederlandstalige woorden. Synoniemen werden teruggevonden met Cornetto\footnote{https://github.com/emsrc/pycornetto}, een lexicale databank met Nederlandstalige woorden. Hiervoor gebruikten de onderzoekers een \textit{reverse lemmatization} fase. Lexicale vereenvoudiging is ingewikkeld wanneer er geen eenvoudigere synoniemen zijn. In dat geval blijft een moeilijk woord voor wat het is.
 
 \section{Samenvatten}
 
 % Probleem met de voorbije fasen
 
-Teksten vereenvoudigen met lexicale, conceptuele en/of syntactische vereenvoudiging biedt geen garantie dat de tekstinhoud korter zal worden. Bij deze drie soorten wordt er enkel binnen een zin gekeken, zo wordt er geen rekening gehouden met de zinnen die daarop voorafgaan of volgen.
-
-% Zinnen opsplitsen leidt volgens \textcite{Siddharthan2014} vaak uit tot langere zinnen, omdat de zinsbouw per opsplitsing vanaf nul moet worden opgebouwd. 
-
-% TODO https://files.eric.ed.gov/fulltext/ED490073.pdf --> bron !!!
+Teksten vereenvoudigen met lexicale, conceptuele en/of syntactische vereenvoudiging biedt geen garantie dat de tekstinhoud korter zal worden. Bij de voorafvermelde drie soorten vereenvoudiging wordt er per zin gekeken. Met andere woorden wordt er geen rekening gehouden met de voorafgaande of opvolgende zinnen \autocite{DuBay2004}. Teksten machinaal samenvatten is geen nieuw concept. Het onderzoek van \textcite{Hahn2000} bevat vele citaties en een uitgangspunt om te vertrekken hoe teksten automatisch kunnen worden samengevat. Zij halen twee aanpakken hoe een machine een tekst kan samenvatten: extractief en abstractief. Verder reikt \textcite{Hahn2000} drie soorten samenvattingen aan:
 
 % Informatieve, indicatieve en kritische samenvattingen
-
-Teksten machinaal samenvatten is geen nieuw concept. Het onderzoek van \textcite{Hahn2000} bevat vele citaties en een uitgangspunt om te vertrekken hoe teksten automatisch kunnen worden samengevat. Zij halen twee aanpakken hoe een machine een tekst kan samenvatten: extractief en abstractief. Verder reikt \textcite{Hahn2000} drie soorten samenvattingen aan:
 
 \begin{itemize}
 	\item Informatieve samenvattingen vervangen de oorspronkelijke tekst. Alles wat de lezer nodig heeft, dus hoofd- en bijzaken, zijn betrokken in de samengevatte tekst.
@@ -139,6 +151,11 @@ Teksten machinaal samenvatten is geen nieuw concept. Het onderzoek van \textcite
 Verder haalt \textcite{Hahn2000} ook het onderscheid tussen een generieke en een gebruikersgerichte samenvatting. Een generieke samenvatting staat niet stil bij speciale noden of interesses van de eindgebruiker. Daarnaast houdt een gebruikersgerichte samenvatting wel rekening met sleutelwoorden of thema's in een tekst. \textcite{Hahn2000} haalt aan dat technologieën zoals full-text-search en gepersonaliseerd informatiefiltering het belang van gebruikersgerichte samenvatting naar voor duwen.
 
 \textcite{Hahn2000} omschrijft de architectuur van een samenvattingssysteem aan de hand van drie fases. Allereerst wordt de brontekst geanalyseerd. Daarna worden de \textit{salient points} of kernpunten in een tekst aangeduid. Deze punten zijn zinnen of tokens. Ten slotte worden de punten samengevoegd tot één uitvoertekst. De nadruk is verschillend per samenvattingsmethode.
+
+\begin{figure}
+	\includegraphics{img/summarization-mindmap.png}
+	\caption{Afbeelding van \textcite{Chauchan2018}. De manier waarop teksten automatisch samengevat kunnen worden, is afhankelijk van drie verschillende domeinen.}
+\end{figure}
 
 \subsection{Extractief samenvatten}
 
@@ -184,7 +201,7 @@ Echter haalt het onderzoek van \textcite{Rani2021} aan dat een metaheuristieke m
 
 % todo https://medium.com/jatana/unsupervised-text-summarization-using-sentence-embeddings-adb15ce83db1 --> voorbeeld van een pipeline
 
-\textcite{McKeown1999} voerden experimenten uit op het extractief samenvatten van teksten. Zij achterhalen dat deze vorm vatbaar is op vooroordelen. Bij nieuwsartikelen wordt er geen rekening gehouden met vooroordelen van de auteur. De zinnen worden genomen zoals ze zijn. \textcite{Hahn2000} bouwde verder op dit experiment. Zij voerden een experiment uit met een mix van \textit{knowledge-rich} en \textit{knowledge-poor} methoden, met succesvolle resultaten tot gevolg.
+\textcite{McKeown1999} voerden experimenten uit op extractieve samenvattingen van nieuwsartikelen. De resultaten wijzen erop dat deze vorm vatbaar is op vooroordelen. Bij nieuwsartikelen wordt er geen rekening gehouden met vooroordelen van de auteur. De zinnen worden genomen zoals ze zijn. \textcite{Hahn2000} bouwde verder op dit experiment. Zij voerden een experiment uit met een mix van \textit{knowledge-rich} en \textit{knowledge-poor} methoden, met succesvolle resultaten tot gevolg.
 
 De nadruk bij extractief samenvatten ligt in het kiezen van de \textit{salient text units}. Deze punten zijn typisch in de vorm van zinnen. Er is nood aan een manier om de lexicale en statistische relevantie van een zin te kunnen aanduiden. Hiervoor haalt \textcite{Hahn2000} twee manieren aan:
 
@@ -199,6 +216,10 @@ De nadruk bij extractief samenvatten ligt in het kiezen van de \textit{salient t
 \textcite{Nallapati2017} wilden de nauwkeurigheid van andere modellen overbruggen. Dit doen ze met \textit{SummaRuNNer}\footnote{https://github.com/hpzhao/SummaRuNNer}, een oplossing voor het extractief samenvatten van teksten met een neuraal netwerk. De toepassing werd opgebouwd met PyTorch in  en bestaat uit een combinatie van drie modellen: een recurrent neuraal netwerk, een convolutioneel recurrent neuraal netwerk en een \textit{hiërarchical attention network}.
 
 \subsubsection{Programmeren}
+
+\begin{lstlisting}[language=Python]
+todo
+\end{lstlisting}
 
 \subsection{Abstractief samenvatten}
 
@@ -425,9 +446,7 @@ Om dit probleem op te lossen, is het belangrijk om de eindgebruiker, in dit geva
 
 \subsection{Wetenschappelijke geletterdheid in Vlaanderen}
 
-% TODO AANPASSEN NAAR 2022
-
-De \textit{Programme for International Student Assessment} of PISA-test\footnote{https://www.pisa.ugent.be/resultaten/pisa-2022} van OESO is een driejaarlijkse test bij vijftienjarigen. Deze test bestudeert de wiskundige en wetenschappelijke geletterdheid\footnote{“Het beheersen van vaardigheden om als kritische burger om te gaan met wetenschappelijke onderwerpen en ideeën.” volgens \textcite{DeMeyer2019}} van 15-jarigen in geïndustrialiseerde landen, wat op ongeveer 79 landen komt. 4822 Vlaamse scholieren van vijftien jaar namen deel aan deze test. Dit onderzoek baseert op de cijfers van 2018, aangezien de testen van 2022 pas eind 2023 worden gepresenteerd. Deze testen houden echter geen rekening met leer- en leesstoornissen, waaronder dyslexie en dyscalculie. Het is echter nodig om deze cijfers mee te geven, om een idee te geven waar de doelgroep staat voor de start van de derde graad middelbaar onderwijs. 
+ De \textit{Programme for International Student Assessment} of PISA-test\footnote{https://www.pisa.ugent.be/resultaten/pisa-2022} van OESO is een driejaarlijkse test bij vijftienjarigen. Deze test bestudeert de wiskundige en wetenschappelijke geletterdheid\footnote{“Het beheersen van vaardigheden om als kritische burger om te gaan met wetenschappelijke onderwerpen en ideeën.” volgens \textcite{DeMeyer2019}} van 15-jarigen in geïndustrialiseerde landen, wat op ongeveer 79 landen komt. 4822 Vlaamse scholieren van vijftien jaar namen deel aan deze test. Dit onderzoek baseert op de cijfers van 2018, aangezien de testen van 2022 pas eind 2023 worden gepresenteerd. Deze testen houden echter geen rekening met leer- en leesstoornissen, waaronder dyslexie en dyscalculie. Het is echter nodig om deze cijfers mee te geven, om een idee te geven waar de doelgroep staat voor de start van de derde graad middelbaar onderwijs. 
 
 \begin{figure}[H]
 	\begin{center}
@@ -480,7 +499,6 @@ Allereerst benadeelt dit de toegankelijkheid tot deze bronnen. Deze bronnen word
 
 Meerdere onderzoeken, halen de gevolgen bij vakexperts aan. \textcite{Hartley1999} toont zo aan dat het herschrijven van abstracten juist de begrijpbaarheid van academici vergrootte. De wetenschap bouwt voort op betrouwbare ontdekkingen en het reproduceren van experimenten is een belangrijke manier voor wetenschappers om vertrouwen te krijgen in hun besluiten. De inhoud van de wetenschappelijke artikelen moeten echter gecontroleerd kunnen worden. Voor de reproduceerbaarheid van onderzoeken is het volgens \textcite{McNutt2014} belangrijk dat de methodologie en resultaten begrijpelijk zijn. Dit beperkt het aantal misopvattingen en verwarringen bij onderzoekers.
 
-
 % todo FRE grens aanduiden op volgende grafieken
 
 \subsection{Formaat}
@@ -510,6 +528,7 @@ Experimenten uit het onderzoek van \textcite{Hubbard2017} wijzen uit dat de bevr
 
 De bevraagde onderzoekers in het onderzoek van \textcite{Hubbard2017} haalden de volgende adviezen aan. Het lezen van wetenschappelijke artikelen vereist selectief lezen, waarbij men bepaalde delen van het artikel prioriteert, zoals het abstract. Sommige bevraagden adviseren om de methodologie te negeren, terwijl anderen aanbevelen om de belangrijkste vragen of hypothesen van het artikel te achterhalen. Het is ook belangrijk om het artikel meerdere keren te lezen, waarbij men steeds gedetailleerder leest. Het abstract en/of de discussie bepaalt of het artikel de moeite waard is om te lezen. Kritisch lezen is eveneens belangrijk, waarbij men de conclusies beoordeelt en de data interpreteert voor zichzelf. Over het algemeen haalt het onderzoek van \textcite{Hubbard2017} aan dat er geen standaard aanpak is, maar selectief, kritisch en met een specifiek doel voor ogen lezen zijn belangrijke strategieën die veel bevraagde onderzoekers aanbevelen.
 
+%todo bron
 
 \textcite{Leopold2015} voerden een experiment uit om een leerstrategie te achterhalen bij het leren van wetenschappelijke teksten. In het onderzoek testte het experiment drie leermethoden: het markeren van zinnen, \textit{concept mapping} en het visualiseren van de tekst. Dit experiment werd uitgevoerd bij 51 scholieren van gemiddeld vijftien jaar en met een licht overwegend vrouwelijk publiek. % Het experiment gaf geen inzicht over de leesbegaafdheid van een scholier.
 
@@ -536,7 +555,9 @@ In het middelbaar onderwijs wordt lees- en studieondersteuning voor scholieren m
 
 \subsection{Proof-of-concepts en online webapplicaties}
 
-% Bingel2018
+Tot dusver zijn er talloze tools online beschikbaar die teksten generiek of voor een algemeen doelpubliek kunnen vereenvoudigen of samenvatten. 
+
+Zo ontwikkelde \textcite{Bingel2018} een proof-of-concept voor een webapplicatie die teksten vereenvoudigd, specifiek voor mensen met dyslexie.
 
 
 
@@ -549,17 +570,17 @@ In het middelbaar onderwijs wordt lees- en studieondersteuning voor scholieren m
 % foto van Sian Gooding
 
 \begin{figure}
-	\includegraphics[width=10cm]{img/chatgpt-example-simplification-gooding.png}
-	\caption{Afbeelding van Gooding 2022. De invoertekst is een paragraaf uit een niet-gespecifieerd boek van de Russische schrijver Dostoevsky. Het resultaat van de meegegeven prompt is een transformatie dat iedere vorm van vooraf aangehaalde vereenvoudiging weergeeft. Lexicale, conceptuele en syntactische vereeenvoudiging worden op de invoertekst toegepast.}
+	\includegraphics[width=10cm]{img/chatgpt-example-simplification-gooding.png}[H]
+	\caption{Afbeelding van Gooding 2022. De invoertekst is een paragraaf uit een niet-vermeld boek van de Russische schrijver Dostoevsky. Het resultaat van de meegegeven prompt is een transformatie dat iedere vorm van vooraf aangehaalde vereenvoudiging weergeeft. Lexicale, conceptuele en syntactische vereeenvoudiging worden op de invoertekst toegepast.}
 \end{figure}
 
 \begin{figure}
-	\includegraphics[width=10cm]{img/chatgpt-example-different-versions-gooding.png}
+	\includegraphics[width=10cm]{img/chatgpt-example-different-versions-gooding.png}[H]
 	\caption{Afbeelding van Gooding 2022. Gooding haalt verder aan dat modellen zoals ChatGPT op twee vlakken de leesbaarheid van een tekst kan bevorderen. Allereerst door het verlenen van verschillende mogelijke versies van een vereenvoudigingstaak.}
 \end{figure}
 
 \begin{figure}
-	\includegraphics[width=10cm]{img/chatgpt-example-evaluation-gooding.png}
+	\includegraphics[width=10cm]{img/chatgpt-example-evaluation-gooding.png}[H]
 	\caption{Afbeelding van Gooding 2022. Gooding haalt aan dat }
 \end{figure}
 

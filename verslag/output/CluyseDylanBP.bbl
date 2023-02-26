@@ -397,6 +397,42 @@
       \field{pages}{335\bibrangedash 336}
       \range{pages}{2}
     \endentry
+    \entry{Chauchan2018}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=201586971835750f2be0237239006e32}{%
+           family={Chauhan},
+           familyi={C\bibinitperiod},
+           given={Kushal},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Medium}%
+      }
+      \strng{namehash}{201586971835750f2be0237239006e32}
+      \strng{fullhash}{201586971835750f2be0237239006e32}
+      \strng{bibnamehash}{201586971835750f2be0237239006e32}
+      \strng{authorbibnamehash}{201586971835750f2be0237239006e32}
+      \strng{authornamehash}{201586971835750f2be0237239006e32}
+      \strng{authorfullhash}{201586971835750f2be0237239006e32}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medium}
+      \field{month}{8}
+      \field{title}{Unsupervised text summarization using sentence embeddings}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://medium.com/jatana/unsupervised-text-summarization-using-sentence-embeddings-adb15ce83db1
+      \endverb
+      \verb{url}
+      \verb https://medium.com/jatana/unsupervised-text-summarization-using-sentence-embeddings-adb15ce83db1
+      \endverb
+    \endentry
     \entry{Chowdhary2020}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8b85e59bf81a08b351c1b0047ffe26df}{%
@@ -1013,6 +1049,35 @@
       \field{pages}{108\bibrangedash 111}
       \range{pages}{4}
     \endentry
+    \entry{Dubay2004}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5dfd336ab073801bb25e121ce1126d5d}{%
+           family={DuBay},
+           familyi={D\bibinitperiod},
+           given={William\bibnamedelima H},
+           giveni={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {ERIC}%
+      }
+      \strng{namehash}{5dfd336ab073801bb25e121ce1126d5d}
+      \strng{fullhash}{5dfd336ab073801bb25e121ce1126d5d}
+      \strng{bibnamehash}{5dfd336ab073801bb25e121ce1126d5d}
+      \strng{authorbibnamehash}{5dfd336ab073801bb25e121ce1126d5d}
+      \strng{authornamehash}{5dfd336ab073801bb25e121ce1126d5d}
+      \strng{authorfullhash}{5dfd336ab073801bb25e121ce1126d5d}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Online Submission}
+      \field{title}{The principles of readability.}
+      \field{year}{2004}
+    \endentry
     \entry{Eisenstein2019}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=669f8ea45634b48726e58516b2ddf8aa}{%
@@ -1299,6 +1364,40 @@
       \verb{url}
       \verb https://aclanthology.org/2022.slpat-1.7
       \endverb
+    \endentry
+    \entry{Gooding2019}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=641874c2c50473d46ebdd78ff57c967d}{%
+           family={Gooding},
+           familyi={G\bibinitperiod},
+           given={Sian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=99fc80aee89e42a6ff1dde48a2aabb65}{%
+           family={Kochmar},
+           familyi={K\bibinitperiod},
+           given={Ekaterina},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9d2e323ddec9f459d63d1cd4c24c693f}
+      \strng{fullhash}{9d2e323ddec9f459d63d1cd4c24c693f}
+      \strng{bibnamehash}{9d2e323ddec9f459d63d1cd4c24c693f}
+      \strng{authorbibnamehash}{9d2e323ddec9f459d63d1cd4c24c693f}
+      \strng{authornamehash}{9d2e323ddec9f459d63d1cd4c24c693f}
+      \strng{authorfullhash}{9d2e323ddec9f459d63d1cd4c24c693f}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics}
+      \field{title}{Complex word identification as a sequence labelling task}
+      \field{year}{2019}
+      \field{pages}{1148\bibrangedash 1153}
+      \range{pages}{6}
     \endentry
     \entry{Hahn2000}{article}{}
       \name{author}{2}{}{%
@@ -2860,6 +2959,47 @@
       \verb https://medium.com/sciforce/biggest-open-problems-in-natural-language-processing-7eb101ccfc9
       \endverb
     \endentry
+    \entry{Shardlow2013}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d15f65dc3a8314f8ec6692eb6b0f5c1a}{%
+           family={Shardlow},
+           familyi={S\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Sofia, Bulgaria}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \strng{fullhash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \strng{bibnamehash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \strng{authorbibnamehash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \strng{authornamehash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \strng{authorfullhash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{51st Annual Meeting of the Association for Computational Linguistics Proceedings of the Student Research Workshop}
+      \field{title}{A Comparison of Techniques to Automatically Identify Complex Words.}
+      \field{year}{2013}
+      \field{pages}{103\bibrangedash 109}
+      \range{pages}{7}
+      \verb{urlraw}
+      \verb https://aclanthology.org/P13-3015
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/P13-3015
+      \endverb
+    \endentry
     \entry{Shardlow2014}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d15f65dc3a8314f8ec6692eb6b0f5c1a}{%
@@ -2879,6 +3019,7 @@
       \strng{authorbibnamehash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
       \strng{authornamehash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
       \strng{authorfullhash}{d15f65dc3a8314f8ec6692eb6b0f5c1a}
+      \field{extraname}{2}
       \field{sortinit}{S}
       \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
       \field{extradatescope}{labelyear}
@@ -3611,6 +3752,7 @@
       \range{pages}{12}
     \endentry
   \enddatalist
+  \missing{DuBay2004}
   \missing{Leopold2015}
 \endrefsection
 \endinput
