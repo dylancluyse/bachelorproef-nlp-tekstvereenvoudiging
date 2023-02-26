@@ -595,6 +595,78 @@
       \field{dateera}{ce}
       \keyw{Text simplification}
     \endentry
+    \entry{DeCraemer2018}{misc}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=b6339bcb0acc47a19947152e3a09c2b1}{%
+           family={De\bibnamedelima Craemer},
+           familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0ef5336845c6ab7e20a0644284b4a6b}{%
+           family={Van\bibnamedelima Beeumen},
+           familyi={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Luc},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=86ed732ed566efc32cd5ea69aa157a1b}{%
+           family={Cooreman},
+           familyi={C\bibinitperiod},
+           given={Anny},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c1147a127984c30cb17b65fc8becfa2f}{%
+           family={Moonen},
+           familyi={M\bibinitperiod},
+           given={Ann},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f5d3631958878224707f4353a6372d9}{%
+           family={Rottier},
+           familyi={R\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7da42693387f199de106ad73a5ae21cb}{%
+           family={Wagemakers},
+           familyi={W\bibinitperiod},
+           given={Inge},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=76c9b4dfb30b9ce87e292ad0817718b7}{%
+           family={Mardulier},
+           familyi={M\bibinitperiod},
+           given={Theo},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Onderwijs Vlaanderen}%
+      }
+      \strng{namehash}{21bc057914218bb52fe88d89c20f1c7b}
+      \strng{fullhash}{3ee0dd08c2f21e472996f26f72f6393d}
+      \strng{bibnamehash}{3ee0dd08c2f21e472996f26f72f6393d}
+      \strng{authorbibnamehash}{3ee0dd08c2f21e472996f26f72f6393d}
+      \strng{authornamehash}{21bc057914218bb52fe88d89c20f1c7b}
+      \strng{authorfullhash}{3ee0dd08c2f21e472996f26f72f6393d}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Aan de slag met voorleessoftware op school: Een gids met acht vragen en antwoorden.}
+      \field{month}{1}
+      \field{title}{Aan de slag met voorleessoftware op school. Een gids met 8 vragen en antwoorden.}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://onderwijs.vlaanderen.be/nl/onderwijspersoneel/van-basis-tot-volwassenenonderwijs/lespraktijk/ict-in-de-klas/voorleessoftware-voor-leerlingen-met-leesbeperkingen/aan-de-slag-met-voorleessoftware-op-school
+      \endverb
+      \verb{url}
+      \verb https://onderwijs.vlaanderen.be/nl/onderwijspersoneel/van-basis-tot-volwassenenonderwijs/lespraktijk/ict-in-de-klas/voorleessoftware-voor-leerlingen-met-leesbeperkingen/aan-de-slag-met-voorleessoftware-op-school
+      \endverb
+    \endentry
     \entry{DeMeyer2019}{misc}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=dd1490c2a014db3e5b1168cd1bdca014}{%
@@ -1581,6 +1653,57 @@
       \field{pages}{366}
       \range{pages}{1}
     \endentry
+    \entry{Khurana2022}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=00c398487189dcaf1dcee130ed215ccf}{%
+           family={Khurana},
+           familyi={K\bibinitperiod},
+           given={Diksha},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad8525b8eb2f769874e4c72fad9492bc}{%
+           family={Koli},
+           familyi={K\bibinitperiod},
+           given={Aditya},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2ddc74846f7902baefa908f120711b52}{%
+           family={Khatter},
+           familyi={K\bibinitperiod},
+           given={Kiran},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e988a0eadd27b7c2f54324c8288ccb27}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Sukhdev},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Nature}%
+      }
+      \strng{namehash}{1d88725f52f61140c4a3651c982a6bf0}
+      \strng{fullhash}{b703d1a3bc3353e8317de0e19e9f44a8}
+      \strng{bibnamehash}{b703d1a3bc3353e8317de0e19e9f44a8}
+      \strng{authorbibnamehash}{b703d1a3bc3353e8317de0e19e9f44a8}
+      \strng{authornamehash}{1d88725f52f61140c4a3651c982a6bf0}
+      \strng{authorfullhash}{b703d1a3bc3353e8317de0e19e9f44a8}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Multimedia Tools and Applications}
+      \field{month}{07}
+      \field{title}{Natural Language Processing: State of The Art, Current Trends and Challenges}
+      \field{volume}{82}
+      \field{year}{2022}
+      \field{pages}{25\bibrangedash 27}
+      \range{pages}{3}
+    \endentry
     \entry{Kleijnen2008}{article}{}
       \true{moreauthor}
       \true{morelabelname}
@@ -2300,6 +2423,38 @@
       \range{pages}{14}
       \verb{doi}
       \verb 10.1017/S1041610210000037
+      \endverb
+    \endentry
+    \entry{OnderwijsVlaanderen2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6b5966c9fecb2d7a2f975270bf80b47f}{%
+           family={OnderwijsVlaanderen},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Onderwijs Vlaanderen}%
+      }
+      \strng{namehash}{6b5966c9fecb2d7a2f975270bf80b47f}
+      \strng{fullhash}{6b5966c9fecb2d7a2f975270bf80b47f}
+      \strng{bibnamehash}{6b5966c9fecb2d7a2f975270bf80b47f}
+      \strng{authorbibnamehash}{6b5966c9fecb2d7a2f975270bf80b47f}
+      \strng{authornamehash}{6b5966c9fecb2d7a2f975270bf80b47f}
+      \strng{authorfullhash}{6b5966c9fecb2d7a2f975270bf80b47f}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Vlaams Ministerie van Onderwijs en Vorming}
+      \field{title}{Voorleessoftware voor Leerlingen met Leesbeperkingen}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://onderwijs.vlaanderen.be/voorleessoftware-voor-leerlingen-met-leesbeperkingen
+      \endverb
+      \verb{url}
+      \verb https://onderwijs.vlaanderen.be/voorleessoftware-voor-leerlingen-met-leesbeperkingen
       \endverb
     \endentry
     \entry{Pain2016}{misc}{}
@@ -3051,6 +3206,35 @@
       \verb{url}
       \verb https://www.microsoft.com/en-us/research/video/learning-challenges-in-natural-language-processing/
       \endverb
+    \endentry
+    \entry{Goyal2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=987d2ade4c2c5bd9e82a2787ec4955fe}{%
+           family={Tanya\bibnamedelima Goyal},
+           familyi={T\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Greg\bibnamedelima Durrett},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0,
+           suffix={Junyi\bibnamedelimb Jessy\bibnamedelima Li},
+           suffixi={J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{987d2ade4c2c5bd9e82a2787ec4955fe}
+      \strng{fullhash}{987d2ade4c2c5bd9e82a2787ec4955fe}
+      \strng{bibnamehash}{987d2ade4c2c5bd9e82a2787ec4955fe}
+      \strng{authorbibnamehash}{987d2ade4c2c5bd9e82a2787ec4955fe}
+      \strng{authornamehash}{987d2ade4c2c5bd9e82a2787ec4955fe}
+      \strng{authorfullhash}{987d2ade4c2c5bd9e82a2787ec4955fe}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint}
+      \field{title}{News Summarization and Evaluation in the Era of GPT-3}
+      \field{year}{2022}
     \endentry
     \entry{Thangarajah2019}{article}{}
       \name{author}{1}{}{%

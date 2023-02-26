@@ -1874,6 +1874,15 @@ INPUT img/fre-ndc.png
 INPUT ./img/ndc-number-of-authors.png
 INPUT ./img/ndc-number-of-authors.png
 INPUT img/ndc-number-of-authors.png
+INPUT ./img/chatgpt-example-simplification-gooding.png
+INPUT ./img/chatgpt-example-simplification-gooding.png
+INPUT img/chatgpt-example-simplification-gooding.png
+INPUT ./img/chatgpt-example-different-versions-gooding.png
+INPUT ./img/chatgpt-example-different-versions-gooding.png
+INPUT img/chatgpt-example-different-versions-gooding.png
+INPUT ./img/chatgpt-example-evaluation-gooding.png
+INPUT ./img/chatgpt-example-evaluation-gooding.png
+INPUT img/chatgpt-example-evaluation-gooding.png
 INPUT ./methodologie.tex
 INPUT ./methodologie.tex
 INPUT ./methodologie.tex
