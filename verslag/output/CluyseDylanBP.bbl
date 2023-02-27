@@ -52,6 +52,34 @@
       \field{title}{Performance Study on Extractive Text Summarization Using BERT Models}
       \field{year}{2022}
     \endentry
+    \entry{Avontuur2015}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b4791a31bed4594922f21c5d29d700c7}{%
+           family={Avontuur},
+           familyi={A\bibinitperiod},
+           given={Jos},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Uitgeverij boom/nelissen}%
+      }
+      \strng{namehash}{b4791a31bed4594922f21c5d29d700c7}
+      \strng{fullhash}{b4791a31bed4594922f21c5d29d700c7}
+      \strng{bibnamehash}{b4791a31bed4594922f21c5d29d700c7}
+      \strng{authorbibnamehash}{b4791a31bed4594922f21c5d29d700c7}
+      \strng{authornamehash}{b4791a31bed4594922f21c5d29d700c7}
+      \strng{authorfullhash}{b4791a31bed4594922f21c5d29d700c7}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dyslexie bij volwassenen: Impact op studie en Beroep}
+      \field{year}{2015}
+    \endentry
     \entry{Ball2017}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f1825f9782b3d1c2f34758342145de25}{%
@@ -1967,6 +1995,42 @@
       \field{year}{2010}
       \field{pages}{912\bibrangedash 920}
       \range{pages}{9}
+    \endentry
+    \entry{Lisowski2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ff8482c62b3a5b6fabf8f7926dbe307f}{%
+           family={Lisowski},
+           familyi={L\bibinitperiod},
+           given={Edwin},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Addepto}%
+      }
+      \strng{namehash}{ff8482c62b3a5b6fabf8f7926dbe307f}
+      \strng{fullhash}{ff8482c62b3a5b6fabf8f7926dbe307f}
+      \strng{bibnamehash}{ff8482c62b3a5b6fabf8f7926dbe307f}
+      \strng{authorbibnamehash}{ff8482c62b3a5b6fabf8f7926dbe307f}
+      \strng{authornamehash}{ff8482c62b3a5b6fabf8f7926dbe307f}
+      \strng{authorfullhash}{ff8482c62b3a5b6fabf8f7926dbe307f}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Addepto}
+      \field{month}{1}
+      \field{title}{GPT-3 vs. CHATGPT. the key differences}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://addepto.com/blog/gpt-3-vs-chat-gpt-the-key-differences/
+      \endverb
+      \verb{url}
+      \verb https://addepto.com/blog/gpt-3-vs-chat-gpt-the-key-differences/
+      \endverb
     \endentry
     \entry{Lissens2020}{article}{}
       \name{author}{11}{}{%

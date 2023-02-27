@@ -7,20 +7,24 @@
 
 \section{Tekstvereenvoudiging}
 
-% teksten vereenvoudigen tips:
-% * inkorten: teksten meermaals lezen en een samenvatting schrijven met een tekstlengte die haalbaar is voor scholieren
-% * 'opwarmen': woordenschat, grammatica of aanleg vooraf meegeven; vooraf ook zinnen markeren die voor scholieren belangrijk zijn; extra inleiding schrijven; vragen vooraf schrijven om scholieren te prikkelen over wat ze zometeen zullen lezen
-% * aanschouwelijkheid met afbeeldingen; 
-% * woorden aanpassen naargelang moeilijkheidsgraad; de schrijver suggereert om de moeilijkheidsgraad te baseren op de leesleeftijd van de persoon waarvoor dit wordt vereenvoudigd; evt aanhalen dat de leesleeftijd niet gelijk is per graad
-% * in een ander formaat schrijven; de schrijver haalt drie formaten aan: notes, postcards en emails; bijvoorbeeld het omzetten van een magazine-artikel naar een brief
-% * pas het gebruik van verwijswoorden aan; een multilinguale student heeft zo volgens .. problemen bij het bijhouden van naarwaar deze verwijzen; dit kan worden aangepast naar eenvoudige verwijswoorden zoals 'zij' of de namen zelf; wel moet er rekening worden gehouden dat de tekst de flow niet verliest
 
-% vermijden:
-% * glossary toevoegen, al heeft dit nadelige effecten bij het lezen van een tekst; wordt vooral gebruikt bij oudere doelgroepen;
+\subsection{Manuele tekstvereenvoudiging}
 
-Eerst moet er een technologische fundering gelegd worden over de basisconcepten en verschillende soorten van tekstvereenvoudiging. Tekstvereenvoudiging is het proces waarin het technisch leesniveau en/of woordgebruik van een geschreven tekst wordt verminderd. Zo mag de vereenvoudiging geen invloed hebben op de betekenis van de kerninhoud. Het langlopende onderzoek van Advaith Siddharthan is een goed vertrekpunt voor dit onderzoek. Volgens \autocite{Siddharthan2014} bestaat een complete vereenvoudiging van een tekst uit precies vier transformaties. Binnen machinaal leren (ML) is tekstvereenvoudiging een zijtak van natuurlijke taalverwerking. % Daarnaast is tekstvereenvoudiging een taalbewerking dat geautomatiseerd kan worden.
+% TODO bron
+% In wetenschappelijke artikelen is het van belang dat de informatie begrijpelijk is voor een breed publiek, waaronder ook scholieren. Om de tekst toegankelijker te maken, kunnen verschillende strategieën worden toegepast. Ten eerste kan de tekst worden ingekort door meerdere keren te lezen en een samenvatting te maken met een haalbare tekstlengte voor scholieren. Ten tweede kan de woordenschat en grammatica van tevoren worden uitgelegd, belangrijke zinnen kunnen worden gemarkeerd en er kan een extra inleiding worden geschreven om de interesse van scholieren te wekken. Ten derde kan aanschouwelijkheid worden vergroot met afbeeldingen en kunnen woorden worden aangepast aan de moeilijkheidsgraad, die kan worden gebaseerd op de leesleeftijd van de persoon waarvoor de tekst wordt vereenvoudigd. Ten vierde kan de tekst worden omgezet naar een ander formaat, zoals notes, postcards of emails, om het begrijpelijker te maken. Ten slotte moeten verwijswoorden worden aangepast om de tekst toegankelijker te maken voor multilinguale lezers, bijvoorbeeld door eenvoudige verwijswoorden zoals 'zij' of namen te gebruiken. Het is echter belangrijk om ervoor te zorgen dat de tekst niet de flow verliest door deze aanpassingen. Glossaries worden over het algemeen vermeden omdat deze nadelige effecten kunnen hebben op de leesbaarheid van de tekst, vooral voor oudere doelgroepen.
+
+\subsubsection{Lengte}
+
+\subsubsection{Woordenschat}
+
+\subsubsection{Grammatica}
+
+\subsubsection{Aanschouwelijkheid}
+
 
 \subsection{Natural Language Processing}
+
+Eerst moet er een technologische fundering gelegd worden over de basisconcepten en verschillende soorten van tekstvereenvoudiging. Tekstvereenvoudiging is het proces waarin het technisch leesniveau en/of woordgebruik van een geschreven tekst wordt verminderd. Zo mag de vereenvoudiging geen invloed hebben op de betekenis van de kerninhoud. Het langlopende onderzoek van Advaith Siddharthan is een goed vertrekpunt voor dit onderzoek. Volgens \autocite{Siddharthan2014} bestaat een complete vereenvoudiging van een tekst uit precies vier transformaties. Binnen machinaal leren (ML) is tekstvereenvoudiging een zijtak van natuurlijke taalverwerking. % Daarnaast is tekstvereenvoudiging een taalbewerking dat geautomatiseerd kan worden.
 
 \textit{Natural Language Processing} (NLP) of natuurlijke taalverwerking is een brede term die zich richt op het verwerken en analyseren van menselijke taal door computers en andere technologieën \autocite{Eisenstein2019}. Het omvat verschillende technieken, zoals tekstanalyse, taalherkenning en -generatie, spraakherkenning en -synthese, en semantische analyse. Computers zijn in staat om op een menselijke manier te communiceren en begrijpen wat er wordt gezegd. \textcite{Sohom2019} haalt de volgende begrippen aan.
 
@@ -91,11 +95,12 @@ In de medische sector haalt \textcite{Kandula2010} twee manieren aan om lexicale
 
 \subsubsection{Complex Word Identification}
 
-Complex word identification of CWI is een NLP-component in een pipeline voor tekstvereenvoudiging waarbij moeilijke woorden of \textit{multi-word expressions} (MWE) in een tekst worden achterhaald \autocite{Shardlow2013, Gooding2019}. Dit is volgens \textcite{Shardlow2013} een cruciale stap, want een lage recall van dit component zal een uitvoertekst geven waar moeilijke woorden onaangepast zijn. 
+Complex word identification of CWI is een supervised NLP-taak in een pipeline voor tekstvereenvoudiging. Moeilijke woorden of \textit{multi-word expressions} (MWE) in een tekst worden achterhaald  \autocite{Shardlow2013, Gooding2019}. Dit is volgens \textcite{Shardlow2013} een cruciale stap, want een lage recall van dit component zal een uitvoertekst geven waar moeilijke woorden niet worden vereenvoudigd.
 
-% FrenLys
+% todo Binnen Germaanse talen zijn er verschillende datasets die zich op deze taak toespitsen. Zo is er 
 
-% CWI
+% todo FrenLys
+
 % todo \textcite{Bingel2018}
 
 \subsection{Syntactische vereenvoudiging}
@@ -128,17 +133,11 @@ Geautomatiseerde tekstvereenvoudiging is geen nieuw concept. Volgens onderzoeken
 
 \subsection{Combineren tot het geheel van tekstvereenvoudiging}
 
-Het onderzoek van \textcite{DeBelder2010} richt zich op tekstvereenvoudiging voor kinderen. De doelgroep ligt echter jonger dan deze casus, maar het onderzoek haalt aan hoe de onderzoekers een methode opzetten voor lexicale en syntactische vereenvoudiging.
-
-\textcite{Bulte2018} ging met dit concept aan de slag. Het resultaat van hun onderzoek was een \textit{pipeline} ontworpen om moeilijke woordenschat naar simpele synoniemen te vervangen. Eerst ging de tekstinhoud door een \textit{preprocessing}-fase, samen met het uitvoeren van WSE. Daarna werd de moeilijkheidsgraad van ieder token overlopen. De moeilijkheidsgraad is gebaseerd op hoe vaak een woord voorkomt in SONAR500\footnote{https://taalmaterialen.ivdnt.org/download/tstc-sonar-corpus/} een corpus met eenvoudige Nederlandstalige woorden. Synoniemen werden teruggevonden met Cornetto\footnote{https://github.com/emsrc/pycornetto}, een lexicale databank met Nederlandstalige woorden. Hiervoor gebruikten de onderzoekers een \textit{reverse lemmatization} fase. Lexicale vereenvoudiging is ingewikkeld wanneer er geen eenvoudigere synoniemen zijn. In dat geval blijft een moeilijk woord voor wat het is.
+Het onderzoek van \textcite{DeBelder2010} richt zich op tekstvereenvoudiging voor kinderen. De doelgroep ligt echter jonger dan deze casus, maar het onderzoek haalt aan hoe de onderzoekers een methode opzetten voor lexicale en syntactische vereenvoudiging. \textcite{Bulte2018} werkte het aspect rond lexicale vereenvoudiging verder uit. Het resultaat van dit onderzoek was een \textit{pipeline} ontworpen om moeilijke woordenschat naar simpele synoniemen te vervangen. Eerst ging de tekstinhoud door een \textit{preprocessing}-fase, samen met het uitvoeren van WSE. Daarna werd de moeilijkheidsgraad van ieder token overlopen. De moeilijkheidsgraad is gebaseerd op hoe vaak een woord voorkomt in SONAR500\footnote{https://taalmaterialen.ivdnt.org/download/tstc-sonar-corpus/} een corpus met eenvoudige Nederlandstalige woorden. Synoniemen werden teruggevonden met Cornetto\footnote{https://github.com/emsrc/pycornetto}, een lexicale databank met Nederlandstalige woorden. Hiervoor gebruikten de onderzoekers een \textit{reverse lemmatization} fase. Lexicale vereenvoudiging is ingewikkeld wanneer er geen eenvoudigere synoniemen zijn. In dat geval blijft een moeilijk woord voor wat het is.
 
 \section{Samenvatten}
 
-% Probleem met de voorbije fasen
-
-Teksten vereenvoudigen met lexicale, conceptuele en/of syntactische vereenvoudiging biedt geen garantie dat de tekstinhoud korter zal worden. Bij de voorafvermelde drie soorten vereenvoudiging wordt er per zin gekeken. Met andere woorden wordt er geen rekening gehouden met de voorafgaande of opvolgende zinnen \autocite{DuBay2004}. Teksten machinaal samenvatten is geen nieuw concept. Het onderzoek van \textcite{Hahn2000} bevat vele citaties en een uitgangspunt om te vertrekken hoe teksten automatisch kunnen worden samengevat. Zij halen twee aanpakken hoe een machine een tekst kan samenvatten: extractief en abstractief. Verder reikt \textcite{Hahn2000} drie soorten samenvattingen aan:
-
-% Informatieve, indicatieve en kritische samenvattingen
+Teksten vereenvoudigen met lexicale, conceptuele en/of syntactische vereenvoudiging biedt geen garantie dat de tekstinhoud korter zal worden. Bij de drie soorten vereenvoudiging wordt er initieel enkel per zin gekeken. De vereenvoudiging houdt geen rekening met voorafgaande of opvolgende zinnen \autocite{DuBay2004}. Teksten machinaal samenvatten is geen nieuw concept. Het onderzoek van \textcite{Hahn2000} onderzoekt hoe teksten automatisch samengevat kunnen worden. Dit onderzoek haalt onder meer twee aanpakken aan hoe een machine teksten kan samenvatten, namelijk extractief en abstractief. Daarnaast reikt \textcite{Hahn2000} drie manieren aan welke inhoud er zeker in de samengevatte versie moet op te merken zijn:
 
 \begin{itemize}
 	\item Informatieve samenvattingen vervangen de oorspronkelijke tekst. Alles wat de lezer nodig heeft, dus hoofd- en bijzaken, zijn betrokken in de samengevatte tekst.
@@ -147,10 +146,7 @@ Teksten vereenvoudigen met lexicale, conceptuele en/of syntactische vereenvoudig
 \end{itemize}
 
 % Generiek en gebruikersgerichte samenvatting
-
-Verder haalt \textcite{Hahn2000} ook het onderscheid tussen een generieke en een gebruikersgerichte samenvatting. Een generieke samenvatting staat niet stil bij speciale noden of interesses van de eindgebruiker. Daarnaast houdt een gebruikersgerichte samenvatting wel rekening met sleutelwoorden of thema's in een tekst. \textcite{Hahn2000} haalt aan dat technologieën zoals full-text-search en gepersonaliseerd informatiefiltering het belang van gebruikersgerichte samenvatting naar voor duwen.
-
-\textcite{Hahn2000} omschrijft de architectuur van een samenvattingssysteem aan de hand van drie fases. Allereerst wordt de brontekst geanalyseerd. Daarna worden de \textit{salient points} of kernpunten in een tekst aangeduid. Deze punten zijn zinnen of tokens. Ten slotte worden de punten samengevoegd tot één uitvoertekst. De nadruk is verschillend per samenvattingsmethode.
+Verder haalt \textcite{Hahn2000} ook het onderscheid tussen een generieke en een gebruikersgerichte samenvatting. Een generieke samenvatting staat niet stil bij speciale noden of interesses van de eindgebruiker. Daarnaast houdt een gebruikersgerichte samenvatting wel rekening met sleutelwoorden of thema's in een tekst. \textcite{Hahn2000} haalt aan dat technologieën zoals full-text-search en gepersonaliseerd informatiefiltering het belang van gebruikersgerichte samenvatting naar voor duwen. \textcite{Hahn2000} omschrijft de architectuur van een samenvattingssysteem aan de hand van drie fases. Allereerst wordt de brontekst geanalyseerd. Daarna worden de \textit{salient points} of kernpunten in een tekst aangeduid. Deze punten zijn zinnen of tokens. Ten slotte worden de punten samengevoegd tot één uitvoertekst. De nadruk is verschillend per samenvattingsmethode.
 
 \begin{figure}
 	\includegraphics{img/summarization-mindmap.png}
@@ -247,12 +243,14 @@ todo
 
 \section{Onderzoeken rond dyslexie}
 
+Inleiding: taalaspecten, onderzoek, must-haves bij een webapplicatie, etc.
+
 \subsection{Problemen bij taal}
 
 % inleiding rond taal
 % hoe zit taal in mekaar
 
-Taal speelt een prominente rol om dyslexie beter te begrijpen.  In het boek van (Dyslexie bij volwassenen) worden confessions rond taalaspecten zoals fonologie, morfologie, zinsbouw en semantiek aangehaald:
+Taal speelt een prominente rol om dyslexie beter te begrijpen.  In \textcite{Avontuur2015} worden getuigenissen van taalproblemen bij fonologie, morfologie, zinsbouw en semantiek aangehaald:
 
 \begin{quote}
 	André, een man van 45 jaar met een managementfunctie, betrapt zichzelf erop dat hij 'zijn' kan schrijven in plaats van zien en 'fliegende' in plaats van vliegende.
@@ -588,9 +586,13 @@ Zo ontwikkelde \textcite{Bingel2018} een proof-of-concept voor een webapplicatie
 
 % news summarization \textcite{Goyal2022}
 
-Onderzoek over ChatGPT en het GPT-3 model bevindt zich in een vrij vroeg stadium, al zijn er wel enkele vergelijkende onderzoeken die de kracht en zwaktes van deze technologieën aantonen.
+Onderzoek naar OpenAI's ChatGPT en GPT-3 model bevindt zich in een vrij vroeg stadium, al zijn er wel enkele vergelijkende onderzoeken die de kracht en zwaktes van deze technologieën aantonen.
 
-Het experiment van \textcite{Goyal2022} achterhaalt het gebruik van zero-shot samenvattingen buiten generieke samenvattingen. Het onderzoek staat stil bij de impact van prompt-gebaseerde modellen bij het systematisch samenvatten van nieuwsartikelen. Daarnaast maakte het onderzoek gebruik van text-davinci-002 als case study. De onderzoekers concluderen dat \textit{zero-shot} GPT-3 samenvattingen beter presteren dan fine-tuned modellen, en dat bestaande automatische metrieken zoals BLEU, ROUGE en BERTScore niet geschikt zijn om \textit{zero-shot} samenvattingen te beoordelen. Verder blijkt dat zero-shot samenvattingen meer coherentie en relevantie hebben voor trefwoord-gebaseerde samenvattingen. Echter, aspect-gebaseerde samenvattingen blijken nog vaak te falen.
+Het experiment van \textcite{Goyal2022} achterhaalt het gebruik van \textit{zero-shot} samenvattingen buiten generieke samenvattingen. Het onderzoek staat stil bij de impact van prompt-gebaseerde modellen voor het systematisch samenvatten van nieuwsartikelen. Daarnaast maakte het onderzoek gebruik van text-davinci-002 als case study. Uit het experiment besluiten de onderzoekers dat \textit{zero-shot} samenvattingen met GPT-3 beter presteren dan \textit{fine-tuned} modellen, en dat bestaande automatische metrieken zoals BLEU, ROUGE en BERTScore niet geschikt zijn om \textit{zero-shot} samenvattingen te beoordelen. Verder blijkt dat zero-shot samenvattingen meer coherentie en relevantie hebben voor trefwoord-gebaseerde samenvattingen. Echter, aspect-gebaseerde samenvattingen blijken nog vaak te falen.
+
+% todo misschien een visualisatie
+
+\textcite{Lisowski2023} vergeleek de twee taalmodellen van OpenAI. Al blijken de twee heel gelijkaardig, Lisowski benadrukt dat het ChatGPT-model een conversationeel model is, terwijl GPT-3 een ML-model is bedoeld om met hoogstens één prompt te werken. Qua grootte is het GPT-3 model met 175 miljard parameters imposanter dan Chat-GPT. De limiet bij het GPT-3 model is echter 2048 tokens. Verder haalt Lisowski aan dat de kwaliteit bij beide modellen sterk afhankelijk is van de invoer. De prompts moeten concreet genoeg zijn, om zo niet af te wijken van wat de gebruiker wilt.
 
 \subsubsection{Bing AI}
 
