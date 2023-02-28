@@ -241,6 +241,153 @@
       \verb :Lexi - A tool for adaptive, personalized text simplification.pdf:PDF
       \endverb
     \endentry
+    \entry{Bosmans2022c}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a323fbad45da0012f502bb0baed5dbe4}{%
+           family={Bosmans},
+           familyi={B\bibinitperiod},
+           given={An},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e30d4f32404849b750a97226e7368385}{%
+           family={Croon},
+           familyi={C\bibinitperiod},
+           given={Stefaan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a8401a8d0b07e30edbfbd8d1841a992}{%
+           family={Verreycken},
+           familyi={V\bibinitperiod},
+           given={Veronique},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Vlaamse overheid}%
+      }
+      \strng{namehash}{82a86e5b8efe92ba858d1fc48614f2ab}
+      \strng{fullhash}{97fbbeb8c4417469ced839796f9a31f8}
+      \strng{bibnamehash}{97fbbeb8c4417469ced839796f9a31f8}
+      \strng{authorbibnamehash}{97fbbeb8c4417469ced839796f9a31f8}
+      \strng{authornamehash}{82a86e5b8efe92ba858d1fc48614f2ab}
+      \strng{authorfullhash}{97fbbeb8c4417469ced839796f9a31f8}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{www.vlaanderen.be}
+      \field{title}{Woordgebruik - Moeilijke constructies}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.vlaanderen.be/taaladvies/taaladviezen/teksten-schrijven/formulering/zinsbouw-moeilijke-constructies
+      \endverb
+      \verb{url}
+      \verb https://www.vlaanderen.be/taaladvies/taaladviezen/teksten-schrijven/formulering/zinsbouw-moeilijke-constructies
+      \endverb
+    \endentry
+    \entry{Bosmans2022b}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a323fbad45da0012f502bb0baed5dbe4}{%
+           family={Bosmans},
+           familyi={B\bibinitperiod},
+           given={An},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e30d4f32404849b750a97226e7368385}{%
+           family={Croon},
+           familyi={C\bibinitperiod},
+           given={Stefaan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a8401a8d0b07e30edbfbd8d1841a992}{%
+           family={Verreycken},
+           familyi={V\bibinitperiod},
+           given={Veronique},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Vlaamse overheid}%
+      }
+      \strng{namehash}{82a86e5b8efe92ba858d1fc48614f2ab}
+      \strng{fullhash}{97fbbeb8c4417469ced839796f9a31f8}
+      \strng{bibnamehash}{97fbbeb8c4417469ced839796f9a31f8}
+      \strng{authorbibnamehash}{97fbbeb8c4417469ced839796f9a31f8}
+      \strng{authornamehash}{82a86e5b8efe92ba858d1fc48614f2ab}
+      \strng{authorfullhash}{97fbbeb8c4417469ced839796f9a31f8}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{www.vlaanderen.be}
+      \field{title}{Woordgebruik - Moeilijke Woorden}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.vlaanderen.be/taaladvies/taaladviezen/teksten-schrijven/formulering/woordgebruik-moeilijke-woorden
+      \endverb
+      \verb{url}
+      \verb https://www.vlaanderen.be/taaladvies/taaladviezen/teksten-schrijven/formulering/woordgebruik-moeilijke-woorden
+      \endverb
+    \endentry
+    \entry{Bosmans2022a}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a323fbad45da0012f502bb0baed5dbe4}{%
+           family={Bosmans},
+           familyi={B\bibinitperiod},
+           given={An},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e30d4f32404849b750a97226e7368385}{%
+           family={Croon},
+           familyi={C\bibinitperiod},
+           given={Stefaan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a8401a8d0b07e30edbfbd8d1841a992}{%
+           family={Verreycken},
+           familyi={V\bibinitperiod},
+           given={Veronique},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Vlaamse overheid}%
+      }
+      \strng{namehash}{82a86e5b8efe92ba858d1fc48614f2ab}
+      \strng{fullhash}{97fbbeb8c4417469ced839796f9a31f8}
+      \strng{bibnamehash}{97fbbeb8c4417469ced839796f9a31f8}
+      \strng{authorbibnamehash}{97fbbeb8c4417469ced839796f9a31f8}
+      \strng{authornamehash}{82a86e5b8efe92ba858d1fc48614f2ab}
+      \strng{authorfullhash}{97fbbeb8c4417469ced839796f9a31f8}
+      \field{extraname}{3}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{www.vlaanderen.be}
+      \field{title}{Woordgebruik - Synoniemen}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.vlaanderen.be/taaladvies/taaladviezen/teksten-schrijven/formulering/woordgebruik-synoniemen
+      \endverb
+      \verb{url}
+      \verb https://www.vlaanderen.be/taaladvies/taaladviezen/teksten-schrijven/formulering/woordgebruik-synoniemen
+      \endverb
+    \endentry
     \entry{Bulte2018}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=a5a8fc2aeb985a232b6685f57a9b5f85}{%
