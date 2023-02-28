@@ -553,15 +553,19 @@ In het middelbaar onderwijs wordt lees- en studieondersteuning voor scholieren m
 
 \subsection{Proof-of-concepts en online webapplicaties}
 
-Tot dusver zijn er talloze tools online beschikbaar die teksten generiek of voor een algemeen doelpubliek kunnen vereenvoudigen of samenvatten. 
+Tot dusver zijn er talloze tools online beschikbaar die teksten generiek of voor een algemeen doelpubliek kunnen vereenvoudigen of samenvatten. Zo omschrijft \textcite{Bingel2018} een proof-of-concept voor een webapplicatie die teksten vereenvoudigd, vooral voor mensen met dyslexie. Deze software noemt nu Hero en bevindt zich in betafase.
 
-Zo ontwikkelde \textcite{Bingel2018} een proof-of-concept voor een webapplicatie die teksten vereenvoudigd, specifiek voor mensen met dyslexie.
+Resoomer, Paraphraser en Scholarcy zijn oorspronkelijk Engelstalige tools, met ondertussen de mogelijkheid om een abstractieve samenvatting te maken van Nederlandstalige teksten. De taalmodellen waar deze applicaties op werken, is niet gekend. Daarnaast zijn er ook geen API's beschikbaar om mee te werken. % De assumptie is dat dit gericht kan zijn op de Nederlandse taal, of een anderstalig model en nadien vertaald naar het Nederlands.
+
+% voetn(o)ot(en) toevoegen
 
 
 
 \subsection{GPT-3}
 
-\subsubsection{Chat GPT}
+\textit{Generative Pretrained Transformer 3} of GPT-3 is een taalmodel ontworpen door OpenAI. 
+
+Het verschil tussen de voorganger, GPT-2, en GPT-3 is een grote sprong voorwaarts.
 
 % prompts
 
@@ -588,16 +592,55 @@ Zo ontwikkelde \textcite{Bingel2018} een proof-of-concept voor een webapplicatie
 
 Onderzoek naar OpenAI's ChatGPT en GPT-3 model bevindt zich in een vrij vroeg stadium, al zijn er wel enkele vergelijkende onderzoeken die de kracht en zwaktes van deze technologieën aantonen.
 
-Het experiment van \textcite{Goyal2022} achterhaalt het gebruik van \textit{zero-shot} samenvattingen buiten generieke samenvattingen. Het onderzoek staat stil bij de impact van prompt-gebaseerde modellen voor het systematisch samenvatten van nieuwsartikelen. Daarnaast maakte het onderzoek gebruik van text-davinci-002 als case study. Uit het experiment besluiten de onderzoekers dat \textit{zero-shot} samenvattingen met GPT-3 beter presteren dan \textit{fine-tuned} modellen, en dat bestaande automatische metrieken zoals BLEU, ROUGE en BERTScore niet geschikt zijn om \textit{zero-shot} samenvattingen te beoordelen. Verder blijkt dat zero-shot samenvattingen meer coherentie en relevantie hebben voor trefwoord-gebaseerde samenvattingen. Echter, aspect-gebaseerde samenvattingen blijken nog vaak te falen.
+% https://www.clearcogs.com/post/the-technology-behind-chat-gpt-3
+
+Het experiment van \textcite{Goyal2022} achterhaalt het gebruik van \textit{zero-shot} samenvattingen buiten generieke samenvattingen. Het onderzoek staat stil bij de impact van prompt-gebaseerde modellen voor het systematisch samenvatten van nieuwsartikelen. Daarnaast maakte het onderzoek gebruik van text-davinci-002 als case study. Uit het experiment besluiten de onderzoekers dat \textit{zero-shot} samenvattingen met GPT-3 beter presteren dan \textit{fine-tuned} modellen, en dat bestaande automatische metrieken zoals BLEU, ROUGE en BERTScore niet geschikt zijn om \textit{zero-shot} samenvattingen te beoordelen. Verder blijkt dat zero-shot samenvattingen meer coherentie en relevantie hebben voor trefwoord-gebaseerde samenvattingen, terwijl aspect-gebaseerde samenvattingen nog vaak blijven te falen.
 
 % todo misschien een visualisatie
 
-\textcite{Lisowski2023} vergeleek de twee taalmodellen van OpenAI. Al blijken de twee heel gelijkaardig, Lisowski benadrukt dat het ChatGPT-model een conversationeel model is, terwijl GPT-3 een ML-model is bedoeld om met hoogstens één prompt te werken. Qua grootte is het GPT-3 model met 175 miljard parameters imposanter dan Chat-GPT. De limiet bij het GPT-3 model is echter 2048 tokens. Verder haalt Lisowski aan dat de kwaliteit bij beide modellen sterk afhankelijk is van de invoer. De prompts moeten concreet genoeg zijn, om zo niet af te wijken van wat de gebruiker wilt.
+\textcite{Lisowski2023} vergelijkt de twee OpenAI taalmodellen. Al blijken de twee heel gelijkaardig, Lisowski benadrukt dat het ChatGPT-model een conversationeel model is, terwijl GPT-3 een ML-model is bedoeld om met hoogstens één prompt te werken. Qua grootte is het GPT-3 model met 175 miljard parameters imposanter dan Chat-GPT. De limiet bij het meest recente GPT-3 model is 4000 tokens. Verder haalt Lisowski aan dat de kwaliteit bij beide modellen sterk afhankelijk is van de invoer. De prompts moeten concreet genoeg zijn, om zo niet af te wijken van wat de gebruiker wilt.
+
+\subsubsection{Beschikbare GPT-3 engines}
+
+% todo bron: https://platform.openai.com/docs/models/gpt-3
+OpenAI reikt vier verschillende engines voor het GPT-3 taalmodel aan, namelijk Davinci, Curie, Babbage en Ada. 
+
+% (...) raadt aan om Davinci voor Ada daarentegen bevat minder recente data, maar is geschikt voor kleinere taaltaken. De andere modellen zijn echter cost-effective en sneller. 
+
+% https://platform.openai.com/docs/models/finding-the-right-model
+
+% 2 todo: toevoegen dat davinci de meest human-like antwoorden teruggeeft https://arxiv.org/pdf/2206.14576.pdf
+
+\begin{itemize}
+	\item Davinci-003 is het nieuwste model en is in staat om alles te doen wat de andere modellen capabel in zijn. Het model maakt gebruik van text de invoertekst eventueel kan aanvullen, mocht de invoertekst afgebroken zijn. Deze aanvulling kan in vraag worden gesteld. Aanvullend geeft (2) aan dat deze engine de meest menselijke antwoorden geeft op basis van foutenmarge. De andere engines kwamen niet in de buurt.
+	\item Curie is in staat om zinnen met nuance
+\end{itemize} 
+
+\begin{figure}
+	\begin{center}
+		\includegraphics{img/chatgpt-engines-mean-regret.png}
+		\caption{Afbeelding van (2). Dit toont de \textit{mean regret} aan tussen de vier engines en de menselijke antwoorden.}
+	\end{center}
+\end{figure}
 
 \subsubsection{Bing AI}
 
-\subsubsection{Google Bard}
+% https://www.gsqi.com/marketing-blog/bing-ai-chat-in-the-edge-sidebar/
 
+% https://twitter.com/AlphaSignalAI/status/1624077152302862339
+
+\subsubsection{Google Bard en PaLM}
+
+% https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html
+
+
+\subsubsection{Meta LLaMa}
+
+% https://www.theverge.com/2023/2/24/23613512/meta-llama-ai-research-large-language-model
+
+% (2) LLaMA: Open and Efficient Foundation Language Model
+
+LLaMa toont potentieel, want bij het experiment van (2) is LLaMa sterker dan GPT-3 en soortgenoten, terwijl het van tien keer minder parameters gebruik maakt.
 
 
 

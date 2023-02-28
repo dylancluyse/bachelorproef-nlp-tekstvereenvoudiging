@@ -137,11 +137,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.7.3}GPT-3}{29}{subsection.2.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Chat GPT}{29}{subsection.2.7.3}%
+\contentsline {subsubsection}{Beschikbare GPT-3 engines}{31}{figure.caption.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Bing AI}{31}{figure.caption.17}%
+\contentsline {subsubsection}{Bing AI}{31}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Google Bard}{31}{figure.caption.17}%
+\contentsline {subsubsection}{Google Bard en PaLM}{31}{figure.caption.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Meta LLaMa}{31}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Methodologie}{32}{chapter.3}%
 \defcounter {refsection}{0}\relax 
@@ -165,5 +167,5 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{43}{section.A.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{44}{appendix*.19}%
+\contentsline {chapter}{Bibliografie}{44}{appendix*.20}%
 \contentsfinish 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  27 FEB 2023 20:57
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  28 FEB 2023 05:31
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2502,7 +2502,10 @@ File: img/chatgpt-example-different-versions-gooding.png Graphic file (type bmp
 <img/chatgpt-example-different-versions-gooding.png>
 File: img/chatgpt-example-evaluation-gooding.png Graphic file (type bmp)
 <img/chatgpt-example-evaluation-gooding.png>
- [29] [30]) (./methodologie.tex [31]
+ [29] [30]
+File: img/chatgpt-engines-mean-regret.png Graphic file (type bmp)
+<img/chatgpt-engines-mean-regret.png>
+) (./methodologie.tex [31]
 Hoofdstuk 3.
 [32
 
@@ -2600,18 +2603,18 @@ dactiek \TU/Montserrat(1)/m/n/10.95 (1ste ed.). Ten Brink
 
 [49] [50] (../output/CluyseDylanBP.aux)
 Package rerunfilecheck Info: File `CluyseDylanBP.out' has not changed.
-(rerunfilecheck)             Checksum: 7E9D2B1E9E67E6625D9B7B11DDCB79AE;4240.
+(rerunfilecheck)             Checksum: A458A42FDE629B36BA290C9ABD39769A;4240.
 Package logreq Info: Writing requests to 'CluyseDylanBP.run.xml'.
 \openout1 = `CluyseDylanBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48004 strings out of 478657
- 933721 string characters out of 5861312
- 2043313 words of memory out of 5000000
- 66761 multiletter control sequences out of 15000+600000
- 406482 words of font info for 98 fonts, out of 8000000 for 9000
+ 48013 strings out of 478657
+ 934058 string characters out of 5861312
+ 2043312 words of memory out of 5000000
+ 66768 multiletter control sequences out of 15000+600000
+ 406490 words of font info for 99 fonts, out of 8000000 for 9000
  351 hyphenation exceptions out of 8191
  113i,12n,139p,2569b,7099s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../output/CluyseDylanBP.xdv (58 pages, 1324328 bytes).
+Output written on ../output/CluyseDylanBP.xdv (58 pages, 1340948 bytes).
