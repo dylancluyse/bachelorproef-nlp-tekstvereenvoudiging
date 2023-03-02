@@ -5,16 +5,15 @@
 
 % \textcite{Rosetti2022}
 
-\section{Inleiding}
-
-
 \section{Tekstvereenvoudiging}
+
+% inleiding
 
 \subsection{Manuele tekstvereenvoudiging}
 
 % todo bron toevoegen
 
-In wetenschappelijke artikelen is het van belang dat de informatie begrijpelijk is voor een breed publiek, waaronder ook scholieren. Om de tekst toegankelijker te maken, kunnen leerkrachten verschillende tactieken toepassen. 
+Wetenschappelijke artikelen moeten informatie begrijpelijk weergeven voor een breed publiek, waaronder scholieren die deze artikelen voorgeschoteld krijgen. Om tekst toegankelijker te maken, kunnen leerkrachten verschillende tactieken toepassen. 
 
 \begin{enumerate}
 	\item Allereerst kan de tekst worden ingekort door meerdere keren te lezen en een samenvatting te maken met een haalbare tekstlengte voor scholieren.
@@ -29,17 +28,16 @@ Het is echter belangrijk om ervoor te zorgen dat de tekst niet de flow verliest 
 
 \subsubsection{Lengte en formaat}
 
-% 
+\textcite{Rijkhoff2022} benadrukt dat het tijdsintensief is om teksten in te korten. 
 
 % https://dialoogtrainers.nl/tekst-inkorten-tips/
 
 \subsubsection{Woordenschat}
 
-Twee belangrijke zaken aan om het gebruik van moeilijke woorden te beperken. Allereerst moet een tekst op maat zijn van het doelpubliek. De gehanteerde (vak)termen moeten begrijpelijk zijn voor iedereen binnen het doelpubliek. Deze leesgraad en voorkennis wisselt sterk af bij scholieren in de laatste graad middelbaar onderwijs. Als het niet mogelijk is om eenvoudigere synoniemen te gebruiken, dan komt het van pas om de woorden uit te leggen. Dit hoeft enkel te gebeuren bij de eerste keer dat deze woorden voorkomen \autocite{Bosmans2022a, Bosmans2022b}.
+Moeilijke woorden kunnen op twee manieren beperkt worden. Eerst moet een tekst op maat zijn van het doelpubliek. De gehanteerde (vak)termen moeten begrijpelijk zijn voor iedereen binnen het doelpubliek. Deze leesgraad en voorkennis wisselt sterk af bij scholieren in de laatste graad middelbaar onderwijs. Als het niet mogelijk is om eenvoudigere synoniemen te gebruiken, dan komt het van pas om de woorden uit te leggen. Dit hoeft enkel te gebeuren bij de eerste keer dat deze woorden voorkomen \autocite{Bosmans2022a, Bosmans2022b}.
 
 
 \subsubsection{Grammatica}
-
 \textcite{Bosmans2022c} halen vier methoden aan om complexe constructies te vereenvoudigen.
 
 \begin{itemize}
@@ -48,8 +46,8 @@ Twee belangrijke zaken aan om het gebruik van moeilijke woorden te beperken. All
 	\item Zinsaanloop verkorten % Door een lange aanloop stelt u de aandacht van uw lezer extra op de proef omdat het te lang duurt voordat hij bij de kern komt. 
 	\item Voorzetselketens % U kunt voorzetselketens vermijden door de informatie over verschillende zinnen te verdelen. Voorzetseluitdrukkingen kunt u het best vervangen door gewone voorzetsels.
 \end{itemize}
-% https://www.vlaanderen.be/taaladvies/taaladviezen/teksten-schrijven/formulering/zinsbouw-moeilijke-constructies
 
+% https://www.vlaanderen.be/taaladvies/taaladviezen/teksten-schrijven/formulering/zinsbouw-moeilijke-constructies
 % https://www.vlaanderen.be/taaladvies/taaladviezen/teksten-schrijven/formulering/afkortingen-gebruik
 
 \subsubsection{Aanschouwelijkheid}
@@ -67,6 +65,7 @@ Tekstvereenvoudiging is het proces waarin het technisch leesniveau en/of woordge
 	\item \textbf{Tokenisatie} splitst de stam of basisvorm van woorden in een tekst. Gebruikelijk zetten ontwikkelaars deze stap in om een woordenschat voor een taalmodel op te bouwen. Bij tokenisatie wordt er geen rekening gehouden met de betekenis achter ieder woord.
 	\item \textbf{Lemmatiseren} in NLP bouwt verder op \textit{stemming}, maar de betekenis van ieder woord wordt in acht genomen. Voor het lemmatiseren bestaan er Nederlandstalige modellen, waaronder JohnSnow\footnote{https://nlp.johnsnowlabs.com/2020/05/03/lemma\_nl.html}. Bij \textbf{omgekeerd lemmatiseren} wordt er een afgeleide achterhaald vanuit de stam. Bijvoorbeeld voor het werkwoord 'zijn' zou dit 'is', 'was' of 'ben' zijn. Voor zelfstandige naamwoorden, zoals 'hond', is dit dan enkelvoud of meervoud.
 	\item Bij een \textbf{parsing}-fase wordt er een label aan ieder woord of zinsdeel toegekend. Voorbeelden van labels zijn zelfstandig naamwoord, bijwoord, werkwoord, bijzin of stopwoord. Het herkennen van zinsdelen wordt \textit{chunking} genoemd. Parsing heeft een dubbelzinnigheidsprobleem, want een 'plant' staat niet gelijk aan de vervoeging van werkwoord 'planten'.
+	\item Sentimentanalyse is een tak onder Natural Language Understanding (NLU). % todo aanvullen
 \end{itemize}
 
 \subsubsection{Sequence Labeling}
@@ -162,6 +161,8 @@ Conceptuele vereenvoudiging lost dit probleem op. Theoretische kennis hierover i
 
 Semantisch vereenvoudigen is volgens \textcite{Siddharthan2006} de inhoud of betekenis van een tekst aanpassen om het begrijpelijker te maken voor een doelgroep. Zo wordt er meer uitleg of voorbeelden gegeven, of dat niet-relevante delen van de tekst worden weggelaten. 
 
+% aanvraag via researchgate
+
 \subsection{Tekstvereenvoudiging automatiseren}
 
 Geautomatiseerde tekstvereenvoudiging is geen nieuw concept. Volgens onderzoeken van \textcite{Canning2000, Siddharthan2006} waren de eerste aanpakken op geautomatiseerde tekstvereenvoudiging gebouwd op rule-based modellen. Deze modellen bewerken de syntax door zinnen te splitsen, te verwijderen of de volgorde van de zinnen in een tekst aan te passen. Lexicale vereenvoudiging kwam hier niet aan de pas. Enkel bij recentere onderzoeken van \textcite{Coster2011, Bulte2018} werd het duidelijk hoe lexicale en syntactische vereenvoudiging gecombineerd kon worden.
@@ -172,7 +173,7 @@ Het onderzoek van \textcite{DeBelder2010} richt zich op tekstvereenvoudiging voo
 
 \section{Samenvatten}
 
-Teksten vereenvoudigen met lexicale, conceptuele en/of syntactische vereenvoudiging biedt geen garantie dat de tekstinhoud korter zal worden. Bij de drie soorten vereenvoudiging wordt er initieel enkel per zin gekeken. De vereenvoudiging houdt geen rekening met voorafgaande of opvolgende zinnen \autocite{DuBay2004}. Teksten machinaal samenvatten is geen nieuw concept. Het onderzoek van \textcite{Hahn2000} onderzoekt hoe teksten automatisch samengevat kunnen worden. Dit onderzoek haalt onder meer twee aanpakken aan hoe een machine teksten kan samenvatten, namelijk extractief en abstractief. Daarnaast reikt \textcite{Hahn2000} drie manieren aan welke inhoud er zeker in de samengevatte versie moet op te merken zijn:
+Teksten vereenvoudigen met lexicale, conceptuele en/of syntactische vereenvoudiging biedt geen garantie dat de tekstinhoud korter zal worden. Bij de drie soorten vereenvoudiging wordt er initieel enkel per zin gekeken. De vereenvoudiging houdt geen rekening met voorafgaande of opvolgende zinnen \autocite{Dubay2004}. Teksten machinaal samenvatten is geen nieuw concept. Het onderzoek van \textcite{Hahn2000} onderzoekt hoe teksten automatisch samengevat kunnen worden. Dit onderzoek haalt onder meer twee aanpakken aan hoe een machine teksten kan samenvatten, namelijk extractief en abstractief. Daarnaast reikt \textcite{Hahn2000} drie manieren aan welke inhoud er zeker in de samengevatte versie moet op te merken zijn:
 
 \begin{itemize}
 	\item Informatieve samenvattingen vervangen de oorspronkelijke tekst. Alles wat de lezer nodig heeft, dus hoofd- en bijzaken, zijn betrokken in de samengevatte tekst.
@@ -208,24 +209,18 @@ Graafgebaseerd extractief samenvatten is een techniek die een document voorstelt
 
 \textcite{AbdelSalam2022} voerden een vergelijkend onderzoek uit rond SqueezeBERT en BERT. Met behulp van de compacte architectuur van SqueezeBERT kan een samenvatter worden gemaakt en ingezet voor real-time samenvatting. Dit is volgens de onderzoeker een interessant alternatief voor de originele BERT-base samenvatter, die meer dan 120 miljoen trainbare parameters heeft. In vergelijking heeft de voorgestelde SqueezeBERT slechts ongeveer 62 miljoen parameters, terwijl het samenvattingsprestatieniveau nog steeds boven de 90\% van het BERT-baseline model blijft. Uit de experimenten van \textcite{AbdelSalam2022} blijkt dat de SqueezeBERT-samenvatter een goed alternatief is om een samenvatter te trainen met bijna de helft van de grootte van het originele model met minimale afbreuk in de samenvattingsprestaties. Daarnaast blijkt uit het onderzoek dat het gebruik van efficiënte netwerken geïnspireerd door \textit{computer-vision literature}, zoals \textit{grouped convolutional layers}, de NLP downstream taken kan verbeteren.  \textcite{AbdelSalam2022} haalt verder aan dat er potentie is voor een productieversie van een SqueezeBERT-samenvatter, die minder parameters heeft dan DistilBERT met ongeveer 20\% en dezelfde ROUGE-1 score behoudt, terwijl het iets hogere ROUGE-2 en ROUGE-L scores behaalt. Hoewel de SqueezeBERT en DistilBERT iets lagere scores produceren in vergelijking met het BERT-baseline model, heeft SqueezeBERT als voordeel dat het minder trainingstijd en minder parameters heeft dan het baseline model met ~48,44\%. 
 
-
-% https://www.mdpi.com/2078-2489/13/2/67
-
 \subsubsection{Maximal Marginal Relevance}
 
-De traditionele extractieve samenvattingssystemen bouwen verder op de architectuur dat \textcite{Carbonell1998} ontworp. Hun ontworpen architectuur gebruikt een maximaal marginale relevantiescore of MMR. Deze architectuur houdt rekening met de diversiteit en de relevantie van de gemarkeerde zinnen. De relevantie van een zin wordt bepaald door de mate waarin het de belangrijkste informatie overbrengt van de tekst waarvan het afkomstig is. Om diversiteit te waarborgen, wordt er gekeken naar de mate waarin de geselecteerde zinnen verschillen van de eerder geselecteerde zinnen in de samenvatting. Met andere woorden, als er een zin is die erg relevant is, maar qua inhoud te veel overlapt met de eerder geselecteerde zinnen, dan heeft deze minder kans om geselecteerd te worden in de samenvatting. Deze score kan doorgaans berekend worden met KeyBERT\footnote{https://maartengr.github.io/KeyBERT/api/mmr.html}.
+Traditionele extractieve samenvattingssystemen bouwen verder op de door \textcite{Carbonell1998} ontworpen architectuur. Deze architectuur gebruikt een maximaal marginale relevantiescore of MMR. Deze architectuur houdt rekening met de diversiteit en de relevantie van de gemarkeerde zinnen. De relevantie van een zin in een tekst wordt bepaald door de mate waarin het de belangrijkste informatie overbrengt van de tekst waarvan het afkomstig is. Om diversiteit aan tekstinhoud te waarborgen, wordt er gekeken naar de mate waarin de geselecteerde zinnen verschillen van de eerder geselecteerde zinnen in de samenvatting. Als een zin relevant is maar qua inhoud te veel overlapt met de eerder geselecteerde zinnen, dan heeft deze minder kans om in de samenvatting opgenomen te worden. Deze score kan doorgaans berekend worden met KeyBERT\footnote{https://maartengr.github.io/KeyBERT/api/mmr.html}.
 
 Extractief samenvatten met de MMR-methode is de methode bij uitstek voor ML-toepassingen. Onderzoekers bouwden verder op dit principe. In \textcite{McDonald2007} stelt de onderzoeker voor om de gulzige zoekalgoritme van MMR te vervangen door een globaal optimale formulering, waarbij het MMR-framework wordt uitgedrukt als een knapzakprobleem en er een \textit{integer linear programming} (ILP) \textit{solver} kan worden gebruikt om de functie te maximaliseren. De MMR-methode hield voordien enkel rekening met relevantie en diversiteit, maar niet met de optimale combinatie van zinnnen die in een samenvatting moet worden opgenomen. Deze aanpak vereist echter meer rekenkracht en tijd dan de standaard MMR-methode, maar het experiment van \textcite{McDonald2007} haalde wel aan dat dit leidde tot betere resultaten. \textcite{Lin2010} evolueerde het oorspronkelijke MMR-algoritme. Bij de evaluatie van deze architectuur benadrukte zij betere resultaten. 
 
 \subsubsection{Metaheuristiek-gebaseerd}
 
-Metaheuristieke samenvatting maakt gebruik van metaheuristieke optimalisatie-algoritmen zoals genetische algoritmen, \textit{simulated annealing} of zwermoptimalisatie om de belangrijkste zinnen in een tekst te achterhalen. Volgens \textcite{Verma2020} \textcite{Premjith2015} worden deze algoritmen gebruikt om te zoeken naar de beste combinatie van zinnen die de belangrijkste informatie in de tekst kunnen vertegenwoordigen. De fitnessfunctie die wordt gebruikt in metaheuristische samenvattingsalgoritmen kan gebaseerd zijn op verschillende criteria, zoals zinslengte, zinsrelevantie en zinscoherentie.
-
-Echter haalt het onderzoek van \textcite{Rani2021} aan dat een metaheuristieke methode bij het samenvatten van teksten vaak vastraakt in een lokaal optima. Zij benoemen het vastlopen in een lokaal optimum als een shortcoming. Daarboven halen ze aan dat metaheuristieke methoden geen \textit{steepness} of extremen op een \textit{search space behaviour} aanduiden. Dit betekent dat de voorgestelde methode een optimalisatiestrategie gebruikt die gebaseerd is op gradiënten om de convergentie aanzienlijk te versnellen. 
+Metaheuristieke samenvatting maakt gebruik van metaheuristieke optimalisatie-algoritmen zoals genetische algoritmen, \textit{simulated annealing} of zwermoptimalisatie om de belangrijkste zinnen in een tekst te achterhalen. Deze algoritmen zoeken volgens \textcite{Verma2020, Premjith2015} naar de beste combinatie van zinnen die de belangrijkste informatie in de tekst bevatten. De evaluatiefunctie in metaheuristische samenvattingsalgoritmen kan gebaseerd zijn op verschillende criteria, zoals zinslengte, -relevantie en -verbanden. \textcite{Rani2021} benadrukt dat teksten samenvatten met een metaheuristieke methode regelmatig vastraakt in een lokaal optimum. Dit is een tekortkoming op andere methoden. Daarnaast wijst het onderzoek uit aan dat metaheuristieke methoden geen \textit{steepness} of extremen op een \textit{search space behaviour} aanduiden. Er moet gebruikt gemaakt worden van een optimalisatiestrategie die gebaseerd is op gradiënten om de convergentie aanzienlijk te versnellen.
 
 % gradienten: (een wiskundig concept dat de richting van de snelste toename aangeeft)
 % convergentie: (het proces waarbij het algoritme naar de juiste oplossing toewerkt) -- Hierdoor wordt het algoritme efficiënter en sneller uitgevoerd.
-
 
 \subsubsection{Experimenten over extractief samenvatten}
 % \subsubsection{title}
@@ -258,9 +253,13 @@ todo
 
 \textcite{Cao2022} deed verder onderzoek naar \textit{deep learning} methoden om abstractieve samenvattingen te automatiseren. 
 
-De \textit{survey} van 
-
 \subsubsection{Semantische aanpak}
+
+% todo
+
+In structure-based approach, important sentences from source text gets populated in a predefined structure to obtain the required abstract summary without losing its meaning. The predefined structures used in 
+this approach are templates, tree-based structure, ontology-based structure, lead and body phrase structure 
+and rule-based structure. 
 
 \subsubsection{Structuurgerichte aanpak}
 
@@ -303,25 +302,25 @@ Taal speelt een prominente rol om dyslexie beter te begrijpen.  In \textcite{Avo
 	Myrthe studeert rechten. In werkcolleges kan ze goed meedoen en geeft ze blijk van voldoende kennis. Ze moet zich echter bovenmatig inspannen om de lesstof in de studieboeken te lezen en te verwerken. Het kost haar veel tijd en ze krijgt er hoofdpijn van.
 \end{quote}
 
-\subsection{Noden van een student dyslexie}
+\subsection{Centrale blik op de doelgroep}
 
-Vlaamse en Nederlandse onderzoeken zoals \textcite{Wentink2008, Desoete2017} wijzen uit dat gemiddeld 4\% van de Nederlandstalige bevolking een vorm van dyslexie heeft. De prevalentie van dyslexie is taalafhankelijk. Zo is volgens DSM-5 het percentage met mensen met dyslexie in China slechts circa 1\% van de bevolking, terwijl het cijfer bij het Engels, een orthografisch inconsistente\footnote{Opake talen, ofwel talen met complexe klank-tekenkoppelingen.} taal, drastisch hoger wordt geschat op circa 15\% van de bevolking. Scholieren in het lager en middelbaar onderwijs uit verschillende culturen worden ingeschat op 5 tot 10\%. \autocite{}
+Vlaamse en Nederlandse onderzoeken zoals \textcite{Wentink2008, Desoete2017} wijzen uit dat gemiddeld 4\% van de Nederlandstalige bevolking een vorm van dyslexie heeft. De prevalentie van dyslexie is taalafhankelijk. Zo is volgens DSM-5 het percentage met mensen met dyslexie in China slechts circa 1\% van de bevolking, terwijl het cijfer bij het Engels, een orthografisch inconsistente\footnote{Opake talen, ofwel talen met complexe klank-tekenkoppelingen. Voorbeeld \textit{height} en \textit{weight}.} taal, drastisch hoger wordt geschat op circa 15\% van de bevolking. Scholieren in het lager en middelbaar onderwijs uit verschillende culturen worden ingeschat op 5 tot 10\%. \autocite{Bonte2020}
 
-Zoals eerder aangegeven ondervinden dyslectische kinderen een last bij het technisch lezen van een tekst. Al werden er eerder onderzoeken gedaan naar de doelgroep van jongvolwassenen en volwassenen, de meeste onderzoeken rond dyslexie centreren zich op kinderen in het kleuter- en basisonderwijs. Dit maakt mensen met dyslexie vanaf jongvolwassenheid volgens \textcite{Lissens2020} een leeftijdsgroep die bij onderzoeken rond dyslexie vaak over het hoofd word gekeken.
+Zoals eerder aangegeven ondervinden mensen met dyslexie een last bij het technisch lezen van een tekst. Al werden er eerder onderzoeken gedaan naar de doelgroep van jongvolwassenen en volwassenen, de meeste onderzoeken rond dyslexie centreren zich op kinderen in het kleuter- en basisonderwijs. Volgens \textcite{Bonte2020} is dit zo omdat de diagnose zo vroeg mogelijk moet worden vastgelegd, dus in de kleuter- of kinderfase. Dit maakt mensen met dyslexie vanaf jongvolwassenheid volgens \textcite{Lissens2020} een leeftijdsgroep die bij onderzoeken rond dyslexie vaak over het hoofd word gekeken.
 
-Het onderzoek van \textcite{Lissens2020} benadrukt deze vaak over het hoofd gekeken doelgroep. Mensen met dyslexie ervaren vaak een aantal uitdagingen bij het lezen en schrijven. Een van de belangrijkste problemen is het niet begrepen worden door anderen, omdat ze woorden vaak verkeerd uitspreken of verkeerd spellen. Ze hebben vaak ook moeite om het tempo van anderen bij te houden en moeten harder werken om informatie te verwerken. Ondanks dat ze veel oefenen, blijft snel en veel lezen moeilijk. Het toepassen van spellingsregels is ook een groot obstakel voor mensen met dyslexie, wat vaak leidt tot een gevoel van onzekerheid en angst om fouten te maken. Dit kan leiden tot frustratie en stress, waardoor het voor hen moeilijker wordt om hun vaardigheden te verbeteren. Toch motiveren de onderzoekers deze doelgroep door het sterk doorzettingsvermogen te benadrukken. Dit helpt hen om te blijven oefenen en hun vaardigheden te ontwikkelen, ondanks de uitdagingen die ze tegenkomen.
+Het onderzoek van \textcite{Lissens2020} benadrukt deze vaak over het hoofd gekeken doelgroep. Mensen met dyslexie ervaren uitdagingen bij het lezen en schrijven. Op sociaal vlak wordt deze doelgroep niet begrepen door anderen, omdat ze woorden vaak verkeerd uitspreken of verkeerd spellen. Het tempo van anderen bijhouden verloopt stroef en teksten verwerken vereist meer energie. Ondanks het vele oefenen, blijft snel en veel lezen moeilijk. Spellingsregels toepassen hindert mensen met dyslexie, wat vaak leidt tot een gevoel van onzekerheid en angst om fouten te maken. Dit kan leiden tot frustratie en stress, waardoor het voor mensen met dyslexie moeilijker wordt om hun vaardigheden te verbeteren. Toch motiveren onderzoeken zoals \textcite{Ghesquiere2018, Lissens2020, Bonte2020} deze doelgroep door het sterk doorzettingsvermogen te benadrukken. Dit helpt hen om te blijven oefenen en hun vaardigheden te ontwikkelen, ondanks de uitdagingen.
 
-Het is echter geen checklist van 'kwalen' waaraan een scholier moet voldoen om dit te bezitten. Zo halen \textcite{Kleijnen2008, Ghesquiere2018} samen drie criteria aan waarmee de diagnose van dyslexie wordt vastgesteld.
+\subsection{Diagnosecriteria}
+
+Dyslexie is geen lijst van 'kwalen' waaraan een scholier moet voldoen om dit te bezitten. Zo halen \textcite{Kleijnen2008, Ghesquiere2018} samen drie criteria aan waarmee de diagnose van dyslexie wordt vastgesteld.
 
 \begin{itemize}
 	\item Het \textbf{achterstandscriterium} wijst aan dat er een ernstige lees- of spellingsachterstand is. 
 	\item Het \textbf{hardnekkigheidscriterium} houdt in dat de lees- of spellingsachterstand het gevolg is van een moeizame automatisering van het lees- en spellingsproces. De leessnelheid vertraagt, terwijl het aantal lees- of spellingsfouten verhoogt terwijl een scholier complexe taken uitvoert.
-	\item Het \textbf{exclusiviteitscriterium} volgens Ghesquière wijst erop dat lees- en spellingsstoornissen niet volledig verklaard worden door andere condities, zoals verstandelijke beperkingen, emotionele moeilijkheden of zintuiglijke beperkingen.
+	\item Het \textbf{exclusiviteitscriterium} volgens \textcite{Ghesquiere2018} wijst erop dat lees- en spellingsstoornissen niet volledig verklaard worden door andere condities, zoals verstandelijke beperkingen, emotionele moeilijkheden of zintuiglijke beperkingen.
 \end{itemize}
 
-% todo bronnen
-
-Bij de derde criterium moet er extra worden stilgestaan. Niet alle personen met dyslexie hebben dezelfde problemen en noden. Zo halen \textcite{VanVreckem2015, Ghesquiere2018} de volgende kenmerken aan die kunnen verschillen per individu.
+Bij het derde criterium moet er extra worden stilgestaan. Niet alle personen met dyslexie hebben dezelfde obstakels en noden. Zo halen \textcite{VanVreckem2015, Ghesquiere2018} de volgende kenmerken aan die kunnen verschillen per individu.
 
 \begin{itemize}
 	\item De ernst of uitgebreidheid van een stoornis.
@@ -330,17 +329,15 @@ Bij de derde criterium moet er extra worden stilgestaan. Niet alle personen met 
 	\item De secundaire kenmerken zoals problemen met werkhouden en structuur.
 \end{itemize}
 
-% todo bronnnen
-
 % desoete
+
 % Njiokiktjien
+
 % suk han ho
 
-Verder wijst \textcite{Desoete2015} aan dat de prevalentie van gecombineerde reken- en leesstoornissen hoger ligt, geschat op een 25 tot 50\%. De prevalentie van het voorkomen van spraak- en taalstoornissen ligt volgens \textcite{Dirks2008, Desoete2017} op 50 tot 80\%.
+\subsection{Groepsprofiel}
 
-% ...
-
-\textcite{VanVreckem2015} onderzocht of kinderen met dyslexie als groep al dan niet problemen hebben met begrijpend lezen. Het onderzoek richtte zich op het achterhalen van een groepsprofiel en of dit profiel al dan niet overeenkomt met individuele profielen. Hier achterhaalden ze met een cross-sectioneel onderzoek hoe:
+Verder wijst \textcite{Desoete2015} aan dat de prevalentie van gecombineerde reken- en leesstoornissen hoger ligt, geschat op een 25 tot 50\%. De prevalentie van het voorkomen van spraak- en taalstoornissen ligt volgens \textcite{Dirks2008, Desoete2017} op 50 tot 80\%. \textcite{VanVreckem2015} onderzocht of kinderen met dyslexie als groep al dan niet problemen hebben met begrijpend lezen. Het onderzoek richtte zich op het achterhalen van een groepsprofiel en of dit profiel al dan niet overeenkomt met individuele profielen. Hier achterhaalden ze met een cross-sectioneel onderzoek hoe:
 
 \begin{itemize}
 	\item Een hulpverlener een beeld kan krijgen van de beheersing van leesstrategieën, zoals geheugen, verbaal begrip, interpretatie op meso- en macroniveau en extrapolatie.
@@ -355,6 +352,8 @@ Verder wijst \textcite{Desoete2015} aan dat de prevalentie van gecombineerde rek
 	\item Een kind moet verder kunnen redeneren over de inhoud van een tekst, nadat de lezer een deel van de tekst of de volledige tekst heeft gelezen. 
 \end{itemize}
 
+\subsection{Aanpak}
+
 Het onderzoek van \textcite{VanVreckem2015} benadrukt dat therapeuten in de eerste plaats een beeld moeten krijgen van de beheersing van de belangrijkste leesstrategieën, zoals het onthouden van gelezen informatie en het verbaal begrip. Daarnaast is er een zicht nodig op de beheersing van de belangrijkste leesstrategieën bij begrijpend lezen. Het interpreteren op mesoniveau wijkt onderling sterk af. Om een behandelplan op maat van een client te  kunnen maken, moet een testleider een zicht hebben op de beheersing van de belangrijkste begrippen. Als tweede moet het onderzoek aantonen of een groep met een comorbide\footnote{De aanwezigheid van een aandoening, naast de hoofddiagnose. Bijvoorbeeld ADD bij de hoofddiagnose dyslexie. } stoornis beter of slechter presteert voor spelling dan de geïsoleerde groep. Alsook of er een verschil was tussen de spellingvaardigheden voor bestaande woorden vergeleken met pseudowoorden. Alle woorden uit alle dictees sluiten aan bij de Vlaamse leerplannen, alsook alle spellingcategorieën werden opgenomen in het experiment. Ten slotte hield het experiment rekening met de structurele en linguïstische moeilijkheidsgraad van woorden.
 
 \begin{itemize}
@@ -362,11 +361,18 @@ Het onderzoek van \textcite{VanVreckem2015} benadrukt dat therapeuten in de eers
 	\item Kinderen met dyslexie hebben meer problemen met de spelling van bestaande woorden, dan met de spelling van pseudowoorden.
 \end{itemize}
 
-Het onderzoek beklemtoont dat er nood is aan verregaande en geïndividualiseerde analyse, om zo een effectieve behandeling op maat te kunnen voorzien. Een standaardpakket oefeningen laten afwerken heeft geen zin, noch voor het lezen, noch voor het spellen, noch voor het rekenen. De gegeven instructies zijn even belangrijk. Op groepsniveau zijn er opmerkelijke verschillen voor het totale testresultaat en het leggen van relaties in een volledige tekst. Verder zijn er op individueel niveau grote verschillen bij het interpreteren op mesoniveau. Een zicht op de soort inferenties binnen deze categorie, zoals causale, logische en anaforische inferenties is nodig. 50 van de 60 kinderen heeft een ernstige achterstand voor spelling van bestaande woorden. Er waren géén verschillen tussen de spellingvaardigheden van de groep kinderen met geïsoleerde dyslexie, vergeleken met de groep met comorbide stoornissen. Een bijkomende stoornis heeft geen impact op de spellingprestaties van een kind. De ene persoon met dyslexie is de andere niet. De proefgroep uit het onderzoek toont aan hoe divers de verschijningsvorm van de stoornis dyslexie is, door de aanwezigheid van spelling- of leesproblemen.
+% Het onderzoek beklemtoont dat er nood is aan verregaande en geïndividualiseerde analyse, om zo een effectieve behandeling op maat te kunnen voorzien. Een standaardpakket oefeningen laten afwerken heeft geen zin, noch voor het lezen, noch voor het spellen, noch voor het rekenen. De gegeven instructies zijn even belangrijk. Op groepsniveau zijn er opmerkelijke verschillen voor het totale testresultaat en het leggen van relaties in een volledige tekst. Verder zijn er op individueel niveau grote verschillen bij het interpreteren op mesoniveau. Een zicht op de soort inferenties binnen deze categorie, zoals causale, logische en anaforische inferenties is nodig. 50 van de 60 kinderen heeft een ernstige achterstand voor spelling van bestaande woorden. Er waren géén verschillen tussen de spellingvaardigheden van de groep kinderen met geïsoleerde dyslexie, vergeleken met de groep met comorbide stoornissen. Een bijkomende stoornis heeft geen impact op de spellingprestaties van een kind. De ene persoon met dyslexie is de andere niet. De proefgroep uit het onderzoek toont aan hoe divers de verschijningsvorm van de stoornis dyslexie is, door de aanwezigheid van spelling- of leesproblemen.
 
+Bij het ontwikkelen van een toepassing voor scholieren met dyslexie moeten onderzoekers volgens \textcite{VanVreckem2015} rekening houden met de volgende punten:
+\begin{itemize}
+\item Individuele analyse: Dyslexie is een stoornis die zich op verschillende manieren kan uiten bij verschillende kinderen. Het is daarom belangrijk om de app te ontwerpen met een individuele analyse van de specifieke behoeften en uitdagingen van elke leerling in gedachten.
+\item Geïndividualiseerde instructies: Het is belangrijk om de instructies in de applicatie op een begrijpelijke en geïndividualiseerde manier te presenteren om de leerlingen te helpen bij het begrijpen en toepassen van de informatie.
+\item Categorisatie van inferenties: Om de leerlingen te helpen bij het leggen van relaties in een volledige tekst, moet de app de verschillende soorten inferenties zoals causale, logische en anaforische inferenties, benadrukken.
+\item Achterstand in spelling: De app moet zich specifiek richten op het verbeteren van de spellingvaardigheden van de leerlingen, omdat dit vaak een van de grootste uitdagingen is voor kinderen met dyslexie.
+\item Diversiteit van dyslexie: Het is belangrijk om te erkennen dat dyslexie zich bij verschillende kinderen op verschillende manieren kan uiten. Een bijkomende stoornis heeft bijvoorbeeld geen impact op de spellingprestaties van een kind. Het is daarom belangrijk om de app te ontwerpen met de diversiteit van dyslexie in gedachten.
+\end{itemize}
 
-% \subsection{Tekstvereenvoudiging voor scholieren met dyslexie in het onderwijs}
-% Het onderzoek van ... haalt drie factoren aan dat scholieren met dyslexie kan helpen bij het lezen van teksten. Allereerst bevoordeelt een hoge woordfrequentie de leessnelheid van een scholier met dyslexie. Dit feit wordt ondersteund door meerdere onderzoeken (...). 
+\subsubsection{Leesproblemen}
 
 \textcite{Filipak2020} haalt zes leesproblemen aan die kunnen voorkomen bij een scholier met dyslexie in het middelbaar onderwijs.
 
@@ -391,12 +397,12 @@ Typerende symptomen van \textit{Deep Dyslexia} is de verstoring van leesbegrip e
 
 \subsubsection{Hardnekkig letter-voor-letter lezen}
 
-% todo milene bonte
-
 \textcite{Bonte2020} haalt een minder optimale informatieverwerking in visuele gebieden aan bij scholieren met dyslexie. Die zijn belangrijk voor letter- en woordherkenning. Verder haalt Bonte aan dat dit een gevolg is van een minder optimale leesontwikkeling en niet zozeer een oorzaak van dyslexie. Het visuele proces vindt plaats in de 'letterbox'\footnote{Het primaire visuele cortex van het brein}. Lezers zijn niet in staat woorden goed te lezen, zelfs niet met een langzame en spellende letter-klankroute. Lange woorden worden moeizaam gelezen en scholieren hebben de neiging om visueel gedesoriënteerde te raken. Er is verwarring over de richting van de letters.
 	
 \subsubsection{Woordherkenning}
+
 % todo welke onderzoeken?
+
 Onderzoeken waarbij de oogbewegingen van lezers worden gevolgd tonen aan dat een geoefende lezer bij vijftig tot tachtig procent van de woorden pauzeert. Hij moet zich op woorden fixeren om ze te kunnen zien en dat gaat heel snel. Gedurende deze zogenoemde saccade, een snelle beweging van de ogen die tot doel heeft een nieuw fixatiepunt te vinden, wordt het woordbeeld van de vorige woordfixatie onderdrukt, voordat een volgende woord wordt gefixeerd. Leesonderzoekers de Universiteit van Tel Aviv in Israël vonden in 2010 bijvoorbeeld een soort leesprobleem dat men ‘aandachts-dyslexie’ noemde, waarin kinderen letters correct identificeren, maar tijdens het lezen last hebben van verspringende letters tussen de woorden in de zinnen. Dit is minder bij het lezen van woorden in lijsten dan met woorden in lopende tekst. Denk aan het verschil in leesprestaties op de Drie-Minuten-Test (losse woorden lezen) en op de AVI-toets (tekstlezen).
 
 \textit{Top-down attention and serial reading}. In een WISC-afname kan blijken dat de organisatie van de ruimtelijke waarneming redelijk is, maar dat een leerling zwakker is met doolhoven, plaatjes ordenen, onvolledige tekeningen, substitutie-taken en vooral met symboolverwerking. Dan kan er sprake zijn van een visueel en/of neuropsychologische dysfunctie dat ten grondslag ligt aan de moeite met lezen. Dan gaat het dus , nogmaals, niet om een fonologische dysfunctie.
@@ -407,7 +413,7 @@ Onderzoeken waarbij de oogbewegingen van lezers worden gevolgd tonen aan dat een
 \subsubsection{Letter- en klankverwarring}
 Verder gaat het om de verwisseling van de lettervolgorde, om letterweglatingen, letter-toevoegingen, letter-vervangingen, en het onherkenbaar verminken van woorden in dictees. En ook om de moeite met auditieve analyse en synthese. Veel kinderen kunnen deze leesfouten maken en dat is dan niet meteen fonologische dyslexie.
 
-\subsection{Voordelen van tekstvereenvoudiging}
+\subsection{Bewezen voordelen van tekstvereenvoudiging}
 
 
 
@@ -559,9 +565,9 @@ Experimenten uit het onderzoek van \textcite{Hubbard2017} wijzen uit dat de bevr
 	\item Maak aantekeningen en schrijf terwijl je leest, zodat je actief betrokken bent bij het lezen van het artikel.
 \end{itemize}
 
-De bevraagde onderzoekers in het onderzoek van \textcite{Hubbard2017} haalden de volgende adviezen aan. Het lezen van wetenschappelijke artikelen vereist selectief lezen, waarbij men bepaalde delen van het artikel prioriteert, zoals het abstract. Sommige bevraagden adviseren om de methodologie te negeren, terwijl anderen aanbevelen om de belangrijkste vragen of hypothesen van het artikel te achterhalen. Het is ook belangrijk om het artikel meerdere keren te lezen, waarbij men steeds gedetailleerder leest. Het abstract en/of de discussie bepaalt of het artikel de moeite waard is om te lezen. Kritisch lezen is eveneens belangrijk, waarbij men de conclusies beoordeelt en de data interpreteert voor zichzelf. Over het algemeen haalt het onderzoek van \textcite{Hubbard2017} aan dat er geen standaard aanpak is, maar selectief, kritisch en met een specifiek doel voor ogen lezen zijn belangrijke strategieën die veel bevraagde onderzoekers aanbevelen.
+De bevraagde onderzoekers in het onderzoek van \textcite{Hubbard2017} haalden de volgende adviezen aan. Het lezen van wetenschappelijke artikelen vereist selectief lezen, waarbij men bepaalde delen van het artikel prioriteert, zoals het abstract. Sommige bevraagden adviseren om de methodologie te negeren, terwijl anderen aanbevelen om de belangrijkste vragen of hypothesen van het artikel te achterhalen. Het is ook belangrijk om het artikel meerdere keren te lezen, waarbij men steeds gedetailleerder leest. Het abstract en/of de discussie bepaalt of het artikel de moeite waard is om te lezen. Kritisch lezen is eveneens belangrijk, waarbij men de conclusies beoordeelt en de data interpreteert voor zichzelf. Over het algemeen haalt het onderzoek van \textcite{Hubbard2017} aan dat er geen standaard aanpak is, maar selectief, kritisch en met een specifiek doel voor ogen lezen zijn tactieken die de bevraagde onderzoekers aanbevelen.
 
-%todo bron
+%todo bron Leopold
 
 \textcite{Leopold2015} voerden een experiment uit om een leerstrategie te achterhalen bij het leren van wetenschappelijke teksten. In het onderzoek testte het experiment drie leermethoden: het markeren van zinnen, \textit{concept mapping} en het visualiseren van de tekst. Dit experiment werd uitgevoerd bij 51 scholieren van gemiddeld vijftien jaar en met een licht overwegend vrouwelijk publiek. % Het experiment gaf geen inzicht over de leesbegaafdheid van een scholier.
 
@@ -594,82 +600,87 @@ Resoomer, Paraphraser en Scholarcy zijn oorspronkelijk Engelstalige tools, met o
 
 % voetn(o)ot(en) toevoegen
 
-
-
 \subsection{GPT-3}
 
-\textit{Generative Pretrained Transformer 3} of GPT-3 is een taalmodel ontworpen door OpenAI. 
+% uitleg over gpt
+\textit{Generative Pretrained Transformer 3} of GPT-3 is een taalmodel ontworpen door OpenAI. Het model is getraind op niet-gecategoriseerde data van het internet en is gebaseerd op datasets zoals Common Crawl, WebText2, Books1, Books2, and Wikipedia.
 
+% evolutie
 Het verschil tussen de voorganger, GPT-2, en GPT-3 is een grote sprong voorwaarts.
 
-% prompts
+% chatgpt
 
-% foto van Sian Gooding
-
-\begin{figure}
-	\includegraphics[width=10cm]{img/chatgpt-example-simplification-gooding.png}[H]
+\begin{figure}[H]
+	\includegraphics[width=10cm]{img/chatgpt-example-simplification-gooding.png}
 	\caption{Afbeelding van Gooding 2022. De invoertekst is een paragraaf uit een niet-vermeld boek van de Russische schrijver Dostoevsky. Het resultaat van de meegegeven prompt is een transformatie dat iedere vorm van vooraf aangehaalde vereenvoudiging weergeeft. Lexicale, conceptuele en syntactische vereeenvoudiging worden op de invoertekst toegepast.}
 \end{figure}
 
-\begin{figure}
-	\includegraphics[width=10cm]{img/chatgpt-example-different-versions-gooding.png}[H]
+\begin{figure}[H]
+	\includegraphics[width=10cm]{img/chatgpt-example-different-versions-gooding.png}
 	\caption{Afbeelding van Gooding 2022. Gooding haalt verder aan dat modellen zoals ChatGPT op twee vlakken de leesbaarheid van een tekst kan bevorderen. Allereerst door het verlenen van verschillende mogelijke versies van een vereenvoudigingstaak.}
 \end{figure}
 
-\begin{figure}
-	\includegraphics[width=10cm]{img/chatgpt-example-evaluation-gooding.png}[H]
+\begin{figure}[H]
+	\includegraphics[width=10cm]{img/chatgpt-example-evaluation-gooding.png}
 	\caption{Afbeelding van Gooding 2022. Gooding haalt aan dat }
 \end{figure}
-
-% datamodellen -- da vinci
-
-% news summarization \textcite{Goyal2022}
-
-Onderzoek naar OpenAI's ChatGPT en GPT-3 model bevindt zich in een vrij vroeg stadium, al zijn er wel enkele vergelijkende onderzoeken die de kracht en zwaktes van deze technologieën aantonen.
-
-% https://www.clearcogs.com/post/the-technology-behind-chat-gpt-3
-
-Het experiment van \textcite{Goyal2022} achterhaalt het gebruik van \textit{zero-shot} samenvattingen buiten generieke samenvattingen. Het onderzoek staat stil bij de impact van prompt-gebaseerde modellen voor het systematisch samenvatten van nieuwsartikelen. Daarnaast maakte het onderzoek gebruik van text-davinci-002 als case study. Uit het experiment besluiten de onderzoekers dat \textit{zero-shot} samenvattingen met GPT-3 beter presteren dan \textit{fine-tuned} modellen, en dat bestaande automatische metrieken zoals BLEU, ROUGE en BERTScore niet geschikt zijn om \textit{zero-shot} samenvattingen te beoordelen. Verder blijkt dat zero-shot samenvattingen meer coherentie en relevantie hebben voor trefwoord-gebaseerde samenvattingen, terwijl aspect-gebaseerde samenvattingen nog vaak blijven te falen.
-
-% todo misschien een visualisatie
 
 \textcite{Lisowski2023} vergelijkt de twee OpenAI taalmodellen. Al blijken de twee heel gelijkaardig, Lisowski benadrukt dat het ChatGPT-model een conversationeel model is, terwijl GPT-3 een ML-model is bedoeld om met hoogstens één prompt te werken. Qua grootte is het GPT-3 model met 175 miljard parameters imposanter dan Chat-GPT. De limiet bij het meest recente GPT-3 model is 4000 tokens. Verder haalt Lisowski aan dat de kwaliteit bij beide modellen sterk afhankelijk is van de invoer. De prompts moeten concreet genoeg zijn, om zo niet af te wijken van wat de gebruiker wilt.
 
 \subsubsection{Beschikbare GPT-3 engines}
 
-% todo bron: https://platform.openai.com/docs/models/gpt-3
-OpenAI reikt vier verschillende engines voor het GPT-3 taalmodel aan, namelijk Davinci, Curie, Babbage en Ada. 
+% todo bron: https://platform.openai.com/docs/
+De documentatie van OpenAI\footnote{https://platform.openai.com/docs/} reikt vier verschillende engines voor het GPT-3 taalmodel aan, namelijk Davinci, Curie, Babbage en Ada. 
 
 % (...) raadt aan om Davinci voor Ada daarentegen bevat minder recente data, maar is geschikt voor kleinere taaltaken. De andere modellen zijn echter cost-effective en sneller. 
 
 % https://platform.openai.com/docs/models/finding-the-right-model
 
-% 2 todo: toevoegen dat davinci de meest human-like antwoorden teruggeeft https://arxiv.org/pdf/2206.14576.pdf
-
 \begin{itemize}
-	\item Davinci-003 is het nieuwste model en is in staat om alles te doen wat de andere modellen capabel in zijn. Het model maakt gebruik van text de invoertekst eventueel kan aanvullen, mocht de invoertekst afgebroken zijn. Deze aanvulling kan in vraag worden gesteld. Aanvullend geeft (2) aan dat deze engine de meest menselijke antwoorden geeft op basis van foutenmarge. De andere engines kwamen niet in de buurt.
-	\item Curie is in staat om zinnen met nuance
+	\item Davinci-003 is het nieuwste model en is in staat om alles te doen wat de andere modellen capabel in zijn. Het model maakt gebruik van text de invoertekst eventueel kan aanvullen, mocht de invoertekst afgebroken zijn. Deze aanvulling kan in vraag worden gesteld. Aanvullend geeft (2) aan dat deze engine de meest menselijke antwoorden geeft op basis van foutenmarge. De andere engines kwamen niet in de buurt. \textcite{Binz2023} vult aan dat deze engine de meest \textit{menselijke} antwoorden teruggeeft.
+	\item Curie is in staat om zinnen met nuance te verwerken.
 \end{itemize} 
 
 \begin{figure}
 	\begin{center}
 		\includegraphics{img/chatgpt-engines-mean-regret.png}
-		\caption{Afbeelding van (2). Dit toont de \textit{mean regret} aan tussen de vier engines en de menselijke antwoorden.}
+		\caption{Afbeelding van \textcite{Binz2023}. Dit toont de \textit{mean regret} aan tussen de vier engines en de menselijke antwoorden.}
 	\end{center}
 \end{figure}
 
-\subsubsection{Bing AI}
+\subsubsection{Tools met GPT-3}
+
+\textcite{Mottesi2023} haalt enkele lees- en schrijftools aan die gebruik maken van de GPT-3 API.
+
+\subsubsection{Vergelijking met andere taalmodellen}
+
+% vergelijking met BERT
+Volgens \textcite{Mottesi2023} is meest opvallende verschil tussen GPT-3 en BERT de architectuur. GPT-3 is een autoregressief model, terwijl BERT bidirectioneel is. GPT-3 houdt alleen rekening met de linkercontext bij het maken van voorspellingen, terwijl BERT zowel de linker- als de rechtercontext in overweging neemt. Dit maakt BERT beter geschikt voor taken zoals sentimentanalyse of NLU, waarbij het begrijpen van de volledige context van een zin of zinsnede essentieel is. GPT-3 heeft toegang tot meer informatie (45TB) dan BERT (3TB), wat het een voordeel kan geven bij het samenvatten of het vertalen. Ten slotte zijn er ook verschillen in grootte. Hoewel beide modellen erg groot zijn (GPT-3 heeft 1,5 miljard parameters en BERT heeft 340 miljoen parameters), is GPT-3 aanzienlijk groter dan zijn voorganger vanwege de veel uitgebreidere trainingsdatasetgrootte (470 keer groter dan die gebruikt om BERT te trainen).
+
+\subsubsection{GPT-3 voor samenvattingen}
+
+% datamodellen -- da vinci
+
+% news summarization \textcite{Goyal2022}
+
+Onderzoek naar OpenAI's ChatGPT en GPT-3 modellen bevindt zich in een vrij vroeg stadium, al zijn er wel enkele vergelijkende onderzoeken die de kracht en zwaktes van deze technologieën aantonen.
+
+Het experiment van \textcite{Goyal2022} achterhaalt het gebruik van \textit{zero-shot} samenvattingen buiten generieke samenvattingen. Het onderzoek staat stil bij de impact van prompt-gebaseerde modellen voor het automatisch samenvatten van nieuwsartikelen. Daarnaast maakte het onderzoek gebruik van text-davinci-002 als case study. Uit het experiment besluiten de onderzoekers dat \textit{zero-shot} samenvattingen met GPT-3 beter presteren dan \textit{fine-tuned} modellen, en dat bestaande automatische metrieken zoals BLEU, ROUGE en BERTScore niet geschikt zijn om \textit{zero-shot} samenvattingen te beoordelen. Verder blijkt dat zero-shot samenvattingen meer coherentie en relevantie hebben voor trefwoord-gebaseerde samenvattingen, terwijl aspect-gebaseerde samenvattingen nog vaak blijven te falen.
+
+% todo misschien een visualisatie
+
+\subsection{Bing AI}
 
 % https://www.gsqi.com/marketing-blog/bing-ai-chat-in-the-edge-sidebar/
 
 % https://twitter.com/AlphaSignalAI/status/1624077152302862339
 
-\subsubsection{Google Bard en PaLM}
+\subsection{Google Bard en PaLM}
 
 % https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html
 
 
-\subsubsection{Meta LLaMa}
+\subsection{Meta LLaMa}
 
 % https://www.theverge.com/2023/2/24/23613512/meta-llama-ai-research-large-language-model
 

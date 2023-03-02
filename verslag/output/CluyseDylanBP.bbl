@@ -241,6 +241,43 @@
       \verb :Lexi - A tool for adaptive, personalized text simplification.pdf:PDF
       \endverb
     \endentry
+    \entry{Binz2023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=421d6b2be60be48dd04babaa583971e0}{%
+           family={Binz},
+           familyi={B\bibinitperiod},
+           given={Marcel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=474ffd79ffbc1c65c4afc8dc8ae05564}{%
+           family={Schulz},
+           familyi={S\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Proceedings of the National Academy of Sciences}%
+      }
+      \strng{namehash}{cb85f2820e19fd3899b7425f555344bf}
+      \strng{fullhash}{cb85f2820e19fd3899b7425f555344bf}
+      \strng{bibnamehash}{cb85f2820e19fd3899b7425f555344bf}
+      \strng{authorbibnamehash}{cb85f2820e19fd3899b7425f555344bf}
+      \strng{authornamehash}{cb85f2820e19fd3899b7425f555344bf}
+      \strng{authorfullhash}{cb85f2820e19fd3899b7425f555344bf}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the National Academy of Sciences}
+      \field{number}{6}
+      \field{title}{Using cognitive psychology to understand GPT-3}
+      \field{volume}{120}
+      \field{year}{2023}
+    \endentry
     \entry{Bosmans2022c}{misc}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=a323fbad45da0012f502bb0baed5dbe4}{%
@@ -2616,6 +2653,41 @@
       \verb https://torvub.be/wp-content/uploads/2018/09/Samenvatting.pdf
       \endverb
     \endentry
+    \entry{Mottesi2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d0905ac07366ecae409b5e1c72e66bae}{%
+           family={Mottesi},
+           familyi={M\bibinitperiod},
+           given={Celeste},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {InvGate Inc.}%
+      }
+      \strng{namehash}{d0905ac07366ecae409b5e1c72e66bae}
+      \strng{fullhash}{d0905ac07366ecae409b5e1c72e66bae}
+      \strng{bibnamehash}{d0905ac07366ecae409b5e1c72e66bae}
+      \strng{authorbibnamehash}{d0905ac07366ecae409b5e1c72e66bae}
+      \strng{authornamehash}{d0905ac07366ecae409b5e1c72e66bae}
+      \strng{authorfullhash}{d0905ac07366ecae409b5e1c72e66bae}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IT Management Software}
+      \field{title}{GPT-3 vs. Bert: Comparing the two most popular language models}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://blog.invgate.com/gpt-3-vs-bert
+      \endverb
+      \verb{url}
+      \verb https://blog.invgate.com/gpt-3-vs-bert
+      \endverb
+    \endentry
     \entry{Nallapati2017}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=c2c89f0960942c4cca8a09358fb380d1}{%
@@ -3054,6 +3126,42 @@
       \field{title}{Layout Guidelines for Web Text and a Web Service to Improve Accessibility for Dyslexics}
       \field{year}{2012}
       \keyw{browsing web service,web accessibility,dyslexia,readability,accessibility guidelines,usability tests}
+    \endentry
+    \entry{Rijkhoff2022}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cfb47ec7e1099e5ef607ad4ba6febc5b}{%
+           family={Rijkhoff},
+           familyi={R\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Dialoogtrainers}%
+      }
+      \strng{namehash}{cfb47ec7e1099e5ef607ad4ba6febc5b}
+      \strng{fullhash}{cfb47ec7e1099e5ef607ad4ba6febc5b}
+      \strng{bibnamehash}{cfb47ec7e1099e5ef607ad4ba6febc5b}
+      \strng{authorbibnamehash}{cfb47ec7e1099e5ef607ad4ba6febc5b}
+      \strng{authornamehash}{cfb47ec7e1099e5ef607ad4ba6febc5b}
+      \strng{authorfullhash}{cfb47ec7e1099e5ef607ad4ba6febc5b}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Dialoogtrainers}
+      \field{month}{8}
+      \field{title}{Tekst Inkorten?: 9 tips om Je Teksten korter Te Maken}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://dialoogtrainers.nl/tekst-inkorten-tips/
+      \endverb
+      \verb{url}
+      \verb https://dialoogtrainers.nl/tekst-inkorten-tips/
+      \endverb
     \endentry
     \entry{Roldos2020}{online}{}
       \name{author}{1}{}{%
@@ -3963,7 +4071,6 @@
       \range{pages}{12}
     \endentry
   \enddatalist
-  \missing{DuBay2004}
   \missing{Leopold2015}
 \endrefsection
 \endinput
