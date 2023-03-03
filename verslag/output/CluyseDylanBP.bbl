@@ -278,6 +278,34 @@
       \field{volume}{120}
       \field{year}{2023}
     \endentry
+    \entry{Bonte2020}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=15b1743124bcebf9f57c9d9ac3702280}{%
+           family={Bonte},
+           familyi={B\bibinitperiod},
+           given={Milene},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {uitgeverij SWP}%
+      }
+      \strng{namehash}{15b1743124bcebf9f57c9d9ac3702280}
+      \strng{fullhash}{15b1743124bcebf9f57c9d9ac3702280}
+      \strng{bibnamehash}{15b1743124bcebf9f57c9d9ac3702280}
+      \strng{authorbibnamehash}{15b1743124bcebf9f57c9d9ac3702280}
+      \strng{authornamehash}{15b1743124bcebf9f57c9d9ac3702280}
+      \strng{authorfullhash}{15b1743124bcebf9f57c9d9ac3702280}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bestaat Dyslexie?: En is het een relevante vraag?}
+      \field{year}{2020}
+    \endentry
     \entry{Bosmans2022c}{misc}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=a323fbad45da0012f502bb0baed5dbe4}{%
@@ -1070,7 +1098,6 @@
       \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Dyscalculie}
@@ -1078,24 +1105,26 @@
     \endentry
     \entry{Desoete2017}{article}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=676ad9498fb7e21eded516abc0749884}{%
-           family={{Desoete, Annemie}},
-           familyi={D\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=dace6dbd7f14cd2c587b5562b7c07386}{%
+           family={Desoete},
+           familyi={D\bibinitperiod},
+           given={Annemie},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \list{language}{1}{%
         {dut}%
       }
-      \strng{namehash}{676ad9498fb7e21eded516abc0749884}
-      \strng{fullhash}{676ad9498fb7e21eded516abc0749884}
-      \strng{bibnamehash}{676ad9498fb7e21eded516abc0749884}
-      \strng{authorbibnamehash}{676ad9498fb7e21eded516abc0749884}
-      \strng{authornamehash}{676ad9498fb7e21eded516abc0749884}
-      \strng{authorfullhash}{676ad9498fb7e21eded516abc0749884}
+      \strng{namehash}{dace6dbd7f14cd2c587b5562b7c07386}
+      \strng{fullhash}{dace6dbd7f14cd2c587b5562b7c07386}
+      \strng{bibnamehash}{dace6dbd7f14cd2c587b5562b7c07386}
+      \strng{authorbibnamehash}{dace6dbd7f14cd2c587b5562b7c07386}
+      \strng{authornamehash}{dace6dbd7f14cd2c587b5562b7c07386}
+      \strng{authorfullhash}{dace6dbd7f14cd2c587b5562b7c07386}
       \field{sortinit}{D}
       \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{{1782-2211}}
@@ -2752,34 +2781,6 @@
       \verb{url}
       \verb https://www.science.org/doi/abs/10.1126/science.1250475
       \endverb
-    \endentry
-    \entry{Bonte2020}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=f8b3f1ec76210c9ab0abcccff36d085d}{%
-           family={Milene},
-           familyi={M\bibinitperiod},
-           given={Bonte},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {uitgeverij SWP}%
-      }
-      \strng{namehash}{f8b3f1ec76210c9ab0abcccff36d085d}
-      \strng{fullhash}{f8b3f1ec76210c9ab0abcccff36d085d}
-      \strng{bibnamehash}{f8b3f1ec76210c9ab0abcccff36d085d}
-      \strng{authorbibnamehash}{f8b3f1ec76210c9ab0abcccff36d085d}
-      \strng{authornamehash}{f8b3f1ec76210c9ab0abcccff36d085d}
-      \strng{authorfullhash}{f8b3f1ec76210c9ab0abcccff36d085d}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Bestaat Dyslexie?: En is het een relevante vraag?}
-      \field{year}{2020}
     \endentry
     \entry{Glorieux2018}{misc}{}
       \name{author}{3}{}{%
