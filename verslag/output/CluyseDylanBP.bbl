@@ -1442,6 +1442,32 @@
       \verb :Reducing lexical complexity as a tool to increase text accessibility.pdf:PDF
       \endverb
     \endentry
+    \entry{Ganesan2018}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=295b061b3745e3a8d28a6cd2cc734083}{%
+           family={Ganesan},
+           familyi={G\bibinitperiod},
+           given={Kavita},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{295b061b3745e3a8d28a6cd2cc734083}
+      \strng{fullhash}{295b061b3745e3a8d28a6cd2cc734083}
+      \strng{bibnamehash}{295b061b3745e3a8d28a6cd2cc734083}
+      \strng{authorbibnamehash}{295b061b3745e3a8d28a6cd2cc734083}
+      \strng{authornamehash}{295b061b3745e3a8d28a6cd2cc734083}
+      \strng{authorfullhash}{295b061b3745e3a8d28a6cd2cc734083}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{03}
+      \field{title}{ROUGE 2.0: Updated and Improved Measures for Evaluation of Summarization Tasks}
+      \field{year}{2018}
+    \endentry
     \entry{Garbacea2021}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=6f7b7e6d6cd38a15f6be00643ce82f71}{%
@@ -1718,6 +1744,117 @@
       \verb{url}
       \verb https://www.nature.com/articles/356739a0
       \endverb
+    \endentry
+    \entry{Hsu2018}{misc}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=3fc30417f86c71fb2355222af3f23850}{%
+           family={Hsu},
+           familyi={H\bibinitperiod},
+           given={Wan-Ting},
+           giveni={W\bibinithyphendelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7df94648f64e4ebc0f5cebcf79c588a6}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Chieh-Kai},
+           giveni={C\bibinithyphendelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17e9dd916ef128e331ba1b8c5a064aec}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Ming-Ying},
+           giveni={M\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0a4d0b529b987db3d50ce38207509e7d}{%
+           family={Min},
+           familyi={M\bibinitperiod},
+           given={Kerui},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=58295eb2693cf3be1252302d94f5f004}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7e4290bad319dc9b96a098c8eee04fc8}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{5b1173b8205ed925e5157d157da5eb7f}
+      \strng{fullhash}{dedbc4acbb987c2caa4d4100d752b970}
+      \strng{bibnamehash}{dedbc4acbb987c2caa4d4100d752b970}
+      \strng{authorbibnamehash}{dedbc4acbb987c2caa4d4100d752b970}
+      \strng{authornamehash}{5b1173b8205ed925e5157d157da5eb7f}
+      \strng{authorfullhash}{dedbc4acbb987c2caa4d4100d752b970}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Unified Model for Extractive and Abstractive Summarization using Inconsistency Loss}
+      \field{year}{2018}
+      \keyw{Computation and Language (cs.CL),FOS: Computer and information sciences,FOS: Computer and information sciences}
+    \endentry
+    \entry{Huang2019}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=b8c729e50fd41d6e29e69316ae01359f}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Si},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a8e37c2db183faff113a94a5dbc4914}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b239f7acd73cb5f46fd76fbb1c20b4b0}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1df2b6f67a5a1fe41f9bc9df027cdb34}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Lin},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ddf3cdbde2cb53f27ff724091fb99873}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yongjian},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3832517233233af67d755e7bc06da2ec}
+      \strng{fullhash}{ce69072a9692712bd446406bd64bc88d}
+      \strng{bibnamehash}{ce69072a9692712bd446406bd64bc88d}
+      \strng{authorbibnamehash}{ce69072a9692712bd446406bd64bc88d}
+      \strng{authornamehash}{3832517233233af67d755e7bc06da2ec}
+      \strng{authorfullhash}{ce69072a9692712bd446406bd64bc88d}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{2019 6th International Conference on Behavioral, Economic and Socio-Cultural Computing (BESC)}
+      \field{title}{An Extraction-Abstraction Hybrid Approach for Long Document Summarization}
+      \field{year}{2019}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
     \endentry
     \entry{Hubbard2017}{article}{}
       \name{author}{2}{}{%
@@ -2146,14 +2283,54 @@
       \field{year}{2018}
       \keyw{Computation and Language (cs.CL),FOS: Computer and information sciences,FOS: Computer and information sciences}
     \endentry
+    \entry{Lin2004}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=bc6dfe0750848d77d639c1de6b9934e4}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Chin-Yew},
+           giveni={C\bibinithyphendelim Y\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{location}{1}{%
+        {Barcelona, Spain}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{bc6dfe0750848d77d639c1de6b9934e4}
+      \strng{fullhash}{bc6dfe0750848d77d639c1de6b9934e4}
+      \strng{bibnamehash}{bc6dfe0750848d77d639c1de6b9934e4}
+      \strng{authorbibnamehash}{bc6dfe0750848d77d639c1de6b9934e4}
+      \strng{authornamehash}{bc6dfe0750848d77d639c1de6b9934e4}
+      \strng{authorfullhash}{bc6dfe0750848d77d639c1de6b9934e4}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Text Summarization Branches Out}
+      \field{month}{7}
+      \field{title}{{ROUGE}: A Package for Automatic Evaluation of Summaries}
+      \field{year}{2004}
+      \field{pages}{74\bibrangedash 81}
+      \range{pages}{8}
+      \verb{urlraw}
+      \verb https://aclanthology.org/W04-1013
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/W04-1013
+      \endverb
+    \endentry
     \entry{Lin2010}{article}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=7c8b2289031d27d57fc9c7e7239ec517}{%
+        {{un=1,uniquepart=given,hash=7c8b2289031d27d57fc9c7e7239ec517}{%
            family={Lin},
            familyi={L\bibinitperiod},
            given={Hui},
            giveni={H\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=0e284097865f61b75b0b6bba6f066b8c}{%
            family={Bilmes},
            familyi={B\bibinitperiod},
@@ -2171,7 +2348,6 @@
       \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Human Language Technologies: The 2010 Annual Conference of the North American Chapter of the Association for Computational Linguistics}
@@ -2737,6 +2913,46 @@
       \verb https://ojs.aaai.org/index.php/AAAI/article/view/10958
       \endverb
     \endentry
+    \entry{Nenkova2004}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0aa759b738fc3af9c3def808c8aa619a}{%
+           family={Nenkova},
+           familyi={N\bibinitperiod},
+           given={Ani},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9fd949eef0c231a53e533968a89e1cd2}{%
+           family={Passonneau},
+           familyi={P\bibinitperiod},
+           given={Rebecca},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Boston, Massachusetts, USA}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{67d4cbb5bf0c961f8ab1f72033fa5a70}
+      \strng{fullhash}{67d4cbb5bf0c961f8ab1f72033fa5a70}
+      \strng{bibnamehash}{67d4cbb5bf0c961f8ab1f72033fa5a70}
+      \strng{authorbibnamehash}{67d4cbb5bf0c961f8ab1f72033fa5a70}
+      \strng{authornamehash}{67d4cbb5bf0c961f8ab1f72033fa5a70}
+      \strng{authorfullhash}{67d4cbb5bf0c961f8ab1f72033fa5a70}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the Human Language Technology Conference of the North {A}merican Chapter of the Association for Computational Linguistics: {HLT}-{NAACL} 2004}
+      \field{title}{Evaluating Content Selection in Summarization: The Pyramid Method}
+      \field{year}{2004}
+      \field{pages}{145\bibrangedash 152}
+      \range{pages}{8}
+    \endentry
     \entry{Niemeijer2010}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=e532657db2926fe48522a7cb17e9b2a6}{%
@@ -3079,6 +3295,52 @@
       \verb https://readable.com/readability/flesch-reading-ease-flesch-kincaid-grade-level/
       \endverb
     \endentry
+    \entry{Rello2013}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=beb516ae4b9334129c564a1d33d9ec9b}{%
+           family={Rello},
+           familyi={R\bibinitperiod},
+           given={Luz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=14e9e2c7e918f62ba13b9e040fb7f468}{%
+           family={Baeza-Yates},
+           familyi={B\bibinithyphendelim Y\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dafc25901c99be13b1e2d7617dda3b8b}{%
+           family={Dempere-Marco},
+           familyi={D\bibinithyphendelim M\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c64a04423df54f4b8a0c897a023033d}{%
+           family={Saggion},
+           familyi={S\bibinitperiod},
+           given={Horacio},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5f8b0dbae47e570be334bb804b81d6ad}
+      \strng{fullhash}{bd06adebb78d1467d2877ff7b38c0141}
+      \strng{bibnamehash}{bd06adebb78d1467d2877ff7b38c0141}
+      \strng{authorbibnamehash}{bd06adebb78d1467d2877ff7b38c0141}
+      \strng{authornamehash}{5f8b0dbae47e570be334bb804b81d6ad}
+      \strng{authorfullhash}{bd06adebb78d1467d2877ff7b38c0141}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-642-40497-9}
+      \field{month}{09}
+      \field{title}{Frequent Words Improve Readability and Short Words Improve Understandability for People with Dyslexia}
+      \field{year}{2013}
+    \endentry
     \entry{Rello2012}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=beb516ae4b9334129c564a1d33d9ec9b}{%
@@ -3112,6 +3374,7 @@
       \strng{authorbibnamehash}{a76335588d8c2243e2f83afbb4bbab25}
       \strng{authornamehash}{5f8b0dbae47e570be334bb804b81d6ad}
       \strng{authorfullhash}{a76335588d8c2243e2f83afbb4bbab25}
+      \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
       \field{extradatescope}{labelyear}
@@ -3276,6 +3539,55 @@
       \endverb
       \verb{url}
       \verb https://medium.com/sciforce/biggest-open-problems-in-natural-language-processing-7eb101ccfc9
+      \endverb
+    \endentry
+    \entry{ShafieiBavani2018}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=09e9a4dce499af59a12fe52182e85dec}{%
+           family={ShafieiBavani},
+           familyi={S\bibinitperiod},
+           given={Elaheh},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89da6c3fb9792dd6defbbfdf590254b5}{%
+           family={Ebrahimi},
+           familyi={E\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=874abc8f94a9a15737d060d1b674eadb}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Raymond},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5de529f763fe493fc1be5a3fa71d53d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Fang},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b2182d9d299090f2d6363a6f8fa9aa2f}
+      \strng{fullhash}{8c9680c0d69a9465f8e9faee22ffdbb4}
+      \strng{bibnamehash}{8c9680c0d69a9465f8e9faee22ffdbb4}
+      \strng{authorbibnamehash}{8c9680c0d69a9465f8e9faee22ffdbb4}
+      \strng{authornamehash}{b2182d9d299090f2d6363a6f8fa9aa2f}
+      \strng{authorfullhash}{8c9680c0d69a9465f8e9faee22ffdbb4}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{01}
+      \field{title}{A Graph-theoretic Summary Evaluation for ROUGE}
+      \field{year}{2018}
+      \field{pages}{762\bibrangedash 767}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.18653/v1/D18-1085
       \endverb
     \endentry
     \entry{Shardlow2013}{article}{}
@@ -3723,20 +4035,29 @@
       \field{year}{2019}
     \endentry
     \entry{VanVreckem2015}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c8a3e19e568612beea8d10b96f3b310b}{%
-           family={{Van Vreckem, Christel and Desoete, Annemie}},
-           familyi={V\bibinitperiod}}}%
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=df40afd025007518def7b22d22cd8c64}{%
+           family={Van\bibnamedelima Vreckem},
+           familyi={V\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=15bc3f7508695e1f43d70e007985206a}{%
+           family={Desoete},
+           familyi={D\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
       }
       \list{language}{1}{%
         {dut}%
       }
-      \strng{namehash}{c8a3e19e568612beea8d10b96f3b310b}
-      \strng{fullhash}{c8a3e19e568612beea8d10b96f3b310b}
-      \strng{bibnamehash}{c8a3e19e568612beea8d10b96f3b310b}
-      \strng{authorbibnamehash}{c8a3e19e568612beea8d10b96f3b310b}
-      \strng{authornamehash}{c8a3e19e568612beea8d10b96f3b310b}
-      \strng{authorfullhash}{c8a3e19e568612beea8d10b96f3b310b}
+      \strng{namehash}{deed6d3cfb80dbe306bb858244756767}
+      \strng{fullhash}{deed6d3cfb80dbe306bb858244756767}
+      \strng{bibnamehash}{deed6d3cfb80dbe306bb858244756767}
+      \strng{authorbibnamehash}{deed6d3cfb80dbe306bb858244756767}
+      \strng{authornamehash}{deed6d3cfb80dbe306bb858244756767}
+      \strng{authorfullhash}{deed6d3cfb80dbe306bb858244756767}
       \field{sortinit}{V}
       \field{sortinithash}{02432525618c08e2b03cac47c19764af}
       \field{extradatescope}{labelyear}
