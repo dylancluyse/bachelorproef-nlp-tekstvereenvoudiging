@@ -1850,6 +1850,9 @@ INPUT ./standvanzaken.tex
 INPUT ./standvanzaken.tex
 INPUT ./standvanzaken.tex
 INPUT standvanzaken.tex
+INPUT ./img/visuele-disfunctie.png
+INPUT ./img/visuele-disfunctie.png
+INPUT img/visuele-disfunctie.png
 INPUT ./img/readability-mean-fixation-duration.png
 INPUT ./img/readability-mean-fixation-duration.png
 INPUT img/readability-mean-fixation-duration.png

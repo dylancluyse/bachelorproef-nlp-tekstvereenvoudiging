@@ -52,6 +52,36 @@
       \field{title}{Performance Study on Extractive Text Summarization Using BERT Models}
       \field{year}{2022}
     \endentry
+    \entry{APA2013}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3f66c642802f76fee00ebf8365ba9298}{%
+           family={Association},
+           familyi={A\bibinitperiod},
+           given={American\bibnamedelima Psychiatric},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American psychiatric association Washington, DC}%
+      }
+      \strng{namehash}{3f66c642802f76fee00ebf8365ba9298}
+      \strng{fullhash}{3f66c642802f76fee00ebf8365ba9298}
+      \strng{bibnamehash}{3f66c642802f76fee00ebf8365ba9298}
+      \strng{authorbibnamehash}{3f66c642802f76fee00ebf8365ba9298}
+      \strng{authornamehash}{3f66c642802f76fee00ebf8365ba9298}
+      \strng{authorfullhash}{3f66c642802f76fee00ebf8365ba9298}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{5}
+      \field{title}{Diagnostic and statistical manual of mental disorders: DSM-5}
+      \field{volume}{5}
+      \field{year}{2013}
+    \endentry
     \entry{Avontuur2015}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=b4791a31bed4594922f21c5d29d700c7}{%
@@ -160,6 +190,47 @@
       \field{pages}{e60080}
       \range{pages}{-1}
       \keyw{meta-research,scientific writing,acronyms,communication,knowledge,scientific publishing}
+    \endentry
+    \entry{Bezem2016}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=de30349cf90f7cdb8bccbaaef18e42db}{%
+           family={Bezem},
+           familyi={B\bibinitperiod},
+           given={Anneke},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92199e561d81ca09ad32123719bfd809}{%
+           family={Lugthart},
+           familyi={L\bibinitperiod},
+           given={Marjon},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Beeld en Brein}%
+      }
+      \strng{namehash}{f530ffd7c7aa90900f1fa7c86ebb03e1}
+      \strng{fullhash}{f530ffd7c7aa90900f1fa7c86ebb03e1}
+      \strng{bibnamehash}{f530ffd7c7aa90900f1fa7c86ebb03e1}
+      \strng{authorbibnamehash}{f530ffd7c7aa90900f1fa7c86ebb03e1}
+      \strng{authornamehash}{f530ffd7c7aa90900f1fa7c86ebb03e1}
+      \strng{authorfullhash}{f530ffd7c7aa90900f1fa7c86ebb03e1}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Beeld en Brein}
+      \field{title}{Visuele Disfunctie een onzichtbare belemmering bij lezen, spelling en concentratie.}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://beeldenbrein.nl/
+      \endverb
+      \verb{url}
+      \verb https://beeldenbrein.nl/
+      \endverb
     \endentry
     \entry{Bilisci2021}{misc}{}
       \name{author}{1}{}{%
@@ -783,6 +854,41 @@
       \verb :persbericht_-_kwart_van_bedrijven_gebruikt_artificiele_intelligentie_-_vlaanderen_bij_beste_leerlingen_van_de_klas.pdf:PDF
       \endverb
     \endentry
+    \entry{Daoud2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0e98acd36995ce58640aadb14cc0d062}{%
+           family={Daoud},
+           familyi={D\bibinitperiod},
+           given={Nabilla\bibnamedelima Ait},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Doorbraak}%
+      }
+      \strng{namehash}{0e98acd36995ce58640aadb14cc0d062}
+      \strng{fullhash}{0e98acd36995ce58640aadb14cc0d062}
+      \strng{bibnamehash}{0e98acd36995ce58640aadb14cc0d062}
+      \strng{authorbibnamehash}{0e98acd36995ce58640aadb14cc0d062}
+      \strng{authornamehash}{0e98acd36995ce58640aadb14cc0d062}
+      \strng{authorfullhash}{0e98acd36995ce58640aadb14cc0d062}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Doorbraak.be}
+      \field{title}{Vandaag Internationale Dag van de Moedertaal: Pleidooi voor Het Nederlands}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://doorbraak.be/vandaag-internationale-dag-van-de-moedertaal-pleidooi-voor-het-nederlands/
+      \endverb
+      \verb{url}
+      \verb https://doorbraak.be/vandaag-internationale-dag-van-de-moedertaal-pleidooi-voor-het-nederlands/
+      \endverb
+    \endentry
     \entry{Dapaah2022}{online}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=993d444a600643f17bde7fe6b5366784}{%
@@ -933,7 +1039,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Aan de slag met voorleessoftware op school: Een gids met acht vragen en antwoorden.}
-      \field{month}{1}
       \field{title}{Aan de slag met voorleessoftware op school. Een gids met 8 vragen en antwoorden.}
       \field{year}{2018}
       \verb{urlraw}
@@ -1135,6 +1240,41 @@
       \field{year}{{2017}}
       \field{pages}{{17\bibrangedash 31}}
       \range{pages}{-1}
+    \endentry
+    \entry{Diels2022}{online}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9af644bae36d1309d400b7d53019c5b6}{%
+           family={Diels},
+           familyi={D\bibinitperiod},
+           given={Ludo},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Universiteit Maastricht}%
+      }
+      \strng{namehash}{9af644bae36d1309d400b7d53019c5b6}
+      \strng{fullhash}{9af644bae36d1309d400b7d53019c5b6}
+      \strng{bibnamehash}{9af644bae36d1309d400b7d53019c5b6}
+      \strng{authorbibnamehash}{9af644bae36d1309d400b7d53019c5b6}
+      \strng{authornamehash}{9af644bae36d1309d400b7d53019c5b6}
+      \strng{authorfullhash}{9af644bae36d1309d400b7d53019c5b6}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Universiteit Maastricht}
+      \field{title}{Over dyslexie, vooroordelen en vriendschap}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.maastrichtuniversity.nl/nl/nieuws/over-dyslexie-vooroordelen-en-vriendschap
+      \endverb
+      \verb{url}
+      \verb https://www.maastrichtuniversity.nl/nl/nieuws/over-dyslexie-vooroordelen-en-vriendschap
+      \endverb
     \endentry
     \entry{Dirks2008}{article}{}
       \name{author}{4}{}{%
@@ -3468,6 +3608,40 @@
       \verb https://monkeylearn.com/blog/natural-language-processing-challenges/
       \endverb
     \endentry
+    \entry{Romanovska2021}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=052866b927efe211b2ea20c5438b2ac6}{%
+           family={Romanovska},
+           familyi={R\bibinitperiod},
+           given={Linda},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=15b1743124bcebf9f57c9d9ac3702280}{%
+           family={Bonte},
+           familyi={B\bibinitperiod},
+           given={Milene},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9f49fc9ecc072858ad75cee8eb173ce5}
+      \strng{fullhash}{9f49fc9ecc072858ad75cee8eb173ce5}
+      \strng{bibnamehash}{9f49fc9ecc072858ad75cee8eb173ce5}
+      \strng{authorbibnamehash}{9f49fc9ecc072858ad75cee8eb173ce5}
+      \strng{authornamehash}{9f49fc9ecc072858ad75cee8eb173ce5}
+      \strng{authorfullhash}{9f49fc9ecc072858ad75cee8eb173ce5}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Frontiers in Psychology}
+      \field{month}{12}
+      \field{title}{How Learning to Read Changes the Listening Brain}
+      \field{volume}{12}
+      \field{year}{2021}
+    \endentry
     \entry{Ruben2016}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=79745809010339975a69b668c94cef85}{%
@@ -4034,6 +4208,44 @@
       \field{month}{10}
       \field{title}{Python current trend applications-an overview}
       \field{year}{2019}
+    \endentry
+    \entry{VanDerMeer2022}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cc4c9419808f96ca1fd98f8a0b77aa26}{%
+           family={Meer},
+           familyi={M\bibinitperiod},
+           given={Claire},
+           giveni={C\bibinitperiod},
+           givenun=0,
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {De Morgen}%
+      }
+      \strng{namehash}{cc4c9419808f96ca1fd98f8a0b77aa26}
+      \strng{fullhash}{cc4c9419808f96ca1fd98f8a0b77aa26}
+      \strng{bibnamehash}{cc4c9419808f96ca1fd98f8a0b77aa26}
+      \strng{authorbibnamehash}{cc4c9419808f96ca1fd98f8a0b77aa26}
+      \strng{authornamehash}{cc4c9419808f96ca1fd98f8a0b77aa26}
+      \strng{authorfullhash}{cc4c9419808f96ca1fd98f8a0b77aa26}
+      \field{sortinit}{v}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{De Morgen}
+      \field{month}{4}
+      \field{title}{Dyslexie hebben is Niet Zo Raar: Lezen is iets heel onnatuurlijks}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.demorgen.be/beter-leven/dyslexie-hebben-is-niet-zo-raar-lezen-is-iets-heel-onnatuurlijks~bc608101/
+      \endverb
+      \verb{url}
+      \verb https://www.demorgen.be/beter-leven/dyslexie-hebben-is-niet-zo-raar-lezen-is-iets-heel-onnatuurlijks~bc608101/
+      \endverb
     \endentry
     \entry{VanVreckem2015}{article}{}
       \name{author}{2}{}{%
