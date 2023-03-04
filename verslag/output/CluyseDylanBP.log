@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  4 MAR 2023 14:17
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  4 MAR 2023 20:04
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2323,6 +2323,12 @@ LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
 (Font)              scaled to size 6.35031pt on input line 8.
 
+Overfull \hbox (6.23222pt too wide) in paragraph at lines 10--10
+ \TU/Montserrat(1)/m/n/10.95 de ideale situatie benaderd, gekenmerkt door doelw
+aarden. Deze waar- 
+ []
+
+
 Overfull \hbox (11.46242pt too wide) in paragraph at lines 14--14
  \TU/Montserrat(1)/m/n/10.95 tijdsverlies en slechts 17% gaf aan dat lezen één 
 van hun favoriete hobby’s 
@@ -2407,29 +2413,29 @@ omatiseerde tekstvereen-
 Hoofdstuk 2.
 [5
 
-] [6] [7] [8]
-Overfull \hbox (0.35909pt too wide) in paragraph at lines 90--91
-[]\TU/Montserrat(1)/m/n/10.95 Instructies in de applicatie moeten op een begrij
-pelijke en geïndividualiseerde
- []
-
-[9]
+] [6] [7] [8] [9]
 File: img/visuele-disfunctie.png Graphic file (type bmp)
 <img/visuele-disfunctie.png>
- [10]
-Overfull \hbox (7.35176pt too wide) in paragraph at lines 162--163
+
+Overfull \hbox (7.35176pt too wide) in paragraph at lines 159--160
 \TU/Montserrat(1)/m/n/10.95 letter-toevoegingen, letter-vervangingen, en het on
 herkenbaar verminken van woor-
  []
 
-
-Overfull \hbox (4.85715pt too wide) in paragraph at lines 164--164
+[10]
+Overfull \hbox (4.85715pt too wide) in paragraph at lines 165--165
 |[][]\TU/Montserrat(0)/b/n/12 Bewezen voordelen van tekstvereenvoudiging bij sc
 holieren met
  []
 
 File: img/readability-mean-fixation-duration.png Graphic file (type bmp)
 <img/readability-mean-fixation-duration.png>
+
+Overfull \hbox (1.2594pt too wide) in paragraph at lines 179--180
+\TU/Montserrat(1)/m/n/10.95 Bij digitale en uitgeprinte documenten worden de le
+tters vergroot. De achtergrond-
+ []
+
 [11]
 File: img/oeso-graphic-pisa-trend-samenvatting.png Graphic file (type bmp)
 <img/oeso-graphic-pisa-trend-samenvatting.png>
@@ -2440,77 +2446,72 @@ File: img/oeso-graphic-wetenschappelijke-geletterdheid-2.png Graphic file (type
  bmp)
 <img/oeso-graphic-wetenschappelijke-geletterdheid-2.png>
  [13]
-Overfull \hbox (4.00008pt too wide) in paragraph at lines 215--216
-[][]\TU/Montserrat(1)/m/n/10.95 Plavén-Sigray e.a. ([][]2017[][]) onderzochten 
-de verschillende trends waarom wetenschap-
- []
-
 File: img/fre-ndc.png Graphic file (type bmp)
 <img/fre-ndc.png>
-[14]
+ [14]
 File: img/ndc-number-of-authors.png Graphic file (type bmp)
 <img/ndc-number-of-authors.png>
-
-Overfull \hbox (0.37733pt too wide) in paragraph at lines 231--232
-\TU/Montserrat(1)/m/n/10.95 gen maken dat moderne samenlevingen minder streng w
-orden met feitelijke waar-
+ [15]
+Overfull \hbox (2.85568pt too wide) in paragraph at lines 243--244
+\TU/Montserrat(1)/m/n/10.95 herschrijven van abstracten vergroot de begrijpbaar
+heid bij academici volgens []Hart-
  []
 
-[15] [16]
-Overfull \hbox (0.44691pt too wide) in paragraph at lines 275--276
+[16] [17]
+Overfull \hbox (0.44691pt too wide) in paragraph at lines 293--294
 \TU/Montserrat(1)/m/n/10.95 breed publiek, waaronder scholieren die deze artike
 len voorgeschoteld krijgen. Om
  []
 
-[17] [18]
-Overfull \hbox (1.55896pt too wide) in paragraph at lines 321--322
+[18]
+Overfull \hbox (1.55896pt too wide) in paragraph at lines 339--340
 []\TU/Montserrat(2)/m/it/10.95 Natural Language Processing \TU/Montserrat(1)/m/
 n/10.95 (NLP) of natuurlijke taalverwerking is een brede term
  []
 
 [19]
-Overfull \hbox (3.39366pt too wide) in paragraph at lines 340--341
+Overfull \hbox (3.39366pt too wide) in paragraph at lines 358--359
 []\TU/Montserrat(2)/m/it/10.95 ML-based \TU/Montserrat(1)/m/n/10.95 modellen tr
 ainen eerst op geannoteerde tekstdocumenten, ver-
  []
 
 
-Overfull \hbox (7.83058pt too wide) in paragraph at lines 341--342
+Overfull \hbox (7.83058pt too wide) in paragraph at lines 359--360
 []\TU/Montserrat(2)/m/it/10.95 Deep-learning \TU/Montserrat(1)/m/n/10.95 of DL-
 modellen mappen de invoerdata aan een niet-lineaire
  []
 
+[20]
 File: img/poslabeling.png Graphic file (type bmp)
 <img/poslabeling.png>
 File: img/nerlabeling.jpg Graphic file (type bmp)
 <img/nerlabeling.jpg>
 File: img/voorbeeld-manuele-vereenvoudiging.png Graphic file (type bmp)
 <img/voorbeeld-manuele-vereenvoudiging.png>
-[20] [21]
 File: img/text-simplification-reading-ease.png Graphic file (type bmp)
 <img/text-simplification-reading-ease.png>
- [22] [23] [24]
+ [21] [22] [23] [24]
 File: img/summarization-mindmap.png Graphic file (type bmp)
 <img/summarization-mindmap.png>
  [25] [26] [27] [28]
-Overfull \hbox (2.53232pt too wide) in paragraph at lines 548--549
+Overfull \hbox (2.53232pt too wide) in paragraph at lines 566--567
 []\TU/Montserrat(1)/m/n/10.95 BLEU volgt een gelijkaardige werking. De gelijken
 is tussen een machine-generated
  []
 
 
-Overfull \hbox (28.28304pt too wide) in paragraph at lines 548--549
+Overfull \hbox (28.28304pt too wide) in paragraph at lines 566--567
 \TU/Montserrat(1)/m/n/10.95 tekst en een referentietekst wordt beoordeeld, maar
  deze meting is precision-gebaseerd. 
  []
 
-
-Overfull \hbox (14.44443pt too wide) in paragraph at lines 576--577
+[29]
+Overfull \hbox (14.44443pt too wide) in paragraph at lines 594--595
 \TU/Montserrat(1)/m/n/10.95 Het onderzoek van []Sciforce ([][]2020[][]) haalt a
 an dat het merendeel van NLP-toepassingen
  []
 
-[29] [30] [31]
+[30] [31]
 File: img/chatgpt-example-simplification-gooding.png Graphic file (type bmp)
 <img/chatgpt-example-simplification-gooding.png>
 File: img/chatgpt-example-different-versions-gooding.png Graphic file (type bmp
@@ -2633,18 +2634,18 @@ gonderzoek voor diagnos-
 
 [54] [55] (../output/CluyseDylanBP.aux)
 Package rerunfilecheck Info: File `CluyseDylanBP.out' has not changed.
-(rerunfilecheck)             Checksum: 6D4DA42B82926E85D4D7E7B2C664C6D7;4942.
+(rerunfilecheck)             Checksum: 69BCA1ADE372C03790DD7518BD19B4F2;5163.
 Package logreq Info: Writing requests to 'CluyseDylanBP.run.xml'.
 \openout1 = `CluyseDylanBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48116 strings out of 478657
- 936751 string characters out of 5861312
- 2064711 words of memory out of 5000000
- 66869 multiletter control sequences out of 15000+600000
+ 48134 strings out of 478657
+ 937147 string characters out of 5861312
+ 2067514 words of memory out of 5000000
+ 66887 multiletter control sequences out of 15000+600000
  406490 words of font info for 99 fonts, out of 8000000 for 9000
  351 hyphenation exceptions out of 8191
  113i,12n,139p,2569b,7099s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../output/CluyseDylanBP.xdv (63 pages, 1497544 bytes).
+Output written on ../output/CluyseDylanBP.xdv (63 pages, 1518396 bytes).

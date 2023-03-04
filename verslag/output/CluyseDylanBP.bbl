@@ -3964,6 +3964,36 @@
       \verb https://arxiv.org/abs/2008.08612
       \endverb
     \endentry
+    \entry{Snow2010}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fd29fa5a48764d64e337a2f14107bdbd}{%
+           family={Snow},
+           familyi={S\bibinitperiod},
+           given={Catherine},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fd29fa5a48764d64e337a2f14107bdbd}
+      \strng{fullhash}{fd29fa5a48764d64e337a2f14107bdbd}
+      \strng{bibnamehash}{fd29fa5a48764d64e337a2f14107bdbd}
+      \strng{authorbibnamehash}{fd29fa5a48764d64e337a2f14107bdbd}
+      \strng{authornamehash}{fd29fa5a48764d64e337a2f14107bdbd}
+      \strng{authorfullhash}{fd29fa5a48764d64e337a2f14107bdbd}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science (New York, N.Y.)}
+      \field{month}{04}
+      \field{title}{Academic Language and the Challenge of Reading for Learning About Science}
+      \field{volume}{328}
+      \field{year}{2010}
+      \field{pages}{450\bibrangedash 2}
+      \range{pages}{3}
+    \endentry
     \entry{Sohom2019}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d58f396c0dd0af55ec715e3cb63a0867}{%
@@ -4209,6 +4239,40 @@
       \field{title}{Python current trend applications-an overview}
       \field{year}{2019}
     \endentry
+    \entry{Uhry2008}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=00139b4f3b635d77545aecaec49e52a0}{%
+           family={Uhry},
+           familyi={U\bibinitperiod},
+           given={Joanna\bibnamedelima Kellog},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eff3538f102719cb7aaf54279fffaa2d}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Diana\bibnamedelima Brewster},
+           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Pro-ed}%
+      }
+      \strng{namehash}{5571b3e8af5574835905182418e2e087}
+      \strng{fullhash}{5571b3e8af5574835905182418e2e087}
+      \strng{bibnamehash}{5571b3e8af5574835905182418e2e087}
+      \strng{authorbibnamehash}{5571b3e8af5574835905182418e2e087}
+      \strng{authornamehash}{5571b3e8af5574835905182418e2e087}
+      \strng{authorfullhash}{5571b3e8af5574835905182418e2e087}
+      \field{sortinit}{U}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dyslexia: Theory and practice of instruction}
+      \field{year}{2008}
+    \endentry
     \entry{VanDerMeer2022}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cc4c9419808f96ca1fd98f8a0b77aa26}{%
@@ -4314,6 +4378,54 @@
       \field{year}{2022}
       \field{pages}{1\bibrangedash 4}
       \range{pages}{4}
+    \endentry
+    \entry{Vellutino2004}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9740e33069d8577755f1926aa1dab0b5}{%
+           family={Vellutino},
+           familyi={V\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab106369281d1c323cb42196c90bd3f9}{%
+           family={Fletcher},
+           familyi={F\bibinitperiod},
+           given={Jack},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd029b97506e7090e7d9b7664d049e75}{%
+           family={Snowling},
+           familyi={S\bibinitperiod},
+           given={Margaret},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=915c265cdcb13e0736e8ae2b43d77ba7}{%
+           family={Scanlon},
+           familyi={S\bibinitperiod},
+           given={Donna},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a5c42c30156eb4d4f7adeb867addd12d}
+      \strng{fullhash}{6384fec265606eca3e25882cd48e9c8d}
+      \strng{bibnamehash}{6384fec265606eca3e25882cd48e9c8d}
+      \strng{authorbibnamehash}{6384fec265606eca3e25882cd48e9c8d}
+      \strng{authornamehash}{a5c42c30156eb4d4f7adeb867addd12d}
+      \strng{authorfullhash}{6384fec265606eca3e25882cd48e9c8d}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of child psychology and psychiatry, and allied disciplines}
+      \field{month}{02}
+      \field{title}{Specific reading disability (dyslexia): What have we learned in the past four decades?}
+      \field{volume}{45}
+      \field{year}{2004}
+      \field{pages}{2\bibrangedash 40}
+      \range{pages}{39}
     \endentry
     \entry{Verhoeven2023}{online}{}
       \name{author}{1}{}{%
