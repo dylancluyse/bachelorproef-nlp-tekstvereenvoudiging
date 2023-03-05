@@ -1,0 +1,73 @@
+<script>
+// Code borrowed from :> https://github.com/Wildhoney/ngRangeSlider
+function getVals(){
+  var parent = this.parentNode;
+  var slides = parent.getElementsByTagName("input");
+    var slide1 = parseFloat( slides[0].value );
+    var slide2 = parseFloat( slides[1].value );
+  if( slide1 > slide2 ){ var tmp = slide2; slide2 = slide1; slide1 = tmp; }
+  
+  var displayElement = parent.getElementsByClassName("rangeValues")[0];
+      displayElement.innerHTML = slide1 + " - " + slide2;
+}
+
+window.onload = function(){
+  var sliderSections = document.getElementsByClassName("range-slider");
+      for( var x = 0; x < sliderSections.length; x++ ){
+        var sliders = sliderSections[x].getElementsByTagName("input");
+        for( var y = 0; y < sliders.length; y++ ){
+          if( sliders[y].type ==="range" ){
+            sliders[y].oninput = getVals;
+            sliders[y].oninput();
+          }
+        }
+    }
+}
+</script>
+
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="..\static\css\style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <title>Text simplification</title>
+  </head>
+  <body>
+    <h1>Text Simplification</h1>
+    <div class="container-index">
+      <h2>Parameters</h2>
+      <label for="slider-range">
+        <section class="range-slider">
+          <span class="rangeValues"></span>
+          <input value="5" min="0" max="100" step="1" type="range">
+          <input value="10" min="0" max="100" step="1" type="range">
+        </section>
+      </label>
+    </div>
+    
+
+    <div class="container">
+      <div class="container-index">
+        <h2>PDF bekijken</h2>
+        <form method="post" enctype="multipart/form-data">
+          <label for="pdf">Voeg een PDF toe:</label>
+          <input type="file" id="pdf" name="pdf"><br><br>
+          <input type="submit" value="View PDF">
+        </form>
+      </div>
+    
+      
+
+      <div class="container-index">
+        <h2>Snelle samenvatting</h2>
+        <form action="/quick" method="post" enctype="multipart/form-data">
+          <label for="pdf">Voeg een PDF toe:</label>
+          <input type="file" id="pdf" name="pdf"><br><br>
+          <input type="submit" value="View PDF">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

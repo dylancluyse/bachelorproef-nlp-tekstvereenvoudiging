@@ -1,3 +1,6 @@
+{% set threshold = 40 %}
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -6,17 +9,28 @@
     <title>Text Simplification</title>
   </head>
   <body>
+    
+    <div class="container">
+      <p>taal: {{lang}}<br></p>
+      <p>titel: {{title}}<br></p>
+      <p>onderwerp: {{subject}}</p>
+    </div>
+
     <div class="container">
       <div class="left-container">
         <h1>Oorspronkelijk</h1>
-        {% for sentence in text %}
-        <p>{{ sentence }}</p>
+        {% for sentence in data %}
+          {% if sentence[1] < threshold %}
+            <p style="color: red">{{ sentence }}</p>
+          {% else %}
+            <p>{{ sentence }}</p>
+          {% endif %}
         {% endfor %}
       </div>
       <div class="right-container">
-        <h1>Vereenvoudigd</h1>
-        
+        <h1>Vereenvoudigd</h1>    
       </div>
     </div>
+
   </body>
 </html>
