@@ -133,7 +133,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nature}
-      \field{month}{03}
       \field{title}{It's not just you: science papers are getting harder to read}
       \field{year}{2017}
     \endentry
@@ -1524,7 +1523,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Information Management - INT J INFORM MANAGE}
-      \field{month}{04}
       \field{title}{True Enough: Learning to Live in a Post-Fact Society , John Wiley, New Jersey (2008)}
       \field{volume}{30}
       \field{year}{2010}
@@ -1757,7 +1755,6 @@
       \field{labeltitlesource}{title}
       \field{abstract}{This paper outlines the ethical implications of text simplification within the framework of assistive systems. We argue that a distinction should be made between the technologies that perform text simplification and the realisation of these in assistive technologies. When using the latter as a motivation for research, it is important that the subsequent ethical implications be carefully considered. We provide guidelines for the framing of text simplification independently of assistive systems, as well as suggesting directions for future research and discussion based on the concerns raised.}
       \field{journaltitle}{Ninth Workshop on Speech and Language Processing for Assistive Technologies (SLPAT-2022)}
-      \field{month}{05}
       \field{title}{On the Ethical Considerations of Text Simplification}
       \field{year}{2022}
       \field{pages}{50\bibrangedash 57}
@@ -1835,7 +1832,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Computer}
-      \field{month}{12}
       \field{title}{The Challenges of Automatic Summarization}
       \field{volume}{33}
       \field{year}{2000}
@@ -2058,7 +2054,6 @@
       \field{labeltitlesource}{title}
       \field{abstract}{Reading primary research literature is an essential skill for all scientists and students on science degree programmes, however little is known about how researchers at different career stages interact with and interpret scientific papers. To explore this, we conducted a survey of 260 undergraduate students and researchers in Biological Sciences at a research intensive UK university. Responses to Likert scale questions demonstrated increases in confidence and skill with reading the literature between individuals at each career stage, including between postdoctoral researchers and faculty academics. The survey indicated that individuals at different career stages valued different sections of scientific papers, and skill in reading the results section develops slowly over the course of an academic career. Inexperienced readers found the methods and results sections of research papers the most difficult to read, and undervalued the importance of the results section and critical interpretation of data. These data highlight a need for structured support with reading scientific literature at multiple career stages, and for senior academics to be aware that junior colleagues may prioritise their reading differently. We propose a model for the development of literature processing skills, and consider the need for training strategies to help inexperienced readers engage with primary literature, and therefore develop important skills that underpin scientific careers. We also encourage researchers to be mindful of language used when writing papers, and to be more inclusive of diverse audiences when disseminating their work.}
       \field{journaltitle}{PLOS ONE}
-      \field{month}{12}
       \field{number}{12}
       \field{title}{Perceptions of scientific research literature and strategies for reading papers depend on academic career stage}
       \field{volume}{12}
@@ -2164,7 +2159,6 @@
       \field{labeltitlesource}{title}
       \field{isbn}{978-1-4503-5970-2}
       \field{journaltitle}{CHI '19: Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems}
-      \field{month}{04}
       \field{title}{r/science: Challenges and Opportunities in Online Science Communication}
       \field{year}{2019}
       \field{pages}{1\bibrangedash 14}
@@ -2480,7 +2474,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Text Summarization Branches Out}
-      \field{month}{7}
       \field{title}{{ROUGE}: A Package for Automatic Evaluation of Summaries}
       \field{year}{2004}
       \field{pages}{74\bibrangedash 81}
@@ -2643,7 +2636,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{01}
       \field{title}{Het stopt nooit…De impact van dyslexie en/of dyscalculie op het welbevinden en studeren van (jong)volwassenen en op de transitie naar de arbeidsmarkt: een bundeling van Vlaamse pilootstudies.}
       \field{year}{2020}
     \endentry
@@ -2960,7 +2952,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{TORVUB}
-      \field{month}{8}
       \field{title}{De arbeidsduur en werkcontext van leraren. Onderzoek naar de tijdsbesteding van leraren uit het basis- en secundair onderwijs.}
       \field{year}{2018}
       \verb{urlraw}
@@ -3219,7 +3210,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Science}
-      \field{month}{3}
       \field{title}{How to (seriously) read a scientific paper}
       \field{year}{2016}
       \verb{urlraw}
@@ -3362,7 +3352,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-319-26831-6}
-      \field{month}{01}
       \field{title}{Metaheuristic Optimization Using Sentence Level Semantics for Extractive Document Summarization}
       \field{year}{2015}
       \field{pages}{347\bibrangedash 358}
@@ -3482,6 +3471,40 @@
       \field{title}{Frequent Words Improve Readability and Short Words Improve Understandability for People with Dyslexia}
       \field{year}{2013}
     \endentry
+    \entry{Rello2017}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=beb516ae4b9334129c564a1d33d9ec9b}{%
+           family={Rello},
+           familyi={R\bibinitperiod},
+           given={Luz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=db48e9a3e117ab36442336dd68b91ac4}{%
+           family={Bigham},
+           familyi={B\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7217d2f82020246cff5ea47ccb043008}
+      \strng{fullhash}{7217d2f82020246cff5ea47ccb043008}
+      \strng{bibnamehash}{7217d2f82020246cff5ea47ccb043008}
+      \strng{authorbibnamehash}{7217d2f82020246cff5ea47ccb043008}
+      \strng{authornamehash}{7217d2f82020246cff5ea47ccb043008}
+      \strng{authorfullhash}{7217d2f82020246cff5ea47ccb043008}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{Good Background Colors for Readers: A Study of People with and without Dyslexia}
+      \field{year}{2017}
+      \field{pages}{72\bibrangedash 80}
+      \range{pages}{9}
+    \endentry
     \entry{Rello2012}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=beb516ae4b9334129c564a1d33d9ec9b}{%
@@ -3531,6 +3554,41 @@
       \field{year}{2012}
       \keyw{browsing web service,web accessibility,dyslexia,readability,accessibility guidelines,usability tests}
     \endentry
+    \entry{Ribas2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d16e6a60593afa3396ff1d04e6a0d522}{%
+           family={Ribas},
+           familyi={R\bibinitperiod},
+           given={Jordi},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Microsoft}%
+      }
+      \strng{namehash}{d16e6a60593afa3396ff1d04e6a0d522}
+      \strng{fullhash}{d16e6a60593afa3396ff1d04e6a0d522}
+      \strng{bibnamehash}{d16e6a60593afa3396ff1d04e6a0d522}
+      \strng{authorbibnamehash}{d16e6a60593afa3396ff1d04e6a0d522}
+      \strng{authornamehash}{d16e6a60593afa3396ff1d04e6a0d522}
+      \strng{authorfullhash}{d16e6a60593afa3396ff1d04e6a0d522}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{LinkedIn}
+      \field{title}{Building the new bing}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.linkedin.com/pulse/building-new-bing-jordi-ribas/
+      \endverb
+      \verb{url}
+      \verb https://www.linkedin.com/pulse/building-new-bing-jordi-ribas/
+      \endverb
+    \endentry
     \entry{Rijkhoff2022}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cfb47ec7e1099e5ef607ad4ba6febc5b}{%
@@ -3557,7 +3615,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Dialoogtrainers}
-      \field{month}{8}
       \field{title}{Tekst Inkorten?: 9 tips om Je Teksten korter Te Maken}
       \field{year}{2022}
       \verb{urlraw}
@@ -3914,7 +3971,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{ITL - International Journal of Applied Linguistics}
-      \field{month}{12}
       \field{title}{A survey of research on text simplification}
       \field{volume}{165}
       \field{year}{2014}
@@ -3987,7 +4043,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Science (New York, N.Y.)}
-      \field{month}{04}
       \field{title}{Academic Language and the Challenge of Reading for Learning About Science}
       \field{volume}{328}
       \field{year}{2010}
@@ -4138,7 +4193,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{09}
       \field{title}{Rule-based Automatic Text Simplification for German}
       \field{year}{2016}
     \endentry
@@ -4235,7 +4289,6 @@
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{month}{10}
       \field{title}{Python current trend applications-an overview}
       \field{year}{2019}
     \endentry
@@ -4301,7 +4354,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{De Morgen}
-      \field{month}{4}
       \field{title}{Dyslexie hebben is Niet Zo Raar: Lezen is iets heel onnatuurlijks}
       \field{year}{2022}
       \verb{urlraw}
@@ -4540,7 +4592,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Clinical Rheumatology - CLIN RHEUMATOL}
-      \field{month}{01}
       \field{title}{Protocol leesproblemen en dyslexie voor groep 1 en 2}
       \field{year}{2008}
     \endentry
@@ -4717,7 +4768,6 @@
       \range{pages}{12}
     \endentry
   \enddatalist
-  \missing{Leopold2015}
 \endrefsection
 \endinput
 

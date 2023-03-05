@@ -1871,6 +1871,9 @@ INPUT img/fre-ndc.png
 INPUT ./img/ndc-number-of-authors.png
 INPUT ./img/ndc-number-of-authors.png
 INPUT img/ndc-number-of-authors.png
+INPUT ./img/fre-fog-per-sector.png
+INPUT ./img/fre-fog-per-sector.png
+INPUT img/fre-fog-per-sector.png
 INPUT ./img/poslabeling.png
 INPUT ./img/poslabeling.png
 INPUT img/poslabeling.png
@@ -1898,6 +1901,12 @@ INPUT img/chatgpt-example-evaluation-gooding.png
 INPUT ./img/chatgpt-engines-mean-regret.png
 INPUT ./img/chatgpt-engines-mean-regret.png
 INPUT img/chatgpt-engines-mean-regret.png
+INPUT ./img/bing-ai-prometheus.png
+INPUT ./img/bing-ai-prometheus.png
+INPUT img/bing-ai-prometheus.png
+INPUT ./img/bing-ai-chatbot-example.png
+INPUT ./img/bing-ai-chatbot-example.png
+INPUT img/bing-ai-chatbot-example.png
 INPUT ./methodologie.tex
 INPUT ./methodologie.tex
 INPUT ./methodologie.tex
