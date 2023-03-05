@@ -52,6 +52,45 @@
       \field{title}{Performance Study on Extractive Text Summarization Using BERT Models}
       \field{year}{2022}
     \endentry
+    \entry{Althunayyan2021}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f1254c5c258ecf733ecf852af5a9f4f5}{%
+           family={Althunayyan},
+           familyi={A\bibinitperiod},
+           given={Suha},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=973c841c9710842cbd903db77ba28f16}{%
+           family={Azmi},
+           familyi={A\bibinitperiod},
+           given={Aqil},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{63c25d00ac275af0ff851bb2c1976e72}
+      \strng{fullhash}{63c25d00ac275af0ff851bb2c1976e72}
+      \strng{bibnamehash}{63c25d00ac275af0ff851bb2c1976e72}
+      \strng{authorbibnamehash}{63c25d00ac275af0ff851bb2c1976e72}
+      \strng{authornamehash}{63c25d00ac275af0ff851bb2c1976e72}
+      \strng{authorfullhash}{63c25d00ac275af0ff851bb2c1976e72}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACM Computing Surveys}
+      \field{month}{03}
+      \field{title}{Automated Text Simplification: A Survey}
+      \field{volume}{54}
+      \field{year}{2021}
+      \field{pages}{Article no. 43}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1145/3442695
+      \endverb
+    \endentry
     \entry{APA2013}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3f66c642802f76fee00ebf8365ba9298}{%
@@ -1841,6 +1880,38 @@
       \verb 10.1109/2.881692
       \endverb
     \endentry
+    \entry{Hale2022}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=01f76f3e79f0de7f31e6bc12bbcbaa06}{%
+           family={Hale},
+           familyi={H\bibinitperiod},
+           given={Alexis},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{01f76f3e79f0de7f31e6bc12bbcbaa06}
+      \strng{fullhash}{01f76f3e79f0de7f31e6bc12bbcbaa06}
+      \strng{bibnamehash}{01f76f3e79f0de7f31e6bc12bbcbaa06}
+      \strng{authorbibnamehash}{01f76f3e79f0de7f31e6bc12bbcbaa06}
+      \strng{authornamehash}{01f76f3e79f0de7f31e6bc12bbcbaa06}
+      \strng{authorfullhash}{01f76f3e79f0de7f31e6bc12bbcbaa06}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Content and Commas}
+      \field{title}{Bullet points: What, why, and how to use then}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.contentandcommas.com/bullet-points/
+      \endverb
+      \verb{url}
+      \verb https://www.contentandcommas.com/bullet-points/
+      \endverb
+    \endentry
     \entry{Hartley1999}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c7bdb47017a2670db691bb59dbd8071f}{%
@@ -2115,6 +2186,72 @@
       \endverb
       \verb{url}
       \verb https://aclanthology.org/2021.cmcl-1.23
+      \endverb
+    \endentry
+    \entry{JavoureyDrevet2022}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=aceeb1ebab26b11c5fcf41563de70f9b}{%
+           family={Javourey-Drevet},
+           familyi={J\bibinithyphendelim D\bibinitperiod},
+           given={Ludivine},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5eb827933f36322cfcc39a63e9f7b963}{%
+           family={Dufau},
+           familyi={D\bibinitperiod},
+           given={Stéphane},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ced3ac226f0d9d941ca90107499df87}{%
+           family={François},
+           familyi={F\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d6c91557f3b168f0a6f4351a0c4e095}{%
+           family={Gala},
+           familyi={G\bibinitperiod},
+           given={Núria},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=527f47ae2c6b790d1f74701c02ccae69}{%
+           family={Ginestié},
+           familyi={G\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e212b94004207f2183c4cdcd48cc694d}{%
+           family={Ziegler},
+           familyi={Z\bibinitperiod},
+           given={Johannes\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{e4ad538fcebbe3af5820919a6da24f9f}
+      \strng{fullhash}{70eb3ee223c359c58374c68d57070357}
+      \strng{bibnamehash}{70eb3ee223c359c58374c68d57070357}
+      \strng{authorbibnamehash}{70eb3ee223c359c58374c68d57070357}
+      \strng{authornamehash}{e4ad538fcebbe3af5820919a6da24f9f}
+      \strng{authorfullhash}{70eb3ee223c359c58374c68d57070357}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Psycholinguistics}
+      \field{number}{2}
+      \field{title}{Simplification of literary and scientific texts to improve reading fluency and comprehension in beginning readers of French}
+      \field{volume}{43}
+      \field{year}{2022}
+      \field{pages}{485\bibrangedash 512}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1017/S014271642100062X
       \endverb
     \endentry
     \entry{Jones2019}{article}{}
@@ -3187,6 +3324,55 @@
       \verb https://onderwijs.vlaanderen.be/voorleessoftware-voor-leerlingen-met-leesbeperkingen
       \endverb
     \endentry
+    \entry{Paetzold2016}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fc6874a9706b0d5ec3af854985947c30}{%
+           family={Paetzold},
+           familyi={P\bibinitperiod},
+           given={Gustavo},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ede296c12d7a570bc8b70fcb82116a5f}{%
+           family={Specia},
+           familyi={S\bibinitperiod},
+           given={Lucia},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {San Diego, California}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{1b0f9d10abd0736991b98057362eb46f}
+      \strng{fullhash}{1b0f9d10abd0736991b98057362eb46f}
+      \strng{bibnamehash}{1b0f9d10abd0736991b98057362eb46f}
+      \strng{authorbibnamehash}{1b0f9d10abd0736991b98057362eb46f}
+      \strng{authornamehash}{1b0f9d10abd0736991b98057362eb46f}
+      \strng{authorfullhash}{1b0f9d10abd0736991b98057362eb46f}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 10th International Workshop on Semantic Evaluation ({S}em{E}val-2016)}
+      \field{title}{{S}em{E}val 2016 Task 11: Complex Word Identification}
+      \field{year}{2016}
+      \field{pages}{560\bibrangedash 569}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.18653/v1/S16-1085
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/S16-1085
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/S16-1085
+      \endverb
+    \endentry
     \entry{Pain2016}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=aa330254c47ad002c22933aeef1a727a}{%
@@ -3622,6 +3808,41 @@
       \endverb
       \verb{url}
       \verb https://dialoogtrainers.nl/tekst-inkorten-tips/
+      \endverb
+    \endentry
+    \entry{Rijnvis2020}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cdcb2d025ca9143ec54513c558d9fbfa}{%
+           family={Rijnvis},
+           familyi={R\bibinitperiod},
+           given={Dennis},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Schrijfvis}%
+      }
+      \strng{namehash}{cdcb2d025ca9143ec54513c558d9fbfa}
+      \strng{fullhash}{cdcb2d025ca9143ec54513c558d9fbfa}
+      \strng{bibnamehash}{cdcb2d025ca9143ec54513c558d9fbfa}
+      \strng{authorbibnamehash}{cdcb2d025ca9143ec54513c558d9fbfa}
+      \strng{authornamehash}{cdcb2d025ca9143ec54513c558d9fbfa}
+      \strng{authorfullhash}{cdcb2d025ca9143ec54513c558d9fbfa}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Schrijfvis}
+      \field{title}{Tangconstructies - 5 tips om ze Te Vermijden}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.schrijfvis.nl/tangconstructies/
+      \endverb
+      \verb{url}
+      \verb https://www.schrijfvis.nl/tangconstructies/
       \endverb
     \endentry
     \entry{Roldos2020}{online}{}

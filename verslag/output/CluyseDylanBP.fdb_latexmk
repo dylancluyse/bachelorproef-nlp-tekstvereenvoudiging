@@ -1,25 +1,25 @@
 # Fdb version 3
-["biber ../output/CluyseDylanBP"] 1677995332 "../output/CluyseDylanBP.bcf" "../output/CluyseDylanBP.bbl" "../output/CluyseDylanBP" 1677995357
-  "../output/CluyseDylanBP.bcf" 1677995351 143572 d2eb4b4cc72bdb6013230d765bdb64a1 "xelatex"
-  "bachproef.bib" 1677994356 77528 def6d516bb8c275218b385a02589657e ""
+["biber ../output/CluyseDylanBP"] 1678016175 "../output/CluyseDylanBP.bcf" "../output/CluyseDylanBP.bbl" "../output/CluyseDylanBP" 1678016198
+  "../output/CluyseDylanBP.bcf" 1678016193 144305 d72086c8f16f2369b4e8178be81bbe35 "xelatex"
+  "bachproef.bib" 1678014212 80033 0fe64fa4d54089a35e821c9f21c7834b ""
   (generated)
   "../output/CluyseDylanBP.blg"
   "../output/CluyseDylanBP.bbl"
-["xdvipdfmx"] 1677995351 "../output/CluyseDylanBP.xdv" "../output/CluyseDylanBP.pdf" "../output/CluyseDylanBP" 1677995357
-  "../output/CluyseDylanBP.xdv" 1677995351 1547192 eae95ff673b11cf23b0a8cf7f87003e4 "xelatex"
+["xdvipdfmx"] 1678016193 "../output/CluyseDylanBP.xdv" "../output/CluyseDylanBP.pdf" "../output/CluyseDylanBP" 1678016198
+  "../output/CluyseDylanBP.xdv" 1678016193 1593316 1b3f451701c9397067ab1ad6c5d05a57 "xelatex"
   (generated)
   "../output/CluyseDylanBP.pdf"
-["xelatex"] 1677995342 "./CluyseDylanBP.tex" "../output/CluyseDylanBP.xdv" "CluyseDylanBP" 1677995357
+["xelatex"] 1678016185 "./CluyseDylanBP.tex" "../output/CluyseDylanBP.xdv" "CluyseDylanBP" 1678016198
   "../output/../voorstel/voorstel-inhoud.tex" 1676724503 19867 f19ffe2690b40176134e83e105ce025a ""
-  "../output/CluyseDylanBP.aux" 1677995351 65827 1465b142de52446efb16ffa4c5f13058 "xelatex"
-  "../output/CluyseDylanBP.bbl" 1677995334 209904 1643f0b3b1d8b8a0380a3fa623d5b0b1 "biber ../output/CluyseDylanBP"
-  "../output/CluyseDylanBP.lof" 1677995351 6854 dbda6cea9831f728f5ef227ac3159646 "xelatex"
-  "../output/CluyseDylanBP.out" 1677995351 5163 f41c776944e77301eb978c30b08d9884 "xelatex"
-  "../output/CluyseDylanBP.run.xml" 1677995351 2530 b77248075feeb8281ba442f79a8d110d "xelatex"
-  "../output/CluyseDylanBP.toc" 1677995351 12584 1e3e24b4d1f16a402a2e49dfc780d4bd "xelatex"
+  "../output/CluyseDylanBP.aux" 1678016193 67505 aa877f9aff60517d2cb0e8f14e7ebb42 "xelatex"
+  "../output/CluyseDylanBP.bbl" 1678016177 218462 921653f30e38ac0feebd7fc8e584b907 "biber ../output/CluyseDylanBP"
+  "../output/CluyseDylanBP.lof" 1678016193 7161 1094520a112c820cb26a06acbd9c6392 "xelatex"
+  "../output/CluyseDylanBP.out" 1678016193 5176 fcbaad867c448ade084663ea24ec16d0 "xelatex"
+  "../output/CluyseDylanBP.run.xml" 1678016193 2530 b77248075feeb8281ba442f79a8d110d "xelatex"
+  "../output/CluyseDylanBP.toc" 1678016193 12507 d87fd0d69a105eb7bb3c662c8766467b "xelatex"
   "../voorstel/voorstel-inhoud.tex" 1676724503 19867 f19ffe2690b40176134e83e105ce025a ""
   "./CluyseDylanBP.tex" 1677582047 8208 0a24febde90ea4ff9681ca692577de13 ""
-  "/dev/null" 1677995309 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/dev/null" 1678016167 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/etc/texmf/web2c/texmf.cnf" 1672154544 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -272,6 +272,7 @@
   "img/chatgpt-example-simplification-gooding.png" 1677424499 57869 06bbb5429089feb4ff17b354c34c4a29 ""
   "img/fre-fog-per-sector.png" 1677990687 55630 31acac75d8c89a5e2a086deac0bc6a88 ""
   "img/fre-ndc.png" 1677327411 85941 b3c54519f91f37bec3e28dfb8e7527cf ""
+  "img/lexical-simplification-pipeline.png" 1678009250 98974 76ab314753e6b39e7dd1ceec7611bc33 ""
   "img/ndc-number-of-authors.png" 1677327809 37309 0a286e276c3e1832287d6987fe21c48e ""
   "img/nerlabeling.jpg" 1676804987 66329 82087cf4f306cae4f806b76a08125a23 ""
   "img/oeso-graphic-leesplezier.png" 1677337634 85543 e1166e24246f7ede18741096548e7b8a ""
@@ -286,14 +287,14 @@
   "inleiding.tex" 1677939515 11817 4ef3dc6cc2bdfa6e925d57a6fec4366f ""
   "methodologie.tex" 1675700765 600 ab0ffc93dd0723a6433100749e1d8456 ""
   "samenvatting.tex" 1675700765 1658 da944876ddb8b9a1b307350ed4141854 ""
-  "standvanzaken.tex" 1677995296 77150 73c2067ec8a0501c46092075365d3c50 ""
+  "standvanzaken.tex" 1678016162 79371 e47fa6aad35f92ec8325d9c97f6f4d78 ""
   "voorwoord.tex" 1675700765 534 8740d2f5b6abd2bf16d2c289dc8afd4c ""
   (generated)
+  "../output/CluyseDylanBP.xdv"
+  "../output/CluyseDylanBP.toc"
+  "../output/CluyseDylanBP.aux"
   "../output/CluyseDylanBP.out"
   "../output/CluyseDylanBP.log"
-  "../output/CluyseDylanBP.toc"
-  "../output/CluyseDylanBP.xdv"
   "../output/CluyseDylanBP.bcf"
-  "../output/CluyseDylanBP.lof"
   "../output/CluyseDylanBP.run.xml"
-  "../output/CluyseDylanBP.aux"
+  "../output/CluyseDylanBP.lof"
