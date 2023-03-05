@@ -1,22 +1,20 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is '../output/CluyseDylanBP.blg'
-[64] biber:340> INFO - === Sun Mar  5, 2023, 11:36:16
-[79] Biber.pm:415> INFO - Reading '../output/CluyseDylanBP.bcf'
-[235] Biber.pm:952> INFO - Found 116 citekeys in bib section 0
-[250] Biber.pm:4340> INFO - Processing section 0
-[258] Biber.pm:4531> INFO - Looking for bibtex format file 'bachproef.bib' for section 0
-[266] bibtex.pm:1689> INFO - LaTeX decoding ...
-[376] bibtex.pm:1494> INFO - Found BibTeX data source 'bachproef.bib'
-[382] Utils.pm:384> WARN - Duplicate entry key: 'Hubbard2017' in file 'bachproef.bib', skipping ...
-[383] Utils.pm:384> WARN - Duplicate entry key: 'Desoete2017' in file 'bachproef.bib', skipping ...
-[513] Utils.pm:384> WARN - legacy year field '{2017}' in entry 'Desoete2017' is not an integer - this will probably not sort properly.
-[561] Utils.pm:384> WARN - legacy year field '{2015}' in entry 'VanVreckem2015' is not an integer - this will probably not sort properly.
-[798] Utils.pm:384> WARN - legacy month field 'Aug' in entry 'Chauchan2018' is not an integer - this will probably not sort properly.
-[954] Utils.pm:384> WARN - legacy month field 'Jan' in entry 'Lisowski2023' is not an integer - this will probably not sort properly.
-[1269] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1270] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1270] Biber.pm:4168> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
-[1270] Biber.pm:4174> INFO - No sort tailoring available for locale 'nl-NL'
-[1418] bbl.pm:654> INFO - Writing '../output/CluyseDylanBP.bbl' with encoding 'UTF-8'
-[1493] bbl.pm:757> INFO - Output to ../output/CluyseDylanBP.bbl
-[1497] Biber.pm:128> INFO - WARNINGS: 6
+[62] biber:340> INFO - === Sun Mar  5, 2023, 14:34:09
+[76] Biber.pm:415> INFO - Reading '../output/CluyseDylanBP.bcf'
+[219] Biber.pm:952> INFO - Found 117 citekeys in bib section 0
+[234] Biber.pm:4340> INFO - Processing section 0
+[243] Biber.pm:4531> INFO - Looking for bibtex format file 'bachproef.bib' for section 0
+[250] bibtex.pm:1689> INFO - LaTeX decoding ...
+[364] bibtex.pm:1494> INFO - Found BibTeX data source 'bachproef.bib'
+[371] Utils.pm:384> WARN - Duplicate entry key: 'Hubbard2017' in file 'bachproef.bib', skipping ...
+[371] Utils.pm:384> WARN - Duplicate entry key: 'Desoete2017' in file 'bachproef.bib', skipping ...
+[487] Utils.pm:384> WARN - legacy year field '{2017}' in entry 'Desoete2017' is not an integer - this will probably not sort properly.
+[528] Utils.pm:384> WARN - legacy year field '{2015}' in entry 'VanVreckem2015' is not an integer - this will probably not sort properly.
+[1250] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1250] UCollate.pm:68> INFO - Overriding locale 'nl-NL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1250] Biber.pm:4168> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'nl-NL'
+[1250] Biber.pm:4174> INFO - No sort tailoring available for locale 'nl-NL'
+[1399] bbl.pm:654> INFO - Writing '../output/CluyseDylanBP.bbl' with encoding 'UTF-8'
+[1470] bbl.pm:757> INFO - Output to ../output/CluyseDylanBP.bbl
+[1470] Biber.pm:128> INFO - WARNINGS: 4

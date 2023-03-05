@@ -772,7 +772,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Medium}
-      \field{month}{8}
       \field{title}{Unsupervised text summarization using sentence embeddings}
       \field{year}{2018}
       \verb{urlraw}
@@ -2681,7 +2680,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Addepto}
-      \field{month}{1}
       \field{title}{GPT-3 vs. CHATGPT. the key differences}
       \field{year}{2023}
       \verb{urlraw}
@@ -3502,6 +3500,84 @@
       \field{pages}{e27725}
       \range{pages}{-1}
       \keyw{metascience,readability,data analysis,jargon,scientific communication}
+    \endentry
+    \entry{Poel2008}{inbook}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b7146f21c9e8fa62d3422ad53ce09c8b}{%
+           family={Poel},
+           familyi={P\bibinitperiod},
+           given={Mannes},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b84f10bcf0bab01f97ec5a432a0b7f7}{%
+           family={Boschman},
+           familyi={B\bibinitperiod},
+           given={Egwin},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd0448439ef2059e63910a8bdea2e1f8}{%
+           family={{op den Akker}},
+           familyi={o\bibinitperiod},
+           given={Rieks},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{4}{}{%
+        {{hash=502bc6b9f3abf9e924285aa3910e08cd}{%
+           family={Nijholt},
+           familyi={N\bibinitperiod},
+           given={Anton},
+           giveni={A\bibinitperiod}}}%
+        {{hash=8cb77420f48bdd963270052918f1ec5b}{%
+           family={Pantic},
+           familyi={P\bibinitperiod},
+           given={Maja},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b7146f21c9e8fa62d3422ad53ce09c8b}{%
+           family={Poel},
+           familyi={P\bibinitperiod},
+           given={Mannes},
+           giveni={M\bibinitperiod}}}%
+        {{hash=814a219698f1615cebd6996a92dc4ae5}{%
+           family={Hondorp},
+           familyi={H\bibinitperiod},
+           given={Hendri},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {Netherlands}%
+      }
+      \list{publisher}{1}{%
+        {Twente University Press (TUP)}%
+      }
+      \strng{namehash}{a448a22fe980e2c2805ad208ebef4138}
+      \strng{fullhash}{f1d2a75ea66f6fcc0007b861edbf2d08}
+      \strng{bibnamehash}{f1d2a75ea66f6fcc0007b861edbf2d08}
+      \strng{authorbibnamehash}{f1d2a75ea66f6fcc0007b861edbf2d08}
+      \strng{authornamehash}{a448a22fe980e2c2805ad208ebef4138}
+      \strng{authorfullhash}{f1d2a75ea66f6fcc0007b861edbf2d08}
+      \strng{editorbibnamehash}{87ab2eebf1f1a3037412b587803ad272}
+      \strng{editornamehash}{41043047ef6cacb6869f5daeebd0cb34}
+      \strng{editorfullhash}{87ab2eebf1f1a3037412b587803ad272}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{BNAIC 2008}
+      \field{note}{http://eprints.ewi.utwente.nl/14662 ; 20th Benelux Conference on Artificial Intelligence, BNAIC 2008, BNAIC ; Conference date: 30-10-2008 Through 31-10-2008}
+      \field{number}{20}
+      \field{series}{BNAIC: proceedings of the ... Belgium/Netherlands Artificial Intelligence Conference}
+      \field{title}{A Neural Network Based Dutch Part of Speech Tagger}
+      \field{year}{2008}
+      \field{pages}{217\bibrangedash 224}
+      \range{pages}{8}
+      \keyw{IR-65237,METIS-255028,EWI-14662}
     \endentry
     \entry{Premjith2015}{article}{}
       \name{author}{3}{}{%

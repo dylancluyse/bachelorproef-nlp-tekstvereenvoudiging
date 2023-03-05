@@ -345,23 +345,28 @@ Tekstvereenvoudiging is het proces waarin het technisch leesniveau en/of woordge
 	
 \end{itemize}
 
-\subsubsection{Sequence Labeling}
+\subsubsection{Sequence labeling en part-of-speech tagging}
 
-Volgens \textcite{Eisenstein2019} is \textit{sequence labeling} essentieel tot het achterhalen van de structuur van een tekst met \textit{supervised learning}. Elk woord in een tekst of zin wordt geclassificeerd met behulp van specifieke labels, zoals bijvoorbeeld een \textit{Part of Speech} of PoS-label of een \textit{Named Entity Recognition} of NER-label. De structuur van de tekst wordt achterhaald en informatie en patronen kunnen uit de tekst worden gehaald. \textcite{Jurafsky2014} haalt PoS en NER-labeling verder aan in hun boek. Terwijl POS-tagging zich richt op grammaticale categorieën van woorden, richt NER-labeling zich op het identificeren van specifieke entiteiten in tekst. 
+Een machine moet de betekenis achter ieder token kunnen vatten. Hier komt sequence labeling aan de pas volgens \textcite{Eisenstein2019}. Elk woord in een tekst wordt gekoppeld aan een \textit{Part-of-Speech} (PoS) of \textit{Named-Entity-Recognition} (NER) label. Deze fase bij NLP achterhaalt de structuur van een tekst. 
 
+PoS-tagging zich richt op grammaticale categorieën van woorden, richt NER-labeling zich op het herkennen van specifieke entiteiten in tekst. Bij \textbf{PoS-tagging} worden de woorden in een zin geanalyseerd. Elk woord wordt gekoppeld aan een grammaticale categorie, zoals een zelfstandig naamwoord, werkwoord, bijvoeglijk naamwoord of bijwoord. PoS-tagging helpt bij het achterhalen van de syntactische structuur van een zin. Deze taak komt van pas bij parsing en machinevertaling. \textit{PoS-tagging} wordt aanschouwelijk gemaakt op \ref{fig:pos}
+
+Namen van personen, organisaties en locaties worden herkend en geclassificeerd met NER-labeling. Met NER-labeling wordt volgens \textcite{Jurafsky2014} specifieke informatie uit tekst gehaald, zoals het identificeren van de namen van personen, plaatsen of bedrijven die in nieuwsartikelen worden genoemd, of het extraheren van belangrijke data of getallen uit financiële rapporten. Dit wordt aanschouwelijk gemaakt \ref{fig:ner}. 
+
+
+\textcite{Li2018} benoemt vier methoden voor NER-labeling:
 \begin{itemize}
-	\item Bij \textbf{POS-tagging} worden de woorden in een zin geanalyseerd en krijgt elk woord een grammaticale categorie of een deel van de rede toegewezen, zoals zelfstandig naamwoord, werkwoord, bijvoeglijk naamwoord of bijwoord. POS-tagging helpt volgens \textcite{Jurafsky2014} bij het identificeren van de syntactische structuur van een zin. Dit is volgens de onderzoeker handig voor taken zoals parsing en machinevertaling. Dit wordt aanschouwelijk gemaakt op \ref{fig:pos}
-	\item Aan de andere kant houdt \textbf{NER-labeling} zich bezig met het herkennen en classificeren van \textit{named entities} in een zin, zoals namen van personen, organisaties, locaties, data, enzovoort. NER-labeling wordt volgens \textcite{Jurafsky2014} gebruikt om specifieke informatie uit tekst te halen, zoals het identificeren van de namen van personen, plaatsen of bedrijven die in nieuwsartikelen worden genoemd, of het extraheren van belangrijke data of getallen uit financiële rapporten. Dit wordt aanschouwelijk gemaakt \ref{fig:ner}. \textcite{Li2018} haalt vier technieken aan waarop NER-labeling kan gebeuren:
-	\begin{itemize}
-		\item \textit{Dictionary-based} systemen waarbij een dictionary een verzameling van de woordenschat bijhoudt. Hierop wordt \textit{basic string matching} toegepast.
-		\item \textit{Rule-based} systemen met een vooraf gekregen verzameling van regels voor het ophalen van informatie. Het toewijzen gebeurt met patronen, of met de context van een woord.
-		\item \textit{ML-based} modellen trainen eerst op geannoteerde tekstdocumenten, vervolgens gebruikt het getrainede model deze annotaties.
-		\item \textit{Deep-learning} of DL-modellen mappen de invoerdata aan een niet-lineaire representatie. De complexe modellen maken het mogelijk om niet voor de hand liggende relaties uit te pluizen, wat het de sterkste van de vier opties maakt.
-	\end{itemize}
-	Daarnaast haalt \textcite{Li2018} modellen aan om een pipeline voor NER-labeling mogelijk te maken. Spacy heeft deze functie ingebouwd. Standford NER-tagger is een tool die samen met het NLTK-pakket werkt.
+		\item \textit{Dictionary-based NER labeling} gebruikt vooraf gedefinieerde woordenboeken die de namen van de entiteiten bevatten. Het vergelijkt de woorden in de tekst met de woordenboeken en labelt ze als ze overeenkomen.
+		\item \textit{Rule-based NER labeling} gebruikt vooraf gedefinieerde regels die gebaseerd zijn op syntactische of semantische patronen om de entiteiten te identificeren. Het past de regels toe op de tekst en labelt de woorden die aan de regels voldoen.
+		\item \textit{Machine learning-based NER labeling} gebruikt statistische modellen zoals Hidden Markov Model (HMM) of Conditional Random Field (CRF) om te leren van gelabelde trainingsgegevens hoe ze entiteiten kunnen herkennen. Het gebruikt kenmerken zoals het woord zelf, omliggende PoS-labels en het hoofdlettergebruik om te beslissen welk label aan elk woord moet worden toegekend.
+		\item Deep learning-based NER labeling gebruikt neurale netwerken zoals recurrent neural network (RNN) of convolutional neural network (CNN) om te leren van ongelabelde of gedeeltelijk gelabelde trainingsgegevens hoe ze entiteiten kunnen herkennen. Het gebruikt woordvectoren en niet-lineaire representaties om complexe relaties tussen woorden te modelleren.
 \end{itemize}
 
-\begin{figure}
+% Ten slotte halen \textcite{Li2018} Python-bibliotheken aan om een pipeline voor NER-labeling mogelijk te maken. Spacy heeft deze functie ingebouwd. Standford NER-tagger is een tool die samen met het NLTK-pakket werkt.
+
+\textcite{Poel2008} onderzocht PoS-tagging met een neuraal netwerk voor Nederlandstalige teksten. Het model behaalde een nauwkeurigheid van 97,88\% voor bekende woorden en 41,67\% voor onbekende woorden. Het model gebruikte de Corpus Gesproken Nederlands (CGN) als trainingsdata.
+
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=10cm]{img/poslabeling.png}
 	\end{center}
@@ -369,7 +374,7 @@ Volgens \textcite{Eisenstein2019} is \textit{sequence labeling} essentieel tot h
 	\label{fig:pos}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=10cm]{img/nerlabeling.jpg}
 	\end{center}
@@ -379,9 +384,9 @@ Volgens \textcite{Eisenstein2019} is \textit{sequence labeling} essentieel tot h
 
 \section{De verschillende soorten tekstvereenvoudiging}
 
-Tekstvereenvoudiging bestaat uit vier soorten transformaties: lexicale, syntactische en semantische vereenvoudiging en samenvatten.
+Tekstvereenvoudiging bestaat volgens \textcite{Siddharthan2014} uit vier soorten transformaties: lexicale, syntactische en semantische vereenvoudiging en samenvatten.
 
-\begin{figure}
+\begin{figure}[H]
 	\begin{center}
 			\includegraphics[width=5cm]{img/voorbeeld-manuele-vereenvoudiging.png}
 	\end{center}
@@ -390,8 +395,7 @@ Tekstvereenvoudiging bestaat uit vier soorten transformaties: lexicale, syntacti
 
 \subsection{Lexicale vereenvoudiging}
 
-% todo bron
-Bij lexicale vereenvoudiging (LS) worden complexe woorden vervangen door eenvoudigere synoniemen. Bijvoorbeeld, het woord 'adhesief' kan worden vervangen door 'klevend'. De zinsstructuur verandert niet en er is garantie dat de kerninhoud en benadrukking hetzelfde blijft. Het doel van lexicale vereenvoudiging is om de moeilijkheidsgraad van de woordenschat in een zin of tekst te verlagen. Dit is, volgens het aantal onderzoeken, de meest gekende vorm van vereenvoudiging en een noodzakelijke stap bij het vereenvoudigen van een tekst. Voor prevalente domeinen, zoals de onderwijs-, medische en financiële sector, zijn er onderzoeken vrij beschikbaar. 
+Bij \textit{lexical simplification} (LS) of lexicale vereenvoudiging wordt ingewikkelde woordenschat vervangen door eenvoudigere synoniemen. Bijvoorbeeld, het woord 'adhesief' kan vervangen worden door 'klevend'. De zinsstructuur verandert niet en er is garantie dat de kerninhoud en benadrukking hetzelfde blijft. Het doel van lexicale vereenvoudiging is om de moeilijkheidsgraad van de woordenschat in een zin of tekst te verlagen. Dit is, volgens het aantal onderzoeken, de meest gekende vorm van vereenvoudiging en een noodzakelijke stap bij het vereenvoudigen van een tekst. Voor prevalente domeinen, zoals de onderwijs-, medische en financiële sector, zijn er onderzoeken vrij beschikbaar. 
 
 % \textcite{Kandula2010} haalt twee manieren aan om lexicale vereenvoudiging mogelijk te maken, namelijk het vervangen door een synoniem en het aanmaken of genereren van extra uitleg. Zij bouwden verder op een vorig onderzoek van .
 
@@ -604,7 +608,9 @@ De doelstelling van ondersteunende toepassingen is om gelijke kansen te bieden a
 
 % Xu bron
 
-De meeste AI-toepassingen voor tekstvereenvoudiging maken volgens \textcite{Punardeep2020} gebruik van \textit{black-box} modellen. Het model geeft na een transformatie niet aan waarom specifieke transformaties werden uitgevoerd, bijvoorbeeld het vervangen van een woord door een eenvoudiger synoniem. De toepassing geeft achteraf niet aan waarom het dat woord heeft vervangen door dat specifieke synoniem. \textcite{Xu2015} benadrukt dat toepassingen voor tekstvereenvoudiging meer rekening moeten houden met de doelgroep waarvoor ze worden ontwikkeld. 
+Software-ontwikkelaars verkiezen volgens \textcite{Punardeep2020} voor \textit{black-box} modellen bij de ontwikkeling en finetuning van een NLP-toepassing met AI. Al is het verschil qua nauwkeurigheid minimaal, de afweging wordt gemaakt bij de transparantie van het model. Na een transformatie wordt er niet aangegeven waarom specifieke transformaties werden uitgevoerd, bijvoorbeeld het vervangen van een woord door een eenvoudiger synoniem. \textcite{Xu2015} benadrukt dat toepassingen voor tekstvereenvoudiging meer rekening moeten houden met de doelgroep waarvoor ze worden ontwikkeld.
+
+White-box modellen zijn er in schaarse hoeveelheden. 
 
 % https://hdsr.mitpress.mit.edu/pub/f9kuryi8/release/8 --> benadruk gevaar van black-box modellen
 
@@ -623,7 +629,6 @@ Om dit probleem op te lossen, is het belangrijk om de eindgebruiker, in dit geva
 De beste samengevatte versie van een tekst achterhalen met menselijke feedback vergt de juiste methode. De doelgroep waarvoor een tekst wordt samengevat, moeten nauw in het proces worden opgenomen.
 
 % \subsubsection{Betrouwbaarheid van automatische metrieken voor precision en recall}
-
 
 
 \section{Beschikbare software voor tekstvereenvoudiging}
@@ -682,16 +687,17 @@ Resoomer, Paraphraser en Scholarcy zijn oorspronkelijk Engelstalige tools, met o
 
 \subsubsection{Beschikbare GPT-3 engines}
 
-% todo bron: https://platform.openai.com/docs/
-De documentatie van OpenAI\footnote{https://platform.openai.com/docs/} reikt vier verschillende engines voor het GPT-3 taalmodel aan, namelijk Davinci, Curie, Babbage en Ada. 
+De documentatie van OpenAI\footnote{https://platform.openai.com/docs/} reikt vier verschillende engines voor het GPT-3 taalmodel aan, namelijk Davinci, Curie, Babbage en Ada.
 
 % (...) raadt aan om Davinci voor Ada daarentegen bevat minder recente data, maar is geschikt voor kleinere taaltaken. De andere modellen zijn echter cost-effective en sneller. 
 
 % https://platform.openai.com/docs/models/finding-the-right-model
 
 \begin{itemize}
-	\item Davinci-003 is het nieuwste model en is in staat om alles te doen wat de andere modellen capabel in zijn. Het model maakt gebruik van text de invoertekst eventueel kan aanvullen, mocht de invoertekst afgebroken zijn. Deze aanvulling kan in vraag worden gesteld. Aanvullend geeft (2) aan dat deze engine de meest menselijke antwoorden geeft op basis van foutenmarge. De andere engines kwamen niet in de buurt. \textcite{Binz2023} vult aan dat deze engine de meest \textit{menselijke} antwoorden teruggeeft.
-	\item Curie is in staat om zinnen met nuance te verwerken.
+	\item Davinci-003 is het meest recente model en is in staat om alles te doen wat de andere engines in staat zijn. Het model maakt gebruik van text de invoertekst eventueel kan aanvullen, mocht de invoertekst afgebroken zijn. Deze aanvulling kan in vraag worden gesteld. Aanvullend geeft aan dat deze engine de meest menselijke antwoorden geeft op basis van foutenmarge. De andere engines kwamen niet in de buurt. \textcite{Binz2023} vult aan dat deze engine de meest \textit{menselijke} antwoorden teruggeeft. Daarom is deze engine geschikt voor taken zoals essays schrijven, vragen beantwoorden of code genereren.
+	\item Curie is in staat om zinnen met nuance te verwerken, maar maakt een grote sprong terug qua menselijke interpretatie vergeleken met Davinci. Deze engine wordt ingezet voor taken zoals tekstclassificatie, samenvatting of vertaling.
+	\item Ada is niet in staat om zinnen met nuance te verwerken. Deze engine wordt aangeraden voor taken zoals het aanvullen van tekst of het aanmaken van labels.
+	\item Babbage is de minst krachtige en kan ook geen zinnen met nuance verwerken, maar het is de snelste engine. Deze engine toekennen aan eenvoudige taken zoals sentiment analyse of het achterhalen van keywords is volgens de documentatie \textit{best practice}.
 \end{itemize} 
 
 \begin{figure}
@@ -703,11 +709,10 @@ De documentatie van OpenAI\footnote{https://platform.openai.com/docs/} reikt vie
 
 \subsubsection{Tools met GPT-3}
 
-\textcite{Mottesi2023} haalt enkele lees- en schrijftools aan die gebruik maken van de GPT-3 API.
+\textcite{Mottesi2023} haalt lees- en schrijftools aan die gebruik maken van de GPT-3 API.
 
 \subsubsection{Vergelijking met andere taalmodellen}
 
-% vergelijking met BERT
 Volgens \textcite{Mottesi2023} is meest opvallende verschil tussen GPT-3 en BERT de architectuur. GPT-3 is een autoregressief model, terwijl BERT bidirectioneel is. GPT-3 houdt alleen rekening met de linkercontext bij het maken van voorspellingen, terwijl BERT zowel de linker- als de rechtercontext in overweging neemt. Dit maakt BERT beter geschikt voor taken zoals sentimentanalyse of NLU, waarbij het begrijpen van de volledige context van een zin of zinsnede essentieel is. GPT-3 heeft toegang tot meer informatie (45TB) dan BERT (3TB), wat het een voordeel kan geven bij het samenvatten of het vertalen. Ten slotte zijn er ook verschillen in grootte. Hoewel beide modellen erg groot zijn (GPT-3 heeft 1,5 miljard parameters en BERT heeft 340 miljoen parameters), is GPT-3 aanzienlijk groter dan zijn voorganger vanwege de veel uitgebreidere trainingsdatasetgrootte (470 keer groter dan die gebruikt om BERT te trainen).
 
 \subsubsection{GPT-3 voor samenvattingen}
