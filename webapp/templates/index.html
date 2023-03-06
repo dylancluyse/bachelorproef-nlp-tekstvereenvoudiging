@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="..\static\css\style.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <title>Teksten vereenvoudigen: prototype</title>
+  </head>
+  <body>
+    <h1>Text Simplification</h1>
+    <div class="container-param">
+      <h2>Parameters</h2>
+
+      <div class="param">
+        <select name="temperature" id="temperature">
+          <option value=0>Experimenteel</option>
+          <option value=50>Standaard</option>
+          <option value=100>Serieus</option>
+        </select>
+      </div>
+
+      <div class="param">
+        <select name="temperature" id="temperature">
+          <option value=0>Experimenteel</option>
+          <option value=50>Standaard</option>
+          <option value=100>Serieus</option>
+        </select>
+      </div>
+
+    </div>
+    
+
+    <div class="container">
+      <div class="container-index">
+        <h2>PDF bekijken</h2>
+        <form method="post" enctype="multipart/form-data">
+          <label for="pdf">Voeg een PDF toe:</label>
+          <input type="file" id="pdf" name="pdf"><br><br>
+          <input type="submit" value="View PDF">
+        </form>
+      </div>
+    
+      
+
+      <div class="container-index">
+        <h2>Snelle samenvatting</h2>
+        <form action="/quick" method="post" enctype="multipart/form-data">
+          <label for="pdf">Voeg een PDF toe:</label>
+          <input type="file" id="pdf" name="pdf"><br><br>
+          <input type="submit" value="View PDF">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

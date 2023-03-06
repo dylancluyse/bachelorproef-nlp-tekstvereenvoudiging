@@ -10,6 +10,7 @@ app = Flask(__name__)
 used models
 """
 COMPLETIONS_MODEL = "text-davinci-003"
+TRIAL_MODEL = "gpt-3.5-turbo"
 EMBEDDING_MODEL = "text-embedding-ada-002"
 config = configparser.ConfigParser()
 
@@ -32,6 +33,17 @@ def pdf_reader():
     lang = detect(T)
     
     return [T, lang, meta]
+
+def data_clean_and_sentences(T):
+    T = T.replace('\n', ' ')
+    S = nltk.sent_tokenize(T)
+    Q = []
+    for s in S:
+        s = s.replace("-\n", '')
+        fre = textstat.flesch_reading_ease(s)
+        Q.append([s, fre])
+    return Q
+
 
 """
 sends prompt to api
@@ -63,25 +75,10 @@ def home():
         #        T += pdf_reader.getPage(i).extractText()
         
         T, lang, meta = pdf_reader()
-
-
-        T = T.replace('\n', ' ')
-        # lang = detect(T)
-
-        # S :> sentences
-        S = nltk.sent_tokenize(T)
-
-        # Q :> document
-        Q = []
-        for s in S:
-            s = s.replace("-\n", '')
-            # s = s.replace(" ", '')
-            fre = textstat.flesch_reading_ease(s)
-            Q.append([s, fre])
-
+        Q = data_clean_and_sentences(T)
         params = []
         return render_template('pdf-viewer.html', data=Q, lang=lang, title=meta.title, subject=meta.subject, params=params)
-    return render_template('pdf-uploader.html')
+    return render_template('index.html')
 
 
 
@@ -91,10 +88,32 @@ def home():
 @app.route('/quick', methods=['GET','POST'])
 def quickSummary():
     T, lang, meta = pdf_reader()
-    prompt = "Geef een korte uitleg over het spel 'Phantom Dust' in het Nederlands en maximaal tien woorden lang."
-    prompt = f"Vat deze tekst samen met de volgende eisen: "
-    result = prompt_gpt(prompt=prompt, max_tokens=20, temperature=0, model=COMPLETIONS_MODEL)
-    return render_template('quick-summary.html', result=result, prompt=prompt)
+
+    prompt = f"Vat deze tekst samen in 1 paragraaf van 10 zinnen en zorg ervoor dat iedere zin max 10 woorden lang is: context: {T}"
+    result = prompt_gpt(
+        prompt=prompt, 
+        max_tokens=500, 
+        temperature=0, 
+        model=COMPLETIONS_MODEL
+    )
+
+    prompt = f"Geef de vijf belangrijkste zinnen in deze tekst. Zorg dat iedere zin max 10 woorden is. context: {T}"
+    result2 = prompt_gpt(
+        prompt=prompt, 
+        max_tokens=500, 
+        temperature=0, 
+        model=COMPLETIONS_MODEL
+    )
+    
+    Q = data_clean_and_sentences(T)
+    R = data_clean_and_sentences(result)
+    R2 = data_clean_and_sentences(result2)
+
+    print(Q)
+    print(R)
+    print(R2)
+
+    return render_template('quick-summary.html', original=Q, result=R, result2=R2, lang=lang)
 
 if __name__ == "__main__":
     app.run()

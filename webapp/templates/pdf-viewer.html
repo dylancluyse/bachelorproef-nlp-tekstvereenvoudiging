@@ -1,12 +1,25 @@
 {% set threshold = 40 %}
 
+<script>
+  // Get all the p tags on the page
+var paragraphs = document.getElementsByTagName('p');
+
+// Loop through each p tag and add a click event listener
+for (var i = 0; i < paragraphs.length; i++) {
+  paragraphs[i].addEventListener('click', function() {
+    // Print the content of the clicked p tag to the console
+    console.log(this.textContent);
+  });
+}
+
+</script>
 
 <!DOCTYPE html>
 <html>
   <head>
     <link rel="stylesheet" href="..\static\css\style.css">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <title>Text Simplification</title>
+    <title>Teksten vereenvoudigen: prototype</title>
   </head>
   <body>
     
@@ -21,9 +34,9 @@
         <h1>Oorspronkelijk</h1>
         {% for sentence in data %}
           {% if sentence[1] < threshold %}
-            <p style="color: red">{{ sentence }}</p>
+            <p>{{ sentence[0] }}</p>
           {% else %}
-            <p>{{ sentence }}</p>
+            <p>{{ sentence[0] }}</p>
           {% endif %}
         {% endfor %}
       </div>

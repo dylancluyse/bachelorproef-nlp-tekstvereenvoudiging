@@ -4,10 +4,9 @@ h1 {
 }
 
 body {
-    font-family: 'Montserrat';
+    font-family: sans-serif;
     font-size: 12px;
     width: 100%;
-    height: 100%;
     margin: auto;
     padding: 2%;
     background-color: #EDD1B0; 
@@ -20,14 +19,15 @@ body {
     height: 100%;
 }
 
-.left-container, .right-container {
+.left-container, .right-container, .param {
     flex-basis: 30%;
     box-sizing: border-box;
     padding: 10px;
+    margin:3%;
 }
 
 
-.container-index{
+.container-index, .container-param{
     box-sizing: border-box;
     padding: 10px;
     border-style: solid;
@@ -35,52 +35,6 @@ body {
     margin: auto;
 }
 
-section.range-slider {
-    position: relative;
-    width: 200px;
-    height: 35px;
-    text-align: center;
-}
-
-section.range-slider input {
-    pointer-events: none;
-    position: absolute;
-    overflow: hidden;
-    left: 0;
-    top: 15px;
-    width: 200px;
-    outline: none;
-    height: 18px;
-    margin: 0;
-    padding: 0;
-}
-
-section.range-slider input::-webkit-slider-thumb {
-    pointer-events: all;
-    position: relative;
-    z-index: 1;
-    outline: 0;
-}
-
-section.range-slider input::-moz-range-thumb {
-    pointer-events: all;
-    position: relative;
-    z-index: 10;
-    -moz-appearance: none;
-    width: 9px;
-}
-
-section.range-slider input::-moz-range-track {
-    position: relative;
-    z-index: -1;
-    background-color: rgba(0, 0, 0, 1);
-    border: 0;
-}
-section.range-slider input:last-of-type::-moz-range-track {
-    -moz-appearance: none;
-    background: none transparent;
-    border: 0;
-}
-  section.range-slider input[type=range]::-moz-focus-outer {
-  border: 0;
+p:active{
+    background-color: white;
 }
