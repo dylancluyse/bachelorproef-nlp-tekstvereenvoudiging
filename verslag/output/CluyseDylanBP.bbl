@@ -1176,75 +1176,6 @@
       \verb https://www.standaard.be/cnt/dmf20210319_05008561
       \endverb
     \endentry
-    \entry{Desoete2015}{book}{}
-      \name{author}{8}{}{%
-        {{un=0,uniquepart=base,hash=15bc3f7508695e1f43d70e007985206a}{%
-           family={Desoete},
-           familyi={D\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5b80f05a7554528b832b6ccd2e0158f7}{%
-           family={Vanderswalmen},
-           familyi={V\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8da57b04cee0263fd87c00ebb2eb9c26}{%
-           family={Bondt},
-           familyi={B\bibinitperiod},
-           given={A.\bibnamedelimi De},
-           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=47731ac59bde686af66329a4691f2a27}{%
-           family={Van},
-           familyi={V\bibinitperiod},
-           given={C.\bibnamedelimi Vreckem},
-           giveni={C\bibinitperiod\bibinitdelim V\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2a5acae2ba09463c418758fa47a63f17}{%
-           family={Vooren},
-           familyi={V\bibinitperiod},
-           given={V.\bibnamedelimi Van},
-           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=40b5a36f49cba35dcd2c8767a5433569}{%
-           family={Beken},
-           familyi={B\bibinitperiod},
-           given={I.\bibnamedelimi Vander},
-           giveni={I\bibinitperiod\bibinitdelim V\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f36ee060fc6f2ee8b29553bc9b3636e5}{%
-           family={Dycke},
-           familyi={D\bibinitperiod},
-           given={S.\bibnamedelimi Van},
-           giveni={S\bibinitperiod\bibinitdelim V\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5f3bddfe6d67cc122818fe13f3ce9395}{%
-           family={Baert},
-           familyi={B\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Academia Press}%
-      }
-      \strng{namehash}{46df3ed0bddfdfbf0c2d3ce69caa54d8}
-      \strng{fullhash}{909a3b902db94e68b912b54adbd6c224}
-      \strng{bibnamehash}{909a3b902db94e68b912b54adbd6c224}
-      \strng{authorbibnamehash}{909a3b902db94e68b912b54adbd6c224}
-      \strng{authornamehash}{46df3ed0bddfdfbf0c2d3ce69caa54d8}
-      \strng{authorfullhash}{909a3b902db94e68b912b54adbd6c224}
-      \field{sortinit}{D}
-      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Dyscalculie}
-      \field{year}{2015}
-    \endentry
     \entry{Desoete2017}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=dace6dbd7f14cd2c587b5562b7c07386}{%
@@ -1267,6 +1198,7 @@
       \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{{1782-2211}}
@@ -1311,59 +1243,6 @@
       \endverb
       \verb{url}
       \verb https://www.maastrichtuniversity.nl/nl/nieuws/over-dyslexie-vooroordelen-en-vriendschap
-      \endverb
-    \endentry
-    \entry{Dirks2008}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=ff3f3ffac387bf450d99a729f9476d77}{%
-           family={Dirks},
-           familyi={D\bibinitperiod},
-           given={Evelien},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f34a16e604bf6ff863b332871f35a510}{%
-           family={Spyer},
-           familyi={S\bibinitperiod},
-           given={Ginny},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e5f7bc99ae8a8f08040d41adfb94958c}{%
-           family={Van\bibnamedelima Lieshout},
-           familyi={V\bibinitperiod\bibinitdelim L\bibinitperiod},
-           given={Ernest},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=38540a2b3c27d041e90a0f3ab80b1518}{%
-           family={Sonneville},
-           familyi={S\bibinitperiod},
-           given={Leo},
-           giveni={L\bibinitperiod},
-           givenun=0,
-           prefix={de},
-           prefixi={d\bibinitperiod}}}%
-      }
-      \strng{namehash}{abeb31a8ca14e6164ea3aa2e2c30abe0}
-      \strng{fullhash}{3ac438ca649834c064f024f559159074}
-      \strng{bibnamehash}{3ac438ca649834c064f024f559159074}
-      \strng{authorbibnamehash}{3ac438ca649834c064f024f559159074}
-      \strng{authornamehash}{abeb31a8ca14e6164ea3aa2e2c30abe0}
-      \strng{authorfullhash}{3ac438ca649834c064f024f559159074}
-      \field{sortinit}{D}
-      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of learning disabilities}
-      \field{month}{09}
-      \field{title}{Prevalence of Combined Reading and Arithmetic Disabilities}
-      \field{volume}{41}
-      \field{year}{2008}
-      \field{pages}{460\bibrangedash 73}
-      \range{pages}{14}
-      \verb{doi}
-      \verb 10.1177/0022219408321128
       \endverb
     \endentry
     \entry{Donato2022}{article}{}
@@ -5065,6 +4944,7 @@
       \range{pages}{12}
     \endentry
   \enddatalist
+  \missing{Gooding2018}
 \endrefsection
 \endinput
 

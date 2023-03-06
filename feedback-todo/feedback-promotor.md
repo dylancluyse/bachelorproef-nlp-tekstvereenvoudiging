@@ -1,5 +1,69 @@
 ## Feedback onderzoeksvoorstel
 
+De onderstaande feedback werd tijdens het feedbackgesprek met Jana op 6 maart genoteerd.
+
+```md
+noden van scholieren met dyslexie --> beklemtonen / bestaande software
+
+abstract wordt vergeleken met samengevat
+
+jana van damme:
+
+-- ook promotor van bachelorproef
+
+
+probleemstelling:
+-- stopt niet na het mid. onderwijs --> structureel logischer maken
+-- perspectief uit persoon met dyslexie (quote) -- samengestelde zinnen, welke signaalwoorden -- niet te herkennen, woordbetekenissen moeilijker uit de context halen, werkgeheugen van de persoon met dyslexie
+-- wablieft-krant
+
+
+2. stand van zaken
+
+verschil tussen taal- en leerstoornissen:
+* taalstoornis bij het verwerven van taal, vervoegen van woorden, veel omvangrijker en moeilijker met 
+* leerstoornis verbaal perfect kan uitleggen, maar lezen en schrijven wordt het moeilijk
+* niet iedereen met dyslexie heeft een taalstoornis, tekstverwerking gebeurt veel moeilijker
+* tabel 
+
+erfelijkheid -- niet de enige factor
+
+focus op fonologische dyslexia: 
+* deep dyslexie is ook een leesstoornis, maar na een hersenletsel
+* welke gevolgen heeft dyslexie op het lezen op digitale teksten
+
+comorbiditeit: of weglaten, of andere structuur aannemen
+* relevantie met adhd bij het lezen van digitale teksten
+
+
+dit kan leiden: is beter
+
+criteria:
+* achterstands -- niet zo hoog scoren dan leeftijdsgenoten
+* hardnekkigheids -- extra mogelijkheden om te verbeteren (6 maanden therapie of onderwijs), maar heeft onvoldoende effect
+* exclusiviteits -- enkel dyslexie
+
+
+groepsprofiel -- nodig? 
+
+wel takt is --> foutje
+
+fonologische route
+
+letterbox, visuele dysfunctie
+
+verminken --> !!! weg
+
+2.1.7 relevantie met de bron? 
+
+fixatietijd --> tijd die nodig is om een bepaald woord te decoderen ==> decodeertijd
+
+
+wetenschappelijk artikel lezen: 
+	--> abstract is samenvatting van artikel
+	--> op welke manier maakt de toepassing gebruik van het abstract
+```
+
 De onderstaande feedback werd tijdens het feedbackgesprek op 23 januari genoteerd.
 
 ```md
