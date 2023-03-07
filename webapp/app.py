@@ -10,7 +10,6 @@ app = Flask(__name__)
 used models
 """
 COMPLETIONS_MODEL = "text-davinci-003"
-TRIAL_MODEL = "gpt-3.5-turbo"
 EMBEDDING_MODEL = "text-embedding-ada-002"
 config = configparser.ConfigParser()
 
@@ -34,6 +33,11 @@ def pdf_reader():
     
     return [T, lang, meta]
 
+
+
+"""
+
+"""
 def data_clean_and_sentences(T):
     T = T.replace('\n', ' ')
     S = nltk.sent_tokenize(T)

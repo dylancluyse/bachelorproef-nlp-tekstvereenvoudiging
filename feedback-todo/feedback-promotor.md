@@ -1,5 +1,6 @@
 ## Feedback onderzoeksvoorstel
 
+<<<<<<< HEAD
 De onderstaande feedback werd tijdens het feedbackgesprek met Jana op 6 maart genoteerd.
 
 ```md
@@ -64,6 +65,21 @@ wetenschappelijk artikel lezen:
 	--> op welke manier maakt de toepassing gebruik van het abstract
 ```
 
+=======
+
+De onderstaande feedback werd tijdens het Teams-feedbackgesprek met Jana Van Damme op 6 maart genoteerd.
+
+```md
+
+```
+
+De onderstaande feedback werd tijdens het feedbackgesprek met Lena De Mol op 2 maart genoteerd.
+
+```md
+todo
+``` 
+
+>>>>>>> 615b8d4 (aanpassing prototype)
 De onderstaande feedback werd tijdens het feedbackgesprek op 23 januari genoteerd.
 
 ```md

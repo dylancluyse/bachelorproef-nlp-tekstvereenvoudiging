@@ -26,8 +26,17 @@ body {
     margin:3%;
 }
 
+.container-param{
+    display: flex;
+    border-color: black;
+    padding:5%;
+}
 
-.container-index, .container-param{
+.param{
+    width: 10%;
+}
+
+.container-index{
     box-sizing: border-box;
     padding: 10px;
     border-style: solid;
