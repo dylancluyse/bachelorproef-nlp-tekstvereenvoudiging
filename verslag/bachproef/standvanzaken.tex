@@ -166,7 +166,9 @@ In het onderwijs worden er initiatieven ingezet. Zo krijgen scholieren in het la
 
 \subsubsection{Letter- en klankverwarring}
 
-Verder gaat het om de verwisseling van de lettervolgorde, om letterweglatingen, letter-toevoegingen, letter-vervangingen, en het onherkenbaar verminken van woorden in dictees. En ook om de moeite met auditieve analyse en synthese. Veel kinderen kunnen deze leesfouten maken en dat is dan niet meteen fonologische dyslexie.
+% TODO aanpassen!!!
+
+% Verder gaat het om de verwisseling van de lettervolgorde, om letterweglatingen, letter-toevoegingen, letter-vervangingen, en het onherkenbaar verminken van woorden in dictees. En ook om de moeite met auditieve analyse en synthese. Veel kinderen kunnen deze leesfouten maken en dat is dan niet meteen fonologische dyslexie.
 
 \subsection{Aandachtspunten bij ondersteuning}
 
@@ -299,6 +301,8 @@ Het lezen van wetenschappelijke artikelen kan overweldigend zijn, vooral bij onb
 
 \subsection{Manuele tekstvereenvoudiging}
 
+% todo https://writingcenter.uconn.edu/wp-content/uploads/sites/593/2014/06/How_to_Summarize_a_Research_Article1.pdf
+
 Wetenschappelijke artikelen moeten informatie begrijpelijk weergeven voor een breed publiek, waaronder scholieren die deze artikelen voorgeschoteld krijgen. Om teksten toegankelijker te maken, kunnen leerkrachten verschillende tactieken toepassen.
 
 \textcite{Dubay2004} haalt vier categorieën en principes aan die bijdragen tot een eenvoudigere tekst.
@@ -346,14 +350,48 @@ Tekstvereenvoudiging is het proces waarin het technisch leesniveau en/of woordge
 
 \textit{Natural Language Processing} (NLP) of natuurlijke taalverwerking is een brede term die zich richt op het verwerken en analyseren van menselijke taal door computers \autocite{Eisenstein2019}. NLP omvat verschillende technieken, zoals tekstanalyse, taalherkenning en -generatie, spraakherkenning en -synthese, en semantische analyse. Computers zijn in staat om op een menselijke manier te communiceren en begrijpen wat er wordt gezegd. De volgende begrippen worden aangehaald in \textcite{Sohom2019, Eisenstein2019} en zijn fundamenteel voor de concepten die volgen.
 
+\subsubsection{Tokenisation}
+
+Tokenisatie} splitst de stam of basisvorm van woorden in een tekst. Gebruikelijk zetten ontwikkelaars deze stap in om een woordenschat voor een taalmodel op te bouwen. Bij tokenisatie wordt er geen rekening gehouden met de betekenis achter ieder woord. Tokeniseren kan volgens (...) op verschillende manieren, waaronder:
+
+
+% https://neptune.ai/blog/tokenization-in-nlp
+
 \begin{itemize}
-	\item \textbf{Tokenisatie} splitst de stam of basisvorm van woorden in een tekst. Gebruikelijk zetten ontwikkelaars deze stap in om een woordenschat voor een taalmodel op te bouwen. Bij tokenisatie wordt er geen rekening gehouden met de betekenis achter ieder woord.
-	\item \textbf{Lemmatiseren} in NLP bouwt verder op \textit{stemming}, maar de betekenis van ieder woord wordt in acht genomen. Voor het lemmatiseren bestaan er Nederlandstalige modellen, waaronder JohnSnow\footnote{https://nlp.johnsnowlabs.com/2020/05/03/lemma\_nl.html}. Bij \textbf{omgekeerd lemmatiseren} wordt er een afgeleide achterhaald vanuit de stam. Bijvoorbeeld voor het werkwoord 'zijn' zou dit 'is', 'was' of 'ben' zijn. Voor zelfstandige naamwoorden, zoals 'hond', is dit dan enkelvoud of meervoud.
-	\item Bij een \textbf{parsing}-fase wordt er een label aan ieder woord of zinsdeel toegekend. Voorbeelden van labels zijn zelfstandig naamwoord, bijwoord, werkwoord, bijzin of stopwoord. Het herkennen van zinsdelen wordt \textit{chunking} genoemd. Parsing heeft een dubbelzinnigheidsprobleem, want een 'plant' staat niet gelijk aan de vervoeging van werkwoord 'planten'.
-	\item Sentimentanalyse is een tak van Natural Language Understanding of NLU die de stemming, mening of gevoelens van de schrijver of spreker probeert te achterhalen ten opzichte van het onderwerp. % Dit kan lastig zijn omdat niet elke tekst een duidelijk positief of negatief sentiment heeft. 
-	\item 
-	
+	\item Word-level tokenisation of WTL splitst de tekst op per woord.
+	\item Character-level tokenisation of CLT splitst de tekst per karakter. 'Slimmer' wordt s-l-i-m-m-e-r. Deze vorm achterhaalt de semantiek van een tekst beter en laat de het. Nadelig hebben de karakters op zich weinig betekenis, alsook maakt deze vorm de inputlengte groter. \autocite{Ribeiro2018}
+	\item Subword-level tokenisation splitst de tekst op in stukken op basis van de woordfrequentie. Veelvoorkomende woorden worden hele woorden getokeniseerd, terwijl zeldzamere woorden opgesplitst worden in kleinere stukken die kunnen worden gebruikt. De rest van de woorden in de relevante dataset te creëren. Dit biedt een voordeel ten opzichte van word-level tokenisation omdat het een balans biedt tussen WLT en CLT \autocite{Iredale2022}.
+	\item Sentence tokenization splitst de tekst op per zin. \textcite{Fardeen2021} haalt aan dat de tokenizer ineffectief is tegen afkortingen, maar dit is afhankelijk volgens de gebruikte dataset. 
 \end{itemize}
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|l|c|c|c|}
+		\hline
+		Feature & spaCy & NLTK & Gensim \\
+		\hline
+		Word-level & X & X & X \\
+		Character-Level & X & X &  \\
+		Subword-Level & X &  & X \\
+		Sentence-level & X & X & X \\
+		\hline
+	\end{tabular}
+	\caption{Vergelijking van methodes voor tokenisatie met Spacy, nltk, en gensim.}
+	\label{tab:nlp-features}
+\end{table}
+
+\subsubsection{Lemmatiseren en parsen}
+
+\begin{itemize}
+Lemmatiseren in NLP bouwt verder op \textit{stemming}, maar de betekenis van ieder woord wordt in acht genomen. Voor het lemmatiseren bestaan er Nederlandstalige modellen, waaronder JohnSnow\footnote{https://nlp.johnsnowlabs.com/2020/05/03/lemma\_nl.html}. Bij \textbf{omgekeerd lemmatiseren} wordt er een afgeleide achterhaald vanuit de stam. Bijvoorbeeld voor het werkwoord 'zijn' zou dit 'is', 'was' of 'ben' zijn. Voor zelfstandige naamwoorden, zoals 'hond', is dit dan enkelvoud of meervoud.
+
+Bij een \textbf{parsing}-fase wordt er een label aan ieder woord of zinsdeel toegekend. Voorbeelden van labels zijn zelfstandig naamwoord, bijwoord, werkwoord, bijzin of stopwoord. Het herkennen van zinsdelen wordt \textit{chunking} genoemd. Parsing heeft een dubbelzinnigheidsprobleem, want een 'plant' staat niet gelijk aan de vervoeging van werkwoord 'planten'.
+
+% Sentimentanalyse is het achterhalen van de mening of gevoelens uit een tekst. de stemming of mening van een tekst te achterhalen op basis van het onderwerp. is een tak van Natural Language Understanding of NLU die de stemming, mening of gevoelens van de schrijver of spreker probeert te achterhalen ten opzichte van het onderwerp. % Dit kan lastig zijn omdat niet elke tekst een duidelijk positief of negatief sentiment heeft. 
+\end{itemize}
+
+\subsubsection{NLP-features per Python-library}
+
 
 \subsubsection{Sequence labeling en part-of-speech tagging}
 
@@ -364,7 +402,8 @@ PoS-tagging zich richt op grammaticale categorieën van woorden, richt NER-label
 Namen van personen, organisaties en locaties worden herkend en geclassificeerd met NER-labeling. Met NER-labeling wordt volgens \textcite{Jurafsky2014} specifieke informatie uit tekst gehaald, zoals het identificeren van de namen van personen, plaatsen of bedrijven die in nieuwsartikelen worden genoemd, of het extraheren van belangrijke data of getallen uit financiële rapporten. Dit wordt aanschouwelijk gemaakt \ref{fig:ner}. 
 
 
-\textcite{Li2018} benoemt vier methoden voor NER-labeling:
+\textcite{Li2018} benoemt vier vormen voor NER-labeling:
+
 \begin{itemize}
 		\item \textit{Dictionary-based NER labeling} gebruikt vooraf gedefinieerde woordenboeken die de namen van de entiteiten bevatten. Het vergelijkt de woorden in de tekst met de woordenboeken en labelt ze als ze overeenkomen.
 		\item \textit{Rule-based NER labeling} gebruikt vooraf gedefinieerde regels die gebaseerd zijn op syntactische of semantische patronen om de entiteiten te identificeren. Het past de regels toe op de tekst en labelt de woorden die aan de regels voldoen.
@@ -411,15 +450,13 @@ Bij \textit{lexical simplification} (LS) of lexicale vereenvoudiging wordt ingew
 
 \subsubsection{Complex Word Identification}
 
-\textit{Complex word identification} of CWI is een gesuperviseerde NLP-taak en regelmatig de eerste stap in een pipeline voor lexicale tekstvereenvoudiging. Moeilijke woorden of \textit{multi-word expressions} (MWE) in een tekst worden achterhaald  \autocite{Shardlow2013, Gooding2019}. Nadat CWI de moeilijke woorden heeft achterhaald, kan LS worden gebruikt om deze woorden te vervangen door eenvoudigere synoniemen of om verdere elaboratie te voorzien met behulp van voorbeelden of definities \autocite{Zeng2005, Kandula2010}. CWI is volgens \textcite{Shardlow2013} een cruciale stap, want een lage \textit{recall} van dit component zal een uitvoertekst geven waar moeilijke woorden niet worden vereenvoudigd. Het model zal moeilijke woorden laten staan.
+\textit{Complex word identification} of CWI is een gesuperviseerde NLP-taak. In een pipeline voor lexicale tekstvereenvoudiging is CWI de eerste stap. Moeilijke woorden of \textit{multi-word expressions} (MWE) in een tekst worden achterhaald  \autocite{Shardlow2013, Gooding2019}. Na CWI kan LS gebruikt worden om deze woorden te vervangen door eenvoudigere synoniemen of om verdere elaboratie te voorzien met behulp van voorbeelden of definities \autocite{Zeng2005, Kandula2010}. CWI is volgens \textcite{Shardlow2013} een cruciale stap, want een lage \textit{recall} van dit component zal een uitvoertekst geven waar moeilijke woorden niet worden vereenvoudigd. Het model zal moeilijke woorden laten staan.
 
-\subsubsection{Substitutiegeneratie en -selectie}
+\subsubsection{Substitutiegeneratie en ranking}
 
-Substitutiegeneratie wordt vaak gedaan door synoniemen te zoeken in lexicale databases zoals WordNet. 
+Substitutiegeneratie wordt gedaan door synoniemen te zoeken voor een doelwoord in lexicale databases zoals WordNet, BERT, context2vec, nPIC of OOC. Voor de Nederlandse taal zijn er twee alternatieven, gebouwd vanop BERT, namelijk RobBERT en BERTje. Volgens (..) is RobBERT de krachtigste van de twee modellen, waar BERTje compacter is.
 
-Substitutieselectie wordt gedaan door middel van WSD om de kandidaten met de juiste betekenis te selecteren. 
-
-In de typische LS-pijplijn bepaalt de Substitution Ranking stap welke vervanging het beste is uit een set van kandidaten.
+Vervolgens bepaalt de \textit{Substitution Ranking} stap welke vervanging de beste is uit een set van kandidaten. Ranking gebeurt met het rangschikken van gegenereerde substituties op basis van relevantie.
 
 \begin{figure}[H]
 	\includegraphics{img/lexical-simplification-pipeline.png}
@@ -579,6 +616,8 @@ BLEU volgt een gelijkaardige werking. De gelijkenis tussen een machine-generated
 
 \subsection{Conclusie}
 
+Wetenschappelijke artikelen volgen een gelijke structuur. De inhoud in PDF- of afbeeldingvorm vergt voldoende cleaning-fasen. 
+
 % De theoretische concepten om teksten te vereenvoudigen. Teksten kunnen op vier manieren worden vereenvoudig 
 
 \section{Valkuilen}
@@ -631,6 +670,8 @@ Om dit probleem op te lossen, is het belangrijk om de eindgebruiker, in dit geva
 \subsection{Evaluatie en interpretatie}
 
 \subsubsection{Alignment problem}
+
+Machines 
 
 % To safely deploy powerful, general-purpose artificial intelligence in the future, we need to ensure that machine learning models act in accordance with human intentions. This challenge has become known as the alignment problem. A scalable solution to the alignment problem needs to work on tasks where model outputs are difficult or time-consuming for humans to evaluate. To test scalable alignment techniques, we trained a model to summarize entire books, as shown in the following samples. These samples were selected from works in the public domain, and are part of GPT-3′s pretraining data. To control for this effect, and purely for research purposes, our paper evaluates summaries of books the model has never seen before. Our model works by first summarizing small sections of a book, then summarizing those summaries into a higher-level summary, and so on.
 
@@ -719,11 +760,16 @@ De documentatie van OpenAI\footnote{https://platform.openai.com/docs/} reikt vie
 
 \subsubsection{Tools met GPT-3}
 
-\textcite{Mottesi2023} haalt lees- en schrijftools aan die gebruik maken van de GPT-3 API.
+\textcite{Mottesi2023} haalt lees- en schrijftools aan die gebruik maken van de GPT-3 API. Jasper AI is een chatbot bestemd voor customer support en een virtueel assistent voor e-commerce. ChatSonic is een tool gericht om social media posts of nieuwsartikelen te generere op basis van een kernzin of kernwoord. 
+
+Verschillende artikels vermelden de mogelijkheden voor het gebruik van GPT-3 en ChatGPT in het onderwijs. (..) haalt zo de hoge toegankelijkheid, engagement bij scholieren en granulaire personalisatie aan dat het GPT-3 model toe in staat is. \textcite{Garg2022} haalt GPT-3 als portaal voor meer informatie aan, zo om scholieren te helpen bij het opzoeken van nieuwe informatie.
 
 \subsubsection{Vergelijking met andere taalmodellen}
 
-Volgens \textcite{Mottesi2023} is meest opvallende verschil tussen GPT-3 en BERT de architectuur. GPT-3 is een autoregressief model, terwijl BERT bidirectioneel is. GPT-3 houdt alleen rekening met de linkercontext bij het maken van voorspellingen, terwijl BERT zowel de linker- als de rechtercontext in overweging neemt. Dit maakt BERT beter geschikt voor taken zoals sentimentanalyse of NLU, waarbij het begrijpen van de volledige context van een zin of zinsnede essentieel is. GPT-3 heeft toegang tot meer informatie (45TB) dan BERT (3TB), wat het een voordeel kan geven bij het samenvatten of het vertalen. Ten slotte zijn er ook verschillen in grootte. Hoewel beide modellen erg groot zijn (GPT-3 heeft 1,5 miljard parameters en BERT heeft 340 miljoen parameters), is GPT-3 aanzienlijk groter dan zijn voorganger vanwege de veel uitgebreidere trainingsdatasetgrootte (470 keer groter dan die gebruikt om BERT te trainen).
+De architectuur tussen GPT-3 en BERT is volgens \textcite{Mottesi2023} het meest opvallende verschil. GPT-3 is een autoregressief model, terwijl BERT bidirectioneel is. Daarmee houdt GPT-3 enkel rekening met de linkercontext van een tekst bij het maken van voorspellingen, terwijl BERT zowel de linker- als de rechtercontext in overweging neemt. Dit maakt BERT toepasselijker sentimentanalyse, waarbij het begrijpen van de volledige context van een zin noodzakelijk is. GPT-3 heeft toegang tot meer informatie (45TB) dan BERT (3TB), wat het een voordeel kan geven bij het samenvatten of het vertalen. Ten slotte zijn er ook verschillen in grootte. Hoewel beide modellen erg groot zijn, GPT-3 is aanzienlijk groter dan de voorganger vanwege de uitgebreide trainingsdatasetgrootte.
+
+% \subsubsection{GPT-3 voor lexicale, syntactische en semantische vereenvoudiging}
+
 
 \subsubsection{GPT-3 voor samenvattingen}
 
@@ -731,19 +777,37 @@ Volgens \textcite{Mottesi2023} is meest opvallende verschil tussen GPT-3 en BERT
 
 % news summarization \textcite{Goyal2022}
 
-% todo boeken samenvatten: https://openai.com/research/summarizing-books
-
 % https://openai.com/research/learning-to-summarize-with-human-feedback
 
-Onderzoek naar OpenAI's ChatGPT en GPT-3 modellen bevindt zich in een vrij vroeg stadium, al zijn er wel enkele vergelijkende onderzoeken die de kracht en zwaktes van deze technologieën aantonen.
+Onderzoek naar OpenAI's ChatGPT en GPT-3 modellen bevindt zich in een vrij vroeg stadium, al zijn er wel enkele vergelijkende onderzoeken die de kracht en zwaktes van deze technologieën aantonen. Het experiment van \textcite{Goyal2022} achterhaalt het gebruik van \textit{zero-shot} samenvattingen buiten generieke samenvattingen. Het onderzoek staat stil bij de impact van prompt-gebaseerde modellen voor het automatisch samenvatten van nieuwsartikelen. Daarnaast maakte het onderzoek gebruik van text-davinci-002 als case study. Uit het experiment besluiten de onderzoekers dat \textit{zero-shot} samenvattingen met GPT-3 beter presteren dan \textit{fine-tuned} modellen, en dat bestaande automatische metrieken zoals BLEU, ROUGE en BERTScore niet geschikt zijn om \textit{zero-shot} samenvattingen te beoordelen. Verder blijkt dat zero-shot samenvattingen meer coherentie en relevantie hebben voor trefwoord-gebaseerde samenvattingen, terwijl aspect-gebaseerde samenvattingen nog vaak blijven te falen.
 
-Het experiment van \textcite{Goyal2022} achterhaalt het gebruik van \textit{zero-shot} samenvattingen buiten generieke samenvattingen. Het onderzoek staat stil bij de impact van prompt-gebaseerde modellen voor het automatisch samenvatten van nieuwsartikelen. Daarnaast maakte het onderzoek gebruik van text-davinci-002 als case study. Uit het experiment besluiten de onderzoekers dat \textit{zero-shot} samenvattingen met GPT-3 beter presteren dan \textit{fine-tuned} modellen, en dat bestaande automatische metrieken zoals BLEU, ROUGE en BERTScore niet geschikt zijn om \textit{zero-shot} samenvattingen te beoordelen. Verder blijkt dat zero-shot samenvattingen meer coherentie en relevantie hebben voor trefwoord-gebaseerde samenvattingen, terwijl aspect-gebaseerde samenvattingen nog vaak blijven te falen.
+% finetuning tabel
 
-% todo misschien een visualisatie
+% https://ai.stackexchange.com/questions/32477/what-is-the-temperature-in-the-gpt-models
+
+
+\subsubsection{GPT-3 finetuning}
+
+\begin{tabular}{|c|p{7cm}|p{5cm}|}
+	\hline
+	Parameter & Omschrijving & Mogelijke waarden \\
+	\hline
+	model & Het GPT-3 model om te gebruiken & davinci, curie, babbage, ada, text-davinci-002, text-curie-001, text-babbage-001, text-ada-001, davinci-codex \\
+	\hline
+	temperature & De gulzigheid van een generatief model. Een lagere waarde zal conservatieve en voorspelbare tekst teruggeven. Hogere waarden zullen meer gevarieerde en onverwachtse tekst teruggeven, wat beter werkt bij creatieve toepassingen. & Een kommagetal tussen 0 en 1. \\
+	\hline
+	max\_tokens & Het maximaal aantal tokens (woorden of subwoorden) dat het generatief model kan teruggeven. & Een getal tussen 1 and 2048. \\
+	\hline
+	top\_p & Vergelijkbaar met temperature, maar deze waarde onderhoudt de probability distribution voor common tokens. Hoe lager de waarde, hoe waarschijnlijker de woordenschat dat het model zal overwegen bij het genereren van tekst. Een hoge waarde is toepasselijker wanneer een toepassing gericht is op nauwkeurigheid en correctheid. & Een kommagetal tussen 0 en 1. \\
+	\hline
+	stop & Een tekstwaarde (woord/symbool) tot waar het model zal genereren. When the model generates a string that matches any of the specified strings, it stops generating text. & Een lijst van string-waarden, of een enkele string. \\
+	\hline
+	presence\_penalty & Factor die bepaalt hoe regelmatig woorden voorkomen. & Een kommagetal tussen 0 en 1 \\
+	\hline
+\end{tabular}
 
 \subsection{Bing AI}
 
-% https://www.gsqi.com/marketing-blog/bing-ai-chat-in-the-edge-sidebar/
 % https://twitter.com/AlphaSignalAI/status/1624077152302862339
 
 Microsoft en OpenAI werken nauw samen. Zo maakt het conversationele taalmodel van Bing ook gebruik van GPT-3. Deze chatbot bouwt verder en biedt zo verwijzingen en referenties aan naar andere websites. Deze verwijzingen zijn volgens mogelijk door de Prometheus-technologie van Microsoft \autocite{Ribas2023}.
@@ -755,7 +819,7 @@ Prometheus is een eigen technologie die door Bing is ontwikkeld. Het AI-model is
 	\caption{Afbeelding van \textcite{Ribas2023}.}
 \end{figure}
 
-Bing AI is nu in testfase met wachtlijst en bestaat in de vorm van een webpagina en een browserextensie voor Microsoft Edge. Onderzoek naar deze chatbot staat nog in de kinderschoenen en er is nood aan onderzoek naar de credibiliteit en correctheid van de verwijzingen. In tegenstelling tot GPT-3 is er geen officiële API beschikbaar. Daarnaast is de limiet ook lager met 2000 tokens per bericht tijdens een conversatie.
+Bing AI is nu in testfase met wachtlijst en bestaat in de vorm van een webpagina en een browserextensie voor Microsoft Edge. Onderzoek naar deze chatbot staat nog in de kinderschoenen en er is nood aan onderzoek naar de credibiliteit en correctheid van de verwijzingen. Deze chatbot gebruikt een combinatie van extractieve en abstractieve samenvattingen. In tegenstelling tot GPT-3 is er geen officiële API beschikbaar. Daarnaast is de limiet ook lager met 2000 tokens per bericht tijdens een conversatie. 
 
 \begin{figure}[H]
 	\includegraphics{img/bing-ai-chatbot-example.png}
@@ -763,24 +827,24 @@ Bing AI is nu in testfase met wachtlijst en bestaat in de vorm van een webpagina
 \end{figure}
 
 
-
-
-
 \subsection{Google Bard en PaLM}
 
-% https://ai.googleblog.com/2022/04/pathways-language-model-palm-scaling-to.html
+
 
 
 \subsection{Meta LLaMa}
 
-% https://www.theverge.com/2023/2/24/23613512/meta-llama-ai-research-large-language-model
+Ten slotte is \textit{\textit{Large Language Model Meta AI}} of LLaMa) van Meta een generatief taalmodel in dezelfde lijn als de vooraf vermelde taalmodellen. Meta omschrijft LLaMa als een "kleiner foundation model". Het doel van Meta is om een even groot taalmodel als GPT-3 te lanceren met minder rekenkracht en nodige middelen. Dit taalmodel staat in de kinderschoenen en is nog niet beschikbaar in de vorm van online webtoepassing of online API \autocite{Hern2023, Touvron2023}. LLaMa toont potentieel, want bij het experiment van \textcite{Touvron2023} is LLaMa sterker dan GPT-3 en soortgenoten, terwijl het van tien keer minder parameters gebruik maakt.
 
-% (2) LLaMA: Open and Efficient Foundation Language Model
+\subsection{Samenvattend schema AI NLP-modellen}
 
-LLaMa toont potentieel, want bij het experiment van (2) is LLaMa sterker dan GPT-3 en soortgenoten, terwijl het van tien keer minder parameters gebruik maakt.
+\subsection{Conclusie}
 
+Experten halen het GPT-3 model en ChatGPT aan als de toekomst voor gepersonaliseerde en adaptieve uitleg aan scholieren. Bing AI biedt een extra dat revolutionair kan zijn bij het opzoeken van uitleg voor zoektermen, zonder het verlies aan bronvermelding. Huidige toepassingen staan mogelijks in een spreekwoordelijke schaduw eenmaal leessoftware voor scholieren met dyslexie worden ontwikkeld met AI. De mogelijkheden van GPT-3 zijn eindeloos en toepassingen die hiervan gebruik maken, kunnen in het onderwijs ingezet worden als ondersteunende software.
 
 \section{Conclusie}
+
+
 
 % welk soort samenvatting? -- waarom
 % welke soorten vereenvouding? -- waarom

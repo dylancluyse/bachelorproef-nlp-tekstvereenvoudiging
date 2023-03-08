@@ -1446,6 +1446,39 @@
       \field{pages}{180\bibrangedash 180}
       \range{pages}{1}
     \endentry
+    \entry{Fardeen2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7e60dc8a29f90b8c86d28a8d0b1dc19d}{%
+           family={Fardeen-},
+           familyi={F\bibinitperiod},
+           given={ByAfham},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7e60dc8a29f90b8c86d28a8d0b1dc19d}
+      \strng{fullhash}{7e60dc8a29f90b8c86d28a8d0b1dc19d}
+      \strng{bibnamehash}{7e60dc8a29f90b8c86d28a8d0b1dc19d}
+      \strng{authorbibnamehash}{7e60dc8a29f90b8c86d28a8d0b1dc19d}
+      \strng{authornamehash}{7e60dc8a29f90b8c86d28a8d0b1dc19d}
+      \strng{authorfullhash}{7e60dc8a29f90b8c86d28a8d0b1dc19d}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Machine Learning Knowledge}
+      \field{month}{7}
+      \field{title}{Complete Guide to Spacy Tokenizer with examples}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://machinelearningknowledge.ai/complete-guide-to-spacy-tokenizer-with-examples/
+      \endverb
+      \verb{url}
+      \verb https://machinelearningknowledge.ai/complete-guide-to-spacy-tokenizer-with-examples/
+      \endverb
+    \endentry
     \entry{Filipak2020}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8e0593018f9ba152d2faee08ede48f2c}{%
@@ -1612,6 +1645,42 @@
       \endverb
       \verb{url}
       \verb https://aclanthology.org/2021.acl-long.88
+      \endverb
+    \endentry
+    \entry{Garg2022}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c53fd2fd90346778bbd0ca9d7d200965}{%
+           family={Garg},
+           familyi={G\bibinitperiod},
+           given={Harish},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {AI Portal of India}%
+      }
+      \strng{namehash}{c53fd2fd90346778bbd0ca9d7d200965}
+      \strng{fullhash}{c53fd2fd90346778bbd0ca9d7d200965}
+      \strng{bibnamehash}{c53fd2fd90346778bbd0ca9d7d200965}
+      \strng{authorbibnamehash}{c53fd2fd90346778bbd0ca9d7d200965}
+      \strng{authornamehash}{c53fd2fd90346778bbd0ca9d7d200965}
+      \strng{authorfullhash}{c53fd2fd90346778bbd0ca9d7d200965}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AI Portal of India}
+      \field{month}{9}
+      \field{title}{Using GPT-3 for education: Use cases}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://indiaai.gov.in/article/using-gpt-3-for-education-use-cases
+      \endverb
+      \verb{url}
+      \verb https://indiaai.gov.in/article/using-gpt-3-for-education-use-cases
       \endverb
     \endentry
     \entry{Ghesquiere2018}{book}{}
@@ -1859,6 +1928,43 @@
       \verb https://www.nature.com/articles/356739a0
       \endverb
     \endentry
+    \entry{Hern2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cc72326ba462a1906380e3d3e68bf017}{%
+           family={Hern},
+           familyi={H\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {Guardian News}%
+        {Media}%
+      }
+      \strng{namehash}{cc72326ba462a1906380e3d3e68bf017}
+      \strng{fullhash}{cc72326ba462a1906380e3d3e68bf017}
+      \strng{bibnamehash}{cc72326ba462a1906380e3d3e68bf017}
+      \strng{authorbibnamehash}{cc72326ba462a1906380e3d3e68bf017}
+      \strng{authornamehash}{cc72326ba462a1906380e3d3e68bf017}
+      \strng{authorfullhash}{cc72326ba462a1906380e3d3e68bf017}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Guardian}
+      \field{month}{3}
+      \field{title}{TechScape: Will meta's massive leak democratise AI – and at what cost?}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.theguardian.com/technology/2023/mar/07/techscape-meta-leak-llama-chatgpt-ai-crossroads
+      \endverb
+      \verb{url}
+      \verb https://www.theguardian.com/technology/2023/mar/07/techscape-meta-leak-llama-chatgpt-ai-crossroads
+      \endverb
+    \endentry
     \entry{Hsu2018}{misc}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=3fc30417f86c71fb2355222af3f23850}{%
@@ -2064,6 +2170,42 @@
       \endverb
       \verb{url}
       \verb https://aclanthology.org/2021.cmcl-1.23
+      \endverb
+    \endentry
+    \entry{Iredale2022}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=22c9d32b1c288ec6e0124dafb30b7aea}{%
+           family={Iredale},
+           familyi={I\bibinitperiod},
+           given={Gwyneth},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {101 Blockchains}%
+      }
+      \strng{namehash}{22c9d32b1c288ec6e0124dafb30b7aea}
+      \strng{fullhash}{22c9d32b1c288ec6e0124dafb30b7aea}
+      \strng{bibnamehash}{22c9d32b1c288ec6e0124dafb30b7aea}
+      \strng{authorbibnamehash}{22c9d32b1c288ec6e0124dafb30b7aea}
+      \strng{authornamehash}{22c9d32b1c288ec6e0124dafb30b7aea}
+      \strng{authorfullhash}{22c9d32b1c288ec6e0124dafb30b7aea}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{101 Blockchains}
+      \field{month}{8}
+      \field{title}{An overview of tokenization algorithms in NLP}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://101blockchains.com/tokenization-nlp/
+      \endverb
+      \verb{url}
+      \verb https://101blockchains.com/tokenization-nlp/
       \endverb
     \endentry
     \entry{JavoureyDrevet2022}{article}{}
@@ -3730,6 +3872,49 @@
       \verb https://www.linkedin.com/pulse/building-new-bing-jordi-ribas/
       \endverb
     \endentry
+    \entry{Ribeiro2018}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ff48230bbc2ffca747936aa96e2e8b43}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Eugénio},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7466f0ff38cc74bf36162314370ff428}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7df3179d5716dff45b4278f7eef0db05}{%
+           family={Matos},
+           familyi={M\bibinitperiod},
+           given={David\bibnamedelima Martins},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{e6adae6d9e13a1884d683a6813a972d1}
+      \strng{fullhash}{22c02153be4ec7493a914a5c34f68ae3}
+      \strng{bibnamehash}{22c02153be4ec7493a914a5c34f68ae3}
+      \strng{authorbibnamehash}{22c02153be4ec7493a914a5c34f68ae3}
+      \strng{authornamehash}{e6adae6d9e13a1884d683a6813a972d1}
+      \strng{authorfullhash}{22c02153be4ec7493a914a5c34f68ae3}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A Study on Dialog Act Recognition using Character-Level Tokenization}
+      \field{year}{2018}
+      \keyw{Computation and Language (cs.CL),FOS: Computer and information sciences,FOS: Computer and information sciences,H.1.2; H.3.1; I.2.7}
+    \endentry
     \entry{Rijkhoff2022}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cfb47ec7e1099e5ef607ad4ba6febc5b}{%
@@ -4467,6 +4652,113 @@
       \field{labeltitlesource}{title}
       \field{title}{Python current trend applications-an overview}
       \field{year}{2019}
+    \endentry
+    \entry{Touvron2023}{misc}{}
+      \name{author}{14}{}{%
+        {{un=0,uniquepart=base,hash=a2a13fcd633ec70c55a7f3f4812afdcf}{%
+           family={Touvron},
+           familyi={T\bibinitperiod},
+           given={Hugo},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c641a91d616b6eda08cbbdca7b7eb186}{%
+           family={Lavril},
+           familyi={L\bibinitperiod},
+           given={Thibaut},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a32ece3bc966e7e88747e905158c9a6a}{%
+           family={Izacard},
+           familyi={I\bibinitperiod},
+           given={Gautier},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7222f9d76b0fff504f39e7c9c2a526be}{%
+           family={Martinet},
+           familyi={M\bibinitperiod},
+           given={Xavier},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08284515d256b832e9dba10a88af84f4}{%
+           family={Lachaux},
+           familyi={L\bibinitperiod},
+           given={Marie-Anne},
+           giveni={M\bibinithyphendelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d29ae55d8d993d9f195b3c97bd34f7c}{%
+           family={Lacroix},
+           familyi={L\bibinitperiod},
+           given={Timothée},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0d9a8657c1043f53c54f3f5a6ff305f}{%
+           family={Rozière},
+           familyi={R\bibinitperiod},
+           given={Baptiste},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78a420900f50a8470ad085fb05231bf6}{%
+           family={Goyal},
+           familyi={G\bibinitperiod},
+           given={Naman},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=00ce63f55ae2ce6ea638e5f991996584}{%
+           family={Hambro},
+           familyi={H\bibinitperiod},
+           given={Eric},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5373a3313da61427121b3e9733df1ed2}{%
+           family={Azhar},
+           familyi={A\bibinitperiod},
+           given={Faisal},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a829e25f1d50c3545ed8e99f12890acc}{%
+           family={Rodriguez},
+           familyi={R\bibinitperiod},
+           given={Aurelien},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=977d047821122d1c2e7aa855c30c8cf2}{%
+           family={Joulin},
+           familyi={J\bibinitperiod},
+           given={Armand},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ebdea2c3aa9f759075733b20dce6b873}{%
+           family={Grave},
+           familyi={G\bibinitperiod},
+           given={Edouard},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=56509a94ba6cdaf0c71304d6cf806cee}{%
+           family={Lample},
+           familyi={L\bibinitperiod},
+           given={Guillaume},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{c237483431fea681283a37adbb23a59f}
+      \strng{fullhash}{39aeaa201007bcb705db32778f923cb2}
+      \strng{bibnamehash}{39aeaa201007bcb705db32778f923cb2}
+      \strng{authorbibnamehash}{39aeaa201007bcb705db32778f923cb2}
+      \strng{authornamehash}{c237483431fea681283a37adbb23a59f}
+      \strng{authorfullhash}{39aeaa201007bcb705db32778f923cb2}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{LLaMA: Open and Efficient Foundation Language Models}
+      \field{year}{2023}
+      \keyw{Computation and Language (cs.CL),FOS: Computer and information sciences,FOS: Computer and information sciences}
     \endentry
     \entry{Uhry2008}{book}{}
       \name{author}{2}{}{%
