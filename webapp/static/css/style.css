@@ -20,10 +20,10 @@ body {
 }
 
 .left-container, .right-container, .param {
-    flex-basis: 30%;
+    flex-basis: 60%;
     box-sizing: border-box;
     padding: 10px;
-    margin:3%;
+    margin: 3%;
 }
 
 .container-param{

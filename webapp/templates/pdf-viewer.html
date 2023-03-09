@@ -1,4 +1,12 @@
-{% set threshold = 40 %}
+<!--{% set threshold = 40 %}-->
+
+<script>
+  const paragraph = document.getElementById('text');
+  paragraph.addEventListener('click', (event) => {
+    const clickedWord = event.target.textContent.trim();
+    console.log(clickedWord);
+  });
+</script>
 
 <script>
   // Get all the p tags on the page
@@ -22,28 +30,15 @@ for (var i = 0; i < paragraphs.length; i++) {
     <title>Teksten vereenvoudigen: prototype</title>
   </head>
   <body>
-    
-    <div class="container">
-      <p>taal: {{lang}}<br></p>
-      <p>titel: {{title}}<br></p>
-      <p>onderwerp: {{subject}}</p>
-    </div>
 
     <div class="container">
       <div class="left-container">
         <h1>Oorspronkelijk</h1>
-        {% for sentence in data %}
-          {% if sentence[1] < threshold %}
-            <p>{{ sentence[0] }}</p>
-          {% else %}
-            <p>{{ sentence[0] }}</p>
-          {% endif %}
+        {% for sentence in full_text %}
+          <p class="text">{{ sentence }}</p>
         {% endfor %}
       </div>
-      <div class="right-container">
-        <h1>Vereenvoudigd</h1>    
-      </div>
     </div>
-
   </body>
 </html>
+
