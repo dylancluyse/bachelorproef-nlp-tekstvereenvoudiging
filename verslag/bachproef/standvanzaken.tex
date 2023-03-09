@@ -762,13 +762,23 @@ De documentatie van OpenAI\footnote{https://platform.openai.com/docs/} reikt vie
 
 \textcite{Mottesi2023} haalt lees- en schrijftools aan die gebruik maken van de GPT-3 API. Jasper AI is een chatbot bestemd voor customer support en een virtueel assistent voor e-commerce. ChatSonic is een tool gericht om social media posts of nieuwsartikelen te generere op basis van een kernzin of kernwoord. 
 
-Verschillende artikels vermelden de mogelijkheden voor het gebruik van GPT-3 en ChatGPT in het onderwijs. (..) haalt zo de hoge toegankelijkheid, engagement bij scholieren en granulaire personalisatie aan dat het GPT-3 model toe in staat is. \textcite{Garg2022} haalt GPT-3 als portaal voor meer informatie aan, zo om scholieren te helpen bij het opzoeken van nieuwe informatie.
+Verschillende artikels vermelden de mogelijkheden voor het gebruik van GPT-3 en ChatGPT in het onderwijs. \textcite{Roose2023} haalt zo de hoge toegankelijkheid, engagement bij scholieren en granulaire personalisatie aan dat het GPT-3 model toe in staat is. \textcite{Garg2022} haalt GPT-3 als portaal voor meer informatie aan, zo om scholieren te helpen bij het opzoeken van nieuwe informatie.
 
 \subsubsection{Vergelijking met andere taalmodellen}
 
-De architectuur tussen GPT-3 en BERT is volgens \textcite{Mottesi2023} het meest opvallende verschil. GPT-3 is een autoregressief model, terwijl BERT bidirectioneel is. Daarmee houdt GPT-3 enkel rekening met de linkercontext van een tekst bij het maken van voorspellingen, terwijl BERT zowel de linker- als de rechtercontext in overweging neemt. Dit maakt BERT toepasselijker sentimentanalyse, waarbij het begrijpen van de volledige context van een zin noodzakelijk is. GPT-3 heeft toegang tot meer informatie (45TB) dan BERT (3TB), wat het een voordeel kan geven bij het samenvatten of het vertalen. Ten slotte zijn er ook verschillen in grootte. Hoewel beide modellen erg groot zijn, GPT-3 is aanzienlijk groter dan de voorganger vanwege de uitgebreide trainingsdatasetgrootte.
+De architectuur tussen GPT-3 en BERT is volgens \textcite{Mottesi2023} het meest opvallende verschil. GPT-3 is een autoregressief model en houdt daarmee enkel rekening met de linkercontext bij het voorspellen of genereren van tekst. BERT daarentegen is bidirectioneel en neemt zowel de linker- als de rechtercontext in overweging. De bidirectionele werking is geschikt voor sentimentanalyse waarbij begrip van de volledige zincontext noodzakelijk is. GPT-3 heeft toegang tot meer informatie (45TB) dan BERT (3TB), wat het een voordeel kan geven bij het samenvatten of het vertalen. Ten slotte zijn er ook verschillen in grootte. Hoewel beide modellen erg groot zijn, GPT-3 is aanzienlijk groter dan de voorganger vanwege de uitgebreide trainingsdatasetgrootte \autocite{Brown2020}.
 
-% \subsubsection{GPT-3 voor lexicale, syntactische en semantische vereenvoudiging}
+
+\begin{figure}[H]
+	\includegraphics{img/graph-language-models.png}
+	\caption{Afbeelding van \textcite{Simon2021}. De evolutie van pre-trained taalmodellen wordt hier weergegeven tot eind 2022. De grootte van deze modellen verandert continu. }
+\end{figure}
+
+Uit General Language Understanding Evaluation (GLUE) benchmarks van (..) werden GPT-3 en verwante BERT-modellen tegen elkaar gestaafd. 
+
+% https://symbl.ai/blog/gpt-3-versus-bert-a-high-level-comparison/
+
+\textcite{Li2022} benadrukt dat GPT-3 voor simpele taken \textit{overkill} is. Taken buiten het genereren van teksten, zoals sentimentanalyse en -classificatie, worden beter met een kleiner taalmodel zoals BERT en aanverwante BERT-zijtakmodellen uitgevoerd. Dit heeft ook een invloed op budget, want GPT-3 is een API waar per token wordt betaald, terwijl BERT gratis en open-source is. \textcite{Strubell2019, Simon2021} haalt de ecologische effecten aan van ontwikkelaars die te snel voor deze modellen grijpen. Er is een bewezen effect van efficiëntie kleinere modellen, gebruik van Cloud-infrastructuur en ten slotte een geschikte model finetuning.
 
 
 \subsubsection{GPT-3 voor samenvattingen}

@@ -173,43 +173,43 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Vergelijking met andere taalmodellen}{36}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{GPT-3 voor samenvattingen}{36}{figure.caption.23}%
+\contentsline {subsubsection}{GPT-3 voor samenvattingen}{37}{figure.caption.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{GPT-3 finetuning}{38}{figure.caption.23}%
+\contentsline {subsubsection}{GPT-3 finetuning}{39}{figure.caption.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7.4}Bing AI}{38}{subsection.2.7.4}%
+\contentsline {subsection}{\numberline {2.7.4}Bing AI}{39}{subsection.2.7.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7.5}Google Bard en PaLM}{40}{subsection.2.7.5}%
+\contentsline {subsection}{\numberline {2.7.5}Google Bard en PaLM}{41}{subsection.2.7.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7.6}Meta LLaMa}{40}{subsection.2.7.6}%
+\contentsline {subsection}{\numberline {2.7.6}Meta LLaMa}{41}{subsection.2.7.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7.7}Samenvattend schema AI NLP-modellen}{40}{subsection.2.7.7}%
+\contentsline {subsection}{\numberline {2.7.7}Samenvattend schema AI NLP-modellen}{41}{subsection.2.7.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7.8}Conclusie}{40}{subsection.2.7.8}%
+\contentsline {subsection}{\numberline {2.7.8}Conclusie}{41}{subsection.2.7.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.8}Conclusie}{40}{section.2.8}%
+\contentsline {section}{\numberline {2.8}Conclusie}{41}{section.2.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Methodologie}{41}{chapter.3}%
+\contentsline {chapter}{\numberline {3}Methodologie}{42}{chapter.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Conclusie}{43}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Conclusie}{44}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{45}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{46}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{45}{section.A.1}%
+\contentsline {section}{\numberline {A.1}Introductie}{46}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{47}{section.A.2}%
+\contentsline {section}{\numberline {A.2}State-of-the-art}{48}{section.A.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Tekstvereenvoudiging}{47}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {A.2.1}Tekstvereenvoudiging}{48}{subsection.A.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Noden van scholieren met dyslexie}{47}{subsection.A.2.2}%
+\contentsline {subsection}{\numberline {A.2.2}Noden van scholieren met dyslexie}{48}{subsection.A.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Huidige toepassingen}{49}{subsection.A.2.3}%
+\contentsline {subsection}{\numberline {A.2.3}Huidige toepassingen}{50}{subsection.A.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.4}Ontwikkelen met AI}{49}{subsection.A.2.4}%
+\contentsline {subsection}{\numberline {A.2.4}Ontwikkelen met AI}{50}{subsection.A.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{50}{section.A.3}%
+\contentsline {section}{\numberline {A.3}Methodologie}{51}{section.A.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{52}{section.A.4}%
+\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{53}{section.A.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{53}{appendix*.27}%
+\contentsline {chapter}{Bibliografie}{54}{appendix*.28}%
 \contentsfinish 
