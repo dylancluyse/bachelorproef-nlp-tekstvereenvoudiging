@@ -253,9 +253,13 @@ Onbegrijpelijke en ontoegankelijke zinsstructuren hinderen ook vakexperten. Het 
 
 % todo FRE grens aanduiden op volgende grafieken
 
-\subsection{Formaat}
+\subsection{Formaat en structuur}
 
-Experimenten uit \textcite{Hubbard2017} wijzen erop dat de bevraagde onderzoekers zowel de methodologie als de resultaten de twee componenten vonden die een hoge leesgraad vergden. 
+Wetenschappelijke artikelen hebben een uniform formaat. Experimenten uit \textcite{Hubbard2017} wijzen erop dat de bevraagde onderzoekers zowel de methodologie als de resultaten de twee componenten vonden die een hoge leesgraad vergden. 
+
+
+
+% https://psychology.ucsd.edu/undergraduate-program/undergraduate-resources/academic-writing-resources/writing-research-papers/research-paper-structure.html#:~:text=A%20complete%20research%20paper%20in,%2C%20Discussion%2C%20and%20References%20sections.&text=Many%20will%20also%20contain%20Figures,have%20an%20Appendix%20or%20Appendices.
 
 % todo Abstracten bij wetenschappelijke artikelen 
 
@@ -321,6 +325,18 @@ De leesgraad van de woordenschat moet overeenstemmen met de syntactische leesgra
 
 Een samenvatting verkort de lengte van een tekst. Kernzinnen en trefwoorden worden eerst in een tekst gemarkeerd en vervolgens op een nieuw blad geschreven. De kernzinnen worden achterhaald door woord- en zoektermfrequentie en anderzijds door het stellen van algemene vragen over het artikel. Trefwoorden achterhalen gebeurt gelijkaardig en deze zijn regelmatig af te leiden uit de inhoudstafel en titels. Voor deze twee methoden moet de persoon die een samenvatting maakt al vooraf de tekst meermaals gelezen hebben. Een alternatief op markeren is het parafraseren van de tekst. De geparafraseerde tekst blijft semantisch gelijk, maar het neemt een andere syntax, structuur en woordenschat aan \autocite{Rijkhoff2022}.
 
+
+% https://www.sjsu.edu/writingcenter/docs/handouts/Summary%20and%20Analysis%20of%20Scientific%20Research%20Articles.pdf
+
+Volgens (..) moet de samenvatting van een wetenschappelijk artikel altijd de volgende drie zaken bevatten:
+\begin{itemize}
+	\item Waarom werd het onderzoek verricht? De nodige achtergrondinformatie en context moet aan bod komen.
+	\item Wat werd er geëxperimenteerd? Alle gebruikte methoden en resultaten moeten in een samenvatting terug te vinden zijn en enkel de noodzakelijke kwalitatieve waarden mogen aan bod komen.
+	\item Wat zijn de besluiten van de onderzoeker(s)? (Analyse van de resultaten)
+\end{itemize}
+
+
+
 \subsubsection{Woordenschat}
 
 Moeilijke woorden kunnen op twee manieren beperkt worden. Eerst moet een tekst op maat zijn van het doelpubliek. De gehanteerde (vak)termen moeten begrijpelijk zijn voor iedereen binnen het doelpubliek. Deze leesgraad en voorkennis wisselt sterk af bij scholieren in de laatste graad middelbaar onderwijs. Als het niet mogelijk is om eenvoudigere synoniemen te gebruiken, dan komt het van pas om de woorden uit te leggen. Dit hoeft enkel te gebeuren bij de eerste keer dat deze woorden voorkomen \autocite{Bosmans2022a, Bosmans2022b}.
@@ -336,11 +352,7 @@ Mensen proberen bij het schrijven wel vaak om iets kort en bondig te schrijven, 
 	\item Het onderwerp en de persoonsvorm dichter bij elkaar plaatsen door minder informatie tussen hen in te plaatsen.
 \end{itemize}
 
-
 Een lange zinsaanloop kan worden verkort om de aandacht van de lezer niet op de proef te stellen. Voorzetselketens kunnen worden vermeden door informatie over verschillende zinnen te verdelen. Voorzetseluitdrukkingen worden best vervangen door gewone voorzetsels.
-
-% https://www.vlaanderen.be/taaladvies/taaladviezen/teksten-schrijven/formulering/zinsbouw-moeilijke-constructies % https://www.vlaanderen.be/taaladvies/taaladviezen/teksten-schrijven/formulering/afkortingen-gebruik
-
 
 \subsection{Natural Language Processing}
 
@@ -709,7 +721,13 @@ Tot dusver zijn er talloze tools online beschikbaar die teksten generiek of voor
 
 Resoomer, Paraphraser en Scholarcy zijn oorspronkelijk Engelstalige tools, met ondertussen de mogelijkheid om een abstractieve samenvatting te maken van Nederlandstalige teksten. De taalmodellen waar deze applicaties op werken, is niet gekend. Daarnaast zijn er ook geen API's beschikbaar om mee te werken. % De assumptie is dat dit gericht kan zijn op de Nederlandse taal, of een anderstalig model en nadien vertaald naar het Nederlands.
 
-% voetn(o)ot(en) toevoegen
+
+Toepassingen om wetenschappelijke artikelen te vereenvoudigen zijn schaars, maar er zijn enkele gratis en betalende toepassingen beschikbaar. SciSpace\footnote{https://typeset.io/} is gratis. Scholarcy\footnote{https://www.scholarcy.com/?ref=theresanaiforthat} is betalend. 
+
+\begin{figure}
+	\includegraphics{img/typeset-example.png}
+	\caption{Schermafbeelding van SciSpace.}
+\end{figure}}
 
 \subsection{GPT-3}
 
@@ -774,11 +792,9 @@ De architectuur tussen GPT-3 en BERT is volgens \textcite{Mottesi2023} het meest
 	\caption{Afbeelding van \textcite{Simon2021}. De evolutie van pre-trained taalmodellen wordt hier weergegeven tot eind 2022. De grootte van deze modellen verandert continu. }
 \end{figure}
 
-Uit General Language Understanding Evaluation (GLUE) benchmarks van (..) werden GPT-3 en verwante BERT-modellen tegen elkaar gestaafd. 
+% todo Uit General Language Understanding Evaluation (GLUE) benchmarks van (..) werden GPT-3 en verwante BERT-modellen tegen elkaar gestaafd. 
 
-% https://symbl.ai/blog/gpt-3-versus-bert-a-high-level-comparison/
-
-\textcite{Li2022} benadrukt dat GPT-3 voor simpele taken \textit{overkill} is. Taken buiten het genereren van teksten, zoals sentimentanalyse en -classificatie, worden beter met een kleiner taalmodel zoals BERT en aanverwante BERT-zijtakmodellen uitgevoerd. Dit heeft ook een invloed op budget, want GPT-3 is een API waar per token wordt betaald, terwijl BERT gratis en open-source is. \textcite{Strubell2019, Simon2021} haalt de ecologische effecten aan van ontwikkelaars die te snel voor deze modellen grijpen. Er is een bewezen effect van efficiëntie kleinere modellen, gebruik van Cloud-infrastructuur en ten slotte een geschikte model finetuning.
+\textcite{Li2022} benadrukt dat GPT-3 voor simpele taken \textit{overkill} is. Taken buiten het genereren van teksten, zoals sentimentanalyse en -classificatie, worden beter met een kleiner taalmodel zoals BERT en aanverwante BERT-zijtakmodellen uitgevoerd. Dit heeft ook een invloed op budget, want GPT-3 is een API waar per token wordt betaald, terwijl BERT gratis en open-source is. \textcite{Strubell2019, Simon2021} haalt de ecologische effecten aan van ontwikkelaars die te snel voor deze modellen grijpen. Er is een bewezen effect kleinere modellen, gebruik van Cloud-infrastructuur en ten slotte een geschikte model finetuning bijdragen tot efficiëntere alsook minder klimaatbelastende effect.
 
 
 \subsubsection{GPT-3 voor samenvattingen}
