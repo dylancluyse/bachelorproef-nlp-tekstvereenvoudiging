@@ -19,31 +19,11 @@
     <div class="container">
       <div class="left-container">
         <h1>Oorspronkelijk</h1>
-        {% for sentence in original %}
-          {% if sentence[1] < threshold %}
-            <p>{{ sentence[0] }}</p>
-          {% else %}
-            <p>{{ sentence[0] }}</p>
-          {% endif %}
-        {% endfor %}
+        {{ original }}
       </div>
       <div class="right-container">
         <h1>Samenvatting</h1>
-        {% for sentence in result %}
-          {% if sentence[1] < threshold %}
-            <p>{{ sentence[0] }}</p>
-          {% else %}
-            <p>{{ sentence[0] }}</p>
-          {% endif %}
-        {% endfor %}
-        <h2>Belangrijkste zinnen</h2>
-        {% for sentence in result2 %}
-          {% if sentence[1] < threshold %}
-            <p>{{ sentence[0] }}</p>
-          {% else %}
-            <p>{{ sentence[0] }}</p>
-          {% endif %}
-        {% endfor %}     
+        {{ result }}
       </div>
     </div>
 

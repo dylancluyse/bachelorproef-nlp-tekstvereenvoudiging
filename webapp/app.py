@@ -10,7 +10,7 @@ from io import BytesIO
 
 # 
 from langdetect import detect
-import fitz, nltk, openai, configparser, os, spacy
+import fitz, nltk, openai, configparser, os, spacy, re
 
 # import nltk, PyPDF2, textstat
 # import openai, configparser, os
@@ -23,9 +23,12 @@ used gpt-3 models
 COMPLETIONS_MODEL = "text-davinci-003"
 EMBEDDING_MODEL = "text-embedding-ada-002"
 config = configparser.ConfigParser()
-
 config.read('config.ini')
 openai.api_key = config['openai']['api_key']
+
+"""
+"""
+
 
 
 """
@@ -33,20 +36,52 @@ openai.api_key = config['openai']['api_key']
 """
 def get_full_text(all_pages):
     total = ""
-
     for page_layout in all_pages:
         for element in page_layout:
             if isinstance(element, LTTextContainer):
                 for text_line in element:
                     total += text_line.get_text()
+                    total = re.sub('(.{0})-\s*', '', total) # sommige lijnen worden afgebroken door een liggend streepje --> preventie
+    nlp = spacy.load("nl_core_news_sm") if detect(total) == 'nl' else spacy.load("en_core_word_md")
+    doc = nlp(total)
+    return doc.sents
 
-    # total = ' '.join(total)
-    return nltk.sent_tokenize(total)
-
-
+"""
+"""
+def prompt_gpt(prompt, model, max_tokens, temperature):
+    # https://platform.openai.com/docs/api-reference/completions
+    return openai.Completion.create(
+            prompt=prompt,
+            temperature=temperature,
+            max_tokens=max_tokens,
+            model=model,
+            top_p=0.9,
+            stream=False
+        )["choices"][0]["text"].strip(" \n")
 
 """
 
+"""
+def get_summary_of_abstract(all_pages):
+    total = ""
+    for page_layout in all_pages:
+        for element in page_layout:
+            if isinstance(element, LTTextContainer):
+                for text_line in element:
+                    total += text_line.get_text()
+                    total = re.sub('(.{0})-\s*', '', total)
+    total = "".join(total)
+    print(total[:400])
+    prompt = f"""
+    Schrijf dit zo eenvoudig mogelijk. Gebruik eenvoudige woordenschat en zinnen die niet langer dan 10 woorden zijn. Vermeld zeker de probleemstelling, resultaten en conclusie.
+    context:
+    {total[:400]}
+    """
+    return [total, prompt_gpt(prompt=prompt, model=COMPLETIONS_MODEL, max_tokens=999, temperature=0)]
+
+
+"""
+todo
 """
 def get_toc(document):
     arr_outlines = []
@@ -55,19 +90,18 @@ def get_toc(document):
         for (level,title,dest,a,se) in outlines:
             arr_outlines.append([level, title])
 
-
+"""
+"""
 @app.route('/', methods=['GET'])
 def home():
     return render_template('index.html')
 
-
+"""
+"""
 @app.route('/view-pdf', methods=['GET','POST'])
 def show_pdf():
     pdf = request.files['pdf']
     pdf_data = BytesIO(pdf.read())
-
-    # parser = PDFParser(fp)
-    # document = PDFDocument(parser)
 
     all_pages = extract_pages(
         pdf_data,
@@ -81,6 +115,27 @@ def show_pdf():
         'pdf-viewer.html',
         full_text = sentences
     )
+
+"""
+"""
+@app.route('/quick', methods=['GET','POST'])
+def summarize_abstract():
+    pdf = request.files['pdf']
+    pdf_data = BytesIO(pdf.read()) 
+    
+    all_pages = extract_pages(
+        pdf_data,
+        page_numbers=None,
+        maxpages=1
+    )
+
+    original, result = get_summary_of_abstract(all_pages=all_pages)
+    return render_template('quick-summary.html', result=result, original=original)
+
+
+
+
+
 
 
 """
