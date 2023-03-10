@@ -23,37 +23,37 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.9}{\ignorespaces Afbeelding van \textcite {Dubay2004}\relax }}{18}{figure.caption.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Voorbeeld van PoS-labeling op de Engelstalige zin "She sells seashells on the seashore". Afbeelding van \textcite {Bilisci2021} \relax }}{22}{figure.caption.15}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Voorbeeld van PoS-labeling op de Engelstalige zin "She sells seashells on the seashore". Afbeelding van \textcite {Bilisci2021} \relax }}{23}{figure.caption.15}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Voorbeeld van sequence labeling op de Engelstalige zin "She sells seashells on the seashore". Afbeelding van \textcite {Bilisci2021} \relax }}{23}{figure.caption.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Voorbeeld van manuele tekstvereenvoudiging. Oorspronkelijke tekst uit Historia 5 bron toe te voegen\relax }}{23}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Voorbeeld van tekstvereenvoudiging. Oorspronkelijke tekst uit Historia 5 bron toe te voegen\relax }}{23}{figure.caption.17}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.13}{\ignorespaces Afbeelding van \textcite {Althunayyan2021}. Deze pipeline wordt in meerdere onderzoeken rond lexicale vereenvoudiging toegepast, zoals \textcite {Paetzold2016, Bingel2018, Bulte2018}\relax }}{24}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.14}{\ignorespaces Afbeelding van \textcite {Chauchan2018}. De manier waarop teksten automatisch samengevat kunnen worden, is afhankelijk van drie verschillende domeinen.\relax }}{27}{figure.caption.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Schermafbeelding van SciSpace.\relax }}{34}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Schermafbeelding van SciSpace.\relax }}{35}{figure.caption.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.16}{\ignorespaces Afbeelding van Gooding 2022. De invoertekst is een paragraaf uit een niet-vermeld boek van de Russische schrijver Dostoevsky. Het resultaat van de meegegeven prompt is een transformatie dat iedere vorm van vooraf aangehaalde vereenvoudiging weergeeft. Lexicale, conceptuele en syntactische vereeenvoudiging worden op de invoertekst toegepast.\relax }}{35}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Afbeelding van Gooding 2022. De invoertekst is een paragraaf uit een niet-vermeld boek van de Russische schrijver Dostoevsky. Het resultaat van de meegegeven prompt is een transformatie dat iedere vorm van vooraf aangehaalde vereenvoudiging weergeeft. Lexicale, conceptuele en syntactische vereeenvoudiging worden op de invoertekst toegepast.\relax }}{36}{figure.caption.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.17}{\ignorespaces Afbeelding van Gooding 2022. Gooding haalt verder aan dat modellen zoals ChatGPT op twee vlakken de leesbaarheid van een tekst kan bevorderen. Allereerst door het verlenen van verschillende mogelijke versies van een vereenvoudigingstaak.\relax }}{35}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Afbeelding van Gooding 2022. Gooding haalt verder aan dat modellen zoals ChatGPT op twee vlakken de leesbaarheid van een tekst kan bevorderen. Allereerst door het verlenen van verschillende mogelijke versies van een vereenvoudigingstaak.\relax }}{36}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.18}{\ignorespaces Afbeelding van Gooding 2022. Gooding haalt aan dat \relax }}{36}{figure.caption.23}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Afbeelding van Gooding 2022. Gooding haalt aan dat \relax }}{37}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Afbeelding van \textcite {Binz2023}. Dit toont de \textit {mean regret} aan tussen de vier engines en de menselijke antwoorden.\relax }}{37}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Afbeelding van \textcite {Binz2023}. Dit toont de \textit {mean regret} aan tussen de vier engines en de menselijke antwoorden.\relax }}{38}{figure.caption.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Afbeelding van \textcite {Simon2021}. De evolutie van pre-trained taalmodellen wordt hier weergegeven tot eind 2022. De grootte van deze modellen verandert continu. \relax }}{38}{figure.caption.25}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Afbeelding van \textcite {Simon2021}. De evolutie van pre-trained taalmodellen wordt hier weergegeven tot eind 2022. De performantie van de modellen ten opzichte van de grootte volgt een lineaire functie.\relax }}{39}{figure.caption.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.21}{\ignorespaces Afbeelding van \textcite {Ribas2023}.\relax }}{40}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.21}{\ignorespaces Afbeelding van \textcite {Ribas2023}.\relax }}{41}{figure.caption.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.22}{\ignorespaces In deze afbeelding wordt er een online wetenschappelijk artikel meegegeven. Er wordt geen titel of onderwerp meegegeven, maar de Bing AI chatbot is in staat om een abstractieve samenvatting te maken van het artikel. Daarna geeft de chatbot verder uitleg over een bepaald onderwerp en geeft het extra referenties mee.\relax }}{41}{figure.caption.27}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.22}{\ignorespaces In deze afbeelding wordt er een online wetenschappelijk artikel meegegeven. Er wordt geen titel of onderwerp meegegeven, maar de Bing AI chatbot is in staat om een abstractieve samenvatting te maken van het artikel. Daarna geeft de chatbot verder uitleg over een bepaald onderwerp en geeft het extra referenties mee.\relax }}{42}{figure.caption.27}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces \autocite {Readable2021}\relax }}{52}{figure.caption.28}%
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.1}{\ignorespaces \autocite {Readable2021}\relax }}{53}{figure.caption.28}%
 \contentsfinish 

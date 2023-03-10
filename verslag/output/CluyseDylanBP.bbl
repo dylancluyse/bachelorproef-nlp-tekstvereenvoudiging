@@ -955,6 +955,42 @@
       \field{pages}{335\bibrangedash 336}
       \range{pages}{2}
     \endentry
+    \entry{Case2008}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b7b4f2335bc882f5ced09530900f38be}{%
+           family={Case},
+           familyi={C\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Tefl.NET}%
+      }
+      \strng{namehash}{b7b4f2335bc882f5ced09530900f38be}
+      \strng{fullhash}{b7b4f2335bc882f5ced09530900f38be}
+      \strng{bibnamehash}{b7b4f2335bc882f5ced09530900f38be}
+      \strng{authorbibnamehash}{b7b4f2335bc882f5ced09530900f38be}
+      \strng{authornamehash}{b7b4f2335bc882f5ced09530900f38be}
+      \strng{authorfullhash}{b7b4f2335bc882f5ced09530900f38be}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Tefl.NET}
+      \field{month}{9}
+      \field{title}{More ways of simplifying your classroom language}
+      \field{year}{2008}
+      \verb{urlraw}
+      \verb https://www.tefl.net/elt/articles/teacher/how-to-simplify-your-classroom-language/
+      \endverb
+      \verb{url}
+      \verb https://www.tefl.net/elt/articles/teacher/how-to-simplify-your-classroom-language/
+      \endverb
+    \endentry
     \entry{Chauchan2018}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=201586971835750f2be0237239006e32}{%
@@ -1099,6 +1135,49 @@
       \verb{file}
       \verb :persbericht_-_kwart_van_bedrijven_gebruikt_artificiele_intelligentie_-_vlaanderen_bij_beste_leerlingen_van_de_klas.pdf:PDF
       \endverb
+    \endentry
+    \entry{Crossley2012}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ebb21dd6ad6f0f369156ed09ca8e1a2d}{%
+           family={Crossley},
+           familyi={C\bibinitperiod},
+           given={Scott\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b44ff66e8575bdd84a41facb081c6d51}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6409c3788ec2fc34ee42c342d6da492}{%
+           family={McNamara},
+           familyi={M\bibinitperiod},
+           given={Danielle\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6db181ac48c3466e41e0acb5003c580a}
+      \strng{fullhash}{e52ea1b8c2b48b61c29bdc11f5687bda}
+      \strng{bibnamehash}{e52ea1b8c2b48b61c29bdc11f5687bda}
+      \strng{authorbibnamehash}{e52ea1b8c2b48b61c29bdc11f5687bda}
+      \strng{authornamehash}{6db181ac48c3466e41e0acb5003c580a}
+      \strng{authorfullhash}{e52ea1b8c2b48b61c29bdc11f5687bda}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Texts are routinely simplified to make them more comprehensible for second language learners. However, the effects of simplification upon the linguistic features of texts remain largely unexplored. Here we examine the effects of one type of text simplification: intuitive text simplification. We use the computational tool, Coh-Metrix, to examine linguistic differences between proficiency levels of a corpus of 300 news texts that had been simplified to three levels of simplification (beginner, intermediate, advanced). The main analysis reveals significant differences between levels for a wide range of linguistic features, particularly between beginner and advanced levels. The results show that lower level texts are generally less lexically and syntactically sophisticated than higher-level texts. The analysis also reveals that lower level texts contain more cohesive features than higher-level texts. The analysis also provides strong evidence that these linguistic features can be used to classify levels of simplified reading texts. Overall, the findings support the notion that intuitively simplified texts at the beginning level contain more linguistic features related to comprehensible input than intuitively simplified texts at the advanced level.}
+      \field{journaltitle}{Language Teaching Research}
+      \field{number}{1}
+      \field{title}{Text simplification and comprehensible input: A case for an intuitive approach}
+      \field{volume}{16}
+      \field{year}{2012}
+      \field{pages}{89\bibrangedash 108}
+      \range{pages}{20}
     \endentry
     \entry{Daoud2023}{misc}{}
       \name{author}{1}{}{%
@@ -2174,6 +2253,41 @@
       \verb https://www.theguardian.com/technology/2023/mar/07/techscape-meta-leak-llama-chatgpt-ai-crossroads
       \endverb
     \endentry
+    \entry{Hollenkamp2020}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e97cd66f66a8beec9dbcf3d33c5f0584}{%
+           family={Hollenkamp},
+           familyi={H\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {San José State University Writing Center}%
+      }
+      \strng{namehash}{e97cd66f66a8beec9dbcf3d33c5f0584}
+      \strng{fullhash}{e97cd66f66a8beec9dbcf3d33c5f0584}
+      \strng{bibnamehash}{e97cd66f66a8beec9dbcf3d33c5f0584}
+      \strng{authorbibnamehash}{e97cd66f66a8beec9dbcf3d33c5f0584}
+      \strng{authornamehash}{e97cd66f66a8beec9dbcf3d33c5f0584}
+      \strng{authorfullhash}{e97cd66f66a8beec9dbcf3d33c5f0584}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{San José State University Writing Center}
+      \field{title}{Summary and analysis of Scientific Research Articles - San Jose State ...}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.sjsu.edu/writingcenter/docs/handouts/Summary%20and%20Analysis%20of%20Scientific%20Research%20Articles.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.sjsu.edu/writingcenter/docs/handouts/Summary%20and%20Analysis%20of%20Scientific%20Research%20Articles.pdf
+      \endverb
+    \endentry
     \entry{Hsu2018}{misc}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=3fc30417f86c71fb2355222af3f23850}{%
@@ -2630,6 +2744,35 @@
       \field{pages}{366}
       \range{pages}{1}
     \endentry
+    \entry{Khan2014}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=562a74729805dfe84a54f4414568b450}{%
+           family={Khan},
+           familyi={K\bibinitperiod},
+           given={Atif},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{562a74729805dfe84a54f4414568b450}
+      \strng{fullhash}{562a74729805dfe84a54f4414568b450}
+      \strng{bibnamehash}{562a74729805dfe84a54f4414568b450}
+      \strng{authorbibnamehash}{562a74729805dfe84a54f4414568b450}
+      \strng{authornamehash}{562a74729805dfe84a54f4414568b450}
+      \strng{authorfullhash}{562a74729805dfe84a54f4414568b450}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Theoretical and Applied Information Technology}
+      \field{title}{A Review on Abstractive Summarization Methods}
+      \field{volume}{59}
+      \field{year}{2014}
+      \field{pages}{64\bibrangedash 72}
+      \range{pages}{9}
+    \endentry
     \entry{Khurana2022}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=00c398487189dcaf1dcee130ed215ccf}{%
@@ -3038,6 +3181,48 @@
       \field{title}{Het stopt nooit…De impact van dyslexie en/of dyscalculie op het welbevinden en studeren van (jong)volwassenen en op de transitie naar de arbeidsmarkt: een bundeling van Vlaamse pilootstudies.}
       \field{year}{2020}
     \endentry
+    \entry{Louwerse2007}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=09916707027efaf93952884612eb1bcf}{%
+           family={Louwerse},
+           familyi={L\bibinitperiod},
+           given={Max},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03223777073c4afe5ed171e9612bc199}{%
+           family={Mccarthy},
+           familyi={M\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c2840e5fc1de22a3804200259558acb8}{%
+           family={McNamara},
+           familyi={M\bibinitperiod},
+           given={Danielle},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{53aa4da4e35893c480d1458e5791adc4}
+      \strng{fullhash}{38df54053530a8abbcc971d3a7480e7c}
+      \strng{bibnamehash}{38df54053530a8abbcc971d3a7480e7c}
+      \strng{authorbibnamehash}{38df54053530a8abbcc971d3a7480e7c}
+      \strng{authornamehash}{53aa4da4e35893c480d1458e5791adc4}
+      \strng{authorfullhash}{38df54053530a8abbcc971d3a7480e7c}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Modern Language Journal}
+      \field{month}{03}
+      \field{title}{A Linguistic Analysis of Simplified and Authentic Texts}
+      \field{volume}{91}
+      \field{year}{2007}
+      \field{pages}{15\bibrangedash 30}
+      \range{pages}{16}
+    \endentry
     \entry{Malik2022}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=acc9b20b0e882f7bad79ff07f866e756}{%
@@ -3311,6 +3496,42 @@
       \endverb
       \verb{url}
       \verb https://www.science.org/doi/abs/10.1126/science.1250475
+      \endverb
+    \endentry
+    \entry{Menzli2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=195c57acc55350b56f79ac2c0dfa3ba2}{%
+           family={Menzli},
+           familyi={M\bibinitperiod},
+           given={Amal},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {neptune.ai}%
+      }
+      \strng{namehash}{195c57acc55350b56f79ac2c0dfa3ba2}
+      \strng{fullhash}{195c57acc55350b56f79ac2c0dfa3ba2}
+      \strng{bibnamehash}{195c57acc55350b56f79ac2c0dfa3ba2}
+      \strng{authorbibnamehash}{195c57acc55350b56f79ac2c0dfa3ba2}
+      \strng{authornamehash}{195c57acc55350b56f79ac2c0dfa3ba2}
+      \strng{authorfullhash}{195c57acc55350b56f79ac2c0dfa3ba2}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{neptune.ai}
+      \field{month}{1}
+      \field{title}{Tokenization in NLP: Types, challenges, examples, tools}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://neptune.ai/blog/tokenization-in-nlp
+      \endverb
+      \verb{url}
+      \verb https://neptune.ai/blog/tokenization-in-nlp
       \endverb
     \endentry
     \entry{Glorieux2018}{misc}{}
@@ -4808,6 +5029,40 @@
       \field{title}{Energy and Policy Considerations for Deep Learning in NLP}
       \field{year}{2019}
       \keyw{Computation and Language (cs.CL),FOS: Computer and information sciences,FOS: Computer and information sciences}
+    \endentry
+    \entry{Suleiman2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=629bd2de1105533a69d969b93e56aac3}{%
+           family={Suleiman},
+           familyi={S\bibinitperiod},
+           given={Dima},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=634c59b1f40815c6f53fdc013866ef4a}{%
+           family={Awajan},
+           familyi={A\bibinitperiod},
+           given={Arafat},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f701fba401176af9d7a6d1db0ee9178b}
+      \strng{fullhash}{f701fba401176af9d7a6d1db0ee9178b}
+      \strng{bibnamehash}{f701fba401176af9d7a6d1db0ee9178b}
+      \strng{authorbibnamehash}{f701fba401176af9d7a6d1db0ee9178b}
+      \strng{authornamehash}{f701fba401176af9d7a6d1db0ee9178b}
+      \strng{authorfullhash}{f701fba401176af9d7a6d1db0ee9178b}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Mathematical Problems in Engineering}
+      \field{month}{08}
+      \field{title}{Deep Learning Based Abstractive Text Summarization: Approaches, Datasets, Evaluation Measures, and Challenges}
+      \field{volume}{2020}
+      \field{year}{2020}
     \endentry
     \entry{Surma2019}{book}{}
       \name{author}{6}{}{%
