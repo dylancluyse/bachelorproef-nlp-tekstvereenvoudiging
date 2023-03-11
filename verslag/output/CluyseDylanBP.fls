@@ -1892,6 +1892,9 @@ INPUT img/lexical-simplification-pipeline.png
 INPUT ./img/summarization-mindmap.png
 INPUT ./img/summarization-mindmap.png
 INPUT img/summarization-mindmap.png
+INPUT ./img/abstractive-summarization-visualization.png
+INPUT ./img/abstractive-summarization-visualization.png
+INPUT img/abstractive-summarization-visualization.png
 INPUT ./img/typeset-example.png
 INPUT ./img/typeset-example.png
 INPUT img/typeset-example.png

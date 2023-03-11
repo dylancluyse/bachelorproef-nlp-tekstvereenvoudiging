@@ -1026,6 +1026,42 @@
       \verb https://medium.com/jatana/unsupervised-text-summarization-using-sentence-embeddings-adb15ce83db1
       \endverb
     \endentry
+    \entry{Chiusano2022}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=efe339a7d5e575ef6d661e0dfc4738aa}{%
+           family={Chiusano},
+           familyi={C\bibinitperiod},
+           given={Fabio},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {NLPlanet}%
+      }
+      \strng{namehash}{efe339a7d5e575ef6d661e0dfc4738aa}
+      \strng{fullhash}{efe339a7d5e575ef6d661e0dfc4738aa}
+      \strng{bibnamehash}{efe339a7d5e575ef6d661e0dfc4738aa}
+      \strng{authorbibnamehash}{efe339a7d5e575ef6d661e0dfc4738aa}
+      \strng{authornamehash}{efe339a7d5e575ef6d661e0dfc4738aa}
+      \strng{authorfullhash}{efe339a7d5e575ef6d661e0dfc4738aa}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medium}
+      \field{month}{4}
+      \field{title}{Two minutes NLP - learn the Rouge metric by examples}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://medium.com/nlplanet/two-minutes-nlp-learn-the-rouge-metric-by-examples-f179cc285499
+      \endverb
+      \verb{url}
+      \verb https://medium.com/nlplanet/two-minutes-nlp-learn-the-rouge-metric-by-examples-f179cc285499
+      \endverb
+    \endentry
     \entry{Chowdhary2020}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8b85e59bf81a08b351c1b0047ffe26df}{%
@@ -2495,6 +2531,39 @@
       \verb https://aclanthology.org/2021.cmcl-1.23
       \endverb
     \endentry
+    \entry{IBM2022}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbf44511d041dc6d1dd73cc0c033122c}{%
+           family={IBM},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IBM}%
+      }
+      \strng{namehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{fullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{bibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorbibnamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authornamehash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \strng{authorfullhash}{cbf44511d041dc6d1dd73cc0c033122c}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Report Global AI Adoption}
+      \field{month}{5}
+      \field{title}{IBM Global AI Adoption Index 2022}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.ibm.com/downloads/cas/GVAGA3JP
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/downloads/cas/GVAGA3JP
+      \endverb
+    \endentry
     \entry{Iredale2022}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=22c9d32b1c288ec6e0124dafb30b7aea}{%
@@ -3373,6 +3442,39 @@
       \endverb
       \verb{url}
       \verb https://data-en-maatschappij.ai/nieuws/school-innovation-forum-2021
+      \endverb
+    \endentry
+    \entry{McCombes2022}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=53ed0182c8a4b671fa28f5f55e89a55c}{%
+           family={McCombes},
+           familyi={M\bibinitperiod},
+           given={Shona},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{53ed0182c8a4b671fa28f5f55e89a55c}
+      \strng{fullhash}{53ed0182c8a4b671fa28f5f55e89a55c}
+      \strng{bibnamehash}{53ed0182c8a4b671fa28f5f55e89a55c}
+      \strng{authorbibnamehash}{53ed0182c8a4b671fa28f5f55e89a55c}
+      \strng{authornamehash}{53ed0182c8a4b671fa28f5f55e89a55c}
+      \strng{authorfullhash}{53ed0182c8a4b671fa28f5f55e89a55c}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Scribbr}
+      \field{month}{11}
+      \field{title}{How to write A summary: Guide &amp; examples}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.scribbr.com/working-with-sources/how-to-summarize/
+      \endverb
+      \verb{url}
+      \verb https://www.scribbr.com/working-with-sources/how-to-summarize/
       \endverb
     \endentry
     \entry{McDonald2007}{article}{}
@@ -4989,6 +5091,42 @@
       \verb https://medium.com/analytics-vidhya/natural-language-processing-basic-concepts-a3c7f50bf5d3
       \endverb
     \endentry
+    \entry{Steinberger2009}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b2c52e0d1a74bd3040da8a2433f23172}{%
+           family={Steinberger},
+           familyi={S\bibinitperiod},
+           given={Josef},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a0294a2477371d8a2448db12108ea2c}{%
+           family={Jezek},
+           familyi={J\bibinitperiod},
+           given={Karel},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{012144f53f74509a6f3ff6621d7d774f}
+      \strng{fullhash}{012144f53f74509a6f3ff6621d7d774f}
+      \strng{bibnamehash}{012144f53f74509a6f3ff6621d7d774f}
+      \strng{authorbibnamehash}{012144f53f74509a6f3ff6621d7d774f}
+      \strng{authornamehash}{012144f53f74509a6f3ff6621d7d774f}
+      \strng{authorfullhash}{012144f53f74509a6f3ff6621d7d774f}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Computing and Informatics}
+      \field{month}{01}
+      \field{title}{Evaluation Measures for Text Summarization.}
+      \field{volume}{28}
+      \field{year}{2009}
+      \field{pages}{251\bibrangedash 275}
+      \range{pages}{25}
+    \endentry
     \entry{Strubell2019}{misc}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=d3bf550429e9ba5e3e93b995e9b40d85}{%
@@ -5848,6 +5986,7 @@
     \endentry
   \enddatalist
   \missing{Gooding2018}
+  \missing{McCombes2020}
 \endrefsection
 \endinput
 

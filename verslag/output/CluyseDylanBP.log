@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  10 MAR 2023 19:26
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  11 MAR 2023 12:30
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2130,6 +2130,13 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                McCombes2020
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
 )
 Package biblatex Info: Reference section=0 on input line 106.
 Package biblatex Info: Reference segment=0 on input line 106.
@@ -2346,7 +2353,7 @@ ngelstalige zin ”She sells seas-
 \tf@lof=\write11
 \openout11 = `CluyseDylanBP.lof'.
 
- [8] (./inleiding.tex
+ [8] [9] (./inleiding.tex
 Hoofdstuk 1.
 
 Package fontspec Info: Font family 'Montserrat(4)' created for font
@@ -2446,45 +2453,45 @@ File: img/fre-fog-per-sector.png Graphic file (type bmp)
 File: img/text-simplification-reading-ease.png Graphic file (type bmp)
 <img/text-simplification-reading-ease.png>
  [18] [19]
-Overfull \hbox (1.55896pt too wide) in paragraph at lines 368--369
+Overfull \hbox (1.55896pt too wide) in paragraph at lines 365--366
 []\TU/Montserrat(2)/m/it/10.95 Natural Language Processing \TU/Montserrat(1)/m/
 n/10.95 (NLP) of natuurlijke taalverwerking is een brede term
  []
 
-./standvanzaken.tex:372: Too many }'s.
-l.372 Tokenisatie}
+./standvanzaken.tex:369: Too many }'s.
+l.369 Tokenisatie}
                    splitst de stam of basisvorm van woorden in een tekst. Ge...
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
-
-Overfull \hbox (5.80272pt too wide) in paragraph at lines 377--378
+[20]
+Overfull \hbox (5.80272pt too wide) in paragraph at lines 374--375
 []\TU/Montserrat(1)/m/n/10.95 Character-level tokenisation of CLT splitst de te
 kst per karakter. ’Slimmer’ wordt
  []
 
-[20]
-Overfull \hbox (3.64409pt too wide) in paragraph at lines 378--379
+
+Overfull \hbox (3.64409pt too wide) in paragraph at lines 375--376
 []\TU/Montserrat(1)/m/n/10.95 Subword-level tokenisation splitst de tekst op in
  stukken op basis van de woord-
  []
 
 [21]
-Overfull \hbox (0.97055pt too wide) in paragraph at lines 423--424
+Overfull \hbox (0.97055pt too wide) in paragraph at lines 420--421
 [][]\TU/Montserrat(1)/m/n/10.95 Poel e.a. ([][]2008[][]) onderzocht \TU/Montser
 rat(2)/m/it/10.95 PoS-tagging \TU/Montserrat(1)/m/n/10.95 met een neuraal netwe
 rk voor Nederlands-
  []
 
+[22]
 File: img/poslabeling.png Graphic file (type bmp)
 <img/poslabeling.png>
-[22]
 File: img/nerlabeling.jpg Graphic file (type bmp)
 <img/nerlabeling.jpg>
 File: img/voorbeeld-manuele-vereenvoudiging.png Graphic file (type bmp)
 <img/voorbeeld-manuele-vereenvoudiging.png>
  [23]
-Overfull \hbox (3.57835pt too wide) in paragraph at lines 468--469
+Overfull \hbox (3.57835pt too wide) in paragraph at lines 470--471
 \TU/Montserrat(1)/m/n/10.95 Substitutiegeneratie wordt gedaan door synoniemen t
 e zoeken voor een doelwoord
  []
@@ -2492,7 +2499,7 @@ e zoeken voor een doelwoord
 File: img/lexical-simplification-pipeline.png Graphic file (type bmp)
 <img/lexical-simplification-pipeline.png>
 [24]
-Overfull \hbox (5.62263pt too wide) in paragraph at lines 495--496
+Overfull \hbox (5.62263pt too wide) in paragraph at lines 497--498
 \TU/Montserrat(1)/m/n/10.95 beter te begrijpen, zonder het verlies aan betekeni
 s of nauwkeurigheid. []Siddharthan
  []
@@ -2500,147 +2507,222 @@ s of nauwkeurigheid. []Siddharthan
 [25] [26]
 File: img/summarization-mindmap.png Graphic file (type bmp)
 <img/summarization-mindmap.png>
- [27] [28] [29] [30] [31]
-Overfull \hbox (2.53232pt too wide) in paragraph at lines 622--623
-[]\TU/Montserrat(1)/m/n/10.95 BLEU volgt een gelijkaardige werking. De gelijken
-is tussen een machine-generated
+ [27] [28] [29] [30]
+File: img/abstractive-summarization-visualization.png Graphic file (type bmp)
+<img/abstractive-summarization-visualization.png>
+ [31]
+Overfull \hbox (29.00577pt too wide) in paragraph at lines 623--624
+\TU/Montserrat(1)/m/n/10.95 ROUGE in. Deze twee metrieken meten de gelijkenis t
+ussen een machine-gegenereerde
  []
 
 
-Overfull \hbox (28.28304pt too wide) in paragraph at lines 622--623
-\TU/Montserrat(1)/m/n/10.95 tekst en een referentietekst wordt beoordeeld, maar
- deze meting is precision-gebaseerd. 
+Overfull \hbox (1.30566pt too wide) in paragraph at lines 623--624
+\TU/Montserrat(1)/m/n/10.95 tekst en een referentietekst. Deze referentietekst 
+is gemaakt door de mens. ROUGE
+ []
+
+
+Overfull \hbox (15.52753pt too wide) in paragraph at lines 625--626
+[]\TU/Montserrat(1)/m/n/10.95 BLEU volgt een gelijkaardige werking en beoordeel
+t de gelijkenis tussen een machine-
+ []
+
+
+Overfull \hbox (9.03659pt too wide) in paragraph at lines 625--626
+\TU/Montserrat(1)/m/n/10.95 gegenereerde tekst en een referentietekst, maar dez
+e meting is precision-gebaseerd.
+ []
+
+
+Overfull \hbox (1102.96675pt too wide) in paragraph at lines 629--650
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (7.11523pt too wide) in paragraph at lines 657--658
+\TU/Montserrat(1)/m/n/10.95 Een samengevatte tekst beoordelen zonder een refere
+ntietekst vereist volgens []Stein-
+ []
+
+
+Overfull \hbox (18.26257pt too wide) in paragraph at lines 657--658
+\TU/Montserrat(1)/m/n/10.95 een referentietekst. Deze soort kan handmatig gebeu
+ren, maar ook semi-automatisch.
  []
 
 [32]
-Overfull \hbox (14.44443pt too wide) in paragraph at lines 652--653
+Overfull \hbox (0.57104pt too wide) in paragraph at lines 659--660
+\TU/Montserrat(1)/m/n/10.95 woordenschat en coherente structuur ([]McCombes, []
+[]2022[][]). De inhoudskwaliteit wijst
+ []
+
+
+Overfull \hbox (22.01454pt too wide) in paragraph at lines 668--668
+|[][]\TU/Montserrat(0)/b/n/14.4 Valkuilen en uitdagingen voor AI-ontwikkelaars 
+bij tekst-
+ []
+
+
+Overfull \hbox (12.11816pt too wide) in paragraph at lines 674--675
+\TU/Montserrat(1)/m/n/10.95 de duurste soort om te ontwikkelen. Ongeveer 54% va
+n de bevraagde IT-professionals
+ []
+
+
+Overfull \hbox (0.91049pt too wide) in paragraph at lines 674--675
+\TU/Montserrat(1)/m/n/10.95 NLP-toepassingen. Professionals halen verschillende
+ pijlers aan, waaronder de kwa-
+ []
+
+
+Overfull \hbox (7.01962pt too wide) in paragraph at lines 674--675
+\TU/Montserrat(1)/m/n/10.95 liteit en kwantiteit van de data, het trainen van d
+e data, het gebrek van NLP-experten,
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 26.66998pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.66998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
+
+[33]
+Overfull \hbox (14.44443pt too wide) in paragraph at lines 692--693
 \TU/Montserrat(1)/m/n/10.95 Het onderzoek van []Sciforce ([][]2020[][]) haalt a
 an dat het merendeel van NLP-toepassingen
  []
 
 
-Overfull \hbox (1.39229pt too wide) in paragraph at lines 667--668
+Overfull \hbox (1.39229pt too wide) in paragraph at lines 707--708
 \TU/Montserrat(1)/m/n/10.95 passingen. Tekstvereenvoudiging omvat vier transfor
 maties, maar niet iedere trans-
  []
 
-
-Overfull \hbox (0.51237pt too wide) in paragraph at lines 671--672
+[34]
+Overfull \hbox (0.51237pt too wide) in paragraph at lines 711--712
 []\TU/Montserrat(1)/m/n/10.95 Software-ontwikkelaars verkiezen volgens []Sikka 
 en Mago ([][]2020[][]) voor \TU/Montserrat(2)/m/it/10.95 black-box \TU/Montserr
 at(1)/m/n/10.95 mo-
  []
 
-[33] [34]
-Overfull \hbox (3.86092pt too wide) in paragraph at lines 723--724
+[35]
+Overfull \hbox (3.86092pt too wide) in paragraph at lines 763--764
 []\TU/Montserrat(1)/m/n/10.95 Toepassingen om wetenschappelijke artikelen te ve
 reenvoudigen zijn schaars, maar
  []
 
 File: img/typeset-example.png Graphic file (type bmp)
 <img/typeset-example.png>
-./standvanzaken.tex:728: Too many }'s.
-l.728 \end{figure}}
+./standvanzaken.tex:768: Too many }'s.
+l.768 \end{figure}}
                    
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
+[36]
 File: img/chatgpt-example-simplification-gooding.png Graphic file (type bmp)
 <img/chatgpt-example-simplification-gooding.png>
-[35]
 File: img/chatgpt-example-different-versions-gooding.png Graphic file (type bmp
 )
 <img/chatgpt-example-different-versions-gooding.png>
+ [37]
 File: img/chatgpt-example-evaluation-gooding.png Graphic file (type bmp)
 <img/chatgpt-example-evaluation-gooding.png>
- [36] [37]
+ [38]
 File: img/chatgpt-engines-mean-regret.png Graphic file (type bmp)
 <img/chatgpt-engines-mean-regret.png>
+ [39]
 File: img/graph-language-models.png Graphic file (type bmp)
 <img/graph-language-models.png>
 
-Overfull \hbox (23.06929pt too wide) in paragraph at lines 787--788
+Overfull \hbox (23.06929pt too wide) in paragraph at lines 827--828
 [][] 
  []
 
-[38]
-Overfull \hbox (5.14569pt too wide) in paragraph at lines 804--805
+[40]
+Overfull \hbox (5.14569pt too wide) in paragraph at lines 844--845
 \TU/Montserrat(1)/m/n/10.95 trefwoord-gebaseerde samenvattingen, terwijl aspect
 -gebaseerde samenvattingen
  []
 
-[39]
-Underfull \hbox (badness 7081) in paragraph at lines 814--815
+
+Underfull \hbox (badness 7081) in paragraph at lines 854--855
 []|\TU/Montserrat(1)/m/n/10.95 davinci, curie, babbage,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 814--815
+Underfull \hbox (badness 10000) in paragraph at lines 854--855
 \TU/Montserrat(1)/m/n/10.95 curie-001, text-babbage-
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 816--816
+Underfull \hbox (badness 2512) in paragraph at lines 856--856
 []|\TU/Montserrat(1)/m/n/10.95 De gulzigheid van een generatief
  []
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 818--819
+Underfull \hbox (badness 4048) in paragraph at lines 858--859
 []|\TU/Montserrat(1)/m/n/10.95 Een getal tussen 1 and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 820--820
+Underfull \hbox (badness 10000) in paragraph at lines 860--860
 []|\TU/Montserrat(1)/m/n/10.95 Vergelijkbaar met temperature,
  []
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 820--820
+Underfull \hbox (badness 6396) in paragraph at lines 860--860
 \TU/Montserrat(1)/m/n/10.95 probability distribution voor com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 820--820
+Underfull \hbox (badness 10000) in paragraph at lines 860--860
 \TU/Montserrat(1)/m/n/10.95 hoe waarschijnlijker de woorden-
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 820--820
+Underfull \hbox (badness 1412) in paragraph at lines 860--860
 \TU/Montserrat(1)/m/n/10.95 bij het genereren van tekst. Een
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 820--820
+Underfull \hbox (badness 1342) in paragraph at lines 860--860
 \TU/Montserrat(1)/m/n/10.95 neer een toepassing gericht is op
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--822
+Underfull \hbox (badness 10000) in paragraph at lines 862--862
 []|\TU/Montserrat(1)/m/n/10.95 Een tekstwaarde (woord/symbool)
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 822--822
+Underfull \hbox (badness 1009) in paragraph at lines 862--862
 \TU/Montserrat(1)/m/n/10.95 tot waar het model zal genereren.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 822--823
+Underfull \hbox (badness 10000) in paragraph at lines 862--863
 []|\TU/Montserrat(1)/m/n/10.95 Een lijst van string-
  []
 
 
-Underfull \hbox (badness 4013) in paragraph at lines 822--823
+Underfull \hbox (badness 4013) in paragraph at lines 862--863
 \TU/Montserrat(1)/m/n/10.95 waarden, of een enkele
  []
 
 
-Overfull \hbox (27.83153pt too wide) in paragraph at lines 810--827
+Overfull \hbox (27.83153pt too wide) in paragraph at lines 850--867
 [] 
  []
 
-[40]
-Overfull \hbox (16.16722pt too wide) in paragraph at lines 832--833
+[41] [42]
+Overfull \hbox (16.16722pt too wide) in paragraph at lines 872--873
 \TU/Montserrat(1)/m/n/10.95 woordresultaten combineert met het redeneervermogen
  van OpenAI’s GPT-modellen.
  []
@@ -2649,15 +2731,15 @@ File: img/bing-ai-prometheus.png Graphic file (type bmp)
 <img/bing-ai-prometheus.png>
 File: img/bing-ai-chatbot-example.png Graphic file (type bmp)
 <img/bing-ai-chatbot-example.png>
-[41]) (./methodologie.tex [42]
+[43]) (./methodologie.tex [44]
 Hoofdstuk 3.
-[43
-
-]) (./conclusie.tex [44]
-Hoofdstuk 4.
 [45
 
-]) [46]
+]) (./conclusie.tex [46]
+Hoofdstuk 4.
+[47
+
+]) [48]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--8
@@ -2665,7 +2747,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 da-2030-stem-competenties-voor-een-
  []
 
-[47
+[49
 
 ]
 Overfull \hbox (3.46771pt too wide) in paragraph at lines 34--35
@@ -2673,39 +2755,39 @@ Overfull \hbox (3.46771pt too wide) in paragraph at lines 34--35
 oor nieuwe toepassingen zorgde. Tekst-
  []
 
-[48]
+[50]
 Overfull \hbox (2.54906pt too wide) in paragraph at lines 38--39
 []\TU/Montserrat(1)/m/n/10.95 Tekstvereenvoudiging behoort tot de zijtak van \T
 U/Montserrat(2)/m/it/10.95 Natural Language Processing \TU/Montserrat(1)/m/n/10
 .95 (NLP)
  []
 
-[49]
+[51]
 Overfull \hbox (14.44443pt too wide) in paragraph at lines 54--55
 []\TU/Montserrat(1)/m/n/10.95 Het onderzoek van []Sciforce ([][]2020[][]) haalt
  aan dat het merendeel van NLP-toepassingen
  []
 
-[50]
+[52]
 Overfull \hbox (1.14409pt too wide) in paragraph at lines 65--66
 \TU/Montserrat(1)/m/n/10.95 wel gebruikt worden, zijn vooral online leerplatfor
 men voor zelfstandig werken. Ook
  []
 
-[51]
+[53]
 File: img/Screenshot_302.png Graphic file (type bmp)
 <img/Screenshot_302.png>
- [52] [53]) [54]
+ [54] [55]) [56]
 Overfull \hbox (2.13918pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(1)/m/n/10.95 Dutch. \TU/Montserrat(2)/m/it/10.95 Computational L
 inguistics in the Netherlands Journal\TU/Montserrat(1)/m/n/10.95 , \TU/Montserr
 at(2)/m/it/10.95 8\TU/Montserrat(1)/m/n/10.95 , 24–48. [][]$[][][][][] []
  []
 
-[55
+[57
 
 
-] [56]
+] [58]
 Overfull \hbox (53.7668pt too wide) in paragraph at lines 200--200
 [][]\TU/Montserrat(1)/m/n/10.95 Diels, L. (2022). \TU/Montserrat(2)/m/it/10.95 
 Over dyslexie, vooroordelen en vriendschap\TU/Montserrat(1)/m/n/10.95 . [][]$[]
@@ -2725,7 +2807,7 @@ Overfull \hbox (44.50203pt too wide) in paragraph at lines 200--200
 [][] [][]
  []
 
-[57]
+[59]
 Overfull \hbox (0.81898pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(2)/m/it/10.95 shop on Speech and Language Processing for Assisti
 ve Technologies (SLPAT-
@@ -2738,13 +2820,13 @@ how to use then. [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][
 ][][] []
  []
 
-
+[60]
 Overfull \hbox (15.62875pt too wide) in paragraph at lines 200--200
 [][]\TU/Montserrat(1)/m/n/10.95 Iredale, G. (2022). An overview of tokenization
  algorithms in NLP. [][]$[][][][][] [] [] [] [][][][][][][][][][][][][][] []
  []
 
-[58]
+
 Overfull \hbox (4.43297pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(2)/m/it/10.95 sing\TU/Montserrat(1)/m/n/10.95 . Pearson Educatio
 n. [][]$[][][][][] [] [] [] [][][][][] [] [][][][][][] [] [][] [] [][][][][] []
@@ -2757,13 +2839,26 @@ Overfull \hbox (12.61131pt too wide) in paragraph at lines 200--200
  technical overview. [][]$[][][][][] [] [] [] [][][][][][][][][][] []
  []
 
-[59] [60]
+[61]
+./CluyseDylanBP.tex:200: Misplaced alignment tab character &.
+<argument> Guide &
+                  amp; examples
+l.200 \printbibliography[heading=bibintoc]
+                                          
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[62]
 Overfull \hbox (4.29759pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(1)/m/n/10.95 Part of Speech Tagger [http://eprints.ewi.utwente.n
 l/14662 ; 20th Benelux Con-
  []
 
-[61]
+[63]
 Overfull \hbox (3.61295pt too wide) in paragraph at lines 200--200
 [][]\TU/Montserrat(1)/m/n/10.95 Rijnvis, D. (2020). Tangconstructies - 5 tips o
 m ze Te Vermijden. [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][] []
@@ -2777,7 +2872,7 @@ Overfull \hbox (18.56651pt too wide) in paragraph at lines 200--200
 ][][][][][] []
  []
 
-[62]
+[64]
 Overfull \hbox (1.71274pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(2)/m/it/10.95 Wijze lessen: twaalf bouwstenen voor effectieve di
 dactiek \TU/Montserrat(1)/m/n/10.95 (1ste ed.). Ten Brink
@@ -2789,20 +2884,20 @@ Overfull \hbox (2.01982pt too wide) in paragraph at lines 200--200
 gonderzoek voor diagnos-
  []
 
-[63] [64] (../output/CluyseDylanBP.aux)
+[65] [66] (../output/CluyseDylanBP.aux)
 Package rerunfilecheck Info: File `CluyseDylanBP.out' has not changed.
-(rerunfilecheck)             Checksum: 03C5B1051D70981EBA4532B37857173B;5162.
+(rerunfilecheck)             Checksum: C472555AA37D3B37C8E444059AF2D1C9;5173.
 Package logreq Info: Writing requests to 'CluyseDylanBP.run.xml'.
 \openout1 = `CluyseDylanBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48164 strings out of 478657
- 939404 string characters out of 5861312
- 2096842 words of memory out of 5000000
- 66911 multiletter control sequences out of 15000+600000
+ 48189 strings out of 478657
+ 940193 string characters out of 5861312
+ 2099307 words of memory out of 5000000
+ 66935 multiletter control sequences out of 15000+600000
  406490 words of font info for 99 fonts, out of 8000000 for 9000
  351 hyphenation exceptions out of 8191
  113i,12n,139p,2569b,7099s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../output/CluyseDylanBP.xdv (72 pages, 1736324 bytes).
+Output written on ../output/CluyseDylanBP.xdv (75 pages, 1792184 bytes).
