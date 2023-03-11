@@ -91,6 +91,42 @@
       \verb 10.1145/3442695
       \endverb
     \endentry
+    \entry{Anthony2020}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a3f2c376e08d7316949f41fe0cf9bd3b}{%
+           family={Anthony},
+           familyi={A\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Verndale}%
+      }
+      \strng{namehash}{a3f2c376e08d7316949f41fe0cf9bd3b}
+      \strng{fullhash}{a3f2c376e08d7316949f41fe0cf9bd3b}
+      \strng{bibnamehash}{a3f2c376e08d7316949f41fe0cf9bd3b}
+      \strng{authorbibnamehash}{a3f2c376e08d7316949f41fe0cf9bd3b}
+      \strng{authornamehash}{a3f2c376e08d7316949f41fe0cf9bd3b}
+      \strng{authorfullhash}{a3f2c376e08d7316949f41fe0cf9bd3b}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Verndale}
+      \field{month}{10}
+      \field{title}{Website design trends for dyslexia and ADHD}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.verndale.com/insights/accessibility/website-design-trends-for-dyslexia-and-adhd
+      \endverb
+      \verb{url}
+      \verb https://www.verndale.com/insights/accessibility/website-design-trends-for-dyslexia-and-adhd
+      \endverb
+    \endentry
     \entry{APA2013}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3f66c642802f76fee00ebf8365ba9298}{%
@@ -120,34 +156,6 @@
       \field{title}{Diagnostic and statistical manual of mental disorders: DSM-5}
       \field{volume}{5}
       \field{year}{2013}
-    \endentry
-    \entry{Avontuur2015}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b4791a31bed4594922f21c5d29d700c7}{%
-           family={Avontuur},
-           familyi={A\bibinitperiod},
-           given={Jos},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Uitgeverij boom/nelissen}%
-      }
-      \strng{namehash}{b4791a31bed4594922f21c5d29d700c7}
-      \strng{fullhash}{b4791a31bed4594922f21c5d29d700c7}
-      \strng{bibnamehash}{b4791a31bed4594922f21c5d29d700c7}
-      \strng{authorbibnamehash}{b4791a31bed4594922f21c5d29d700c7}
-      \strng{authornamehash}{b4791a31bed4594922f21c5d29d700c7}
-      \strng{authorfullhash}{b4791a31bed4594922f21c5d29d700c7}
-      \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Dyslexie bij volwassenen: Impact op studie en Beroep}
-      \field{year}{2015}
     \endentry
     \entry{Ball2017}{article}{}
       \name{author}{1}{}{%
@@ -4323,6 +4331,68 @@
       \verb 10.1007/978-3-319-26832-3_33
       \endverb
     \endentry
+    \entry{Radford2019}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=a812c46caad94fc8701be37871f303ba}{%
+           family={Radford},
+           familyi={R\bibinitperiod},
+           given={Alec},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=495187f3a2c93ddb8083bd18a5702527}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Jeffrey},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c2f5c2e6d4a9ec8681377f8a8e5e6af}{%
+           family={Child},
+           familyi={C\bibinitperiod},
+           given={Rewon},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=63b32614460a4ab72dbbbbfe223220ea}{%
+           family={Luan},
+           familyi={L\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e6adbf36ab730cd5fdadb838b4d2667}{%
+           family={Amodei},
+           familyi={A\bibinitperiod},
+           given={Dario},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d569d1d5b8b5a7836017a98b430f959}{%
+           family={Sutskever},
+           familyi={S\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ca3baa5a22057195db1c71be39b4c922}
+      \strng{fullhash}{98ae7a33b0eb684f6b8d70d816ea3c06}
+      \strng{bibnamehash}{98ae7a33b0eb684f6b8d70d816ea3c06}
+      \strng{authorbibnamehash}{98ae7a33b0eb684f6b8d70d816ea3c06}
+      \strng{authornamehash}{ca3baa5a22057195db1c71be39b4c922}
+      \strng{authorfullhash}{98ae7a33b0eb684f6b8d70d816ea3c06}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{OpenAI blog}
+      \field{number}{8}
+      \field{title}{Language models are unsupervised multitask learners}
+      \field{volume}{1}
+      \field{year}{2019}
+      \field{pages}{9}
+      \range{pages}{1}
+    \endentry
     \entry{Rani2021}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=c7441d9ead9fd172d35bfd747635d19d}{%
@@ -4388,7 +4458,40 @@
       \verb https://readable.com/readability/flesch-reading-ease-flesch-kincaid-grade-level/
       \endverb
     \endentry
-    \entry{Rello2013}{article}{}
+    \entry{Rello2013b}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=beb516ae4b9334129c564a1d33d9ec9b}{%
+           family={Rello},
+           familyi={R\bibinitperiod},
+           given={Luz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=14e9e2c7e918f62ba13b9e040fb7f468}{%
+           family={Baeza-Yates},
+           familyi={B\bibinithyphendelim Y\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{d9322ae939dbc2d75171729320b266e1}
+      \strng{fullhash}{d9322ae939dbc2d75171729320b266e1}
+      \strng{bibnamehash}{d9322ae939dbc2d75171729320b266e1}
+      \strng{authorbibnamehash}{d9322ae939dbc2d75171729320b266e1}
+      \strng{authornamehash}{d9322ae939dbc2d75171729320b266e1}
+      \strng{authorfullhash}{d9322ae939dbc2d75171729320b266e1}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the 15th International ACM SIGACCESS Conference on Computers and Accessibility, ASSETS 2013}
+      \field{month}{10}
+      \field{title}{Good fonts for dyslexia}
+      \field{year}{2013}
+    \endentry
+    \entry{Rello2013a}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=beb516ae4b9334129c564a1d33d9ec9b}{%
            family={Rello},
@@ -4433,6 +4536,41 @@
       \field{month}{09}
       \field{title}{Frequent Words Improve Readability and Short Words Improve Understandability for People with Dyslexia}
       \field{year}{2013}
+    \endentry
+    \entry{Rello2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=beb516ae4b9334129c564a1d33d9ec9b}{%
+           family={Rello},
+           familyi={R\bibinitperiod},
+           given={Luz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=0e3b9dc4750427d6328226d323a11060}{%
+           family={Baeza-Yates},
+           familyi={B\bibinithyphendelim Y\bibinitperiod},
+           given={Ricardo\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{7b3d9c5a9274b048057fc3a91816b1f7}
+      \strng{fullhash}{7b3d9c5a9274b048057fc3a91816b1f7}
+      \strng{bibnamehash}{7b3d9c5a9274b048057fc3a91816b1f7}
+      \strng{authorbibnamehash}{7b3d9c5a9274b048057fc3a91816b1f7}
+      \strng{authornamehash}{7b3d9c5a9274b048057fc3a91816b1f7}
+      \strng{authorfullhash}{7b3d9c5a9274b048057fc3a91816b1f7}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Universal Access in the Information Society}
+      \field{title}{How to present more readable text for people with dyslexia}
+      \field{volume}{16}
+      \field{year}{2015}
+      \field{pages}{29\bibrangedash 49}
+      \range{pages}{21}
     \endentry
     \entry{Rello2017}{article}{}
       \name{author}{2}{}{%
@@ -4705,40 +4843,6 @@
       \verb{url}
       \verb https://monkeylearn.com/blog/natural-language-processing-challenges/
       \endverb
-    \endentry
-    \entry{Romanovska2021}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=052866b927efe211b2ea20c5438b2ac6}{%
-           family={Romanovska},
-           familyi={R\bibinitperiod},
-           given={Linda},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=15b1743124bcebf9f57c9d9ac3702280}{%
-           family={Bonte},
-           familyi={B\bibinitperiod},
-           given={Milene},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{9f49fc9ecc072858ad75cee8eb173ce5}
-      \strng{fullhash}{9f49fc9ecc072858ad75cee8eb173ce5}
-      \strng{bibnamehash}{9f49fc9ecc072858ad75cee8eb173ce5}
-      \strng{authorbibnamehash}{9f49fc9ecc072858ad75cee8eb173ce5}
-      \strng{authornamehash}{9f49fc9ecc072858ad75cee8eb173ce5}
-      \strng{authorfullhash}{9f49fc9ecc072858ad75cee8eb173ce5}
-      \field{sortinit}{R}
-      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Frontiers in Psychology}
-      \field{month}{12}
-      \field{title}{How Learning to Read Changes the Listening Brain}
-      \field{volume}{12}
-      \field{year}{2021}
     \endentry
     \entry{Roose2023}{misc}{}
       \name{author}{1}{}{%
