@@ -2113,6 +2113,84 @@
       \field{pages}{1148\bibrangedash 1153}
       \range{pages}{6}
     \endentry
+    \entry{Brockman2023}{misc}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=0fb7ab8b1d13592ac4d0a94c03cdc719}{%
+           family={Greg},
+           familyi={G\bibinitperiod},
+           given={Brockman},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50500af4c47091bf9bb9e627e386d6c8}{%
+           family={Atty},
+           familyi={A\bibinitperiod},
+           given={Eleti},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b673f2c92d06be71eb00ae2cd136c279}{%
+           family={Elie},
+           familyi={E\bibinitperiod},
+           given={Georges},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=23fd892ba07b9f4095bd4203def58525}{%
+           family={Joane},
+           familyi={J\bibinitperiod},
+           given={Jang},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=55258aa3d63ee64ef8ebefa4d5195816}{%
+           family={Logan},
+           familyi={L\bibinitperiod},
+           given={Kilpatrick},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e949881f1b3c82e46f41fe79289f536}{%
+           family={Lim},
+           familyi={L\bibinitperiod},
+           given={Rachel},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=217e3816b944b969718c4777d8acf2db}{%
+           family={Luke},
+           familyi={L\bibinitperiod},
+           given={Miller},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7ce5905c8b78ad66811454ecd8601f21}{%
+           family={Michelle},
+           familyi={M\bibinitperiod},
+           given={Pokrass},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {OpenAI}%
+      }
+      \strng{namehash}{8d83783836f92e781e569c810c61f8a2}
+      \strng{fullhash}{f60914ce05a0028917b46f241e55bf23}
+      \strng{bibnamehash}{f60914ce05a0028917b46f241e55bf23}
+      \strng{authorbibnamehash}{f60914ce05a0028917b46f241e55bf23}
+      \strng{authornamehash}{8d83783836f92e781e569c810c61f8a2}
+      \strng{authorfullhash}{f60914ce05a0028917b46f241e55bf23}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Introducing ChatGPT and Whisper APIs}
+      \field{month}{3}
+      \field{title}{Introducing chatgpt and Whisper Apis}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://openai.com/blog/introducing-chatgpt-and-whisper-apis
+      \endverb
+      \verb{url}
+      \verb https://openai.com/blog/introducing-chatgpt-and-whisper-apis
+      \endverb
+    \endentry
     \entry{Hahn2000}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=b1b23e913d226bd63c4c7022beb08edd}{%
@@ -3442,6 +3520,42 @@
       \endverb
       \verb{url}
       \verb https://data-en-maatschappij.ai/nieuws/school-innovation-forum-2021
+      \endverb
+    \endentry
+    \entry{Mcauliffe2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7305239561d9614af3a6e84e0a6505e8}{%
+           family={McAuliffe},
+           familyi={M\bibinitperiod},
+           given={Zachary},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {CNET}%
+      }
+      \strng{namehash}{7305239561d9614af3a6e84e0a6505e8}
+      \strng{fullhash}{7305239561d9614af3a6e84e0a6505e8}
+      \strng{bibnamehash}{7305239561d9614af3a6e84e0a6505e8}
+      \strng{authorbibnamehash}{7305239561d9614af3a6e84e0a6505e8}
+      \strng{authornamehash}{7305239561d9614af3a6e84e0a6505e8}
+      \strng{authorfullhash}{7305239561d9614af3a6e84e0a6505e8}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CNET}
+      \field{month}{3}
+      \field{title}{DuckDuckGo introduces new AI feature: DuckAssist}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.cnet.com/tech/services-and-software/meet-duckassist-duckduckgos-new-ai-feature/
+      \endverb
+      \verb{url}
+      \verb https://www.cnet.com/tech/services-and-software/meet-duckassist-duckduckgos-new-ai-feature/
       \endverb
     \endentry
     \entry{McCombes2022}{misc}{}
@@ -5773,6 +5887,42 @@
       \field{year}{2020}
       \field{pages}{251\bibrangedash 257}
       \range{pages}{7}
+    \endentry
+    \entry{Weinberg2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4e2fe69bc1f2b393360b87ef0f311ca3}{%
+           family={Weinberg},
+           familyi={W\bibinitperiod},
+           given={Gabriel},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Spread Privacy}%
+      }
+      \strng{namehash}{4e2fe69bc1f2b393360b87ef0f311ca3}
+      \strng{fullhash}{4e2fe69bc1f2b393360b87ef0f311ca3}
+      \strng{bibnamehash}{4e2fe69bc1f2b393360b87ef0f311ca3}
+      \strng{authorbibnamehash}{4e2fe69bc1f2b393360b87ef0f311ca3}
+      \strng{authornamehash}{4e2fe69bc1f2b393360b87ef0f311ca3}
+      \strng{authorfullhash}{4e2fe69bc1f2b393360b87ef0f311ca3}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Spread Privacy}
+      \field{month}{3}
+      \field{title}{Duckduckgo launches DuckAssist}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://spreadprivacy.com/duckassist-launch/
+      \endverb
+      \verb{url}
+      \verb https://spreadprivacy.com/duckassist-launch/
+      \endverb
     \endentry
     \entry{Wentink2008}{article}{}
       \name{author}{3}{}{%
