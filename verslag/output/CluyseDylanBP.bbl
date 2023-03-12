@@ -3216,6 +3216,71 @@
       \field{pages}{912\bibrangedash 920}
       \range{pages}{9}
     \endentry
+    \entry{Linderholm2000}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=18cae12736d1777dbd29d29a09ee9320}{%
+           family={Linderholm},
+           familyi={L\bibinitperiod},
+           given={Tracy},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8fd46b87f5ab441e00e5c7272911c75}{%
+           family={Everson},
+           familyi={E\bibinitperiod},
+           given={Michelle\bibnamedelima Gaddy},
+           giveni={M\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7936787e9d29fe1462019c877fc183b7}{%
+           family={Broek},
+           familyi={B\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0,
+           prefix={van\bibnamedelima den},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=57e7e5043a780f09296841018c7800de}{%
+           family={Mischinski},
+           familyi={M\bibinitperiod},
+           given={Maureen},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa7f05e4bd12c7edf9bc969908492602}{%
+           family={Crittenden},
+           familyi={C\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e22304affb54253c2a75466f7df98938}{%
+           family={Samuels},
+           familyi={S\bibinitperiod},
+           given={Jay},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Routledge}%
+      }
+      \strng{namehash}{93d868b40804996d7f69bdd83acd1d02}
+      \strng{fullhash}{73806a54da32892de1df3390fa1212c6}
+      \strng{bibnamehash}{73806a54da32892de1df3390fa1212c6}
+      \strng{authorbibnamehash}{73806a54da32892de1df3390fa1212c6}
+      \strng{authornamehash}{93d868b40804996d7f69bdd83acd1d02}
+      \strng{authorfullhash}{73806a54da32892de1df3390fa1212c6}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cognition and Instruction}
+      \field{number}{4}
+      \field{title}{Effects of Causal Text Revisions on More- and Less-Skilled Readers' Comprehension of Easy and Difficult Texts}
+      \field{volume}{18}
+      \field{year}{2000}
+      \field{pages}{525\bibrangedash 556}
+      \range{pages}{32}
+    \endentry
     \entry{Lisowski2023}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ff8482c62b3a5b6fabf8f7926dbe307f}{%
@@ -3840,6 +3905,60 @@
       \verb https://blog.invgate.com/gpt-3-vs-bert
       \endverb
     \endentry
+    \entry{Murdos2014}{misc}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=bbc6fb68a6f9d5a78699aaf7f578ff61}{%
+           family={Murdos},
+           familyi={M\bibinitperiod},
+           given={Amjad},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bb6bf399b0b96be713fbb801189c7053}{%
+           family={Hodges},
+           familyi={H\bibinitperiod},
+           given={Meghan},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=508a273e86aecdba0f8cfe5227f4578e}{%
+           family={Rubio},
+           familyi={R\bibinitperiod},
+           given={Diego},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c7b82a883e9fbc7b23e23ada36c3cbe}{%
+           family={Adams},
+           familyi={A\bibinitperiod},
+           given={John\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{2}{%
+        {UCLA Clinical}%
+        {Translational Science Institute}%
+      }
+      \strng{namehash}{8eadc2e8086ba7c7efa3d74aee95c8ce}
+      \strng{fullhash}{a5d0d7036ad89641636dd97c15f10fc0}
+      \strng{bibnamehash}{a5d0d7036ad89641636dd97c15f10fc0}
+      \strng{authorbibnamehash}{a5d0d7036ad89641636dd97c15f10fc0}
+      \strng{authornamehash}{8eadc2e8086ba7c7efa3d74aee95c8ce}
+      \strng{authorfullhash}{a5d0d7036ad89641636dd97c15f10fc0}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{UCLA Clinical and Translational Science Institute}
+      \field{title}{Examining the readability of research abstracts to Determine Whether the General Public Can Understand Key Findings in Science}
+      \field{year}{2014}
+      \verb{urlraw}
+      \verb https://ctsi.ucla.edu/education/files/view/docs/06_08_2016_PALM_Communication_of_Science_Poster.pdf
+      \endverb
+      \verb{url}
+      \verb https://ctsi.ucla.edu/education/files/view/docs/06_08_2016_PALM_Communication_of_Science_Poster.pdf
+      \endverb
+    \endentry
     \entry{Nallapati2017}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=c2c89f0960942c4cca8a09358fb380d1}{%
@@ -3888,6 +4007,45 @@
       \verb{url}
       \verb https://ojs.aaai.org/index.php/AAAI/article/view/10958
       \endverb
+    \endentry
+    \entry{Nandhini2013}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=be4282276d7338d662e967e825c9c762}{%
+           family={Nandhini},
+           familyi={N\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0215397566e9b7e6209998d472b9467}{%
+           family={Balasundaram},
+           familyi={B\bibinitperiod},
+           given={S.R.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{03f1b5283f32498c822b41f00264e2ef}
+      \strng{fullhash}{03f1b5283f32498c822b41f00264e2ef}
+      \strng{bibnamehash}{03f1b5283f32498c822b41f00264e2ef}
+      \strng{authorbibnamehash}{03f1b5283f32498c822b41f00264e2ef}
+      \strng{authornamehash}{03f1b5283f32498c822b41f00264e2ef}
+      \strng{authorfullhash}{03f1b5283f32498c822b41f00264e2ef}
+      \field{sortinit}{N}
+      \field{sortinithash}{98cf339a479c0454fe09153a08675a15}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, we describe the design and evaluation of extractive summarization approach to assist the learners with reading difficulties. As existing summarization approaches inherently assign more weights to the important sentences, our approach predicts the summary sentences that are important as well as readable to the target audience with good accuracy. We used supervised machine learning technique for summary extraction of science and social subjects in the educational text. Various independent features from the existing literature for predicting important sentences and proposed learner dependent features for predicting readable sentences are extracted from texts and are used for automatic classification. We performed both extrinsic and intrinsic evaluation on this approach and the intrinsic evaluation is carried out using F-measure and readability analysis. The extrinsic evaluation comprises of learner feedback using likert scale and the effect of assistive summary on improving readability for learners’ with reading difficulty using ANOVA. The results show significant improvement in readability for the target audience using assistive summary.}
+      \field{issn}{1110-8665}
+      \field{journaltitle}{Egyptian Informatics Journal}
+      \field{number}{3}
+      \field{title}{Improving readability through extractive summarization for learners with reading difficulties}
+      \field{volume}{14}
+      \field{year}{2013}
+      \field{pages}{195\bibrangedash 204}
+      \range{pages}{10}
+      \keyw{Text summarization,Extractive summarization,Machine learning,Naive Bayes classifier,Assistive reading}
     \endentry
     \entry{Nenkova2004}{article}{}
       \name{author}{2}{}{%
@@ -4492,19 +4650,19 @@
       \field{year}{2013}
     \endentry
     \entry{Rello2013a}{article}{}
-      \name{author}{4}{}{%
+      \name{author}{4}{ul=3}{%
         {{un=0,uniquepart=base,hash=beb516ae4b9334129c564a1d33d9ec9b}{%
            family={Rello},
            familyi={R\bibinitperiod},
            given={Luz},
            giveni={L\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=14e9e2c7e918f62ba13b9e040fb7f468}{%
+        {{un=1,uniquepart=given,hash=14e9e2c7e918f62ba13b9e040fb7f468}{%
            family={Baeza-Yates},
            familyi={B\bibinithyphendelim Y\bibinitperiod},
            given={Ricardo},
            giveni={R\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=dafc25901c99be13b1e2d7617dda3b8b}{%
            family={Dempere-Marco},
            familyi={D\bibinithyphendelim M\bibinitperiod},
@@ -4518,13 +4676,12 @@
            giveni={H\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{5f8b0dbae47e570be334bb804b81d6ad}
+      \strng{namehash}{4671fed1f8f27aaa8c3a31ee391c6738}
       \strng{fullhash}{bd06adebb78d1467d2877ff7b38c0141}
       \strng{bibnamehash}{bd06adebb78d1467d2877ff7b38c0141}
       \strng{authorbibnamehash}{bd06adebb78d1467d2877ff7b38c0141}
-      \strng{authornamehash}{5f8b0dbae47e570be334bb804b81d6ad}
+      \strng{authornamehash}{4671fed1f8f27aaa8c3a31ee391c6738}
       \strng{authorfullhash}{bd06adebb78d1467d2877ff7b38c0141}
-      \field{extraname}{1}
       \field{sortinit}{R}
       \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
       \field{extradatescope}{labelyear}
@@ -4536,6 +4693,48 @@
       \field{month}{09}
       \field{title}{Frequent Words Improve Readability and Short Words Improve Understandability for People with Dyslexia}
       \field{year}{2013}
+    \endentry
+    \entry{Rello2013c}{article}{}
+      \name{author}{3}{ul=3}{%
+        {{un=0,uniquepart=base,hash=beb516ae4b9334129c564a1d33d9ec9b}{%
+           family={Rello},
+           familyi={R\bibinitperiod},
+           given={Luz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=14e9e2c7e918f62ba13b9e040fb7f468}{%
+           family={Baeza-Yates},
+           familyi={B\bibinithyphendelim Y\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=9c64a04423df54f4b8a0c897a023033d}{%
+           family={Saggion},
+           familyi={S\bibinitperiod},
+           given={Horacio},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3f3585b458930d40ec6b2dde5f5d5c9c}
+      \strng{fullhash}{3f3585b458930d40ec6b2dde5f5d5c9c}
+      \strng{bibnamehash}{3f3585b458930d40ec6b2dde5f5d5c9c}
+      \strng{authorbibnamehash}{3f3585b458930d40ec6b2dde5f5d5c9c}
+      \strng{authornamehash}{3f3585b458930d40ec6b2dde5f5d5c9c}
+      \strng{authorfullhash}{3f3585b458930d40ec6b2dde5f5d5c9c}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-642-37255-1}
+      \field{month}{03}
+      \field{title}{The Impact of Lexical Simplification by Verbal Paraphrases for People with and without Dyslexia}
+      \field{volume}{7817}
+      \field{year}{2013}
+      \field{pages}{501\bibrangedash 512}
+      \range{pages}{12}
     \endentry
     \entry{Rello2015}{article}{}
       \name{author}{2}{}{%
@@ -4607,7 +4806,7 @@
       \range{pages}{9}
     \endentry
     \entry{Rello2012}{article}{}
-      \name{author}{3}{}{%
+      \name{author}{3}{ul=2}{%
         {{un=0,uniquepart=base,hash=beb516ae4b9334129c564a1d33d9ec9b}{%
            family={Rello},
            familyi={R\bibinitperiod},
@@ -4633,13 +4832,12 @@
       \list{publisher}{1}{%
         {Association for Computing Machinery}%
       }
-      \strng{namehash}{5f8b0dbae47e570be334bb804b81d6ad}
+      \strng{namehash}{72a8802f9711b740b01bf1412e949107}
       \strng{fullhash}{a76335588d8c2243e2f83afbb4bbab25}
       \strng{bibnamehash}{a76335588d8c2243e2f83afbb4bbab25}
       \strng{authorbibnamehash}{a76335588d8c2243e2f83afbb4bbab25}
-      \strng{authornamehash}{5f8b0dbae47e570be334bb804b81d6ad}
+      \strng{authornamehash}{72a8802f9711b740b01bf1412e949107}
       \strng{authorfullhash}{a76335588d8c2243e2f83afbb4bbab25}
-      \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
       \field{extradatescope}{labelyear}
@@ -4654,6 +4852,52 @@
       \field{title}{Layout Guidelines for Web Text and a Web Service to Improve Accessibility for Dyslexics}
       \field{year}{2012}
       \keyw{browsing web service,web accessibility,dyslexia,readability,accessibility guidelines,usability tests}
+    \endentry
+    \entry{Rello2012b}{article}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=beb516ae4b9334129c564a1d33d9ec9b}{%
+           family={Rello},
+           familyi={R\bibinitperiod},
+           given={Luz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c64a04423df54f4b8a0c897a023033d}{%
+           family={Saggion},
+           familyi={S\bibinitperiod},
+           given={Horacio},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=14e9e2c7e918f62ba13b9e040fb7f468}{%
+           family={Baeza-Yates},
+           familyi={B\bibinithyphendelim Y\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=49a31f716d87701a859f8d775c94e814}{%
+           family={Graells},
+           familyi={G\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b3ae2e6d7fd281a4c3f6d5d5e68ff796}
+      \strng{fullhash}{3d03df71551f06774287830670c10632}
+      \strng{bibnamehash}{3d03df71551f06774287830670c10632}
+      \strng{authorbibnamehash}{3d03df71551f06774287830670c10632}
+      \strng{authornamehash}{b3ae2e6d7fd281a4c3f6d5d5e68ff796}
+      \strng{authorfullhash}{3d03df71551f06774287830670c10632}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{06}
+      \field{title}{Graphical schemes may improve readability but not understandability for people with dyslexia}
+      \field{year}{2012}
+      \field{pages}{25\bibrangedash 32}
+      \range{pages}{8}
     \endentry
     \entry{Ribas2023}{misc}{}
       \name{author}{1}{}{%
@@ -4802,6 +5046,47 @@
       \verb{url}
       \verb https://www.schrijfvis.nl/tangconstructies/
       \endverb
+    \endentry
+    \entry{RiveroContreras2021}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=416bd493d859e0a3e2a7dff3df6d91e4}{%
+           family={Rivero-Contreras},
+           familyi={R\bibinithyphendelim C\bibinitperiod},
+           given={Miriam},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40ec86eda42d701fa826e4c808f66b46}{%
+           family={Engelhardt},
+           familyi={E\bibinitperiod},
+           given={Paul\bibnamedelima E.},
+           giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e65eb3db9e92387e93736b46b08955db}{%
+           family={Saldaña},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a8a9c4460cfe8acdec69bb6648413807}
+      \strng{fullhash}{00aca787f739e39726f8c5a336746958}
+      \strng{bibnamehash}{00aca787f739e39726f8c5a336746958}
+      \strng{authorbibnamehash}{00aca787f739e39726f8c5a336746958}
+      \strng{authornamehash}{a8a9c4460cfe8acdec69bb6648413807}
+      \strng{authorfullhash}{00aca787f739e39726f8c5a336746958}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annals of Dyslexia}
+      \field{title}{An experimental eye-tracking study of text adaptation for readers with dyslexia: effects of visual support and word frequency}
+      \field{volume}{71}
+      \field{year}{2021}
+      \field{pages}{170\bibrangedash 187}
+      \range{pages}{18}
     \endentry
     \entry{Roldos2020}{online}{}
       \name{author}{1}{}{%
@@ -5620,6 +5905,52 @@
       \field{title}{Python current trend applications-an overview}
       \field{year}{2019}
     \endentry
+    \entry{Tops2018}{book}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=7b81e685526c8122fd9ed7b6057d127d}{%
+           family={Tops},
+           familyi={T\bibinitperiod},
+           given={Wim},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b3dad0d69b1631b92872b1bf30ad5d72}{%
+           family={Callens},
+           familyi={C\bibinitperiod},
+           given={Maaike},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e3152eed8807c888523aca56d00e896a}{%
+           family={Brysbaert},
+           familyi={B\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3089eb33aecd8a93091caf5daeb578eb}{%
+           family={Schouten},
+           familyi={S\bibinitperiod},
+           given={Emma\bibnamedelima Laura},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Owl Press}%
+      }
+      \strng{namehash}{1ba8656dbecc7f43f5a1c6fb631d7677}
+      \strng{fullhash}{4bf67e2e4e4228c4593d447fc9be1469}
+      \strng{bibnamehash}{4bf67e2e4e4228c4593d447fc9be1469}
+      \strng{authorbibnamehash}{4bf67e2e4e4228c4593d447fc9be1469}
+      \strng{authornamehash}{1ba8656dbecc7f43f5a1c6fb631d7677}
+      \strng{authorfullhash}{4bf67e2e4e4228c4593d447fc9be1469}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Slagen met Dyslexie in Het Hoger Onderwijs}
+      \field{year}{2018}
+    \endentry
     \entry{Touvron2023}{misc}{}
       \name{author}{14}{}{%
         {{un=0,uniquepart=base,hash=a2a13fcd633ec70c55a7f3f4812afdcf}{%
@@ -5726,40 +6057,6 @@
       \field{title}{LLaMA: Open and Efficient Foundation Language Models}
       \field{year}{2023}
       \keyw{Computation and Language (cs.CL),FOS: Computer and information sciences,FOS: Computer and information sciences}
-    \endentry
-    \entry{Uhry2008}{book}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=00139b4f3b635d77545aecaec49e52a0}{%
-           family={Uhry},
-           familyi={U\bibinitperiod},
-           given={Joanna\bibnamedelima Kellog},
-           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=eff3538f102719cb7aaf54279fffaa2d}{%
-           family={Clark},
-           familyi={C\bibinitperiod},
-           given={Diana\bibnamedelima Brewster},
-           giveni={D\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Pro-ed}%
-      }
-      \strng{namehash}{5571b3e8af5574835905182418e2e087}
-      \strng{fullhash}{5571b3e8af5574835905182418e2e087}
-      \strng{bibnamehash}{5571b3e8af5574835905182418e2e087}
-      \strng{authorbibnamehash}{5571b3e8af5574835905182418e2e087}
-      \strng{authornamehash}{5571b3e8af5574835905182418e2e087}
-      \strng{authorfullhash}{5571b3e8af5574835905182418e2e087}
-      \field{sortinit}{U}
-      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Dyslexia: Theory and practice of instruction}
-      \field{year}{2008}
     \endentry
     \entry{VanDerMeer2022}{misc}{}
       \name{author}{1}{}{%
@@ -6191,12 +6488,12 @@
     \endentry
     \entry{Zhang2020}{article}{}
       \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=a763363fdcbe78675ccaef4ce1afe76a}{%
+        {{un=1,uniquepart=given,hash=a763363fdcbe78675ccaef4ce1afe76a}{%
            family={Zhang},
            familyi={Z\bibinitperiod},
            given={Jingqing},
            giveni={J\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=5150da6c54dbb181303e4feed7ea53f1}{%
            family={Zhao},
            familyi={Z\bibinitperiod},
@@ -6229,7 +6526,6 @@
       \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Conference on Machine Learning}
@@ -6238,9 +6534,50 @@
       \field{pages}{11328\bibrangedash 11339}
       \range{pages}{12}
     \endentry
+    \entry{Zhang2021}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=2126d1732a005af59878799b4dc37440}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Manli},
+           giveni={M\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=e2e5da049be75e5a941d0d5046e3cc3e}{%
+           family={Riecke},
+           familyi={R\bibinitperiod},
+           given={Lars},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=15b1743124bcebf9f57c9d9ac3702280}{%
+           family={Bonte},
+           familyi={B\bibinitperiod},
+           given={Milene},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dccbb7f81b8e29d2457572b610279166}
+      \strng{fullhash}{9fbaa3f1c11438635c179b244b292220}
+      \strng{bibnamehash}{9fbaa3f1c11438635c179b244b292220}
+      \strng{authorbibnamehash}{9fbaa3f1c11438635c179b244b292220}
+      \strng{authornamehash}{dccbb7f81b8e29d2457572b610279166}
+      \strng{authorfullhash}{9fbaa3f1c11438635c179b244b292220}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Statistical learning, or the ability to extract statistical regularities from the sensory environment, plays a critical role in language acquisition and reading development. Here we employed electroencephalography (EEG) with frequency-tagging measures to track the temporal evolution of speech-structure learning in individuals with reading difficulties due to developmental dyslexia and in typical readers. We measured EEG while participants listened to (a) a structured stream of repeated tri-syllabic pseudowords, (b) a random stream of the same isochronous syllables, and (c) a series of tri-syllabic real Dutch words. Participants’ behavioral learning outcome (pseudoword recognition) was measured after training. We found that syllable-rate tracking was comparable between the two groups and stable across both the random and structured streams of syllables. More importantly, we observed a gradual emergence of the tracking of tri-syllabic pseudoword structures in both groups. Compared to the typical readers, however, in the dyslexic readers this implicit speech structure learning seemed to build up at a slower pace. A brain-behavioral correlation analysis showed that slower learners (i.e., participants who were slower in establishing the neural tracking of pseudowords) were less skilled in phonological awareness. Moreover, those who showed stronger neural tracking of real words tended to be less fluent in the visual-verbal conversion of linguistic symbols. Taken together, our study provides an online neurophysiological approach to track the progression of implicit learning processes and gives insights into the learning difficulties associated with dyslexia from a dynamic perspective.}
+      \field{issn}{0028-3932}
+      \field{journaltitle}{Neuropsychologia}
+      \field{title}{Neurophysiological tracking of speech-structure learning in typical and dyslexic readers}
+      \field{volume}{158}
+      \field{year}{2021}
+      \field{pages}{107889}
+      \range{pages}{1}
+      \keyw{Developmental dyslexia,Statistical learning,Word segmentation,Frequency-tagging,Neural plasticity}
+    \endentry
   \enddatalist
-  \missing{Gooding2018}
-  \missing{McCombes2020}
 \endrefsection
 \endinput
 

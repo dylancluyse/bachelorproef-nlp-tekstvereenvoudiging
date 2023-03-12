@@ -1853,6 +1853,9 @@ INPUT standvanzaken.tex
 INPUT ./img/visuele-disfunctie.png
 INPUT ./img/visuele-disfunctie.png
 INPUT img/visuele-disfunctie.png
+INPUT ./img/text-simplification-reading-ease.png
+INPUT ./img/text-simplification-reading-ease.png
+INPUT img/text-simplification-reading-ease.png
 INPUT ./img/readability-mean-fixation-duration.png
 INPUT ./img/readability-mean-fixation-duration.png
 INPUT img/readability-mean-fixation-duration.png
@@ -1880,9 +1883,6 @@ INPUT img/ndc-number-of-authors.png
 INPUT ./img/fre-fog-per-sector.png
 INPUT ./img/fre-fog-per-sector.png
 INPUT img/fre-fog-per-sector.png
-INPUT ./img/text-simplification-reading-ease.png
-INPUT ./img/text-simplification-reading-ease.png
-INPUT img/text-simplification-reading-ease.png
 INPUT ./img/poslabeling.png
 INPUT ./img/poslabeling.png
 INPUT img/poslabeling.png
