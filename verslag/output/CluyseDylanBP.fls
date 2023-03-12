@@ -1889,6 +1889,9 @@ INPUT img/poslabeling.png
 INPUT ./img/nerlabeling.jpg
 INPUT ./img/nerlabeling.jpg
 INPUT img/nerlabeling.jpg
+INPUT ./img/prompt-engineering-medium.png
+INPUT ./img/prompt-engineering-medium.png
+INPUT img/prompt-engineering-medium.png
 INPUT ./img/voorbeeld-manuele-vereenvoudiging.png
 INPUT ./img/voorbeeld-manuele-vereenvoudiging.png
 INPUT img/voorbeeld-manuele-vereenvoudiging.png
@@ -1898,9 +1901,12 @@ INPUT img/lexical-simplification-pipeline.png
 INPUT ./img/summarization-mindmap.png
 INPUT ./img/summarization-mindmap.png
 INPUT img/summarization-mindmap.png
-INPUT ./img/abstractive-summarization-visualization.png
-INPUT ./img/abstractive-summarization-visualization.png
-INPUT img/abstractive-summarization-visualization.png
+INPUT ./img/dutch-simplification-dyslexia-pipeline.png
+INPUT ./img/dutch-simplification-dyslexia-pipeline.png
+INPUT img/dutch-simplification-dyslexia-pipeline.png
+INPUT ./img/dutch-simplification-dyslexia-example.png
+INPUT ./img/dutch-simplification-dyslexia-example.png
+INPUT img/dutch-simplification-dyslexia-example.png
 INPUT ./img/typeset-example.png
 INPUT ./img/typeset-example.png
 INPUT img/typeset-example.png
