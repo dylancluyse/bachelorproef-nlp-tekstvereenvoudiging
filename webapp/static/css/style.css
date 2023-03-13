@@ -20,7 +20,7 @@ body {
 }
 
 .left-container, .right-container, .param {
-    flex-basis: 60%;
+    flex-basis: 40%;
     box-sizing: border-box;
     padding: 10px;
     margin: 3%;
@@ -44,6 +44,6 @@ body {
     margin: auto;
 }
 
-p:active{
-    background-color: white;
+span:active{
+    background-color: blueviolet;
 }

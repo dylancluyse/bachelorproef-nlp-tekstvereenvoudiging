@@ -1,44 +1,82 @@
 <!--{% set threshold = 40 %}-->
-
 <script>
-  const paragraph = document.getElementById('text');
-  paragraph.addEventListener('click', (event) => {
-    const clickedWord = event.target.textContent.trim();
-    console.log(clickedWord);
-  });
+  function getSelectedText() {
+    var selectedText = '';
+
+    if (window.getSelection) {
+      selectedText = window.getSelection();
+    }
+    else if (document.getSelection) {
+      selectedText = document.getSelection();
+    }
+    else if (document.selection) {
+      selectedText =
+      document.selection.createRange().text;
+    } else return;
+      
+    var firstP = document.querySelector("#first");
+    firstP.textContent = selectedText;
+  }
 </script>
 
+
+
 <script>
-  // Get all the p tags on the page
-var paragraphs = document.getElementsByTagName('p');
-
-// Loop through each p tag and add a click event listener
-for (var i = 0; i < paragraphs.length; i++) {
-  paragraphs[i].addEventListener('click', function() {
-    // Print the content of the clicked p tag to the console
-    console.log(this.textContent);
-  });
-}
-
+  const callPythonFunctionSummarizer = async (word) => {
+      try {
+          const response = await fetch(`http://localhost:5000/summarize?text=${text}`);
+          const result = await response.json();
+          setResult(result.result);
+      } catch (error) {
+          console.error(error);
+      }
+  };
 </script>
+
+
+
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="..\static\css\style.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <title>Teksten vereenvoudigen: prototype</title>
-  </head>
-  <body>
 
-    <div class="container">
-      <div class="left-container">
-        <h1>Oorspronkelijk</h1>
-        {% for sentence in full_text %}
-          <p class="text">{{ sentence }}</p>
+<head>
+  <link rel="stylesheet" href="..\static\css\style.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <title>Teksten vereenvoudigen: prototype</title>
+  <style>
+    span {
+      cursor: pointer;
+      border-bottom: 1px dashed blue;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <!--OG PDF-->
+    <div class="left-container">
+      <h1>Oorspronkelijk</h1>
+      {% for sentence in full_text %}
+      <p class="text">
+        {% for word in sentence %}
+        <span>{{ word }}</span>
         {% endfor %}
-      </div>
+      </p>
+      {% endfor %}
     </div>
-  </body>
-</html>
 
+    <!--'chatbot'-->
+    <div class="right-container">
+      <input type="checkbox" name="test-01" id="">
+      <input type="checkbox" name="test-02" id="">
+      <input type="checkbox" name="test-03" id="">
+      <input type="checkbox" name="test-04" id="">
+      <input type="button" value="Get Selection" onmousedown="getSelectedText()">
+      <p id="first">This is the original text of the first p tag.</p>
+      <p class="result"></p> <!--geselecteerd woord-->
+    </div>
+  </div>
+</body>
+
+</html>

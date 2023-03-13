@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Click to Call Python Function</title>
+  <meta charset="UTF-8">
+  <style>
+    span {
+      cursor: pointer;
+      border-bottom: 1px dashed blue;
+    }
+  </style>
+</head>
+
+<body>
+  <p>
+    <span>Lorem</span>
+    <span>ipsum</span>
+    <span>dolor</span>
+    <span>sit</span>
+    <span>amet,</span>
+    <span>consectetur</span>
+    <span>adipiscing</span>
+    <span>elit.</span>
+  </p>
+
+  <script>
+    const callPythonFunctionLookUp = async (word) => {
+      try {
+        const response = await fetch(`http://localhost:5000/look-up-word?word=${word}`);
+        return result = await response.json();
+      } catch (error) {
+        console.error(error);
+      }
+    };
+
+    const callPythonFunctionSummarize = async (text) => {
+      try {
+        const response = await fetch(`http://localhost:5000/summarize?text=${text}`);
+        return result = await response.json();
+      } catch (error) {
+        console.error(error);
+      }
+    };
+
+    const spans = document.querySelectorAll('span');
+    spans.forEach((span) => {
+      span.addEventListener('click', async (event) => {
+        const word = event.target.textContent;
+        console.log(word);
+        const response = await callPythonFunctionLookUp(word);
+        console.log(response);
+        const resultElement = document.querySelector('#chosen-word');
+        resultElement.textContent = JSON.stringify(response.result);
+      });
+    });
+
+    async function getSelectedText() {
+      var selectedText = window.getSelection().toString();
+      const response =  await callPythonFunctionSummarize(selectedText);
+      console.log(response);
+      var resultElement = document.querySelector("#summarization");
+      resultElement.textContent = JSON.stringify(response.result);
+    }
+  </script>
+
+  <input type="button" value="Get Selection" onmousedown="getSelectedText()">
+
+  <p id="summarization">This is the original text of the first p tag.</p>
+  <p id="chosen-word"></p>
+
+</body>
+
+</html>

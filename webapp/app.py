@@ -1,5 +1,5 @@
 # Web-app imports
-from flask import Flask, render_template,request
+from flask import Flask, render_template,request,jsonify
 
 # PDF Miner
 from pdfminer.high_level import extract_pages
@@ -43,8 +43,16 @@ def get_full_text(all_pages):
                     total += text_line.get_text()
                     total = re.sub('(.{0})-\s*', '', total) # sommige lijnen worden afgebroken door een liggend streepje --> preventie
     nlp = spacy.load("nl_core_news_sm") if detect(total) == 'nl' else spacy.load("en_core_word_md")
+    
     doc = nlp(total)
-    return doc.sents
+    word_arrays = []
+
+    for sent in doc.sents:
+        word_array = [token.text for token in sent]
+        word_arrays.append(word_array)
+
+    return word_arrays
+
 
 """
 """
@@ -123,21 +131,34 @@ def show_pdf():
 def summarize_abstract():
     pdf = request.files['pdf']
     pdf_data = BytesIO(pdf.read()) 
-    
     all_pages = extract_pages(
         pdf_data,
         page_numbers=None,
         maxpages=1
     )
-
     original, result = get_summary_of_abstract(all_pages=all_pages)
     return render_template('quick-summary.html', result=result, original=original)
 
 
+@app.route('/look-up-word',methods=['GET'])
+def look_up_word():
+    word = request.args.get('word')
+    return jsonify(result=word)
 
 
+@app.route('/summarize',methods=['GET'])
+def summarize():
+    text = request.args.get('text')
+    return jsonify(result=text)
 
 
+@app.route('/foo', methods=['GET'])
+def foo():
+    return render_template('tryout.html')
+
+
+if __name__ == "__main__":
+    app.run()
 
 """
 def pdf_reader():
@@ -208,5 +229,3 @@ def quickSummary():
     return render_template('quick-summary.html', original=Q, result=R, result2=R2, lang=lang)
 """
 
-if __name__ == "__main__":
-    app.run()
