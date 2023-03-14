@@ -24,6 +24,7 @@
     <span>elit.</span>
   </p>
 
+
   <script>
     const callPythonFunctionLookUp = async (word) => {
       try {
@@ -47,11 +48,13 @@
     spans.forEach((span) => {
       span.addEventListener('click', async (event) => {
         const word = event.target.textContent;
-        console.log(word);
         const response = await callPythonFunctionLookUp(word);
         console.log(response);
-        const resultElement = document.querySelector('#chosen-word');
-        resultElement.textContent = JSON.stringify(response.result);
+        var dazzle = document.querySelector(".dazzle");
+        var p = document.createElement("p");
+        var text = document.createTextNode(JSON.stringify(response.result));
+        p.appendChild(text);
+        dazzle.appendChild(p);
       });
     });
 
@@ -59,15 +62,16 @@
       var selectedText = window.getSelection().toString();
       const response =  await callPythonFunctionSummarize(selectedText);
       console.log(response);
-      var resultElement = document.querySelector("#summarization");
-      resultElement.textContent = JSON.stringify(response.result);
+      var dazzle = document.querySelector(".dazzle");
+      var p = document.createElement("p");
+      var text = document.createTextNode(JSON.stringify(response.result));
+      p.appendChild(text);
+      dazzle.appendChild(p);
     }
   </script>
 
   <input type="button" value="Get Selection" onmousedown="getSelectedText()">
-
-  <p id="summarization">This is the original text of the first p tag.</p>
-  <p id="chosen-word"></p>
+  <div class="dazzle"></div>
 
 </body>
 

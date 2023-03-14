@@ -119,7 +119,6 @@ def show_pdf():
     )
 
     sentences = get_full_text(all_pages)
-
     return render_template(
         'pdf-viewer.html',
         full_text = sentences

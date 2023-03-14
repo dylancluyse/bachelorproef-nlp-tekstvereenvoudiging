@@ -1,40 +1,55 @@
 <!--{% set threshold = 40 %}-->
-<script>
-  function getSelectedText() {
-    var selectedText = '';
-
-    if (window.getSelection) {
-      selectedText = window.getSelection();
-    }
-    else if (document.getSelection) {
-      selectedText = document.getSelection();
-    }
-    else if (document.selection) {
-      selectedText =
-      document.selection.createRange().text;
-    } else return;
-      
-    var firstP = document.querySelector("#first");
-    firstP.textContent = selectedText;
-  }
-</script>
-
-
 
 <script>
-  const callPythonFunctionSummarizer = async (word) => {
-      try {
-          const response = await fetch(`http://localhost:5000/summarize?text=${text}`);
-          const result = await response.json();
-          setResult(result.result);
-      } catch (error) {
-          console.error(error);
-      }
+  const callPythonFunctionLookUp = async (word) => {
+    try {
+      const response = await fetch(`http://localhost:5000/look-up-word?word=${word}`);
+      return result = await response.json();
+    } catch (error) {
+      console.error(error);
+    }
   };
+
+  const callPythonFunctionSummarize = async (text) => {
+    try {
+      const response = await fetch(`http://localhost:5000/summarize?text=${text}`);
+      return result = await response.json();
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  var leftContainer = document.querySelector(".left-container");
+  const spans = leftContainer.querySelectorAll("span");
+  spans.forEach((span) => {
+    span.addEventListener('click', async (event) => {
+      const word = event.target.textContent;
+      const response = await callPythonFunctionLookUp(word);
+      console.log(response);
+      var dazzle = document.querySelector(".dazzle");
+      var p = document.createElement("p");
+      var text = document.createTextNode(JSON.stringify(response.result));
+      p.appendChild(text);
+      dazzle.appendChild(p);
+    });
+  });
+
+  async function getSelectedText() {
+    var selectedText = window.getSelection().toString();
+    const response =  await callPythonFunctionSummarize(selectedText);
+    console.log(response);
+    var dazzle = document.querySelector(".dazzle");
+    var p = document.createElement("p");
+    var text = document.createTextNode(JSON.stringify(response.result));
+    p.appendChild(text);
+    dazzle.appendChild(p);
+  }
+
+
+  const spans_check = document.querySelectorAll('span');
+  console.log(spans_check);
+
 </script>
-
-
-
 
 <!DOCTYPE html>
 <html>
@@ -68,15 +83,13 @@
 
     <!--'chatbot'-->
     <div class="right-container">
-      <input type="checkbox" name="test-01" id="">
-      <input type="checkbox" name="test-02" id="">
-      <input type="checkbox" name="test-03" id="">
-      <input type="checkbox" name="test-04" id="">
       <input type="button" value="Get Selection" onmousedown="getSelectedText()">
-      <p id="first">This is the original text of the first p tag.</p>
-      <p class="result"></p> <!--geselecteerd woord-->
+      <div class="dazzle"></div>
     </div>
   </div>
+
+  
+
 </body>
 
 </html>
