@@ -144,13 +144,13 @@ def summarize_abstract():
 @app.route('/look-up-word',methods=['GET'])
 def look_up_word():
     word = request.args.get('word')
-    prompt = f"Wat is {word}? Geef een uitleg met de laagste Flesch-Reading-Ease score. Wat zijn eenvoudigere synoniemen?"
+    prompt = f"Wat is {word}? Geef een uitleg  max. 1 zin en 1 voorbeeld. Geef 3 eenvoudigere synoniemen"
     result = prompt_gpt(
             prompt=prompt,
             max_tokens=200,
             model=COMPLETIONS_MODEL,
             temperature=0)
-    return jsonify(result=result)
+    return jsonify(result=result, prompt=prompt)
 
 
 @app.route('/summarize',methods=['GET'])
@@ -163,13 +163,14 @@ def summarize():
     context:
     {text}
     """
-    prompt_gpt(
+    text = prompt_gpt(
         model=COMPLETIONS_MODEL,
         max_tokens=500,
         prompt=prompt,
         temperature=0
-        )
-    return jsonify(result=text)
+    )
+
+    return jsonify(result=text, prompt=prompt)
 
 @app.route('/extract-text', methods=['GET'])
 def extract():
@@ -181,9 +182,9 @@ def extract():
     result = summarizer(
         #algorithm=...,
         body=text,
-        max_length=460,
-        min_length=60,
-        num_sentences=4,
+        #max_length=460,
+        min_length=100,
+        num_sentences=10,
         #ratio=...,
         #return_as_list=...,
         #use_first=...,
@@ -191,19 +192,9 @@ def extract():
     return jsonify(result=result)
 
 
-@app.route('/lorem', methods=['GET'])
-def lorem():
-    text = request.args.get('text')
-    return render_template('tryout.html')
-
-
 @app.route('/foo', methods=['GET'])
 def foo():
     return render_template('tryout.html')
-
-
-
-
 
 if __name__ == "__main__":
     app.run()
