@@ -19,11 +19,38 @@
     }
   };
 
+  const callPythonFunctionExtractiveSummarize = async (text) => {
+    try {
+      const response = await fetch(`http://localhost:5000/extract-text?text=${text}`);
+      return result = await response.json();
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  const callPythonFunctionAbstractiveSummarization = async (text) => {
+    try {
+      const response = await fetch(`http://localhost:5000/summarize?text=${text}`);
+      return result = await response.json();
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+
+
+  
+
   var leftContainer = document.querySelector(".left-container");
-  const spans = leftContainer.querySelectorAll("span");
+  
+  const spans = document.querySelectorAll('span[word]');
+
   spans.forEach((span) => {
+    const jsCode = span.getAttribute('word');
     span.addEventListener('click', async (event) => {
-      const word = event.target.textContent;
+      //const word = event.target.textContent;
+      const jsCode = span.getAttribute('word');
+      console.log(jsCode)
       const response = await callPythonFunctionLookUp(word);
       console.log(response);
       var dazzle = document.querySelector(".dazzle");
@@ -36,8 +63,19 @@
 
   async function getSelectedText() {
     var selectedText = window.getSelection().toString();
-    const response =  await callPythonFunctionSummarize(selectedText);
-    console.log(response);
+    //const response =  await callPythonFunctionSummarize(selectedText);
+    console.log('printing selected text')
+    //console.log(response);
+    var dazzle = document.querySelector(".dazzle");
+    var p = document.createElement("p");
+    var text = document.createTextNode(JSON.stringify(selectedText));
+    p.appendChild(text);
+    dazzle.appendChild(p);
+  }
+
+  async function extractiveSummarization(){
+    var selectedText = window.getSelection().toString();
+    const response =  await callPythonFunctionExtractiveSummarize(selectedText);
     var dazzle = document.querySelector(".dazzle");
     var p = document.createElement("p");
     var text = document.createTextNode(JSON.stringify(response.result));
@@ -45,9 +83,15 @@
     dazzle.appendChild(p);
   }
 
-
-  const spans_check = document.querySelectorAll('span');
-  console.log(spans_check);
+  async function abstractiveSummarization(){
+    var selectedText = window.getSelection().toString();
+    const response =  await callPythonFunctionAbstractiveSummarization(selectedText);
+    var dazzle = document.querySelector(".dazzle");
+    var p = document.createElement("p");
+    var text = document.createTextNode(JSON.stringify(response.result));
+    p.appendChild(text);
+    dazzle.appendChild(p);
+  }
 
 </script>
 
@@ -75,7 +119,7 @@
       {% for sentence in full_text %}
       <p class="text">
         {% for word in sentence %}
-        <span>{{ word }}</span>
+        <span data-js="{{ word }}">{{ word }}</span>
         {% endfor %}
       </p>
       {% endfor %}
@@ -84,6 +128,13 @@
     <!--'chatbot'-->
     <div class="right-container">
       <input type="button" value="Get Selection" onmousedown="getSelectedText()">
+      <input type="button" value="Vertaal dit naar NL" onmousedown="getSelectedText()">
+      <input type="button" value="Eenvoudige woordenschat" onmousedown="getSelectedText()">
+      <input type="button" value="Eenvoudige grammatica" onmousedown="getSelectedText()">
+      <input type="button" value="Samenvatten" onmousedown="hybridSummarization()">
+      <input type="button" value="Wat zijn de belangrijkste zinnen?" onmousedown="extractiveSummarization()">
+      <input type="button" value="Schrijf dit in eigen woorden" onmousedown="abstractiveSummarization()">
+      <input type="button" value="Wat betekent dit woord?" onmousedown="getSelectedText()">
       <div class="dazzle"></div>
     </div>
   </div>

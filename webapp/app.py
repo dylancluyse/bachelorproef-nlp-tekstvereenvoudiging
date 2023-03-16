@@ -11,6 +11,7 @@ from io import BytesIO
 # 
 from langdetect import detect
 import fitz, nltk, openai, configparser, os, spacy, re
+from summarizer import Summarizer
 
 # import nltk, PyPDF2, textstat
 # import openai, configparser, os
@@ -20,6 +21,7 @@ app = Flask(__name__)
 """
 used gpt-3 models
 """
+# COMPLETIONS_MODEL = "gpt-3.5-turbo"
 COMPLETIONS_MODEL = "text-davinci-003"
 EMBEDDING_MODEL = "text-embedding-ada-002"
 config = configparser.ConfigParser()
@@ -142,18 +144,65 @@ def summarize_abstract():
 @app.route('/look-up-word',methods=['GET'])
 def look_up_word():
     word = request.args.get('word')
-    return jsonify(result=word)
+    prompt = f"Wat is {word}? Geef een uitleg met de laagste Flesch-Reading-Ease score. Wat zijn eenvoudigere synoniemen?"
+    result = prompt_gpt(
+            prompt=prompt,
+            max_tokens=200,
+            model=COMPLETIONS_MODEL,
+            temperature=0)
+    return jsonify(result=result)
 
 
 @app.route('/summarize',methods=['GET'])
 def summarize():
     text = request.args.get('text')
+    sentences = 5
+    max_words = 10
+    prompt = f"""
+    Vat deze tekst samen in max {sentences} zinnen en max {max_words} woorden per zin.
+    context:
+    {text}
+    """
+    prompt_gpt(
+        model=COMPLETIONS_MODEL,
+        max_tokens=500,
+        prompt=prompt,
+        temperature=0
+        )
     return jsonify(result=text)
+
+@app.route('/extract-text', methods=['GET'])
+def extract():
+    text = request.args.get('text')
+    # sents = nltk.sent_tokenize(text)
+    
+
+    summarizer = Summarizer()
+    result = summarizer(
+        #algorithm=...,
+        body=text,
+        max_length=460,
+        min_length=60,
+        num_sentences=4,
+        #ratio=...,
+        #return_as_list=...,
+        #use_first=...,
+    )
+    return jsonify(result=result)
+
+
+@app.route('/lorem', methods=['GET'])
+def lorem():
+    text = request.args.get('text')
+    return render_template('tryout.html')
 
 
 @app.route('/foo', methods=['GET'])
 def foo():
     return render_template('tryout.html')
+
+
+
 
 
 if __name__ == "__main__":

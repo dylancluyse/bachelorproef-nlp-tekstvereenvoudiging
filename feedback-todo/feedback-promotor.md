@@ -1,5 +1,30 @@
 ## Feedback onderzoeksvoorstel
 
+De onderstaande feedback werd tijdens het feedbackgesprek met Lena op 14 maart genoteerd.
+
+```md
+--> reactie, hoe gaan zij om? (afhankelijk)
+	--> iemand met veel ervaring voor deze doelgroep? (expert)
+
+--> richtlijnen = zinvol --> wijzen aan op de nodige criteria
+--> accentueren waar manuele tekstvereenvoudiging
+
+
+
+hoofddoel van tekstvereenvouding in dit onderzoek: globaal begrip krijgen
+
+
+--> intensief lezen: de inhoud volledig begrijpen, per alinea sleutelwoorden achterhalen, verbanden tussen alinea's zoeken, linking words
+
+--> richtlijnen
+
+
+--> FRE oorspronkelijk <-> FRE na vereenvoudiging (tool)
+
+
+kennis met dyslexie? (intuitie) vs kennis met expertise (richtlijnen)
+```
+
 <<<<<<< HEAD
 De onderstaande feedback werd tijdens het feedbackgesprek met Jana op 6 maart genoteerd.
 
