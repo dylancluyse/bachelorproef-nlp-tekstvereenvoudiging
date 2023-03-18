@@ -1,9 +1,9 @@
 <!--{% set threshold = 40 %}-->
 
 <script>
-  const callPythonFunctionLookUp = async (word) => {
+  const callPythonFunctionLookUp = async (word, context) => {
     try {
-      const response = await fetch(`http://localhost:5000/look-up-word?word=${word}`);
+      const response = await fetch(`http://localhost:5000/look-up-word?word=${word}&context=${context}`);
       return result = await response.json();
     } catch (error) {
       console.error(error);
@@ -37,15 +37,26 @@
     }
   };
 
-
+  const callPythonFunctionSyntacticSimplification = async (text, prompt) => {
+    try {
+      const response = await fetch(`http://localhost:5000/syntactic-simplify?text=${text}&prompt=${prompt}`);
+      return result = await response.json();
+    } catch (error) {
+      console.error(error);
+    }
+  };
 
   document.addEventListener('DOMContentLoaded', () => {
     const spans = document.querySelectorAll('.lexical');
     spans.forEach((span) => {
-      const jsCode = span.getAttribute('word');
       span.addEventListener('click', async (event) => {
+        sentence_of_origin = span.closest('.text');
+        var context = '';
+        for (const child of sentence_of_origin.children) {
+          context = context + ' ' + child.textContent;
+        }
         const word = event.target.textContent;
-        const response = await callPythonFunctionLookUp(word);
+        const response = await callPythonFunctionLookUp(word, context);
         console.log(response);
         var dazzle = document.querySelector(".dazzle");
         var p = document.createElement("p");
@@ -59,6 +70,8 @@
       });
     });
   });
+
+
 
   async function getSelectedText() {
     var selectedText = window.getSelection().toString();
@@ -94,9 +107,23 @@
     dazzle.appendChild(p2);
   }
 
-  async function emptyChat(){
+  async function emptyChat() {
     const dazzleDiv = document.querySelector('.dazzle');
     dazzleDiv.innerHTML = '';
+  }
+
+  async function syntacticSimplification() {
+    var selectedText = window.getSelection().toString();
+    const response = await callPythonFunctionSyntacticSimplification(selectedText);
+    var dazzle = document.querySelector(".dazzle");
+    var p = document.createElement("p");
+    var p2 = document.createElement("p");
+    var text = document.createTextNode(JSON.stringify(response.result));
+    var prompt = document.createTextNode(JSON.stringify(response.prompt));
+    p.appendChild(prompt);
+    dazzle.appendChild(p)
+    p2.appendChild(text);
+    dazzle.appendChild(p2);
   }
 
 </script>
@@ -127,15 +154,16 @@
     <div class="fixed-bottom">
       <div class="buttons">
         <input type="button" value="Get Selection" onmousedown="getSelectedText()">
-        <input type="button" value="Vertaal dit naar NL" onmousedown="getSelectedText()">
-        <input type="button" value="Eenvoudige woordenschat" onmousedown="getSelectedText()">
-        <input type="button" value="Eenvoudige grammatica" onmousedown="getSelectedText()">
+        <!--<input type="button" value="Vertaal dit naar NL" onmousedown="getSelectedText()">-->
+        <input type="button" value="Eenvoudige woordenschat" onmousedown="lexicalSimplification()">
+        <input type="button" value="Eenvoudige grammatica" onmousedown="syntacticSimplification()">
         <input type="button" value="Samenvatten" onmousedown="hybridSummarization()">
         <input type="button" value="Wat zijn de belangrijkste zinnen?" onmousedown="extractiveSummarization()">
         <input type="button" value="Schrijf dit in eigen woorden" onmousedown="abstractiveSummarization()">
         <input type="button" value="Wat betekent dit woord?" onmousedown="getSelectedText()">
         <input type="button" value="Chat leegmaken?" onmousedown="emptyChat()">
       </div>
+      <!--append-div-->
       <div class="dazzle"></div>
     </div>
   </div>

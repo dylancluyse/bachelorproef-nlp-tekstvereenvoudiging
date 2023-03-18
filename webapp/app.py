@@ -135,7 +135,7 @@ def summarize_abstract():
     all_pages = extract_pages(
         pdf_data,
         page_numbers=None,
-        maxpages=1
+        maxpages=5
     )
     original, result = get_summary_of_abstract(all_pages=all_pages)
     return render_template('quick-summary.html', result=result, original=original)
@@ -144,7 +144,8 @@ def summarize_abstract():
 @app.route('/look-up-word',methods=['GET'])
 def look_up_word():
     word = request.args.get('word')
-    prompt = f"Wat is {word}? Geef een uitleg  max. 1 zin en 1 voorbeeld. Geef 3 eenvoudigere synoniemen"
+    context = request.args.get('context')
+    prompt = f"""Leg {word} uit in de context van "{context}"? Geef een uitleg  max. 1 zin en 1 voorbeeld. Geef 3 eenvoudigere synoniemen"""
     result = prompt_gpt(
             prompt=prompt,
             max_tokens=200,
@@ -177,7 +178,6 @@ def extract():
     text = request.args.get('text')
     # sents = nltk.sent_tokenize(text)
     
-
     summarizer = Summarizer()
     result = summarizer(
         #algorithm=...,
@@ -191,6 +191,25 @@ def extract():
     )
     return jsonify(result=result)
 
+
+@app.route('/syntactic-simplify', methods=['GET'])
+def syntactic_simplify():
+    text = request.args.get('text')
+    max_words = 10
+    prompt = f"""
+    Breek zinnen langer dan {max_words} woorden op. Verander verwijswoorden naar de oorspronkelijke naam.
+    Vervang tangconstructies door de bijzin naar het begin of het einde te plaatsen. 
+    Vervang voorzetseluitdrukkingen en samengestelde werkwoorden.
+    context:
+    {text}
+    """
+    text = prompt_gpt(
+        model=COMPLETIONS_MODEL,
+        max_tokens=500,
+        prompt=prompt,
+        temperature=0
+    )
+    return jsonify(result=text, prompt=prompt)
 
 @app.route('/foo', methods=['GET'])
 def foo():
