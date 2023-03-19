@@ -11,5 +11,67 @@
 %% mogelijke manier toegepast hebt om een antwoord te vinden op de
 %% onderzoeksvraag.
 
-\lipsum[21-25]
+\section{Requirementsanalyse}
+
+Aan de hand van een vergelijkende studie met beschikbare tools, API's en software wordt gekeken hoe scholieren met dyslexie in de derde graad van het middelbaar onderwijs worden ondersteund. Eerst wordt de software aangehaald dat momenteel aan scholieren met dyslexie wordt uitgeleend. Daarna worden nieuwe en opkomende tools aangereikt die specifiek toegespitst zijn op het vereenvoudigen en samenvatten van teksten. Uit dit deel vloeit een lijst van benodigdheden uit waaraan het uitgewerkte prototype moet voldoen.
+
+\subsection{Software in het onderwijs}
+
+\subsubsection{Resoomer}
+
+\subsubsection{Scispace}
+
+\subsubsection{GPT-3 via Open AI Playground}
+
+\subsubsection{Chat GPT}
+
+\subsubsection{GPT-4}
+
+% TODO optioneel
+
+\subsubsection{Bing AI}
+
+% De chatbot gebouwd op Bing AI bestaat als browserextensie en als aparte webapplicatie.
+
+De experimenten met teksten wijzen uit dat Bing AI de nadruk legt op het behouden van bronreferenties. Wanneer expliciet gevraagd, geeft het model bronnen terug buiten het oorspronkelijke artikel. 
+
+\subsection{Conclusie}
+
+\section{Ontwikkelen van een prototype}
+
+\subsection{Schetsing met Python notebooks}
+
+De werking van tekstvereenvoudiging via Python-code wordt optimaal weergegeven in Python notebooks. Deze omgeving belemmert niet het gebruik van API's en voorziet een snelle weergave zonder dat code uitgevoerd moet worden.
+
+\subsubsection{PDF text mining}
+
+De meest gebruikte vorm van tekstbestanden is in de vorm van PDF-bestanden. Methoden om deze bestanden uit te lezen en om te zetten naar tekstdata bestaan reeds in de vorm van Python-bibliotheken. De keuze van de bibliotheek speelt wel een rol. Sommige Python-bibliotheken bieden meer functies aan die dynamischer omgaan met de inhoud van een PDF-document. PDF Miner biedt zo extra functies aan om de metadata van een PDF-bestand op te halen, classificatie op basis van lettertypes of pagina's per titel op te halen. Deze functies bevatten een intuïtieve naamgeving en besparen ontwikkelaars de overbodige werklast.
+
+\begin{lstlisting}
+content...
+\end{lstlisting}
+
+\subsubsection{Data pre-processing}
+
+\subsubsection{Extraherende samenvatting}
+
+\begin{lstlisting}
+content...
+\end{lstlisting}
+
+\subsection{Integreren naar Flask}
+
+Flask biedt een snelle en toegankelijke opzet aan voor Python-ontwikkelaars. De combinatie van een robuuste front-end en back-end maakt dit binnen de schaal van een prototype ideaal.
+
+\begin{lstlisting}
+
+@app.route('/', methods=['GET'])
+def home():
+	return render_template('index.html')
+
+if __name__ == "__main__":
+	app.run()
+\end{lstlisting}
+
+% \subsection{title}
 
