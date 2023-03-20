@@ -10,7 +10,7 @@ from io import BytesIO
 
 # 
 from langdetect import detect
-import fitz, nltk, openai, configparser, os, spacy, re
+import fitz, nltk, openai, configparser, os, spacy, re, yake
 from summarizer import Summarizer
 
 # import nltk, PyPDF2, textstat
@@ -28,9 +28,18 @@ config = configparser.ConfigParser()
 config.read('config.ini')
 openai.api_key = config['openai']['api_key']
 
-"""
-"""
 
+"""
+Return ten keywords
+"""
+def get_keywords(text_without_stopwords):
+    language = "nl"
+    max_ngram_size = 1
+    deduplication_threshold = 0.9
+    numOfKeywords = 10
+    custom_kw_extractor = yake.KeywordExtractor(lan=language, n=max_ngram_size, dedupLim=deduplication_threshold, top=numOfKeywords, features=None)
+    keywords = custom_kw_extractor.extract_keywords(text_without_stopwords)
+    return keywords
 
 
 """
