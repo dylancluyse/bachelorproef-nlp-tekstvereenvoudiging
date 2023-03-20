@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  19 MAR 2023 02:07
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2022.12.27)  20 MAR 2023 21:11
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -3096,18 +3096,18 @@ physiological tracking of speech-structure
 
 [73] [74] (../output/CluyseDylanBP.aux)
 Package rerunfilecheck Info: File `CluyseDylanBP.out' has not changed.
-(rerunfilecheck)             Checksum: 0D7D3C54513CAC54EEE8F5550AC263F6;5965.
+(rerunfilecheck)             Checksum: 87B267DBCE73BF40D4AA4196B5479B1C;6112.
 Package logreq Info: Writing requests to 'CluyseDylanBP.run.xml'.
 \openout1 = `CluyseDylanBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48345 strings out of 478657
- 944282 string characters out of 5861312
- 2132019 words of memory out of 5000000
- 67087 multiletter control sequences out of 15000+600000
+ 48346 strings out of 478657
+ 944294 string characters out of 5861312
+ 2131025 words of memory out of 5000000
+ 67088 multiletter control sequences out of 15000+600000
  406490 words of font info for 99 fonts, out of 8000000 for 9000
  351 hyphenation exceptions out of 8191
  113i,12n,139p,2569b,7101s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../output/CluyseDylanBP.xdv (84 pages, 2031040 bytes).
+Output written on ../output/CluyseDylanBP.xdv (84 pages, 2046160 bytes).
