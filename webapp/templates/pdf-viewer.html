@@ -139,6 +139,10 @@
 
 <body>
 
+  {% for kw in keywords %}
+    <span class="keyword">{{ kw }}</span>
+  {% endfor %}
+
   <div class="container">
     <div class="text-container">
       {% for sentence in full_text %}

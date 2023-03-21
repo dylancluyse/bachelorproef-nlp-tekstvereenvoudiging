@@ -12,6 +12,7 @@ from io import BytesIO
 from langdetect import detect
 import fitz, nltk, openai, configparser, os, spacy, re, yake
 from summarizer import Summarizer
+from spacy.matcher import PhraseMatcher
 
 # import nltk, PyPDF2, textstat
 # import openai, configparser, os
@@ -28,19 +29,46 @@ config = configparser.ConfigParser()
 config.read('config.ini')
 openai.api_key = config['openai']['api_key']
 
+"""
+Returns full-text without stopwords assigned by SpaCy's dutch library
+"""
+def remove_stopwords(text_with_stopwords):
+    nlp = spacy.load("nl_core_news_sm") if detect(text_with_stopwords) == 'nl' else spacy.load("en_core_word_md")
+    doc = nlp(text_with_stopwords)
+    words_without_stopwords = [token.text for token in doc if not token.is_stop]
+    return " ".join(words_without_stopwords)
+
 
 """
 Return ten keywords
 """
 def get_keywords(text_without_stopwords):
-    language = "nl"
+    lang = detect(" ".join(text_without_stopwords))
     max_ngram_size = 1
     deduplication_threshold = 0.9
     numOfKeywords = 10
-    custom_kw_extractor = yake.KeywordExtractor(lan=language, n=max_ngram_size, dedupLim=deduplication_threshold, top=numOfKeywords, features=None)
+    custom_kw_extractor = yake.KeywordExtractor(lan=lang, n=max_ngram_size, dedupLim=deduplication_threshold, top=numOfKeywords, features=None)
     keywords = custom_kw_extractor.extract_keywords(text_without_stopwords)
     return keywords
 
+
+def get_keyword_related_sentences(keywords, text):
+    nlp = spacy.load('nl_core_news_sm')
+    phrase_matcher = PhraseMatcher(nlp.vocab)
+    phrases = ['Cupere','Natuurwetenschappen']
+    patterns = [nlp(text) for text in phrases]
+
+    for kw in keywords:
+        phrase_matcher.add(kw, None, *patterns)
+    
+    doc = nlp(text)
+
+    sentences = []
+
+    for sent in doc.sents:
+        for match_id, start, end in phrase_matcher(nlp(sent.text)):
+            if nlp.vocab.strings[match_id] in keywords:
+                sentences.append(sent.text)
 
 """
 
@@ -63,7 +91,6 @@ def get_full_text(all_pages):
         word_arrays.append(word_array)
 
     return word_arrays
-
 
 """
 """
@@ -92,7 +119,7 @@ def get_summary_of_abstract(all_pages):
     total = "".join(total)
     print(total[:400])
     prompt = f"""
-    Schrijf dit zo eenvoudig mogelijk. Gebruik eenvoudige woordenschat en zinnen die niet langer dan 10 woorden zijn. Vermeld zeker de probleemstelling, resultaten en conclusie.
+    Schrijf dit zo eenvoudig mogelijk. Gebruik eenvoudige woordenschat en zinnen die niet langer dan 12 woorden zijn. Vermeld zeker de probleemstelling, resultaten en conclusie.
     context:
     {total[:400]}
     """
@@ -130,9 +157,14 @@ def show_pdf():
     )
 
     sentences = get_full_text(all_pages)
+    # text = " ".join(sentences)
+
+    keywords = ""
+
     return render_template(
         'pdf-viewer.html',
-        full_text = sentences
+        full_text = sentences,
+        keywords  = keywords
     )
 
 """
@@ -150,6 +182,9 @@ def summarize_abstract():
     return render_template('quick-summary.html', result=result, original=original)
 
 
+"""
+TODO: 'eenvoudig' toevoegen
+"""
 @app.route('/look-up-word',methods=['GET'])
 def look_up_word():
     word = request.args.get('word')

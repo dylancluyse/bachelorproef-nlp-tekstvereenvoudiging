@@ -3,51 +3,35 @@
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="..\static\css\style.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
-    <title>Teksten vereenvoudigen: prototype</title>
-  </head>
-  <body>
-    <h1>Text Simplification</h1>
-    <div class="container-param">
-      <h2>Parameters</h2>
 
-      <div class="param">
-        <select name="woordfrequentie / top_g" id="temperature">
-          <option value=0>Creatief</option>
-          <option value=50>Matig</option>
-          <option value=100>Herhalend</option>
-        </select>
-      </div>
+<head>
+  <link rel="stylesheet" href="..\static\css\style.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <title>Tekstvereenvoudiging: prototype</title>
+</head>
 
-      <div class="param">
-        <select name="temperature" id="temperature">
-          <option value=0>Experimenteel</option>
-          <option value=50>Standaard</option>
-          <option value=100>Serieus</option>
-        </select>
-      </div>
+<body>
+  <h1>Prototype voor tekstvereenvoudiging</h1>
+
+  <div class="container">
+    <div class="container-index">
+      <h2>Voor leerlingen</h2>
+      <form action="/view-pdf" method="post" enctype="multipart/form-data">
+        <label for="pdf">Voeg een PDF toe:</label>
+        <input type="file" id="pdf" name="pdf"><br><br>
+        <input type="submit" value="View PDF">
+      </form>
     </div>
-    
-    <div class="container">
-      <div class="container-index">
-        <h2>PDF bekijken</h2>
-        <form action="/view-pdf" method="post" enctype="multipart/form-data">
-          <label for="pdf">Voeg een PDF toe:</label>
-          <input type="file" id="pdf" name="pdf"><br><br>
-          <input type="submit" value="View PDF">
-        </form>
-      </div>
 
-      <div class="container-index">
-        <h2>Snelle samenvatting</h2>
-        <form action="/quick" method="post" enctype="multipart/form-data">
-          <label for="pdf">Voeg een PDF toe:</label>
-          <input type="file" id="pdf" name="pdf"><br><br>
-          <input type="submit" value="View PDF">
-        </form>
-      </div>
+    <div class="container-index">
+      <h2>Voor lectoren</h2>
+      <form action="/quick" method="post" enctype="multipart/form-data">
+        <label for="pdf">Voeg een PDF toe:</label>
+        <input type="file" id="pdf" name="pdf"><br><br>
+        <input type="submit" value="View PDF">
+      </form>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
