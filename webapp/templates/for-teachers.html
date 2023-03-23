@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="..\static\css\style.css">
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <title>Teksten vereenvoudigen</title>
+
+  <script>
+    async function getSelectedText() {
+    var selectedText = window.getSelection().toString();
+    console.log('printing selected text')
+    const textarea = document.querySelector('textarea');
+    textarea.value = selectedText;
+  }
+  </script>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <p>taal: {{lang}}<br></p>
+    <p>titel: {{title}}<br></p>
+    <p>onderwerp: {{subject}}</p>
+  </div>
+
+  <div class="container">
+    <div class="left-container">
+      {% for sentence in original %}
+      <p class="text">
+        {% for word in sentence %}
+        <span class="lexical">{{ word }}</span>
+        {% endfor %}
+      </p>
+      {% endfor %}
+    </div>
+
+    <div class="right-container">
+
+      <div class="">
+
+        <div class="buttons">
+          <input type="button" value="Get Selection" onmousedown="getSelectedText()">
+        </div>
+
+        <form action="/summarise-with-presets" method="post">
+          <textarea name="" id="" cols="30" rows="10">
+
+          </textarea>
+
+          <h2>Lexicale vereenvoudiging</h2>
+          <fieldset>
+            <input type="checkbox" id="metric" name="metric" value="metric">
+            <label for="metric">Metriek om moeilijke zinnen te herkennen</label><br>
+
+            <input type="checkbox" id="keywords" name="keywords" value="keywords">
+            <label for="keywords">Belangrijke kernwoorden automatisch herkennen</label><br>
+
+            <input type="checkbox" id="language" name="language" value="language">
+            <label for="language">Automatische taalherkenning</label><br>
+
+            <input type="checkbox" id="vocabulary" name="vocabulary" value="vocabulary">
+            <label for="vocabulary">Moeilijke woordenschat vervangen</label><br>
+
+            <input type="checkbox" id="glossary" name="glossary" value="glossary">
+            <label for="glossary">Glossary aanmaken (vak/wetenschappelijk jarg.)</label><br>
+          </fieldset>
+
+          <h2>Syntactische vereenvoudiging</h2>
+          <fieldset>
+            <input type="checkbox" id="syntax" name="syntax" value="syntax">
+            <label for="syntax">Tangconstructies aanpassen</label><br>
+
+            <input type="checkbox" id="sentence_length" name="sentence_length" value="sentence_length">
+            <label for="sentence_length">Zinnen langer dan tien woorden inkorten</label><br>
+
+            <input type="checkbox" id="pronouns" name="pronouns" value="pronouns">
+            <label for="pronouns">Verwijswoorden aanpassen</label><br>
+
+            <input type="checkbox" id="prepositions" name="prepositions" value="prepositions">
+            <label for="prepositions">Voorzetseluitdrukkingen vervangen</label><br>
+
+            <input type="checkbox" id="compound_verbs" name="compound_verbs" value="compound_verbs">
+            <label for="compound_verbs">Samengestelde werkwoorden vervangen</label><br>
+          </fieldset>
+
+
+          <h2>Samenvatten</h2>
+          <fieldset>
+            <input type="checkbox" id="citation" name="citation" value="citation">
+            <label for="citation">Bronvermelding</label><br>
+
+            <input type="checkbox" id="paraphrasing" name="paraphrasing" value="paraphrasing">
+            <label for="paraphrasing">Parafrasering / abstraherende samenvatting</label><br>
+
+            <input type="checkbox" id="important_sentences" name="important_sentences" value="important_sentences">
+            <label for="important_sentences">Automatische markering van de belangrijke zinnen</label><br>
+
+            <input type="checkbox" id="extractive_summary" name="extractive_summary" value="extractive_summary">
+            <label for="extractive_summary">Extraherende samenvatting</label><br>
+
+            <input type="checkbox" id="summary_length" name="summary_length" value="summary_length">
+            <label for="summary_length">Lengte van de samenvatting</label><br>
+
+            <input type="checkbox" id="keyword_summary" name="keyword_summary" value="keyword_summary">
+            <label for="keyword_summary">Samenvatten op basis van kernwoorden</label>
+          </fieldset>
+
+          <button type="submit" value="Samenvatten" id="summarize-with-presets-button"></button>
+        </form>
+
+      </div>
+
+    </div>
+
+</body>
+
+</html>

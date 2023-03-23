@@ -169,18 +169,29 @@ def show_pdf():
 
 """
 """
-@app.route('/quick', methods=['GET','POST'])
+@app.route('/for-teachers', methods=['GET','POST'])
 def summarize_abstract():
     pdf = request.files['pdf']
     pdf_data = BytesIO(pdf.read()) 
     all_pages = extract_pages(
         pdf_data,
         page_numbers=None,
-        maxpages=5
+        maxpages=100
     )
-    original, result = get_summary_of_abstract(all_pages=all_pages)
-    return render_template('quick-summary.html', result=result, original=original)
 
+    sentences = get_full_text(all_pages)
+
+    return render_template('for-teachers.html', original=sentences, lang='nl', title='voorbeeld titel', subject='voorbeeld van onderwerp')
+
+
+"""
+"""
+@app.route('/summarise-with-presets', methods=['GET','POST'])
+def summarize_with_presets():
+    presets = request.args
+    print(presets)
+    print(jsonify(presets))
+    return render_template('index.html')
 
 """
 TODO: 'eenvoudig' toevoegen
@@ -189,7 +200,7 @@ TODO: 'eenvoudig' toevoegen
 def look_up_word():
     word = request.args.get('word')
     context = request.args.get('context')
-    prompt = f"""Leg {word} uit in de context van "{context}"? Geef een uitleg  max. 1 zin en 1 voorbeeld. Geef 3 eenvoudigere synoniemen"""
+    prompt = f"""Leg {word} eenvoudig uit in de context van "{context}"? Geef een uitleg  max. 1 zin en 1 voorbeeld. Geef 3 eenvoudigere synoniemen"""
     result = prompt_gpt(
             prompt=prompt,
             max_tokens=200,

@@ -20,6 +20,10 @@ body {
     height: 100%;
 }
 
+.left-container, .right-container{
+    width:45%;
+}
+
 .text-container {
     box-sizing: border-box;
     padding: 10px;

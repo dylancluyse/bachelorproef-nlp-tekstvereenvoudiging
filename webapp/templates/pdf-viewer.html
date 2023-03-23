@@ -78,8 +78,7 @@
     console.log('printing selected text')
     var dazzle = document.querySelector(".dazzle");
     var p = document.createElement("p");
-    var text = document.createTextNode(JSON.stringify(selectedText));
-    p.appendChild(text);
+    p.appendChild(selectedText);
     dazzle.appendChild(p);
   }
 
