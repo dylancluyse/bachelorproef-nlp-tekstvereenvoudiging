@@ -18,18 +18,19 @@
   <div class="container">
     <div class="left-container">
       {% for page in pdf %}
-      <h1>{{page[1]}}</h1>
+      <div class="page"><h1>{{page[1]}}</h1>
       {% for paragraph in page[0] %}
       <p>
         {% for sentence in paragraph %}
         <span class="sentence">
-        {% for word in sentence %}
-        <span class="word">{{word}}</span>
-        {% endfor %}
+          {% for word in sentence %}
+          <span class="word">{{word}}</span>
+          {% endfor %}
         </span>
         {% endfor %}
       </p>
       {% endfor %}
+    </span>
       {% endfor %}
     </div>
 
@@ -132,12 +133,10 @@
             samenvatten</button>
         </form>
 
-        <form action="/generate-glossary">
+        <form action="/generate-glossary" method="post">
           <h2>Woordenlijst</h2>
           <fieldset>
-            <textarea name="" id="glossaryList" cols="30" rows="10">
-
-            </textarea>
+            <textarea name="glossaryList" id="glossaryList" cols="30" rows="10"></textarea>
             <button type="submit">Glossary-lijst genereren</button>
           </fieldset>
         </form>
@@ -158,23 +157,22 @@
       words.forEach((w) => {
         w.addEventListener('click', async (event) => {
           if (checkboxAddWordToGlossary.checked) {
-            console.log(w);
             var pTag = event.target;
             var textarea = document.getElementById("glossaryList");
+            // geselecteerd woord markeren
             pTag.style.backgroundColor = "black";
             pTag.style.color = "white";
             pTag.style.fontWeight = "bold";
-            textarea.value += "\n" + pTag.innerHTML;
+            // paginanummer ophalen
+            var page = pTag.parentNode.parentNode.parentNode;
+            var pageNumber = page.querySelector('h1').textContent;
+            // woord met paginanummering toevoegen aan textarea
+            textarea.value += "\n" + pTag.innerHTML + ':' + pageNumber;
           }
         })
       })
     }
   });
-
-  /*
-  Glossary-lijst maken
-  */
-
 
   /*
   Deleting sentences

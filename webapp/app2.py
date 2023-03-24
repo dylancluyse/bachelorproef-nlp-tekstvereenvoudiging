@@ -16,6 +16,7 @@ from spacy.matcher import PhraseMatcher
 
 #
 import Reader as read
+import Glossary as gloss
 
 app = Flask(__name__)
 
@@ -47,7 +48,6 @@ def teaching_tool():
         page_numbers=None,
         maxpages=100
     )
-
 
     """[page, page, page, ..., page]"""
     full_text = read.get_full_text_dict(all_pages)
@@ -114,6 +114,26 @@ return
 @app.route('/foo', methods=['GET'])
 def foo():
     return render_template('tryout.html')
+
+"""
+"""
+@app.route('/generate-glossary', methods=['GET','POST'])
+def generate_glossary():
+    glossary = request.form.get('glossaryList')
+
+    words = glossary.split('\n')
+    grouped_words = [words[i:i+5] for i in range(0, len(words), 5)]
+
+    arr = []
+    for set in grouped_words:
+        arr.append(gloss.generate_glossary_for_set(set))
+
+    gloss.generate_pdf()
+    return render_template(
+        'download-pdf.html', 
+        glossary=arr
+        )
+
 
 """
 """
