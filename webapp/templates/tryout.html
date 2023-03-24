@@ -40,26 +40,6 @@
 </body>
 
 <script>
-  const callPythonFunctionLookUp = async (word) => {
-    try {
-      const response = await fetch(`http://localhost:5000/look-up-word?word=${word}`);
-      return result = await response.json();
-    } catch (error) {
-      console.error(error);
-    }
-  };
-
-  const callPythonFunctionSummarize = async (text) => {
-    try {
-      const response = await fetch(`http://localhost:5000/summarize?text=${text}`);
-      return result = await response.json();
-    } catch (error) {
-      console.error(error);
-    }
-  };
-
-
-
   /*
   Marking titles as a teacher
   */

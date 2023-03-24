@@ -14,9 +14,6 @@ import openai, configparser, os, spacy, re, yake
 from summarizer import Summarizer
 from spacy.matcher import PhraseMatcher
 
-# import nltk, PyPDF2, textstat
-# import openai, configparser, os
-
 app = Flask(__name__)
 
 """
@@ -37,7 +34,10 @@ TODO
 Data-cleaning
 """
 def text_cleaning(text_from_pdf):
-    return 'test'
+    text_from_pdf = str(text_from_pdf).replace('\n',' ')
+    text_from_pdf = str(text_from_pdf).strip(' ')
+    text_from_pdf = str(text_from_pdf).strip('.')
+    return text_from_pdf
 
 """
 Returns full-text without stopwords assigned by SpaCy's dutch library
@@ -61,24 +61,23 @@ def get_keywords(text_without_stopwords):
     keywords = custom_kw_extractor.extract_keywords(text_without_stopwords)
     return keywords
 
-
+"""
+"""
 def get_keyword_related_sentences(keywords, text):
     nlp = spacy.load(dutch_spacy_model)
     phrase_matcher = PhraseMatcher(nlp.vocab)
     phrases = ['Cupere','Natuurwetenschappen']
     patterns = [nlp(text) for text in phrases]
-
     for kw in keywords:
         phrase_matcher.add(kw, None, *patterns)
-    
+
     doc = nlp(text)
-
     sentences = []
-
     for sent in doc.sents:
         for match_id, start, end in phrase_matcher(nlp(sent.text)):
             if nlp.vocab.strings[match_id] in keywords:
                 sentences.append(sent.text)
+
 
 """
 
