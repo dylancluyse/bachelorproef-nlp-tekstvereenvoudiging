@@ -7,12 +7,7 @@
   <title>Teksten vereenvoudigen</title>
 
   <script>
-    async function getSelectedText() {
-    var selectedText = window.getSelection().toString();
-    console.log('printing selected text')
-    const textarea = document.querySelector('textarea');
-    textarea.value = selectedText;
-  }
+
   </script>
 
 </head>
@@ -20,9 +15,9 @@
 <body>
 
   <div class="container">
-    <p>taal: {{lang}}<br></p>
-    <p>titel: {{title}}<br></p>
-    <p>onderwerp: {{subject}}</p>
+    <p>taal: {{lang}}</p><br>
+    <p>titel: {{title}}</p><br>
+    <p>onderwerp: {{subject}}</p><br>
   </div>
 
   <div class="container">
@@ -41,13 +36,22 @@
       <div class="">
 
         <div class="buttons">
-          <input type="button" value="Get Selection" onmousedown="getSelectedText()">
+          <input type="button" hidden value="Get Selection" onmousedown="getSelectedText()">
         </div>
 
         <form action="/summarise-with-presets" method="post">
-          <textarea name="" id="" cols="30" rows="10">
+          <textarea name="" id="" cols="30" rows="10" disabled hidden></textarea>
 
-          </textarea>
+          <h2>Tools voor de leerkracht</h2>
+          <fieldset>
+            <label for="checkboxTitle">Titels markeren</label><input type="checkbox" id="checkboxTitle"><br>
+            <label for="checkboxFullyAutomatic">Volledig document markeren</label><input type="checkbox" name="" id="checkboxFullyAutomatic"><br>
+            <label for="saveMethod">Opslaan als:</label>
+            <select multiple name="saveMethod" id="saveMethod">
+                <option value="saveMethodWord">Word</option>
+                <option value="saveMethodPDF">PDF</option>
+            </select>
+          </fieldset>
 
           <h2>Lexicale vereenvoudiging</h2>
           <fieldset>
@@ -107,7 +111,7 @@
             <label for="keyword_summary">Samenvatten op basis van kernwoorden</label>
           </fieldset>
 
-          <button type="submit" value="Samenvatten" id="summarize-with-presets-button"></button>
+          <button type="submit" value="Samenvatten" id="summarize-with-presets-button">Volledig document samenvatten</button>
         </form>
 
       </div>
@@ -115,5 +119,38 @@
     </div>
 
 </body>
+
+<script>
+  /*
+  Marking titles as a teacher
+  */
+  const checkbox = document.getElementById("checkboxTitle");
+  checkbox.addEventListener("change", function () {
+    if (checkbox.checked) {
+      const ptag = document.querySelectorAll('p');
+      ptag.forEach((p) => {
+        p.addEventListener('click', async (event) => {
+          if (checkboxTitle.checked) {
+            var pTag = event.target;
+            var h1Tag = document.createElement("h1");
+            h1Tag.innerHTML = pTag.innerHTML;
+            pTag.parentNode.replaceChild(h1Tag, pTag);
+          };
+        });
+      });
+    }
+  });
+
+  /*
+  TODO
+  Tekst ophalen
+  */
+  async function getSelectedText() {
+    var selectedText = window.getSelection().toString();
+    console.log('printing selected text')
+    const textarea = document.querySelector('textarea');
+    textarea.value = selectedText;
+  }
+</script>
 
 </html>

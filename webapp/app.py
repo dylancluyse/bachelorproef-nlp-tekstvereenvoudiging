@@ -10,7 +10,7 @@ from io import BytesIO
 
 # 
 from langdetect import detect
-import fitz, nltk, openai, configparser, os, spacy, re, yake
+import openai, configparser, os, spacy, re, yake
 from summarizer import Summarizer
 from spacy.matcher import PhraseMatcher
 
@@ -29,11 +29,21 @@ config = configparser.ConfigParser()
 config.read('config.ini')
 openai.api_key = config['openai']['api_key']
 
+dutch_spacy_model = "nl_core_news_md"
+
+
+"""
+TODO
+Data-cleaning
+"""
+def text_cleaning(text_from_pdf):
+    return 'test'
+
 """
 Returns full-text without stopwords assigned by SpaCy's dutch library
 """
 def remove_stopwords(text_with_stopwords):
-    nlp = spacy.load("nl_core_news_sm") if detect(text_with_stopwords) == 'nl' else spacy.load("en_core_word_md")
+    nlp = spacy.load(dutch_spacy_model) if detect(text_with_stopwords) == 'nl' else spacy.load("en_core_word_md")
     doc = nlp(text_with_stopwords)
     words_without_stopwords = [token.text for token in doc if not token.is_stop]
     return " ".join(words_without_stopwords)
@@ -53,7 +63,7 @@ def get_keywords(text_without_stopwords):
 
 
 def get_keyword_related_sentences(keywords, text):
-    nlp = spacy.load('nl_core_news_sm')
+    nlp = spacy.load(dutch_spacy_model)
     phrase_matcher = PhraseMatcher(nlp.vocab)
     phrases = ['Cupere','Natuurwetenschappen']
     patterns = [nlp(text) for text in phrases]
@@ -80,8 +90,10 @@ def get_full_text(all_pages):
             if isinstance(element, LTTextContainer):
                 for text_line in element:
                     total += text_line.get_text()
-                    total = re.sub('(.{0})-\s*', '', total) # sommige lijnen worden afgebroken door een liggend streepje --> preventie
-    nlp = spacy.load("nl_core_news_sm") if detect(total) == 'nl' else spacy.load("en_core_word_md")
+                    # total = re.sub('(.{0})-\s*', '', total) # sommige lijnen worden afgebroken door een liggend streepje --> preventie
+    nlp = spacy.load(dutch_spacy_model) if detect(total) == 'nl' else spacy.load("en_core_word_md")
+
+    total = text_cleaning(total)
     
     doc = nlp(total)
     word_arrays = []
@@ -200,7 +212,11 @@ TODO: 'eenvoudig' toevoegen
 def look_up_word():
     word = request.args.get('word')
     context = request.args.get('context')
-    prompt = f"""Leg {word} eenvoudig uit in de context van "{context}"? Geef een uitleg  max. 1 zin en 1 voorbeeld. Geef 3 eenvoudigere synoniemen"""
+    prompt = f"""
+    Leg het begrip '{word}' eenvoudig uit in de context van "{context}"? 
+    Lengte: max. 1 zin. Geef 3 eenvoudigere synoniemen.
+    """
+
     result = prompt_gpt(
             prompt=prompt,
             max_tokens=200,
@@ -215,7 +231,8 @@ def summarize():
     sentences = 5
     max_words = 10
     prompt = f"""
-    Vat deze tekst samen in max {sentences} zinnen en max {max_words} woorden per zin.
+    Samenvat deze tekst: 
+    Lengte: max {sentences} zinnen en max {max_words} woorden per zin.
     context:
     {text}
     """
@@ -230,9 +247,7 @@ def summarize():
 
 @app.route('/extract-text', methods=['GET'])
 def extract():
-    text = request.args.get('text')
-    # sents = nltk.sent_tokenize(text)
-    
+    text = request.args.get('text')   
     summarizer = Summarizer()
     result = summarizer(
         #algorithm=...,
@@ -272,73 +287,3 @@ def foo():
 
 if __name__ == "__main__":
     app.run()
-
-"""
-def pdf_reader():
-    pdf_file = request.files['pdf']
-    pdf = fitz.open(pdf_file)
-    meta = pdf.metadata
-    return [T, lang, meta]
-
-
-def data_clean_and_sentences(T):
-    T = T.replace('\n', ' ')
-    S = nltk.sent_tokenize(T)
-    Q = []
-    for s in S:
-        s = s.replace("-\n", '')
-        fre = textstat.flesch_reading_ease(s)
-        Q.append([s, fre])
-    return Q
-
-def prompt_gpt(prompt, model, max_tokens, temperature):
-    #https://platform.openai.com/docs/api-reference/completions
-    return openai.Completion.create(
-            prompt=prompt,
-            temperature=temperature,
-            max_tokens=max_tokens,
-            model=model,
-            stream=False
-        )["choices"][0]["text"].strip(" \n")
-
-@app.route('/', methods=['GET', 'POST'])
-def home():
-    if request.method == 'POST':       
-        T, lang, meta = pdf_reader()
-        Q = data_clean_and_sentences(T)
-        params = []
-        return render_template('pdf-viewer.html', data=Q, lang=lang, title=meta.title, subject=meta.subject, params=params)
-    return render_template('index.html')
-
-@app.route('/quick', methods=['GET','POST'])
-def quickSummary():
-    T, lang, meta = pdf_reader()
-
-    prompt = f"Vat deze tekst samen in 1 paragraaf van 10 zinnen en zorg ervoor dat iedere zin max 10 woorden lang is: context: {T}"
-    result = prompt_gpt(
-        prompt=prompt, 
-        max_tokens=500, 
-        temperature=0, 
-        model=COMPLETIONS_MODEL
-    )
-
-    prompt = f"
-        Vereenvoudig deze tekst met deze parameters:
-        Zin is max {amount_words_sentence} woorden lang
-        Max {amount_sentences} aantal zinnen.
-        Schrijf dit met zo een eenvoudig mogelijke woordenschat.
-        context: 
-        {T}
-    "
-
-    Q = data_clean_and_sentences(T)
-    R = data_clean_and_sentences(result)
-    R2 = data_clean_and_sentences(result2)
-
-    print(Q)
-    print(R)
-    print(R2)
-
-    return render_template('quick-summary.html', original=Q, result=R, result2=R2, lang=lang)
-"""
-

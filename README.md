@@ -16,3 +16,13 @@ Onder voorbehoud:
 ## Feedback
 
 * Klik [hier](feedback-todo/feedback-promotor.md) om het proces achter de communicatie en gekregen feedback op te volgen.
+
+
+## Werking Docker-container
+
+Voer het volgende commando in:
+
+```cmd
+docker build -t text-simplification .
+sudo docker run -it -p 5000:5000 -d text-simplification
+```
