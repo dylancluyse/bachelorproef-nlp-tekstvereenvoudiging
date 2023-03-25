@@ -25,7 +25,9 @@ def generate_glossary_for_set(set):
             prompt=prompt,
             max_tokens=200,
             model=COMPLETIONS_MODEL,
-            temperature=0)
+            temperature=0,
+            top_p=0.25
+    )
     
     print(result)
 
