@@ -57,7 +57,8 @@ for pdf in pdf_files:
 
     """
     """
-    nlp = spacy.load(dutch_spacy_model) if detect(full_text) == 'nl' else spacy.load("en_core_web_md")
+    model = dict.get(detect(full_text))
+    nlp = spacy.load(model)
     doc = nlp(full_text)
 
     sentences = []
