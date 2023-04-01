@@ -9,11 +9,11 @@ import readability
 
 folder_path = 'scripts\experimenten\pdf'
 dutch_spacy_model = "nl_core_news_md"
-english_spacy_model = "en_core_web_md"
+english_spacy_model = "en_core_web_sm"
 
 dict = {
     'nl':'nl_core_news_md',
-    'en':'en_core_web_md'
+    'en':'en_core_web_sm'
 }
 
 total_df = None
@@ -26,28 +26,37 @@ def get_sentence_length(sentence):
 
 """
 """
-pdf_files = [f for f in os.listdir(folder_path) if f.endswith('.pdf')]
+pdf_files = [f for f in os.listdir(folder_path)]
 
 """
 """
 for pdf in pdf_files:
 
-    print(pdf)
-
-    """
-    """
-    all_pages = extract_pages(
+    if pdf.endswith('pdf'):
+        print(f'...{pdf} starting to read')
+        all_pages = extract_pages(
         pdf_file='scripts\experimenten\pdf/'+ pdf,
         page_numbers=[0],
         maxpages=999
-    )
+        )
 
-    full_text = ""
-    for page_layout in all_pages:
-        for element in page_layout:
-            if isinstance(element, LTTextContainer):
-                for text_line in element:
-                    full_text += text_line.get_text()
+        full_text = ""
+        for page_layout in all_pages:
+            for element in page_layout:
+                if isinstance(element, LTTextContainer):
+                    for text_line in element:
+                        full_text += text_line.get_text()
+
+    elif pdf.endswith('txt'):
+        print(f'...{pdf} starting to read')
+        with open('scripts\experimenten\pdf/'+ pdf, 'r') as file:
+            full_text = file.read()
+
+    else:
+        print(f'...{pdf} not a valid file...')
+        pass
+
+    
 
     """
     """
@@ -70,14 +79,19 @@ for pdf in pdf_files:
     """
     df = pd.DataFrame(sentences, columns=['sentence'])
     df['source'] = pdf.split('_')[0]
-    df['title'] = pdf.split('_')[1]
+    
+    try:
+        df['title'] = pdf.split('_')[1].split('.')[0]
+    except:
+        df['title'] = pdf.split('_')[1]
+
     df['sentence_length'] = df['sentence'].apply(get_sentence_length)
 
 
     """
     Filteren. Zinnen kleiner dan 3 woord-tokens zijn niet mogelijk. Deze worden verworpen.
     """
-    df = df[df['sentence_length'] > 3]   
+    df = df[df['sentence_length'] > 4]   
 
 
     """
