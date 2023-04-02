@@ -11,56 +11,109 @@
 %% mogelijke manier toegepast hebt om een antwoord te vinden op de
 %% onderzoeksvraag.
 
-\section{Requirementsanalyse}
+Het onderzoek start met een uitgebreide literatuurstudie die teruggevonden kan worden in Hoofdstuk 2. Deze literatuurstudie omvat de beschikbare technologieën en methoden om tekstvereenvoudiging voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs mogelijk te maken. De literatuurstudie geeft een duidelijke uitleg over de aspecten van het onderzoek, zodat de lezer de nodige kennis bevat om de resultaten van de analyse te begrijpen.
+
+In hoofdstuk 4 wordt er een shortlist van tools opgesteld. Deze shortlist dient als de basis voor de vergelijkende studie en requirementsanalyse. De vergelijkende studie staat stil bij de metrieken en benodigdheden besproken in hoofdstuk 2 waaraan een vereenvoudigde tekst moet voldoen om scholieren met dyslexie in de derde graad van het middelbaar onderwijs te kunnen ondersteunen.
+
+In hoofdstuk 5 wordt de ontwikkeling van een prototype voor tekstvereenvoudiging stap voor stap uitgelegd. 
+
+\chapter{Requirementsanalyse}
 
 Aan de hand van een vergelijkende studie met beschikbare tools, API's en software wordt gekeken hoe scholieren met dyslexie in de derde graad van het middelbaar onderwijs worden ondersteund. Eerst wordt een shortlist opgesteld van ondersteunde software dat momenteel aan scholieren met dyslexie wordt uitgeleend, alsook nieuwe en opkomende tools die specifiek toegespitst zijn op het vereenvoudigen en samenvatten van teksten. Op basis van deze shortlist wordt een requirementsanalyse opgesteld. Deze requirementsanalyse dient als de basis voor de ontwikkeling van het prototype.
 
 \subsection{Software in het onderwijs}
 
+Geen tool is in staat om anderstalige tekst te vertalen.
+
+Samenvattend schema:
+
+\subsection{Tools en API's}
+
+De uitvoer van de teksten werd vergeleken aan de hand van geautomatiseerde en handmatige tekstanalyse. Voor de geautomatiseerde analyse zijn er pakketten beschikbaar zoals \textit{readability} of \textit{textstat}. Met behulp van Python Pandas worden de statistieken in tabelvorm weergegeven. Tien teksten hiervan werden op semantisch vlak vergeleken met de oorspronkelijke teksten vereenvoudigd door een mens.
+
 \subsection{Tekstanalyse}
 
-
-
-Geen softwarepakket of tool geeft standaard visueel weer waarom het taal of AI-model een zin moeilijk of belangrijk vindt, of waarom het model een kernwoord koos. Dit sluit aan bij de bevindingen van \textcite{Gooding2022}. Het GPT3-model en verwante Bing-model doet dit wel wanneer het taalmodel dit expliciet gevraagd wordt. Andere prompt-gedreven tools in de shortlist houden hier geen rekening mee en verwerpen de vraag. Het vragen aan het taalmodel biedt een alternatief aan, maar valt buiten de perken en capaciteiten van de standaardgebruiker. Deze prompt kan worden aangeboden in de vorm van een intuïtieve knop. (Suggestie)
+Geen enkel softwarepakket of hulpmiddel biedt standaard een visuele weergave van waarom een taal- of AI-model een zin als moeilijk of belangrijk beschouwt, of waarom het model een kernwoord heeft gekozen. Dit komt overeen met de bevindingen van \textcite{Gooding2019}. Het GPT3-model en het verwante Bing-model doen dit echter wel wanneer het taalmodel hier expliciet om wordt gevraagd. SciSpace houdt hier geen rekening mee en verwerpt de vraag. Het stellen van vragen aan het taalmodel biedt weliswaar een alternatief, maar valt buiten het bereik en de capaciteiten van de gemiddelde gebruiker. Deze prompt kan worden aangeboden in de vorm van een intuïtieve knop. 
 
 \subsection{Lexicale vereenvoudiging}
 
-
 \subsubsection{Syntactische vereenvoudiging}
-
 
 \subsubsection{Samenvatten}
 
-% TODO optioneel
-
-De experimenten met teksten wijzen uit dat Bing AI de nadruk legt op het behouden van bronreferenties. Wanneer expliciet gevraagd, geeft het model bronnen terug buiten het oorspronkelijke artikel. 
+De experimenten met teksten wijzen uit dat GPT en Bing AI de nadruk legt op het behouden van bronreferenties. Wanneer expliciet gevraagd aan de Bing chatbot, geeft het model bronnen terug die buiten het oorspronkelijke artikel te vinden zijn.
 
 \subsection{Conclusie}
 
-\section{Ontwikkelen van een prototype}
+\chapter{Prototype voor tekstvereenvoudiging}
 
-\subsection{Schetsing met Python notebooks}
+\section{Voorbereiding}
 
-De werking van tekstvereenvoudiging via Python-code wordt optimaal weergegeven in Python notebooks. Deze omgeving belemmert niet het gebruik van API's en voorziet een snelle weergave zonder dat code uitgevoerd moet worden.
+\subsubsection{Python-notebooks}
+
+De werking van tekstvereenvoudiging via Python-code wordt optimaal weergegeven in Python notebooks. Het gebruik van API's vormt geen hindernis en voorziet een snelle weergave zonder dat code uitgevoerd moet worden. 
+
+\subsubsection{Keuze back-end en front-end}
+
+Het prototype maakt gebruik van een Flask en het Jinja-framework. Aanvullend maakt het prototype gebruik van de nodige HTML- en CSS bestanden om de nodige visuele ondersteuning te kunnen aanbieden aan zowel lectoren als scholieren met dyslexie in de derde graad van het middelbaar onderwijs. Het aanspreken van de back-end vanuit de HTML-pagina's gebeurt met JavaScript-calls.
+
+\subsubsection{Docker-omgeving}
+
+Voor een optimale opzet als ontwikkelaar wordt er gebruik gemaakt van Docker. Een bat-scriptbestand maakt de opstart van deze lokale webapplicatie intuïtiever dan de opstart via een terminal. Daarnaast worden de benodigde Python-bibliotheken en taalmodellen alvorens opgehaald.
 
 \subsubsection{PDF text mining}
 
-De meest gebruikte vorm van tekstbestanden is in de vorm van PDF-bestanden. Methoden om deze bestanden uit te lezen en om te zetten naar tekstdata bestaan reeds in de vorm van Python-bibliotheken. De keuze van de bibliotheek speelt wel een rol. Sommige Python-bibliotheken bieden meer functies aan die dynamischer omgaan met de inhoud van een PDF-document. PDF Miner biedt zo extra functies aan om de metadata van een PDF-bestand op te halen, classificatie op basis van lettertypes of pagina's per titel op te halen. Deze functies bevatten een intuïtieve naamgeving en besparen ontwikkelaars de overbodige werklast.
-
-\begin{lstlisting}
-
-\end{lstlisting}
+De meest gebruikte vorm van tekstbestanden is in de vorm van PDF-bestanden. Methoden om deze bestanden uit te lezen en om te zetten naar tekstdata bestaan reeds in de vorm van Python-bibliotheken. De keuze van de bibliotheek speelt wel een rol. Sommige Python-bibliotheken bieden meer analyse- en verwerkingsfuncties aan. PDF Miner biedt extra functies aan om de metadata van een PDF-bestand op te halen of om classificatie op basis van lettertypes of pagina's per titel op te halen. Deze functies bevatten een intuïtieve naamgeving en besparen ontwikkelaars de overbodige werklast om extra logica te schrijven.
 
 \subsubsection{Data pre-processing}
 
 % todo stopword removal voor keyword extraction
 
-\subsubsection{Extraherende samenvatting}
+\subsection{Extraherende samenvatting}
 
-Factoren zoals topic diversity en semantische redundantie moeten overwogen worden bij het kiezen van een taalmodel voor extraherend samenvatten.
+\subsubsection{BERT Extractive Summarization}
 
-\begin{lstlisting}
+Indien niet aangegeven, wordt het aantal zinnen bepaald door het BERT-model.
 
+\subsubsection{Vertaling}
+
+BERT houdt geen rekening met vertaling. Het model staat enkel paraat om zinnen te markeren en de belangrijkste zinnen terug te geven. Voor de vertaling wordt de Google Translate Python-package gebruikt. Deze is minder accuraat vergeleken met DeepL, maar biedt een gratis beschikbaar en aanvaardbaar alternatief aan. Factoren zoals topic diversity en semantische redundantie moeten overwogen worden bij het kiezen van een taalmodel voor extraherend samenvatten.
+
+\begin{lstlisting}[language=Python]
+def extractive_summarization(full_text):
+
+try:    
+    from summarizer import Summarizer
+    model = Summarizer()
+
+    """determining optimal number of sentences based on MMR"""
+    res = model.calculate_optimal_k(
+        full_text, 
+        k_max=10
+    )
+
+    """extracting key sentences"""
+    result = model(
+        body=full_text,
+        max_length=700,
+        min_length=100,
+        num_sentences=res,
+        return_as_list=True
+    )
+
+    new = []
+    try:
+        for i in result:
+            if detect(i) != LANG:
+                new.append(translate_sentence(i))
+            else:
+                new.append(i)
+        return ' '.join(new)
+    except Exception as e:
+        return f'Problemen met Google Translate {e}'
+
+except Exception as e:
+    return f'Problemen met BERT {e}'
 \end{lstlisting}
 
 \subsection{Integreren naar Flask}
