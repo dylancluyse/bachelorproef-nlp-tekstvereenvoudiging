@@ -8,6 +8,9 @@ Middelbare scholieren van het derde graad met dyslexie ondersteunen bij het leze
 Onder voorbehoud:
 * Klik [hier](verslag/poster) om naar de poster te gaan.
 
+## Prototype
+
+Het prototype kan op [deze aparte GitHub repository](https://github.com/Dyashen/text-simplification-tool) terug worden gevonden. Daarnaast is er een Dockerfile beschikbaar dat de omgeving klaarzet.
 
 ## TODO
 
