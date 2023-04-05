@@ -1530,7 +1530,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-INPUT /usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/minted/minted.sty
@@ -1943,6 +1942,12 @@ INPUT ./methodologie.tex
 INPUT ./methodologie.tex
 INPUT ./methodologie.tex
 INPUT methodologie.tex
+INPUT ./img/simplish-input.png
+INPUT ./img/simplish-input.png
+INPUT img/simplish-input.png
+INPUT ./img/simplish-output.png
+INPUT ./img/simplish-output.png
+INPUT img/simplish-output.png
 INPUT ./conclusie.tex
 INPUT ./conclusie.tex
 INPUT ./conclusie.tex

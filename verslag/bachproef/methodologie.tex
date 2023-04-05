@@ -11,31 +11,30 @@
 %% mogelijke manier toegepast hebt om een antwoord te vinden op de
 %% onderzoeksvraag.
 
-Het onderzoek start met een uitgebreide literatuurstudie die teruggevonden kan worden in Hoofdstuk 2. Deze literatuurstudie omvat de beschikbare technologieën en methoden om tekstvereenvoudiging voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs mogelijk te maken. De literatuurstudie geeft een duidelijke uitleg over de aspecten van het onderzoek, zodat de lezer de nodige kennis bevat om de resultaten van de analyse te begrijpen.
+Het onderzoek wordt aangevat met een grondige literatuurstudie, welke in Hoofdstuk 2 van de methodologie uiteengezet wordt. Deze literatuurstudie omvat een overzicht van de beschikbare technologieën en methoden voor het vereenvoudigen van teksten voor leerlingen met dyslexie in de derde graad van het middelbaar onderwijs. De literatuurstudie biedt een duidelijke uiteenzetting van de verschillende aspecten van het onderzoek, met als doel de lezer de vereiste kennis bij te brengen om de resultaten van de analyse te begrijpen.
 
-In hoofdstuk 4 wordt er een shortlist van tools opgesteld. Deze shortlist dient als de basis voor de vergelijkende studie en requirementsanalyse. De vergelijkende studie staat stil bij de metrieken en benodigdheden besproken in hoofdstuk 2 waaraan een vereenvoudigde tekst moet voldoen om scholieren met dyslexie in de derde graad van het middelbaar onderwijs te kunnen ondersteunen.
+Hoofdstuk 4 wordt er gekeken naar beschikbare tools die in staat zijn om teksten te vereenvoudigen voor scholieren met dyslexie. Er wordt gekeken naar de functionaliteiten en eigenschappen van de tools, alsook naar de doelgroep waarvoor de tool geschikt is. Er wordt ook gekeken naar de prijs, de gebruiksvriendelijkheid en de compatibiliteit met bestaande software en hardware. Op basis van deze criteria wordt er een shortlist opgesteld van tools die geschikt zijn voor het vereenvoudigen van teksten voor leerlingen met dyslexie in de derde graad van het middelbaar onderwijs.
 
-In hoofdstuk 5 wordt de ontwikkeling van een prototype voor tekstvereenvoudiging stap voor stap uitgelegd. 
+Hoofdstuk 5 beschrijft vervolgens de ontwikkeling van een prototype voor tekstvereenvoudiging. Dit prototype wordt geprogrammeerd op basis van de requirementsanalyse, waarbij er rekening wordt gehouden met de functionaliteiten en eigenschappen die uit de shortlist van tools naar voren zijn gekomen. Het prototype wordt stap voor stap opgebouwd, waarbij er aandacht wordt besteed aan de gebruiksvriendelijkheid, de snelheid en de nauwkeurigheid van de tool. Er wordt ook gekeken naar de compatibiliteit van het prototype met bestaande software en hardware, zodat de tool naadloos kan integreren in het onderwijs voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs.
+
+In Hoofdstuk 6 worden de verschillende tools met elkaar vergeleken door middel van een mixed-methods vergelijkende studie. De tools worden gebruikt om een oorspronkelijk wetenschappelijk artikel in PDF-formaat te uploaden en deze te laten vereenvoudigen of samenvatten. Op deze manier kan bepaald worden welke tools en middelen het meest geschikt zijn voor het vereenvoudigen van wetenschappelijke artikelen op maat van leerlingen met dyslexie in de derde graad van het middelbaar onderwijs. De vergelijkende studie richt zich op de metrieken en vereisten die in Hoofdstuk 2 besproken zijn, met als doel vast te stellen aan welke criteria een vereenvoudigde tekst moet voldoen om leerlingen met dyslexie in de derde graad van het middelbaar onderwijs te ondersteunen
 
 \chapter{Requirementsanalyse}
 
-Aan de hand van een vergelijkende studie met beschikbare tools, API's en software wordt gekeken hoe scholieren met dyslexie in de derde graad van het middelbaar onderwijs worden ondersteund. Eerst wordt een shortlist opgesteld van ondersteunde software dat momenteel aan scholieren met dyslexie wordt uitgeleend, alsook nieuwe en opkomende tools die specifiek toegespitst zijn op het vereenvoudigen en samenvatten van teksten. Op basis van deze shortlist wordt een requirementsanalyse opgesteld. Deze requirementsanalyse dient als de basis voor de ontwikkeling van het prototype.
-
-\subsection{Software in het onderwijs}
-
-Geen tool is in staat om anderstalige tekst te vertalen.
-
-Samenvattend schema:
-
-\subsection{Tools en API's}
-
-De uitvoer van de teksten werd vergeleken aan de hand van geautomatiseerde en handmatige tekstanalyse. Voor de geautomatiseerde analyse zijn er pakketten beschikbaar zoals \textit{readability} of \textit{textstat}. Met behulp van Python Pandas worden de statistieken in tabelvorm weergegeven. Tien teksten hiervan werden op semantisch vlak vergeleken met de oorspronkelijke teksten vereenvoudigd door een mens.
+In deze fase van het onderzoek worden de tools uitgetest. Functionaliteiten met een bevorderend effect uitgewezen in Hoofdstuk 2, worden genoteerd. Daarnaast worden aspecten waarmee ontwikkelaars rekening mee moeten houden ook betrokken in de requirementsanalyse. Eerst wordt software uitgetest die nu in het onderwijs wordt ingezet. Vervolgens worden online beschikbare tools uitgetest die lectoren in het onderwijs kan gebruiken. De uitvoer van de wetenschappelijke artikelen wordt vergeleken met geautomatiseerde en handmatige tekstanalyse. Voor de geautomatiseerde analyse zijn er pakketten beschikbaar zoals \textit{readability} of \textit{textstat}. Met behulp van Pandas worden de statistieken in tabelvorm weergegeven. Tien teksten hiervan werden op semantisch vlak vergeleken met de oorspronkelijke teksten vereenvoudigd door een mens.
 
 \subsection{Tekstanalyse}
 
 Geen enkel softwarepakket of hulpmiddel biedt standaard een visuele weergave van waarom een taal- of AI-model een zin als moeilijk of belangrijk beschouwt, of waarom het model een kernwoord heeft gekozen. Dit komt overeen met de bevindingen van \textcite{Gooding2019}. Het GPT3-model en het verwante Bing-model doen dit echter wel wanneer het taalmodel hier expliciet om wordt gevraagd. SciSpace houdt hier geen rekening mee en verwerpt de vraag. Het stellen van vragen aan het taalmodel biedt weliswaar een alternatief, maar valt buiten het bereik en de capaciteiten van de gemiddelde gebruiker. Deze prompt kan worden aangeboden in de vorm van een intuïtieve knop. 
 
 \subsection{Lexicale vereenvoudiging}
+
+Simplish geeft nadien een vergelijkende weergave met de oorspronkelijke tekst en de vereenvoudigde tekst. Met gebruik van kleurcodes worden de verschillende transformaties aangeduid.
+
+\begin{figure}
+	\includegraphics{img/simplish-input.png}
+	\includegraphics{img/simplish-output.png}
+\end{figure}
 
 \subsubsection{Syntactische vereenvoudiging}
 
