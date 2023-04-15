@@ -5,23 +5,11 @@
 \chapter{\IfLanguageName{dutch}{Methodologie}{Methodology}}%
 \label{ch:methodologie}
 
-%% TODO: Hoe ben je te werk gegaan? Verdeel je onderzoek in grote fasen, en
-%% licht in elke fase toe welke stappen je gevolgd hebt. Verantwoord waarom je
-%% op deze manier te werk gegaan bent. Je moet kunnen aantonen dat je de best
-%% mogelijke manier toegepast hebt om een antwoord te vinden op de
-%% onderzoeksvraag.
-
-Het onderzoek wordt aangevat met een grondige literatuurstudie, welke in Hoofdstuk 2 van de methodologie uiteengezet wordt. Deze literatuurstudie omvat een overzicht van de beschikbare technologieën en methoden voor het vereenvoudigen van teksten voor leerlingen met dyslexie in de derde graad van het middelbaar onderwijs. De literatuurstudie biedt een duidelijke uiteenzetting van de verschillende aspecten van het onderzoek, met als doel de lezer de vereiste kennis bij te brengen om de resultaten van de analyse te begrijpen.
-
-Hoofdstuk 4 wordt er gekeken naar beschikbare tools die in staat zijn om teksten te vereenvoudigen voor scholieren met dyslexie. Er wordt gekeken naar de functionaliteiten en eigenschappen van de tools, alsook naar de doelgroep waarvoor de tool geschikt is. Er wordt ook gekeken naar de prijs, de gebruiksvriendelijkheid en de compatibiliteit met bestaande software en hardware. Op basis van deze criteria wordt er een shortlist opgesteld van tools die geschikt zijn voor het vereenvoudigen van teksten voor leerlingen met dyslexie in de derde graad van het middelbaar onderwijs.
-
-Hoofdstuk 5 beschrijft vervolgens de ontwikkeling van een prototype voor tekstvereenvoudiging. Dit prototype wordt geprogrammeerd op basis van de requirementsanalyse, waarbij er rekening wordt gehouden met de functionaliteiten en eigenschappen die uit de shortlist van tools naar voren zijn gekomen. Het prototype wordt stap voor stap opgebouwd, waarbij er aandacht wordt besteed aan de gebruiksvriendelijkheid, de snelheid en de nauwkeurigheid van de tool. Er wordt ook gekeken naar de compatibiliteit van het prototype met bestaande software en hardware, zodat de tool naadloos kan integreren in het onderwijs voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs.
-
-In Hoofdstuk 6 worden de verschillende tools met elkaar vergeleken door middel van een mixed-methods vergelijkende studie. De tools worden gebruikt om een oorspronkelijk wetenschappelijk artikel in PDF-formaat te uploaden en deze te laten vereenvoudigen of samenvatten. Op deze manier kan bepaald worden welke tools en middelen het meest geschikt zijn voor het vereenvoudigen van wetenschappelijke artikelen op maat van leerlingen met dyslexie in de derde graad van het middelbaar onderwijs. De vergelijkende studie richt zich op de metrieken en vereisten die in Hoofdstuk 2 besproken zijn, met als doel vast te stellen aan welke criteria een vereenvoudigde tekst moet voldoen om leerlingen met dyslexie in de derde graad van het middelbaar onderwijs te ondersteunen
+Het onderzoek begint met een grondige literatuurstudie, beschreven in Hoofdstuk 2 van de methodologie. Deze studie geeft een overzicht van de beschikbare technologieën en methoden om teksten te vereenvoudigen voor leerlingen met dyslexie in de derde graad van het middelbaar onderwijs. Het doel van de literatuurstudie is om de lezer de benodigde kennis te bieden om de analyse-resultaten te begrijpen en biedt een duidelijke uiteenzetting van de verschillende aspecten van het onderzoek. Hoofdstuk 4 presenteert een lijst van functionaliteiten die beschikbaar zijn bij verschillende tools om teksten te vereenvoudigen voor leerlingen met dyslexie. Er wordt gekeken naar de capaciteiten en functionaliteiten van de tools en op basis hiervan wordt een shortlist van benodigde functionaliteiten opgesteld om teksten te vereenvoudigen voor leerlingen in de derde graad van het middelbaar onderwijs met dyslexie. Hoofdstuk 5 beschrijft het stappenplan voor de ontwikkeling van een prototype voor tekstvereenvoudiging. Het prototype houdt rekening met de benodigde functionaliteiten en eigenschappen die uit de requirementsanalyse voortvloeiden. De tool wordt lokaal opgezet. Hoofdstuk 6 presenteert een vergelijkende studie waarin verschillende tools worden vergeleken. De tools worden gebruikt om een wetenschappelijk artikel te vereenvoudigen of samen te vatten. De laatste fase van het onderzoek beantwoordt welke tools het meest geschikt zijn om wetenschappelijke artikelen voor leerlingen met dyslexie in de derde graad van het middelbaar onderwijs te vereenvoudigen. De tools worden afgetoetst op basis van de metrieken en vereisten die in hoofdstuk 2 worden besproken, met als doel te bepalen aan welke criteria een vereenvoudigde tekst moet voldoen om leerlingen met dyslexie in de derde graad van het middelbaar onderwijs te ondersteunen.
 
 \chapter{Requirementsanalyse}
 
-In deze fase van het onderzoek worden de tools uitgetest. Functionaliteiten met een bevorderend effect uitgewezen in Hoofdstuk 2, worden genoteerd. Daarnaast worden aspecten waarmee ontwikkelaars rekening mee moeten houden ook betrokken in de requirementsanalyse. Eerst wordt software uitgetest die nu in het onderwijs wordt ingezet. Vervolgens worden online beschikbare tools uitgetest die lectoren in het onderwijs kan gebruiken. De uitvoer van de wetenschappelijke artikelen wordt vergeleken met geautomatiseerde en handmatige tekstanalyse. Voor de geautomatiseerde analyse zijn er pakketten beschikbaar zoals \textit{readability} of \textit{textstat}. Met behulp van Pandas worden de statistieken in tabelvorm weergegeven. Tien teksten hiervan werden op semantisch vlak vergeleken met de oorspronkelijke teksten vereenvoudigd door een mens.
+In deze fase van het onderzoek worden tools getest. Functionele eigenschappen die in Hoofdstuk 2 als nuttig zijn beschouwd, worden opgenomen in de requirementsanalyse. Aspecten waar ontwikkelaars bewust van moeten zijn worden in de requirementsanalyse opgenomen. De requirementsanalyse is opgesplitst tussen applicaties die nu in het onderwijs worden gebruikt en online tools die leraren in het onderwijs kunnen gebruiken.
 
 \section{Tekstanalyse}
 
@@ -234,7 +222,7 @@ In mindere mate zijn er beperkingen voor de tekstsoftware die momenteel in het o
 	}
 \end{table}
 
-Ontwikkelaars moeten rekening houden bij de karakter- of tokenlimiet bij alle modellen of tools. Dit hindert ontwikkelaars bij het ontwerpen en ontwikkelen van software waarbij grote documenten vanaf twee tot drie pagina's voltekst, moeten opgebroken worden in kleinere subdelen. Wetenschappelijke artikelen volgen een logische structuur, dus hier kunnen ontwikkelaars op inspelen. De meeste software is vrij beschikbaar, al zijn niet alle functionaliteiten vrij ter beschikking tot het grote publiek. De GPT-modellen, met uitzondering op chatbots, vereisen het gebruik van een API-sleutel. Het gebruik van deze sleutel is gekoppeld aan \textit{payment subscription} van OpenAI. Alle vermelde modellen maken gebruik van een black-box model. Geen taalmodel is ertoe in staat om duidelijk aan te geven waarom een zin als moeilijk wordt bestempeld, of waarom een woord als moeilijk werd bepaald. Dit sluit aan bij de bevindingen van \textcite{Gooding2022}. Black-box taalmodellen zijn dominant aanwezig, maar de zoektocht naar een white-box taalmodel van eenzelfde caliber is niet evident.
+Ontwikkelaars moeten rekening houden bij de karakter- of tokenlimiet bij alle modellen of tools. Dit hindert ontwikkelaars bij het ontwerpen en ontwikkelen van software waarbij grote documenten vanaf twee tot drie pagina's voltekst, moeten opgebroken worden in kleinere subdelen. Wetenschappelijke artikelen volgen een logische structuur, dus hier kunnen ontwikkelaars op inspelen. De meeste software is vrij beschikbaar, al zijn niet alle functionaliteiten vrij ter beschikking tot het grote publiek. De GPT-modellen, met uitzondering op chatbots, vereisen het gebruik van een API-sleutel. Het gebruik van deze sleutel is gekoppeld aan \textit{payment subscription} van OpenAI. Alle vermelde modellen maken gebruik van een black-box model. Geen taalmodel is ertoe in staat om duidelijk aan te geven waarom een zin als moeilijk wordt bestempeld, of waarom een woord als moeilijk werd bepaald. Dit sluit aan bij de bevindingen van \textcite{Gooding2022}. \textit{Black-box} taalmodellen zijn dominant aanwezig, maar de zoektocht naar een white-box taalmodel van eenzelfde caliber is niet evident.
 
 \begin{table}[H]
 	\centering
@@ -255,94 +243,59 @@ Ontwikkelaars moeten rekening houden bij de karakter- of tokenlimiet bij alle mo
 
 \section{Conclusie}
 
-Huidige tools hebben elk een eigen inbreng, maar er is geen manusje-van-alles. De toepassingen maken elk echter gebruik van beschikbare modellen en API's waarmee ontwikkelaars hiertoe in staat zijn. Op lexicaal en syntactisch vlak moet er een intuïtieve manier worden aangeboden voor gebruikers zodat zij niet aan prompt engineering hoeven te doen. Deze logica en bewerking kan in de vorm van een knop worden ingezet. 
-
-Het prototype moet een duidelijke opsplitsing maken tussen de verwachtte functionaliteiten voor een scholier als voor een docent die een vereenvoudigde tekst maakt voor een scholier. Scholieren met dyslexie in de derde graad van het middelbaar onderwijs hebben nood aan een ondersteunende tool die hen toelaat om meer info rond zinnen of woorden op te halen, zodat zij de teksten beter kunnen lezen zonder dat de zinnen hun semantiek verliezen of zodat de scholieren niet de nodige kennis ontbreken zoals jargon of zinsstructuren. De docent daarentegen zal eerder een overzicht moeten kunnen krijgen van de oorspronkelijke tekst, alsook keuzes aangereikt moeten krijgen waaraan de vereenvoudigde tekst kan voldoen. De resulterende tekst is dan in de vorm van een PDF of online te bezichtigen.
+Huidige tools hebben elk een uitblinkende functionaliteit, maar er is geen manusje-van-alles. De uitgeteste toepassingen gebruiken vrij beschikbare modellen en API's. Promptgebaseerde toepassingen kunnen veelbelovende vereenvoudigde teksten genereren, maar er moet een intuïtieve manier worden aangeboden aan gebruikers. Zo hoeven zij niet aan prompt engineering te doen. De requirementsanalyse wijst uit dat het prototype een duidelijke opsplitsing moet maken tussen de verwachtte functionaliteiten voor een scholier als voor een docent die een vereenvoudigde tekst wilt laten maken voor een scholier. Scholieren met dyslexie in de derde graad van het middelbaar onderwijs hebben nood aan een ondersteunende tool die hen toelaat om meer info rond zinnen of woorden op te halen, zodat zij de teksten beter kunnen lezen zonder dat de zinnen hun semantiek verliezen of zodat de scholieren niet de nodige kennis ontbreken zoals jargon of zinsstructuren. De docent daarentegen zal een overzicht moeten kunnen krijgen van de oorspronkelijke tekst, alsook keuzes aangereikt moeten krijgen waaraan de vereenvoudigde tekst kan voldoen. De resulterende tekst wordt in PDF of HTML-vorm aan de eindgebruiker aangereikt.
 
 \chapter{Prototype voor tekstvereenvoudiging}
 
-\section{Voorbereiding}
+In dit hoofdstuk wordt de ontwikkeling van een prototype voor tekstvereenvoudiging voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs omschreven. Allereerst wordt de opzet en voorbereidende keuzes voor de webapplicaties beschreven. Daarna wordt de conversie van invoerbestand naar uitvoerformaat beschreven. Dit hoofdstuk beantwoordt de deelvraag: '\textbf{Hoe kan een intuïtieve lokale webtoepassing worden ontwikkeld die zowel scholieren met dyslexie als docenten helpt bij het vereenvoudigen van wetenschappelijke artikelen met behoud van de semantiek en de nodige jargon en zinsstructuren?}' Aanvullend hierop, 'Waarmee moeten ontwikkelaars rekening houden bij het ontwikkelen van een dergelijke applicatie voor tekstvereenvouding?'.
 
-\subsection{Python-notebooks}
+\section{Opbouw van een prototype}
 
-De werking van tekstvereenvoudiging via Python-code wordt optimaal weergegeven in Python notebooks. Het gebruik van API's vormt geen hindernis en voorziet een snelle weergave zonder dat code uitgevoerd moet worden. 
+Het prototype maakt gebruik van een Flask en het Jinja-framework. Aanvullend maakt het prototype gebruik van de nodige HTML- en CSS bestanden om de nodige visuele ondersteuning te kunnen aanbieden aan zowel lectoren als scholieren met dyslexie in de derde graad van het middelbaar onderwijs. Het aanspreken van de back-end vanuit de HTML-pagina's gebeurt met JavaScript-calls. Voordat de Flask-applicatie wordt ontwikkeld, worden de benodigde vereenvoudigingsfunctionaliteiten in Python-notebooks ontwikkeld. JavaScript is in staat om intuïtieve handelingen zoals het markeren van tekst of woorden te verwerken. Daarnaast zal JavaScript ook calls sturen naar de Python back-end. Dit prototype maakt gebruik van Python om handelingen zoals granulaire interactie met de taalmodellen of NLP-bibliotheken uit te voeren. 
 
-\subsubsection{Keuze back-end en front-end}
+\section{Tekstvereenvoudiging met API}
 
-Het prototype maakt gebruik van een Flask en het Jinja-framework. Aanvullend maakt het prototype gebruik van de nodige HTML- en CSS bestanden om de nodige visuele ondersteuning te kunnen aanbieden aan zowel lectoren als scholieren met dyslexie in de derde graad van het middelbaar onderwijs. Het aanspreken van de back-end vanuit de HTML-pagina's gebeurt met JavaScript-calls.
+GPT-3 is enkel beschikbaar in de vorm van een API. Om afwijkende resultaten op een prompt te vermijden, wordt de temperature op nul geplaatst en de \textit{top\_p} waarde wordt ingeschat op 80\%. De betekenis van woorden opzoeken kan ook zonder GPT-3. Lexicala is een API de betekenis van opgevraagde woordenschat teruggeeft naargelang taal en soort woord. Om een zo correct mogelijke definitie terug te krijgen, wordt zowel het woord als de PoS-tag meegegeven. Er wordt rekening gehouden met polysemous (woorden met meerdere betekenissen). Alle woorden aan de API moeten in lowercase worden meegegeven. In principe kan de Lexicala API volledig in JavaScript worden gedraaid, al zijn extra woordkenmerken noodzakelijk voor correcte resultaten. De woordkenmerken zoals de PoS-tag wordt opgehaald met de Spacy-bibliotheek via Python. De keuze om de PoS-tagging te baseren op de zin en niet het woord maakt het systeem minder vatbaar op afwisselend taalgebruik. Echter het gebruik van afwisselende woordenschat, wat prevalent is bij informatica-gerelateerde wetenschappelijke papers, maakt het systeem wel vatbaar op het niet kunnen terugvinden van deze woorden. Er wordt gesuggereerd om een valnet aan te maken, door ofwel de taal te veranderen naar Engels of Frans, ofwel door het GPT-3 model aan te spreken om een alternatieve definitie op te halen.
 
-\subsubsection{Docker-omgeving}
+Voor extraherende samenvatting gebruikt het prototype een taalmodel beschikbaar op HuggingFace. Voor abstraherende samenvatting maakt het prototype enerzijds gebruik van taalmodellen gratis en vrij beschikbaar op HuggingFace, alsook het GPT-3 taalmodel. Beide opties zijn mogelijk aan te spreken via een inference API. Dit gebruik belemmert de ontwikkelaar niet om extra parameters, waaronder maximale lengte van de gegenereerde tekst, mee te geven. Nadelig is deze manier enkel met een internetverbinding beschikbaar, alsook kan geen extra trainingsdata worden meegegeven. Het prototype maakt een onderscheid tussen een niet-gepersonaliseerde en gepersonaliseerde vereenvoudiging. Niet prompt-gebaseerde taalmodellen kunnen een gelijkwaardige vereenvoudiging aanbieden. Een prompt-gebaseerd taalmodel wordt aangesproken als de eindgebruiker wel speciale remarks heeft, zoals het weglaten van bepaalde syntax of weglaten van vooraf gedefinieerde woordenschat. HuggingFace taalmodellen via een inference api aanspreken vereist eerst een verplichte opstarttijd. Zo niet zal de api een timeout terugsturen. De opstarttijd voor alle gebruikte HuggingFace-taalmodellen wordt bij de opstart van de applicatie afgehandeld.
 
-Voor een optimale opzet als ontwikkelaar wordt er gebruik gemaakt van Docker. Een bat-scriptbestand maakt de opstart van deze lokale webapplicatie intuïtiever dan de opstart via een terminal. Daarnaast worden de benodigde Python-bibliotheken en taalmodellen alvorens opgehaald.
+Het merendeel van de gebruikte taalmodellen is Engelstalig of is nadrukkelijk getraind op basis van Engelstalige datasets. De ingegeven tekst wordt eerst vertaald naar het Engels om zo de kans op een accurate vereenvoudiging te verhogen. Voor de vertaling wordt de Google Translate Python-package gebruikt. Deze is minder accuraat vergeleken met DeepL, maar biedt een gratis beschikbaar en aanvaardbaar alternatief aan. Factoren zoals topic diversity en semantische redundantie moeten overwogen worden bij het kiezen van een taalmodel voor extraherend samenvatten. Lange documenten samenvatten kan zoals aangeduid in literatuurstudie door extraherende samenvatting, gevolgd door abstraherende samenvatting om de tekst coherent te doen blijken. Eerder werd er gekozen om de voltekst per paragraaf bij te houden. Uit iedere paragraaf wordt een ideaal aantal zinnen ge-extraheerd om nadien geparafraseerd te worden door GPT-3 of een HuggingFace taalmodel, afhankelijk van de keuze van de eindgebruiker.
 
-\subsubsection{PDF text mining}
+\section{Tekstinhoud extraheren uit een PDF}
 
-De meest gebruikte vorm van tekstbestanden is in de vorm van PDF-bestanden. Methoden om deze bestanden uit te lezen en om te zetten naar tekstdata bestaan reeds in de vorm van Python-bibliotheken. De keuze van de bibliotheek speelt wel een rol. Sommige Python-bibliotheken bieden meer analyse- en verwerkingsfuncties aan. PDF Miner biedt extra functies aan om de metadata van een PDF-bestand op te halen of om classificatie op basis van lettertypes of pagina's per titel op te halen. Deze functies bevatten een intuïtieve naamgeving en besparen ontwikkelaars de overbodige werklast om extra logica te schrijven.
+Tekst uit een PDF-bestand extraheren gebeurt met PDFMiner. Alle pagina's worden overlopen en de tekstinhoud wordt per pagina in een array geplaatst. Door middel van een aparte functie wordt de tekst opgesplitst per paragraaf en vervolgens per zin. Het resultaat van deze transformatie is een vierdimensionale array. Deze transformatie bevoordeelt het proces om vervolgens de teksten per zin op de webpagina uit te printen. De woorden in een zin worden als key-value paar opgeslaan. De sleutel verwijst hier naar de woord in een zin. De bijhorende waarde verwijst naar de PoS-tag die aan dit woord toebehoord. Dit biedt kansen toe doordat de sleutelwaarden nu overlopen kunnen worden om een klasse te koppelen aan ieder woord. Op deze manier kunnen scholieren en lectoren kiezen om zo alle werk -en naamwoorden of adjectieven te tonen met een volgens hun gekozen kleur.
 
-\subsubsection{Data pre-processing}
+\section{Docker-omgeving}
+Voor een optimale opzet als ontwikkelaars wordt Docker ingezet voor de deployment. Een bash of bat-scriptbestand vereenvoudigt de opstart van deze webapplicatie in tegenstelling tot de opstart per terminal. De nodige Python-bibliotheken worden alvorens opgehaald met Pipreq. De literatuurstudie wees uit om gebruik te maken van meerdere Docker-containers wanneer taalmodellen lokaal worden opgeslaan. Alle taalmodellen worden per API aangesproken, dus één Docker-container voor de webapplicatie volstaat voor dit prototype.
 
-% todo stopword removal voor keyword extraction
+\section{Resultaten}
 
-\subsection{Extraherende samenvatting}
+\subsection{Taalmodellen}
 
-\subsubsection{BERT Extractive Summarization}
+SC en BART-SC scoren subjectief hoger dan de andere modellen. Zij bekijken enkel de gekregen zin. De andere modellen zijn eerder geneigd om extra tekst toe te voegen. Er kan niet achterhaald worden waarom dat deze extra tekst wordt meegegeven.
+BART-SC kan bijzaak behouden, terwijl SC sneller de neiging heeft om enkel de kernzaak te behouden in de vereenvoudigde tekst. Bij de inference API's moet er expliciet worden aangegeven om welke  transformatie dit gaat. 
 
-Indien niet aangegeven, wordt het aantal zinnen bepaald door het BERT-model.
 
-\subsubsection{Vertaling}
+\section{Conclusie}
 
-BERT houdt geen rekening met vertaling. Het model staat enkel paraat om zinnen te markeren en de belangrijkste zinnen terug te geven. Voor de vertaling wordt de Google Translate Python-package gebruikt. Deze is minder accuraat vergeleken met DeepL, maar biedt een gratis beschikbaar en aanvaardbaar alternatief aan. Factoren zoals topic diversity en semantische redundantie moeten overwogen worden bij het kiezen van een taalmodel voor extraherend samenvatten.
+Dit prototype wordt enkel binnen een lokale omgeving opgezet en is nog niet bruikbaar voor het grote publiek. Met PDF's of voltekst als invoer is het prototype in staat om teksten lexicaal en syntactisch te vereenvoudigen. Het prototype is functioneel voor zowel de doelgroep lectoren als leerlingen, twee doelgroepen die elk een andere functionaliteit prioriteren. Het prototype maakt gebruik van API's waaronder HuggingFace Inference APIs, Lexicala API en het GPT-3 API. Deze ontwerpkeuze bespaart geheugenruimte voor ontwikkelaars en vermindert de benodigde rekenkracht voor een prototype. Eenmaal ontwikkelaars de toepassing willen uitrollen naar het grote publiek, wordt er net zoals bij (...) aangeraden om de taalmodellen zelf te hosten. Aanvullend hierop kunnen ontwikkelaars deze modellen extra trainen op basis van de gewenste casus. Ontwikkelaars kunnen voor algemene samenvattings- en vereenvoudigingstaken gebruik maken van algemene taalmodellen die vrij beschikbaar op HuggingFace of dergelijke platforms terug te vinden zijn. GPT-3 blinkt uit in gepersonaliseerde vereenvoudigings- en samenvattingstaken. Engelstalige prompts die expliciet de uitvoertaal vermelden zijn nauwkeuriger dan Nederlandstalige prompts. Ontwikkelaars moeten rekening houden met het gebrek aan structuur bij het ophalen van tekstinhoud uit een PDF-bestand.
 
-\begin{lstlisting}[language=Python]
-def extractive_summarization(full_text):
 
-try:    
-    from summarizer import Summarizer
-    model = Summarizer()
+\chapter{Vergelijkende studie}
 
-    """determining optimal number of sentences based on MMR"""
-    res = model.calculate_optimal_k(
-        full_text, 
-        k_max=10
-    )
+\section{Methodologie}
 
-    """extracting key sentences"""
-    result = model(
-        body=full_text,
-        max_length=700,
-        min_length=100,
-        num_sentences=res,
-        return_as_list=True
-    )
+De resultaten van de vereenvoudigde wetenschappelijke artikelen worden vergeleken met geautomatiseerde en handmatige tekstanalyse. Voor de geautomatiseerde analyse worden softwarepakketten gebruikt. De statistieken worden in tabelvorm weergegeven met behulp van Pandas. Tien teksten zijn vergeleken met de originele teksten die handmatig zijn vereenvoudigd.
 
-    new = []
-    try:
-        for i in result:
-            if detect(i) != LANG:
-                new.append(translate_sentence(i))
-            else:
-                new.append(i)
-        return ' '.join(new)
-    except Exception as e:
-        return f'Problemen met Google Translate {e}'
+\section{Lexicale vereenvoudiging}
 
-except Exception as e:
-    return f'Problemen met BERT {e}'
-\end{lstlisting}
 
-\subsection{Integreren naar Flask}
 
-Flask biedt een snelle en toegankelijke opzet aan voor Python-ontwikkelaars. De combinatie van een robuuste front-end en back-end maakt dit binnen de schaal van een prototype ideaal.
+\section{Syntactische vereenvoudiging}
 
-\begin{lstlisting}
+\section{Samenvatten}
 
-@app.route('/', methods=['GET'])
-def home():
-	return render_template('index.html')
 
-if __name__ == "__main__":
-	app.run()
-\end{lstlisting}
 
-% \subsection{title}
+\section{Conclusie}
 

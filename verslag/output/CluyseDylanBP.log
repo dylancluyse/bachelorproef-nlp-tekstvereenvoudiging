@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2023.4.5)  7 APR 2023 10:49
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2023.4.15)  15 APR 2023 19:13
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2285,15 +2285,15 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 124.
 ]) [4
 
 ]
-(../output/CluyseDylanBP.toc [5
-
-]
-Overfull \hbox (1.3519pt too wide) in paragraph at lines 146--146
+(../output/CluyseDylanBP.toc
+Overfull \hbox (1.3519pt too wide) in paragraph at lines 126--126
  []|| [][][]\TU/Montserrat(1)/m/n/10.95 Tekstvereenvoudigingstechnieken voor sc
 holieren met dyslexie.[][]| 
  []
 
-[6])
+[5
+
+] [6])
 \tf@toc=\write10
 \openout10 = `CluyseDylanBP.toc'.
 
@@ -2323,7 +2323,7 @@ van hun favoriete hobby’s
 [8
 
 ]
-Overfull \hbox (0.42117pt too wide) in paragraph at lines 34--34
+Overfull \hbox (0.42117pt too wide) in paragraph at lines 32--32
  [][] [][][]\TU/Montserrat(1)/m/n/10.95 Voorbeeld van sequence labeling op de E
 ngelstalige zin ”She sells seas- 
  []
@@ -2369,7 +2369,7 @@ ping=tex-text;"
 cp;mapping=tex-text;"
 
 
-Overfull \hbox (8.10802pt too wide) in paragraph at lines 14--15
+Overfull \hbox (8.10802pt too wide) in paragraph at lines 12--13
 \TU/Montserrat(1)/m/n/10.95 leerkrachten in de derde graad middelbaar onderwijs
  moeten volgens het M-decreet
  []
@@ -2378,106 +2378,137 @@ Overfull \hbox (8.10802pt too wide) in paragraph at lines 14--15
 
 
 ] [2]
-Overfull \hbox (1.97966pt too wide) in paragraph at lines 40--41
+Overfull \hbox (1.97966pt too wide) in paragraph at lines 39--40
 []\TU/Montserrat(1)/m/n/10.95 Welke functies ontbreken AI-toepassingen om geaut
 omatiseerde tekstvereen-
  []
 
-[3]) (./standvanzaken.tex [4]
+[3]
+Overfull \hbox (1.15474pt too wide) in paragraph at lines 62--63
+[]\TU/Montserrat(1)/m/n/10.95 Aansluitende vraag: ”Hoe worden teksten handmatig
+ vereenvoudigd voor
+ []
+
+
+LaTeX Warning: Reference `ch:Requirementsanalyse' on page 4 undefined on input 
+line 74.
+
+
+LaTeX Warning: Reference `ch:Prototype voor tekstvereenvoudiging' on page 4 und
+efined on input line 76.
+
+
+LaTeX Warning: Reference `ch:Vergelijkende studie' on page 4 undefined on input
+ line 78.
+
+) (./standvanzaken.tex [4]
 Hoofdstuk 2.
 [5
 
-] [6] [7]
-Overfull \hbox (3.89075pt too wide) in paragraph at lines 74--75
-\TU/Montserrat(1)/m/n/10.95 Oogbewegingsonderzoeken zoals []Rivero-Contreras e.
-a. ([][]2021[][][]) en M. Zhang e.a. ([][]2021[][])
+] [6]
+Overfull \hbox (1.865pt too wide) in paragraph at lines 54--55
+\TU/Montserrat(1)/m/n/10.95 Oogbewegingsexperimenten van []Rivero-Contreras e.a
+. ([][]2021[][][]) en M. Zhang e.a. ([][]2021[][])
+ []
+
+File: img/visuele-disfunctie.png Graphic file (type bmp)
+<img/visuele-disfunctie.png>
+[7]
+Overfull \hbox (3.7879pt too wide) in paragraph at lines 71--72
+\TU/Montserrat(1)/m/n/10.95 verse leesfouten zoals klank- en letterverwisseling
+en, weglaten van letters en moeite
+ []
+
+
+Overfull \hbox (4.41788pt too wide) in paragraph at lines 75--76
+\TU/Montserrat(1)/m/n/10.95 hoeften en uitdagingen van elke leerling in gedacht
+en worden ontworpen ([]Gooding,
  []
 
 [8]
-File: img/visuele-disfunctie.png Graphic file (type bmp)
-<img/visuele-disfunctie.png>
- [9]
-Overfull \hbox (6.63707pt too wide) in paragraph at lines 95--96
-\TU/Montserrat(1)/m/n/10.95 van de specifieke behoeften en uitdagingen van elke
- leerling in gedachten ([]Gooding,
- []
-
 File: img/text-simplification-reading-ease.png Graphic file (type bmp)
 <img/text-simplification-reading-ease.png>
 File: img/readability-mean-fixation-duration.png Graphic file (type bmp)
 <img/readability-mean-fixation-duration.png>
-[10] [11]
+ [9] [10]
 File: img/fonts-readability.png Graphic file (type bmp)
 <img/fonts-readability.png>
 File: img/fonts-preference.png Graphic file (type bmp)
 <img/fonts-preference.png>
- [12]
-Overfull \hbox (7.91455pt too wide) in paragraph at lines 142--143
-[]\TU/Montserrat(1)/m/n/10.95 Het bevoordelend effect van aanschouwelijkheid vi
-a afbeeldingen of schema’s wordt
- []
-
-[13]
+ [11]
 File: img/oeso-graphic-pisa-trend-samenvatting.png Graphic file (type bmp)
 <img/oeso-graphic-pisa-trend-samenvatting.png>
+ [12]
 File: img/oeso-graphic-leesplezier.png Graphic file (type bmp)
 <img/oeso-graphic-leesplezier.png>
- [14]
 File: img/oeso-graphic-wetenschappelijke-geletterdheid-2.png Graphic file (type
  bmp)
 <img/oeso-graphic-wetenschappelijke-geletterdheid-2.png>
- [15]
+ [13]
 File: img/fre-ndc.png Graphic file (type bmp)
 <img/fre-ndc.png>
+ [14]
 File: img/ndc-number-of-authors.png Graphic file (type bmp)
 <img/ndc-number-of-authors.png>
- [16]
-Overfull \hbox (2.85568pt too wide) in paragraph at lines 211--212
+ [15]
+Overfull \hbox (2.85568pt too wide) in paragraph at lines 185--186
 \TU/Montserrat(1)/m/n/10.95 herschrijven van abstracten vergroot de begrijpbaar
 heid bij academici volgens []Hart-
  []
 
-[17]
 File: img/fre-fog-per-sector.png Graphic file (type bmp)
 <img/fre-fog-per-sector.png>
- [18]
-Overfull \hbox (9.10812pt too wide) in paragraph at lines 246--247
+[16] [17]
+Overfull \hbox (9.10812pt too wide) in paragraph at lines 220--221
 \TU/Montserrat(1)/m/n/10.95 een wetenschappelijk artikel moeten meer doelgroepe
 n toelaten om over voldoende
  []
 
 
-Overfull \hbox (16.63226pt too wide) in paragraph at lines 250--251
+Overfull \hbox (16.63226pt too wide) in paragraph at lines 224--225
 \TU/Montserrat(1)/m/n/10.95 het begrijpen van specifieke taalkenmerken, het bep
 erken van de hoeveelheid nieuwe
  []
 
-[19] [20] [21]
-Overfull \hbox (1.55896pt too wide) in paragraph at lines 296--297
-[]\TU/Montserrat(2)/m/it/10.95 Natural Language Processing \TU/Montserrat(1)/m/
-n/10.95 (NLP) of natuurlijke taalverwerking is een brede term
+[18]
+Overfull \hbox (1.61101pt too wide) in paragraph at lines 234--235
+\TU/Montserrat(1)/m/n/10.95 voudiging omvat conceptuele of semantische vereenvo
+udiging door complexe con-
  []
 
-./standvanzaken.tex:300: Too many }'s.
-l.300 Tokenisatie}
+
+Overfull \hbox (0.2413pt too wide) in paragraph at lines 234--235
+\TU/Montserrat(1)/m/n/10.95 een duidelijke structuur van een mogelijks complexe
+ tekst ([]Hale, [][]2022[][][]; Siddharthan,
+ []
+
+[19]
+Overfull \hbox (8.58862pt too wide) in paragraph at lines 250--251
+\TU/Montserrat(1)/m/n/10.95 aanpakken per docent uit. Iedere docent heeft een e
+igen intuïtie of afweging waarop
+ []
+
+[20]
+./standvanzaken.tex:258: Too many }'s.
+l.258 Tokenisatie}
                    splitst de stam of basisvorm van woorden in een tekst. Ge...
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
 
-Overfull \hbox (5.80272pt too wide) in paragraph at lines 304--305
+Overfull \hbox (5.80272pt too wide) in paragraph at lines 262--263
 []\TU/Montserrat(1)/m/n/10.95 Character-level tokenisation of CLT splitst de te
 kst per karakter. ’Slimmer’ wordt
  []
 
 
-Overfull \hbox (3.64409pt too wide) in paragraph at lines 305--306
+Overfull \hbox (3.64409pt too wide) in paragraph at lines 263--264
 []\TU/Montserrat(1)/m/n/10.95 Subword-level tokenisation splitst de tekst op in
  stukken op basis van de woord-
  []
 
-[22] [23]
-Overfull \hbox (0.97055pt too wide) in paragraph at lines 350--351
+[21]
+Overfull \hbox (0.97055pt too wide) in paragraph at lines 286--287
 [][]\TU/Montserrat(1)/m/n/10.95 Poel e.a. ([][]2008[][]) onderzocht \TU/Montser
 rat(2)/m/it/10.95 PoS-tagging \TU/Montserrat(1)/m/n/10.95 met een neuraal netwe
 rk voor Nederlands-
@@ -2485,22 +2516,23 @@ rk voor Nederlands-
 
 File: img/poslabeling.png Graphic file (type bmp)
 <img/poslabeling.png>
+[22]
 File: img/nerlabeling.jpg Graphic file (type bmp)
 <img/nerlabeling.jpg>
-[24]
 File: img/prompt-engineering-medium.png Graphic file (type bmp)
 <img/prompt-engineering-medium.png>
- [25]
-Overfull \hbox (2.78777pt too wide) in paragraph at lines 388--389
+ [23]
+Overfull \hbox (2.78777pt too wide) in paragraph at lines 324--325
 []\TU/Montserrat(1)/m/n/10.95 Expansion/reduction-prompts genereren een output 
 dat beknopt is, maar met
  []
 
-./standvanzaken.tex:397: You can't use `macro parameter character #' in horizon
+[24]
+./standvanzaken.tex:333: You can't use `macro parameter character #' in horizon
 tal mode.
 <argument> ...h/bert/blob/master/multilingual.md##
                                                   list-of-languages
-l.397 ...master/multilingual.md#list-of-languages}
+l.333 ...master/multilingual.md#list-of-languages}
                                                   , waaronder Nederlands. Di...
 Sorry, but I'm not programmed to handle this case;
 I'll just pretend that you didn't ask for it.
@@ -2509,374 +2541,167 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 
 File: img/voorbeeld-manuele-vereenvoudiging.png Graphic file (type bmp)
 <img/voorbeeld-manuele-vereenvoudiging.png>
-[26]
-Overfull \hbox (3.57835pt too wide) in paragraph at lines 422--423
+[25]
+Overfull \hbox (3.57835pt too wide) in paragraph at lines 356--357
 \TU/Montserrat(1)/m/n/10.95 Substitutiegeneratie wordt gedaan door synoniemen t
 e zoeken voor een doelwoord
  []
 
 File: img/lexical-simplification-pipeline.png Graphic file (type bmp)
 <img/lexical-simplification-pipeline.png>
+[26]
+Overfull \hbox (0.67299pt too wide) in paragraph at lines 398--399
+\TU/Montserrat(1)/m/n/10.95 De graafgebaseerde techniek van extraherend samenva
+tten vertegenwoordigt een
+ []
+
 [27]
-Overfull \hbox (5.62263pt too wide) in paragraph at lines 447--448
-\TU/Montserrat(1)/m/n/10.95 beter te begrijpen, zonder het verlies aan betekeni
-s of nauwkeurigheid. []Siddharthan
+Overfull \hbox (21.97437pt too wide) in paragraph at lines 418--419
+\TU/Montserrat(1)/m/n/10.95 Metaheuristische samenvatting is een benadering die
+ gebruik maakt van optimalisatie-
  []
 
 [28]
-Overfull \hbox (2.05998pt too wide) in paragraph at lines 451--452
-\TU/Montserrat(1)/m/n/10.95 voudiging zet deze constructies om naar een letterl
-ijke en duidelijke tekst ([]Javourey-
+Overfull \hbox (9.2164pt too wide) in paragraph at lines 444--445
+\TU/Montserrat(1)/m/n/10.95 met lage linguïstische kwaliteit en grammaticale fo
+uten. De semantisch-gebaseerde
  []
 
 [29]
-File: img/summarization-mindmap.png Graphic file (type bmp)
-<img/summarization-mindmap.png>
- [30] [31] [32] [33]
-Overfull \hbox (29.00577pt too wide) in paragraph at lines 551--552
-\TU/Montserrat(1)/m/n/10.95 ROUGE in. Deze twee metrieken meten de gelijkenis t
-ussen een machine-gegenereerde
- []
-
-
-Overfull \hbox (1.30566pt too wide) in paragraph at lines 551--552
-\TU/Montserrat(1)/m/n/10.95 tekst en een referentietekst. Deze referentietekst 
-is gemaakt door de mens. ROUGE
- []
-
-
-Overfull \hbox (15.52753pt too wide) in paragraph at lines 553--554
-[]\TU/Montserrat(1)/m/n/10.95 BLEU volgt een gelijkaardige werking en beoordeel
-t de gelijkenis tussen een machine-
- []
-
-
-Overfull \hbox (9.03659pt too wide) in paragraph at lines 553--554
-\TU/Montserrat(1)/m/n/10.95 gegenereerde tekst en een referentietekst, maar dez
-e meting is precision-gebaseerd.
- []
-
-[34]
-Underfull \hbox (badness 2012) in paragraph at lines 563--563
-[]|\TU/Montserrat(1)/m/n/10.95 Evalueert hoe goed een
- []
-
-
-Underfull \hbox (badness 2012) in paragraph at lines 563--564
-[]|\TU/Montserrat(1)/m/n/10.95 Evalueert hoe goed een
- []
-
-
-Underfull \hbox (badness 5064) in paragraph at lines 563--564
-\TU/Montserrat(1)/m/n/10.95 gegenereerde samenvat-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 563--564
-\TU/Montserrat(1)/m/n/10.95 ting overeenkomt met
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 563--564
-\TU/Montserrat(1)/m/n/10.95 een referentiesamenvat-
- []
-
-
-Underfull \hbox (badness 1762) in paragraph at lines 565--565
-[]|\TU/Montserrat(1)/m/n/10.95 De overlap van n-grams
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 565--565
-\TU/Montserrat(1)/m/n/10.95 (sequentie van n woor-
- []
-
-
-Underfull \hbox (badness 3088) in paragraph at lines 565--565
-\TU/Montserrat(1)/m/n/10.95 den) tussen de gegene-
- []
-
-
-Underfull \hbox (badness 4913) in paragraph at lines 565--565
-\TU/Montserrat(1)/m/n/10.95 reerde samenvatting en
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 565--565
-\TU/Montserrat(1)/m/n/10.95 de referentiesamenvat-
- []
-
-
-Underfull \hbox (badness 1762) in paragraph at lines 565--566
-[]|\TU/Montserrat(1)/m/n/10.95 De overlap van n-grams
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 565--566
-\TU/Montserrat(1)/m/n/10.95 (sequentie van n woor-
- []
-
-
-Underfull \hbox (badness 3088) in paragraph at lines 565--566
-\TU/Montserrat(1)/m/n/10.95 den) tussen de gegene-
- []
-
-
-Underfull \hbox (badness 4913) in paragraph at lines 565--566
-\TU/Montserrat(1)/m/n/10.95 reerde samenvatting en
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 565--566
-\TU/Montserrat(1)/m/n/10.95 de referentiesamenvat-
- []
-
-
-Underfull \hbox (badness 1552) in paragraph at lines 571--572
-\TU/Montserrat(1)/m/n/10.95 de vloeiendheid van zin-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 573--573
-[]|\TU/Montserrat(1)/m/n/10.95 Kan gevoelig zijn voor
- []
-
-
-Underfull \hbox (badness 2142) in paragraph at lines 573--573
-\TU/Montserrat(1)/m/n/10.95 verschillen in woordvolg-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 573--573
-\TU/Montserrat(1)/m/n/10.95 orde en zinsstructuur
- []
-
-
-Underfull \hbox (badness 2065) in paragraph at lines 573--573
-\TU/Montserrat(1)/m/n/10.95 tussen de gegenereerde
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 573--574
-[]|\TU/Montserrat(1)/m/n/10.95 Vangt de semantische
- []
-
-
-Underfull \hbox (badness 1661) in paragraph at lines 573--574
-\TU/Montserrat(1)/m/n/10.95 overeenkomst tussen de
- []
-
-
-Underfull \hbox (badness 5064) in paragraph at lines 573--574
-\TU/Montserrat(1)/m/n/10.95 gegenereerde samenvat-
- []
-
-
-Underfull \hbox (badness 5105) in paragraph at lines 573--574
-\TU/Montserrat(1)/m/n/10.95 ting en de referentiesa-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 575--575
-[]|\TU/Montserrat(1)/m/n/10.95 Vaak gebruikt voor sa-
- []
-
-
-Overfull \hbox (7.11523pt too wide) in paragraph at lines 585--586
+Overfull \hbox (7.11523pt too wide) in paragraph at lines 462--463
 \TU/Montserrat(1)/m/n/10.95 Een samengevatte tekst beoordelen zonder een refere
 ntietekst vereist volgens []Stein-
  []
 
 
-Overfull \hbox (18.26257pt too wide) in paragraph at lines 585--586
+Overfull \hbox (18.26257pt too wide) in paragraph at lines 462--463
 \TU/Montserrat(1)/m/n/10.95 een referentietekst. Deze soort kan handmatig gebeu
 ren, maar ook semi-automatisch.
  []
 
-[35]
-Overfull \hbox (5.94914pt too wide) in paragraph at lines 588--588
+
+Overfull \hbox (5.94914pt too wide) in paragraph at lines 465--465
 |[][]\TU/Montserrat(0)/b/n/12 Tekstvereenvoudigingstechnieken voor scholieren m
 et dyslexie.| 
  []
 
-[36]
+[30]
 File: img/dutch-simplification-dyslexia-pipeline.png Graphic file (type bmp)
 <img/dutch-simplification-dyslexia-pipeline.png>
 File: img/dutch-simplification-dyslexia-example.png Graphic file (type bmp)
 <img/dutch-simplification-dyslexia-example.png>
 
-Overfull \hbox (22.01454pt too wide) in paragraph at lines 616--616
+Overfull \hbox (22.01454pt too wide) in paragraph at lines 494--494
 |[][]\TU/Montserrat(0)/b/n/14.4 Valkuilen en uitdagingen voor AI-ontwikkelaars 
 bij tekst-
  []
 
-[37]
-Overfull \hbox (12.11816pt too wide) in paragraph at lines 622--623
-\TU/Montserrat(1)/m/n/10.95 de duurste soort om te ontwikkelen. Ongeveer 54% va
-n de bevraagde IT-professionals
- []
-
-
-Overfull \hbox (0.91049pt too wide) in paragraph at lines 622--623
-\TU/Montserrat(1)/m/n/10.95 NLP-toepassingen. Professionals halen verschillende
- pijlers aan, waaronder de kwa-
- []
-
-
-Overfull \hbox (7.01962pt too wide) in paragraph at lines 622--623
-\TU/Montserrat(1)/m/n/10.95 liteit en kwantiteit van de data, het trainen van d
-e data, het gebrek van NLP-experten,
- []
-
-
-Overfull \hbox (10.20972pt too wide) in paragraph at lines 626--627
-\TU/Montserrat(1)/m/n/10.95 dictionary-gebaseerd, gesuperviseerde, semi-gesuper
-viseerd of niet-gesuperviseerd.
- []
-
-[38]
-Overfull \hbox (14.44443pt too wide) in paragraph at lines 630--631
-[]\TU/Montserrat(1)/m/n/10.95 Het onderzoek van []Sciforce ([][]2020[][]) haalt
- aan dat het merendeel van NLP-toepassingen
- []
-
-
-Overfull \hbox (3.56987pt too wide) in paragraph at lines 634--635
-\TU/Montserrat(1)/m/n/10.95 aan iedere doelgroep. Tekstvereenvoudiging transfor
-meert de oorspronkelijke tekst
- []
-
-
-Overfull \hbox (0.51237pt too wide) in paragraph at lines 636--637
-[]\TU/Montserrat(1)/m/n/10.95 Software-ontwikkelaars verkiezen volgens []Sikka 
-en Mago ([][]2020[][]) voor \TU/Montserrat(2)/m/it/10.95 black-box \TU/Montserr
-at(1)/m/n/10.95 mo-
- []
-
-
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 26.66998pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.66998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
-
-[39]
-Overfull \hbox (4.0565pt too wide) in paragraph at lines 648--649
-[]\TU/Montserrat(1)/m/n/10.95 Er is geen algemene consensus bij onderzoekers ov
-er de ideale evaluatiemetriek(en)
- []
-
-[40] [41]
-Overfull \hbox (3.86092pt too wide) in paragraph at lines 676--677
+[31] [32] [33]
+Overfull \hbox (3.86092pt too wide) in paragraph at lines 543--544
 []\TU/Montserrat(1)/m/n/10.95 Toepassingen om wetenschappelijke artikelen te ve
 reenvoudigen zijn schaars, maar
  []
 
 File: img/typeset-example.png Graphic file (type bmp)
 <img/typeset-example.png>
-./standvanzaken.tex:681: Too many }'s.
-l.681 \end{figure}}
-                   
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-[42]
+[34]
 File: img/chatgpt-example-simplification-gooding.png Graphic file (type bmp)
 <img/chatgpt-example-simplification-gooding.png>
 File: img/chatgpt-example-different-versions-gooding.png Graphic file (type bmp
 )
 <img/chatgpt-example-different-versions-gooding.png>
+ [35]
 File: img/chatgpt-example-evaluation-gooding.png Graphic file (type bmp)
 <img/chatgpt-example-evaluation-gooding.png>
- [43] [44]
+
+Overfull \hbox (1.43365pt too wide) in paragraph at lines 572--573
+\TU/Montserrat(1)/m/n/10.95 vijfde engine zich toe, namelijk GPT-3 Turbo wat de
+ basis is achter Chat-GPT. Davinci-
+ []
+
+[36]
 File: img/chatgpt-engines-mean-regret.png Graphic file (type bmp)
 <img/chatgpt-engines-mean-regret.png>
+ [37]
 File: img/graph-language-models.png Graphic file (type bmp)
 <img/graph-language-models.png>
 
-Overfull \hbox (23.06929pt too wide) in paragraph at lines 735--736
+Overfull \hbox (23.06929pt too wide) in paragraph at lines 599--600
 [][] 
  []
 
-[45]
-Overfull \hbox (5.14569pt too wide) in paragraph at lines 746--747
-\TU/Montserrat(1)/m/n/10.95 trefwoord-gebaseerde samenvattingen, terwijl aspect
--gebaseerde samenvattingen
- []
 
-[46]
-Underfull \hbox (badness 7081) in paragraph at lines 754--755
+Underfull \hbox (badness 7081) in paragraph at lines 609--610
 []|\TU/Montserrat(1)/m/n/10.95 davinci, curie, babbage,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 754--755
+Underfull \hbox (badness 10000) in paragraph at lines 609--610
 \TU/Montserrat(1)/m/n/10.95 curie-001, text-babbage-
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 756--756
+Underfull \hbox (badness 2512) in paragraph at lines 611--611
 []|\TU/Montserrat(1)/m/n/10.95 De gulzigheid van een generatief
  []
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 758--759
+Underfull \hbox (badness 4048) in paragraph at lines 613--614
 []|\TU/Montserrat(1)/m/n/10.95 Een getal tussen 1 and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 760--760
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
 []|\TU/Montserrat(1)/m/n/10.95 Vergelijkbaar met temperature,
  []
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 760--760
+Underfull \hbox (badness 6396) in paragraph at lines 615--615
 \TU/Montserrat(1)/m/n/10.95 probability distribution voor com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 760--760
+Underfull \hbox (badness 10000) in paragraph at lines 615--615
 \TU/Montserrat(1)/m/n/10.95 hoe waarschijnlijker de woorden-
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 760--760
+Underfull \hbox (badness 1412) in paragraph at lines 615--615
 \TU/Montserrat(1)/m/n/10.95 bij het genereren van tekst. Een
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 760--760
+Underfull \hbox (badness 1342) in paragraph at lines 615--615
 \TU/Montserrat(1)/m/n/10.95 neer een toepassing gericht is op
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 762--762
+Underfull \hbox (badness 10000) in paragraph at lines 617--617
 []|\TU/Montserrat(1)/m/n/10.95 Een tekstwaarde (woord/symbool)
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 762--762
+Underfull \hbox (badness 1009) in paragraph at lines 617--617
 \TU/Montserrat(1)/m/n/10.95 tot waar het model zal genereren.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 762--763
+Underfull \hbox (badness 10000) in paragraph at lines 617--618
 []|\TU/Montserrat(1)/m/n/10.95 Een lijst van string-
  []
 
 
-Underfull \hbox (badness 4013) in paragraph at lines 762--763
+Underfull \hbox (badness 4013) in paragraph at lines 617--618
 \TU/Montserrat(1)/m/n/10.95 waarden, of een enkele
  []
 
 
-Overfull \hbox (27.83153pt too wide) in paragraph at lines 750--767
+Overfull \hbox (27.83153pt too wide) in paragraph at lines 605--622
 [] 
  []
 
-[47]
-Overfull \hbox (16.16722pt too wide) in paragraph at lines 772--773
+[38] [39]
+Overfull \hbox (16.16722pt too wide) in paragraph at lines 627--628
 \TU/Montserrat(1)/m/n/10.95 woordresultaten combineert met het redeneervermogen
  van OpenAI’s GPT-modellen.
  []
@@ -2885,760 +2710,823 @@ File: img/bing-ai-prometheus.png Graphic file (type bmp)
 <img/bing-ai-prometheus.png>
 File: img/bing-ai-chatbot-example.png Graphic file (type bmp)
 <img/bing-ai-chatbot-example.png>
-[48] [49]) (./methodologie.tex [50]
-Hoofdstuk 3.
-[51
+[40]
+./standvanzaken.tex:646: Missing $ inserted.
+<inserted text> 
+                $
+l.646 .../scientific\_abstract\^^I_simplification}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-] [52]
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 9.00096pt on input line 646.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 6.00064pt on input line 646.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 646.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 8.99904pt on input line 646.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 646.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 646.
+./standvanzaken.tex:646: Missing $ inserted.
+<inserted text> 
+                $
+l.646 .../scientific\_abstract\^^I_simplification}
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./standvanzaken.tex:646: Missing } inserted.
+<inserted text> 
+                }
+l.646 .../scientific\_abstract\^^I_simplification}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./standvanzaken.tex:646: Extra }, or forgotten \endgroup.
+\@makefntext ...out #1\ifFN@hangfoot \par \egroup 
+                                                  \fi 
+l.646 .../scientific\_abstract\^^I_simplification}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+Overfull \hbox (16.93736pt too wide) in paragraph at lines 646--647
+\TU/Montserrat(1)/m/n/10.95 door ontwikkelaars snel modellen kunnen bouwen en i
+nzetten voor vereenvoudigings-
+ []
+
+
+Overfull \hbox (2.48581pt too wide) in paragraph at lines 646--647
+\TU/Montserrat(1)/m/n/10.95 en samenvattingstaken. Voor wetenschappelijke docum
+enten en artikelen bestaan
+ []
+
+[41]) (./methodologie.tex [42]
+Hoofdstuk 3.
+[43
+
+]
 Hoofdstuk 4.
 File: img/simplish-input.png Graphic file (type bmp)
 <img/simplish-input.png>
-[53
+[44
 
 ]
 File: img/simplish-output.png Graphic file (type bmp)
 <img/simplish-output.png>
- [54]
-Overfull \hbox (6.11174pt too wide) in paragraph at lines 60--60
+ [45]
+Overfull \hbox (6.11174pt too wide) in paragraph at lines 48--48
 []|\TU/Montserrat(1)/m/n/10.95 Onderwerp| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 []|\TU/Montserrat(1)/m/n/10.95 Moeilijke
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 woorden-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 schat
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 vervan-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 []|\TU/Montserrat(1)/m/n/10.95 Glossary
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 aan-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 maken
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 (vak/we-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 tenschap-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 pelijk
  []
 
 
-Overfull \hbox (88.86086pt too wide) in paragraph at lines 60--60
+Overfull \hbox (88.86086pt too wide) in paragraph at lines 48--48
 []|\TU/Montserrat(1)/m/n/10.95 Synoniemenwoordenboek| 
  []
 
 
-Overfull \hbox (9.37483pt too wide) in paragraph at lines 60--60
+Overfull \hbox (9.37483pt too wide) in paragraph at lines 48--48
 []|\TU/Montserrat(1)/m/n/10.95 Verklarende
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 (seman-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 tische)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 vereen-
  []
 
 
-Overfull \hbox (6.24313pt too wide) in paragraph at lines 60--60
+Overfull \hbox (6.24313pt too wide) in paragraph at lines 48--48
 []|\TU/Montserrat(1)/m/n/10.95 Identificeer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 complexe
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 []|\TU/Montserrat(1)/m/n/10.95 Vervang
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 complexe
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 woorden
  []
 
 
-Underfull \hbox (badness 6461) in paragraph at lines 60--60
+Underfull \hbox (badness 6461) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 door een-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 voudigere
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 synonie-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 []|\TU/Montserrat(1)/m/n/10.95 Gebruik
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 een ge-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 contro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 leerde
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 en ver-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 trouwde
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 woorden-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 schat;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 vermijd
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 []|\TU/Montserrat(1)/m/n/10.95 Vermijd
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 idioma-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 tische
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 uitdruk-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 []|\TU/Montserrat(1)/m/n/10.95 Vermijd
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 dubbel-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
 \TU/Montserrat(1)/m/n/10.95 zinnige
  []
 
-[55]
+[46]
 Overfull \vbox (456.40005pt too high) has occurred while \output is active []
 
 
-[56]
-Overfull \hbox (6.11174pt too wide) in paragraph at lines 81--81
+[47]
+Overfull \hbox (6.11174pt too wide) in paragraph at lines 69--69
 []|\TU/Montserrat(1)/m/n/10.95 Onderwerp| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 []|\TU/Montserrat(1)/m/n/10.95 Glossary
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 aan-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 maken
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 (vak/we-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 tenschap-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 pelijk
  []
 
 
-Overfull \hbox (88.86086pt too wide) in paragraph at lines 81--81
+Overfull \hbox (88.86086pt too wide) in paragraph at lines 69--69
 []|\TU/Montserrat(1)/m/n/10.95 Synoniemenwoordenboek| 
  []
 
 
-Overfull \hbox (9.37483pt too wide) in paragraph at lines 81--81
+Overfull \hbox (9.37483pt too wide) in paragraph at lines 69--69
 []|\TU/Montserrat(1)/m/n/10.95 Verklarende
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 (seman-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 tische)
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 vereen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 []|\TU/Montserrat(1)/m/n/10.95 Complex
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 Word
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 Identifica-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 []|\TU/Montserrat(1)/m/n/10.95 Complex
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 Word
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 Replace-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 []|\TU/Montserrat(1)/m/n/10.95 Vervang
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 complexe
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 woorden
  []
 
 
-Underfull \hbox (badness 6461) in paragraph at lines 81--81
+Underfull \hbox (badness 6461) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 door een-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 voudigere
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 synonie-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 []|\TU/Montserrat(1)/m/n/10.95 Gebruik
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 een ge-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 contro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 leerde
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 en ver-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 trouwde
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 woorden-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 schat;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 vermijd
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 []|\TU/Montserrat(1)/m/n/10.95 Vermijd
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 idioma-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 tische
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 uitdruk-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 []|\TU/Montserrat(1)/m/n/10.95 Vermijd
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 dubbel-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 69--69
 \TU/Montserrat(1)/m/n/10.95 zinnige
  []
 
-[57]
+[48]
 Overfull \vbox (163.9107pt too high) has occurred while \output is active []
 
 
-[58]
-Overfull \hbox (6.11174pt too wide) in paragraph at lines 103--103
+[49]
+Overfull \hbox (6.11174pt too wide) in paragraph at lines 91--91
 []|\TU/Montserrat(1)/m/n/10.95 Onderwerp| 
  []
 
-./methodologie.tex:103: Extra alignment tab has been changed to \cr.
+./methodologie.tex:91: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.103 }
-       
+l.91 }
+      
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (37.96527pt too wide) in paragraph at lines 103--103
+Overfull \hbox (37.96527pt too wide) in paragraph at lines 91--91
 []|\TU/Montserrat(1)/m/n/10.95 Tangconstructies
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 \TU/Montserrat(1)/m/n/10.95 aanpas-
  []
 
-./methodologie.tex:103: Extra alignment tab has been changed to \cr.
+./methodologie.tex:91: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.103 }
-       
+l.91 }
+      
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 []|\TU/Montserrat(1)/m/n/10.95 Zinnen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 \TU/Montserrat(1)/m/n/10.95 langer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 \TU/Montserrat(1)/m/n/10.95 dan tien
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 \TU/Montserrat(1)/m/n/10.95 woorden
  []
 
-./methodologie.tex:103: Extra alignment tab has been changed to \cr.
+./methodologie.tex:91: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.103 }
-       
+l.91 }
+      
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (31.01202pt too wide) in paragraph at lines 103--103
+Overfull \hbox (31.01202pt too wide) in paragraph at lines 91--91
 []|\TU/Montserrat(1)/m/n/10.95 Verwijswoorden
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 \TU/Montserrat(1)/m/n/10.95 aanpas-
  []
 
-./methodologie.tex:103: Extra alignment tab has been changed to \cr.
+./methodologie.tex:91: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.103 }
-       
+l.91 }
+      
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (78.45836pt too wide) in paragraph at lines 103--103
+Overfull \hbox (78.45836pt too wide) in paragraph at lines 91--91
 []|\TU/Montserrat(1)/m/n/10.95 Voorzetseluitdrukkingen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 \TU/Montserrat(1)/m/n/10.95 vervan-
  []
 
-./methodologie.tex:103: Extra alignment tab has been changed to \cr.
+./methodologie.tex:91: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.103 }
-       
+l.91 }
+      
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (29.29288pt too wide) in paragraph at lines 103--103
+Overfull \hbox (29.29288pt too wide) in paragraph at lines 91--91
 []|\TU/Montserrat(1)/m/n/10.95 Samengestelde
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 \TU/Montserrat(1)/m/n/10.95 werkwoor-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 \TU/Montserrat(1)/m/n/10.95 den ver-
  []
 
-./methodologie.tex:103: Extra alignment tab has been changed to \cr.
+./methodologie.tex:91: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.103 }
-       
+l.91 }
+      
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 []|\TU/Montserrat(1)/m/n/10.95 Gebruik
  []
 
-./methodologie.tex:103: Extra alignment tab has been changed to \cr.
+./methodologie.tex:91: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.103 }
-       
+l.91 }
+      
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 []|\TU/Montserrat(1)/m/n/10.95 Vermijd
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 \TU/Montserrat(1)/m/n/10.95 onregel-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 \TU/Montserrat(1)/m/n/10.95 matige
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 \TU/Montserrat(1)/m/n/10.95 werkwoor-
  []
 
-./methodologie.tex:103: Extra alignment tab has been changed to \cr.
+./methodologie.tex:91: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.103 }
-       
+l.91 }
+      
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[59]
+[50]
 Overfull \vbox (286.40158pt too high) has occurred while \output is active []
 
 
-[60]
-Overfull \hbox (6.11174pt too wide) in paragraph at lines 122--122
+[51]
+Overfull \hbox (6.11174pt too wide) in paragraph at lines 110--110
 []|\TU/Montserrat(1)/m/n/10.95 Onderwerp| 
  []
 
-./methodologie.tex:122: Extra alignment tab has been changed to \cr.
+./methodologie.tex:110: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.122 }
+l.110 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (37.96527pt too wide) in paragraph at lines 122--122
+Overfull \hbox (37.96527pt too wide) in paragraph at lines 110--110
 []|\TU/Montserrat(1)/m/n/10.95 Tangconstructies
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 \TU/Montserrat(1)/m/n/10.95 aanpas-
  []
 
-./methodologie.tex:122: Extra alignment tab has been changed to \cr.
+./methodologie.tex:110: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.122 }
+l.110 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 []|\TU/Montserrat(1)/m/n/10.95 Zinnen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 \TU/Montserrat(1)/m/n/10.95 langer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 \TU/Montserrat(1)/m/n/10.95 dan tien
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 \TU/Montserrat(1)/m/n/10.95 woorden
  []
 
-./methodologie.tex:122: Extra alignment tab has been changed to \cr.
+./methodologie.tex:110: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.122 }
+l.110 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (31.01202pt too wide) in paragraph at lines 122--122
+Overfull \hbox (31.01202pt too wide) in paragraph at lines 110--110
 []|\TU/Montserrat(1)/m/n/10.95 Verwijswoorden
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 \TU/Montserrat(1)/m/n/10.95 aanpas-
  []
 
-./methodologie.tex:122: Extra alignment tab has been changed to \cr.
+./methodologie.tex:110: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.122 }
+l.110 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (78.45836pt too wide) in paragraph at lines 122--122
+Overfull \hbox (78.45836pt too wide) in paragraph at lines 110--110
 []|\TU/Montserrat(1)/m/n/10.95 Voorzetseluitdrukkingen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 \TU/Montserrat(1)/m/n/10.95 vervan-
  []
 
-./methodologie.tex:122: Extra alignment tab has been changed to \cr.
+./methodologie.tex:110: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.122 }
+l.110 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (29.29288pt too wide) in paragraph at lines 122--122
+Overfull \hbox (29.29288pt too wide) in paragraph at lines 110--110
 []|\TU/Montserrat(1)/m/n/10.95 Samengestelde
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 \TU/Montserrat(1)/m/n/10.95 werkwoor-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 \TU/Montserrat(1)/m/n/10.95 den ver-
  []
 
-./methodologie.tex:122: Extra alignment tab has been changed to \cr.
+./methodologie.tex:110: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.122 }
+l.110 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 []|\TU/Montserrat(1)/m/n/10.95 Gebruik
  []
 
-./methodologie.tex:122: Extra alignment tab has been changed to \cr.
+./methodologie.tex:110: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.122 }
+l.110 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 []|\TU/Montserrat(1)/m/n/10.95 Vermijd
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 \TU/Montserrat(1)/m/n/10.95 onregel-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 \TU/Montserrat(1)/m/n/10.95 matige
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--122
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
 \TU/Montserrat(1)/m/n/10.95 werkwoor-
  []
 
-./methodologie.tex:122: Extra alignment tab has been changed to \cr.
+./methodologie.tex:110: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.122 }
+l.110 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -3648,997 +3536,997 @@ So I'll assume that you meant to type \cr instead.
 Overfull \vbox (6.17659pt too high) has occurred while \output is active []
 
 
-[61]
-Overfull \hbox (6.11174pt too wide) in paragraph at lines 145--145
+[52]
+Overfull \hbox (6.11174pt too wide) in paragraph at lines 133--133
 []|\TU/Montserrat(1)/m/n/10.95 Onderwerp| 
  []
 
-./methodologie.tex:145: Extra alignment tab has been changed to \cr.
+./methodologie.tex:133: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.145 }
+l.133 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (32.97208pt too wide) in paragraph at lines 145--145
+Overfull \hbox (32.97208pt too wide) in paragraph at lines 133--133
 []|\TU/Montserrat(1)/m/n/10.95 Bronvermelding| 
  []
 
-./methodologie.tex:145: Extra alignment tab has been changed to \cr.
+./methodologie.tex:133: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.145 }
+l.133 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (20.25912pt too wide) in paragraph at lines 145--145
+Overfull \hbox (20.25912pt too wide) in paragraph at lines 133--133
 []|\TU/Montserrat(1)/m/n/10.95 Automatische
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 marke-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 ring van
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 de be-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 langrijke
  []
 
-./methodologie.tex:145: Extra alignment tab has been changed to \cr.
+./methodologie.tex:133: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.145 }
+l.133 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (20.25912pt too wide) in paragraph at lines 145--145
+Overfull \hbox (20.25912pt too wide) in paragraph at lines 133--133
 []|\TU/Montserrat(1)/m/n/10.95 Automatische
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 mar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 kering
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 van de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 moeilijk
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 leesbare
  []
 
-./methodologie.tex:145: Extra alignment tab has been changed to \cr.
+./methodologie.tex:133: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.145 }
+l.133 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (18.41953pt too wide) in paragraph at lines 145--145
+Overfull \hbox (18.41953pt too wide) in paragraph at lines 133--133
 []|\TU/Montserrat(1)/m/n/10.95 Gemarkeerde
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 zinnen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 samenvat-
  []
 
-./methodologie.tex:145: Extra alignment tab has been changed to \cr.
+./methodologie.tex:133: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.145 }
+l.133 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (18.41953pt too wide) in paragraph at lines 145--145
+Overfull \hbox (18.41953pt too wide) in paragraph at lines 133--133
 []|\TU/Montserrat(1)/m/n/10.95 Gemarkeerde
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 zinnen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 abstra-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 herend
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 samenvat-
  []
 
-./methodologie.tex:145: Extra alignment tab has been changed to \cr.
+./methodologie.tex:133: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.145 }
+l.133 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (20.25912pt too wide) in paragraph at lines 145--145
+Overfull \hbox (20.25912pt too wide) in paragraph at lines 133--133
 []|\TU/Montserrat(1)/m/n/10.95 Automatische
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 extrahe-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 rende
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 samenvat-
  []
 
-./methodologie.tex:145: Extra alignment tab has been changed to \cr.
+./methodologie.tex:133: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.145 }
+l.133 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (20.25912pt too wide) in paragraph at lines 145--145
+Overfull \hbox (20.25912pt too wide) in paragraph at lines 133--133
 []|\TU/Montserrat(1)/m/n/10.95 Automatische
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 abstrahe-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 rende
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 samenvat-
  []
 
-./methodologie.tex:145: Extra alignment tab has been changed to \cr.
+./methodologie.tex:133: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.145 }
+l.133 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 []|\TU/Montserrat(1)/m/n/10.95 Lengte
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 van de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 samen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 vatting
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 controle-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 ren door
  []
 
-./methodologie.tex:145: Extra alignment tab has been changed to \cr.
+./methodologie.tex:133: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.145 }
+l.133 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (16.62373pt too wide) in paragraph at lines 145--145
+Overfull \hbox (16.62373pt too wide) in paragraph at lines 133--133
 []|\TU/Montserrat(1)/m/n/10.95 Samenvatten
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 op basis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
+Underfull \hbox (badness 10000) in paragraph at lines 133--133
 \TU/Montserrat(1)/m/n/10.95 van kern-
  []
 
-./methodologie.tex:145: Extra alignment tab has been changed to \cr.
+./methodologie.tex:133: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.145 }
+l.133 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[62]
+[53]
 Overfull \vbox (833.72351pt too high) has occurred while \output is active []
 
 
-[63]
-Overfull \hbox (6.11174pt too wide) in paragraph at lines 166--166
+[54]
+Overfull \hbox (6.11174pt too wide) in paragraph at lines 154--154
 []|\TU/Montserrat(1)/m/n/10.95 Onderwerp| 
  []
 
-./methodologie.tex:166: Extra alignment tab has been changed to \cr.
+./methodologie.tex:154: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.166 }
+l.154 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (32.97208pt too wide) in paragraph at lines 166--166
+Overfull \hbox (32.97208pt too wide) in paragraph at lines 154--154
 []|\TU/Montserrat(1)/m/n/10.95 Bronvermelding| 
  []
 
-./methodologie.tex:166: Extra alignment tab has been changed to \cr.
+./methodologie.tex:154: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.166 }
+l.154 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (20.25912pt too wide) in paragraph at lines 166--166
+Overfull \hbox (20.25912pt too wide) in paragraph at lines 154--154
 []|\TU/Montserrat(1)/m/n/10.95 Automatische
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 marke-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 ring van
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 de be-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 langrijke
  []
 
-./methodologie.tex:166: Extra alignment tab has been changed to \cr.
+./methodologie.tex:154: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.166 }
+l.154 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (20.25912pt too wide) in paragraph at lines 166--166
+Overfull \hbox (20.25912pt too wide) in paragraph at lines 154--154
 []|\TU/Montserrat(1)/m/n/10.95 Automatische
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 mar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 kering
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 van de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 moeilijk
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 leesbare
  []
 
-./methodologie.tex:166: Extra alignment tab has been changed to \cr.
+./methodologie.tex:154: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.166 }
+l.154 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (18.41953pt too wide) in paragraph at lines 166--166
+Overfull \hbox (18.41953pt too wide) in paragraph at lines 154--154
 []|\TU/Montserrat(1)/m/n/10.95 Gemarkeerde
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 zinnen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 samenvat-
  []
 
-./methodologie.tex:166: Extra alignment tab has been changed to \cr.
+./methodologie.tex:154: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.166 }
+l.154 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (18.41953pt too wide) in paragraph at lines 166--166
+Overfull \hbox (18.41953pt too wide) in paragraph at lines 154--154
 []|\TU/Montserrat(1)/m/n/10.95 Gemarkeerde
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 zinnen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 abstra-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 herend
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 samenvat-
  []
 
-./methodologie.tex:166: Extra alignment tab has been changed to \cr.
+./methodologie.tex:154: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.166 }
+l.154 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (20.25912pt too wide) in paragraph at lines 166--166
+Overfull \hbox (20.25912pt too wide) in paragraph at lines 154--154
 []|\TU/Montserrat(1)/m/n/10.95 Automatische
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 extrahe-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 rende
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 samenvat-
  []
 
-./methodologie.tex:166: Extra alignment tab has been changed to \cr.
+./methodologie.tex:154: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.166 }
+l.154 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (20.25912pt too wide) in paragraph at lines 166--166
+Overfull \hbox (20.25912pt too wide) in paragraph at lines 154--154
 []|\TU/Montserrat(1)/m/n/10.95 Automatische
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 abstrahe-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 rende
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 samenvat-
  []
 
-./methodologie.tex:166: Extra alignment tab has been changed to \cr.
+./methodologie.tex:154: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.166 }
+l.154 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 []|\TU/Montserrat(1)/m/n/10.95 Lengte
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 van de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 samen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 vatting
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 controle-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 ren door
  []
 
-./methodologie.tex:166: Extra alignment tab has been changed to \cr.
+./methodologie.tex:154: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.166 }
+l.154 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (16.62373pt too wide) in paragraph at lines 166--166
+Overfull \hbox (16.62373pt too wide) in paragraph at lines 154--154
 []|\TU/Montserrat(1)/m/n/10.95 Samenvatten
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 op basis
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
 \TU/Montserrat(1)/m/n/10.95 van kern-
  []
 
-./methodologie.tex:166: Extra alignment tab has been changed to \cr.
+./methodologie.tex:154: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.166 }
+l.154 }
        
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[64]
+[55]
 Overfull \vbox (394.13998pt too high) has occurred while \output is active []
 
 
-[65]
-Overfull \hbox (6.11174pt too wide) in paragraph at lines 189--189
+[56]
+Overfull \hbox (6.11174pt too wide) in paragraph at lines 178--178
 []|\TU/Montserrat(1)/m/n/10.95 Onderwerp| 
  []
 
-./methodologie.tex:189: Extra alignment tab has been changed to \cr.
+./methodologie.tex:178: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.189 ^^I\end{tabular}}
-                       
+l.178 }
+       
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
 \TU/Montserrat(1)/m/n/10.95 aanpas-
  []
 
-./methodologie.tex:189: Extra alignment tab has been changed to \cr.
+./methodologie.tex:178: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.189 ^^I\end{tabular}}
-                       
+l.178 }
+       
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (16.09813pt too wide) in paragraph at lines 189--189
+Overfull \hbox (16.09813pt too wide) in paragraph at lines 178--178
 []|\TU/Montserrat(1)/m/n/10.95 Lettergrootte
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
 \TU/Montserrat(1)/m/n/10.95 aanpas-
  []
 
-./methodologie.tex:189: Extra alignment tab has been changed to \cr.
+./methodologie.tex:178: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.189 ^^I\end{tabular}}
-                       
+l.178 }
+       
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
 []|\TU/Montserrat(1)/m/n/10.95 Formaat
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
 \TU/Montserrat(1)/m/n/10.95 aanpas-
  []
 
-./methodologie.tex:189: Extra alignment tab has been changed to \cr.
+./methodologie.tex:178: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.189 ^^I\end{tabular}}
-                       
+l.178 }
+       
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (40.64803pt too wide) in paragraph at lines 189--189
+Overfull \hbox (40.64803pt too wide) in paragraph at lines 178--178
 []|\TU/Montserrat(1)/m/n/10.95 Achtergrondkleur
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
 \TU/Montserrat(1)/m/n/10.95 aanpas-
  []
 
-./methodologie.tex:189: Extra alignment tab has been changed to \cr.
+./methodologie.tex:178: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.189 ^^I\end{tabular}}
-                       
+l.178 }
+       
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (33.55243pt too wide) in paragraph at lines 189--189
+Overfull \hbox (33.55243pt too wide) in paragraph at lines 178--178
 []|\TU/Montserrat(1)/m/n/10.95 Browserextensie| 
  []
 
-./methodologie.tex:189: Extra alignment tab has been changed to \cr.
+./methodologie.tex:178: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.189 ^^I\end{tabular}}
-                       
+l.178 }
+       
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (4.07503pt too wide) in paragraph at lines 189--189
+Overfull \hbox (4.07503pt too wide) in paragraph at lines 178--178
 []|\TU/Montserrat(1)/m/n/10.95 Exporteren
  []
 
 
-Underfull \hbox (badness 7064) in paragraph at lines 189--189
+Underfull \hbox (badness 7064) in paragraph at lines 178--178
 \TU/Montserrat(1)/m/n/10.95 naar PDF
  []
 
-./methodologie.tex:189: Extra alignment tab has been changed to \cr.
+./methodologie.tex:178: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.189 ^^I\end{tabular}}
-                       
+l.178 }
+       
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (17.59828pt too wide) in paragraph at lines 189--189
+Overfull \hbox (17.59828pt too wide) in paragraph at lines 178--178
 []|\TU/Montserrat(1)/m/n/10.95 Afbeeldingen
  []
 
-./methodologie.tex:189: Extra alignment tab has been changed to \cr.
+./methodologie.tex:178: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.189 ^^I\end{tabular}}
-                       
+l.178 }
+       
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (17.59828pt too wide) in paragraph at lines 189--189
+Overfull \hbox (17.59828pt too wide) in paragraph at lines 178--178
 []|\TU/Montserrat(1)/m/n/10.95 Afbeeldingen
  []
 
-./methodologie.tex:189: Extra alignment tab has been changed to \cr.
+./methodologie.tex:178: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.189 ^^I\end{tabular}}
-                       
+l.178 }
+       
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (17.59828pt too wide) in paragraph at lines 189--189
+Overfull \hbox (17.59828pt too wide) in paragraph at lines 178--178
 []|\TU/Montserrat(1)/m/n/10.95 Afbeeldingen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
 \TU/Montserrat(1)/m/n/10.95 interprete-
  []
 
-./methodologie.tex:189: Extra alignment tab has been changed to \cr.
+./methodologie.tex:178: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.189 ^^I\end{tabular}}
-                       
+l.178 }
+       
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (49.41898pt too wide) in paragraph at lines 189--189
+Overfull \hbox (49.41898pt too wide) in paragraph at lines 178--178
 []|\TU/Montserrat(1)/m/n/10.95 Netwerkverbinding
  []
 
-./methodologie.tex:189: Extra alignment tab has been changed to \cr.
+./methodologie.tex:178: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.189 ^^I\end{tabular}}
-                       
+l.178 }
+       
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (22.49294pt too wide) in paragraph at lines 189--189
+Overfull \hbox (22.49294pt too wide) in paragraph at lines 178--178
 []|\TU/Montserrat(1)/m/n/10.95 Webapplicatie
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
 \TU/Montserrat(1)/m/n/10.95 of online
  []
 
-./methodologie.tex:189: Extra alignment tab has been changed to \cr.
+./methodologie.tex:178: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.189 ^^I\end{tabular}}
-                       
+l.178 }
+       
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--189
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
 \TU/Montserrat(1)/m/n/10.95 onder-
  []
 
-./methodologie.tex:189: Extra alignment tab has been changed to \cr.
+./methodologie.tex:178: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.189 ^^I\end{tabular}}
-                       
+l.178 }
+       
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[66]
-Overfull \vbox (633.33772pt too high) has occurred while \output is active []
+[57]
+Overfull \vbox (617.75581pt too high) has occurred while \output is active []
 
 
-[67]
-Overfull \hbox (6.11174pt too wide) in paragraph at lines 212--212
+[58]
+Overfull \hbox (6.11174pt too wide) in paragraph at lines 201--201
 []|\TU/Montserrat(1)/m/n/10.95 Onderwerp| 
  []
 
-./methodologie.tex:212: Extra alignment tab has been changed to \cr.
+./methodologie.tex:201: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.212 ^^I}
+l.201 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
 \TU/Montserrat(1)/m/n/10.95 aanpas-
  []
 
-./methodologie.tex:212: Extra alignment tab has been changed to \cr.
+./methodologie.tex:201: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.212 ^^I}
+l.201 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (16.09813pt too wide) in paragraph at lines 212--212
+Overfull \hbox (16.09813pt too wide) in paragraph at lines 201--201
 []|\TU/Montserrat(1)/m/n/10.95 Lettergrootte
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
 \TU/Montserrat(1)/m/n/10.95 aanpas-
  []
 
-./methodologie.tex:212: Extra alignment tab has been changed to \cr.
+./methodologie.tex:201: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.212 ^^I}
+l.201 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
 []|\TU/Montserrat(1)/m/n/10.95 Formaat
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
 \TU/Montserrat(1)/m/n/10.95 aanpas-
  []
 
-./methodologie.tex:212: Extra alignment tab has been changed to \cr.
+./methodologie.tex:201: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.212 ^^I}
+l.201 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (40.64803pt too wide) in paragraph at lines 212--212
+Overfull \hbox (40.64803pt too wide) in paragraph at lines 201--201
 []|\TU/Montserrat(1)/m/n/10.95 Achtergrondkleur
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
 \TU/Montserrat(1)/m/n/10.95 aanpas-
  []
 
-./methodologie.tex:212: Extra alignment tab has been changed to \cr.
+./methodologie.tex:201: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.212 ^^I}
+l.201 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (33.55243pt too wide) in paragraph at lines 212--212
+Overfull \hbox (33.55243pt too wide) in paragraph at lines 201--201
 []|\TU/Montserrat(1)/m/n/10.95 Browserextensie| 
  []
 
-./methodologie.tex:212: Extra alignment tab has been changed to \cr.
+./methodologie.tex:201: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.212 ^^I}
+l.201 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (4.07503pt too wide) in paragraph at lines 212--212
+Overfull \hbox (4.07503pt too wide) in paragraph at lines 201--201
 []|\TU/Montserrat(1)/m/n/10.95 Exporteren
  []
 
 
-Underfull \hbox (badness 7064) in paragraph at lines 212--212
+Underfull \hbox (badness 7064) in paragraph at lines 201--201
 \TU/Montserrat(1)/m/n/10.95 naar PDF
  []
 
-./methodologie.tex:212: Extra alignment tab has been changed to \cr.
+./methodologie.tex:201: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.212 ^^I}
+l.201 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (17.59828pt too wide) in paragraph at lines 212--212
+Overfull \hbox (17.59828pt too wide) in paragraph at lines 201--201
 []|\TU/Montserrat(1)/m/n/10.95 Afbeeldingen
  []
 
-./methodologie.tex:212: Extra alignment tab has been changed to \cr.
+./methodologie.tex:201: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.212 ^^I}
+l.201 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (17.59828pt too wide) in paragraph at lines 212--212
+Overfull \hbox (17.59828pt too wide) in paragraph at lines 201--201
 []|\TU/Montserrat(1)/m/n/10.95 Afbeeldingen
  []
 
-./methodologie.tex:212: Extra alignment tab has been changed to \cr.
+./methodologie.tex:201: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.212 ^^I}
+l.201 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (17.59828pt too wide) in paragraph at lines 212--212
+Overfull \hbox (17.59828pt too wide) in paragraph at lines 201--201
 []|\TU/Montserrat(1)/m/n/10.95 Afbeeldingen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
 \TU/Montserrat(1)/m/n/10.95 interprete-
  []
 
-./methodologie.tex:212: Extra alignment tab has been changed to \cr.
+./methodologie.tex:201: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.212 ^^I}
+l.201 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (49.41898pt too wide) in paragraph at lines 212--212
+Overfull \hbox (49.41898pt too wide) in paragraph at lines 201--201
 []|\TU/Montserrat(1)/m/n/10.95 Netwerkverbinding
  []
 
-./methodologie.tex:212: Extra alignment tab has been changed to \cr.
+./methodologie.tex:201: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.212 ^^I}
+l.201 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (22.49294pt too wide) in paragraph at lines 212--212
+Overfull \hbox (22.49294pt too wide) in paragraph at lines 201--201
 []|\TU/Montserrat(1)/m/n/10.95 Webapplicatie
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
 \TU/Montserrat(1)/m/n/10.95 of online
  []
 
-./methodologie.tex:212: Extra alignment tab has been changed to \cr.
+./methodologie.tex:201: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.212 ^^I}
+l.201 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--212
+Underfull \hbox (badness 10000) in paragraph at lines 201--201
 \TU/Montserrat(1)/m/n/10.95 onder-
  []
 
-./methodologie.tex:212: Extra alignment tab has been changed to \cr.
+./methodologie.tex:201: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.212 ^^I}
+l.201 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
@@ -4648,211 +4536,217 @@ So I'll assume that you meant to type \cr instead.
 Overfull \vbox (217.5289pt too high) has occurred while \output is active []
 
 
-[68]
-Overfull \hbox (6.11174pt too wide) in paragraph at lines 233--233
+[59]
+Overfull \hbox (6.11174pt too wide) in paragraph at lines 222--222
 []|\TU/Montserrat(1)/m/n/10.95 Onderwerp| 
  []
 
-./methodologie.tex:233: Extra alignment tab has been changed to \cr.
+./methodologie.tex:222: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.233 ^^I}
+l.222 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (21.18988pt too wide) in paragraph at lines 233--233
+Overfull \hbox (21.18988pt too wide) in paragraph at lines 222--222
 []|\TU/Montserrat(1)/m/n/10.95 Karakterlimiet| 
  []
 
-./methodologie.tex:233: Extra alignment tab has been changed to \cr.
+./methodologie.tex:222: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.233 ^^I}
+l.222 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-./methodologie.tex:233: Extra alignment tab has been changed to \cr.
+./methodologie.tex:222: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.233 ^^I}
+l.222 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
 []|\TU/Montserrat(1)/m/n/10.95 API-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
 \TU/Montserrat(1)/m/n/10.95 sleutel
  []
 
-./methodologie.tex:233: Extra alignment tab has been changed to \cr.
+./methodologie.tex:222: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.233 ^^I}
+l.222 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
 []|\TU/Montserrat(1)/m/n/10.95 Betafase
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
 \TU/Montserrat(1)/m/n/10.95 of wacht-
  []
 
-./methodologie.tex:233: Extra alignment tab has been changed to \cr.
+./methodologie.tex:222: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.233 ^^I}
+l.222 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \hbox (15.35353pt too wide) in paragraph at lines 233--233
+Overfull \hbox (15.35353pt too wide) in paragraph at lines 222--222
 []|\TU/Montserrat(1)/m/n/10.95 Multilinguaal
  []
 
-./methodologie.tex:233: Extra alignment tab has been changed to \cr.
+./methodologie.tex:222: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.233 ^^I}
+l.222 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
+Underfull \hbox (badness 10000) in paragraph at lines 222--222
 []|\TU/Montserrat(1)/m/n/10.95 White-
  []
 
-./methodologie.tex:233: Extra alignment tab has been changed to \cr.
+./methodologie.tex:222: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.233 ^^I}
+l.222 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-./methodologie.tex:233: Extra alignment tab has been changed to \cr.
+./methodologie.tex:222: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.233 ^^I}
+l.222 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[69] [70]
-./methodologie.tex:252: Extra alignment tab has been changed to \cr.
+[60] [61]
+./methodologie.tex:241: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.252 ^^I}
+l.241 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-./methodologie.tex:252: Extra alignment tab has been changed to \cr.
+./methodologie.tex:241: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.252 ^^I}
+l.241 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-./methodologie.tex:252: Extra alignment tab has been changed to \cr.
+./methodologie.tex:241: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.252 ^^I}
+l.241 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-./methodologie.tex:252: Extra alignment tab has been changed to \cr.
+./methodologie.tex:241: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.252 ^^I}
+l.241 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-./methodologie.tex:252: Extra alignment tab has been changed to \cr.
+./methodologie.tex:241: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.252 ^^I}
+l.241 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-./methodologie.tex:252: Extra alignment tab has been changed to \cr.
+./methodologie.tex:241: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.252 ^^I}
+l.241 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-./methodologie.tex:252: Extra alignment tab has been changed to \cr.
+./methodologie.tex:241: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.252 ^^I}
+l.241 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-./methodologie.tex:252: Extra alignment tab has been changed to \cr.
+./methodologie.tex:241: Extra alignment tab has been changed to \cr.
 <recently read> \endtemplate 
                              
-l.252 ^^I}
+l.241 ^^I}
           
 You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[71] [72]
+[62] [63]
 Hoofdstuk 5.
 
-Overfull \hbox (18.68086pt too wide) in paragraph at lines 275--276
-\TU/Montserrat(1)/m/n/10.95 dan de opstart via een terminal. Daarnaast worden d
-e benodigde Python-bibliotheken
+Overfull \hbox (8.4307pt too wide) in paragraph at lines 256--257
+\TU/Montserrat(1)/m/n/10.95 een prompt te vermijden, wordt de temperature op nu
+l geplaatst en de \TU/Montserrat(2)/m/it/10.95 top_p \TU/Montserrat(1)/m/n/10.9
+5 waarde
  []
 
-[73
+[64
 
 ]
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `FiraCode' (encoding: TU).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [74]) (./conclusie.tex [75]
-Hoofdstuk 6.
-) [76
+Overfull \hbox (6.23857pt too wide) in paragraph at lines 262--263
+\TU/Montserrat(1)/m/n/10.95 geslaan. Alle taalmodellen worden per API aangespro
+ken, dus één Docker-container
+ []
 
-] [77]
+[65] [66]
+Hoofdstuk 6.
+) (./conclusie.tex [67
+
+]
+Hoofdstuk 7.
+) [68
+
+] [69]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--8
@@ -4860,7 +4754,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 da-2030-stem-competenties-voor-een-
  []
 
-[78
+[70
 
 ]
 Overfull \hbox (3.46771pt too wide) in paragraph at lines 34--35
@@ -4868,36 +4762,36 @@ Overfull \hbox (3.46771pt too wide) in paragraph at lines 34--35
 oor nieuwe toepassingen zorgde. Tekst-
  []
 
-[79]
+[71]
 Overfull \hbox (2.54906pt too wide) in paragraph at lines 38--39
 []\TU/Montserrat(1)/m/n/10.95 Tekstvereenvoudiging behoort tot de zijtak van \T
 U/Montserrat(2)/m/it/10.95 Natural Language Processing \TU/Montserrat(1)/m/n/10
 .95 (NLP)
  []
 
-[80]
+[72]
 Overfull \hbox (14.44443pt too wide) in paragraph at lines 54--55
 []\TU/Montserrat(1)/m/n/10.95 Het onderzoek van []Sciforce ([][]2020[][]) haalt
  aan dat het merendeel van NLP-toepassingen
  []
 
-[81]
+[73]
 Overfull \hbox (1.14409pt too wide) in paragraph at lines 65--66
 \TU/Montserrat(1)/m/n/10.95 wel gebruikt worden, zijn vooral online leerplatfor
 men voor zelfstandig werken. Ook
  []
 
-[82]
+[74]
 File: img/Screenshot_302.png Graphic file (type bmp)
 <img/Screenshot_302.png>
- [83] [84]) [85]
+ [75] [76]) [77]
 Overfull \hbox (2.13918pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(1)/m/n/10.95 Dutch. \TU/Montserrat(2)/m/it/10.95 Computational L
 inguistics in the Netherlands Journal\TU/Montserrat(1)/m/n/10.95 , \TU/Montserr
 at(2)/m/it/10.95 8\TU/Montserrat(1)/m/n/10.95 , 24–48. [][]$[][][][][] []
  []
 
-[86
+[78
 
 
 ]
@@ -4913,66 +4807,58 @@ Overfull \hbox (30.04782pt too wide) in paragraph at lines 200--200
 [][][][][][][][][][]$[][] 
  []
 
-[87]
-Overfull \hbox (53.7668pt too wide) in paragraph at lines 200--200
-[][]\TU/Montserrat(1)/m/n/10.95 Diels, L. (2022). \TU/Montserrat(2)/m/it/10.95 
-Over dyslexie, vooroordelen en vriendschap\TU/Montserrat(1)/m/n/10.95 . [][]$[]
-[][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][][][][][][][] []
- []
-
 
 Overfull \hbox (17.6088pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(1)/m/n/10.95 E. M. (2022). Students with dyslexia between school
  and university: Post-diploma
  []
 
-
+[79]
 Overfull \hbox (44.50203pt too wide) in paragraph at lines 200--200
 [][] [] [][][][][][][][][][][][][] [][] [][][][][][][][] [][] [][][][][][][][][
 ][][][][][] [][] [][][][][][][][][][][][][][][] [][] [][][][][][][][][][][][][]
 [][] [][]
  []
 
-[88]
+
 Overfull \hbox (0.81898pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(2)/m/it/10.95 shop on Speech and Language Processing for Assisti
 ve Technologies (SLPAT-
  []
 
-
+[80]
 Overfull \hbox (62.21321pt too wide) in paragraph at lines 200--200
 [][]\TU/Montserrat(1)/m/n/10.95 Hale, A. (2022). Bullet points: What, why, and 
 how to use then. [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][
 ][][] []
  []
 
-[89]
+
 Overfull \hbox (15.62875pt too wide) in paragraph at lines 200--200
 [][]\TU/Montserrat(1)/m/n/10.95 Iredale, G. (2022). An overview of tokenization
  algorithms in NLP. [][]$[][][][][] [] [] [] [][][][][][][][][][][][][][] []
  []
 
-
+[81]
 Overfull \hbox (4.43297pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(2)/m/it/10.95 sing\TU/Montserrat(1)/m/n/10.95 . Pearson Educatio
 n. [][]$[][][][][] [] [] [] [][][][][] [] [][][][][][] [] [][] [] [][][][][] []
  [][] [] [][][][][][][][][][][][]$[][] 
  []
 
-[90]
+
 Overfull \hbox (12.61131pt too wide) in paragraph at lines 200--200
 [][]\TU/Montserrat(1)/m/n/10.95 Li, C. (2022). OpenAI’s GPT-3 language model: A
  technical overview. [][]$[][][][][] [] [] [] [][][][][][][][][][] []
  []
 
-
+[82]
 Overfull \hbox (0.9867pt too wide) in paragraph at lines 200--200
 [][][] [] [][][][] [] [][][] [] [][][][] [] [][][][][][][][] [][] [][][] [][] [
 ][][][][][][][] [] [][][][] [][] [][][][][][][][][][] [][] [][][][][][][][][][]
 [] [][]
  []
 
-[91]
 ./CluyseDylanBP.tex:200: Misplaced alignment tab character &.
 <argument> Guide &
                   amp; examples
@@ -5009,19 +4895,13 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[92]
+[83]
 Overfull \hbox (4.29759pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(1)/m/n/10.95 Part of Speech Tagger [http://eprints.ewi.utwente.n
 l/14662 ; 20th Benelux Con-
  []
 
-[93]
-Overfull \hbox (3.61295pt too wide) in paragraph at lines 200--200
-[][]\TU/Montserrat(1)/m/n/10.95 Rijnvis, D. (2020). Tangconstructies - 5 tips o
-m ze Te Vermijden. [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][] []
- []
-
-[94]
+[84] [85]
 Overfull \hbox (18.56651pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(2)/m/it/10.95 on Natural Language Processing 2014\TU/Montserrat(
 1)/m/n/10.95 , \TU/Montserrat(2)/m/it/10.95 4\TU/Montserrat(1)/m/n/10.95 (1). [
@@ -5029,19 +4909,19 @@ Overfull \hbox (18.56651pt too wide) in paragraph at lines 200--200
 ][][][][][] []
  []
 
-
+[86]
 Overfull \hbox (1.71274pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(2)/m/it/10.95 Wijze lessen: twaalf bouwstenen voor effectieve di
 dactiek \TU/Montserrat(1)/m/n/10.95 (1ste ed.). Ten Brink
  []
 
-[95]
+
 Overfull \hbox (2.01982pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(1)/m/n/10.95 implicaties uit begrijpend leesonderzoek en spellin
 gonderzoek voor diagnos-
  []
 
-
+[87]
 Overfull \hbox (4.93161pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(1)/m/n/10.95 Smith, J. & Schmidt, D. C. (2023). A Prompt Pattern
  Catalog to Enhance Prompt
@@ -5053,20 +4933,23 @@ Overfull \hbox (19.16676pt too wide) in paragraph at lines 200--200
 physiological tracking of speech-structure
  []
 
-[96] [97] (../output/CluyseDylanBP.aux)
+[88] (../output/CluyseDylanBP.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `CluyseDylanBP.out' has not changed.
-(rerunfilecheck)             Checksum: 828371D2988C4CDCBCE19102E9A608BD;6371.
+(rerunfilecheck)             Checksum: 5A5DCC1B9D8E0CF77A906E53490A0143;6099.
 Package logreq Info: Writing requests to 'CluyseDylanBP.run.xml'.
 \openout1 = `CluyseDylanBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48528 strings out of 478657
- 947049 string characters out of 5861314
- 2134030 words of memory out of 5000000
- 67265 multiletter control sequences out of 15000+600000
- 406498 words of font info for 100 fonts, out of 8000000 for 9000
+ 48326 strings out of 478657
+ 944798 string characters out of 5861313
+ 2119875 words of memory out of 5000000
+ 67054 multiletter control sequences out of 15000+600000
+ 407983 words of font info for 113 fonts, out of 8000000 for 9000
  351 hyphenation exceptions out of 8191
  113i,12n,139p,2569b,7101s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../output/CluyseDylanBP.xdv (107 pages, 2254144 bytes).
+Output written on ../output/CluyseDylanBP.xdv (98 pages, 2000620 bytes).
