@@ -156,6 +156,8 @@ Huidige tools maken gebruik van geavanceerde taalmodellen, zoals BERT of GPT-3. 
 
 \section{Functionaliteiten}
 
+Aanvullend kan de docent het formaat van de vereenvoudigde tekst beïnvloeden. Zo maakt een van de vereenvoudigde versies gebruik van een tabelstructuur om de tekst op een overzichtelijke manier weer te geven. Verschillende formaten zijn echter enkel binnen ChatGPT en de bijhorende Codex-engine terug te vinden. Het is mogelijk om zero-shot example formaat mee te geven waarop het model een antwoord kan genereren. Scispace is hiertoe niet in staat, maar is sneller geneigd om de samengevatte tekst als opsomming naar de gebruiker te retourneren. Andere taalmodellen -en vereenvoudigingstools houden het bij doorlopende tekst, waarvan sommigen deze uitvoer opsplitsen per paragraaf en sommigen deze als één volledige paragraaf uitprinten.
+
 \begin{table}[H]
 	\centering
 	\resizebox{0.8\textwidth}{!}{
@@ -178,6 +180,7 @@ Huidige tools maken gebruik van geavanceerde taalmodellen, zoals BERT of GPT-3. 
 }
 \end{table}
 
+Alle tools maken momenteel gebruik van het internet. Net zoals ... aangeeft is dit nodig om de toepassing zo licht mogelijk te maken. Wel is onduidelijk of deze tools een externe API aanspreken.
 
 \begin{table}[H]
 	\centering
@@ -266,6 +269,7 @@ Het merendeel van de gebruikte taalmodellen is Engelstalig of is nadrukkelijk ge
 Tekst uit een PDF-bestand extraheren gebeurt met PDFMiner. Alle pagina's worden overlopen en de tekstinhoud wordt per pagina in een array geplaatst. Door middel van een aparte functie wordt de tekst opgesplitst per paragraaf en vervolgens per zin. Het resultaat van deze transformatie is een vierdimensionale array. Deze transformatie bevoordeelt het proces om vervolgens de teksten per zin op de webpagina uit te printen. De woorden in een zin worden als key-value paar opgeslaan. De sleutel verwijst hier naar de woord in een zin. De bijhorende waarde verwijst naar de PoS-tag die aan dit woord toebehoord. Dit biedt kansen toe doordat de sleutelwaarden nu overlopen kunnen worden om een klasse te koppelen aan ieder woord. Op deze manier kunnen scholieren en lectoren kiezen om zo alle werk -en naamwoorden of adjectieven te tonen met een volgens hun gekozen kleur.
 
 \section{Docker-omgeving}
+
 Voor een optimale opzet als ontwikkelaars wordt Docker ingezet voor de deployment. Een bash of bat-scriptbestand vereenvoudigt de opstart van deze webapplicatie in tegenstelling tot de opstart per terminal. De nodige Python-bibliotheken worden alvorens opgehaald met Pipreq. De literatuurstudie wees uit om gebruik te maken van meerdere Docker-containers wanneer taalmodellen lokaal worden opgeslaan. Alle taalmodellen worden per API aangesproken, dus één Docker-container voor de webapplicatie volstaat voor dit prototype.
 
 \section{Resultaten}
@@ -275,7 +279,6 @@ Voor een optimale opzet als ontwikkelaars wordt Docker ingezet voor de deploymen
 SC en BART-SC scoren subjectief hoger dan de andere modellen. Zij bekijken enkel de gekregen zin. De andere modellen zijn eerder geneigd om extra tekst toe te voegen. Er kan niet achterhaald worden waarom dat deze extra tekst wordt meegegeven.
 BART-SC kan bijzaak behouden, terwijl SC sneller de neiging heeft om enkel de kernzaak te behouden in de vereenvoudigde tekst. Bij de inference API's moet er expliciet worden aangegeven om welke  transformatie dit gaat. 
 
-
 \section{Conclusie}
 
 Dit prototype wordt enkel binnen een lokale omgeving opgezet en is nog niet bruikbaar voor het grote publiek. Met PDF's of voltekst als invoer is het prototype in staat om teksten lexicaal en syntactisch te vereenvoudigen. Het prototype is functioneel voor zowel de doelgroep lectoren als leerlingen, twee doelgroepen die elk een andere functionaliteit prioriteren. Het prototype maakt gebruik van API's waaronder HuggingFace Inference APIs, Lexicala API en het GPT-3 API. Deze ontwerpkeuze bespaart geheugenruimte voor ontwikkelaars en vermindert de benodigde rekenkracht voor een prototype. Eenmaal ontwikkelaars de toepassing willen uitrollen naar het grote publiek, wordt er net zoals bij (...) aangeraden om de taalmodellen zelf te hosten. Aanvullend hierop kunnen ontwikkelaars deze modellen extra trainen op basis van de gewenste casus. Ontwikkelaars kunnen voor algemene samenvattings- en vereenvoudigingstaken gebruik maken van algemene taalmodellen die vrij beschikbaar op HuggingFace of dergelijke platforms terug te vinden zijn. GPT-3 blinkt uit in gepersonaliseerde vereenvoudigings- en samenvattingstaken. Engelstalige prompts die expliciet de uitvoertaal vermelden zijn nauwkeuriger dan Nederlandstalige prompts. Ontwikkelaars moeten rekening houden met het gebrek aan structuur bij het ophalen van tekstinhoud uit een PDF-bestand.
@@ -283,17 +286,22 @@ Dit prototype wordt enkel binnen een lokale omgeving opgezet en is nog niet brui
 
 \chapter{Vergelijkende studie}
 
+Met behulp van leesgraadsformules worden de vereenvoudigde teksten of uitvoer van verschillende taalmodellen tegenover elkaar gestaafd. Daarnaast worden voor twee wetenschappelijke artikelen de automatisch vereenvoudigde uitvoer vergeleken met dat van een handmatig vereenvoudigde referentietekst. % TODO Deze vergelijkende studie geeft een antwoord op de subvraag '...', alsook de onderzoeksvraag. %
+
 \section{Methodologie}
 
-De resultaten van de vereenvoudigde wetenschappelijke artikelen worden vergeleken met geautomatiseerde en handmatige tekstanalyse. Voor de geautomatiseerde analyse worden softwarepakketten gebruikt. De statistieken worden in tabelvorm weergegeven met behulp van Pandas. Tien teksten zijn vergeleken met de originele teksten die handmatig zijn vereenvoudigd.
+De resultaten van de vereenvoudigde wetenschappelijke artikelen worden vergeleken met geautomatiseerde en handmatige tekstanalyse. Voor de geautomatiseerde analyse worden softwarepakketten gebruikt. De statistieken worden in tabelvorm weergegeven met behulp van Pandas. 
 
-\section{Lexicale vereenvoudiging}
+% TODO resultaten taalmodellen
 
 
+% TODO resultaten manueel, tools en prototype
 
-\section{Syntactische vereenvoudiging}
+\section{Vergelijking met referentieteksten}
 
-\section{Samenvatten}
+\section{Vergelijking zonder referentieteksten}
+
+
 
 
 
