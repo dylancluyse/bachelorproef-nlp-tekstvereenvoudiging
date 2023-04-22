@@ -91,42 +91,6 @@
       \verb 10.1145/3442695
       \endverb
     \endentry
-    \entry{Anthony2020}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a3f2c376e08d7316949f41fe0cf9bd3b}{%
-           family={Anthony},
-           familyi={A\bibinitperiod},
-           given={Chris},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Verndale}%
-      }
-      \strng{namehash}{a3f2c376e08d7316949f41fe0cf9bd3b}
-      \strng{fullhash}{a3f2c376e08d7316949f41fe0cf9bd3b}
-      \strng{bibnamehash}{a3f2c376e08d7316949f41fe0cf9bd3b}
-      \strng{authorbibnamehash}{a3f2c376e08d7316949f41fe0cf9bd3b}
-      \strng{authornamehash}{a3f2c376e08d7316949f41fe0cf9bd3b}
-      \strng{authorfullhash}{a3f2c376e08d7316949f41fe0cf9bd3b}
-      \field{sortinit}{A}
-      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Verndale}
-      \field{month}{10}
-      \field{title}{Website design trends for dyslexia and ADHD}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb https://www.verndale.com/insights/accessibility/website-design-trends-for-dyslexia-and-adhd
-      \endverb
-      \verb{url}
-      \verb https://www.verndale.com/insights/accessibility/website-design-trends-for-dyslexia-and-adhd
-      \endverb
-    \endentry
     \entry{Ball2017}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f1825f9782b3d1c2f34758342145de25}{%
@@ -4770,7 +4734,7 @@
       \range{pages}{9}
     \endentry
     \entry{Rello2012}{article}{}
-      \name{author}{3}{ul=2}{%
+      \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=beb516ae4b9334129c564a1d33d9ec9b}{%
            family={Rello},
            familyi={R\bibinitperiod},
@@ -4796,11 +4760,11 @@
       \list{publisher}{1}{%
         {Association for Computing Machinery}%
       }
-      \strng{namehash}{72a8802f9711b740b01bf1412e949107}
+      \strng{namehash}{5f8b0dbae47e570be334bb804b81d6ad}
       \strng{fullhash}{a76335588d8c2243e2f83afbb4bbab25}
       \strng{bibnamehash}{a76335588d8c2243e2f83afbb4bbab25}
       \strng{authorbibnamehash}{a76335588d8c2243e2f83afbb4bbab25}
-      \strng{authornamehash}{72a8802f9711b740b01bf1412e949107}
+      \strng{authornamehash}{5f8b0dbae47e570be334bb804b81d6ad}
       \strng{authorfullhash}{a76335588d8c2243e2f83afbb4bbab25}
       \field{sortinit}{R}
       \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
@@ -4816,52 +4780,6 @@
       \field{title}{Layout Guidelines for Web Text and a Web Service to Improve Accessibility for Dyslexics}
       \field{year}{2012}
       \keyw{browsing web service,web accessibility,dyslexia,readability,accessibility guidelines,usability tests}
-    \endentry
-    \entry{Rello2012b}{article}{}
-      \name{author}{4}{ul=2}{%
-        {{un=0,uniquepart=base,hash=beb516ae4b9334129c564a1d33d9ec9b}{%
-           family={Rello},
-           familyi={R\bibinitperiod},
-           given={Luz},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9c64a04423df54f4b8a0c897a023033d}{%
-           family={Saggion},
-           familyi={S\bibinitperiod},
-           given={Horacio},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=14e9e2c7e918f62ba13b9e040fb7f468}{%
-           family={Baeza-Yates},
-           familyi={B\bibinithyphendelim Y\bibinitperiod},
-           given={Ricardo},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=49a31f716d87701a859f8d775c94e814}{%
-           family={Graells},
-           familyi={G\bibinitperiod},
-           given={Eduardo},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{b3ae2e6d7fd281a4c3f6d5d5e68ff796}
-      \strng{fullhash}{3d03df71551f06774287830670c10632}
-      \strng{bibnamehash}{3d03df71551f06774287830670c10632}
-      \strng{authorbibnamehash}{3d03df71551f06774287830670c10632}
-      \strng{authornamehash}{b3ae2e6d7fd281a4c3f6d5d5e68ff796}
-      \strng{authorfullhash}{3d03df71551f06774287830670c10632}
-      \field{sortinit}{R}
-      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{06}
-      \field{title}{Graphical schemes may improve readability but not understandability for people with dyslexia}
-      \field{year}{2012}
-      \field{pages}{25\bibrangedash 32}
-      \range{pages}{8}
     \endentry
     \entry{Ribas2023}{misc}{}
       \name{author}{1}{}{%
@@ -5057,40 +4975,6 @@
       \verb{url}
       \verb https://monkeylearn.com/blog/natural-language-processing-challenges/
       \endverb
-    \endentry
-    \entry{Romanovska2021}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=052866b927efe211b2ea20c5438b2ac6}{%
-           family={Romanovska},
-           familyi={R\bibinitperiod},
-           given={Linda},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=15b1743124bcebf9f57c9d9ac3702280}{%
-           family={Bonte},
-           familyi={B\bibinitperiod},
-           given={Milene},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{9f49fc9ecc072858ad75cee8eb173ce5}
-      \strng{fullhash}{9f49fc9ecc072858ad75cee8eb173ce5}
-      \strng{bibnamehash}{9f49fc9ecc072858ad75cee8eb173ce5}
-      \strng{authorbibnamehash}{9f49fc9ecc072858ad75cee8eb173ce5}
-      \strng{authornamehash}{9f49fc9ecc072858ad75cee8eb173ce5}
-      \strng{authorfullhash}{9f49fc9ecc072858ad75cee8eb173ce5}
-      \field{sortinit}{R}
-      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Frontiers in Psychology}
-      \field{month}{12}
-      \field{title}{How Learning to Read Changes the Listening Brain}
-      \field{volume}{12}
-      \field{year}{2021}
     \endentry
     \entry{Roose2023}{misc}{}
       \name{author}{1}{}{%
@@ -6654,6 +6538,7 @@
       \keyw{Developmental dyslexia,Statistical learning,Word segmentation,Frequency-tagging,Neural plasticity}
     \endentry
   \enddatalist
+  \missing{Bulté2018}
 \endrefsection
 \endinput
 

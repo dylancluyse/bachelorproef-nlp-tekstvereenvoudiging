@@ -1839,6 +1839,9 @@ INPUT ./inleiding.tex
 INPUT ./inleiding.tex
 INPUT ./inleiding.tex
 INPUT inleiding.tex
+INPUT ./img/oeso-graphic-leesplezier.png
+INPUT ./img/oeso-graphic-leesplezier.png
+INPUT img/oeso-graphic-leesplezier.png
 INPUT ./standvanzaken.tex
 INPUT ./standvanzaken.tex
 INPUT ./standvanzaken.tex
@@ -1859,9 +1862,6 @@ INPUT img/readability-mean-fixation-duration.png
 INPUT ./img/fonts-readability.png
 INPUT ./img/fonts-readability.png
 INPUT img/fonts-readability.png
-INPUT ./img/oeso-graphic-pisa-trend-samenvatting.png
-INPUT ./img/oeso-graphic-pisa-trend-samenvatting.png
-INPUT img/oeso-graphic-pisa-trend-samenvatting.png
 INPUT ./img/oeso-graphic-leesplezier.png
 INPUT ./img/oeso-graphic-leesplezier.png
 INPUT img/oeso-graphic-leesplezier.png
