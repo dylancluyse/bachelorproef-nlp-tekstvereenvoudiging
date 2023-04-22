@@ -66,7 +66,7 @@ Het prototype maakt gebruik van verschillende technologieën, namelijk Flask en 
 
 \section{Tekstvereenvoudiging met API}
 
-\subsubsection{GPT-API instellingen}
+% \subsubsection{GPT-API instellingen}
 
 Om afwijkende resultaten op een GPT-prompt te vermijden, wordt de temperature op nul geplaatst en de \textit{top\_p} waarde wordt ingeschat op 80\%. SpaCy wordt gebruikt om woordkenmerken zoals de PoS-tag op te halen, maar het systeem is vatbaar voor het niet kunnen vinden van afwisselende en meertalige woordenschat. Een mogelijke oplossing is om de taal te veranderen naar Engels of Frans, of een aangepast taalherkenningsmodel te gebruiken. Een andere optie is om de tekst voor te verwerken om de Nederlandse en Engelse woorden te scheiden voordat ze worden verwerkt met SpaCy. Adjectieven uit de tekst verwijderen is mogelijk zonder taalmodel. Aangezien alle woorden gekoppeld worden aan een PoS-tag, is het eenvoudig om de woorden gelinkt aan de span-tag van de adjectieven uit te filteren.
 
@@ -81,24 +81,21 @@ Het prototype gebruikt een taalmodel van HuggingFace voor extraherende samenvatt
 Het merendeel van de gebruikte taalmodellen is Engelstalig of is nadrukkelijk getraind op basis van Engelstalige datasets. De ingegeven tekst wordt eerst vertaald naar het Engels om zo de kans op een accurate vereenvoudiging te verhogen. Voor de vertaling wordt de Google Translate Python-package gebruikt. Deze is minder accuraat vergeleken met DeepL, maar biedt een gratis beschikbaar en aanvaardbaar alternatief aan. Factoren zoals topic diversity en semantische redundantie moeten overwogen worden bij het kiezen van een taalmodel voor extraherend samenvatten. Lange documenten samenvatten kan zoals aangeduid in literatuurstudie door extraherende samenvatting, gevolgd door abstraherende samenvatting om de tekst coherent te doen blijken. Eerder werd er gekozen om de voltekst per paragraaf bij te houden. Uit iedere paragraaf wordt een ideaal aantal zinnen gemarkeerd om nadien geparafraseerd te worden door GPT-3 of een HuggingFace taalmodel, afhankelijk van de keuze van de eindgebruiker.
 
 
-\section{Transparantie aanbieden}
-
-
 \section{Tekstinhoud extraheren en uitschrijven naar PDF/DOCX}
 
-\subsubsection{Tekstinhoud extraheren uit een PDF}
+% \subsubsection{Tekstinhoud extraheren uit een PDF}
 
 Tekst uit een PDF-bestand extraheren gebeurt met PDFMiner. Alle pagina's worden overlopen en de tekstinhoud wordt per pagina in een array geplaatst. Door middel van een aparte functie wordt de tekst opgesplitst per paragraaf en vervolgens per zin. Het resultaat van deze transformatie is een vierdimensionale array. Deze transformatie bevoordeelt het proces om vervolgens de teksten per zin op de webpagina uit te printen. De woorden in een zin worden als key-value paar opgeslaan. De sleutel verwijst hier naar de woord in een zin. De bijhorende waarde verwijst naar de PoS-tag die aan dit woord toebehoord. Dit biedt kansen toe doordat de sleutelwaarden nu overlopen kunnen worden om een klasse te koppelen aan ieder woord. Op deze manier kunnen scholieren en lectoren kiezen om zo alle werk -en naamwoorden of adjectieven te tonen met een volgens hun gekozen kleur.
 
-\subsubsection{Tekstinhoud uitschrijven naar een PDF/DOCX}
+% \subsubsection{Tekstinhoud uitschrijven naar een PDF/DOCX}
 
 Het prototype maakt gebruik van Pandoc en de Python-extensie PyPandoc om tekstinhoud naar een PDF of een Word-bestand uit te schrijven. Pandoc maakt gebruik van een tweestapsbeweging waarbij de rauwe tekst eerst naar een markdown-formaat wordt omgezet. Vervolgens zet Pandoc de Markdown-bestand om naar een PDF-bestand gebouwd met de XeLateX engine. Lettertypes, marges en verdere metadata wordt meegegeven in een LateX-header. Flask kan enkel één bestand aan de gebruiker teruggeven. Als oplossing comprimeert het prototype de PDF- en Wordbestand tot één bestand. 
 
-\subsection{Personaliseerbaarheid aanreiken}
+\section{Personaliseerbaarheid aanreiken}
 
 Voor de webtoepassing worden de standaardparameters gebruikt die uitgewezen zijn in \textcite{Rello2013a, Rello2013b}. Met JavaScript is het mogelijk om deze parameters dynamisch en on-the-spot aan te passen. Deze gekozen parameters worden opgeslaan als sessievariabelen, zodat de eindgebruiker niet per pagina deze parameters moet instellen. Om het uitvoerbestand personaliseerbaar te maken, worden opties in een formulier opgevraagd en vervolgens meegegeven in de Pandoc YAML-header.
 
-\section{Docker-omgeving}
+\section{Lokale opzetomgeving}
 
 Voor een optimale opzet als ontwikkelaars wordt Docker ingezet voor de deployment. Een bash of bat-scriptbestand vereenvoudigt de opstart van deze webapplicatie in tegenstelling tot de opstart per terminal. De nodige Python-bibliotheken worden alvorens opgehaald met Pipreq. De literatuurstudie wees uit om gebruik te maken van meerdere Docker-containers wanneer taalmodellen lokaal worden opgeslaan. Alle taalmodellen worden per API aangesproken, dus één Docker-container voor de webapplicatie volstaat voor dit prototype.
 
@@ -113,17 +110,30 @@ Dit prototype wordt enkel binnen een lokale omgeving opgezet en is nog niet brui
 
 \chapter{Vergelijkende studie}
 
-Met behulp van leesgraadsformules worden de vereenvoudigde teksten of uitvoer van verschillende taalmodellen tegenover elkaar gestaafd. Twee wetenschappelijke artikelen worden vergeleken met een referentietekst die handmatig werd vereenvoudigd door twee lectoren en twee scholieren. De vergelijkende studie beantwoord de onderzoeksvraag, alsook de deelvraag 'Welke handmatige tekstvereenvoudigingstechnieken zijn niet terug te vinden in geautomatiseerde tekstvereenvoudiging?'.
-
-\section{Methodologie}
+Dit hoofdstuk onderzoekt de verschillen tussen de vereenvoudigde tekstinhoud van taalmodellen en toepassingen rond tekstvereenvoudiging. Zoals aangegeven in het onderzoek van \textcite{Nenkova2004} worden leesgraadsformules en referentieteksten ingezet om de kwaliteit van een vereenvoudigde tekst te beoordelen. De vergelijkende studie beantwoord de onderzoeksvraag, alsook de deelvraag 'Welke handmatige tekstvereenvoudigingstechnieken zijn niet terug te vinden in geautomatiseerde tekstvereenvoudiging?'.
 
 \section{Vergelijking met referentieteksten}
 
-
+Twee wetenschappelijke artikelen worden vergeleken met een referentietekst die handmatig werd vereenvoudigd door twee lectoren en twee scholieren. Formaatwijzigingen zoals het omzetten van tekstinhoud naar een tabelvorm is enkel mogelijk met GPT-3, GPT-4 en het achterliggende model van de Bing AI Chatbot en ChatGPT. 
 
 \section{Vergelijking zonder referentieteksten}
 
+Voor de overgebleven wetenschappelijke artikelen zijn er geen referentieteksten opgesteld. Deze teksten kunnen zoals aangegeven beoordeeld worden met beschikbare leesbaarheidsformules. De volgende teksten worden beoordeeld met de Flesch-Kincaid en Flesch-Reading-Ease. Daarnaast worden de teksten ook bekeken of deze de kern- en bijzaken ook behouden. Voor deze statistieken zijn er drie hypothesen opgesteld:
+
+\begin{itemize}
+	\item Hypothese 1: De leesgraad van automatisch vereenvoudigde wetenschappelijke artikelen hebben een significant eenvoudigere leesgraad vergeleken met de oorspronkelijke wetenschappelijke artikelen
+	
+	\item Hypothese 2: De leesgraad van automatisch vereenvoudigde wetenschappelijke artikelen zijn minstens even eenvoudig dan handmatig vereenvoudigde artikelen.
+	
+	\item Hypothese 3: De gebruikte syntactische structuren in een automatisch vereenvoudigd wetenschappelijk artikel zijn minstens even eenvoudig als het aantal in een handmatig vereenvoudigd wetenschappelijk artikel.
+\end{itemize} 
 
 \section{Conclusie}
 
+% specifiek voor de noden
+% Lexicale vereenvoudiging heeft geen nadelig effect op de interpretatie van de wetenschappelijke teksten. De betekenis blijft identiek. Abstraherend samenvatten kan de semantiek van de tekst veranderen. 
 
+Handmatige tekstvereenvoudigingstechnieken zoals het transformeren van de oorspronkelijke structuur naar een formaat dat beter aansluit op de noden van scholieren in de derde graad van het middelbaar onderwijs met dyslexie. 
+
+% 
+Het ontbreken van detailinformatie bij de resultaten of conclusie kan een rechtstreeks effect hebben op de interpretatie van het wetenschappelijk artikel.

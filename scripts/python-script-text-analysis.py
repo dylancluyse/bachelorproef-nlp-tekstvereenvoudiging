@@ -7,7 +7,7 @@ import os
 import readability
 
 
-folder_path = 'scripts\experimenten\pdf'
+folder_path = 'scripts\pdf'
 dutch_spacy_model = "nl_core_news_md"
 english_spacy_model = "en_core_web_sm"
 
@@ -35,7 +35,7 @@ for pdf in pdf_files:
     if pdf.endswith('pdf'):
         print(f'...{pdf} starting to read')
         all_pages = extract_pages(
-        pdf_file='scripts\experimenten\pdf/'+ pdf,
+        pdf_file='scripts\pdf/'+ pdf,
         page_numbers=[0],
         maxpages=999
         )
@@ -49,7 +49,7 @@ for pdf in pdf_files:
 
     elif pdf.endswith('txt'):
         print(f'...{pdf} starting to read')
-        with open('scripts\experimenten\pdf/'+ pdf, 'r') as file:
+        with open('scripts\pdf/'+ pdf, 'r') as file:
             full_text = file.read()
 
     else:
@@ -66,7 +66,7 @@ for pdf in pdf_files:
 
     """
     """
-    model = dict.get(detect(full_text))
+    model = dict.get(detect(full_text), dict.get('en'))
     nlp = spacy.load(model)
     doc = nlp(full_text)
 

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2023.4.15)  22 APR 2023 11:54
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2023.4.15)  22 APR 2023 19:50
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2130,6 +2130,13 @@ Package biblatex Warning: The following entry could not be found
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                overkill
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
 )
 Package biblatex Info: Reference section=0 on input line 106.
 Package biblatex Info: Reference segment=0 on input line 106.
@@ -2294,7 +2301,7 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 124.
 
 ]
 (../output/CluyseDylanBP.toc
-Overfull \hbox (1.3519pt too wide) in paragraph at lines 110--110
+Overfull \hbox (1.3519pt too wide) in paragraph at lines 108--108
  []|| [][][]\TU/Montserrat(1)/m/n/10.95 Tekstvereenvoudigingstechnieken voor sc
 holieren met dyslexie.[][]| 
  []
@@ -2311,36 +2318,24 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 10.95116pt on input line 8.
+(Font)              scaled to size 10.95116pt on input line 6.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 7.88484pt on input line 8.
+(Font)              scaled to size 7.88484pt on input line 6.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 6.35167pt on input line 8.
+(Font)              scaled to size 6.35167pt on input line 6.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 10.94882pt on input line 8.
+(Font)              scaled to size 10.94882pt on input line 6.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 7.88315pt on input line 8.
+(Font)              scaled to size 7.88315pt on input line 6.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 6.35031pt on input line 8.
+(Font)              scaled to size 6.35031pt on input line 6.
+ [8
 
-Overfull \hbox (11.46242pt too wide) in paragraph at lines 16--16
- \TU/Montserrat(1)/m/n/10.95 tijdsverlies en slechts 17% gaf aan dat lezen één 
-van hun favoriete hobby’s 
- []
-
-[8
-
-]
-Overfull \hbox (0.42117pt too wide) in paragraph at lines 28--28
- [][] [][][]\TU/Montserrat(1)/m/n/10.95 Voorbeeld van sequence labeling op de E
-ngelstalige zin ”She sells seas- 
- []
-
-[9])
+])
 \tf@lof=\write11
 \openout11 = `CluyseDylanBP.lof'.
 
- [10] (./inleiding.tex
+ [9] (./inleiding.tex
 Hoofdstuk 1.
 
 Package fontspec Info: Font family 'Montserrat(4)' created for font
@@ -2416,7 +2411,7 @@ LaTeX Warning: Reference `ch:Vergelijkende studie' on page 5 undefined on input
 ) (./standvanzaken.tex [5]
 Hoofdstuk 2.
 
-Overfull \hbox (10.05275pt too wide) in paragraph at lines 14--15
+Overfull \hbox (10.05275pt too wide) in paragraph at lines 11--12
 \TU/Montserrat(1)/m/n/10.95 woordherkenning en -herinnering, letter- en klankvo
 rming, homofonische of pseudo-
  []
@@ -2424,7 +2419,7 @@ rming, homofonische of pseudo-
 [6
 
 ]
-Overfull \hbox (4.41788pt too wide) in paragraph at lines 18--19
+Overfull \hbox (4.41788pt too wide) in paragraph at lines 15--16
 \TU/Montserrat(1)/m/n/10.95 hoeften en uitdagingen van elke leerling in gedacht
 en worden ontworpen ([]Gooding,
  []
@@ -2438,162 +2433,97 @@ File: img/readability-mean-fixation-duration.png Graphic file (type bmp)
 File: img/fonts-readability.png Graphic file (type bmp)
 <img/fonts-readability.png>
  [9]
-File: img/oeso-graphic-leesplezier.png Graphic file (type bmp)
-<img/oeso-graphic-leesplezier.png>
- [10]
-File: img/oeso-graphic-wetenschappelijke-geletterdheid-2.png Graphic file (type
- bmp)
-<img/oeso-graphic-wetenschappelijke-geletterdheid-2.png>
- [11]
 File: img/fre-ndc.png Graphic file (type bmp)
 <img/fre-ndc.png>
-File: img/ndc-number-of-authors.png Graphic file (type bmp)
-<img/ndc-number-of-authors.png>
- [12]
-Overfull \hbox (2.85568pt too wide) in paragraph at lines 105--106
-\TU/Montserrat(1)/m/n/10.95 herschrijven van abstracten vergroot de begrijpbaar
-heid bij academici volgens []Hart-
- []
-
-[13]
+ [10] [11]
 File: img/fre-fog-per-sector.png Graphic file (type bmp)
 <img/fre-fog-per-sector.png>
- [14]
-Overfull \hbox (9.10812pt too wide) in paragraph at lines 140--141
+ [12]
+Overfull \hbox (9.10812pt too wide) in paragraph at lines 96--97
 \TU/Montserrat(1)/m/n/10.95 een wetenschappelijk artikel moeten meer doelgroepe
 n toelaten om over voldoende
  []
 
 
-Overfull \hbox (16.63226pt too wide) in paragraph at lines 144--145
+Overfull \hbox (16.63226pt too wide) in paragraph at lines 99--100
 \TU/Montserrat(1)/m/n/10.95 het begrijpen van specifieke taalkenmerken, het bep
 erken van de hoeveelheid nieuwe
  []
 
-[15]
-Overfull \hbox (1.61101pt too wide) in paragraph at lines 154--155
-\TU/Montserrat(1)/m/n/10.95 voudiging omvat conceptuele of semantische vereenvo
-udiging door complexe con-
- []
+[13] [14] [15]
 
-
-Overfull \hbox (0.2413pt too wide) in paragraph at lines 154--155
-\TU/Montserrat(1)/m/n/10.95 een duidelijke structuur van een mogelijks complexe
- tekst ([]Hale, [][]2022[][][]; Siddharthan,
- []
-
-[16]
-Overfull \hbox (8.58862pt too wide) in paragraph at lines 170--171
-\TU/Montserrat(1)/m/n/10.95 aanpakken per docent uit. Iedere docent heeft een e
-igen intuïtie of afweging waarop
- []
-
-[17]
-./standvanzaken.tex:178: Too many }'s.
-l.178 Tokenisatie}
-                   splitst de stam of basisvorm van woorden in een tekst. Ge...
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-
-Overfull \hbox (5.80272pt too wide) in paragraph at lines 182--183
-[]\TU/Montserrat(1)/m/n/10.95 Character-level tokenisation of CLT splitst de te
-kst per karakter. ’Slimmer’ wordt
- []
-
-
-Overfull \hbox (3.64409pt too wide) in paragraph at lines 183--184
-[]\TU/Montserrat(1)/m/n/10.95 Subword-level tokenisation splitst de tekst op in
- stukken op basis van de woord-
- []
-
-[18] [19]
-Overfull \hbox (0.97055pt too wide) in paragraph at lines 204--205
-[][]\TU/Montserrat(1)/m/n/10.95 Poel e.a. ([][]2008[][]) onderzocht \TU/Montser
-rat(2)/m/it/10.95 PoS-tagging \TU/Montserrat(1)/m/n/10.95 met een neuraal netwe
-rk voor Nederlands-
- []
+LaTeX Warning: Reference `fig:ner' on page 16 undefined on input line 132.
 
 File: img/poslabeling.png Graphic file (type bmp)
 <img/poslabeling.png>
-File: img/nerlabeling.jpg Graphic file (type bmp)
-<img/nerlabeling.jpg>
-[20]
+[16]
 File: img/prompt-engineering-medium.png Graphic file (type bmp)
 <img/prompt-engineering-medium.png>
- [21]
-Overfull \hbox (2.78777pt too wide) in paragraph at lines 240--241
-[]\TU/Montserrat(1)/m/n/10.95 Expansion/reduction-prompts genereren een output 
-dat beknopt is, maar met
+ [17]
+Overfull \hbox (5.2537pt too wide) in paragraph at lines 168--169
+[]\TU/Montserrat(1)/m/n/10.95 Expansion/reduction-prompts genereren een beknopt
+e output met voldoende
  []
-
-./standvanzaken.tex:245: You can't use `macro parameter character #' in horizon
-tal mode.
-<argument> ...h/bert/blob/master/multilingual.md##
-                                                  list-of-languages
-l.245 ...master/multilingual.md#list-of-languages}
-                                                  , waaronder Nederlands. Di...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
 
 File: img/voorbeeld-manuele-vereenvoudiging.png Graphic file (type bmp)
 <img/voorbeeld-manuele-vereenvoudiging.png>
-[22]
-Overfull \hbox (3.57835pt too wide) in paragraph at lines 268--269
+[18]
+File: img/lexical-simplification-pipeline.png Graphic file (type bmp)
+<img/lexical-simplification-pipeline.png>
+
+Overfull \hbox (3.57835pt too wide) in paragraph at lines 191--195
 \TU/Montserrat(1)/m/n/10.95 Substitutiegeneratie wordt gedaan door synoniemen t
 e zoeken voor een doelwoord
  []
 
-File: img/lexical-simplification-pipeline.png Graphic file (type bmp)
-<img/lexical-simplification-pipeline.png>
-[23] [24]
-Overfull \hbox (0.67299pt too wide) in paragraph at lines 310--311
+[19]
+Overfull \hbox (0.67299pt too wide) in paragraph at lines 226--227
 \TU/Montserrat(1)/m/n/10.95 De graafgebaseerde techniek van extraherend samenva
 tten vertegenwoordigt een
  []
 
-[25]
-Overfull \hbox (21.97437pt too wide) in paragraph at lines 330--331
+[20]
+Overfull \hbox (21.97437pt too wide) in paragraph at lines 246--247
 \TU/Montserrat(1)/m/n/10.95 Metaheuristische samenvatting is een benadering die
  gebruik maakt van optimalisatie-
  []
 
-
-Overfull \hbox (9.2164pt too wide) in paragraph at lines 356--357
+[21]
+Overfull \hbox (9.2164pt too wide) in paragraph at lines 266--267
 \TU/Montserrat(1)/m/n/10.95 met lage linguïstische kwaliteit en grammaticale fo
 uten. De semantisch-gebaseerde
  []
 
-[26] [27]
-Overfull \hbox (7.11523pt too wide) in paragraph at lines 374--375
+[22]
+Overfull \hbox (7.11523pt too wide) in paragraph at lines 282--283
 \TU/Montserrat(1)/m/n/10.95 Een samengevatte tekst beoordelen zonder een refere
 ntietekst vereist volgens []Stein-
  []
 
 
-Overfull \hbox (18.26257pt too wide) in paragraph at lines 374--375
+Overfull \hbox (18.26257pt too wide) in paragraph at lines 282--283
 \TU/Montserrat(1)/m/n/10.95 een referentietekst. Deze soort kan handmatig gebeu
 ren, maar ook semi-automatisch.
  []
 
 
-Overfull \hbox (5.94914pt too wide) in paragraph at lines 377--377
+Overfull \hbox (5.94914pt too wide) in paragraph at lines 285--285
 |[][]\TU/Montserrat(0)/b/n/12 Tekstvereenvoudigingstechnieken voor scholieren m
 et dyslexie.| 
  []
 
 File: img/dutch-simplification-dyslexia-pipeline.png Graphic file (type bmp)
 <img/dutch-simplification-dyslexia-pipeline.png>
+[23]
 File: img/dutch-simplification-dyslexia-example.png Graphic file (type bmp)
 <img/dutch-simplification-dyslexia-example.png>
-[28]
-Overfull \hbox (22.01454pt too wide) in paragraph at lines 406--406
+
+Overfull \hbox (22.01454pt too wide) in paragraph at lines 314--314
 |[][]\TU/Montserrat(0)/b/n/14.4 Valkuilen en uitdagingen voor AI-ontwikkelaars 
 bij tekst-
  []
 
+[24]
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
 (fancyhdr)                Make it at least 26.66998pt, for example:
@@ -2602,110 +2532,112 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
 
-[29] [30] [31]
-Overfull \hbox (3.86092pt too wide) in paragraph at lines 455--456
+[25] [26]
+Overfull \hbox (3.86092pt too wide) in paragraph at lines 363--364
 []\TU/Montserrat(1)/m/n/10.95 Toepassingen om wetenschappelijke artikelen te ve
 reenvoudigen zijn schaars, maar
  []
 
 File: img/typeset-example.png Graphic file (type bmp)
 <img/typeset-example.png>
+[27]
 File: img/chatgpt-example-simplification-gooding.png Graphic file (type bmp)
 <img/chatgpt-example-simplification-gooding.png>
-[32]
 File: img/chatgpt-example-different-versions-gooding.png Graphic file (type bmp
 )
 <img/chatgpt-example-different-versions-gooding.png>
+ [28]
 File: img/chatgpt-example-evaluation-gooding.png Graphic file (type bmp)
 <img/chatgpt-example-evaluation-gooding.png>
- [33]
-Overfull \hbox (1.43365pt too wide) in paragraph at lines 484--485
+
+Overfull \hbox (1.43365pt too wide) in paragraph at lines 392--393
 \TU/Montserrat(1)/m/n/10.95 vijfde engine zich toe, namelijk GPT-3 Turbo wat de
  basis is achter Chat-GPT. Davinci-
  []
 
+[29]
 File: img/chatgpt-engines-mean-regret.png Graphic file (type bmp)
 <img/chatgpt-engines-mean-regret.png>
-[34]
+ [30]
 File: img/graph-language-models.png Graphic file (type bmp)
 <img/graph-language-models.png>
 
-Overfull \hbox (23.06929pt too wide) in paragraph at lines 511--512
+Overfull \hbox (23.06929pt too wide) in paragraph at lines 419--420
 [][] 
  []
 
-[35]
-Underfull \hbox (badness 7081) in paragraph at lines 521--522
+
+Underfull \hbox (badness 7081) in paragraph at lines 429--430
 []|\TU/Montserrat(1)/m/n/10.95 davinci, curie, babbage,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 521--522
+Underfull \hbox (badness 10000) in paragraph at lines 429--430
 \TU/Montserrat(1)/m/n/10.95 curie-001, text-babbage-
  []
 
 
-Underfull \hbox (badness 2512) in paragraph at lines 523--523
+Underfull \hbox (badness 2512) in paragraph at lines 431--431
 []|\TU/Montserrat(1)/m/n/10.95 De gulzigheid van een generatief
  []
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 525--526
+Underfull \hbox (badness 4048) in paragraph at lines 433--434
 []|\TU/Montserrat(1)/m/n/10.95 Een getal tussen 1 and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--527
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
 []|\TU/Montserrat(1)/m/n/10.95 Vergelijkbaar met temperature,
  []
 
 
-Underfull \hbox (badness 6396) in paragraph at lines 527--527
+Underfull \hbox (badness 6396) in paragraph at lines 435--435
 \TU/Montserrat(1)/m/n/10.95 probability distribution voor com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 527--527
+Underfull \hbox (badness 10000) in paragraph at lines 435--435
 \TU/Montserrat(1)/m/n/10.95 hoe waarschijnlijker de woorden-
  []
 
 
-Underfull \hbox (badness 1412) in paragraph at lines 527--527
+Underfull \hbox (badness 1412) in paragraph at lines 435--435
 \TU/Montserrat(1)/m/n/10.95 bij het genereren van tekst. Een
  []
 
 
-Underfull \hbox (badness 1342) in paragraph at lines 527--527
+Underfull \hbox (badness 1342) in paragraph at lines 435--435
 \TU/Montserrat(1)/m/n/10.95 neer een toepassing gericht is op
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 437--437
 []|\TU/Montserrat(1)/m/n/10.95 Een tekstwaarde (woord/symbool)
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 529--529
+Underfull \hbox (badness 1009) in paragraph at lines 437--437
 \TU/Montserrat(1)/m/n/10.95 tot waar het model zal genereren.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--530
+Underfull \hbox (badness 10000) in paragraph at lines 437--438
 []|\TU/Montserrat(1)/m/n/10.95 Een lijst van string-
  []
 
 
-Underfull \hbox (badness 4013) in paragraph at lines 529--530
+Underfull \hbox (badness 4013) in paragraph at lines 437--438
 \TU/Montserrat(1)/m/n/10.95 waarden, of een enkele
  []
 
 
-Overfull \hbox (27.83153pt too wide) in paragraph at lines 517--534
+Overfull \hbox (27.83153pt too wide) in paragraph at lines 425--442
 [] 
  []
 
-[36] [37]
-Overfull \hbox (16.16722pt too wide) in paragraph at lines 539--540
+[31] [32]
+Overfull \hbox (16.16722pt too wide) in paragraph at lines 447--448
 \TU/Montserrat(1)/m/n/10.95 woordresultaten combineert met het redeneervermogen
  van OpenAI’s GPT-modellen.
  []
@@ -2714,39 +2646,39 @@ File: img/bing-ai-prometheus.png Graphic file (type bmp)
 <img/bing-ai-prometheus.png>
 File: img/bing-ai-chatbot-example.png Graphic file (type bmp)
 <img/bing-ai-chatbot-example.png>
-[38]
-./standvanzaken.tex:558: Missing $ inserted.
+[33]
+./standvanzaken.tex:466: Missing $ inserted.
 <inserted text> 
                 $
-l.558 .../scientific\_abstract\^^I_simplification}
+l.466 .../scientific\_abstract\^^I_simplification}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 9.00096pt on input line 558.
+(Font)              scaled to size 9.00096pt on input line 466.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 558.
+(Font)              scaled to size 6.00064pt on input line 466.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 558.
+(Font)              scaled to size 5.00053pt on input line 466.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 558.
+(Font)              scaled to size 8.99904pt on input line 466.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 558.
+(Font)              scaled to size 5.99936pt on input line 466.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 558.
-./standvanzaken.tex:558: Missing $ inserted.
+(Font)              scaled to size 4.99947pt on input line 466.
+./standvanzaken.tex:466: Missing $ inserted.
 <inserted text> 
                 $
-l.558 .../scientific\_abstract\^^I_simplification}
+l.466 .../scientific\_abstract\^^I_simplification}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./standvanzaken.tex:558: Missing } inserted.
+./standvanzaken.tex:466: Missing } inserted.
 <inserted text> 
                 }
-l.558 .../scientific\_abstract\^^I_simplification}
+l.466 .../scientific\_abstract\^^I_simplification}
                                                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2754,10 +2686,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./standvanzaken.tex:558: Extra }, or forgotten \endgroup.
+./standvanzaken.tex:466: Extra }, or forgotten \endgroup.
 \@makefntext ...out #1\ifFN@hangfoot \par \egroup 
                                                   \fi 
-l.558 .../scientific\_abstract\^^I_simplification}
+l.466 .../scientific\_abstract\^^I_simplification}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2766,18 +2698,18 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-Overfull \hbox (16.93736pt too wide) in paragraph at lines 558--559
+Overfull \hbox (16.93736pt too wide) in paragraph at lines 466--467
 \TU/Montserrat(1)/m/n/10.95 door ontwikkelaars snel modellen kunnen bouwen en i
 nzetten voor vereenvoudigings-
  []
 
 
-Overfull \hbox (2.48581pt too wide) in paragraph at lines 558--559
+Overfull \hbox (2.48581pt too wide) in paragraph at lines 466--467
 \TU/Montserrat(1)/m/n/10.95 en samenvattingstaken. Voor wetenschappelijke docum
 enten en artikelen bestaan
  []
 
-[39]) (./methodologie.tex [40]
+[34]) (./methodologie.tex [35]
 Hoofdstuk 3.
 
 Overfull \hbox (7.50578pt too wide) in paragraph at lines 8--9
@@ -2785,48 +2717,48 @@ Overfull \hbox (7.50578pt too wide) in paragraph at lines 8--9
 met dyslexie in de derde graad
  []
 
-[41
+[36
 
 ]
 Hoofdstuk 4.
 File: img/simplish-input.png Graphic file (type bmp)
 <img/simplish-input.png>
-[42
+[37
 
 ]
 File: img/simplish-output.png Graphic file (type bmp)
 <img/simplish-output.png>
- [43] [44] [45] [46]
+ [38] [39] [40] [41]
 Hoofdstuk 5.
-[47
+[42
 
-] [48]
-Overfull \hbox (14.09454pt too wide) in paragraph at lines 87--87
+] [43]
+Overfull \hbox (12.39534pt too wide) in paragraph at lines 84--84
 |[][]\TU/Montserrat(0)/b/n/14.4 Tekstinhoud extraheren en uitschrijven naar PDF
 /DOCX| 
  []
 
 
-Overfull \hbox (3.42876pt too wide) in paragraph at lines 95--96
+Overfull \hbox (3.42876pt too wide) in paragraph at lines 92--93
 \TU/Montserrat(1)/m/n/10.95 bruik van een tweestapsbeweging waarbij de rauwe te
 kst eerst naar een markdown-
  []
 
-[49]
-Overfull \hbox (6.23857pt too wide) in paragraph at lines 103--104
+
+Overfull \hbox (6.23857pt too wide) in paragraph at lines 100--101
 \TU/Montserrat(1)/m/n/10.95 geslaan. Alle taalmodellen worden per API aangespro
 ken, dus één Docker-container
  []
 
-[50]
+[44] [45]
 Hoofdstuk 6.
-) (./conclusie.tex [51
+) (./conclusie.tex [46
 
 ]
 Hoofdstuk 7.
-) [52
+[47
 
-] [53]
+]) [48]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--8
@@ -2834,7 +2766,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 da-2030-stem-competenties-voor-een-
  []
 
-[54
+[49
 
 ]
 Overfull \hbox (3.46771pt too wide) in paragraph at lines 34--35
@@ -2842,36 +2774,36 @@ Overfull \hbox (3.46771pt too wide) in paragraph at lines 34--35
 oor nieuwe toepassingen zorgde. Tekst-
  []
 
-[55]
+[50]
 Overfull \hbox (2.54906pt too wide) in paragraph at lines 38--39
 []\TU/Montserrat(1)/m/n/10.95 Tekstvereenvoudiging behoort tot de zijtak van \T
 U/Montserrat(2)/m/it/10.95 Natural Language Processing \TU/Montserrat(1)/m/n/10
 .95 (NLP)
  []
 
-[56]
+[51]
 Overfull \hbox (14.44443pt too wide) in paragraph at lines 54--55
 []\TU/Montserrat(1)/m/n/10.95 Het onderzoek van []Sciforce ([][]2020[][]) haalt
  aan dat het merendeel van NLP-toepassingen
  []
 
-[57]
+[52]
 Overfull \hbox (1.14409pt too wide) in paragraph at lines 65--66
 \TU/Montserrat(1)/m/n/10.95 wel gebruikt worden, zijn vooral online leerplatfor
 men voor zelfstandig werken. Ook
  []
 
-[58]
+[53]
 File: img/Screenshot_302.png Graphic file (type bmp)
 <img/Screenshot_302.png>
- [59] [60]) [61]
+ [54] [55]) [56]
 Overfull \hbox (2.13918pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(1)/m/n/10.95 Dutch. \TU/Montserrat(2)/m/it/10.95 Computational L
 inguistics in the Netherlands Journal\TU/Montserrat(1)/m/n/10.95 , \TU/Montserr
 at(2)/m/it/10.95 8\TU/Montserrat(1)/m/n/10.95 , 24–48. [][]$[][][][][] []
  []
 
-[62
+[57
 
 
 ]
@@ -2893,7 +2825,7 @@ Overfull \hbox (17.6088pt too wide) in paragraph at lines 200--200
  and university: Post-diploma
  []
 
-[63]
+[58]
 Overfull \hbox (44.50203pt too wide) in paragraph at lines 200--200
 [][] [] [][][][][][][][][][][][][] [][] [][][][][][][][] [][] [][][][][][][][][
 ][][][][][] [][] [][][][][][][][][][][][][][][] [][] [][][][][][][][][][][][][]
@@ -2906,33 +2838,26 @@ Overfull \hbox (0.81898pt too wide) in paragraph at lines 200--200
 ve Technologies (SLPAT-
  []
 
-
-Overfull \hbox (62.21321pt too wide) in paragraph at lines 200--200
-[][]\TU/Montserrat(1)/m/n/10.95 Hale, A. (2022). Bullet points: What, why, and 
-how to use then. [][]$[][][][][] [] [] [] [][][] [] [][][][][][][][][][][][][][
-][][] []
- []
-
-[64]
+[59]
 Overfull \hbox (15.62875pt too wide) in paragraph at lines 200--200
 [][]\TU/Montserrat(1)/m/n/10.95 Iredale, G. (2022). An overview of tokenization
  algorithms in NLP. [][]$[][][][][] [] [] [] [][][][][][][][][][][][][][] []
  []
 
-[65]
+
 Overfull \hbox (4.43297pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(2)/m/it/10.95 sing\TU/Montserrat(1)/m/n/10.95 . Pearson Educatio
 n. [][]$[][][][][] [] [] [] [][][][][] [] [][][][][][] [] [][] [] [][][][][] []
  [][] [] [][][][][][][][][][][][]$[][] 
  []
 
-
+[60]
 Overfull \hbox (12.61131pt too wide) in paragraph at lines 200--200
 [][]\TU/Montserrat(1)/m/n/10.95 Li, C. (2022). OpenAI’s GPT-3 language model: A
  technical overview. [][]$[][][][][] [] [] [] [][][][][][][][][][] []
  []
 
-[66]
+[61]
 Overfull \hbox (0.9867pt too wide) in paragraph at lines 200--200
 [][][] [] [][][][] [] [][][] [] [][][][] [] [][][][][][][][] [][] [][][] [][] [
 ][][][][][][][] [] [][][][] [][] [][][][][][][][][][] [][] [][][][][][][][][][]
@@ -2975,13 +2900,13 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[67]
+[62]
 Overfull \hbox (4.29759pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(1)/m/n/10.95 Part of Speech Tagger [http://eprints.ewi.utwente.n
 l/14662 ; 20th Benelux Con-
  []
 
-[68] [69]
+[63] [64]
 Overfull \hbox (18.56651pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(2)/m/it/10.95 on Natural Language Processing 2014\TU/Montserrat(
 1)/m/n/10.95 , \TU/Montserrat(2)/m/it/10.95 4\TU/Montserrat(1)/m/n/10.95 (1). [
@@ -2995,7 +2920,7 @@ Overfull \hbox (1.71274pt too wide) in paragraph at lines 200--200
 dactiek \TU/Montserrat(1)/m/n/10.95 (1ste ed.). Ten Brink
  []
 
-[70]
+[65]
 Overfull \hbox (2.01982pt too wide) in paragraph at lines 200--200
 \TU/Montserrat(1)/m/n/10.95 implicaties uit begrijpend leesonderzoek en spellin
 gonderzoek voor diagnos-
@@ -3007,36 +2932,35 @@ Overfull \hbox (4.93161pt too wide) in paragraph at lines 200--200
  Catalog to Enhance Prompt
  []
 
-[71]
+
 Overfull \hbox (19.16676pt too wide) in paragraph at lines 200--200
 [][]\TU/Montserrat(1)/m/n/10.95 Zhang, M., Riecke, L. & Bonte, M. (2021). Neuro
 physiological tracking of speech-structure
  []
 
-[72] (../output/CluyseDylanBP.aux)
+[66] [67] (../output/CluyseDylanBP.aux)
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Package rerunfilecheck Warning: File `CluyseDylanBP.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: File `CluyseDylanBP.out' has not changed.
-(rerunfilecheck)             Checksum: 43D8301942F5C743CB0B923075596BE0;6761.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
+Package rerunfilecheck Info: Checksums for `CluyseDylanBP.out':
+(rerunfilecheck)             Before: 2E0EF448A11E4FAD73013A61BB97E77A;6728
+(rerunfilecheck)             After:  32D1783F192975AE50595C08CE21784C;6655.
 Package logreq Info: Writing requests to 'CluyseDylanBP.run.xml'.
 \openout1 = `CluyseDylanBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48301 strings out of 478657
- 944008 string characters out of 5861313
- 2119084 words of memory out of 5000000
- 67032 multiletter control sequences out of 15000+600000
+ 48259 strings out of 478657
+ 942735 string characters out of 5861313
+ 2111606 words of memory out of 5000000
+ 66993 multiletter control sequences out of 15000+600000
  407983 words of font info for 113 fonts, out of 8000000 for 9000
  351 hyphenation exceptions out of 8191
  113i,12n,139p,2569b,7101s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../output/CluyseDylanBP.xdv (82 pages, 1905384 bytes).
+Output written on ../output/CluyseDylanBP.xdv (76 pages, 1822732 bytes).

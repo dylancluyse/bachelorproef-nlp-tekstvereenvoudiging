@@ -1518,39 +1518,6 @@
       \field{year}{2020}
       \keyw{Computation and Language (cs.CL),FOS: Computer and information sciences,FOS: Computer and information sciences}
     \endentry
-    \entry{Fardeen2021}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7e60dc8a29f90b8c86d28a8d0b1dc19d}{%
-           family={Fardeen-},
-           familyi={F\bibinitperiod},
-           given={ByAfham},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{7e60dc8a29f90b8c86d28a8d0b1dc19d}
-      \strng{fullhash}{7e60dc8a29f90b8c86d28a8d0b1dc19d}
-      \strng{bibnamehash}{7e60dc8a29f90b8c86d28a8d0b1dc19d}
-      \strng{authorbibnamehash}{7e60dc8a29f90b8c86d28a8d0b1dc19d}
-      \strng{authornamehash}{7e60dc8a29f90b8c86d28a8d0b1dc19d}
-      \strng{authorfullhash}{7e60dc8a29f90b8c86d28a8d0b1dc19d}
-      \field{sortinit}{F}
-      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Machine Learning Knowledge}
-      \field{month}{7}
-      \field{title}{Complete Guide to Spacy Tokenizer with examples}
-      \field{year}{2021}
-      \verb{urlraw}
-      \verb https://machinelearningknowledge.ai/complete-guide-to-spacy-tokenizer-with-examples/
-      \endverb
-      \verb{url}
-      \verb https://machinelearningknowledge.ai/complete-guide-to-spacy-tokenizer-with-examples/
-      \endverb
-    \endentry
     \entry{Filipak2020}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8e0593018f9ba152d2faee08ede48f2c}{%
@@ -1975,38 +1942,6 @@
       \range{pages}{8}
       \verb{doi}
       \verb 10.1109/2.881692
-      \endverb
-    \endentry
-    \entry{Hale2022}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=01f76f3e79f0de7f31e6bc12bbcbaa06}{%
-           family={Hale},
-           familyi={H\bibinitperiod},
-           given={Alexis},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{01f76f3e79f0de7f31e6bc12bbcbaa06}
-      \strng{fullhash}{01f76f3e79f0de7f31e6bc12bbcbaa06}
-      \strng{bibnamehash}{01f76f3e79f0de7f31e6bc12bbcbaa06}
-      \strng{authorbibnamehash}{01f76f3e79f0de7f31e6bc12bbcbaa06}
-      \strng{authornamehash}{01f76f3e79f0de7f31e6bc12bbcbaa06}
-      \strng{authorfullhash}{01f76f3e79f0de7f31e6bc12bbcbaa06}
-      \field{sortinit}{H}
-      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Content and Commas}
-      \field{title}{Bullet points: What, why, and how to use then}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://www.contentandcommas.com/bullet-points/
-      \endverb
-      \verb{url}
-      \verb https://www.contentandcommas.com/bullet-points/
       \endverb
     \endentry
     \entry{Hartley1999}{article}{}
@@ -2513,72 +2448,6 @@
       \endverb
       \verb{url}
       \verb https://aclanthology.org/2021.humeval-1.10
-      \endverb
-    \endentry
-    \entry{JavoureyDrevet2022}{article}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=aceeb1ebab26b11c5fcf41563de70f9b}{%
-           family={Javourey-Drevet},
-           familyi={J\bibinithyphendelim D\bibinitperiod},
-           given={Ludivine},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5eb827933f36322cfcc39a63e9f7b963}{%
-           family={Dufau},
-           familyi={D\bibinitperiod},
-           given={Stéphane},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1ced3ac226f0d9d941ca90107499df87}{%
-           family={François},
-           familyi={F\bibinitperiod},
-           given={Thomas},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2d6c91557f3b168f0a6f4351a0c4e095}{%
-           family={Gala},
-           familyi={G\bibinitperiod},
-           given={Núria},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=527f47ae2c6b790d1f74701c02ccae69}{%
-           family={Ginestié},
-           familyi={G\bibinitperiod},
-           given={Jacques},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e212b94004207f2183c4cdcd48cc694d}{%
-           family={Ziegler},
-           familyi={Z\bibinitperiod},
-           given={Johannes\bibnamedelima C.},
-           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Cambridge University Press}%
-      }
-      \strng{namehash}{e4ad538fcebbe3af5820919a6da24f9f}
-      \strng{fullhash}{70eb3ee223c359c58374c68d57070357}
-      \strng{bibnamehash}{70eb3ee223c359c58374c68d57070357}
-      \strng{authorbibnamehash}{70eb3ee223c359c58374c68d57070357}
-      \strng{authornamehash}{e4ad538fcebbe3af5820919a6da24f9f}
-      \strng{authorfullhash}{70eb3ee223c359c58374c68d57070357}
-      \field{sortinit}{J}
-      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Applied Psycholinguistics}
-      \field{number}{2}
-      \field{title}{Simplification of literary and scientific texts to improve reading fluency and comprehension in beginning readers of French}
-      \field{volume}{43}
-      \field{year}{2022}
-      \field{pages}{485\bibrangedash 512}
-      \range{pages}{28}
-      \verb{doi}
-      \verb 10.1017/S014271642100062X
       \endverb
     \endentry
     \entry{Jiang2023}{misc}{}
@@ -3601,49 +3470,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Towards multidocument summarization by reformulation: Progress and prospects}
       \field{year}{1999}
-    \endentry
-    \entry{McNutt2014}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=3530ddbc909e9ae14eaed11124ff0b70}{%
-           family={McNutt},
-           familyi={M\bibinitperiod},
-           given={Marcia},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{3530ddbc909e9ae14eaed11124ff0b70}
-      \strng{fullhash}{3530ddbc909e9ae14eaed11124ff0b70}
-      \strng{bibnamehash}{3530ddbc909e9ae14eaed11124ff0b70}
-      \strng{authorbibnamehash}{3530ddbc909e9ae14eaed11124ff0b70}
-      \strng{authornamehash}{3530ddbc909e9ae14eaed11124ff0b70}
-      \strng{authorfullhash}{3530ddbc909e9ae14eaed11124ff0b70}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Science advances on a foundation of trusted discoveries. Reproducing an experiment is one important approach that scientists use to gain confidence in their conclusions. Recently, the scientific community was shaken by reports that a troubling proportion of peer-reviewed preclinical studies are not reproducible. Because confidence in results is of paramount importance to the broad scientific community, we are announcing new initiatives to increase confidence in the studies published in Science. For preclinical studies (one of the targets of recent concern), we will be adopting recommendations of the U.S. National Institute of Neurological Disorders and Stroke (NINDS) for increasing transparency.* Authors will indicate whether there was a pre-experimental plan for data handling (such as how to deal with outliers), whether they conducted a sample size estimation to ensure a sufficient signal-to-noise ratio, whether samples were treated randomly, and whether the experimenter was blind to the conduct of the experiment. These criteria will be included in our author guidelines.}
-      \field{journaltitle}{Science}
-      \field{number}{6168}
-      \field{title}{Reproducibility}
-      \field{volume}{343}
-      \field{year}{2014}
-      \field{pages}{229\bibrangedash 229}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1126/science.1250475
-      \endverb
-      \verb{eprint}
-      \verb https://www.science.org/doi/pdf/10.1126/science.1250475
-      \endverb
-      \verb{urlraw}
-      \verb https://www.science.org/doi/abs/10.1126/science.1250475
-      \endverb
-      \verb{url}
-      \verb https://www.science.org/doi/abs/10.1126/science.1250475
-      \endverb
     \endentry
     \entry{Menzli2023}{misc}{}
       \name{author}{1}{}{%
@@ -6539,6 +6365,7 @@
     \endentry
   \enddatalist
   \missing{Bulté2018}
+  \missing{overkill}
 \endrefsection
 \endinput
 
