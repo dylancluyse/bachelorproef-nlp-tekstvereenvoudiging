@@ -276,6 +276,7 @@ In het best denkbare geval wordt abstraherende en extraherende samenvatting geco
 Samenvattingen van lange documenten handmatig beoordelen vergt tijd en voldoende planning van een mens \autocite{Nenkova2004}. Met behulp van een vooraf geschreven samenvatting als referentietekst is het mogelijk om een samenvatting automatisch te laten beoordelen. Samenvattingen beoordelen kan ook zonder referentietekst, al moeten verschillende factoren worden opgevolgd.
 
 \subsubsection{Evaluatie met referentieteksten}
+
 Bij het vergelijken van teksttransformaties worden vaak BLEU en ROUGE gebruikt, twee metrieken die de gelijkenis tussen machine-gegenereerde en referentieteksten meten gebaseerd op exacte \textit{token matches}. ROUGE volgens \textcite{Lin2004} is recall-gebaseerd en houdt geen rekening met synoniemen, maar er zijn ROUGE-modellen die dit wel doen. ROUGE-2 van \textcite{Ganesan2018} voorziet dictionaries van synoniemen, zodat er rekening wordt gehouden met synonieme zinnen. ROUGE-G van \textcite{ShafieiBavani2018} gebruikt graafalgoritmen om lexicale en semantische matching mogelijk te maken. BLEU is precision-gebaseerd is en een \textit{brevity penalty} introduceert om te korte teksten te voorkomen. Er zijn Python-bibliotheken beschikbaar voor zowel ROUGE\footnote{https://github.com/pltrdy/rouge} als BLEU\footnote{https://github.com/neural-dialogue-metrics/BLEU}.
 
 \subsubsection{Evaluatie zonder referentieteksten}
@@ -463,7 +464,7 @@ Het bedrijf DuckDuckGo dat instaat voor de gelijknamige zoekmachine probeert een
 
 \subsection{Huggingface en taalmodellen via API}
 
-In recente literatuur is Huggingface beschreven als een platform of portaalsite voor het delen van ML-modellen en datasets. De bibliotheek biedt een scala aan API's en tools die gemakkelijk te downloaden en trainen zijn voor pretrained modellen voor prevalente NLP-taken, zoals tekstclassificatie, taalmodellering en samenvatting. Deze modellen kunnen worden gefinetuned op specifieke datasets, waardoor ontwikkelaars snel modellen kunnen bouwen en inzetten voor vereenvoudigings- en samenvattingstaken. Voor wetenschappelijke documenten en artikelen bestaan er enkel modellen en datasets: \footnote{https://huggingface.co/sambydlo/bart-large-scientific-lay-summarisation}, \footnote{https://huggingface.co/haining/scientific\_abstract\	_simplification}
+In recente literatuur is Huggingface beschreven als een platform of portaalsite voor het delen van ML-modellen en datasets. De bibliotheek biedt een scala aan API's en tools die gemakkelijk te downloaden en trainen zijn voor pretrained modellen voor prevalente NLP-taken, zoals tekstclassificatie, taalmodellering en samenvatting. Deze modellen kunnen worden gefinetuned op specifieke datasets, waardoor ontwikkelaars snel modellen kunnen bouwen en inzetten voor vereenvoudigings- en samenvattingstaken. Voor wetenschappelijke documenten en artikelen bestaan er enkel modellen en datasets: \footnote{https://huggingface.co/sambydlo/bart-large-scientific-lay-summarisation}, \footnote{https://huggingface.co/haining/scientific\_abstract\_simplification}
 
 \subsection{Conclusie}
 

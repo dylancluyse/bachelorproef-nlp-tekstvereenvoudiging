@@ -7,7 +7,6 @@
 
 Het onderzoek omvat een literatuurstudie (Hoofdstuk 2), waarin technologieën en methoden voor tekstvereenvoudiging voor leerlingen met dyslexie in de derde graad van het middelbaar onderwijs worden beschreven. Hoofdstukken 4 en 5 presenteren een lijst van benodigde functionaliteiten en een stappenplan voor de ontwikkeling van een prototype. In Hoofdstuk 6 wordt een vergelijkende studie uitgevoerd om de meest geschikte tools te bepalen voor het vereenvoudigen van wetenschappelijke artikelen voor leerlingen met dyslexie. Het doel is om te bepalen aan welke criteria een vereenvoudigde tekst moet voldoen om leerlingen met dyslexie in de derde graad van het middelbaar onderwijs te ondersteunen.
 
-
 \chapter{Requirementsanalyse}
 
 In deze onderzoeksfase worden verschillende tools getest en vergeleken met manuele tekstvereenvoudiging. De vereenvoudigingstechnieken die als gunstig zijn beoordeeld in Hoofdstuk 2, evenals de aspecten waar ontwikkelaars zich bewust van moeten zijn, worden meegenomen in de requirementsanalyse. Deze analyse is verdeeld tussen toepassingen die momenteel in het onderwijs worden gebruikt en online tools die leraren kunnen gebruiken. Gratis beschikbare taalmodellen, zoals GPT-3 of vooraf getrainde taalmodellen zoals BART-SC, worden ook in de analyse opgenomen. Op basis van de capaciteiten en functionaliteiten van de verschillende tools wordt een shortlist opgesteld met de benodigde functionaliteiten om teksten te vereenvoudigen voor middelbare scholieren in de derde graad met dyslexie.
@@ -66,30 +65,20 @@ Het prototype maakt gebruik van verschillende technologieën, namelijk Flask en 
 
 \section{Tekstvereenvoudiging met API}
 
-% \subsubsection{GPT-API instellingen}
-
 Om afwijkende resultaten op een GPT-prompt te vermijden, wordt de temperature op nul geplaatst en de \textit{top\_p} waarde wordt ingeschat op 80\%. SpaCy wordt gebruikt om woordkenmerken zoals de PoS-tag op te halen, maar het systeem is vatbaar voor het niet kunnen vinden van afwisselende en meertalige woordenschat. Een mogelijke oplossing is om de taal te veranderen naar Engels of Frans, of een aangepast taalherkenningsmodel te gebruiken. Een andere optie is om de tekst voor te verwerken om de Nederlandse en Engelse woorden te scheiden voordat ze worden verwerkt met SpaCy. Adjectieven uit de tekst verwijderen is mogelijk zonder taalmodel. Aangezien alle woorden gekoppeld worden aan een PoS-tag, is het eenvoudig om de woorden gelinkt aan de span-tag van de adjectieven uit te filteren.
 
-\subsection{Uitleg over woorden geven}
+\subsection{Annotaties van woordenschat}
 
-De eenduidige HTML-structuur van online woordenboeken maken het mogelijk om gratis en eenvoudig de definities van woorden op te halen. Zo is het mogelijk om annotaties op te halen zoals aangewezen in het onderzoek van \textcite{Bulté2018}. Met behulp van Requests en BeautifulSoup is het mogelijk om lijsten met definities te scrapen van deze sites. De stam van het gemarkeerde woord wordt opgehaald en vervolgens meegegeven als zoekopdracht. De bron wordt samen met het resultaat aan de eindgebruiker getoond. 
+De eenduidige HTML-structuur van online woordenboeken maken het mogelijk om gratis en eenvoudig de definities van woorden op te halen. Zo is het mogelijk om annotaties op te halen zoals aangewezen in het onderzoek van \textcite{Bulte2018}. Met behulp van Requests en BeautifulSoup is het mogelijk om lijsten met definities te scrapen van deze sites. De stam van het gemarkeerde woord wordt opgehaald en vervolgens meegegeven als zoekopdracht. De bron wordt samen met het resultaat aan de eindgebruiker getoond. 
 
 \subsection{Samenvatting}
 
-Het prototype gebruikt een taalmodel van HuggingFace voor extraherende samenvattingen en zowel gratis taalmodellen van HuggingFace als het GPT-3 taalmodel voor abstraherende samenvattingen. Het model kan parameters, zoals maximale lengte van de gegenereerde tekst, ontvangen en biedt zowel gepersonaliseerde als niet-gepersonaliseerde vereenvoudiging. Het gebruik van HuggingFace vereist een internetverbinding en kan geen extra trainingsdata bevatten. De opstarttijd voor alle HuggingFace-taalmodellen wordt bij de start van de applicatie afgehandeld door middel van een extra parameter de request. Sleutels worden standaard bijgehouden in env-bestanden. Via de webtoepassing kan een gebruiker deze sleutel aanpassen. Binnen een lokale omgeving is dit in orde, al moeten ontwikkelaars rekening houden met beveiligingsmaatregelen wanneer een dergelijke tool wordt uitgerold.
-
-Het merendeel van de gebruikte taalmodellen is Engelstalig of is nadrukkelijk getraind op basis van Engelstalige datasets. De ingegeven tekst wordt eerst vertaald naar het Engels om zo de kans op een accurate vereenvoudiging te verhogen. Voor de vertaling wordt de Google Translate Python-package gebruikt. Deze is minder accuraat vergeleken met DeepL, maar biedt een gratis beschikbaar en aanvaardbaar alternatief aan. Factoren zoals topic diversity en semantische redundantie moeten overwogen worden bij het kiezen van een taalmodel voor extraherend samenvatten. Lange documenten samenvatten kan zoals aangeduid in literatuurstudie door extraherende samenvatting, gevolgd door abstraherende samenvatting om de tekst coherent te doen blijken. Eerder werd er gekozen om de voltekst per paragraaf bij te houden. Uit iedere paragraaf wordt een ideaal aantal zinnen gemarkeerd om nadien geparafraseerd te worden door GPT-3 of een HuggingFace taalmodel, afhankelijk van de keuze van de eindgebruiker.
+Het prototype gebruikt een taalmodel van \textit{HuggingFace} voor extraherende samenvattingen en zowel gratis taalmodellen van \textit{HuggingFace} als het GPT-3 taalmodel voor abstraherende samenvattingen. Het model kan parameters, zoals maximale lengte van de gegenereerde tekst, ontvangen en biedt zowel gepersonaliseerde als niet-gepersonaliseerde vereenvoudiging. Het gebruik van \textit{HuggingFace} vereist een internetverbinding en kan geen extra trainingsdata bevatten. De opstarttijd voor alle \textit{HuggingFace}-taalmodellen wordt bij de start van de applicatie afgehandeld door middel van een extra parameter de request. Sleutels worden standaard bijgehouden in env-bestanden. Via de webtoepassing kan een gebruiker deze sleutel aanpassen. Binnen een lokale omgeving is dit in orde, al moeten ontwikkelaars rekening houden met beveiligingsmaatregelen wanneer een dergelijke tool wordt uitgerold. Het merendeel van de gebruikte taalmodellen is Engelstalig of is nadrukkelijk getraind op basis van Engelstalige datasets. De ingegeven tekst wordt eerst vertaald naar het Engels om zo de kans op een accurate vereenvoudiging te verhogen. Voor de vertaling wordt de Google Translate Python-package gebruikt. Deze is minder accuraat vergeleken met DeepL, maar biedt een gratis beschikbaar en aanvaardbaar alternatief aan. Factoren zoals topic diversity en semantische redundantie moeten overwogen worden bij het kiezen van een taalmodel voor extraherend samenvatten. Lange documenten samenvatten kan zoals aangeduid in literatuurstudie door extraherende samenvatting, gevolgd door abstraherende samenvatting om de tekst coherent te doen blijken. Eerder werd er gekozen om de voltekst per paragraaf bij te houden. Uit iedere paragraaf wordt een ideaal aantal zinnen gemarkeerd om nadien geparafraseerd te worden door GPT-3 of een \textit{HuggingFace} taalmodel, afhankelijk van de keuze van de eindgebruiker.
 
 
 \section{Tekstinhoud extraheren en uitschrijven naar PDF/DOCX}
 
-% \subsubsection{Tekstinhoud extraheren uit een PDF}
-
-Tekst uit een PDF-bestand extraheren gebeurt met PDFMiner. Alle pagina's worden overlopen en de tekstinhoud wordt per pagina in een array geplaatst. Door middel van een aparte functie wordt de tekst opgesplitst per paragraaf en vervolgens per zin. Het resultaat van deze transformatie is een vierdimensionale array. Deze transformatie bevoordeelt het proces om vervolgens de teksten per zin op de webpagina uit te printen. De woorden in een zin worden als key-value paar opgeslaan. De sleutel verwijst hier naar de woord in een zin. De bijhorende waarde verwijst naar de PoS-tag die aan dit woord toebehoord. Dit biedt kansen toe doordat de sleutelwaarden nu overlopen kunnen worden om een klasse te koppelen aan ieder woord. Op deze manier kunnen scholieren en lectoren kiezen om zo alle werk -en naamwoorden of adjectieven te tonen met een volgens hun gekozen kleur.
-
-% \subsubsection{Tekstinhoud uitschrijven naar een PDF/DOCX}
-
-Het prototype maakt gebruik van Pandoc en de Python-extensie PyPandoc om tekstinhoud naar een PDF of een Word-bestand uit te schrijven. Pandoc maakt gebruik van een tweestapsbeweging waarbij de rauwe tekst eerst naar een markdown-formaat wordt omgezet. Vervolgens zet Pandoc de Markdown-bestand om naar een PDF-bestand gebouwd met de XeLateX engine. Lettertypes, marges en verdere metadata wordt meegegeven in een LateX-header. Flask kan enkel één bestand aan de gebruiker teruggeven. Als oplossing comprimeert het prototype de PDF- en Wordbestand tot één bestand. 
+Tekst uit een PDF-bestand extraheren gebeurt met PDFMiner. Alle pagina's worden overlopen en de tekstinhoud wordt per pagina in een array geplaatst. Door middel van een aparte functie wordt de tekst opgesplitst per paragraaf en vervolgens per zin. Het resultaat van deze transformatie is een vierdimensionale array. Deze transformatie bevoordeelt het proces om vervolgens de teksten per zin op de webpagina uit te printen. De woorden in een zin worden als key-value paar opgeslaan. De sleutel verwijst hier naar de woord in een zin. De bijhorende waarde verwijst naar de PoS-tag die aan dit woord toebehoord. Dit biedt kansen toe doordat de sleutelwaarden nu overlopen kunnen worden om een klasse te koppelen aan ieder woord. Op deze manier kunnen scholieren en lectoren kiezen om zo alle werk -en naamwoorden of adjectieven te tonen met een volgens hun gekozen kleur. Het prototype maakt gebruik van Pandoc en de Python-extensie PyPandoc om tekstinhoud naar een PDF of een Word-bestand uit te schrijven. Pandoc maakt gebruik van een tweestapsbeweging waarbij de rauwe tekst eerst naar een markdown-formaat wordt omgezet. Vervolgens zet Pandoc de Markdown-bestand om naar een PDF-bestand gebouwd met de XeLateX engine. Lettertypes, marges en verdere metadata wordt meegegeven in een LateX-header. Flask kan enkel één bestand aan de gebruiker teruggeven. Als oplossing comprimeert het prototype de PDF- en Wordbestand tot één bestand. 
 
 \section{Personaliseerbaarheid aanreiken}
 
@@ -106,34 +95,69 @@ BART-SC kan bijzaak behouden, terwijl SC sneller de neiging heeft om enkel de ke
 
 \section{Conclusie}
 
-Dit prototype wordt enkel binnen een lokale omgeving opgezet en is nog niet bruikbaar voor het grote publiek. Met PDF's of voltekst als invoer is het prototype in staat om teksten lexicaal en syntactisch te vereenvoudigen. Het prototype is functioneel voor zowel de doelgroep lectoren als leerlingen, twee doelgroepen die elk een andere functionaliteit prioriteren. Het prototype maakt gebruik van API's waaronder HuggingFace Inference APIs, Lexicala API en het GPT-3 API. Deze ontwerpkeuze bespaart geheugenruimte voor ontwikkelaars en vermindert de benodigde rekenkracht voor een prototype. Eenmaal ontwikkelaars de toepassing willen uitrollen naar het grote publiek, wordt er net zoals bij (...) aangeraden om de taalmodellen zelf te hosten. Aanvullend hierop kunnen ontwikkelaars deze modellen extra trainen op basis van de gewenste casus. Ontwikkelaars kunnen voor algemene samenvattings- en vereenvoudigingstaken gebruik maken van algemene taalmodellen die vrij beschikbaar op HuggingFace of dergelijke platforms terug te vinden zijn. GPT-3 blinkt uit in gepersonaliseerde vereenvoudigings- en samenvattingstaken. Engelstalige prompts die expliciet de uitvoertaal vermelden zijn nauwkeuriger dan Nederlandstalige prompts. Ontwikkelaars moeten rekening houden met het gebrek aan structuur bij het ophalen van tekstinhoud uit een PDF-bestand.
+Dit prototype wordt enkel binnen een lokale omgeving opgezet en is nog niet bruikbaar voor het grote publiek. Met PDF's of voltekst als invoer is het prototype in staat om teksten lexicaal en syntactisch te vereenvoudigen. Het prototype is functioneel voor zowel de doelgroep lectoren als leerlingen, twee doelgroepen die elk een andere functionaliteit prioriteren. Het prototype maakt gebruik van API's waaronder \textit{HuggingFace} Inference APIs, Lexicala API en het GPT-3 API. Deze ontwerpkeuze bespaart geheugenruimte voor ontwikkelaars en vermindert de benodigde rekenkracht voor een prototype. Eenmaal ontwikkelaars de toepassing willen uitrollen naar het grote publiek, wordt er net zoals bij (...) aangeraden om de taalmodellen zelf te hosten. Aanvullend hierop kunnen ontwikkelaars deze modellen extra trainen op basis van de gewenste casus. Ontwikkelaars kunnen voor algemene samenvattings- en vereenvoudigingstaken gebruik maken van algemene taalmodellen die vrij beschikbaar op \textit{HuggingFace} of dergelijke platforms terug te vinden zijn. GPT-3 blinkt uit in gepersonaliseerde vereenvoudigings- en samenvattingstaken. Engelstalige prompts die expliciet de uitvoertaal vermelden zijn nauwkeuriger dan Nederlandstalige prompts. Ontwikkelaars moeten rekening houden met het gebrek aan structuur bij het ophalen van tekstinhoud uit een PDF-bestand.
 
 \chapter{Vergelijkende studie}
 
-Dit hoofdstuk onderzoekt de verschillen tussen de vereenvoudigde tekstinhoud van taalmodellen en toepassingen rond tekstvereenvoudiging. Zoals aangegeven in het onderzoek van \textcite{Nenkova2004} worden leesgraadsformules en referentieteksten ingezet om de kwaliteit van een vereenvoudigde tekst te beoordelen. De vergelijkende studie beantwoord de onderzoeksvraag, alsook de deelvraag 'Welke handmatige tekstvereenvoudigingstechnieken zijn niet terug te vinden in geautomatiseerde tekstvereenvoudiging?'.
+Dit hoofdstuk onderzoekt de verschillen tussen de vereenvoudigde tekstinhoud van taalmodellen en toepassingen rond tekstvereenvoudiging. Zoals aangegeven in het onderzoek van \textcite{Nenkova2004} worden leesgraadsformules en referentieteksten ingezet om de kwaliteit van een vereenvoudigde tekst te beoordelen. De vergelijkende studie beantwoord de deelvraag ', alsook de deelvraag 'Welke handmatige tekstvereenvoudigingstechnieken zijn niet terug te vinden in geautomatiseerde tekstvereenvoudiging?'.
 
 \section{Vergelijking met referentieteksten}
 
-Twee wetenschappelijke artikelen worden vergeleken met een referentietekst die handmatig werd vereenvoudigd door twee lectoren en twee scholieren. Formaatwijzigingen zoals het omzetten van tekstinhoud naar een tabelvorm is enkel mogelijk met GPT-3, GPT-4 en het achterliggende model van de Bing AI Chatbot en ChatGPT. 
+\subsection{Methodologie}
+
+In dit onderzoek worden twee wetenschappelijke artikelen vergeleken met een referentietekst die handmatig werd vereenvoudigd door twee lectoren en twee scholieren. De auteurs van de referentietekst volgden daarbij een document met richtlijnen waaraan zij zich moesten houden. De vereenvoudigde teksten worden afgetoetst aan de hand van de richtlijnen die voortvloeien uit de literatuurstudie, om zo antwoord te geven op de twee deelvragen van het onderzoek. 
+
+
+\subsubsection{Gekozen parameters}
+Voor de webtoepassingen SciSpace, Resoomer en Simplext werden de oorspronkelijke documenten geüpload om een vereenvoudigde versie terug te krijgen, die in de vorm van een PDF werd opgeslagen. Gerelateerde GPT-tools en taalmodellen bieden deze functie niet aan, dus in dat geval wordt de tekstinhoud aan het model gegeven en wordt het resultaat opgeslagen als een tekstbestand. Resoomer, Simplext en Scispace maken gebruik van sliders om de tekst in te korten. Deze ratio wordt geplaatst op 60\%. Bij het gebruik van het GPT-3 model worden vijf prompts gebruikt en om rekening te houden met de tokenlengte, wordt de tekst tussen de subtitels opgebroken. De prompts zijn zoals volgt opgesteld:
+
+\begin{itemize}
+	\item P1: Simplify this text in Dutch /// Paragraaf
+	\item P2: Simplify a text for economics students (16-18 years old) by replacing difficult words, keeping technical jargon, replacing words longer than 18 letters, writing acronyms in full, replacing a word only once with a synonym, giving brief explanations when necessary, and avoiding percentages. /// Paragraaf
+	\item P3: Simplify a text by breaking them into shorter sentences with a maximum of ten words. Change pronouns like 'they', 'their', or 'he' to names. Replace complex sentence constructions and prepositional phrases with simpler alternatives, but leave them unchanged if no simpler option is available. /// Paragraaf
+	\item P4: Simplify an article for economics students (16-18 years old) by replacing difficult words (except technical jargon learned in the 2nd grade), words longer than 18 letters, and avoiding percentages. Use synonyms only once and give brief explanations if necessary. Write acronyms in full and replace pronouns with names. Simplify sentence constructions and prepositional phrases, splitting sentences into a maximum of ten words, but leave them unchanged if no simpler alternative is available. /// Paragraaf
+\end{itemize}
+
+\section{Resultaten}
+
+\subsection{Lexicale vereenvoudiging}
+
+\subsubsection{Woordenschat}
+De woordenschat van de referentieteksten is geschaald naar de verwachte woordkennis van een scholier met dyslexie in de derde graad van het middelbaar onderwijs. De twee gefinetunede taalmodellen van HuggingFace gebruiken een algemene doelgroep en daarbij wordt vakjargon niet veranderd. Alle GPT-prompts buiten P1 houden rekening met het vakjargon en vervangen deze woorden door een eenvoudiger synoniem. P1 past alle woordenschat aan en kan zo reeds gekende informatie opnieuw vereenvoudigen, waardoor reeds gekend vakjargon weg wordt gelaten. Anderstalige woordenschat in de referentieteksten wordt vertaald naar het Nederlands om een eentalige tekst te bekomen. Verwante GPT-3 modellen doen dit enkel indien expliciet aangewezen. Indien niet expliciet aangewezen, kan GPT-3 deze tekst opnieuw schrijven naar een eentalige tekst. Overige tools en taalmodellen nemen deze woorden over. 
+
+\subsubsection{Acroniemen}
+Acroniemen worden voluit geschreven in de referentieteksten. GPT-3 en SciSpace interpreteren deze acroniemen correct en er zijn geen uitzonderingen bij deze twee wetenschappelijke artikelen. Andere tools en taalmodellen zijn niet in staat om acroniemen voluit te schrijven. Het acroniem wordt letterlijk overgenomen in de vereenvoudigde tekst.
+
+\subsubsection{Interpretatie van cijfers}
+Het vereenvoudigd referentieartikel binnen het economisch vakdomein houdt rekening met cijferwaarden. Alle taalmodellen, prompts en webtoepassingen hebben moeite bij het interpreteren van de cijferwaarden. Deze cijfers worden overgenomen in een vereenvoudigde zin, maar de modellen staan niet stil bij de interpretatie van dergelijke cijfers.
+
+\subsection{Syntactische vereenvoudiging}
+De referentieteksten splitsen lange zinnen en zinnen met een complexe zinsyntax op om twee of meerdere subzinnen te bekomen. Tangconstructies en het aanpassen van verwijs- en voornaamwoorden gebeurt echter niet bij de HuggingFace-taalmodellen, Resoomer, SciSpace en Simplext. De verwijs- en voornaamwoorden worden behouden zoals ze in de oorspronkelijke tekst staan geschreven. Enkel P3 houdt rekening met deze constructies en past deze aan in de vereenvoudigde tekst.
+
+\subsection{Samenvatten}
+\subsubsection{Formaatwijzigingen}
+Formaatwijzigingen, zoals het omzetten van tekstinhoud naar een tabelvorm of het gebruik van opsommingen, zijn present in de referentieteksten en deze techniek is enkel mogelijk met GPT-3. SciSpace past het formaat enkel visueel aan en de uitvoer bestaat uit een opsomming van zinnen, maar de zinsyntax is niet opgebouwd zoals dit als een opsomming zou geschreven zijn. De andere tools zijn niet in staat om het formaat van de tekst aan te passen. 
+
+\subsubsection{Lengte van het vereenvoudigde artikel}
+Alle vereenvoudigde teksten, buiten het resultaat van P4, zijn korter dan de oorspronkelijke tekst. Handmatig vereenvoudigde teksten zijn significant korter dan de oorspronkelijke teksten. De lengte van de tekst bij P1, P2 en P3 is opmerkelijk korter dan de lengte van de tekst in P4.
+
+\subsubsection{Bibliografie en citeren}
+De referentieteksten maken gebruik van een korte bibliografie en houden zo rekening met de verwijzingen naar de oorspronkelijke bron met de identieke vermelding (APA of Chicago). GPT-3 is in staat om deze verwijzingen correct te verwerken. Andere tools en taalmodellen hebben moeite bij het verwerken van verwijzingen naar bronnen en nemen enkel de de ronde of vierkante haken over die de verwijzing definieert.
+
+\subsubsection{Behoud van semantiek in de vereenvoudigde tekst}
+De kerngedachte is bij alle vereenvoudigde versies van de wetenschappelijke artikelen terug te vinden. Deelvragen kunnen bij de handmatig vereenvoudigde artikelen, het vereenvoudigde artikel van SciSpace en bij de GPT-prompts P2, P3 en P4 volledig worden beantwoord. Resoomer, Simplext en de HuggingFace-taalmodellen ontbreken de inhoud om op vijf van de twaalf zinnen een antwoord te kunnen geven. Algemene informatie zoals de inleiding en de conclusie zijn echter wel terug te vinden.
 
 \section{Vergelijking zonder referentieteksten}
-
 Voor de overgebleven wetenschappelijke artikelen zijn er geen referentieteksten opgesteld. Deze teksten kunnen zoals aangegeven beoordeeld worden met beschikbare leesbaarheidsformules. De volgende teksten worden beoordeeld met de Flesch-Kincaid en Flesch-Reading-Ease. Daarnaast worden de teksten ook bekeken of deze de kern- en bijzaken ook behouden. Voor deze statistieken zijn er drie hypothesen opgesteld:
 
 \begin{itemize}
-	\item Hypothese 1: De leesgraad van automatisch vereenvoudigde wetenschappelijke artikelen hebben een significant eenvoudigere leesgraad vergeleken met de oorspronkelijke wetenschappelijke artikelen
-	
-	\item Hypothese 2: De leesgraad van automatisch vereenvoudigde wetenschappelijke artikelen zijn minstens even eenvoudig dan handmatig vereenvoudigde artikelen.
-	
-	\item Hypothese 3: De gebruikte syntactische structuren in een automatisch vereenvoudigd wetenschappelijk artikel zijn minstens even eenvoudig als het aantal in een handmatig vereenvoudigd wetenschappelijk artikel.
+\item Hypothese 1: De leesgraad van automatisch vereenvoudigde wetenschappelijke artikelen hebben een significant eenvoudigere leesgraad vergeleken met de oorspronkelijke wetenschappelijke artikelen.
+\item Hypothese 2: De leesgraad van automatisch vereenvoudigde wetenschappelijke artikelen zijn minstens even eenvoudig dan handmatig vereenvoudigde artikelen.
+\item Hypothese 3: De gebruikte syntactische structuren in een automatisch vereenvoudigd wetenschappelijk artikel zijn minstens even eenvoudig als het aantal in een handmatig vereenvoudigd wetenschappelijk artikel.
 \end{itemize} 
 
 \section{Conclusie}
 
-% specifiek voor de noden
-% Lexicale vereenvoudiging heeft geen nadelig effect op de interpretatie van de wetenschappelijke teksten. De betekenis blijft identiek. Abstraherend samenvatten kan de semantiek van de tekst veranderen. 
+Het kiezen van een prompt vereist een gerichte schrijfwijze. Prompts personaliseerbaar maken, helpt het model ook om een afweging te maken bij het vereenvoudigen van een tekst. Prompts worden gelimiteerd door de tokenlengte en het aantal meegegeven parameters beïnvloed het aantal tokens die kunnen meegegeven worden. GPT-3 kan woordenschat vereenvoudigen zonder een expliciete vermelding, maar het taalmodel heeft nog steeds nood aan afbakening.
 
-Handmatige tekstvereenvoudigingstechnieken zoals het transformeren van de oorspronkelijke structuur naar een formaat dat beter aansluit op de noden van scholieren in de derde graad van het middelbaar onderwijs met dyslexie. 
-
-% 
-Het ontbreken van detailinformatie bij de resultaten of conclusie kan een rechtstreeks effect hebben op de interpretatie van het wetenschappelijk artikel.
+Handmatige tekstvereenvoudigingstechnieken zoals het transformeren van de oorspronkelijke structuur naar een formaat dat beter aansluit op de noden van scholieren in de derde graad van het middelbaar onderwijs met dyslexie. Het ontbreken van detailinformatie bij de resultaten of conclusie kan een rechtstreeks effect hebben op de interpretatie van het wetenschappelijk artikel. De verschillen tussen bestaande leesbaarheidsformules bij GPT-3 modellen zijn merkbaar. Daarnaast kunnen taalmodellen moeite ondervinden bij het behouden van citaties en verwijzingen naar de bronnen. 

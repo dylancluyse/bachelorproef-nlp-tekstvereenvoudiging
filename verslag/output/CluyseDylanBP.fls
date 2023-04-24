@@ -1910,8 +1910,6 @@ INPUT img/bing-ai-prometheus.png
 INPUT ./img/bing-ai-chatbot-example.png
 INPUT ./img/bing-ai-chatbot-example.png
 INPUT img/bing-ai-chatbot-example.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT ./methodologie.tex
 INPUT ./methodologie.tex
 INPUT ./methodologie.tex
