@@ -12,35 +12,7 @@
 %   explicit approval!), remove the option "dutch," or replace with "english".
 
 \usepackage{lipsum} % For blind text, can be removed after adding actual content
-\usepackage{listings}
-
-\lstdefinelanguage{Python}{
-	keywords=[1]{def, return, for, in, class, from, import},
-	keywordstyle=[1]\color{Bittersweet},
-	keywords=[2]{conn, cursor, rows, session, engine, metadata, Base, session, connect, create\_engine, Table, desc, func, sessionmaker, declarative, query},
-	keywordstyle=[2]\color{purple},	
-	keywords=[3]{cursor(), fetchall, close, execute}, 
-	keywordstyle=[3]\color{violet},
-	keywords=[4]{pyodbc, sqlalchemy},
-	keywordstyle=[4]\color{RoyalBlue},
-	keywords=[5]{select, with\_only\_columns, where, order\_by, limit},
-	keywordstyle=[5]\color{Aquamarine},
-	keywords=[6]{},
-	keywordstyle=[6]\color{OliveGreen}\bfseries,
-	keywords=[7]{},
-	keywordstyle=[7]\color{PineGreen},
-	keywords=[8]{pickuplatitude, pickuplongitude, dropofflatitude, dropofflongitude}, %input
-	keywordstyle=[8]\color{Periwinkle},
-	identifierstyle=\color{black},
-	sensitive=false,
-	comment=[l]{//},
-	morecomment=[s]{/*}{*/},
-	commentstyle=\color{red}\ttfamily,
-	stringstyle=\color{Sepia}\ttfamily,
-	morestring=[b]',
-	morestring=[b]"
-}
-
+\usepackage{lstlisting}
 
 %% Pictures to include in the text can be put in the graphics/ folder
 \graphicspath{{graphics/}}
@@ -81,8 +53,8 @@
 \author{Dylan Cluyse}
 \supervisor{Mevr. L. De Mol}
 \cosupervisor{J. Decorte; J. Van Damme; M. Dhondt}
-\title[De opbouw van een prototype en een vergelijkende studie.]%
-    {Scholieren met dyslexie van de derde graad middelbaar onderwijs ondersteunen bij het lezen van wetenschappelijke papers via tekstvereenvoudiging}
+\title[De opbouw van een prototype.]%
+    {Scholieren met dyslexie van de derde graad middelbaar onderwijs ondersteunen bij het lezen van wetenschappelijke papers via geautomatiseerde tekstvereenvoudiging}
 \academicyear{\advance\year by -1 \the\year--\advance\year by 1 \the\year}
 \examperiod{1}
 \degreesought{\IfLanguageName{dutch}{Professionele bachelor in de toegepaste informatica}{Bachelor of applied computer science}}
@@ -182,7 +154,7 @@
 \section*{Samenvatting}
 
 % Kopieer en plak hier de samenvatting (abstract) van je onderzoeksvoorstel.
-Ingewikkelde woordenschat en zinsbouw hinderen scholieren met dyslexie in het derde graad middelbaar onderwijs bij het lezen van wetenschappelijke artikelen. Adaptieve tekstvereenvoudiging helpt deze scholieren bij hun lees- en verwerkingssnelheid. Daarnaast kan artificiële intelligentie (AI) dit proces automatiseren om de werkdruk bij leraren en scholieren te verminderen. Dit onderzoek achterhaalt met welke technologische en logopedische aspecten AI-ontwikkelaars rekening moeten houden bij de ontwikkeling van een AI-toepassing voor adaptieve en geautomatiseerde tekstvereenvoudiging. Hiervoor is de volgende onderzoeksvraag opgesteld: "Hoe kan een wetenschappelijk artikel automatisch worden vereenvoudigd, gericht op de unieke noden van scholieren met dyslexie in het derde graad middelbaar onderwijs?". Een vergelijkende studie beantwoordt deze onderzoeksvraag en is uitgevoerd met bestaande toepassingen en een prototype voor adaptieve en geautomatiseerde tekstvereenvoudiging. Uit de vergelijkende studie blijkt dat toepassingen om wetenschappelijke artikelen te vereenvoudigen, gemaakt zijn voor een centrale doelgroep en geen rekening houden met de unieke noden van een scholier met dyslexie in het derde graad middelbaar onderwijs. Adaptieve software voor geautomatiseerde tekstvereenvoudiging is mogelijk, maar ontwikkelaars moeten meer inzetten op de unieke noden van deze scholieren. 
+Ingewikkelde woordenschat en zinsbouw hinderen scholieren met dyslexie in het derde graad middelbaar onderwijs bij het lezen van wetenschappelijke artikelen. Gepersonaliseerde tekstvereenvoudiging helpt deze scholieren bij hun leesbegrip. Daarnaast kan artificiële intelligentie (AI) dit proces automatiseren om de werkdruk bij leraren en scholieren te verminderen. Dit onderzoek achterhaalt met welke technologische en logopedische aspecten AI-ontwikkelaars rekening moeten houden bij de ontwikkeling van een AI-toepassing voor adaptieve en geautomatiseerde tekstvereenvoudiging. Hiervoor is de volgende onderzoeksvraag opgesteld: "Hoe kan een wetenschappelijk artikel automatisch worden vereenvoudigd, gericht op de unieke noden van scholieren met dyslexie in het derde graad middelbaar onderwijs?". Een vergelijkende studie beantwoordt deze onderzoeksvraag en is uitgevoerd met bestaande toepassingen en een prototype voor adaptieve en geautomatiseerde tekstvereenvoudiging. Uit de vergelijkende studie blijkt dat toepassingen om wetenschappelijke artikelen te vereenvoudigen, gemaakt zijn voor een centrale doelgroep en geen rekening houden met de unieke noden van een scholier met dyslexie in het derde graad middelbaar onderwijs. Adaptieve software voor geautomatiseerde tekstvereenvoudiging is mogelijk, maar ontwikkelaars moeten meer inzetten op de unieke noden van deze scholieren. 
 
 % Verwijzing naar het bestand met de inhoud van het onderzoeksvoorstel
 \input{../voorstel/voorstel-inhoud}
