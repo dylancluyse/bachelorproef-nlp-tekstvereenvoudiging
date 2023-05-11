@@ -29,6 +29,7 @@ De requirementsanalyse analyseert toepassingen die enerzijds de overheid aan sch
 Vijf verschillende aspecten, namelijk lexicale en syntactische vereenvoudiging, samenvatting, personalisatie en ontwikkelaarsmogelijkheden dienen als de houvast bij deze requirementsanalyse. De resultaten van deze onderzoeksfase dienen als vereisten om een prototype voor tekstvereenvoudiging te ontwikkelen, specifiek op maat om wetenschappelijke artikelen gepersonaliseerd te vereenvoudigen op maat voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs. De tools ondergaan een test om hun vermogen om een wetenschappelijk artikel in PDF-formaat te vereenvoudigen, indien dat mogelijk is. Als dit niet mogelijk is, gebeurt het kopiëren en plakken van de tekst in de toepassing. Op deze manier vindt een evaluatie van de prestaties van de verschillende tools plaats en worden eventuele beperkingen of tekortkomingen geïdentificeerd.
 
 \section{Vergelijkende studie}
+\label{sec:vergelijkende-studie}
 
 Taalmodellen zijn nodig om teksten te kunnen vereenvoudigen, maar een toepassing voor tekstvereenvoudiging binnen de casus van wetenschappelijke artikelen moet gebruik maken van een taalmodel dat het meest aansluit op deze casus. Om het prototype af te stemmen op één taalmodel, vereist een antwoord op de volgende vraag. 
 
@@ -44,6 +45,8 @@ De literatuurstudie identificeerde de volgende vier taalmodellen voor opname in 
 	\item Scientific Abstract Simplification\footnote{https://huggingface.co/haining/scientific\_abstract\_simplification}
 	\item GPT-3
 \end{itemize}
+
+
 
 Zoals aangegeven in het onderzoek van \textcite{Nenkova2004} worden leesgraadsformules en referentieteksten ingezet om de kwaliteit van een vereenvoudigde tekst te beoordelen. De taalmodellen en API's ondergaan een vergelijking met elkaar en met een referentietekst om de kwaliteit van de gegenereerde tekstvereenvoudigingen te beoordelen. De vergelijking gebeurt zowel subjectief als objectief aan de hand van de volgende leesgraadsmetrieken: 
 
@@ -106,6 +109,22 @@ Het prototype is ontwikkeld met de benodigde functionaliteiten en eigenschappen 
 
 Het prototype is opgebouwd in Python met het Flask-framework om de webapplicatie te ondersteunen. Aanvullend op Flask maakt het prototype gebruik van Jinja, HTML, CSS en JavaScript (JS) zoals vermeld in \ref{table:technologies}. Tekstvereenvoudigingsfuncties worden eerst in Jupiter notebooks uitgetest, vooraleer deze in het prototype worden geplaatst. Docker wordt gebruikt als opzet voor de ontwikkelaars. Een scriptbestand vereenvoudigt de opstart van deze webapplicatie in tegenstelling tot de opstart per terminal. De nodige Python-bibliotheken worden alvorens opgehaald met Pipreq. Alle taalmodellen worden per API aangesproken, ofwel één Docker-container voor de webapplicatie volstaat voor dit prototype.
 
+
+\subsection{Personalisering van de website}
+
+% bron: % TODO https://accessibility.huit.harvard.edu/disabilities/dyslexia
+
+Zoals aangewezen in \ref{ch:stand-van-zaken} door (..) moeten ontwikkelaars de personalisering van de website in rekening houden, want deze functionaliteit heeft een significant effect op het leesgedrag en -begrip van zowel mensen met dyslexie als mensen zonder dyslexie. Op een apart scherm kan de eindgebruiker de volgende elementen aanpassen naar hun toebehoren:
+
+\begin{itemize}
+\item Test
+\end{itemize}
+
+
+De twee verschillende soorten eindgebruikers voor dit prototype, namelijk leerkrachten die een wetenschappelijk willen vereenvoudigen op maat voor een scholier in hun klasgroep of een scholier die dit zelf wil doen, moeten elk een andere taak verrichten. Het prototype volgt daarmee een opsplitsing qua functies.
+
+% TODO homepage
+
 \subsection{Tool voor leerkrachten}
 
 \begin{enumerate}
@@ -141,15 +160,23 @@ De key-value paren dienen om de woorden aan hun respectievelijke PoS-tag te kopp
 		\hline
 		\textbf{Taal} & \textbf{Embeddingsmodel} \\
 		\hline
-		Nederlands & ... \\ 
+		Nederlands & NL Core News Medium\footnote{https://github.com/explosion/spacy-models/releases/tag/nl_core_news_md-3.5.0} \\ 
 		\hline
-		Engels & ... \\
+		Engels & EN Core Web Medium\footnote{https://github.com/explosion/spacy-models/releases/tag/en_core_web_md-3.5.0} \\
 		\hline
 	\end{tabular}
 	\label{table:wordembeddings-spacy}
 \end{center}
 
 \subsection{Opties voor gepersonaliseerde tekstvereenvoudiging aanreiken.}
+
+Leerkrachten hebben baat aan een intuïtieve toepassing die prompts en API-calls voor hen kan regelen. Het prototype regelt dit door de eindgebruiker een formulier te presenteren met daarin alle opties die leerkrachten kunnen gebruiken om een wetenschappelijk artikel te vereenvoudigen op maat van de unieke noden voor een scholier met dyslexie in de derde graad van het onderwijs. 
+
+JavaScript komt hier aan bod als api-key herkenner; zodat de eindgebruiker weet of deze een GPT-3 api-sleutel heeft ingegeven.
+
+
+
+% TODO foto van toepassing tonen
 
 \subsection{Tekstvereenvoudiging met API}
 

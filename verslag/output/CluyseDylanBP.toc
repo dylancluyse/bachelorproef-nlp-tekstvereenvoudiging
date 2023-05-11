@@ -29,7 +29,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.3}Aanpakken voor tekstvereenvoudiging}{10}{section.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Manuele aanpak voor tekstvereenvoudiging}{10}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}Manuele tekstvereenvoudiging}{10}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.2}Bevoordelende effecten op handmatige tekstvereenvoudiging bij scholieren met dyslexie}{11}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
@@ -65,43 +65,43 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Prototype voor tekstvereenvoudiging}{35}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Tool voor leerkrachten}{36}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.1}Personalisering van de website}{36}{subsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Tekstinhoud extraheren}{36}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.2}Tool voor leerkrachten}{36}{subsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.3}Zinnen ophalen}{36}{subsection.3.3.3}%
+\contentsline {subsection}{\numberline {3.3.3}Tekstinhoud extraheren}{36}{subsection.3.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.4}PoS-tagging}{37}{subsection.3.3.4}%
+\contentsline {subsection}{\numberline {3.3.4}Zinnen ophalen}{37}{subsection.3.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.5}Opties voor gepersonaliseerde tekstvereenvoudiging aanreiken.}{37}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.5}PoS-tagging}{37}{subsection.3.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.6}Tekstvereenvoudiging met API}{37}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.6}Opties voor gepersonaliseerde tekstvereenvoudiging aanreiken.}{37}{subsection.3.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Annotaties van woordenschat}{37}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.7}Tekstvereenvoudiging met API}{38}{subsection.3.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Tekstvereenvoudiging}{38}{subsection.3.3.6}%
+\contentsline {subsubsection}{Annotaties van woordenschat}{38}{subsection.3.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.7}Personaliseerbaarheid aanreiken}{38}{subsection.3.3.7}%
+\contentsline {subsubsection}{Tekstvereenvoudiging}{38}{subsection.3.3.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Taalmodellen}{38}{subsection.3.3.7}%
+\contentsline {subsection}{\numberline {3.3.8}Personaliseerbaarheid aanreiken}{39}{subsection.3.3.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.8}Tekstinhoud uitschrijven naar PDF/DOCX}{39}{subsection.3.3.8}%
+\contentsline {subsubsection}{Taalmodellen}{39}{subsection.3.3.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{YAML-header}{39}{subsection.3.3.8}%
+\contentsline {subsection}{\numberline {3.3.9}Tekstinhoud uitschrijven naar PDF/DOCX}{39}{subsection.3.3.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Woordenlijst en vereenvoudigde tekst uitschrijven}{39}{subsection.3.3.8}%
+\contentsline {subsubsection}{YAML-header}{39}{subsection.3.3.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Documenten genereren}{39}{subsection.3.3.8}%
+\contentsline {subsubsection}{Woordenlijst en vereenvoudigde tekst uitschrijven}{40}{subsection.3.3.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.9}Conclusie}{39}{subsection.3.3.9}%
+\contentsline {subsubsection}{Documenten genereren}{40}{subsection.3.3.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3.10}Conclusie}{40}{subsection.3.3.10}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Discussie}{41}{chapter.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.1}Requirementsanalyse}{41}{section.4.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.2}Vergelijkende studie}{43}{section.4.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2.1}Conclusie}{44}{subsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.3}Opbouw van het prototype}{44}{section.4.3}%
 \defcounter {refsection}{0}\relax 

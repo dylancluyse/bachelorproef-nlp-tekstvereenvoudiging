@@ -9,17 +9,21 @@ In dit hoofdstuk worden de resultaten uit de requirementsanalyse, vergelijkende 
 
 \section{Requirementsanalyse}
 
-% Startende zin over lexicale vereenvoudiging
+% 1. Validiteit aantonen: Heb je gemeten wat gemeten moest worden? Zijn je conclusies generaliseerbaar? Ga (indien van toepassing) in op de interne validiteit en externe validiteit. Zijn je bronnen en methoden betrouwbaar?
+
+De geteste toepassingen representeren de state-of-the-art toepassingen voor tekstvereenvoudiging. Proof-of-concepts Webtools presenteren op hun sites verschillende functionaliteiten die aan de eindgebruiker worden uitgeleend. Deze zijn terug te vinden bij het uittesten en er is geen sprake van false advertising. 
+
+% 2. Resultaten interpreteren
+
 Woorden- en synoniemenlijsten kunnen een ondersteunend middel aanbieden voor zowel scholieren met dyslexie als zonder bij het lezen van wetenschappelijke artikelen en wordt aangeboden in Kurzweil. Automatisch genereren is enkel prevalent binnen ChatGPT en de Bing chatbot, maar de tools houden geen rekening met de doelgroep, tenzij expliciet aangegeven met een one-shot summary. Andere tools houden helemaal geen rekening met de doelgroep en kunnen enkel woordenlijsten genereren op basis van gekozen woorden. 
 
 \medspace
 
-
-Bij de geteste tools is PDF-upload de standaardmethode. Het inlezen van tekstinhoud is beschikbaar bij de webtoepassingen, maar niet bij de erkende software in het onderwijs. ChatGPT en Bing chatbot genereren mensachtige teksten, maar kunnen geen PDF's verwerken. Het kopiëren en plakken van tekst uit het originele document kan leiden tot weinig fouten, maar is omslachtig en moet verbeterd worden. Bestaande tools hebben moeite met oudere PDF's waarbij niet alle tekst kan worden geëxtraheerd. Een geavanceerde optie voor het inlezen van PDF's is vereist.
+PDF-upload steekt uit als de must-have optie om wetenschappelijke artikelen op te laden, al beschikken de geteste chatbots zoals ChatGPT en Bing Chat hier niet over. Tekstinhoud inlezen komt niet voor bij de erkende software in het onderwijs, in tegenstelling tot de webtoepassingen die hier wel over beschikken. Voornamelijk komt dit doordat de tools als snelle optie tot vereenvoudiging of samenvatting kunnen dienen, terwijl het opladen van een PDF meer tijd in beslag kan nemen. ChatGPT en Bing chatbot genereren teksten met een gelijkaardige schrijfstijl als die van de mens, maar deze toepassingen kunnen geen PDF's verwerken. Het kopiëren en plakken van tekst uit het originele document kan leiden tot weinig fouten, maar komt deze manier van werken is omslachtig en moet verbeterd worden. Bestaande tools hebben moeite met oudere PDF's waarbij niet alle tekst kan worden geëxtraheerd en daarom moet het prototype een vangnet voorzien om dit mogelijk scenario tegen te gaan.
 
 \medspace
 
-Tools spenderen weinig tijd op de analyse over het ingegeven document, alsook het vereenvoudigde of samengevatte document. Simplish doet dit wel en geeft aan de hand van kleurcodes bepaalde data over de vereenvoudigde tekst mee, waaronder niet-veranderende woorden, adequate vertalingen, uitleg naar de voetnoot, homoniemen of woorden waarvan er geen eenvoudig synoniem is. Zoals aangegeven in \ref{img:simplish-output} duidt de vergelijkende weergave de verschillen aan tussen de oorspronkelijke en vereenvoudigde tekst en met behulp van kleurcodes worden de verschillende transformaties aangegeven.
+Tools bieden weinig inzicht op leesgraadsmetrieken van zowel het ingegeven document als het vereenvoudigde document. Simplish steekt boven de rest uit door aan de hand van kleurcodes criteria over de vereenvoudigde tekst mee te geven, waaronder niet-veranderende woorden, adequate vertalingen, uitleg naar de voetnoot, homoniemen of woorden die geen eenvoudigere synoniemen hebben. Zoals aangegeven in \ref{img:simplish-output} duidt de vergelijkende weergave de verschillen aan tussen de oorspronkelijke en vereenvoudigde tekst en met behulp van kleurcodes worden de verschillende transformaties aangegeven.
 
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{img/simplish-output.png}
@@ -39,6 +43,7 @@ Tools spenderen weinig tijd op de analyse over het ingegeven document, alsook he
 		Should-have & Glossary genereren na handmatige selectie van moeilijke woorden \\
 		& Personaliseerbare PDF- of Worddocumentlay-out \\
 		& Uitvoer als PDF of Word-bestand teruggeven. \\
+		& Tekstanalyse voor en na de vereenvoudiging aanbieden. \\
 		\hline
 		Could-have & Glossary genereren na automatische selectie van moeilijke woorden \\
 		\hline
@@ -48,20 +53,40 @@ Tools spenderen weinig tijd op de analyse over het ingegeven document, alsook he
 	\end{tabular}
 \end{center}
 
+% 3. Beperkingen bespreken
+
+De requirementsanalyse neemt geen functionaliteiten op van obscure proof-of-concepten. Deze ontbreken de nodige testen en zekerheid dat deze effectieve gepersonaliseerde en geautomatiseerde tekstvereenvoudiging aanbieden. Twee van de online tools, namelijk Resoomer en Scispace, bieden uitsluitend samenvattingsfunctionaliteiten aan. Resoomer is sneller geneigd om de belangrijkste zinnen te markeren en vervolgens deze in een kortere tekst terug te geven. Dit kan een effect hebben op de betrouwbaarheid van de functionaliteiten, alsook op de leesgraadmetrieken.
+
+% 4. Implicaties aanduiden
+
+% Wat voor gevolgen heeft jouw onderzoek?
+
+% Wat gebeurt mogelijk in de toekomst wanneer de huidige situatie niet verandert (waarover jij een conclusie hebt getrokken)? In andere woorden, wat zijn de gevolgen als er geen oplossing wordt gevonden of doorgevoerd?
+
+% 5. Suggesties voor vervolgonderzoek geven
+
+
 \section{Vergelijkende studie}
+
+% Taalmodel 1: ...
+% Taalmodel 2: ...
+% Taalmodel 3: ...
+% Taalmodel 4: GPT-3
 
 De huidige softwaretools die worden gebruikt in het middelbaar onderwijs zijn niet in staat om de oorspronkelijke tekst te transformeren, wat betekent dat syntactische vereenvoudiging momenteel niet haalbaar is. Hoewel er online webtoepassingen beschikbaar zijn, bieden ze minder functionaliteiten om de moeilijkheidsgraad van zinsyntaxis te verlagen en zijn ze voornamelijk gericht op het verkorten van de oorspronkelijke tekst ofwel samenvatting. Het aanpassen van tangconstructies, verwijswoorden, voorzetseluitdrukkingen, samengestelde werkwoorden en onregelmatige werkwoorden blijft daarom een uitdaging voor deze toepassingen. Zelfs het schrijven in de actieve stem kan problematisch zijn, en er zijn alleen vooraf gedefinieerde prompts beschikbaar om deze transformaties uit te voeren.
 
 \medspace
 
-Hoewel taalmodellen zoals GPT-3 in staat zijn om zinsyntaxtransformaties uit te voeren, kunnen ze soms problemen ondervinden bij het verwerken van alle meegegeven transformaties, en er is geen garantie dat deze modellen alle transformaties met slechts één prompt kunnen uitvoeren. Om deze uitdagingen aan te pakken, kunnen bestaande pipelines voor tekstvereenvoudiging gebruikmaken van verschillende transformers, waarbij de tekst meerdere keren aan het GPT-3 model wordt gegeven maar met verschillende prompts. Het moet echter opgemerkt worden dat taalmodellen van HuggingFace minder gericht zijn op het aanpassen van de zinsyntaxis en vaak vrijwel identieke tekst genereren.
+HuggingFace-taalmodellen zijn zoals verwezen in de bijlage, minder in staat om syntactische vereenvoudiging op een tekst toe te passen. De twee uitgeteste taalmodellen zijn voornamelijk gebouwd om lexicale vereenvoudiging te realiseren.
+
+Hoewel taalmodellen zoals T4 in staat zijn om zinsyntaxtransformaties uit te voeren, kunnen ze problemen ondervinden bij het verwerken van alle meegegeven transformaties. Het taalmodel kan transformaties ontbreken als alle transformaties in één prompt zijn betrokken. De voorgestelde aanpak hiervoor bestaat uit een pipeline van minstens drie transformaties ofwel drie prompts. 
 
 \medspace
 
-\subsection{Conclusie}
-
-Ontwikkelaars kunnen voor algemene samenvattings- en vereenvoudigingstaken gebruik maken van algemene taalmodellen die vrij beschikbaar op \textit{HuggingFace} of dergelijke platforms terug te vinden zijn. GPT-3 blinkt uit in gepersonaliseerde vereenvoudigings- en samenvattingstaken. Engelstalige prompts die expliciet de uitvoertaal vermelden zijn nauwkeuriger dan Nederlandstalige prompts. 
+Ontwikkelaars kunnen voor lexicale vereenvoudigingstaken gebruik maken van algemene taalmodellen die vrij beschikbaar staan op \textit{HuggingFace}. Deze taalmodellen komen te kort bij gepersonaliseerde tekstvereenvoudigingstaken en daarom kunnen ontwikkelaars GPT-3 inschakelen als taalmodel voor gepersonaliseerde tekstvereenvoudiging van wetenschappelijke artikelen. Het uitgeteste GPT-3-model blinkt uit in gepersonaliseerde vereenvoudigingstaken. Engelstalige prompts die expliciet de uitvoertaal vermelden zijn nauwkeuriger dan Nederlandstalige prompts. Geen enkel taalmodel kan gegarandeerd rekening houden met de doelgroep. GPT-3 komt dichtbij, maar maakt enkele inschattingsfouten.
 
 \section{Opbouw van het prototype}
 
 Deze ontwerpkeuze bespaart geheugenruimte voor ontwikkelaars en vermindert de benodigde rekenkracht voor een prototype. Eenmaal ontwikkelaars de toepassing willen uitrollen naar het grote publiek, wordt er net zoals bij (...) aangeraden om de taalmodellen zelf te hosten.
+
+Intuïtieve handelingen kunnen vrij snel en eenduidig worden ontwikkeld door middel van HTML en JavaScript. Er is geen complex framework nodig om deze handelingen te kunnen ontwikkelen, alsook is de kennis sporadisch online beschikbaar. Sites en webontwikkelaars houden zelden rekening met deze personalisatiemogelijkheden, al wijst dit onderzoeksdeel uit dat deze methoden
