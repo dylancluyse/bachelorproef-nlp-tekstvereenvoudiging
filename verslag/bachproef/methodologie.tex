@@ -5,19 +5,27 @@
 \chapter{\IfLanguageName{dutch}{Methodologie}{Methodology}}%
 \label{ch:methodologie}
 
-Met de verworven kennis uit de literatuursudie in Hoofdstuk \ref{ch:stand-van-zaken} over de noden van scholieren met dyslexie, het complexe karakter van wetenschappelijke artikelen en ten slotte de technieken voor ATV en MTV kunnen de onderzoeksmethoden toegepast worden om een antwoord te kunnen vormen op de onderzoeksvraag.
+Met de verworven kennis uit de literatuurstudie in Hoofdstuk \ref{ch:stand-van-zaken} over de noden van scholieren met dyslexie, het complexe karakter van wetenschappelijke artikelen, vervolgens de technieken voor ATV en MTV en ten slotte de bijhorende valkuilen bij taalverwerking met AI; kunnen de onderzoeksmethoden toegepast worden om een antwoord te kunnen vormen op de onderzoeksvraag.
 
 \section{Requirementsanalyse}
 \label{sec:requirementsanalyse}
 
-Deze onderzoeksfase doelt op het uittesten van verschillende tools op hun functionaliteiten voor geautomatiseerde en gepersonaliseerde tekstvereenvoudiging. De requirementsanalyse biedt een antwoord op de volgende twee subvragen, aan de hand van de technieken voor tekstvereenvoudiging beschreven in de literatuurstudie \ref{ch:stand-van-zaken}. 
+Vooraleer een dergelijke toepassing voor tekstvereenvoudiging kan worden gemaakt, moeten de benodigde functionaliteiten opgesomd worden. Deze onderzoeksfase doelt op het uittesten van verschillende tools op hun functionaliteiten voor geautomatiseerde en gepersonaliseerde tekstvereenvoudiging. De requirementsanalyse analyseert toepassingen die enerzijds de overheid aan scholieren met dyslexie in het onderwijs aanbiedt, anderzijds online tools die leerkrachten kunnen gebruiken om teksten te vereenvoudigen. De requirementsanalyse biedt een antwoord op de volgende twee subvragen, aan de hand van de technieken voor tekstvereenvoudiging beschreven in de literatuurstudie \ref{ch:stand-van-zaken}. 
 
 \begin{itemize}
 	\item Welke functies ontbreken AI-toepassingen om geautomatiseerde tekstvereenvoudiging mogelijk te maken voor scholieren met dyslexie in de derde graad middelbaar onderwijs?
-	\item Welke manuele methoden voor tekstverereenvoudiging komen niet in deze tools voor?
+	\item Welke manuele methoden voor tekstvereenvoudiging komen niet in deze tools voor?
 \end{itemize}
 
-De requirementsanalyse analyseert toepassingen die enerzijds de overheid aan scholieren met dyslexie in het onderwijs aanbiedt, anderzijds online tools die leerkrachten kunnen gebruiken om teksten te vereenvoudigen. Om de lijst van beschikbare tools in te perken, beperkt het onderzoek zich op de volgende tools:
+Momenteel worden er vijf softwarepakketten uitgereikt aan scholen, waarvan de drie voornaamste worden opgenomen in de requirementsanalyse:
+
+\begin{itemize}
+	\item SprintPlus
+	\item Kurzweil3000
+	\item AlineaSuite
+\end{itemize}
+
+Tools die online beschikbaar staan kunnen ook een rol spelen in het automatiseren van processen voor leerkrachten. Deze tools zijn sporadisch beschikbaar, maar enkel vier tools zullen aangehaald worden. Om de lijst van beschikbare online tools in te perken, beperkt het onderzoek zich op de volgende tools:
 
 \begin{itemize}
 	\item Simplish
@@ -26,7 +34,29 @@ De requirementsanalyse analyseert toepassingen die enerzijds de overheid aan sch
 	\item Bing Chatbot
 \end{itemize}
 
-Vijf verschillende aspecten, namelijk lexicale en syntactische vereenvoudiging, samenvatting, personalisatie en ontwikkelaarsmogelijkheden dienen als de houvast bij deze requirementsanalyse. De resultaten van deze onderzoeksfase dienen als vereisten om een prototype voor tekstvereenvoudiging te ontwikkelen, specifiek op maat om wetenschappelijke artikelen gepersonaliseerd te vereenvoudigen op maat voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs. De tools ondergaan een test om hun vermogen om een wetenschappelijk artikel in PDF-formaat te vereenvoudigen, indien dat mogelijk is. Als dit niet mogelijk is, gebeurt het kopiëren en plakken van de tekst in de toepassing. Op deze manier vindt een evaluatie van de prestaties van de verschillende tools plaats en worden eventuele beperkingen of tekortkomingen geïdentificeerd.
+% TODO wat wordt er getest?
+
+De volgende functionaliteiten worden getest:
+
+\begin{itemize}
+	\item Inschatten van de doelgroep.
+	\item Woorden -en synoniemenlijst genereren (automatisch of handmatig).
+	\item Ondersteuning aanbieden voor woorden.
+\end{itemize}
+
+De resultaten van deze onderzoeksfase omvatten een Moscow-schema waarmee de ontwikkeling van het het prototype voor tekstvereenvoudiging, specifiek om wetenschappelijke artikelen op maat voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs te vereenvoudigen.
+
+\medspace
+
+Vijf verschillende aspecten, namelijk lexicale en syntactische vereenvoudiging, samenvatting, personalisatie en ontwikkelaarsmogelijkheden dienen als de houvast bij deze requirementsanalyse. De volgende testen worden uitgevoerd:
+
+\begin{itemize}
+	\item De verschillen op lexicaal niveau worden 
+
+	\item De tools ondergaan een test om hun vermogen om een wetenschappelijk artikel in PDF-formaat te vereenvoudigen, indien dat mogelijk is. Als dit niet mogelijk is, gebeurt het kopiëren en plakken van de tekst in de toepassing.
+\end{itemize}
+
+ Op deze manier vindt een evaluatie van de prestaties van de verschillende tools plaats en worden eventuele beperkingen of tekortkomingen geïdentificeerd. 
 
 \section{Vergelijkende studie}
 \label{sec:vergelijkende-studie}
@@ -46,8 +76,6 @@ De literatuurstudie identificeerde de volgende vier taalmodellen voor opname in 
 	\item GPT-3
 \end{itemize}
 
-
-
 Zoals aangegeven in het onderzoek van \textcite{Nenkova2004} worden leesgraadsformules en referentieteksten ingezet om de kwaliteit van een vereenvoudigde tekst te beoordelen. De taalmodellen en API's ondergaan een vergelijking met elkaar en met een referentietekst om de kwaliteit van de gegenereerde tekstvereenvoudigingen te beoordelen. De vergelijking gebeurt zowel subjectief als objectief aan de hand van de volgende leesgraadsmetrieken: 
 
 \begin{itemize}
@@ -63,18 +91,34 @@ Dit onderzoek vergelijkt twee wetenschappelijke artikelen met een referentieteks
 
 \medspace
 
-GPT-3 en de HuggingFace taalmoddelen kunnen enkel per API worden aangesproken en zijn daarmee niet in staat om direct PDF's te opladen. De inhoud wordt met de code op (TODO REF TOEVOEGEN) opgehaald en vervolgens direct aan het model gegeven om zo een resultaat te bekomen. Bij het gebruik van het GPT-3 model worden vijf prompts gebruikt en om rekening te houden met de tokenlengte, wordt de tekst tussen de subtitels opgebroken. De prompts zijn zoals volgt opgesteld:
+GPT-3 en de HuggingFace taalmoddelen kunnen enkel per API worden aangesproken en zijn daarmee niet in staat om direct PDF's te opladen. De inhoud wordt met de code op (TODO REF TOEVOEGEN) opgehaald en vervolgens direct aan het model gegeven om zo een resultaat te bekomen. 
 
-\begin{itemize}
-	\item P1: Simplify this text in Dutch
-	\item P2: Simplify a text for economics students (16-18 years old) by replacing difficult words, keeping technical jargon, replacing words longer than 18 letters, writing acronyms in full, replacing a word only once with a synonym, giving brief explanations when necessary, and avoiding percentages.
-	\item P3: Simplify a text by breaking them into shorter sentences with a maximum of ten words. Change pronouns like 'they', 'their', or 'he' to names. Replace complex sentence constructions and prepositional phrases with simpler alternatives, but leave them unchanged if no simpler option is available.
-	\item P4: Simplify an article for economics students (16-18 years old) by replacing difficult words (except technical jargon learned in the 2nd grade), words longer than 18 letters, and avoiding percentages. Use synonyms only once and give brief explanations if necessary. Write acronyms in full and replace pronouns with names. Simplify sentence constructions and prepositional phrases, splitting sentences into a maximum of ten words, but leave them unchanged if no simpler alternative is available.
-\end{itemize}
+
+\medspace
+
+Bij het gebruik van het GPT-3 model worden vijf prompts gebruikt en om rekening te houden met de tokenlengte, wordt de tekst tussen de subtitels opgebroken. De prompts zijn zoals volgt opgesteld:
+
+\begin{center}
+	\begin{tabular}{ | m{4cm} | m{12cm} | } 
+		\hline
+		\textbf{Naam} & \textbf{Prompt} \\
+		\hline
+		P1 & Simplify this text in Dutch \\
+		\hline
+		P2 & Simplify a text for economics students (16-18 years old) by replacing difficult words, keeping technical jargon, replacing words longer than 18 letters, writing acronyms in full, replacing a word only once with a synonym, giving brief explanations when necessary, and avoiding percentages. \\
+		\hline
+		P3 & Simplify a text by breaking them into shorter sentences with a maximum of ten words. Change pronouns like 'they', 'their', or 'he' to names. Replace complex sentence constructions and prepositional phrases with simpler alternatives, but leave them unchanged if no simpler option is available. \\
+		\hline
+		P4 & Simplify an article for economics students (16-18 years old) by replacing difficult words (except technical jargon learned in the 2nd grade), words longer than 18 letters, and avoiding percentages. Use synonyms only once and give brief explanations if necessary. Write acronyms in full and replace pronouns with names. Simplify sentence constructions and prepositional phrases, splitting sentences into a maximum of ten words, but leave them unchanged if no simpler alternative is available. \\
+		\hline
+	\end{tabular}
+	\label{table:technologies}
+\end{center}
 
 \section{Prototype voor tekstvereenvoudiging}
 
 Dit hoofdstuk omschrijft de ontwikkeling van een prototype voor tekstvereenvoudiging voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs. Deze onderzoeksmethode geeft een antwoord op de volgende deelvraag: 
+
 \begin{itemize}
 	\item Hoe kan een intuïtieve en lokale webtoepassing worden ontwikkeld die zowel scholieren met dyslexie als docenten helpt bij het vereenvoudigen van wetenschappelijke artikelen met behoud van semantiek, jargon en zinsstructuren?
 \end{itemize}
@@ -86,11 +130,14 @@ Het prototype is ontwikkeld met de benodigde functionaliteiten en eigenschappen 
 		\hline
 		\textbf{Technologie} & \textbf{Functionaliteit} \\
 		\hline
-		
+		Python & \\
+		\hline
+		JavaScript
 		\hline
 	\end{tabular}
 	\label{table:technologies}
 \end{center}
+
 
 
 \begin{center}
@@ -98,10 +145,11 @@ Het prototype is ontwikkeld met de benodigde functionaliteiten en eigenschappen 
 		\hline
 		\textbf{Python-bibliotheek} & \textbf{Functionaliteit} \\
 		\hline
-		PDFMiner & Tekstinhoud van PDF's inlezen. \\ 
-		EasyOCR	& Pagina van een PDF opslaan als afbeelding. Tekst uit een afbeelding extraheren. \\
-		Spacy & PoS-tagging en lemmatizing \\
-		NumPy & De reshape-functie vereenvoudigt de manier om arrays van zinnen bij elkaar te plaatsen om zo een paragraaf te bekomen. \\
+		PDFMiner 				& Tekstinhoud van PDF's inlezen. \\ 
+		EasyOCR					& PDF-pagina's inscannen als afbeelding in JPG-formaat om vervolgens de tekst te extraheren. \\
+		Spacy 					& PoS-tagging en lemmatizing \\
+		NumPy 					& De reshape-functie vereenvoudigt de manier om arrays van zinnen bij elkaar te plaatsen om zo een paragraaf te bekomen. \\
+		Textstat \& Readability	& Teksten analyseren op aantal grammaticale structuren (bijvoorbeeld voorzetsels, tangconstructies) en berekening van de leesgraadscores. \\
 		\hline
 	\end{tabular}
 	\label{table:python-libraries}
@@ -114,7 +162,7 @@ Het prototype is opgebouwd in Python met het Flask-framework om de webapplicatie
 
 % bron: % TODO https://accessibility.huit.harvard.edu/disabilities/dyslexia
 
-Zoals aangewezen in \ref{ch:stand-van-zaken} door (..) moeten ontwikkelaars de personalisering van de website in rekening houden, want deze functionaliteit heeft een significant effect op het leesgedrag en -begrip van zowel mensen met dyslexie als mensen zonder dyslexie. Op een apart scherm kan de eindgebruiker de volgende elementen aanpassen naar hun toebehoren:
+Zoals aangewezen in \ref{ch:stand-van-zaken} door \textcite{Harvard2023} moeten ontwikkelaars de personalisering van de website in rekening houden, want deze functionaliteit heeft een significant effect op het leesgedrag en -begrip van zowel mensen met dyslexie als mensen zonder dyslexie. Op een apart scherm kan de eindgebruiker de volgende elementen aanpassen naar hun toebehoren:
 
 \begin{itemize}
 \item Test

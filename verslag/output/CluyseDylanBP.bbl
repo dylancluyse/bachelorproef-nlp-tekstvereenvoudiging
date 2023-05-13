@@ -37,6 +37,41 @@
       \verb https://www.vlaanderen.be/publicaties/begrijpend-leesonderwijs-in-de-basisscholen-kwaliteitsvol-sterke-en-zwakke-punten-van-de-huidige-praktijk
       \endverb
     \endentry
+    \entry{CAS2021}{misc}{}
+      \list{publisher}{1}{%
+        {Charlesworth Author Services}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{journaltitle}{How to make complex scientific concepts more accessible - Charlesworth Author Services}
+      \field{month}{9}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.cwauthors.com/article/How-to-write-about-complex-scientific-concepts-in-simple-accessible-language
+      \endverb
+      \verb{url}
+      \verb https://www.cwauthors.com/article/How-to-write-about-complex-scientific-concepts-in-simple-accessible-language
+      \endverb
+    \endentry
+    \entry{Harvard2023}{misc}{}
+      \list{publisher}{1}{%
+        {Harvard University}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{journaltitle}{Digital Accessibility​}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://accessibility.huit.harvard.edu/disabilities/dyslexia
+      \endverb
+      \verb{url}
+      \verb https://accessibility.huit.harvard.edu/disabilities/dyslexia
+      \endverb
+    \endentry
     \entry{Althunayyan2021}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=f1254c5c258ecf733ecf852af5a9f4f5}{%
@@ -3542,6 +3577,38 @@
       \endverb
       \verb{url}
       \verb https://aclanthology.org/S16-1085
+      \endverb
+    \endentry
+    \entry{Pain2016}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aa330254c47ad002c22933aeef1a727a}{%
+           family={Pain},
+           familyi={P\bibinitperiod},
+           given={Elisabeth},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{aa330254c47ad002c22933aeef1a727a}
+      \strng{fullhash}{aa330254c47ad002c22933aeef1a727a}
+      \strng{bibnamehash}{aa330254c47ad002c22933aeef1a727a}
+      \strng{authorbibnamehash}{aa330254c47ad002c22933aeef1a727a}
+      \strng{authornamehash}{aa330254c47ad002c22933aeef1a727a}
+      \strng{authorfullhash}{aa330254c47ad002c22933aeef1a727a}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{title}{How to (seriously) read a scientific paper}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.science.org/content/article/how-seriously-read-scientific-paper
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/content/article/how-seriously-read-scientific-paper
       \endverb
     \endentry
     \entry{PlavenSigray2017}{article}{}
