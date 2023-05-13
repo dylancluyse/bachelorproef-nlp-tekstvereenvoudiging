@@ -1,9 +1,9 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {dutch}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{L\babelshorthand {"y}st van figuren}{vii}{chapter*.4}%
+\contentsline {chapter}{L\babelshorthand {"y}st van figuren}{viii}{chapter*.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{L\babelshorthand {"y}st van tabellen}{ix}{chapter*.5}%
+\contentsline {chapter}{L\babelshorthand {"y}st van tabellen}{x}{chapter*.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Inleiding}{1}{chapter.1}%
 \defcounter {refsection}{0}\relax 
