@@ -19,6 +19,24 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
+    \entry{Vlaanderen2020}{misc}{}
+      \list{publisher}{1}{%
+        {Vlaamse overheid}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{journaltitle}{www.vlaanderen.be}
+      \field{month}{3}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.vlaanderen.be/publicaties/begrijpend-leesonderwijs-in-de-basisscholen-kwaliteitsvol-sterke-en-zwakke-punten-van-de-huidige-praktijk
+      \endverb
+      \verb{url}
+      \verb https://www.vlaanderen.be/publicaties/begrijpend-leesonderwijs-in-de-basisscholen-kwaliteitsvol-sterke-en-zwakke-punten-van-de-huidige-praktijk
+      \endverb
+    \endentry
     \entry{Althunayyan2021}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=f1254c5c258ecf733ecf852af5a9f4f5}{%
@@ -137,6 +155,63 @@
       \field{pages}{e60080}
       \range{pages}{-1}
       \keyw{meta-research,scientific writing,acronyms,communication,knowledge,scientific publishing}
+    \endentry
+    \entry{Belpaeme2018}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=492be106dd40848213cde7a05c654bea}{%
+           family={Belpaeme},
+           familyi={B\bibinitperiod},
+           given={Tony},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=24fc7a255aa314e71ac724efd7ca5193}{%
+           family={Kennedy},
+           familyi={K\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1e01fcc198ef3c02ac682cf0694ea6d5}{%
+           family={Ramachandran},
+           familyi={R\bibinitperiod},
+           given={Aditi},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=052e75642103215e79dde81e3e348764}{%
+           family={Scassellati},
+           familyi={S\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=36676fc94e74356863c6f2222bb83cdb}{%
+           family={Tanaka},
+           familyi={T\bibinitperiod},
+           given={Fumihide},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {American Association for the Advancement of Science}%
+      }
+      \strng{namehash}{a559a70c7bd3494f7530d6502aca49a4}
+      \strng{fullhash}{971271e2712daae5a26c086a538749cf}
+      \strng{bibnamehash}{971271e2712daae5a26c086a538749cf}
+      \strng{authorbibnamehash}{971271e2712daae5a26c086a538749cf}
+      \strng{authornamehash}{a559a70c7bd3494f7530d6502aca49a4}
+      \strng{authorfullhash}{971271e2712daae5a26c086a538749cf}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science robotics}
+      \field{number}{21}
+      \field{title}{Social robots for education: A review}
+      \field{volume}{3}
+      \field{year}{2018}
+      \field{pages}{eaat5954}
+      \range{pages}{-1}
     \endentry
     \entry{Bezem2016}{misc}{}
       \name{author}{2}{}{%
@@ -2360,6 +2435,46 @@
       \field{year}{2022}
       \field{pages}{25\bibrangedash 27}
       \range{pages}{3}
+    \endentry
+    \entry{Kraft2020}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2bab3f2756600a38cc2075a0c6cd0fd4}{%
+           family={Kraft},
+           familyi={K\bibinitperiod},
+           given={Matthew\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2bab3f2756600a38cc2075a0c6cd0fd4}
+      \strng{fullhash}{2bab3f2756600a38cc2075a0c6cd0fd4}
+      \strng{bibnamehash}{2bab3f2756600a38cc2075a0c6cd0fd4}
+      \strng{authorbibnamehash}{2bab3f2756600a38cc2075a0c6cd0fd4}
+      \strng{authornamehash}{2bab3f2756600a38cc2075a0c6cd0fd4}
+      \strng{authorfullhash}{2bab3f2756600a38cc2075a0c6cd0fd4}
+      \field{sortinit}{K}
+      \field{sortinithash}{d3edc18d54b9438a72c24c925bfb38f4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Researchers commonly interpret effect sizes by applying benchmarks proposed by Jacob Cohen over a half century ago. However, effects that are small by Cohen’s standards are large relative to the impacts of most field-based interventions. These benchmarks also fail to consider important differences in study features, program costs, and scalability. In this article, I present five broad guidelines for interpreting effect sizes that are applicable across the social sciences. I then propose a more structured schema with new empirical benchmarks for interpreting a specific class of studies: causal research on education interventions with standardized achievement outcomes. Together, these tools provide a practical approach for incorporating study features, costs, and scalability into the process of interpreting the policy importance of effect sizes.}
+      \field{journaltitle}{Educational Researcher}
+      \field{number}{4}
+      \field{title}{Interpreting Effect Sizes of Education Interventions}
+      \field{volume}{49}
+      \field{year}{2020}
+      \field{pages}{241\bibrangedash 253}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.3102/0013189X20912798
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3102/0013189X20912798
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3102/0013189X20912798
+      \endverb
     \endentry
     \entry{Li2022}{misc}{}
       \name{author}{1}{}{%
