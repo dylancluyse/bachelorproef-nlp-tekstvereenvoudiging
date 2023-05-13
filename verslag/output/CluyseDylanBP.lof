@@ -17,27 +17,25 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.5}{\ignorespaces Afbeelding van \textcite {Althunayyan2021}\relax }}{18}{figure.caption.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Afbeelding uit \textcite {Bulte2018}\relax }}{21}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Afbeelding uit \textcite {Bulte2018}\relax }}{22}{figure.caption.13}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Afbeelding uit \textcite {Bulte2018}\relax }}{22}{figure.caption.14}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Schermafbeelding van SciSpace\relax }}{24}{figure.caption.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Afbeelding van Gooding 2022. De invoertekst is een paragraaf uit een niet-vermeld boek van de Russische schrijver Dostoevsky. Het resultaat van de meegegeven prompt is een transformatie dat iedere vorm van vooraf aangehaalde vereenvoudiging weergeeft. Lexicale, conceptuele en syntactische vereeenvoudiging worden op de invoertekst toegepast.\relax }}{24}{figure.caption.16}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Afbeelding van Gooding 2022\relax }}{25}{figure.caption.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Afbeelding van Gooding 2022. Gooding haalt verder aan dat modellen zoals ChatGPT op twee vlakken de leesbaarheid van een tekst kan bevorderen. Allereerst door het verlenen van verschillende mogelijke versies van een vereenvoudigingstaak.\relax }}{25}{figure.caption.17}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Afbeelding van Gooding 2022\relax }}{25}{figure.caption.17}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.11}{\ignorespaces Afbeelding van Gooding 2022.\relax }}{25}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Afbeelding van \textcite {Binz2023}. Dit toont de \textit {mean regret} aan tussen de vier engines en de menselijke antwoorden.\relax }}{26}{figure.caption.19}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Afbeelding van \textcite {Binz2023}. Dit toont de \textit {mean regret} aan tussen de vier engines en de menselijke antwoorden.\relax }}{28}{figure.caption.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Afbeelding van \textcite {Simon2021}. De evolutie van pre-trained taalmodellen wordt hier weergegeven tot eind 2022. De performantie van de modellen ten opzichte van de grootte volgt een lineaire functie.\relax }}{27}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Afbeelding van \textcite {Simon2021}. De evolutie van pre-trained taalmodellen wordt hier weergegeven tot eind 2022. De performantie van de modellen ten opzichte van de grootte volgt een lineaire functie.\relax }}{29}{figure.caption.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Afbeelding van \textcite {Ribas2023}.\relax }}{29}{figure.caption.21}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Afbeelding van \textcite {Ribas2023}.\relax }}{30}{figure.caption.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.15}{\ignorespaces In deze afbeelding wordt er een online wetenschappelijk artikel meegegeven. Er wordt geen titel of onderwerp meegegeven, maar de Bing AI chatbot is in staat om een abstraherende samenvatting te maken van het artikel. Daarna geeft de chatbot verder uitleg over een bepaald onderwerp en geeft het extra referenties mee.\relax }}{29}{figure.caption.22}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.15}{\ignorespaces In deze afbeelding wordt er een online wetenschappelijk artikel meegegeven. Er wordt geen titel of onderwerp meegegeven, maar de Bing AI chatbot is in staat om een abstraherende samenvatting te maken van het artikel. Daarna geeft de chatbot verder uitleg over een bepaald onderwerp en geeft het extra referenties mee.\relax }}{30}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -45,5 +43,7 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces \autocite {Readable2021}\relax }}{57}{figure.caption.24}%
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.1}{\ignorespaces \autocite {Readable2021}\relax }}{58}{figure.caption.24}%
 \contentsfinish 

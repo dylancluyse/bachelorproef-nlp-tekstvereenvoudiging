@@ -4393,6 +4393,54 @@
       \verb https://www.nytimes.com/2023/01/12/technology/chatgpt-schools-teachers.html
       \endverb
     \endentry
+    \entry{Santana2012}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=4901012779fa5f896bf8e8c3bcae0848}{%
+           family={Santana},
+           familyi={S\bibinitperiod},
+           given={Vagner},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d99039533da5344c3374858694724b96}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={Rosimeire},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f9591691d953c0b0cfac29b7af7e2b47}{%
+           family={Almeida},
+           familyi={A\bibinitperiod},
+           given={Leonelo},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8344726526ffc1d9668668d9dac82ebc}{%
+           family={Baranauskas},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi Cecilia},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7aba091dc60e3f0b70258e275dda1067}
+      \strng{fullhash}{b8eaac755cbbefdb2ba05c87919819d1}
+      \strng{bibnamehash}{b8eaac755cbbefdb2ba05c87919819d1}
+      \strng{authorbibnamehash}{b8eaac755cbbefdb2ba05c87919819d1}
+      \strng{authornamehash}{7aba091dc60e3f0b70258e275dda1067}
+      \strng{authorfullhash}{b8eaac755cbbefdb2ba05c87919819d1}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{W4A 2012 - International Cross-Disciplinary Conference on Web Accessibility}
+      \field{month}{04}
+      \field{title}{Web accessibility and people with dyslexia: A survey on techniques and guidelines}
+      \field{year}{2012}
+      \verb{doi}
+      \verb 10.1145/2207016.2207047
+      \endverb
+    \endentry
     \entry{Sciforce2020}{online}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=36dac3d3117c0faf099f8800d37a828f}{%
@@ -5536,6 +5584,7 @@
       \keyw{Developmental dyslexia,Statistical learning,Word segmentation,Frequency-tagging,Neural plasticity}
     \endentry
   \enddatalist
+  \missing{bibid}
 \endrefsection
 \endinput
 
