@@ -31,19 +31,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.2}Bevoordelende effecten van MTS bij scholieren met dyslexie}{13}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Aanpak voor ATV.}{16}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.3}Aanpak voor ATV.}{15}{subsection.2.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.4}Prompt engineering}{18}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.4}Prompt engineering}{17}{subsection.2.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}De verschillende soorten tekstvereenvoudiging}{19}{section.2.4}%
+\contentsline {section}{\numberline {2.4}De verschillende soorten ATS}{18}{section.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Ondersteunende en bevoordelende effecten van ATV voor scholieren met dyslexie}{23}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.1}Ondersteunende en bevoordelende effecten van ATS voor scholieren met dyslexie}{23}{subsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Conclusie}{23}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.2}MTS en ATS combineren}{23}{subsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.3}MTV en ATV combineren.}{23}{subsection.2.4.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.4}Trends bij ATV}{24}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.3}Trends bij ATV}{24}{subsection.2.4.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.5}Beschikbare tools en taalmodellen}{24}{section.2.5}%
 \defcounter {refsection}{0}\relax 

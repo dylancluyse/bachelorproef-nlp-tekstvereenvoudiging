@@ -4786,6 +4786,37 @@
       \verb https://medium.com/analytics-vidhya/natural-language-processing-basic-concepts-a3c7f50bf5d3
       \endverb
     \endentry
+    \entry{Sanja2021}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e2dc2d61b3f8968b782cacda9382b184}{%
+           family={Stajner},
+           familyi={S\bibinitperiod},
+           given={Sanja},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e2dc2d61b3f8968b782cacda9382b184}
+      \strng{fullhash}{e2dc2d61b3f8968b782cacda9382b184}
+      \strng{bibnamehash}{e2dc2d61b3f8968b782cacda9382b184}
+      \strng{authorbibnamehash}{e2dc2d61b3f8968b782cacda9382b184}
+      \strng{authornamehash}{e2dc2d61b3f8968b782cacda9382b184}
+      \strng{authorfullhash}{e2dc2d61b3f8968b782cacda9382b184}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{01}
+      \field{title}{Automatic Text Simplification for Social Good: Progress and Challenges}
+      \field{year}{2021}
+      \field{pages}{2637\bibrangedash 2652}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.18653/v1/2021.findings-acl.233
+      \endverb
+    \endentry
     \entry{Strubell2019}{misc}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=d3bf550429e9ba5e3e93b995e9b40d85}{%
@@ -5492,62 +5523,14 @@
       \field{pages}{184\bibrangedash 192}
       \range{pages}{9}
     \endentry
-    \entry{Zhang2020}{article}{}
-      \name{author}{4}{}{%
-        {{un=1,uniquepart=given,hash=a763363fdcbe78675ccaef4ce1afe76a}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Jingqing},
-           giveni={J\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=5150da6c54dbb181303e4feed7ea53f1}{%
-           family={Zhao},
-           familyi={Z\bibinitperiod},
-           given={Yao},
-           giveni={Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=de27a9cc2898b8d9741d801f5ac7b3b2}{%
-           family={Saleh},
-           familyi={S\bibinitperiod},
-           given={Mohammad},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9813564a51d6aee18f1d92ad551d5a06}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{organization}{1}{%
-        {PMLR}%
-      }
-      \strng{namehash}{2f070872a1d17d6010f50e624cc6c1dd}
-      \strng{fullhash}{68c29af6c44e8c533291e365e19c8326}
-      \strng{bibnamehash}{68c29af6c44e8c533291e365e19c8326}
-      \strng{authorbibnamehash}{68c29af6c44e8c533291e365e19c8326}
-      \strng{authornamehash}{2f070872a1d17d6010f50e624cc6c1dd}
-      \strng{authorfullhash}{68c29af6c44e8c533291e365e19c8326}
-      \field{sortinit}{Z}
-      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Conference on Machine Learning}
-      \field{title}{Pegasus: Pre-training with extracted gap-sentences for abstractive summarization}
-      \field{year}{2020}
-      \field{pages}{11328\bibrangedash 11339}
-      \range{pages}{12}
-    \endentry
     \entry{Zhang2021}{article}{}
       \name{author}{3}{}{%
-        {{un=1,uniquepart=given,hash=2126d1732a005af59878799b4dc37440}{%
+        {{un=0,uniquepart=base,hash=2126d1732a005af59878799b4dc37440}{%
            family={Zhang},
            familyi={Z\bibinitperiod},
            given={Manli},
            giveni={M\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=e2e5da049be75e5a941d0d5046e3cc3e}{%
            family={Riecke},
            familyi={R\bibinitperiod},
@@ -5571,6 +5554,7 @@
       \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Statistical learning, or the ability to extract statistical regularities from the sensory environment, plays a critical role in language acquisition and reading development. Here we employed electroencephalography (EEG) with frequency-tagging measures to track the temporal evolution of speech-structure learning in individuals with reading difficulties due to developmental dyslexia and in typical readers. We measured EEG while participants listened to (a) a structured stream of repeated tri-syllabic pseudowords, (b) a random stream of the same isochronous syllables, and (c) a series of tri-syllabic real Dutch words. Participants’ behavioral learning outcome (pseudoword recognition) was measured after training. We found that syllable-rate tracking was comparable between the two groups and stable across both the random and structured streams of syllables. More importantly, we observed a gradual emergence of the tracking of tri-syllabic pseudoword structures in both groups. Compared to the typical readers, however, in the dyslexic readers this implicit speech structure learning seemed to build up at a slower pace. A brain-behavioral correlation analysis showed that slower learners (i.e., participants who were slower in establishing the neural tracking of pseudowords) were less skilled in phonological awareness. Moreover, those who showed stronger neural tracking of real words tended to be less fluent in the visual-verbal conversion of linguistic symbols. Taken together, our study provides an online neurophysiological approach to track the progression of implicit learning processes and gives insights into the learning difficulties associated with dyslexia from a dynamic perspective.}
@@ -5582,6 +5566,75 @@
       \field{pages}{107889}
       \range{pages}{1}
       \keyw{Developmental dyslexia,Statistical learning,Word segmentation,Frequency-tagging,Neural plasticity}
+    \endentry
+    \entry{Zhou2019}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=0b62e5cd862c9ead53fbcd84d9d5c21c}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Wangchunshu},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad99be47e056553f5f89e2d6706edfe4}{%
+           family={Ge},
+           familyi={G\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6ccd6b6d635d297a3626c29742a8674c}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Ke},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5bfd490d91c5d1b935092ce3132a083}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Furu},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a72f304d2bc33c9c92301f2dc3063b2}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Florence, Italy}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computational Linguistics}%
+      }
+      \strng{namehash}{f3ace932dd2138650f9523b0b9fa3953}
+      \strng{fullhash}{b2eb1f129838068f2b9a59734e8cd4da}
+      \strng{bibnamehash}{b2eb1f129838068f2b9a59734e8cd4da}
+      \strng{authorbibnamehash}{b2eb1f129838068f2b9a59734e8cd4da}
+      \strng{authornamehash}{f3ace932dd2138650f9523b0b9fa3953}
+      \strng{authorfullhash}{b2eb1f129838068f2b9a59734e8cd4da}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Previous studies on lexical substitution tend to obtain substitute candidates by finding the target word{'}s synonyms from lexical resources (e.g., WordNet) and then rank the candidates based on its contexts. These approaches have two limitations: (1) They are likely to overlook good substitute candidates that are not the synonyms of the target words in the lexical resources; (2) They fail to take into account the substitution{'}s influence on the global context of the sentence. To address these issues, we propose an end-to-end BERT-based lexical substitution approach which can propose and validate substitute candidates without using any annotated data or manually curated resources. Our approach first applies dropout to the target word{'}s embedding for partially masking the word, allowing BERT to take balanced consideration of the target word{'}s semantics and contexts for proposing substitute candidates, and then validates the candidates based on their substitution{'}s influence on the global contextualized representation of the sentence. Experiments show our approach performs well in both proposing and ranking substitute candidates, achieving the state-of-the-art results in both LS07 and LS14 benchmarks.}
+      \field{journaltitle}{Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics}
+      \field{month}{7}
+      \field{title}{{BERT}-based Lexical Substitution}
+      \field{year}{2019}
+      \field{pages}{3368\bibrangedash 3373}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.18653/v1/P19-1328
+      \endverb
+      \verb{urlraw}
+      \verb https://aclanthology.org/P19-1328
+      \endverb
+      \verb{url}
+      \verb https://aclanthology.org/P19-1328
+      \endverb
     \endentry
   \enddatalist
   \missing{bibid}

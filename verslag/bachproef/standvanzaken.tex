@@ -52,7 +52,7 @@ Leesvaardigheid is geen aangeboren vaardigheid, maar iets dat mensen zelf moeten
 
 % TODO hoeveel percentage van de websites houdt rekening met dyslexie?
 
-De digitalisering is de voorbije twintig jaar enkel maar in stijgende lijn en scholieren in de tweede en derde graad zijn door het gebruik van smartphones en laptops hier het meeste vatbaar op, zowel voor thuisgebruik als binnen het onderwijs. Tieners tussen 15 en 18 zijn volgens \textcite{Harvard2023} digitaal geletterd, daarom speelt de digitale weergave een essentiële rol bij een dergelijke online toepassing. Verder omschrijft dit artikel een checklist van technische elementen waaraan een webpagina of toepassing aan moet voldoen om een aangename ervaring te voorzien voor scholieren met dyslexie. Deze noden worden weergegeven in tabel \ref{table:dyslexia-necessaries} en zijn gebaseerd op onderzoeken van \textcite{Santana2012, Harvard2023}.
+De digitalisering is de voorbije twintig jaar enkel maar in stijgende lijn en scholieren in de tweede en derde graad zijn door het gebruik van smartphones en laptops hier het meeste vatbaar op, zowel voor thuisgebruik als binnen het onderwijs. Tieners tussen 15 en 18 zijn volgens \textcite{Harvard2023} digitaal geletterd, daarom speelt de digitale weergave een essentiële rol bij een dergelijke online toepassing. Verder omschrijft dit artikel een checklist van technische elementen waaraan een webpagina of toepassing aan moet voldoen om een leesbare ervaring te voorzien voor scholieren met dyslexie. Deze noden worden weergegeven in tabel \ref{table:dyslexia-necessaries} en zijn gebaseerd op onderzoeken van \textcite{Santana2012, Harvard2023}.
 
 \begin{center}
 	\begin{tabular}{ | m{8cm} | m{8cm} | } 
@@ -209,7 +209,7 @@ Conclusie. In tabel \ref{table:benefits-mts} worden de bewezen technologieën op
 \medspace
 
 \begin{center}
-	\begin{tabular}{ | m{2cm} | m{12cm} | } 
+	\begin{tabular}{ | m{6cm} | m{6cm} | } 
 	\hline
 	\textbf{Techniek} & \textbf{Bewezen voordeel} \\
 	\hline
@@ -228,7 +228,7 @@ Conclusie. In tabel \ref{table:benefits-mts} worden de bewezen technologieën op
 	\hline
 	Gepersonaliseerde samenvatting & Betere leesbaarheid \\
 	\hline
-	Zachtkleurige achtergrond & Aangenamere ervaring \\
+	Zachtkleurige achtergrond & Betere leesbaarheid \\
 	\hline
 	Niet-cursieve, sans-serif lettertypen & Betere leesbaarheid \\
 	\hline
@@ -242,13 +242,7 @@ Conclusie. In tabel \ref{table:benefits-mts} worden de bewezen technologieën op
 \subsection{Aanpak voor ATV.}
 % Welke toepassingen, tools en modellen zijn er beschikbaar om Nederlandse geautomatiseerde tekstvereenvoudiging met AI mogelijk te maken? 
 
-Tekstvereenvoudiging is het proces waarbij het technische leesniveau en het woordgebruik van een geschreven tekst wordt verminderd. Dit leidt tot een aangenamere leeservaring zonder het verlies van de kerninhoud tijdens het lezen van de tekst. Met de laatste evolutie in machinaal leraren is dit een proces dat geautomatiseerd kan worden. \textit{Automatic text simplification} of ATS is een onderdeel van natuurlijke taalverwerking binnen machinaal leren (ML). Dit omvat verschillende technieken zoals tekstanalyse, taalherkenning, -generatie, spraakherkenning en -synthese, en semantische analyse. NLP stelt computers in staat om menselijke taal te begrijpen en te communiceren op een natuurlijke manier. Volgens \textcite{Siddharthan2014} bestaat ATS uit vier verschillende vereenvoudigingen, zoals aangehaald in tabel \ref{table:types-of-simplification}.
-
-\medspace
-
-\begin{tabular}{cols}
-	content...
-\end{tabular}
+Tekstvereenvoudiging is het proces waarbij het technische leesniveau en het woordgebruik van een geschreven tekst wordt verminderd. Dit leidt tot een betere leeservaring zonder het verlies van de kerninhoud tijdens het lezen van de tekst. Met de laatste evolutie in machinaal leraren is dit een proces dat geautomatiseerd kan worden. \textit{Automatic text simplification} of ATS is een onderdeel van natuurlijke taalverwerking binnen machinaal leren (ML). Dit omvat verschillende technieken zoals tekstanalyse, taalherkenning, -generatie, spraakherkenning en -synthese, en semantische analyse. NLP stelt computers in staat om menselijke taal te begrijpen en te communiceren op een natuurlijke manier. 
 
 \medspace
 
@@ -256,31 +250,33 @@ De begrippen die volgen worden behandeld in \textcite{Sohom2019, Eisenstein2019}
 
 \medspace
 
-Tokenisatie splitst tokens in een tekst en bouwt zo een woordenschat voor een taalmodel op. Dit kan volgens \textcite{Menzli2023} op vier manieren: woord-, karakter-, subwoord- en zinniveau gebeuren. Bij karakter-tokenisatie wordt de inputlengte groter en heeft daarmee volgens \textcite{Ribeiro2018} weinig betekenis. Zeldzame woorden worden opgesplitst in kleinere stukken om een woordenschat op te bouwen. Dit biedt voordelen ten opzichte van word-level tokenisatie \autocite{Iredale2022}.
+Er zijn vier manieren om tokens in een tekst te splitsen en zo een woordenschat op te bouwen, namelijk op woord-, karakter-, subwoord- en zinniveau, volgens onderzoek van \textcite{Menzli2023}. Bij karakter-tokenisatie neemt de inputlengte toe, maar heeft volgens \textcite{Ribeiro2018} weinig bruikbare use cases. Het opsplitsen van zeldzame woorden in kleinere stukken om een woordenschat op te bouwen biedt voordelen ten opzichte van tokenisatie op woordniveau, aldus \autocite{Iredale2022}.
 
 \medspace
 
-Lemmatiseren in NLP bouwt verder op \textit{stemming}, maar de betekenis van ieder woord wordt in acht genomen. Voor het lemmatiseren bestaan er Nederlandstalige modellen, waaronder JohnSnow\footnote{https://nlp.johnsnowlabs.com/2020/05/03/lemma\_nl.html}. Bij omgekeerd lemmatiseren wordt er een afgeleide achterhaald vanuit de stam. Voor zelfstandige naamwoorden, zoals 'hond', is dit enkelvoud of meervoud \autocite{Eisenstein2019}. Bij de parsingfase wordt een label aan ieder woord of zinsdeel toegekend. Voorbeelden van labels zijn zelfstandig naamwoord, bijwoord, werkwoord, bijzin of stopwoord. Het herkennen van zinsdelen wordt \textit{chunking} genoemd. Parsing heeft een dubbelzinnigheidsprobleem, want een 'plant' staat niet gelijk aan de vervoeging van werkwoord 'planten' \autocite{Eisenstein2019}.
+In NLP is het lemmatiseren gebaseerd op stemming, maar het houdt ook rekening met de betekenis van elk woord. Er zijn Nederlandstalige modellen beschikbaar voor lemmatiseren, zoals JohnSnow\footnote{https://nlp.johnsnowlabs.com/2020/05/03/lemma\_nl.html}. Bij omgekeerd lemmatiseren wordt een afgeleide van de stam bepaald, bijvoorbeeld enkelvoud of meervoud voor zelfstandige naamwoorden zoals 'hond' \autocite{Eisenstein2019}. Bij het parseren krijgt elk woord of zinsdeel een label toegewezen, zoals zelfstandig naamwoord, bijwoord, werkwoord, bijzin of stopwoord. Het identificeren van zinsdelen wordt 'chunking' genoemd. Parsing heeft een ambiguïteitsprobleem omdat bijvoorbeeld een 'plant' niet gelijk is aan de vervoeging van het werkwoord 'planten' \autocite{Eisenstein2019}.
 
 \medspace
 
-Een machine moet de betekenis achter ieder token kunnen vatten. Hier komt \textit{sequence labeling} aan de pas volgens \textcite{Eisenstein2019}. Elk woord in een tekst wordt gekoppeld aan een \textit{Part-of-Speech} (PoS) of \textit{Named-Entity-Recognition} (NER) label. Deze NLP-fase achterhaalt de structuur van een tekst. PoS-tagging richt zich op grammaticale categorieën van woorden, terwijl NER-labeling instaat voor het herkennen van specifieke entiteiten in een tekst. Bij PoS-tagging worden de woorden in een zin geanalyseerd. Elk woord wordt gekoppeld aan een grammaticale categorie, zoals een zelfstandig naamwoord, werkwoord, bijvoeglijk naamwoord of bijwoord. \textit{PoS-tagging} helpt bij het achterhalen van de syntactische structuur van een zin. Deze taak komt van pas bij parsing en machinevertaling. \textit{PoS-tagging} wordt aanschouwelijk gemaakt op \ref{fig:pos-labeling}. Namen van personen, organisaties en locaties worden herkend en geclassificeerd met NER-labeling. Met NER-labeling wordt volgens \textcite{Jurafsky2014} specifieke informatie uit tekst gehaald, zoals het identificeren van de namen van personen, plaatsen of bedrijven die in nieuwsartikelen worden genoemd, of het extraheren van belangrijke data of getallen uit financiële rapporten. Dit wordt aanschouwelijk gemaakt \ref{fig:ner}. \textcite{Li2018} benoemt vier vormen voor NER-labeling: \textit{dictionary-based}, \textit{rule-based}, \textit{ML-based} en \textit{deep learning-based}. De eerste twee gebruiken vooraf gedefinieerde woordenboeken en regels, terwijl de laatste twee gebruik maken van statistische of neurale netwerken om te leren hoe entiteiten te herkennen. Elke vorm gebruikt verschillende kenmerken en representaties om entiteiten te modelleren. \textcite{Poel2008} onderzocht \textit{PoS-tagging} met een neuraal netwerk voor Nederlandstalige teksten. Het model behaalde een nauwkeurigheid van 97,88\% voor bekende woorden en 41,67\% voor onbekende woorden en gebruikte de Corpus Gesproken Nederlands (CGN) als trainingsdata. Voorbeeld van PoS-labeling op de Engelstalige zin "She sells seashells on the seashore".
+Om de betekenis van elk woord in een tekst te begrijpen, moet een machine in staat zijn om de betekenis achter elk token te begrijpen. Dit is waar \textit{sequence labeling} om de hoek komt kijken, volgens \textcite{Eisenstein2019}. Elk woord in een tekst wordt gekoppeld aan een label voor \textit{Part-of-Speech} (PoS) of \textit{Named-Entity-Recognition} (NER). Deze fase van NLP achterhaalt de structuur van een tekst. PoS-tagging richt zich op de grammaticale categorieën van woorden, terwijl NER-labeling zich richt op het herkennen van specifieke entiteiten in een tekst. Bij PoS-tagging worden de woorden in een zin geanalyseerd. Elk woord wordt gekoppeld aan een grammaticale categorie, zoals een zelfstandig naamwoord, werkwoord, bijvoeglijk naamwoord of bijwoord. \textit{PoS-tagging} helpt bij het begrijpen van de syntactische structuur van een zin en is nuttig bij parsing en machinevertaling. Een voorbeeld van PoS-tagging is te zien in figuur \ref{fig:pos-labeling} en is afkomstig uit \textcite{Bilisci2021}.
 
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=10cm]{img/poslabeling.png}
 	\end{center}
-	\caption{Afbeelding van \textcite{Bilisci2021} }
+	\caption{Voorbeeld van PoS-labeling. }
 	\label{fig:pos-labeling}
 \end{figure}
 
-NLP-systemen gebruiken embeddings om woorden numeriek te representeren en tekst te verwerken. Traditionele word embeddings bouwen een woordenschat op zonder de betekenis ervan op te volgen, terwijl contextual word embeddings wel de context van een woord begrijpen. BERT is een meertalig LLM dat contextual word embeddings gebruikt en getraind is op 110 miljoen parameters uit 104 verschillende talen, waaronder Nederlands. Voor de Nederlandse taal zijn er twee varianten van BERT\footnote{https://github.com/google-research/bert}, namelijk RobBERT en BERTje, waarvan RobBERT als krachtiger wordt beschouwd. Om de beste vervanging van woorden te bepalen, gebruikt het model de Substitution Ranking (SR) stap om substituties op basis van relevantie te rangschikken. 
+\medspace
+
+NER-labeling wordt gebruikt om namen van personen, organisaties en locaties te herkennen en te classificeren. Het is een techniek om specifieke informatie uit tekst te halen, zoals het identificeren van de namen van personen, plaatsen of bedrijven die in nieuwsartikelen worden genoemd, of het extraheren van belangrijke data of getallen uit financiële rapporten, aldus \textcite{Jurafsky2014}. Figuur \ref{fig:ner} illustreert deze taak. Er zijn vier verschillende vormen van NER-labeling, zoals beschreven door \textcite{Li2018}: \textit{dictionary-based}, \textit{rule-based}, \textit{ML-based} en \textit{deep learning-based}. De eerste twee maken gebruik van vooraf gedefinieerde woordenboeken en regels, terwijl de laatste twee gebruik maken van statistische of neurale netwerken om te leren hoe entiteiten te herkennen. Elke vorm maakt gebruik van verschillende kenmerken en representaties om entiteiten te modelleren. \textcite{Poel2008} heeft een neurale netwerkmodel onderzocht voor PoS-tagging van Nederlandstalige teksten. Het model behaalde een nauwkeurigheid van 97,88\% voor bekende woorden en 41,67\% voor onbekende woorden en maakte gebruik van de Corpus Gesproken Nederlands (CGN) als trainingsdata. In de verwerking van tekst maken NLP-systemen gebruik van embeddings om woorden numeriek te representeren. Traditionele word embeddings bouwen een woordenschat op zonder de betekenis ervan in context te begrijpen. Contextuele word embeddings begrijpen daarentegen wel de context van een woord \autocite{Eisenstein2019}. 
 
 \subsection{Prompt engineering}
 
 Large Language Models of LLM's genereren tekst en karakters op basis van de waarschijnlijke uitkomst van een gegeven input. De meest gekende LLM's zijn GPT-3, BERT en T5 en dienen regelmatig als de fundering voor ge-fine-tunede modellen. Deze modellen maken gebruik van een neuraal netwerk om patronen in de input te herkennen en deze patronen te gebruiken om voorspellingen te doen over de uitvoer \autocite{Liu2020}. Iedereen kan volgens \textcite{McFarland2023} een input of prompt schrijven. Deze tools zoals chatbots zijn ontworpen om zo intuïtief mogelijk te zijn voor een algemeen doelpubliek. Prompt engineering is een steeds belangrijkere vaardigheid die nodig is om effectief te communiceren met LLM’s, zoals ChatGPT \autocite{Harwell2023}. Deze vaardigheid wordt geïllustreerd in \ref{img:prompt-engineering}.
 
-\begin{figure}
+\begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=8cm]{img/prompt-engineering-medium.png}
 	\end{center}
@@ -301,17 +297,15 @@ Prompt patterns is samen met prompt engineering naar boven gekomen en is vergeli
 	\item	Expansion/reduction-prompts genereren een beknopte output met voldoende details. 
 \end{itemize}
 
-\section{De verschillende soorten tekstvereenvoudiging}
+\section{De verschillende soorten ATS}
 
-Tekstvereenvoudiging bestaat volgens \textcite{Siddharthan2014} uit vier soorten transformaties: lexicale, syntactische en semantische vereenvoudiging en samenvatten.
-
-\medspace
-
-Bij \textit{lexical simplification} (LS) of lexicale vereenvoudiging worden complexe woorden vervangen door eenvoudigere synoniemen. Bijvoorbeeld, het woord 'adhesief' wordt vervangen door 'klevend'. \textcite{Kandula2010} haalt twee manieren aan om lexicale vereenvoudiging mogelijk te maken, namelijk het vervangen door een synoniem en het aanmaken of genereren van extra uitleg. De zinsstructuur verandert niet en er is garantie dat de kerninhoud en benadrukking in een tekst identiek blijft. Het doel van lexicale vereenvoudiging is om de moeilijkheidsgraad van de woordenschat in een zin of tekst te verlagen. 
+Tekstvereenvoudiging kan bijdragen aan het begrijpen van complexe informatie. Zoals onderzocht door \textcite{Siddharthan2014}, zijn er verschillende soorten transformaties bij tekstvereenvoudiging, waaronder lexicale vereenvoudiging, waarbij complexe woorden worden vervangen door eenvoudigere synoniemen. Bij \textit{lexical simplification} (LS) of lexicale vereenvoudiging worden ingewikkelde woorden vervangen door eenvoudigere synoniemen. Bijvoorbeeld, 'adhesief' kan vervangen worden door 'klevend'. \textcite{Kandula2010} noemt twee manieren om lexicale vereenvoudiging te bewerkstelligen: het vervangen van het woord door een synoniem of het genereren van extra uitleg. De zinsstructuur blijft hetzelfde en de kerninhoud en benadrukking van de tekst blijven behouden. Het doel van lexicale vereenvoudiging is om de moeilijkheidsgraad van de woordenschat in een zin of tekst te verlagen.
 
 \medspace
 
-De pipeline weergegeven in figuur \ref{img:pipeline-lexical-simplification} wordt in meerdere onderzoeken rond lexicale vereenvoudiging toegepast, zoals \textcite{Paetzold2016, Bingel2018, Bulte2018}. In een pipeline voor lexicale tekstvereenvoudiging is \textit{Complex word identification} (CWI) de eerste stap en een gesuperviseerde NLP-taak.  Moeilijke woorden of \textit{multi-word expressions} (MWE) in een tekst worden achterhaald  \autocite{Shardlow2013, Gooding2019}. Na CWI kan LS gebruikt worden om deze woorden te vervangen door eenvoudigere synoniemen of om verdere elaboratie te voorzien met behulp van voorbeelden of definities \autocite{Zeng2005, Kandula2010}. CWI is volgens \textcite{Shardlow2013} een cruciale stap, want een lage \textit{recall} van dit component zal een uitvoertekst geven waar moeilijke woorden niet worden vereenvoudigd. Het model zal moeilijke woorden laten staan. Verschillende onderzoeken wezen manieren uit om substitutiegeneratie uit te kunnen voeren opgesomd in tabel \ref{table:lexical-databases}.
+Verschillende onderzoeken hebben aangetoond dat lexicale vereenvoudiging een belangrijke bijdrage kan leveren aan het begrijpen van complexe informatie, en in dit kader wordt de pipeline zoals weergegeven in figuur \ref{img:pipeline-lexical-simplification} vaak gebruikt, bijvoorbeeld in onderzoeken van \textcite{Paetzold2016, Bingel2018, Bulte2018}. Deze pipeline omvat bij de vermelde onderzoeken telkens minstens vier stappen, waarbij de eerste stap \textit{Complex Word Identification} (CWI) is, een gesuperviseerde NLP-taak die moeilijke woorden of \textit{multi-word expressions} (MWE) in een tekst identificeert \autocite{Shardlow2013, Gooding2019}. Na CWI kan lexicale vereenvoudiging (LS) worden toegepast, waarbij complexe woorden worden vervangen door eenvoudigere synoniemen of verder worden uitgelegd met voorbeelden of definities \autocite{Zeng2005, Kandula2010}. Het is van cruciaal belang dat CWI goed wordt uitgevoerd, omdat een lage \textit{recall} van dit component zal resulteren in een uitvoertekst waarin moeilijke woorden niet worden vereenvoudigd, zoals opgemerkt door \textcite{Shardlow2013}. Er zijn verschillende manieren geïdentificeerd om substitutiegeneratie uit te voeren, zoals opgesomd in tabel \ref{table:lexical-databases}. Recenter onderzoek, zoals dat van \textcite{Zhou2019}, gebruikt ook een extra Substitution Ranking (SR) stap om substituties te rangschikken op basis van relevantie.
+
+% TODO aanpassen
 
 \begin{figure}[H]
 	\includegraphics{img/lexical-simplification-pipeline.png}
@@ -341,13 +335,15 @@ Meertalig (Engels, Duits, Spaans en Portugees) & PHOR-in-One \\
 
 \medspace
 
-Syntactische vereenvoudiging vermindert de complexiteit van een tekst door de grammatica en zinsstructuur aan te passen. Dit kan door het combineren van twee zinnen tot één eenvoudigere zin of door de syntax te vereenvoudigen. Deze transformaties verbeteren de toegankelijkheid van de tekst zonder de inhoud te verliezen. \textcite{Kandula2010} ontwikkelden een model om medische informatie te vereenvoudigen. Dit model omvat drie modules, die zinnen met meer dan tien woorden vereenvoudigen en eventueel vervangen door kortere zinnen. De architectuur omvat een PoS Tagger, een Grammar Simplifier en een Output Validator.
+Om de complexiteit van een tekst te verminderen, kan syntactische vereenvoudiging worden toegepast door de grammatica en zinsstructuur aan te passen. Dit kan gedaan worden door het combineren van twee zinnen tot één eenvoudigere zin of door de syntax te vereenvoudigen, terwijl de inhoud behouden blijft. Een voorbeeld van zo'n model is ontwikkeld door \textcite{Kandula2010} voor medische informatie. Het model bestaat uit drie modules, die zinnen met meer dan tien woorden vereenvoudigen en eventueel vervangen door kortere zinnen. Het omvat een PoS Tagger, een Grammar Simplifier en een Output Validator als onderdelen van de architectuur.
 
-\begin{itemize}
-	\item Voor de \textit{PoS Tagger}-fase gebruikten \textcite{Kandula2010} beschikbare functies uit het open-source pakket OpenNLP\footnote{https://opennlp.apache.org/}.
-	\item De \textit{Grammar Simplifier} module splitst de lange zin in twee of meer kortere zinnen door POS-patronen te identificeren en een set transformatieregels toe te passen.
-	\item De \textit{Output Validator} module controleert de output van de Grammar Simplifier op grammatica en leesbaarheid.
-\end{itemize}  
+\medspace
+
+\begin{enumerate}
+	\item Ten eerste wordt de PoS Tagger-functie uit het open-source pakket OpenNLP\footnote{https://opennlp.apache.org/} gebruikt.
+	\item Vervolgens splitst de \textit{Grammar Simplifier}-module lange zinnen in kortere zinnen door middel van het identificeren van POS-patronen en het toepassen van transformatieregels.
+	\item Tot slot controleert de \textit{Output Validator}-module de grammatica en leesbaarheid van de output van de Grammar Simplifier.
+\end{enumerate}  
 
 \medspace
 
@@ -355,11 +351,15 @@ Geautomatiseerde tekstvereenvoudiging is geen nieuw concept. Volgens onderzoeken
 
 \medspace
 
-Lexicale, conceptuele en/of syntactische vereenvoudiging van teksten leidt niet altijd tot een kortere tekst. Technologieën zoals full-text-search en gepersonaliseerde informatiefiltering benadrukken het belang van gebruikersgerichte samenvatting. De architectuur van een samenvattingssysteem omvat drie fases: analyse van de brontekst, identificatie van kernpunten en het samenvoegen van de punten tot één uitvoertekst. Teksten machinaal samenvatten is geen nieuw concept en kan op twee manieren gebeuren: extraherend en abstraherend \autocite{Hahn2000, Dubay2004}.
+Vroegere onderzoeken tonen aan dat geautomatiseerde tekstvereenvoudiging al geruime tijd bestaat. Zo hebben \textcite{Canning2000} en \textcite{Siddharthan2006} onderzocht dat de eerste methoden gebaseerd waren op \textit{rule-based} modellen die de syntaxis van de tekst bewerken door zinnen te splitsen, te verwijderen of te herschikken. Lexicale vereenvoudiging speelde hierbij geen rol. Pas bij recentere onderzoeken, zoals die van \textcite{Coster2011} en \textcite{Bulte2018}, werd het duidelijk hoe lexicale en syntactische vereenvoudiging gecombineerd konden worden.
 
 \medspace
 
-Bij extraherende samenvatting worden de belangrijkste zinnen gemarkeerd en opnieuw neergeschreven, maar dit kan leiden tot onsamenhangende uitvoertekst. Kernzinnen achterhalen gebeurt volgens \textcite{Khan2014} op basis van woordfrequentie, zinpositie -en gelijkenissen, de \textit{cue method}, titels, de rest van het document, \textit{proper nouns} woordgebruik en ten slotte de afstand tussen \textit{text units} waarin entiteiten voorkomen. \textcite{Verma2020} onderzocht verschillende manieren om een tekst extraherend samen te vatten, waaronder graafgebaseerd, maximal marginal relevance (MMR) en metaheuristiek-gebaseerde ES. Deze worden verder verwoord in \ref{table:extractive-summarization}.
+Om wetenschappelijke artikelen toegankelijker en begrijpelijker te maken, is het van belang om de kernpunten van een artikel op een duidelijke en beknopte manier samen te vatten. Hoewel samenvatten niet gericht is op het vereenvoudigen van de tekst, is het wel een techniek die noodzakelijk is om de semantiek achter een tekst met zo min mogelijk woord- of tekens te kunnen begrijpen. Full-text-search en gepersonaliseerde informatiefiltering benadrukken het belang van deze op maat gemaakte samenvattingen. Een samenvattingssysteem bestaat uit drie fases: analyse van de brontekst, identificatie van de kernpunten en samenvoeging van deze kernpunten tot één overzichtelijke tekst. Het machinaal samenvatten van teksten is geen nieuw concept en kan op twee manieren worden gedaan: door extractie en door abstractie \autocite{Hahn2000, Dubay2004}.
+
+\medspace
+
+Bij het extraherend samenvatten van teksten worden de belangrijkste zinnen gemarkeerd en opnieuw geformuleerd. Dit kan echter leiden tot onsamenhangende uitvoertekst, zoals \textcite{Khan2014} heeft aangetoond. Om de kernzinnen te bepalen, kunnen verschillende methoden worden gebruikt, zoals woordfrequentie, zinpositie en gelijkenissen, de cue-methode, titels, de rest van het document, proper nouns, woordgebruik en de afstand tussen text units met entiteiten, aldus \textcite{Khan2014}. Verschillende technieken voor het extraherend samenvatten van teksten, waaronder graafgebaseerde methoden, maximal marginal relevance (MMR) en metaheuristiek-gebaseerde ES, zijn onderzocht door \textcite{Verma2020} en worden verder beschreven in Tabel \ref{table:extractive-summarization}.
 
 \begin{center}
 	\begin{tabular}{ | m{4cm} | m{12cm} | } 
@@ -376,22 +376,28 @@ Bij extraherende samenvatting worden de belangrijkste zinnen gemarkeerd en opnie
 
 \medspace
 
-% TODO eventueel aanpassen naar twee zinnen max
-
-\textcite{McKeown1999} voerden experimenten uit op extraherende samenvattingen van nieuwsartikelen. De resultaten wijzen erop dat deze vorm vatbaar is op vooroordelen of \textit{bias} van de auteur. De zinnen worden genomen zoals ze zijn. \textcite{Hahn2000} bouwde verder op dit experiment door kwowledge-rich en knowledge-poor methoden te combineren met significante resultaten ter gevolg. De nadruk bij extraherend samenvatten ligt in het kiezen van de \textit{salient text units}. Deze punten zijn typisch in de vorm van zinnen. Er is nood aan een manier om de lexicale en statistische relevantie van een zin te kunnen aanduiden. Hiervoor haalt \textcite{Hahn2000} twee manieren aan:
+De extraherende samenvatting van nieuwsartikelen kan beïnvloed worden door de vooroordelen of \textit{bias} van de auteur, zo blijkt uit experimenten uitgevoerd door \textcite{McKeown1999}. Bij deze vorm van samenvatten worden de zinnen overgenomen zoals ze zijn. \textcite{Hahn2000} bouwde verder op deze experimenten door het combineren van \textit{knowledge-rich} en \textit{knowledge-poor} methoden, wat resulteerde in significante verbeteringen. Bij het extraherend samenvatten is het van belang om de meest relevante tekstgedeeltes te selecteren, meestal in de vorm van zinnen. Om de lexicale en statistische relevantie van een zin te kunnen bepalen, worden twee methoden genoemd door \textcite{Hahn2000}:
 
 \begin{itemize}
-	\item Een lineair gewicht model. Iedere teksteenheid wordt gewogen op factoren zoals de \textit{location weight} en het aantal voorkomens.
-	\item Een gewicht model op basis van de statistische opvallendheid van een eenheid. Zo wordt er rekening gehouden met de aanwezigheid van een woord in (sub)titels.
+	\item Het lineaire gewichtsmodel, waarbij elke teksteenheid wordt gewogen op basis van factoren zoals de positie van de zin en het aantal keren dat deze voorkomt.
+	\item Het gewichtsmodel op basis van de statistische relevantie van een eenheid, waarbij rekening wordt gehouden met de aanwezigheid van woorden in (sub)titels.
 \end{itemize}
-
-\textcite{Nallapati2017} wilden de nauwkeurigheid van deze modellen overbruggen. Dit doen ze met \textit{SummaRuNNer}\footnote{https://github.com/hpzhao/SummaRuNNer}, een oplossing voor het extraherend samenvatten van teksten met een neuraal netwerk. De toepassing werd opgebouwd met \textit{PyTorch} in  en bestaat uit een combinatie van drie modellen: een recurrent neuraal netwerk, een convolutioneel recurrent neuraal netwerk en een \textit{hiërarchical attention network}. Al behoort samenvatten niet tot het vereenvoudigen van een tekst, het is een techniek die nodig is om met zo min mogelijk karakter- of woordtokens de semantiek achter een tekst te kunnen bevatten. 
 
 \medspace
 
-De kernzinnen ophalen kan leiden tot een incoherente tekst. In de taalwereld worden kernzinnen vaak geparafraseerd om zo samenhang tussen de zinnen te maken. Er zijn twee manieren om een tekst abstraherend samen te vatten: semantisch en structuurgebaseerd. De structuurgebaseerde benadering gebruikt regels om belangrijke informatie in de tekst te vinden en kan leiden tot samengevatte zinnen met lage linguïstische kwaliteit en grammaticale fouten. De semantisch-gebaseerde benadering gebruikt de betekenis van de tekst om korte en duidelijke samenvattingen te maken met minder redundante zinnen en betere linguïstische kwaliteit, hoewel een extra parsingfase nodig kan zijn. \textcite{Cao2022} heeft verder onderzoek gedaan naar deep learning methoden om automatisch abstraherende samenvattingen te genereren. Deep learning-modellen zoals RNN's, CNN's en Seq2Seq kunnen worden gebruikt voor abstraherend samenvatten door de betekenis van de tekst te begrijpen en belangrijke informatie over te brengen \autocite{Suleiman2020}. Het Pegasus-model, beschreven in \textcite{Zhang2020}, maakt gebruik van pre-trained modellen voor samenvatting met NLP en handelt gap-zinnen af, en is getraind en beoordeeld op verschillende soorten samenvattingstaken. LED of Longformer Encoder-Decoder is specifiek ontworpen om lange documenten te verwerken, waardoor het geschikt is voor het samenvatten van langere wetenschappelijke artikelen. In het best denkbare geval wordt abstraherende en extraherende samenvatting gecombineerd volgens \textcite{Hsu2018, Huang2019}. Zo omvat een pipeline voor hybride samenvatting twee onderdelen: een \textit{content selection} fase waarin de kernzinnen met extraherende samenvatting worden opgehaald en \textit{paraphrasing}-fase waarbij de gemarkeerde kernzinnen abstraherend worden samengevat. 
+Om de nauwkeurigheid van modellen te verbeteren, hebben \textcite{Nallapati2017} \textit{SummaRuNNer} ontwikkeld: een oplossing voor het extraherend samenvatten van teksten met behulp van een neuraal netwerk. Het systeem is opgebouwd met \textit{PyTorch} en bestaat uit drie modellen: een recurrent neuraal netwerk, een convolutioneel recurrent neuraal netwerk en een hiërarchical attention network.
 
-\subsection{Ondersteunende en bevoordelende effecten van ATV voor scholieren met dyslexie}
+\medspace
+
+Het ophalen van kernzinnen kan leiden tot een onsamenhangende tekst. Om samenhang te creëren tussen zinnen, worden kernzinnen vaak geparafraseerd in de taalwereld. Er zijn twee benaderingen om een tekst op een abstraherende manier samen te vatten: de semantisch-gebaseerde en de structuurgebaseerde benadering. De structuurgebaseerde methode gebruikt regels om belangrijke informatie in de tekst te vinden, maar kan leiden tot samengevatte zinnen met lage taalkundige kwaliteit en grammaticale fouten. De semantisch-gebaseerde benadering daarentegen gebruikt de betekenis van de tekst om korte en duidelijke samenvattingen te maken met minder redundante zinnen en betere taalkundige kwaliteit, hoewel een extra parsingfase nodig kan zijn. \textcite{Cao2022} deed verder onderzoek naar deep learning methoden om automatisch abstraherende samenvattingen te genereren. Deep learning-modellen zoals RNN's, CNN's en Seq2Seq kunnen worden gebruikt voor abstraherend samenvatten door de betekenis van de tekst te begrijpen en belangrijke informatie over te brengen \autocite{Suleiman2020}.
+
+\medspace
+
+Volgens \textcite{Hsu2018, Huang2019} zou een ideale samenvatting zowel abstraherend als extraherend moeten zijn. Een hybride samenvattings-pijplijn zou daarom twee fasen moeten bevatten: een \textit{content selection} fase waarin de kernzinnen worden opgehaald door middel van extraherende samenvatting, en een \textit{paraphrasing}-fase waarbij de gemarkeerde kernzinnen abstraherend worden samengevat.
+
+\subsection{Ondersteunende en bevoordelende effecten van ATS voor scholieren met dyslexie}
+
+% Uitleg over dit onderzoek
 
 \begin{figure}[H]
 	\begin{center}
@@ -412,24 +418,30 @@ De kernzinnen ophalen kan leiden tot een incoherente tekst. In de taalwereld wor
 
 Al zijn er onderzoeken over lexicale, syntactische en semantische vereenvoudiging voor kinderen en scholieren met dyslexie, het aantal onderzoeken over samenvatten voor deze doelgroep is schaars. Zoals eerder aangehaald is er wel onderzoek gedaan naar de verschillende manieren om een tekst samen te vatten, maar er is geen toepassing of onderzoek dat dit concreet uitwerkt. 
 
-\subsection{Conclusie}
-
-
-
-\subsection{MTV en ATV combineren.}
+\subsection{MTS en ATS combineren}
 % Hoe kunnen geautomatiseerde tekstvereenvoudiging en gepersonaliseerde tekstvereenvoudiging gecombineerd worden?
 
-(...) wijzen erop dat toepassingen voor tekstvereenvoudiging regelmatig als \textit{showcase} van de technologie ontwikkeld worden en zelden tot weinig rekening houden met personalisatieopties die nodig zijn om een vereenvoudiging op maat te kunnen genereren. % file:///C:/Users/dylan/Downloads/Automatic_Text_Simplification_for_Social_Good_Prog.pdf
+\textcite{Sanja2021} wijzen erop dat toepassingen voor tekstvereenvoudiging regelmatig als \textit{showcase} van de technologie ontwikkeld worden en zelden tot weinig rekening houden met personalisatieopties die nodig zijn om een vereenvoudiging op maat te kunnen genereren.
 
 \medspace
 
-Een ondersteunende toepassing moet met een individuele analyse van de specifieke behoeften en uitdagingen van elke leerling in gedachten worden ontworpen \autocite{Gooding2022}. Het is belangrijk om te erkennen dat dyslexie zich bij verschillende kinderen op verschillende manieren kan uiten. Een bijkomende stoornis heeft bijvoorbeeld geen impact op de spellingprestaties van een kind. Het is daarom belangrijk om een toepassing te ontwerpen met de diversiteit van dyslexie in het achterhoofd. 
+Bij het ontwerpen van een ondersteunende toepassing voor dyslexie moet rekening worden gehouden met de individuele behoeften en uitdagingen van elke scholier, volgens \textcite{Gooding2022}. Dyslexie kan zich namelijk op verschillende manieren uiten bij verschillende scholieren, waarbij bijkomende symptomen niet altijd van invloed zijn op de spellingprestaties van een scholier. Om deze reden is het belangrijk om een toepassing te ontwerpen die rekening houdt met de diversiteit van dyslexie.
 
 \subsection{Trends bij ATV}
 
 % TODO LLM --> BERT / GPT-3
 
+BERT is een meertalige Large Language Model (LLM) dat contextual word embeddings gebruikt. Het is getraind op 110 miljoen parameters uit 104 verschillende talen, waaronder Nederlands. Voor de Nederlandse taal zijn er twee varianten van BERT beschikbaar, namelijk RobBERT en BERTje. RobBERT wordt als krachtiger beschouwd. 
+
 % TODO HuggingFace
+
+\begin{tabular}{cols}
+	content...
+\end{tabular}
+
+% TODO tabel
+
+% Het is aangetoond in \textcite{Zhang2020} dat het Pegasus-model een pre-trained model gebruikt voor NLP-samenvatting en gap-zinnen afhandelt, en getraind en geëvalueerd is voor verschillende soorten samenvattings-taken. LED of Longformer Encoder-Decoder is specifiek ontworpen om lange documenten te verwerken, waardoor het geschikt is voor het samenvatten van lange wetenschappelijke artikelen. 
 
 \section{Beschikbare tools en taalmodellen}
 
@@ -438,10 +450,6 @@ Dyslexie is een veelvoorkomende aandoening die de lees- en schrijfvaardigheden v
 \medspace
 
 In het middelbaar onderwijs wordt lees- en studieondersteuning voor scholieren met dyslexie enkel in de vorm van voorleessoftware voorzien \autocite{DeCraemer2018, OnderwijsVlaanderen2023}. \textcite{OnderwijsVlaanderen2023} leent licenties voor de volgende softwarepakketten uit SprintPlus, Kurzweil3000, Alinea Suite, IntoWords en TextAid. Naast luister- en schrijfopties kunnen scholieren deze toepassingen gebruiken om zinnen te markeren om deze zinnen vervolgens samen te vatten. Enkel de gemarkeerde zinnen worden betrokken in de samengevatte versie, dus de zinnen blijven lexicaal, syntactisch en semantisch identiek. Alle vermelde softwarepakketten bieden echter geen onafhankelijke samenvat- of vereenvoudigfunctie aan. \textcite{Tops2018} benadrukt de handige aspecten van deze software, maar deze software moet zo vroeg mogelijk in een schoolcarriére worden ingezet. Zo raken de scholieren snel vertrouwd met het gebruik, wat kan leiden tot een optimaal gebruik in verdere studies. Volgens \textcite{Tops2018} is het te laat om deze software pas in het hoger onderwijs te introduceren.
-
-\begin{tabular}{cols}
-	content...
-\end{tabular}
 
 \medspace
 
