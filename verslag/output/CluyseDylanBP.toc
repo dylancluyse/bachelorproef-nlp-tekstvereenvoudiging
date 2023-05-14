@@ -29,9 +29,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.3.1}Manuele tekstvereenvoudiging}{12}{subsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Bevoordelende effecten van MTS bij scholieren met dyslexie}{12}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.2}Bevoordelende effecten van MTS bij scholieren met dyslexie}{13}{subsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.3}Aanpak voor ATV.}{15}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.3}Aanpak voor ATV.}{16}{subsection.2.3.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.4}De verschillende soorten ATS}{18}{section.2.4}%
 \defcounter {refsection}{0}\relax 
@@ -39,7 +39,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.6}De valkuilen bij AI en NLP.}{33}{section.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Conclusie}{35}{section.2.7}%
+\contentsline {section}{\numberline {2.7}Conclusie}{36}{section.2.7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Methodologie}{37}{chapter.3}%
 \defcounter {refsection}{0}\relax 
@@ -47,79 +47,63 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Vergelijkende studie}{40}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Vergelijking met referentieteksten}{40}{subsection.3.2.1}%
+\contentsline {section}{\numberline {3.3}Prototype voor tekstvereenvoudiging}{42}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Prototype voor tekstvereenvoudiging}{41}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Tool voor leerkrachten}{43}{subsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Personalisering van de website}{42}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Opties voor gepersonaliseerde tekstvereenvoudiging aanreiken.}{46}{subsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Tool voor leerkrachten}{42}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Tekstvereenvoudiging met API}{46}{subsection.3.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.3}Tekstinhoud extraheren}{43}{subsection.3.3.3}%
+\contentsline {subsubsection}{Annotaties van woordenschat}{46}{subsection.3.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.4}Zinnen ophalen}{43}{subsection.3.3.4}%
+\contentsline {subsubsection}{Tekstvereenvoudiging}{46}{subsection.3.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.5}PoS-tagging}{44}{subsection.3.3.5}%
+\contentsline {subsection}{\numberline {3.3.4}Personaliseerbaarheid aanreiken}{47}{subsection.3.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.6}Opties voor gepersonaliseerde tekstvereenvoudiging aanreiken.}{44}{subsection.3.3.6}%
+\contentsline {subsection}{\numberline {3.3.5}Tool voor scholieren}{50}{subsection.3.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.7}Tekstvereenvoudiging met API}{44}{subsection.3.3.7}%
+\contentsline {subsection}{\numberline {3.3.6}Conclusie}{52}{subsection.3.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Annotaties van woordenschat}{45}{subsection.3.3.7}%
+\contentsline {chapter}{\numberline {4}Discussie}{53}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Tekstvereenvoudiging}{45}{subsection.3.3.7}%
+\contentsline {section}{\numberline {4.1}Requirementsanalyse}{53}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.8}Personaliseerbaarheid aanreiken}{45}{subsection.3.3.8}%
+\contentsline {section}{\numberline {4.2}Vergelijkende studie}{58}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Taalmodellen}{46}{subsection.3.3.8}%
+\contentsline {section}{\numberline {4.3}Opbouw van het prototype}{59}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.9}Tekstinhoud uitschrijven naar PDF/DOCX}{46}{subsection.3.3.9}%
+\contentsline {chapter}{\numberline {5}Conclusie}{61}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{YAML-header}{46}{subsection.3.3.9}%
+\contentsline {subsubsection}{Verschillen tussen de handmatige tekst, het origineel, uitvoer van beschikbare tools en het prototype.}{61}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Woordenlijst en vereenvoudigde tekst uitschrijven}{46}{subsection.3.3.9}%
+\contentsline {subsubsection}{Het gebruik van HuggingFace-taalmodellen en LLM's voor een toepassing van tekstvereenvoudiging.}{62}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Documenten genereren}{47}{subsection.3.3.9}%
+\contentsline {subsubsection}{Verdere finetuning en pre-training van taalmodellen.}{62}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.10}Conclusie}{47}{subsection.3.3.10}%
+\contentsline {subsubsection}{Software ontwikkelen voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs}{63}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Discussie}{48}{chapter.4}%
+\contentsline {subsubsection}{Einde}{64}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Requirementsanalyse}{48}{section.4.1}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{65}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Vergelijkende studie}{52}{section.4.2}%
+\contentsline {section}{\numberline {A.1}Introductie}{65}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Opbouw van het prototype}{53}{section.4.3}%
+\contentsline {section}{\numberline {A.2}State-of-the-art}{67}{section.A.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusie}{54}{chapter.5}%
+\contentsline {subsection}{\numberline {A.2.1}Tekstvereenvoudiging}{67}{subsection.A.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Verschillen tussen de handmatige tekst, het origineel, uitvoer van beschikbare tools en het prototype.}{54}{chapter.5}%
+\contentsline {subsection}{\numberline {A.2.2}Noden van scholieren met dyslexie}{67}{subsection.A.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Het gebruik van HuggingFace-taalmodellen en LLM's voor een toepassing van tekstvereenvoudiging.}{55}{chapter.5}%
+\contentsline {subsection}{\numberline {A.2.3}Huidige toepassingen}{69}{subsection.A.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Verdere finetuning en pre-training van taalmodellen.}{55}{chapter.5}%
+\contentsline {subsection}{\numberline {A.2.4}Ontwikkelen met AI}{69}{subsection.A.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Software ontwikkelen voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs}{56}{chapter.5}%
+\contentsline {section}{\numberline {A.3}Methodologie}{70}{section.A.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Einde}{57}{chapter.5}%
+\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{72}{section.A.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{58}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Code voor tekstanalyse}{73}{appendix.B}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{58}{section.A.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{60}{section.A.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Tekstvereenvoudiging}{60}{subsection.A.2.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Noden van scholieren met dyslexie}{60}{subsection.A.2.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Huidige toepassingen}{62}{subsection.A.2.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.4}Ontwikkelen met AI}{62}{subsection.A.2.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{63}{section.A.3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{65}{section.A.4}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{66}{appendix*.41}%
+\contentsline {chapter}{Bibliografie}{76}{appendix*.51}%
 \contentsfinish 

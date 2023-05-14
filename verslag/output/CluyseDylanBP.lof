@@ -15,15 +15,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Afbeelding van \textcite {Althunayyan2021}\relax }}{19}{figure.caption.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Afbeelding van Gooding 2022\relax }}{26}{figure.caption.22}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Afbeelding van Gooding 2022\relax }}{27}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.6}{\ignorespaces Afbeelding van Gooding 2022\relax }}{27}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Afbeelding van Gooding 2022.\relax }}{27}{figure.caption.24}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Afbeelding van Gooding 2022.\relax }}{28}{figure.caption.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Experiment uit \textcite {Binz2023} dat de mean-regret van de vier GPT-3 engines uittest.\relax }}{28}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Experiment uit \textcite {Binz2023} dat de mean-regret van de vier GPT-3 engines uittest.\relax }}{30}{figure.caption.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Afbeelding uit \textcite {McFarland2023}\relax }}{30}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Afbeelding uit \textcite {McFarland2023}\relax }}{31}{figure.caption.27}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2.10}{\ignorespaces Afbeelding van \textcite {Simon2021}\relax }}{32}{figure.caption.28}%
 \defcounter {refsection}{0}\relax 
@@ -31,15 +31,27 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Voorbeeldweergave van de instellingenpagina.\relax }}{44}{figure.caption.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces \relax }}{49}{figure.caption.37}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Stappenplan voor de ontwikkeling van het component voor lectoren.\relax }}{48}{figure.caption.38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Schermafbeelding van SciSpace\relax }}{52}{figure.caption.39}%
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Stappenplan voor de ontwikkeling van het component voor scholieren.\relax }}{51}{figure.caption.43}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces \autocite {Readable2021}\relax }}{64}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Resultaat Bing Chatbot\relax }}{55}{figure.caption.46}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Illustratie van de tekstanalyse bij Simplish na een tekstvereenvoudiging.\relax }}{56}{figure.caption.47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Illustratie van de tekstanalyse bij Rewordify.\relax }}{57}{figure.caption.48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Schermafbeelding van SciSpace\relax }}{58}{figure.caption.49}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {A.1}{\ignorespaces \autocite {Readable2021}\relax }}{71}{figure.caption.50}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \contentsfinish 
