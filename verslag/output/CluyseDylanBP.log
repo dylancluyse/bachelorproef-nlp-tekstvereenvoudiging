@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2023.5.5)  14 MAY 2023 07:49
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2023.5.5)  14 MAY 2023 11:38
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2064,11 +2064,7 @@ runsystem(which pygmentize && touch CluyseDylanBP.aex)...executed.
 runsystem(rm CluyseDylanBP.aex)...executed.
 
 
-(../output/CluyseDylanBP.aux
-
-LaTeX Warning: Label `table:technologies' multiply defined.
-
-)
+(../output/CluyseDylanBP.aux)
 \openout1 = `CluyseDylanBP.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
@@ -2093,7 +2089,8 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
 LaTeX Font Info:    ... okay on input line 79.
 Package biblatex Info: Trying to load language 'dutch' -> 'dutch-apa'...
 Package biblatex Info: ... file 'dutch-apa.lbx' found.
- (/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/dutch-apa.lbx
+
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex-apa/dutch-apa.lbx
 File: dutch-apa.lbx 2020/08/28 v9.14 APA biblatex localisation
 Package biblatex Info: Trying to load language 'dutch'...
 Package biblatex Info: ... file 'dutch.lbx' found.
@@ -2125,22 +2122,7 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'CluyseDylanBP.bbl' found.
 
-(../output/CluyseDylanBP.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Gooding2021
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                bibid
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(../output/CluyseDylanBP.bbl)
 Package biblatex Info: Reference section=0 on input line 79.
 Package biblatex Info: Reference segment=0 on input line 79.
 Package caption Info: Begin \AtBeginDocument code.
@@ -2338,12 +2320,17 @@ LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
 
  [7
 
-] (../output/CluyseDylanBP.lot)
+] (../output/CluyseDylanBP.lot
+Overfull \hbox (7.29776pt too wide) in paragraph at lines 30--30
+ [][] [][][]\TU/Montserrat(1)/m/n/10.95 Samenvattend schema met vaak voorkomend
+e struikelblokken bij NLP- 
+ []
+
+)
 \tf@lot=\write12
 \openout12 = `CluyseDylanBP.lot'.
 
-
-[8
+ [8
 
 ] (../output/CluyseDylanBP.lol)
 \tf@lol=\write13
@@ -2458,188 +2445,144 @@ n op maat van deze doelgroep
 [7
 
 ]
-Underfull \hbox (badness 2495) in paragraph at lines 28--29
-[]|\TU/Montserrat(1)/m/n/10.95 ([]Bonte, [][]2020[][][]; Gala & Ziegler,
+Underfull \hbox (badness 2495) in paragraph at lines 29--30
+[]|\TU/Montserrat(1)/m/n/10.95 (Bonte, [][]2020[][]; Gala & Ziegler,
  []
 
 
-./standvanzaken.tex:39: Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.39 ^^I\caption
-                {Specifieke drempels bij het intensief lezen van een tekst.}
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (32.31316pt too wide) in paragraph at lines 22--41
- [] 
- []
-
-
-./standvanzaken.tex:63: Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 ^^I\caption
-                {Oplossingen die software-ontwikkelaars kunnen aanreiken bij...
-
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (32.31316pt too wide) in paragraph at lines 50--65
- [] 
+Overfull \hbox (32.31316pt too wide) in paragraph at lines 23--40
+[][] 
  []
 
 [8]
-Overfull \hbox (10.87837pt too wide) in paragraph at lines 69--70
+Overfull \hbox (32.31316pt too wide) in paragraph at lines 53--66
+[][] 
+ []
+
+
+Overfull \hbox (10.87837pt too wide) in paragraph at lines 73--74
 \TU/Montserrat(1)/m/n/10.95 Wetenschappelijke artikelen zijn van cruciaal belan
 g voor het verspreiden van nieuwe
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--79
+Package caption Warning: \label without proper reference on input line 96.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `table:scientific-paper-struggles' on page 9 undefined
+ on input line 77.
+
+./standvanzaken.tex:77: Too many }'s.
+l.77 ...in \ref{table:scientific-paper-struggles}}
+                                                  . Hoewel wetenschappelijke...
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
 []|\TU/Montserrat(1)/m/n/10.95 Veel informatie
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--79
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
 \TU/Montserrat(1)/m/n/10.95 in een compact
  []
 
 
-Underfull \hbox (badness 2828) in paragraph at lines 79--79
+Underfull \hbox (badness 2828) in paragraph at lines 87--87
 \TU/Montserrat(1)/m/n/10.95 formaat of \TU/Montserrat(2)/m/it/10.95 high in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
 []|\TU/Montserrat(1)/m/n/10.95 Hoog gebruik van
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--81
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
 \TU/Montserrat(1)/m/n/10.95 meerlettergrepige
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
+Underfull \hbox (badness 10000) in paragraph at lines 91--91
 []|\TU/Montserrat(1)/m/n/10.95 Wetenschappelijk
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 []|\TU/Montserrat(1)/m/n/10.95 Complexe concep-
  []
 
 [9]
-Overfull \hbox (32.31316pt too wide) in paragraph at lines 99--109
- [] 
+
+Package caption Warning: \label without proper reference on input line 120.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `table:readability-scores' on page 10 undefined on inp
+ut line 107.
+
+
+Overfull \hbox (3.86041pt too wide) in paragraph at lines 111--121
+[][]
  []
 
 [10]
 File: img/fre-ndc.png Graphic file (type bmp)
 <img/fre-ndc.png>
  [11]
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-[]|\TU/Montserrat(1)/m/n/10.95 Lexicale
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
+[]|\TU/Montserrat(1)/m/n/10.95 Lexicale vereenvou-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 145--145
-\TU/Montserrat(1)/m/n/10.95 vereen-
- []
-
-
-Overfull \hbox (13.09782pt too wide) in paragraph at lines 151--151
-[]|\TU/Montserrat(1)/m/n/10.95 Syntactische
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-\TU/Montserrat(1)/m/n/10.95 vereen-
- []
-
-
-Overfull \hbox (66.79662pt too wide) in paragraph at lines 159--159
-[]|\TU/Montserrat(1)/m/n/10.95 Formaataanpassingen| 
- []
-
-
-Overfull \hbox (15.71828pt too wide) in paragraph at lines 171--172
+Overfull \hbox (15.71828pt too wide) in paragraph at lines 186--187
 \TU/Montserrat(1)/m/n/10.95 mengevatte wetenschappelijke artikelen drie vragen 
 kunnen beantwoorden: waarom
  []
 
-[12]
 File: img/readability-mean-fixation-duration.png Graphic file (type bmp)
 <img/readability-mean-fixation-duration.png>
- [13]
-Underfull \hbox (badness 10000) in paragraph at lines 217--217
+[12] [13] [14]
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
 []|\TU/Montserrat(1)/m/n/10.95 Tekstgebeurtenissen in een
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 217--217
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
 \TU/Montserrat(1)/m/n/10.95 tijdsafhankelijke volgorde
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--219
+Underfull \hbox (badness 10000) in paragraph at lines 235--235
 []|\TU/Montserrat(1)/m/n/10.95 Coherentieonderbrekingen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--221
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
 []|\TU/Montserrat(1)/m/n/10.95 Gepersonaliseerde samenvat-
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 225--225
+Underfull \hbox (badness 1371) in paragraph at lines 241--241
 []|\TU/Montserrat(1)/m/n/10.95 Niet-cursieve, sans-serif letter-
  []
 
 
-./standvanzaken.tex:229: Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.229 ^^I\caption
-                 {Bewezen voordelen van MTS op mensen met dyslexie.}
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[14]
-Overfull \hbox (1.51611pt too wide) in paragraph at lines 237--238
+Overfull \hbox (1.51611pt too wide) in paragraph at lines 254--255
 \TU/Montserrat(1)/m/n/10.95 Tekstvereenvoudiging is het proces waarbij het tech
 nische leesniveau en het woord-
  []
 
 
-Overfull \hbox (5.91243pt too wide) in paragraph at lines 245--246
+Overfull \hbox (5.91243pt too wide) in paragraph at lines 262--263
 \TU/Montserrat(1)/m/n/10.95 karakter-, subwoord- en zinniveau, volgens onderzoe
 k van []Menzli ([][]2023[][]). Bij karakter-
  []
 
-[15]
-Overfull \hbox (23.90062pt too wide) in paragraph at lines 253--254
+[15] [16]
+Overfull \hbox (23.90062pt too wide) in paragraph at lines 270--271
 \TU/Montserrat(1)/m/n/10.95 wordt gekoppeld aan een label voor \TU/Montserrat(2
 )/m/it/10.95 Part-of-Speech \TU/Montserrat(1)/m/n/10.95 (PoS) of \TU/Montserrat
 (2)/m/it/10.95 Named-Entity-Recognition
@@ -2648,322 +2591,252 @@ Overfull \hbox (23.90062pt too wide) in paragraph at lines 253--254
 File: img/poslabeling.png Graphic file (type bmp)
 <img/poslabeling.png>
 
-LaTeX Warning: Reference `fig:ner' on page 16 undefined on input line 265.
+LaTeX Warning: Reference `fig:ner' on page 17 undefined on input line 282.
 
-[16] [17]
+[17]
 File: img/lexical-simplification-pipeline.png Graphic file (type bmp)
 <img/lexical-simplification-pipeline.png>
-
-Underfull \hbox (badness 10000) in paragraph at lines 293--293
-[]|\TU/Montserrat(1)/m/n/10.95 Meertalig (Engels,
+ [18]
+Underfull \hbox (badness 10000) in paragraph at lines 312--312
+[]|\TU/Montserrat(1)/m/n/10.95 Meertalig (Engels, Duits,
  []
 
+[19]
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--293
-\TU/Montserrat(1)/m/n/10.95 Duits, Spaans en
- []
-
-
-./standvanzaken.tex:295: Package caption Error: \caption outside float.
-
+Package caption Warning: \label without proper reference on input line 359.
 See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.295 \caption
-              {Beschikbare Nederlandstalige, Engelstalige en meertalige lexi...
-
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (32.31316pt too wide) in paragraph at lines 281--298
-[][] 
- []
+LaTeX Warning: Reference `table:extractive-summarization' on page 20 undefined 
+on input line 346.
 
-[18]
-Overfull \hbox (66.01215pt too wide) in paragraph at lines 325--326
+
+Overfull \hbox (66.01215pt too wide) in paragraph at lines 346--347
 \TU/Montserrat(1)/m/n/10.95 waaronder graafgebaseerde methoden, maximal margina
 l relevance (MMR) en metaheuristiek-
  []
 
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 352--352
 []|\TU/Montserrat(1)/m/n/10.95 MMR-gebaseerde
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 334--334
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 []|\TU/Montserrat(1)/m/n/10.95 Metaheuristiek-
  []
 
 
-Overfull \hbox (32.31316pt too wide) in paragraph at lines 328--338
- [] 
+Overfull \hbox (32.31316pt too wide) in paragraph at lines 350--360
+[][]
  []
 
 
-Overfull \hbox (23.71176pt too wide) in paragraph at lines 346--347
+Overfull \hbox (23.71176pt too wide) in paragraph at lines 370--371
 \TU/Montserrat(1)/m/n/10.95 waarbij rekening wordt gehouden met de aanwezigheid
  van woorden in (sub)titels. 
  []
 
-[20]
-Overfull \hbox (5.88762pt too wide) in paragraph at lines 355--356
+[21]
+Overfull \hbox (5.88762pt too wide) in paragraph at lines 379--380
 []\TU/Montserrat(1)/m/n/10.95 Extraherende samenvattingen kunnen leiden tot een
  onsamenhangende tekst. Een
  []
 
-[21]
-Overfull \hbox (2.45831pt too wide) in paragraph at lines 375--376
+[22]
+Overfull \hbox (2.45831pt too wide) in paragraph at lines 400--401
 \TU/Montserrat(1)/m/n/10.95 in de vorm van voorleessoftware ([]De Craemer e.a.,
  [][]2018[][][]; OnderwijsVlaanderen, [][]2023[][]).
  []
 
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 401--402
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 422--423
 []|\TU/Montserrat(1)/m/n/10.95 Voorleessoftware met ondersteuningsmogelijkheden
  voor
  []
 
 
-./standvanzaken.tex:417: Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.417 ^^I\caption
-                 {Overzicht van gekende voorleessoftware, tekstvereenvoudigi...
-
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (32.31316pt too wide) in paragraph at lines 396--420
- [] 
+Overfull \hbox (32.31316pt too wide) in paragraph at lines 416--439
+[][] 
  []
 
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 433--433
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\TU/Montserrat(1)/m/n/10.95 Longformer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 459--459
 []|\TU/Montserrat(1)/m/n/10.95 Haining Scientific
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 459--459
 \TU/Montserrat(1)/m/n/10.95 Abstract Simplifica-
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 437--437
+Underfull \hbox (badness 1590) in paragraph at lines 461--461
 []|\TU/Montserrat(1)/m/n/10.95 BART Large Scienti-
  []
 
 
-./standvanzaken.tex:439: Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.439 ^^I^^I\caption
-                    {HuggingFace beschikbare en ge-finetunede taalmodellen}
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (32.31316pt too wide) in paragraph at lines 429--442
- [] 
+Underfull \hbox (badness 10000) in paragraph at lines 463--463
+[]|\TU/Montserrat(1)/m/n/10.95 T5 finetuned text
  []
 
-[24]
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--463
+\TU/Montserrat(1)/m/n/10.95 simplification mo-
+ []
+
+
+Overfull \hbox (32.31316pt too wide) in paragraph at lines 452--466
+[][] 
+ []
+
+[24] [25]
 File: img/chatgpt-example-simplification-gooding.png Graphic file (type bmp)
 <img/chatgpt-example-simplification-gooding.png>
- [25]
 File: img/chatgpt-example-different-versions-gooding.png Graphic file (type bmp
 )
 <img/chatgpt-example-different-versions-gooding.png>
+ [26]
 File: img/chatgpt-example-evaluation-gooding.png Graphic file (type bmp)
 <img/chatgpt-example-evaluation-gooding.png>
- [26]
-Overfull \hbox (11.86533pt too wide) in paragraph at lines 476--477
+
+Overfull \hbox (11.86533pt too wide) in paragraph at lines 501--502
 \TU/Montserrat(1)/m/n/10.95 engine bij gekomen, namelijk GPT-3 Turbo die wordt 
 gebruikt door Chat-GPT. Davinci-
  []
 
 
-Overfull \hbox (1.50179pt too wide) in paragraph at lines 483--483
+Overfull \hbox (1.50179pt too wide) in paragraph at lines 509--509
 []|\TU/Montserrat(1)/m/n/10.95 Parameter| 
  []
 
 
-Underfull \hbox (badness 7081) in paragraph at lines 485--486
+Underfull \hbox (badness 7081) in paragraph at lines 511--512
 []|\TU/Montserrat(1)/m/n/10.95 davinci, curie, babbage,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 485--486
+Underfull \hbox (badness 10000) in paragraph at lines 511--512
 \TU/Montserrat(1)/m/n/10.95 curie-001, text-babbage-
  []
 
 
-Overfull \hbox (13.03214pt too wide) in paragraph at lines 487--487
+Overfull \hbox (13.03214pt too wide) in paragraph at lines 513--513
 []|\TU/Montserrat(1)/m/n/10.95 temperature| 
  []
 
 
-Overfull \hbox (9.52814pt too wide) in paragraph at lines 489--489
+Overfull \hbox (9.52814pt too wide) in paragraph at lines 515--515
 []|\TU/Montserrat(1)/m/n/10.95 max_tokens| 
  []
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 489--490
+Underfull \hbox (badness 4048) in paragraph at lines 515--516
 []|\TU/Montserrat(1)/m/n/10.95 Een getal tussen 1 and
  []
 
 
-Underfull \hbox (badness 1237) in paragraph at lines 491--491
+Underfull \hbox (badness 1237) in paragraph at lines 517--517
 \TU/Montserrat(1)/m/n/10.95 onderhoudt de probability distribution voor com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 493--494
+Underfull \hbox (badness 10000) in paragraph at lines 519--520
 []|\TU/Montserrat(1)/m/n/10.95 Een lijst van string-
  []
 
 
-Underfull \hbox (badness 4013) in paragraph at lines 493--494
+Underfull \hbox (badness 4013) in paragraph at lines 519--520
 \TU/Montserrat(1)/m/n/10.95 waarden, of een enkele
  []
 
 
-Overfull \hbox (40.02388pt too wide) in paragraph at lines 495--495
+Overfull \hbox (40.02388pt too wide) in paragraph at lines 521--521
 []|\TU/Montserrat(1)/m/n/10.95 presence_penalty| 
  []
 
 
-./standvanzaken.tex:497: Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.497 ^^I^^I\caption
-                    {Tabel met alle GPT-3 parameters.}
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (72.76591pt too wide) in paragraph at lines 481--500
- [] 
+Overfull \hbox (72.76591pt too wide) in paragraph at lines 507--524
+[][] 
  []
 
-[27] [28]
+[27]
 File: img/chatgpt-engines-mean-regret.png Graphic file (type bmp)
 <img/chatgpt-engines-mean-regret.png>
+ [28] [29]
 File: img/prompt-engineering-medium.png Graphic file (type bmp)
 <img/prompt-engineering-medium.png>
- [29]
-Overfull \hbox (5.2537pt too wide) in paragraph at lines 538--539
+ [30]
+Overfull \hbox (5.2537pt too wide) in paragraph at lines 565--566
 []\TU/Montserrat(1)/m/n/10.95 Expansion/reduction-prompts genereren een beknopt
 e output met voldoende
  []
 
-[30]
 File: img/graph-language-models.png Graphic file (type bmp)
 <img/graph-language-models.png>
-
-Overfull \hbox (8.55576pt too wide) in paragraph at lines 555--556
+[31]
+Overfull \hbox (8.55576pt too wide) in paragraph at lines 584--585
 \TU/Montserrat(1)/m/n/10.95 nele taalmodel van Bing gebruikmaakt van GPT-3. Doo
 r de Prometheus-technologie,
  []
 
-[31]
 File: img/bing-ai-prometheus.png Graphic file (type bmp)
 <img/bing-ai-prometheus.png>
- [32]
-Overfull \hbox (0.61458pt too wide) in paragraph at lines 590--591
+[32] [33]
+Overfull \hbox (0.61458pt too wide) in paragraph at lines 621--622
 []\TU/Montserrat(1)/m/n/10.95 Verschillende studies hebben aangetoond dat tekst
 vereenvoudiging bedoeld is om
  []
 
-[33]
-Underfull \hbox (badness 10000) in paragraph at lines 611--611
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 639--639
 []|\TU/Montserrat(1)/m/n/10.95 Dure ontwikkeling
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 611--611
+Underfull \hbox (badness 10000) in paragraph at lines 639--639
 \TU/Montserrat(1)/m/n/10.95 en onderhoud van
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 613--613
+Underfull \hbox (badness 10000) in paragraph at lines 641--641
 []|\TU/Montserrat(1)/m/n/10.95 Homoniemen kun-
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 613--613
+Underfull \hbox (badness 1762) in paragraph at lines 641--641
 \TU/Montserrat(1)/m/n/10.95 nen sequence labe-
  []
 
 
-Underfull \hbox (badness 3989) in paragraph at lines 615--616
+Underfull \hbox (badness 3989) in paragraph at lines 643--644
 []|\TU/Montserrat(1)/m/n/10.95 Ontwikkeling van gepersonaliseerde tekstvereen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 617--617
+Underfull \hbox (badness 10000) in paragraph at lines 645--645
 []|\TU/Montserrat(1)/m/n/10.95 Onnauwkeurige
  []
 
 
-Underfull \hbox (badness 7238) in paragraph at lines 619--619
+Underfull \hbox (badness 7238) in paragraph at lines 647--647
 \TU/Montserrat(1)/m/n/10.95 luatie van tekstver-
  []
 
-./standvanzaken.tex:620: Misplaced \noalign.
+./standvanzaken.tex:648: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.620 ^^I^^I\hline
+l.648 ^^I^^I\hline
                   
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-
-./standvanzaken.tex:621: Package caption Error: \caption outside float.
-
-See the caption package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.621 ^^I^^I\caption
-                    {Samenvattend schema met vaak voorkomende struikelblokke...
-
-If you do not understand this error, please take a closer look
-at the documentation of the `caption' package, especially the
-section about errors.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-) (./methodologie.tex [34] [35]
+) (./methodologie.tex [35] [36]
 Hoofdstuk 3.
 
 Overfull \hbox (11.07182pt too wide) in paragraph at lines 13--14
@@ -2983,76 +2856,143 @@ Overfull \hbox (4.83762pt too wide) in paragraph at lines 17--18
 komen niet in deze tools
  []
 
-[36
 
-] [37] [38]
-Overfull \hbox (32.31316pt too wide) in paragraph at lines 102--116
- [] 
+Package caption Warning: \label without proper reference on input line 34.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `table:shortlist-tools' on page 37 undefined on input 
+line 20.
+
+[37
+
+]
+
+Package caption Warning: \label without proper reference on input line 96.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `table:scientific-paper-struggles' on page 38 undefine
+d on input line 41.
+
+
+Package caption Warning: \label without proper reference on input line 74.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `table:criteria-requirementsanalysis' on page 38 undef
+ined on input line 41.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+[]|\TU/Montserrat(1)/m/n/10.95 Lexicale vereenvou-
  []
 
-[39]
-./methodologie.tex:136: Misplaced \noalign.
+[38] [39]
+
+Package caption Warning: \label without proper reference on input line 120.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `table:readability-scores' on page 40 undefined on inp
+ut line 103.
+
+
+LaTeX Warning: Reference `' on page 40 undefined on input line 113.
+
+
+Package caption Warning: \label without proper reference on input line 130.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `table:tested-prompts' on page 40 undefined on input l
+ine 113.
+
+
+Overfull \hbox (32.31316pt too wide) in paragraph at lines 117--131
+[][]
+ []
+
+[40]
+./methodologie.tex:154: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.136 ^^I^^I\hline
+l.154 ^^I^^I\hline
                   
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
 
-Overfull \hbox (32.31316pt too wide) in paragraph at lines 129--139
- [] 
+Overfull \hbox (32.31316pt too wide) in paragraph at lines 147--157
+[][]
  []
 
 
-Underfull \hbox (badness 4779) in paragraph at lines 152--152
+Underfull \hbox (badness 4779) in paragraph at lines 173--173
 []|\TU/Montserrat(1)/m/n/10.95 Textstat & Readabi-
  []
 
 
-Overfull \hbox (32.31316pt too wide) in paragraph at lines 144--156
- [] 
+Overfull \hbox (32.31316pt too wide) in paragraph at lines 165--177
+[][]
  []
 
+[41]
 
-Overfull \hbox (5.60927pt too wide) in paragraph at lines 172--173
+Package caption Warning: \label without proper reference on input line 156.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `table:technologies' on page 42 undefined on input lin
+e 181.
+
+
+Overfull \hbox (5.60927pt too wide) in paragraph at lines 195--196
 []\TU/Montserrat(1)/m/n/10.95 De twee verschillende soorten eindgebruikers voor
  dit prototype, namelijk leerkrach-
  []
 
-[40] [41]
-./methodologie.tex:211: Missing $ inserted.
+[42] [43]
+
+Package caption Warning: \label without proper reference on input line 240.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `table:wordembeddings-spacy' on page 44 undefined on i
+nput line 227.
+
+./methodologie.tex:235: Missing $ inserted.
 <inserted text> 
                 $
-l.211 ...odels/releases/tag/nl_core_news_md-3.5.0}
+l.235 ...odels/releases/tag/nl_core_news_md-3.5.0}
                                                    \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 9.00096pt on input line 211.
+(Font)              scaled to size 9.00096pt on input line 235.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 211.
+(Font)              scaled to size 6.00064pt on input line 235.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 211.
+(Font)              scaled to size 5.00053pt on input line 235.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 8.99904pt on input line 211.
+(Font)              scaled to size 8.99904pt on input line 235.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 211.
+(Font)              scaled to size 5.99936pt on input line 235.
 LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 211.
-./methodologie.tex:211: Missing $ inserted.
+(Font)              scaled to size 4.99947pt on input line 235.
+./methodologie.tex:235: Missing $ inserted.
 <inserted text> 
                 $
-l.211 ...odels/releases/tag/nl_core_news_md-3.5.0}
+l.235 ...odels/releases/tag/nl_core_news_md-3.5.0}
                                                    \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./methodologie.tex:211: Missing } inserted.
+./methodologie.tex:235: Missing } inserted.
 <inserted text> 
                 }
-l.211 ...odels/releases/tag/nl_core_news_md-3.5.0}
+l.235 ...odels/releases/tag/nl_core_news_md-3.5.0}
                                                    \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3060,10 +3000,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./methodologie.tex:211: Extra }, or forgotten \endgroup.
+./methodologie.tex:235: Extra }, or forgotten \endgroup.
 \@makefntext ...out #1\ifFN@hangfoot \par \egroup 
                                                   \fi 
-l.211 ...odels/releases/tag/nl_core_news_md-3.5.0}
+l.235 ...odels/releases/tag/nl_core_news_md-3.5.0}
                                                    \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3071,26 +3011,26 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-./methodologie.tex:213: Missing $ inserted.
+./methodologie.tex:237: Missing $ inserted.
 <inserted text> 
                 $
-l.213 ...models/releases/tag/en_core_web_md-3.5.0}
+l.237 ...models/releases/tag/en_core_web_md-3.5.0}
                                                    \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./methodologie.tex:213: Missing $ inserted.
+./methodologie.tex:237: Missing $ inserted.
 <inserted text> 
                 $
-l.213 ...models/releases/tag/en_core_web_md-3.5.0}
+l.237 ...models/releases/tag/en_core_web_md-3.5.0}
                                                    \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-./methodologie.tex:213: Missing } inserted.
+./methodologie.tex:237: Missing } inserted.
 <inserted text> 
                 }
-l.213 ...models/releases/tag/en_core_web_md-3.5.0}
+l.237 ...models/releases/tag/en_core_web_md-3.5.0}
                                                    \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3098,10 +3038,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-./methodologie.tex:213: Extra }, or forgotten \endgroup.
+./methodologie.tex:237: Extra }, or forgotten \endgroup.
 \@makefntext ...out #1\ifFN@hangfoot \par \egroup 
                                                   \fi 
-l.213 ...models/releases/tag/en_core_web_md-3.5.0}
+l.237 ...models/releases/tag/en_core_web_md-3.5.0}
                                                    \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3110,29 +3050,29 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 
-Overfull \hbox (32.31316pt too wide) in paragraph at lines 207--217
- [] 
+Overfull \hbox (32.31316pt too wide) in paragraph at lines 231--241
+[][]
  []
 
 
-Overfull \hbox (5.20515pt too wide) in paragraph at lines 219--219
+Overfull \hbox (5.20515pt too wide) in paragraph at lines 246--246
 |[][]\TU/Montserrat(0)/b/n/12 Opties voor gepersonaliseerde tekstvereenvoudigin
 g aanreiken.| 
  []
 
-[42] [43]
-Overfull \hbox (16.67458pt too wide) in paragraph at lines 256--257
+[44] [45]
+Overfull \hbox (16.67458pt too wide) in paragraph at lines 281--282
 \TU/Montserrat(1)/m/n/10.95 Met Python wordt eerst een YAML-header in het te-tr
 ansformeren Markdown-bestand
  []
 
 
-Overfull \hbox (18.3806pt too wide) in paragraph at lines 260--261
+Overfull \hbox (18.3806pt too wide) in paragraph at lines 285--286
 \TU/Montserrat(1)/m/n/10.95 De structuur om de woordenlijst op te bouwen, is id
 entiek zoals dat van een Markdown-
  []
 
-[44]) (./discussie.tex [45]
+[46]) (./discussie.tex [47]
 Hoofdstuk 4.
 
 Overfull \hbox (1.55629pt too wide) in paragraph at lines 14--15
@@ -3142,7 +3082,7 @@ he-art toepassingen voor tekst-
 
 File: img/bing-ai-chatbot-example.png Graphic file (type bmp)
 <img/bing-ai-chatbot-example.png>
-[46
+[48
 
 ]
 
@@ -3150,12 +3090,12 @@ Package caption Warning: \label without proper reference on input line 40.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `img:simplish-output' on page 47 undefined on input li
+LaTeX Warning: Reference `img:simplish-output' on page 49 undefined on input li
 ne 36.
 
 File: img/simplish-output.png Graphic file (type bmp)
 <img/simplish-output.png>
-[47]
+[49]
 Underfull \hbox (badness 5147) in paragraph at lines 50--51
 []|\TU/Montserrat(1)/m/n/10.95 Gepersonaliseerde vereenvoudiging aanbieden, waa
 ronder
@@ -3172,10 +3112,10 @@ Overfull \hbox (32.31316pt too wide) in paragraph at lines 46--66
  [] 
  []
 
-[48]
+[50]
 File: img/typeset-example.png Graphic file (type bmp)
 <img/typeset-example.png>
- [49]
+ [51]
 Overfull \hbox (8.68472pt too wide) in paragraph at lines 103--104
 \TU/Montserrat(1)/m/n/10.95 kunnen ontwikkelaars GPT-3 inschakelen als taalmode
 l voor gepersonaliseerde tekst-
@@ -3187,9 +3127,9 @@ Overfull \hbox (11.9247pt too wide) in paragraph at lines 103--104
 t uitgeteste GPT-3-model blinkt
  []
 
-[50]) (./conclusie.tex [51]
+[52]) (./conclusie.tex [53]
 Hoofdstuk 5.
-[52
+[54
 
 ]
 Overfull \hbox (14.76196pt too wide) in paragraph at lines 26--27
@@ -3197,7 +3137,7 @@ Overfull \hbox (14.76196pt too wide) in paragraph at lines 26--27
  op HuggingFace-taalmodellen. 
  []
 
-[53] [54]) [55]
+[55] [56]) [57]
 B\babelshorthand{"y}lage A.
 (../voorstel/voorstel-inhoud.tex
 Underfull \hbox (badness 10000) in paragraph at lines 8--8
@@ -3205,7 +3145,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 da-2030-stem-competenties-voor-een-
  []
 
-[56
+[58
 
 ]
 Overfull \hbox (3.46771pt too wide) in paragraph at lines 34--35
@@ -3213,36 +3153,36 @@ Overfull \hbox (3.46771pt too wide) in paragraph at lines 34--35
 oor nieuwe toepassingen zorgde. Tekst-
  []
 
-[57]
+[59]
 Overfull \hbox (2.54906pt too wide) in paragraph at lines 38--39
 []\TU/Montserrat(1)/m/n/10.95 Tekstvereenvoudiging behoort tot de zijtak van \T
 U/Montserrat(2)/m/it/10.95 Natural Language Processing \TU/Montserrat(1)/m/n/10
 .95 (NLP)
  []
 
-[58]
+[60]
 Overfull \hbox (14.44443pt too wide) in paragraph at lines 54--55
 []\TU/Montserrat(1)/m/n/10.95 Het onderzoek van []Sciforce ([][]2020[][]) haalt
  aan dat het merendeel van NLP-toepassingen
  []
 
-[59]
+[61]
 Overfull \hbox (1.14409pt too wide) in paragraph at lines 65--66
 \TU/Montserrat(1)/m/n/10.95 wel gebruikt worden, zijn vooral online leerplatfor
 men voor zelfstandig werken. Ook
  []
 
-[60]
+[62]
 File: img/Screenshot_302.png Graphic file (type bmp)
 <img/Screenshot_302.png>
- [61] [62]) [63]
+ [63] [64]) [65]
 Overfull \hbox (2.13918pt too wide) in paragraph at lines 171--171
 \TU/Montserrat(1)/m/n/10.95 Dutch. \TU/Montserrat(2)/m/it/10.95 Computational L
 inguistics in the Netherlands Journal\TU/Montserrat(1)/m/n/10.95 , \TU/Montserr
 at(2)/m/it/10.95 8\TU/Montserrat(1)/m/n/10.95 , 24–48. [][]$[][][][][] []
  []
 
-[64
+[66
 
 
 ]
@@ -3264,13 +3204,13 @@ Overfull \hbox (17.6088pt too wide) in paragraph at lines 171--171
  and university: Post-diploma
  []
 
-[65]
+[67]
 Overfull \hbox (0.81898pt too wide) in paragraph at lines 171--171
 \TU/Montserrat(2)/m/it/10.95 shop on Speech and Language Processing for Assisti
 ve Technologies (SLPAT-
  []
 
-[66]
+[68]
 Overfull \hbox (15.62875pt too wide) in paragraph at lines 171--171
 [][]\TU/Montserrat(1)/m/n/10.95 Iredale, G. (2022). An overview of tokenization
  algorithms in NLP. [][]$[][][][][] [] [] [] [][][][][][][][][][][][][][] []
@@ -3289,7 +3229,7 @@ Overfull \hbox (12.61131pt too wide) in paragraph at lines 171--171
  technical overview. [][]$[][][][][] [] [] [] [][][][][][][][][][] []
  []
 
-[67]
+[69]
 ./CluyseDylanBP.tex:171: Misplaced alignment tab character &.
 <argument> Guide &
                   amp; examples
@@ -3326,13 +3266,13 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[68]
+[70]
 Overfull \hbox (4.29759pt too wide) in paragraph at lines 171--171
 \TU/Montserrat(1)/m/n/10.95 Part of Speech Tagger [http://eprints.ewi.utwente.n
 l/14662 ; 20th Benelux Con-
  []
 
-[69]
+[71]
 Overfull \hbox (18.56651pt too wide) in paragraph at lines 171--171
 \TU/Montserrat(2)/m/it/10.95 on Natural Language Processing 2014\TU/Montserrat(
 1)/m/n/10.95 , \TU/Montserrat(2)/m/it/10.95 4\TU/Montserrat(1)/m/n/10.95 (1). [
@@ -3340,7 +3280,7 @@ Overfull \hbox (18.56651pt too wide) in paragraph at lines 171--171
 ][][][][][] []
  []
 
-[70] [71]
+[72] [73]
 Overfull \hbox (4.93161pt too wide) in paragraph at lines 171--171
 \TU/Montserrat(1)/m/n/10.95 Smith, J. & Schmidt, D. C. (2023). A Prompt Pattern
  Catalog to Enhance Prompt
@@ -3352,26 +3292,23 @@ Overfull \hbox (19.16676pt too wide) in paragraph at lines 171--171
 physiological tracking of speech-structure
  []
 
-[72] (../output/CluyseDylanBP.aux)
+[74] (../output/CluyseDylanBP.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `CluyseDylanBP.out' has not changed.
-(rerunfilecheck)             Checksum: 1FF16AAC6B0E4E998E6B80928A13F229;4020.
+(rerunfilecheck)             Checksum: BF37276138340A242352209AD2DA6A2D;4020.
 Package logreq Info: Writing requests to 'CluyseDylanBP.run.xml'.
 \openout1 = `CluyseDylanBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48153 strings out of 478657
- 939456 string characters out of 5861314
- 2042251 words of memory out of 5000000
- 66886 multiletter control sequences out of 15000+600000
+ 48149 strings out of 478657
+ 939516 string characters out of 5861314
+ 2043184 words of memory out of 5000000
+ 66882 multiletter control sequences out of 15000+600000
  407975 words of font info for 112 fonts, out of 8000000 for 9000
  351 hyphenation exceptions out of 8191
- 113i,13n,139p,2569b,7101s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 113i,15n,139p,2569b,7101s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../output/CluyseDylanBP.xdv (81 pages, 1766900 bytes).
+Output written on ../output/CluyseDylanBP.xdv (83 pages, 1838004 bytes).

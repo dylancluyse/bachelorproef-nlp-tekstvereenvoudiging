@@ -5,7 +5,43 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.1}{\ignorespaces Specifieke drempels bij het intensief lezen van een tekst.\relax }}{8}{table.caption.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.2}{\ignorespaces Oplossingen die software-ontwikkelaars kunnen aanreiken bij een toepassing of website.\relax }}{9}{table.caption.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.3}{\ignorespaces Complexe leesfactoren van een wetenschappelijk artikel.\relax }}{10}{table.caption.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.4}{\ignorespaces Prevalente leesgraadsscores.\relax }}{11}{table.caption.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.5}{\ignorespaces Drie algemene technieken voor MTS\relax }}{13}{table.caption.13}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.6}{\ignorespaces Bewezen voordelen van MTS op mensen met dyslexie.\relax }}{16}{table.caption.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.7}{\ignorespaces Beschikbare Nederlandstalige, Engelstalige en meertalige lexicale databanken anno mei 2023.\relax }}{19}{table.caption.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.8}{\ignorespaces De drie manieren om extraherende samenvatting mogelijk te maken volgens \textcite {Verma2020}.\relax }}{21}{table.caption.19}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.9}{\ignorespaces Overzicht van gekende voorleessoftware, tekstvereenvoudigings- en samenvattingstools die intuïtief zijn ontwikkeld voor de eindgebruiker (leerkracht of scholier).\relax }}{25}{table.caption.20}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.10}{\ignorespaces HuggingFace beschikbare en ge-finetunede taalmodellen\relax }}{25}{table.caption.21}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.11}{\ignorespaces Tabel met alle GPT-3 parameters.\relax }}{29}{table.caption.25}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {2.12}{\ignorespaces Samenvattend schema met vaak voorkomende struikelblokken bij NLP-toepassingen.\relax }}{35}{table.caption.30}%
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.1}{\ignorespaces Shortlist van uit te testen tools en toepassingen voor tekstvereenvoudiging.\relax }}{38}{table.caption.31}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.2}{\ignorespaces Criteria waarop toepassingen worden afgetoetst in de requirementsanalyse\relax }}{39}{table.caption.32}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.3}{\ignorespaces De prompts die aan het GPT-3 model wordt meegegeven.\relax }}{41}{table.caption.33}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.4}{\ignorespaces Gebruikte programmeertalen in het prototype voor tekstvereenvoudiging.\relax }}{41}{table.caption.34}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.5}{\ignorespaces Gebruikte Python-libraries en hun respectievelijke functie in het prototype.\relax }}{42}{table.caption.35}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.6}{\ignorespaces Gebruikte SpaCy Word-embeddings\relax }}{44}{table.caption.36}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

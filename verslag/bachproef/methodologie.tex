@@ -5,58 +5,79 @@
 \chapter{\IfLanguageName{dutch}{Methodologie}{Methodology}}%
 \label{ch:methodologie}
 
-Met de verworven kennis uit de literatuurstudie in Hoofdstuk \ref{ch:stand-van-zaken} over de noden van scholieren met dyslexie, het complexe karakter van wetenschappelijke artikelen, vervolgens de technieken voor ATV en MTV en ten slotte de bijhorende valkuilen bij taalverwerking met AI; kunnen de onderzoeksmethoden toegepast worden om een antwoord te kunnen vormen op de onderzoeksvraag.
+Met de verworven kennis uit de literatuurstudie in Hoofdstuk \ref{ch:stand-van-zaken} over de noden van scholieren met dyslexie, het complexe karakter van wetenschappelijke artikelen, vervolgens de technieken voor MTS en ATS en ten slotte de bijhorende valkuilen bij taalverwerking met AI; kunnen de onderzoeksmethoden toegepast worden om een antwoord te vormen op de onderzoeksvraag.
 
 \section{Requirementsanalyse}
 \label{sec:requirementsanalyse}
 
-Vooraleer een dergelijke toepassing voor tekstvereenvoudiging kan worden gemaakt, moeten de benodigde functionaliteiten opgesomd worden. Deze onderzoeksfase doelt op het uittesten van verschillende tools op hun functionaliteiten voor geautomatiseerde en gepersonaliseerde tekstvereenvoudiging. De requirementsanalyse analyseert toepassingen die enerzijds de overheid aan scholieren met dyslexie in het onderwijs aanbiedt, anderzijds online tools die leerkrachten kunnen gebruiken om teksten te vereenvoudigen. De requirementsanalyse biedt een antwoord op de volgende twee subvragen, aan de hand van de technieken voor tekstvereenvoudiging beschreven in de literatuurstudie \ref{ch:stand-van-zaken}. 
+Vooraleer een dergelijke toepassing voor tekstvereenvoudiging kan worden gemaakt, moeten de benodigde functionaliteiten opgesomd worden. Deze onderzoeksfase doelt op het uittesten van verschillende tools op hun functionaliteiten voor geautomatiseerde en gepersonaliseerde tekstvereenvoudiging. De requirementsanalyse analyseert toepassingen die enerzijds de overheid aan scholieren met dyslexie in het onderwijs aanbiedt, anderzijds online tools die leerkrachten of scholieren kunnen gebruiken om teksten te vereenvoudigen. De requirementsanalyse biedt een antwoord op de volgende twee subvragen, aan de hand van de technieken voor tekstvereenvoudiging beschreven in de literatuurstudie \ref{ch:stand-van-zaken}. 
 
 \begin{itemize}
 	\item Welke functies ontbreken AI-toepassingen om geautomatiseerde tekstvereenvoudiging mogelijk te maken voor scholieren met dyslexie in de derde graad middelbaar onderwijs?
 	\item Welke manuele methoden voor tekstvereenvoudiging komen niet in deze tools voor?
 \end{itemize}
 
-Momenteel worden er vijf softwarepakketten uitgereikt aan scholen, waarvan de drie voornaamste worden opgenomen in de requirementsanalyse:
+Momenteel worden er vijf softwarepakketten uitgereikt aan scholen, waarvan de drie voornaamste worden opgenomen in de requirementsanalyse. Tools die online beschikbaar staan kunnen ook een rol spelen in het automatiseren van processen voor leerkrachten. Deze twee zaken werden eerder aangehaald in hoofdstuk \ref{ch:stand-van-zaken}. Deze tools zijn sporadisch beschikbaar, maar enkel vier tools zullen aangehaald worden. De tools met de meest potentiële functionaliteiten zijn bepaald op informatie die sectie \ref{sec:beschikbare-tools-en-taalmodellen} verder uitwees. De lijst van uit te testen tools staat uitgeschreven in tabel \ref{table:shortlist-tools}.
 
-\begin{itemize}
-	\item SprintPlus
-	\item Kurzweil3000
-	\item AlineaSuite
-\end{itemize}
-
-Tools die online beschikbaar staan kunnen ook een rol spelen in het automatiseren van processen voor leerkrachten. Deze tools zijn sporadisch beschikbaar, maar enkel vier tools zullen aangehaald worden. Om de lijst van beschikbare online tools in te perken, beperkt het onderzoek zich op de volgende tools:
-
-\begin{itemize}
-	\item Simplish
-	\item Resoomer
-	\item ChatGPT
-	\item Bing Chatbot
-\end{itemize}
+\begin{center}
+	\begin{table}[H]
+		\begin{tabular}{ | m{6cm} | m{6cm} | } 
+			\hline
+			\textbf{Erkende software} & Online beschikbare tools \\
+			\hline
+			Sprintplus (ES1) & Simplish (OB1) \\
+			Kurzweil3000 (ES2) & SciSpace (OB2) \\ 
+			AlineaSuite	(ES3) & ChatGPT (OB3) \\
+			& Bing Chatbot (OB4)\\
+			\hline
+		\end{tabular}
+	\label{table:shortlist-tools}	
+	\caption{Shortlist van uit te testen tools en toepassingen voor tekstvereenvoudiging.}
+	\end{table}
+\end{center}
 
 % TODO wat wordt er getest?
 
-De volgende functionaliteiten worden getest:
+De volgende functionaliteiten worden per tool uitgetest aan de hand van een wetenschappelijk artikel. Als maatstaf wordt er vertrokken vanuit de genoemde MTS-technieken uit \ref{table:manual-simplification} en \ref{table:scientific-paper-struggles}. Zo kunnen de toepassingen afgetoets worden ten opzichte van de meegegeven metrieken en kan het onderzoek achterhalen welke MTS-technieken aanwezig zijn bij deze tools, alsook als deze tools in staat zijn om wetenschappelijke artikelen kunnen vereenvoudigen naargelang bewezen tactieken. Zo wordt duidelijk hoe nauw deze toepassingen aanleunen op een tekst vereenvoudigd door een leerkracht die een gepersonaliseerde tekstvereenvoudiging maakt van een wetenschappelijk artikel. De criteria waarop wordt afgetoetst is terug te vinden in \ref{table:criteria-requirementsanalysis}.
 
-\begin{itemize}
-	\item Inschatten van de doelgroep.
-	\item Woorden -en synoniemenlijst genereren (automatisch of handmatig).
-	\item Ondersteuning aanbieden voor woorden.
-\end{itemize}
+\begin{center}
+	\begin{table}[H]
+		\begin{tabular}{ | m{4cm} | m{11cm} | } 
+			\hline
+			\textbf{Vorm van MTS} & \textbf{Functionaliteit} \\
+			\hline
+			Lexicale vereenvoudiging & Rekening houden met doelgroep buiten vakgebied door eenvoudigere synoniemen te schrijven \\
+			& Woorden met minder lettergrepen gebruiken \\
+			& Extra uitleg schrijven bij zinnen \\
+			& Paragrafen herschrijven zodat ze eerst uitleg geven op een high-level niveau, vervolgens lagen van complexiteit toevoegen om de lezer te begeleiden \\
+			& Woordenlijst aanmaken \\
+			& Synoniemenlijst aanmaken \\
+			& Idiomen vervangen door eenvoudigere synoniemen \\
+			\hline
+			Syntactische vereenvoudiging & Zinnen inkorten \\
+			& Verwijswoorden aanpassen \\
+			& Voorzetseluitdrukkingen \\
+			& Samengestelde werkwoorden aanpassen \\
+			& Actieve stem toepassen \\
+			& Onregelmatige werkwoorden gebruiken \\
+			\hline
+			Formaatwijzigingen & Achtergrondkleur aanpassen \\
+			& Woord- en karakterspatiering \\
+			& Consistente lay-out \\
+			& Duidelijk zichtbare koppenstructuur \\
+			& Huidige positie benadrukken \\
+			& Waarschuwingen geven omtrent formulieren en sessies \\
+			& Inhoud visueel groeperen \\
+			& Tekst herschrijven als tabel \\
+			& Tekst herschrijven als opsomming \\
+			\hline
+		\end{tabular}
+		\label{table:criteria-requirementsanalysis}	
+		\caption{Criteria waarop toepassingen worden afgetoetst in de requirementsanalyse}
+	\end{table}
+\end{center}
 
-De resultaten van deze onderzoeksfase omvatten een Moscow-schema waarmee de ontwikkeling van het het prototype voor tekstvereenvoudiging, specifiek om wetenschappelijke artikelen op maat voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs te vereenvoudigen.
-
-\medspace
-
-Vijf verschillende aspecten, namelijk lexicale en syntactische vereenvoudiging, samenvatting, personalisatie en ontwikkelaarsmogelijkheden dienen als de houvast bij deze requirementsanalyse. De volgende testen worden uitgevoerd:
-
-\begin{itemize}
-	\item De verschillen op lexicaal niveau worden 
-
-	\item De tools ondergaan een test om hun vermogen om een wetenschappelijk artikel in PDF-formaat te vereenvoudigen, indien dat mogelijk is. Als dit niet mogelijk is, gebeurt het kopiëren en plakken van de tekst in de toepassing.
-\end{itemize}
-
- Op deze manier vindt een evaluatie van de prestaties van de verschillende tools plaats en worden eventuele beperkingen of tekortkomingen geïdentificeerd. 
+De tools ondergaan een test om hun vermogen om een wetenschappelijk artikel in PDF-formaat te vereenvoudigen, indien dat mogelijk is. Als dit niet mogelijk is, gebeurt het kopiëren en plakken van de tekst in de toepassing. Op deze manier vindt een evaluatie van de prestaties van de verschillende tools plaats en worden eventuele beperkingen of tekortkomingen geïdentificeerd. Het resultaat van deze onderzoeksfase bestaat uit een Moscow-schema. Dit schema fungeert als fundering voor de ontwikkeling van het prototype voor een webtoepassing van tekstvereenvoudiging, specifiek om wetenschappelijke artikelen op maat voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs te vereenvoudigen.
 
 \section{Vergelijkende studie}
 \label{sec:vergelijkende-studie}
@@ -67,38 +88,18 @@ Taalmodellen zijn nodig om teksten te kunnen vereenvoudigen, maar een toepassing
 	\item Welk taalmodel of LLM is ideaal voor automatische tekstvereenvoudiging voor vereenvoudigde wetenschappelijke artikelen voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs met dezelfde of gelijkaardige kwaliteiten als manuele tekstvereenvoudiging?
 \end{itemize}
 
-De literatuurstudie identificeerde de volgende vier taalmodellen voor opname in de vergelijkende studie.
+De literatuurstudie identificeerde de volgende vier taalmodellen voor opname in de vergelijkende studie. Zoals aangegeven in het onderzoek van \textcite{Nenkova2004} worden leesgraadsformules en referentieteksten ingezet om de kwaliteit van een vereenvoudigde tekst te beoordelen. De taalmodellen en API's ondergaan een vergelijking met elkaar en met een referentietekst om de kwaliteit van de gegenereerde tekstvereenvoudigingen te beoordelen. De vergelijking gebeurt zowel subjectief als objectief aan de hand van de leesgraadsmetrieken benoemd in \ref{table:readability-scores}.
 
-\begin{itemize}
-	\item Een gefinetunede versie van T5\footnote{https://huggingface.co/husseinMoh/t5-small-finetuned-text-simplification}.
-	\item Een gefinetunede versie van BART\footnote{https://huggingface.co/sambydlo/bart-large-scientific-lay-summarisation}, getraind op woordenschat van Engelstalige wetenschappelijke artikelen.
-	\item Scientific Abstract Simplification\footnote{https://huggingface.co/haining/scientific\_abstract\_simplification}
-	\item GPT-3
-\end{itemize}
-
-Zoals aangegeven in het onderzoek van \textcite{Nenkova2004} worden leesgraadsformules en referentieteksten ingezet om de kwaliteit van een vereenvoudigde tekst te beoordelen. De taalmodellen en API's ondergaan een vergelijking met elkaar en met een referentietekst om de kwaliteit van de gegenereerde tekstvereenvoudigingen te beoordelen. De vergelijking gebeurt zowel subjectief als objectief aan de hand van de volgende leesgraadsmetrieken: 
-
-\begin{itemize}
-	\item Flesch-Reading-Ease
-	\item Gunning FOG
-\end{itemize}
+\medspace
 
 Deze evaluatie leidt tot de keuze van een taalmodel dat het meest geschikt is voor deze specifieke casus van wetenschappelijke artikelen, die gepersonaliseerd en geautomatiseerd moeten worden vereenvoudigd voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs. Het resultaat van deze onderzoeksfase is één taalmodel wat zal dienen als de basis en als methode om gekregen wetenschappelijke artikelen te vereenvoudigen op maat voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs.
 
-\subsection{Vergelijking met referentieteksten}
-
-Dit onderzoek vergelijkt twee wetenschappelijke artikelen met een referentietekst die handmatig is vereenvoudigd door twee lectoren en twee scholieren. Deze vier personen baseren zich op vooraf meegekregen richtlijnen, toegelicht in bijlage ...
-
 \medspace
 
-GPT-3 en de HuggingFace taalmoddelen kunnen enkel per API worden aangesproken en zijn daarmee niet in staat om direct PDF's te opladen. De inhoud wordt met de code op (TODO REF TOEVOEGEN) opgehaald en vervolgens direct aan het model gegeven om zo een resultaat te bekomen. 
-
-
-\medspace
-
-Bij het gebruik van het GPT-3 model worden vijf prompts gebruikt en om rekening te houden met de tokenlengte, wordt de tekst tussen de subtitels opgebroken. De prompts zijn zoals volgt opgesteld:
+Dit onderzoek vergelijkt twee wetenschappelijke artikelen met een referentietekst die handmatig is vereenvoudigd door twee lectoren en twee scholieren. Deze vier personen baseren zich op vooraf meegekregen richtlijnen, toegelicht in bijlage. GPT-3 en de HuggingFace-taalmoddelen kunnen enkel per API worden aangesproken en zijn daarmee niet in staat om direct PDF's te opladen. De inhoud wordt met de code op \ref{} opgehaald en vervolgens direct aan het model gegeven om zo een resultaat te bekomen. Bij het gebruik van het GPT-3 model worden vijf prompts gebruikt en om rekening te houden met de tokenlengte, wordt de tekst tussen de subtitels opgebroken. De prompts zijn in tabel \ref{table:tested-prompts} weergegeven. Daarnaast worden dezelfde bewezen parameters gebruikt om de API aan te spreken. Zoals eerder bewezen wordt een lage temperature toegepast om een probabilisch vertrouwd antwoord te verkrijgen, alsook een hoge \textit{top\_p} waarde om een hoge woordfrequentie te bekomen, zoals aangegeven in de documentatie van OpenAI.
 
 \begin{center}
+	\begin{table}[H]
 	\begin{tabular}{ | m{2cm} | m{14cm} | } 
 		\hline
 		\textbf{Naam} & \textbf{Prompt} \\
@@ -112,7 +113,9 @@ Bij het gebruik van het GPT-3 model worden vijf prompts gebruikt en om rekening 
 		P4 & Simplify an article for economics students (16-18 years old) by replacing difficult words (except technical jargon learned in the 2nd grade), words longer than 18 letters, and avoiding percentages. Use synonyms only once and give brief explanations if necessary. Write acronyms in full and replace pronouns with names. Simplify sentence constructions and prepositional phrases, splitting sentences into a maximum of ten words, but leave them unchanged if no simpler alternative is available. \\
 		\hline
 	\end{tabular}
-	\label{table:technologies}
+	\label{table:tested-prompts}
+	\caption{De GPT-3-prompts die in de vergelijkende studie aan bod komen.}
+	\end{table}
 \end{center}
 
 \section{Prototype voor tekstvereenvoudiging}
@@ -126,6 +129,7 @@ Dit hoofdstuk omschrijft de ontwikkeling van een prototype voor tekstvereenvoudi
 Het prototype is ontwikkeld met de benodigde functionaliteiten en eigenschappen uit de requirementsanalyse en wordt enkel lokaal uitgerold. De uitrol van dit prototype gebeurt enkel lokaal door middel van Docker. Python en het Flask-framework dienen als de basis voor deze webtoepassing. Het onderstaande schema haalt de gebruikte programmeertalen aan waaruit dit prototype bestaat. 
 
 \begin{center}
+	\begin{table}
 	\begin{tabular}{ | m{4cm} | m{12cm} | } 
 		\hline
 		\textbf{Technologie} & \textbf{Functionaliteit} \\
@@ -136,11 +140,14 @@ Het prototype is ontwikkeld met de benodigde functionaliteiten en eigenschappen 
 		\hline
 	\end{tabular}
 	\label{table:technologies}
+	\caption{Gebruikte programmeertalen in het prototype voor tekstvereenvoudiging.}
+	\end{table}
 \end{center}
 
 
 
 \begin{center}
+	\begin{table}
 	\begin{tabular}{ | m{4cm} | m{12cm} | } 
 		\hline
 		\textbf{Python-bibliotheek} & \textbf{Functionaliteit} \\
@@ -153,6 +160,8 @@ Het prototype is ontwikkeld met de benodigde functionaliteiten en eigenschappen 
 		\hline
 	\end{tabular}
 	\label{table:python-libraries}
+	\caption{Gebruikte Python-libraries en hun respectievelijke functie in het prototype.}
+	\end{table}
 \end{center}
 
 Het prototype is opgebouwd in Python met het Flask-framework om de webapplicatie te ondersteunen. Aanvullend op Flask maakt het prototype gebruik van Jinja, HTML, CSS en JavaScript (JS) zoals vermeld in \ref{table:technologies}. Tekstvereenvoudigingsfuncties worden eerst in Jupiter notebooks uitgetest, vooraleer deze in het prototype worden geplaatst. Docker wordt gebruikt als opzet voor de ontwikkelaars. Een scriptbestand vereenvoudigt de opstart van deze webapplicatie in tegenstelling tot de opstart per terminal. De nodige Python-bibliotheken worden alvorens opgehaald met Pipreq. Alle taalmodellen worden per API aangesproken, ofwel één Docker-container voor de webapplicatie volstaat voor dit prototype.
@@ -204,6 +213,7 @@ De eerste fase van het prototype slaat de tekstinhoud op in meerdere arrays die 
 De key-value paren dienen om de woorden aan hun respectievelijke PoS-tag te koppelen. De sleutel verwijst naar het woord in de zin en de waarde verwijst naar de PoS-tag die aan dit woord toebehoord.  Dit prototype houdt enkel rekening met de PoS-tagging van Nederlandstalige en Engelstalige teksten en daarom laadt het prototype enkel twee embeddingsmodellen op, zoals aangeduid in \ref{table:wordembeddings-spacy}. Hardcoderen is uit den boze en zo maakt het prototype gebruik van een dictionary die de naam van deze embeddingsmodellen bijhoudt. Het prototype hoeft daarmee enkel de taal te herkennen en die vervolgens door te geven aan de dictionary. Deze methode fouttolerant maken kan door Engels als standaardtaal mee te geven of door vooraf de gebruiker te vragen in welke taal de opgelade tekst staat.
 
 \begin{center}
+	\begin{table}
 	\begin{tabular}{ | m{4cm} | m{12cm} | } 
 		\hline
 		\textbf{Taal} & \textbf{Embeddingsmodel} \\
@@ -214,13 +224,14 @@ De key-value paren dienen om de woorden aan hun respectievelijke PoS-tag te kopp
 		\hline
 	\end{tabular}
 	\label{table:wordembeddings-spacy}
+	\caption{Gebruikte SpaCy Word-embeddings}
+	\end{table}
+
 \end{center}
 
 \subsection{Opties voor gepersonaliseerde tekstvereenvoudiging aanreiken.}
 
-Leerkrachten hebben baat aan een intuïtieve toepassing die prompts en API-calls voor hen kan regelen. Het prototype regelt dit door de eindgebruiker een formulier te presenteren met daarin alle opties die leerkrachten kunnen gebruiken om een wetenschappelijk artikel te vereenvoudigen op maat van de unieke noden voor een scholier met dyslexie in de derde graad van het onderwijs. 
-
-JavaScript komt hier aan bod als api-key herkenner; zodat de eindgebruiker weet of deze een GPT-3 api-sleutel heeft ingegeven.
+Leerkrachten hebben baat aan een intuïtieve toepassing die prompts en API-calls voor hen kan regelen. Het prototype regelt dit door de eindgebruiker een formulier te presenteren met daarin alle opties die leerkrachten kunnen gebruiken om een wetenschappelijk artikel te vereenvoudigen op maat van de unieke noden voor een scholier met dyslexie in de derde graad van het onderwijs. JavaScript komt hier aan bod als api-key herkenner; zodat de eindgebruiker weet of deze een GPT-3 api-sleutel heeft ingegeven.
 
 
 
