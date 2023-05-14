@@ -3,15 +3,7 @@
 
 \section{Inleiding}
 
-Het onderzoek start met een uitgebreide literatuurstudie over de benodige kennis binnen het logopedisch, taal- en informatica vakdomein om geautomatiseerde en gepersonaliseerde vereenvoudigdigde teksten te verkrijgen van wetenschappelijke artikelen. Om een toepassing voor gepersonaliseerde en geautomatiseerde tekstvereenvoudiging van wetenschappelijke artikelen  op maat van deze doelgroep aan te reiken, is het van cruciaal belang om de noden van scholieren met dyslexie in de derde graad van het middelbaar onderwijs te benoemen. Het onderzoek benoemt bewezen noden met behulp van een literatuurstudie. Daarnaast moeten de problemen bij huidige wetenschappelijke artikelen ook aangekaart worden. 
-
-\medspace
-
-Wetenschappelijke artikelen vereenvoudigen op maat voor scholieren met dyslexie kan volgens taalexperten op verschillende manieren. Het is belangrijk om stil te staan bij de bestaande en reeds bewezen handmatige tekstvereenvoudigingstechnieken. Vervolgens komen technieken voor geautomatiseerde tekstvereenvoudiging (ATV) aan bod. Om een beter begrip te hebben op deze technieken, wordt de nodige informatie van taalverwerking met AI gegeven, alsook huidige AI-technologieën die tekstvereenvoudiging kunnen realiseren.
-
-\medspace
-
-AI-technologieën zijn hoogstaand en worden alsmaar robuuster, maar het is cruciaal om bij dit onderzoek aandacht te besteden aan de mogelijke problemen die AI-ontwikkelaars moeten vermijden of waarvan zij zichzelf attent op moeten maken. 
+Het onderzoek start met een uitgebreide literatuurstudie over de benodige kennis binnen het logopedisch, taal- en informatica vakdomein om geautomatiseerde en gepersonaliseerde vereenvoudigdigde teksten te verkrijgen van wetenschappelijke artikelen. Om een toepassing voor gepersonaliseerde en geautomatiseerde tekstvereenvoudiging van wetenschappelijke artikelen  op maat van deze doelgroep aan te reiken, is het van cruciaal belang om de noden van scholieren met dyslexie in de derde graad van het middelbaar onderwijs te benoemen. Het onderzoek benoemt bewezen noden met behulp van een literatuurstudie. Daarnaast moeten de problemen bij huidige wetenschappelijke artikelen ook aangekaart worden. Wetenschappelijke artikelen vereenvoudigen op maat voor scholieren met dyslexie kan volgens taalexperten op verschillende manieren. Het is belangrijk om stil te staan bij de bestaande en reeds bewezen handmatige tekstvereenvoudigingstechnieken. Vervolgens komen technieken voor geautomatiseerde tekstvereenvoudiging (ATV) aan bod. Om een beter begrip te hebben op deze technieken, wordt de nodige informatie van taalverwerking met AI gegeven, alsook huidige AI- technologieën die tekstvereenvoudiging kunnen realiseren. Ten slotte zijn AI- technologieën hoogstaand en worden alsmaar robuuster, maar het is cruciaal om bij dit onderzoek aandacht te besteden aan de mogelijke problemen die AI- ontwikkelaars moeten vermijden of waarvan zij zichzelf attent op moeten maken. 
 
 \section{Specifieke noden en richtpunten}
 
@@ -250,7 +242,7 @@ De begrippen die volgen worden behandeld in \textcite{Sohom2019, Eisenstein2019}
 
 \medspace
 
-Er zijn vier manieren om tokens in een tekst te splitsen en zo een woordenschat op te bouwen, namelijk op woord-, karakter-, subwoord- en zinniveau, volgens onderzoek van \textcite{Menzli2023}. Bij karakter-tokenisatie neemt de inputlengte toe, maar heeft volgens \textcite{Ribeiro2018} weinig bruikbare use cases. Het opsplitsen van zeldzame woorden in kleinere stukken om een woordenschat op te bouwen biedt voordelen ten opzichte van tokenisatie op woordniveau, aldus \autocite{Iredale2022}.
+Tokenisatie splitst zinnen op basis van tokens. Er zijn vier manieren om tokens in een tekst te splitsen en zo een woordenschat op te bouwen, namelijk op woord-, karakter-, subwoord- en zinniveau, volgens onderzoek van \textcite{Menzli2023}. Bij karakter-tokenisatie neemt de inputlengte toe, maar heeft volgens \textcite{Ribeiro2018} weinig bruikbare use cases. Het opsplitsen van zeldzame woorden in kleinere stukken om een woordenschat op te bouwen biedt voordelen ten opzichte van tokenisatie op woordniveau, aldus \autocite{Iredale2022}.
 
 \medspace
 
@@ -272,40 +264,13 @@ Om de betekenis van elk woord in een tekst te begrijpen, moet een machine in sta
 
 NER-labeling wordt gebruikt om namen van personen, organisaties en locaties te herkennen en te classificeren. Het is een techniek om specifieke informatie uit tekst te halen, zoals het identificeren van de namen van personen, plaatsen of bedrijven die in nieuwsartikelen worden genoemd, of het extraheren van belangrijke data of getallen uit financiële rapporten, aldus \textcite{Jurafsky2014}. Figuur \ref{fig:ner} illustreert deze taak. Er zijn vier verschillende vormen van NER-labeling, zoals beschreven door \textcite{Li2018}: \textit{dictionary-based}, \textit{rule-based}, \textit{ML-based} en \textit{deep learning-based}. De eerste twee maken gebruik van vooraf gedefinieerde woordenboeken en regels, terwijl de laatste twee gebruik maken van statistische of neurale netwerken om te leren hoe entiteiten te herkennen. Elke vorm maakt gebruik van verschillende kenmerken en representaties om entiteiten te modelleren. \textcite{Poel2008} heeft een neurale netwerkmodel onderzocht voor PoS-tagging van Nederlandstalige teksten. Het model behaalde een nauwkeurigheid van 97,88\% voor bekende woorden en 41,67\% voor onbekende woorden en maakte gebruik van de Corpus Gesproken Nederlands (CGN) als trainingsdata. In de verwerking van tekst maken NLP-systemen gebruik van embeddings om woorden numeriek te representeren. Traditionele word embeddings bouwen een woordenschat op zonder de betekenis ervan in context te begrijpen. Contextuele word embeddings begrijpen daarentegen wel de context van een woord \autocite{Eisenstein2019}. 
 
-\subsection{Prompt engineering}
-
-Large Language Models of LLM's genereren tekst en karakters op basis van de waarschijnlijke uitkomst van een gegeven input. De meest gekende LLM's zijn GPT-3, BERT en T5 en dienen regelmatig als de fundering voor ge-fine-tunede modellen. Deze modellen maken gebruik van een neuraal netwerk om patronen in de input te herkennen en deze patronen te gebruiken om voorspellingen te doen over de uitvoer \autocite{Liu2020}. Iedereen kan volgens \textcite{McFarland2023} een input of prompt schrijven. Deze tools zoals chatbots zijn ontworpen om zo intuïtief mogelijk te zijn voor een algemeen doelpubliek. Prompt engineering is een steeds belangrijkere vaardigheid die nodig is om effectief te communiceren met LLM’s, zoals ChatGPT \autocite{Harwell2023}. Deze vaardigheid wordt geïllustreerd in \ref{img:prompt-engineering}.
-
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=8cm]{img/prompt-engineering-medium.png}
-	\end{center}
-	\caption{Afbeelding uit \textcite{McFarland2023}}
-	\label{img:prompt-engineering}
-\end{figure}
-
-Deze prompts kunnen volgens \textcite{Liu2020} gebruikt worden om werk te produceren dat is aangepast aan het doel. Een concrete en geoptimaliseerde prompt omvat een concrete scope, duidelijke vraagstelling, specifieke sleutelwoorden, de context en ten slotte gepersonaliseerde keuzes \autocite{McFarland2023}. Bij een zoekopdracht moeten voldoende parameters in de prompt worden opgenomen. Zo niet zal het model te algemeen blijven en mogelijks afwijken van de intentie van de gebruiker. Effectieve AI prompt engineering leidt tot hoogwaardige trainingsgegevens die het AI-model in staat stellen om nauwkeurige voorspellingen en beslissingen te maken \autocite{Liu2020}. 
-
-\medspace
-
-Prompt patterns is samen met prompt engineering naar boven gekomen en is vergelijkbaar met software patterns. Deze patronen zijn herbruikbare oplossingen voor veelvoorkomende problemen in een bepaalde context, waaronder vooral de interactie bij het werken met LLM's. \textcite{White2023} benoemt vier \textit{prompt patterns}:
-
-\begin{itemize}
-	\item	Intent-prompts waarbij een LLM een instructie krijgt met een specfiek verwacht antwoord.
-	\item	Restriction-prompts die het antwoord van een LLM inperkt. Deze pattern is noodzakelijk om een LLM binnen de lijnen te houden.
-	\item 	Contextualization-prompts verzekeren dat de output van een LLM relevant is. Een context wordt aan de LLM meegegeven.
-	\item	Expansion/reduction-prompts genereren een beknopte output met voldoende details. 
-\end{itemize}
-
 \section{De verschillende soorten ATS}
 
-Tekstvereenvoudiging kan bijdragen aan het begrijpen van complexe informatie. Zoals onderzocht door \textcite{Siddharthan2014}, zijn er verschillende soorten transformaties bij tekstvereenvoudiging, waaronder lexicale vereenvoudiging, waarbij complexe woorden worden vervangen door eenvoudigere synoniemen. Bij \textit{lexical simplification} (LS) of lexicale vereenvoudiging worden ingewikkelde woorden vervangen door eenvoudigere synoniemen. Bijvoorbeeld, 'adhesief' kan vervangen worden door 'klevend'. \textcite{Kandula2010} noemt twee manieren om lexicale vereenvoudiging te bewerkstelligen: het vervangen van het woord door een synoniem of het genereren van extra uitleg. De zinsstructuur blijft hetzelfde en de kerninhoud en benadrukking van de tekst blijven behouden. Het doel van lexicale vereenvoudiging is om de moeilijkheidsgraad van de woordenschat in een zin of tekst te verlagen.
+Tekstvereenvoudiging kan bijdragen aan het begrijpen van complexe informatie. Zoals onderzocht door \textcite{Siddharthan2014}, zijn er vier soorten transformaties bij geautomatiseerde tekstvereenvoudiging, waaronder lexicale vereenvoudiging, waarbij complexe woorden worden vervangen door eenvoudigere synoniemen. Bij \textit{lexical simplification} (LS) of lexicale vereenvoudiging worden ingewikkelde woorden vervangen door eenvoudigere synoniemen. Bijvoorbeeld, 'adhesief' kan vervangen worden door 'klevend'. \textcite{Kandula2010} noemt twee manieren om lexicale vereenvoudiging te bewerkstelligen: het vervangen van het woord door een synoniem of het genereren van extra uitleg. De zinsstructuur blijft hetzelfde en de kerninhoud en benadrukking van de tekst blijven behouden. Het doel van lexicale vereenvoudiging is om de moeilijkheidsgraad van de woordenschat in een zin of tekst te verlagen.
 
 \medspace
 
-Verschillende onderzoeken hebben aangetoond dat lexicale vereenvoudiging een belangrijke bijdrage kan leveren aan het begrijpen van complexe informatie, en in dit kader wordt de pipeline zoals weergegeven in figuur \ref{img:pipeline-lexical-simplification} vaak gebruikt, bijvoorbeeld in onderzoeken van \textcite{Paetzold2016, Bingel2018, Bulte2018}. Deze pipeline omvat bij de vermelde onderzoeken telkens minstens vier stappen, waarbij de eerste stap \textit{Complex Word Identification} (CWI) is, een gesuperviseerde NLP-taak die moeilijke woorden of \textit{multi-word expressions} (MWE) in een tekst identificeert \autocite{Shardlow2013, Gooding2019}. Na CWI kan lexicale vereenvoudiging (LS) worden toegepast, waarbij complexe woorden worden vervangen door eenvoudigere synoniemen of verder worden uitgelegd met voorbeelden of definities \autocite{Zeng2005, Kandula2010}. Het is van cruciaal belang dat CWI goed wordt uitgevoerd, omdat een lage \textit{recall} van dit component zal resulteren in een uitvoertekst waarin moeilijke woorden niet worden vereenvoudigd, zoals opgemerkt door \textcite{Shardlow2013}. Er zijn verschillende manieren geïdentificeerd om substitutiegeneratie uit te voeren, zoals opgesomd in tabel \ref{table:lexical-databases}. Recenter onderzoek, zoals dat van \textcite{Zhou2019}, gebruikt ook een extra Substitution Ranking (SR) stap om substituties te rangschikken op basis van relevantie.
-
-% TODO aanpassen
+Verschillende onderzoeken hebben aangetoond dat lexicale vereenvoudiging een belangrijke bijdrage kan leveren aan het begrijpen van complexe informatie, en in dit kader wordt de pipeline zoals weergegeven in figuur \ref{img:pipeline-lexical-simplification} vaak gebruikt, bijvoorbeeld in onderzoeken van \textcite{Paetzold2016, Bingel2018, Bulte2018}. Deze pipeline omvat bij de vermelde onderzoeken telkens minstens vier stappen, waarbij de eerste stap \textit{Complex Word Identification} (CWI) is, een gesuperviseerde NLP-taak die moeilijke woorden of \textit{multi-word expressions} (MWE) in een tekst identificeert \autocite{Shardlow2013, Gooding2019}. Na CWI kan lexicale vereenvoudiging (LS) worden toegepast, waarbij complexe woorden worden vervangen door eenvoudigere synoniemen of verder worden uitgelegd met voorbeelden of definities \autocite{Zeng2005, Kandula2010}. Het is van cruciaal belang dat CWI goed wordt uitgevoerd, omdat een lage \textit{recall} van dit component zal resulteren in een uitvoertekst waarin moeilijke woorden niet worden vereenvoudigd, zoals opgemerkt door \textcite{Shardlow2013}. Er zijn verschillende manieren geïdentificeerd om substitutiegeneratie uit te voeren, zoals opgesomd in tabel \ref{table:lexical-databases}. Recenter onderzoek, zoals dat van \textcite{Zhou2019}, gebruikt ook een extra Substitution Ranking (SR) stap om substituties te rangschikken op basis van relevantie. 
 
 \begin{figure}[H]
 	\includegraphics{img/lexical-simplification-pipeline.png}
@@ -330,8 +295,6 @@ Meertalig (Engels, Duits, Spaans en Portugees) & PHOR-in-One \\
 \caption{Beschikbare Nederlandstalige, Engelstalige en meertalige lexicale databanken anno mei 2023.}
 \label{table:lexical-databases}
 \end{tabular}
-
-% gedaan door synoniemen te zoeken voor een doelwoord in lexicale databanken zoals WordNet, BERT, context2vec, nPIC of OOC. Uit een onderzoek van de Universiteit van KU Leuven stroomde een lexicale databank voor de Nederlandse taal verder voor, namelijk NT2Lex\footnote{https://cental.uclouvain.be/cefrlex/nt2lex/download/}.
 
 \medspace
 
@@ -359,7 +322,7 @@ Om wetenschappelijke artikelen toegankelijker en begrijpelijker te maken, is het
 
 \medspace
 
-Bij het extraherend samenvatten van teksten worden de belangrijkste zinnen gemarkeerd en opnieuw geformuleerd. Dit kan echter leiden tot onsamenhangende uitvoertekst, zoals \textcite{Khan2014} heeft aangetoond. Om de kernzinnen te bepalen, kunnen verschillende methoden worden gebruikt, zoals woordfrequentie, zinpositie en gelijkenissen, de cue-methode, titels, de rest van het document, proper nouns, woordgebruik en de afstand tussen text units met entiteiten, aldus \textcite{Khan2014}. Verschillende technieken voor het extraherend samenvatten van teksten, waaronder graafgebaseerde methoden, maximal marginal relevance (MMR) en metaheuristiek-gebaseerde ES, zijn onderzocht door \textcite{Verma2020} en worden verder beschreven in Tabel \ref{table:extractive-summarization}.
+Bij het extraherend samenvatten van teksten worden de belangrijkste zinnen gemarkeerd en opnieuw geformuleerd. Dit kan echter leiden tot onsamenhangende uitvoertekst, zoals \textcite{Khan2014} heeft aangetoond. Om de kernzinnen te bepalen, kunnen verschillende methoden worden gebruikt, zoals woordfrequentie, zinpositie -en gelijkenissen, de cue-methode, titels, de rest van het document, proper nouns, woordgebruik en de afstand tussen text units met entiteiten, aldus \textcite{Khan2014}. Verschillende technieken voor het extraherend samenvatten van teksten, waaronder graafgebaseerde methoden, maximal marginal relevance (MMR) en metaheuristiek-gebaseerde ES, zijn onderzocht door \textcite{Verma2020} en worden verder beschreven in Tabel \ref{table:extractive-summarization}.
 
 \begin{center}
 	\begin{tabular}{ | m{4cm} | m{12cm} | } 
@@ -389,90 +352,102 @@ Om de nauwkeurigheid van modellen te verbeteren, hebben \textcite{Nallapati2017}
 
 \medspace
 
-Het ophalen van kernzinnen kan leiden tot een onsamenhangende tekst. Om samenhang te creëren tussen zinnen, worden kernzinnen vaak geparafraseerd in de taalwereld. Er zijn twee benaderingen om een tekst op een abstraherende manier samen te vatten: de semantisch-gebaseerde en de structuurgebaseerde benadering. De structuurgebaseerde methode gebruikt regels om belangrijke informatie in de tekst te vinden, maar kan leiden tot samengevatte zinnen met lage taalkundige kwaliteit en grammaticale fouten. De semantisch-gebaseerde benadering daarentegen gebruikt de betekenis van de tekst om korte en duidelijke samenvattingen te maken met minder redundante zinnen en betere taalkundige kwaliteit, hoewel een extra parsingfase nodig kan zijn. \textcite{Cao2022} deed verder onderzoek naar deep learning methoden om automatisch abstraherende samenvattingen te genereren. Deep learning-modellen zoals RNN's, CNN's en Seq2Seq kunnen worden gebruikt voor abstraherend samenvatten door de betekenis van de tekst te begrijpen en belangrijke informatie over te brengen \autocite{Suleiman2020}.
+Extraherende samenvattingen kunnen leiden tot een onsamenhangende tekst. Een oplossing hiervoor is abstraherende samenvatting, die vergelijkbaar is met parafraseren. Er zijn twee benaderingen om een tekst op een abstraherende manier samen te vatten: de semantisch-gebaseerde en de structuurgebaseerde benadering. De structuurgebaseerde methode gebruikt regels om belangrijke informatie in de tekst te vinden, maar dit kan leiden tot samengevatte zinnen van lage taalkundige kwaliteit en grammaticale fouten. De semantisch-gebaseerde benadering daarentegen gebruikt de betekenis van de tekst om korte en duidelijke samenvattingen te maken met minder redundante zinnen en een betere taalkundige kwaliteit, hoewel er mogelijk een extra parsingfase nodig is. Onderzoek door \textcite{Cao2022} richt zich op het gebruik van deep learning-methoden om automatisch abstraherende samenvattingen te genereren. Modellen zoals RNN's, CNN's en Seq2Seq kunnen worden gebruikt voor abstraherende samenvattingen door de betekenis van de tekst te begrijpen en belangrijke informatie over te brengen \autocite{Suleiman2020}.
 
 \medspace
 
-Volgens \textcite{Hsu2018, Huang2019} zou een ideale samenvatting zowel abstraherend als extraherend moeten zijn. Een hybride samenvattings-pijplijn zou daarom twee fasen moeten bevatten: een \textit{content selection} fase waarin de kernzinnen worden opgehaald door middel van extraherende samenvatting, en een \textit{paraphrasing}-fase waarbij de gemarkeerde kernzinnen abstraherend worden samengevat.
-
-\subsection{Ondersteunende en bevoordelende effecten van ATS voor scholieren met dyslexie}
-
-% Uitleg over dit onderzoek
-
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=9cm]{img/dutch-simplification-dyslexia-pipeline.png}
-	\end{center}
-	\caption{Afbeelding uit \textcite{Bulte2018}}
-	\label{img:dyslexia-bulte-pipeline}
-\end{figure}
-
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=9cm]{img/dutch-simplification-dyslexia-example.png}
-	\end{center}
-	\caption{Afbeelding uit \textcite{Bulte2018}}
-	\label{img:dyslexia-bulte-example}
-\end{figure}
-
-
-Al zijn er onderzoeken over lexicale, syntactische en semantische vereenvoudiging voor kinderen en scholieren met dyslexie, het aantal onderzoeken over samenvatten voor deze doelgroep is schaars. Zoals eerder aangehaald is er wel onderzoek gedaan naar de verschillende manieren om een tekst samen te vatten, maar er is geen toepassing of onderzoek dat dit concreet uitwerkt. 
-
-\subsection{MTS en ATS combineren}
-% Hoe kunnen geautomatiseerde tekstvereenvoudiging en gepersonaliseerde tekstvereenvoudiging gecombineerd worden?
-
-\textcite{Sanja2021} wijzen erop dat toepassingen voor tekstvereenvoudiging regelmatig als \textit{showcase} van de technologie ontwikkeld worden en zelden tot weinig rekening houden met personalisatieopties die nodig zijn om een vereenvoudiging op maat te kunnen genereren.
+Wanneer het aankomt op het samenvatten van lange tekstdocumenten zoals boeken of wetenschappelijke tijdschriften, is een andere aanpak vereist vanwege de lengte van het oorspronkelijke document. Het opsplitsen van de tekst kan leiden tot het breken van samenhangende paragrafen, wat later kan resulteren in redundante tekst in het samengevatte document. Volgens onderzoek van zowel \textcite{Hsu2018} als \textcite{Huang2019} zou een ideale samenvatting van een lang document zowel extraherend als abstraherend moeten zijn. Om deze reden zou een hybride samenvattingspijplijn twee fasen moeten bevatten: een inhoudselectiefase waarin de kernzinnen worden geëxtraheerd door middel van extraherende samenvatting en een parafraserende fase waarin de geïdentificeerde kernzinnen abstraherend worden samengevat.
 
 \medspace
 
 Bij het ontwerpen van een ondersteunende toepassing voor dyslexie moet rekening worden gehouden met de individuele behoeften en uitdagingen van elke scholier, volgens \textcite{Gooding2022}. Dyslexie kan zich namelijk op verschillende manieren uiten bij verschillende scholieren, waarbij bijkomende symptomen niet altijd van invloed zijn op de spellingprestaties van een scholier. Om deze reden is het belangrijk om een toepassing te ontwerpen die rekening houdt met de diversiteit van dyslexie.
 
-\subsection{Trends bij ATV}
-
-% TODO LLM --> BERT / GPT-3
-
-BERT is een meertalige Large Language Model (LLM) dat contextual word embeddings gebruikt. Het is getraind op 110 miljoen parameters uit 104 verschillende talen, waaronder Nederlands. Voor de Nederlandse taal zijn er twee varianten van BERT beschikbaar, namelijk RobBERT en BERTje. RobBERT wordt als krachtiger beschouwd. 
-
-% TODO HuggingFace
-
-\begin{tabular}{cols}
-	content...
-\end{tabular}
-
-% TODO tabel
-
-% Het is aangetoond in \textcite{Zhang2020} dat het Pegasus-model een pre-trained model gebruikt voor NLP-samenvatting en gap-zinnen afhandelt, en getraind en geëvalueerd is voor verschillende soorten samenvattings-taken. LED of Longformer Encoder-Decoder is specifiek ontworpen om lange documenten te verwerken, waardoor het geschikt is voor het samenvatten van lange wetenschappelijke artikelen. 
-
 \section{Beschikbare tools en taalmodellen}
 
-Dyslexie is een veelvoorkomende aandoening die de lees- en schrijfvaardigheden van scholieren kan belemmeren. Om deze scholieren te ondersteunen, worden er verschillende softwareprogramma's en tools ontwikkeld. In dit hoofdstuk zal worden gekeken naar mogelijke nationale en internationale software die specifiek is ontworpen om scholieren met dyslexie te helpen bij het lezen van teksten. Er zal met name worden gekeken naar de beschikbare software in Vlaamse middelbare scholen, chatbots, zoals Bing AI en ChatGPT, en software die speciaal is ontwikkeld om dyslexie te ondersteunen bij het lezen. Deze sectie beantwoordt de volgende onderzoeksvraag: "Welke toepassingen, tools en modellen zijn er beschikbaar om Nederlandstalige geautomatiseerde tekstvereenvoudiging met AI mogelijk te maken?"
-
-\medspace
-
-In het middelbaar onderwijs wordt lees- en studieondersteuning voor scholieren met dyslexie enkel in de vorm van voorleessoftware voorzien \autocite{DeCraemer2018, OnderwijsVlaanderen2023}. \textcite{OnderwijsVlaanderen2023} leent licenties voor de volgende softwarepakketten uit SprintPlus, Kurzweil3000, Alinea Suite, IntoWords en TextAid. Naast luister- en schrijfopties kunnen scholieren deze toepassingen gebruiken om zinnen te markeren om deze zinnen vervolgens samen te vatten. Enkel de gemarkeerde zinnen worden betrokken in de samengevatte versie, dus de zinnen blijven lexicaal, syntactisch en semantisch identiek. Alle vermelde softwarepakketten bieden echter geen onafhankelijke samenvat- of vereenvoudigfunctie aan. \textcite{Tops2018} benadrukt de handige aspecten van deze software, maar deze software moet zo vroeg mogelijk in een schoolcarriére worden ingezet. Zo raken de scholieren snel vertrouwd met het gebruik, wat kan leiden tot een optimaal gebruik in verdere studies. Volgens \textcite{Tops2018} is het te laat om deze software pas in het hoger onderwijs te introduceren.
-
-\medspace
-
-Online zijn er tools beschikbaar om teksten generiek samen te vatten. Resoomer, Paraphraser en Scholarcy zijn oorspronkelijk Engelstalige tools, met ondertussen de mogelijkheid om een abstraherende samenvatting te maken van Nederlandstalige teksten. Proof-of-concepts zijn in schaarse hoeveelheid beschikbaar. De taalmodellen waar deze applicaties op werken, is niet gekend. Daarnaast zijn er ook geen API's beschikbaar om mee te werken. Gepersonaliseerde toepassingen zijn er in mindere mate. \textcite{Bingel2018} omschrijft een proof-of-concept voor een webtoepassing dat teksten vereenvoudigd, met oog op mensen met dyslexie. Deze software noemt nu Hero en bevindt zich in betafase. Deze toepassing is ondertussen herwerkt als browserextensie bij selecte nieuwssites en kan daarmee niet gebruikt worden voor wetenschappelijke artikelen.
-
-\medspace
-
-Toepassingen om wetenschappelijke artikelen te vereenvoudigen zijn schaars, maar er zijn enkele gratis en betalende toepassingen beschikbaar. SciSpace\footnote{https://typeset.io/} is gratis. Scholarcy\footnote{https://www.scholarcy.com/?ref=theresanaiforthat} is betalend. 
-
-\begin{figure}
-	\includegraphics{img/typeset-example.png}
-	\caption{Schermafbeelding van SciSpace}
-\end{figure}
-
-\medspace
-
-\textit{Generative Pretrained Transformer 3} of GPT-3 is een taalmodel ontworpen door OpenAI. Dit taalmodel gebruikt een tweestapsleerparadigma waarbij het eerst ongesuperviseerd wordt getraind met een taalmodelleringsdoel en daarna gesuperviseerd wordt gefinetuned. Over drie versies heen is het model aanzienlijk vergroot, van anderhalf miljard parameters bij GPT-2 naar 175 miljard parameters bij GPT-3. Het model is getraind op niet-gecategoriseerde data van het internet en gebruikt datasets waaronder Common Crawl, WebText2, Books1, Books2, and Wikipedia \autocite{Radford2019, Li2022}.
+Het kan moeilijk zijn voor scholieren met dyslexie om goed te lezen en te schrijven. Gelukkig zijn er verschillende softwareprogramma's en tools beschikbaar om hen te ondersteunen. Deze sectie gaat in op de nationale en internationale software die specifiek is ontworpen voor scholieren met dyslexie om hen te helpen bij het lezen van teksten.  Er zal voornamelijk worden gekeken naar beschikbare software in Vlaamse middelbare scholen, chatbots zoals Bing AI en ChatGPT, en software die speciaal is ontwikkeld om dyslexie bij het lezen te ondersteunen. Deze sectie beantwoordt de volgende deelvraag: 
 
 \begin{itemize}
-	\item In figuur \ref{img:simplification-gooding}: De invoertekst is een paragraaf uit een niet-vermeld boek van de Russische schrijver Dostoevsky. Het resultaat van de meegegeven prompt is een transformatie dat iedere vorm van vooraf aangehaalde vereenvoudiging weergeeft. Lexicale, conceptuele en syntactische vereenvoudiging worden op de invoertekst toegepast.
-	\item In figuur \ref{img:different-versions-gooding}: Gooding haalt verder aan dat modellen zoals ChatGPT op twee vlakken de leesbaarheid van een tekst kan bevorderen. Allereerst door het verlenen van verschillende mogelijke versies van een vereenvoudigingstaak.
-	\item In figuur \ref{img:evaluation-gooding}: ...
+	\item Welke toepassingen, tools en modellen zijn er beschikbaar om Nederlandstalige geautomatiseerde tekstvereenvoudiging met AI mogelijk te maken?
 \end{itemize}
+
+\medspace
+
+Scholieren met dyslexie krijgen in het middelbaar onderwijs enkel ondersteuning in de vorm van voorleessoftware \autocite{DeCraemer2018, OnderwijsVlaanderen2023}. Het ministerie van Onderwijs in Vlaanderen biedt licenties aan voor verschillende softwarepakketten zoals SprintPlus, Kurzweil3000, Alinea Suite, IntoWords en TextAid, die scholieren kunnen gebruiken om zinnen te markeren en deze vervolgens samen te vatten. Het samenvatten gebeurt echter op een manier waarbij de zinnen lexicaal en syntactisch identiek blijven. Helaas bieden deze softwarepakketten geen functie voor het vereenvoudigen van teksten. Volgens \textcite{Tops2018} is het belangrijk om deze software zo vroeg mogelijk in de schoolcarrière te introduceren, zodat scholieren er snel vertrouwd mee raken en het optimaal kunnen gebruiken in verdere studies. Hoewel \textcite{Tops2018} de handige aspecten van deze software benadrukt, is het te laat om deze software pas in het hoger onderwijs te introduceren.
+
+\medspace
+
+Momenteel hebben scholieren met dyslexie in het middelbaar onderwijs beperkte tekstvereenvoudigingsfunctionaliteiten in de bestaande voorleessoftware. Dit onderstreept de noodzaak aan nieuwe erkende tools die tekstvereenvoudiging in het onderwijs mogelijk maken. Tools zoals Simplish en Rewordify kunnen een oplossing bieden. Hoewel Simplish oorspronkelijk Engelstalig is, is het inmiddels mogelijk om een vereenvoudigde tekst te genereren van Nederlandstalige teksten, al is deze functionaliteit betalend voor niet-Engelstalige teksten. Rewordify is enkel in staat om Engelstalige teksten te vereenvoudigen. Er zijn echter maar weinig proof-of-concepts beschikbaar en de taalmodellen waarop deze applicaties werken zijn niet gekend om deze tools te kunnen repliceren. Bovendien zijn er geen API's beschikbaar om mee te werken. 
+
+\medspace
+
+Voor samenvatting zijn er echter meer tools beschikbaar. Enkele voorbeelden hiervan zijn Resoomer, Paraphraser, Editpad, Scribbr en Quillbot. Al zijn er onderzoeken over geautomatiseerde lexicale en syntactische vereenvoudiging voor scholieren met dyslexie, het aantal onderzoeken over samenvatten voor deze doelgroep is schaars. Zoals eerder aangehaald is er wel onderzoek gedaan naar de verschillende manieren om een tekst samen te vatten, maar er is geen toepassing of onderzoek dat dit concreet uitwerkt. \textcite{Sanja2021} wijzen erop dat toepassingen voor tekstvereenvoudiging regelmatig als \textit{showcase} van de technologie ontwikkeld worden en zelden tot weinig rekening houden met gepersonaliseerde samenvatting om zo rekening te houden met de verschillende noden.
+
+\medspace
+
+Er zijn weinig toepassingen beschikbaar om wetenschappelijke artikelen te vereenvoudigen, maar er bestaan enkele gratis en betalende opties, waaronder SciSpace\footnote{https://typeset.io/} en Scholarcy\footnote{https://www.scholarcy.com/}. Hoewel het proof-of-concept voor een webtoepassing genaamd Lexi, nu genaamd Hero, oorspronkelijk was ontworpen om teksten te vereenvoudigen voor mensen met dyslexie \autocite{Bingel2018}, is het niet geschikt voor wetenschappelijke artikelen. Het is echter nu herwerkt als browserextensie voor selecte nieuwssites.
+
+\medspace
+
+% TODO conclusie
+
+\ref{table:overview-tools}.
+
+\begin{center}
+	\begin{tabular}{ | m{4cm} | m{12cm} | } 
+	\textbf{Tool} & Algemene functionaliteit \\
+	\hline
+	Sprintplus & \\
+	Kurzweil3000 & \\
+	Alinea Suite & Voorleessoftware met ondersteuningsmogelijkheden voor woordenschat \\
+	IntoWords & \\
+	TextAid & \\
+	\hline
+	Resoomer &  \\
+	Paraphraser & \\
+	Editpad & Samenvattingstool zonder specifieke casus \\
+	Scribbr & \\
+	Quillbot & \\
+	\hline
+	SciSpace & Samenvattingstool voor wetenschappelijke artikelen. \\
+	Scholarcy & \\
+	\hline
+	Simplish & Tool voor tekstvereenvoudiging met bijhorende analyse\\
+	Rewordify & \\
+	\hline
+	\caption{Overzicht van gekende voorleessoftware, tekstvereenvoudigings- en samenvattingstools die intuïtief zijn ontwikkeld voor de eindgebruiker (leerkracht of scholier).}
+	\label{table:overview-tools}
+	\end{tabular}
+\end{center}
+
+\medspace
+
+Huggingface wordt beschouwd als een platform of portaalsite voor het delen van ML-modellen en datasets. Het biedt een breed scala aan API's en tools die gemakkelijk te downloaden en trainen zijn voor pretrained modellen voor veelvoorkomende NLP-taken, zoals tekstclassificatie, taalmodellering en samenvatting. Ontwikkelaars kunnen deze modellen finetunen op specifieke datasets om snel modellen te bouwen en inzetten voor vereenvoudigings- en samenvattingstaken. Bruikbare taalmodellen met hun respectievelijke casus worden weergegeven in tabel \ref{table:huggingface-models}.
+
+\medspace
+
+\begin{center}
+	\begin{tabular}{ | m{4cm} | m{12cm} | } 
+		\textbf{Taalmodel} & Specifieke casus \\
+		Google Pegasus & Samenvattingstaken voor kort tot middelgrote documenten. \\
+		\hline
+		Longformer Encoder-Decoder & Samenvatting van lange wetenschappelijke artikelen \\
+		\hline
+		Haining Scientific Abstract Simplification\footnote{https://huggingface.co/haining/scientific\_abstract\_simplification} & Het lexicaal vereenvoudigen van wetenschappelijke artikelen. \\
+		\hline
+		BART Large Scientific Summarisation\footnote{https://huggingface.co/sambydlo/bart-large-scientific-lay-summarisation} & Het samenvatten van wetenschappelijke artikelen. \\
+		\hline
+		\caption{HuggingFace beschikbare en ge-finetunede taalmodellen}
+		\label{table:huggingface-models}
+	\end{tabular}
+\end{center}
+
+\medspace
+
+Het taalmodel GPT-3 is ontwikkeld door OpenAI en maakt gebruik van een tweestapsleerparadigma. Het model wordt eerst ongesuperviseerd getraind met een taalmodelleringsdoel en wordt vervolgens gesuperviseerd gefinetuned. Het aantal parameters van het model is sterk toegenomen van 1,5 miljard bij GPT-2 naar 175 miljard bij GPT-3, en het model is getraind op niet-gecategoriseerde data van het internet met behulp van datasets zoals Common Crawl, WebText2, Books1, Books2 en Wikipedia \autocite{Radford2019, Li2022}. GPT-3 heeft verschillende versies, waaronder GPT-3.5 die als engine dient voor ChatGPT, een conversatie-chatbot. Omdat onbegrijpelijke en ontoegankelijke zinsstructuren niet alleen voor leken, maar ook voor vakexperten een obstakel vormen, is het belangrijk om te benadrukken dat GPT-3.5 gericht is op conversationele doeleinden, terwijl GPT-3 in het algemeen bedoeld is om met hoogstens één prompt te werken \autocite{McNutt2014, Hubbard2017}.
+
+\medspace
+
+Volgens Gooding \autocite{Gooding2021} kan een model als ChatGPT de leesbaarheid van een tekst op twee manieren bevorderen. Ten eerste kan het verschillende versies van een vereenvoudigingstaak leveren, waardoor de gebruiker een keuze kan maken. Dit wordt geïllustreerd in figuur \ref{img:different-versions-gooding}, waar Gooding aangeeft dat de invoertekst op verschillende manieren kan worden vereenvoudigd op basis van de prompt. Verder bespreekt Gooding in figuur \ref{img:evaluation-gooding} de prompt-gebaseerde evaluatiemanier van GPT-3. Het model kan de verschillen tussen de gegenereerde teksten begrijpen en de gebruiker feedback geven. In figuur \ref{img:simplification-gooding} laat Gooding zien hoe het model lexicale, conceptuele en syntactische vereenvoudiging kan toepassen op een paragraaf uit een boek van de Russische schrijver Dostoevsky.
 
 \begin{figure}[H]
 	\includegraphics[width=10cm]{img/chatgpt-example-simplification-gooding.png}
@@ -492,105 +467,162 @@ Toepassingen om wetenschappelijke artikelen te vereenvoudigen zijn schaars, maar
 	\label{img:evaluation-gooding}
 \end{figure}
 
-\textcite{Lisowski2023} vergelijkt de twee OpenAI taalmodellen met een \textit{mixed-methods} onderzoek. Al blijken de twee heel gelijkaardig, het experiment benadrukt dat het ChatGPT-model gericht is op conversationele doeleinden met voorkeur als chatbot, terwijl GPT-3 een ML-model is bedoeld om met hoogstens één prompt te werken. De grootte van het GPT-3 model met 175 miljard parameters imposanter dan Chat-GPT. Daarnaast is de limiet bij het meest recente GPT-3 model is 4000 tokens. Verder haalt Lisowski aan dat de kwaliteit bij beide modellen sterk afhankelijk is van de invoer. De prompts moeten concreet genoeg zijn, om zo niet af te wijken van wat de gebruiker wilt \autocite{Lisowski2023}. Deze twee API's zijn nu vrij beschikbaar voor ontwikkelaars als betalende API \autocite{Brockman2023}.
+\medspace
+
+% In een \textit{mixed-methods} onderzoek heeft \textcite{Lisowski2023} de twee OpenAI taalmodellen vergeleken. Hoewel de modellen erg op elkaar lijken, toont het experiment aan dat het ChatGPT-model vooral gericht is op conversatiedoeleinden, met name als chatbot. Aan de andere kant is GPT-3 een ML-model dat bedoeld is om te werken met maximaal één prompt en het heeft indrukwekkende 175 miljard parameters. Het meest recente GPT-3-model heeft een limiet van 4000 tokens. Bovendien benadrukt Lisowski dat de kwaliteit van beide modellen sterk afhankelijk is van de invoer en dat de prompts concreet genoeg moeten zijn om te voorkomen dat de modellen afwijken van wat de gebruiker wil \autocite{Lisowski2023}. Beide API's zijn nu beschikbaar voor ontwikkelaars als betalende API \autocite{Brockman2023}.
 
 \medspace
 
-De documentatie van OpenAI\footnote{https://platform.openai.com/docs/} reikt vier verschillende engines voor het GPT-3 taalmodel aan, namelijk Davinci, Curie, Babbage en Ada. In Maart 2023 voegde een vijfde engine zich toe, namelijk GPT-3 Turbo wat de basis is achter Chat-GPT. Davinci-003 is het meest geavanceerde model dat alles kan wat de andere engines ook kunnen, met de meest menselijke antwoorden en geschikt voor taken zoals essays schrijven en code genereren. Curie is goed voor nuance maar minder menselijk dan Davinci, terwijl Ada en Babbage minder krachtig zijn en aangeraden worden voor eenvoudige taken zoals tekst aanvullen en sentiment analyse \autocite{Brockman2023}. Deze engines gebruiken eenzelfde set van hyperparameters die aangepast kunnen worden opgesomd in \ref{table:gpt-3-parameters}.
+OpenAI biedt documentatie aan voor het GPT-3 taalmodel met vier verschillende engines, namelijk Davinci, Curie, Babbage en Ada. In maart 2023 is daar een vijfde engine bij gekomen, namelijk GPT-3 Turbo die wordt gebruikt door Chat-GPT. Davinci-003 is het meest geavanceerde model, geschikt voor taken zoals het schrijven van essays en het genereren van code, en levert de meest menselijke antwoorden. Curie is goed in nuance, maar minder menselijk dan Davinci, terwijl Ada en Babbage minder krachtig zijn en beter geschikt zijn voor eenvoudige taken zoals het aanvullen van tekst en sentimentanalyse \autocite{Brockman2023}. Deze engines maken gebruik van dezelfde set hyperparameters, die kunnen worden aangepast en staan opgesomd in tabel \ref{table:gpt-3-parameters}.
 
-	\begin{tabular}{ m{3cm} | m{3cm} | m{10cm} | }
-	\hline
-	Parameter & Omschrijving & Mogelijke waarden \\
-	\hline
-	model & Het GPT-3 model om te gebruiken & davinci, curie, babbage, ada, text-davinci-002, text-curie-001, text-babbage-001, text-ada-001, davinci-codex \\
-	\hline
-	temperature & De gulzigheid van een generatief model. Een lagere waarde zal conservatieve en voorspelbare tekst teruggeven. Hogere waarden zullen meer gevarieerde en onverwachtse tekst teruggeven, wat beter werkt bij creatieve toepassingen. & Een kommagetal tussen 0 en 1. \\
-	\hline
-	max\_tokens & Het maximaal aantal tokens (woorden of subwoorden) dat het generatief model kan teruggeven. & Een getal tussen 1 and 2048. \\
-	\hline
-	top\_p & Vergelijkbaar met temperature, maar deze waarde onderhoudt de probability distribution voor common tokens. Hoe lager de waarde, hoe waarschijnlijker de woordenschat dat het model zal overwegen bij het genereren van tekst. Een hoge waarde is toepasselijker wanneer een toepassing gericht is op nauwkeurigheid en correctheid. & Een kommagetal tussen 0 en 1. \\
-	\hline
-	stop & Een tekstwaarde (woord/symbool) tot waar het model zal genereren. When the model generates a string that matches any of the specified strings, it stops generating text. & Een lijst van string-waarden, of een enkele string. \\
-	\hline
-	presence\_penalty & Factor die bepaalt hoe regelmatig woorden voorkomen. & Een kommagetal tussen 0 en 1 \\
-	\hline
-	\caption{Tabel met alle GPT-3 parameters.}
-	\label{table:gpt-3-parameters}
-\end{tabular}
+\medspace
 
-\begin{figure}
+\begin{center}
+	\begin{tabular}{ m{2cm} | m{10cm} | m{5cm} | }
+		\hline
+		Parameter & Omschrijving & Mogelijke waarden \\
+		\hline
+		model & Het GPT-3 model om te gebruiken & davinci, curie, babbage, ada, text-davinci-002, text-curie-001, text-babbage-001, text-ada-001, davinci-codex \\
+		\hline
+		temperature & De gulzigheid van een generatief model. Een lagere waarde zal conservatieve en voorspelbare tekst teruggeven. Hogere waarden zullen meer gevarieerde en onverwachtse tekst teruggeven, wat beter werkt bij creatieve toepassingen. & Een kommagetal tussen 0 en 1. \\
+		\hline
+		max\_tokens & Het maximaal aantal tokens (woorden of subwoorden) dat het generatief model kan teruggeven. & Een getal tussen 1 and 2048. \\
+		\hline
+		top\_p & Vergelijkbaar met temperature, maar deze waarde onderhoudt de probability distribution voor common tokens. Hoe lager de waarde, hoe waarschijnlijker de woordenschat dat het model zal overwegen bij het genereren van tekst. Een hoge waarde is toepasselijker wanneer een toepassing gericht is op nauwkeurigheid en correctheid. & Een kommagetal tussen 0 en 1. \\
+		\hline
+		stop & Een tekstwaarde (woord/symbool) tot waar het model zal genereren. When the model generates a string that matches any of the specified strings, it stops generating text. & Een lijst van string-waarden, of een enkele string. \\
+		\hline
+		presence\_penalty & Factor die bepaalt hoe regelmatig woorden voorkomen. & Een kommagetal tussen 0 en 1 \\
+		\hline
+		\caption{Tabel met alle GPT-3 parameters.}
+		\label{table:gpt-3-parameters}
+	\end{tabular}
+\end{center}
+
+\medspace
+
+Er zijn al diverse vergelijkende onderzoeken uitgevoerd naar de mogelijkheden van de OpenAI's ChatGPT en GPT-3 modellen, hoewel deze nog volop in ontwikkeling zijn. Een studie uitgevoerd door \textcite{Binz2023} toonde aan dat de menselijkheid van de antwoorden die worden gegenereerd door de modellen onder de davinci-engine, werden beoordeeld op basis van de \textit{mean-regret} score. Uit deze studie bleek dat deze modellen in staat zijn om redelijk menselijke antwoorden te produceren, zoals geïllustreerd in figuur \ref{img:mean-regret-chatgpt}. Uit het experiment van \textcite{Goyal2022} blijkt dat \textit{zero-shot} samenvattingen met GPT-3 beter presteren dan \textit{fine-tuned} modellen. Ook zijn er al enkele tools beschikbaar die gebruikmaken van de GPT-3 API, waaronder Jasper AI en ChatSonic, zoals aangehaald door \textcite{Mottesi2023}. Voor het onderwijs zijn er mogelijkheden dankzij de hoge toegankelijkheid en granulaire personalisatie van het GPT-3 model, aldus \textcite{Roose2023} en \textcite{Garg2022}. Wel is het zo dat GPT-3 niet geschikt is voor alle taken, zoals sentimentanalyse en -classificatie, waarvoor een kleinschaliger taalmodel beter presteert \autocite{Li2022}. Ten slotte wordt er ook aandacht besteed aan de ecologische effecten van de grote omvang van deze modellen, waarvoor alternatieve oplossingen zoals het gebruik van Cloud-infrastructuur en geschikte model finetuning worden voorgesteld, volgens \textcite{Strubell2019} en \textcite{Simon2021}.
+
+\medspace
+
+\begin{figure}[H]
 	\begin{center}
-		\includegraphics{img/chatgpt-engines-mean-regret.png}
-		\caption{Afbeelding van \textcite{Binz2023}. Dit toont de \textit{mean regret} aan tussen de vier engines en de menselijke antwoorden.}
+		\includegraphics[width=10cm]{img/chatgpt-engines-mean-regret.png}
+		\caption{}
+		\label{img:mean-regret-chatgpt}
 	\end{center}
 \end{figure}
 
 \medspace
 
-De mogelijkheden van OpenAI's ChatGPT en GPT-3 modellen zijn nog volop in ontwikkeling, maar er zijn al enkele vergelijkende onderzoeken uitgevoerd. Uit het experiment van \textcite{Goyal2022} blijkt dat \textit{zero-shot} samenvattingen met GPT-3 beter presteren dan \textit{fine-tuned} modellen. Daarnaast haalt \textcite{Mottesi2023} verschillende tools aan die gebruik maken van de GPT-3 API, waaronder Jasper AI en ChatSonic. Ook voor het onderwijs zijn er mogelijkheden, zoals de hoge toegankelijkheid en granulaire personalisatie van het GPT-3 model \autocite{Roose2023, Garg2022}. Echter, GPT-3 is niet geschikt voor alle taken, zoals sentimentanalyse en -classificatie, waarvoor een kleinschaliger taalmodel beter presteert \autocite{Li2022}. Bovendien is er aandacht voor de ecologische effecten van de grote omvang van deze modellen, waarvoor alternatieve oplossingen zoals het gebruik van Cloud-infrastructuur en geschikte model finetuning worden voorgesteld \autocite{Strubell2019, Simon2021}.
+De generatie van tekst en karakters door LLM's wordt gebaseerd op de waarschijnlijke uitkomst van een gegeven input. LLM's zoals GPT-3, BERT en T5 zijn bekend en dienen vaak als basis voor gefinetunede modellen. Door gebruik te maken van een neuraal netwerk, kan het model patronen in de input herkennen en deze gebruiken om voorspellingen te doen over de output \autocite{Liu2020}. Het schrijven van een input of prompt is voor iedereen toegankelijk en intuïtieve tools zoals chatbots zijn ontworpen om een breed publiek te bereiken \autocite{McFarland2023}. In dit kader is prompt engineering een belangrijke vaardigheid om effectief te communiceren met LLM's, zoals ChatGPT \autocite{Harwell2023}. De vaardigheid van prompt engineering wordt geïllustreerd in figuur \ref{img:prompt-engineering}.
 
 \medspace
 
-De architectuur tussen GPT-3 en BERT is volgens \textcite{Mottesi2023} het meest opvallende verschil. GPT-3 is een autoregressief model en houdt daarmee enkel rekening met de linkercontext bij het voorspellen of genereren van tekst. BERT daarentegen is bidirectioneel en neemt zowel de linker- als de rechtercontext in overweging. De bidirectionele werking is geschikt voor sentimentanalyse waarbij begrip van de volledige zincontext noodzakelijk is. GPT-3 heeft toegang tot meer informatie (45TB) dan BERT (3TB), wat het een voordeel kan geven tijdens taalbewerkingen waaronder het vereenvoudigen, parafraseren of het vertalen. Ten slotte verschillen de LLM's ook qua grootte. Hoewel beide modellen erg groot zijn, is GPT-3 aanzienlijk groter dan de voorganger mede door de uitgebreide trainingsdatasetgrootte \autocite{Brown2020}. LLaMa of Large Language Model Meta AI is een generatief taalmodel met potentieel dat sterker is dan GPT-3 en soortgelijke modellen, terwijl het van tien keer minder parameters gebruik maakt, maar is nog niet beschikbaar als online webtoepassing of API \autocite{Hern2023, Touvron2023}.
-
-
 \begin{figure}[H]
-	\includegraphics{img/graph-language-models.png}
-	\caption{Afbeelding van \textcite{Simon2021}. De evolutie van pre-trained taalmodellen wordt hier weergegeven tot eind 2022. De performantie van de modellen ten opzichte van de grootte volgt een lineaire functie.}
+	\begin{center}
+		\includegraphics[width=10cm]{img/prompt-engineering-medium.png}
+	\end{center}
+	\caption{Afbeelding uit \textcite{McFarland2023}}
+	\label{img:prompt-engineering}
 \end{figure}
 
 \medspace
 
-Microsoft en OpenAI werken nauw samen. Zo maakt het conversationele taalmodel van Bing ook gebruik van GPT-3. Deze chatbot bouwt verder en biedt zo verwijzingen en referenties aan naar andere websites. Deze verwijzingen zijn volgens mogelijk door de Prometheus-technologie van Microsoft \autocite{Ribas2023}. Prometheus is een eigen technologie die door Bing is ontwikkeld. Het AI-model is volgens \textcite{Ribas2023} de eerste van zijn soort die de Bing-index-, ranking- en antwoordresultaten combineert met het redeneervermogen van OpenAI’s GPT-modellen. Prometheus maakt gebruik van de kracht van Bing en GPT om iteratief via een component genaamd \textit{Bing Orchestrator} een set interne queries te genereren met als doel binnen gegeven gesprekscontext een nauwkeurig antwoord op gebruikersqueries te bieden \autocite{Ribas2023}. Bing AI is nu in testfase met wachtlijst en bestaat in de vorm van een webpagina en een browserextensie voor Microsoft Edge. Onderzoek naar deze chatbot staat nog in de kinderschoenen en er is nood aan onderzoek naar de credibiliteit en correctheid van de verwijzingen. Deze chatbot gebruikt een combinatie van extraherende en abstraherende samenvattingen. In tegenstelling tot GPT-3 is er geen officiële API beschikbaar. Daarnaast is de limiet ook lager met 2000 tokens per bericht tijdens een conversatie. 
+Volgens onderzoek van \textcite{Liu2020} kunnen prompts worden gebruikt om werk te produceren dat is aangepast aan het doel. Het is belangrijk om een concrete en geoptimaliseerde prompt te hebben, inclusief een duidelijke scope, specifieke sleutelwoorden, de context en gepersonaliseerde keuzes \autocite{McFarland2023}. Bij het opstellen van een prompt voor een zoekopdracht is het cruciaal om voldoende parameters op te nemen om te voorkomen dat het model te algemeen blijft en afwijkt van de intentie van de gebruiker. Effectieve prompt engineering voor AI leidt tot hoogwaardige trainingsgegevens, waardoor het AI-model nauwkeurige voorspellingen en beslissingen kan maken \autocite{Liu2020}. Prompt patterns zijn ontstaan samen met prompt engineering en lijken op software patterns. Deze patronen bieden herbruikbare oplossingen voor veelvoorkomende problemen in een bepaalde context, vooral bij de interactie met LLM's. \textcite{White2023} benoemt vier \textit{prompt patterns}:
+
+\begin{itemize}
+	\item	Intent-prompts waarbij een LLM een instructie krijgt met een specfiek verwacht antwoord.
+	\item	Restriction-prompts die het antwoord van een LLM inperkt. Deze pattern is noodzakelijk om een LLM binnen de lijnen te houden.
+	\item 	Contextualization-prompts verzekeren dat de output van een LLM relevant is. Een context wordt aan de LLM meegegeven.
+	\item	Expansion/reduction-prompts genereren een beknopte output met voldoende details. 
+\end{itemize}
+
+\medspace
+
+BERT is een meertalige LLM die gebruik maakt van contextual word embeddings. Het model is getraind op 110 miljoen parameters uit 104 verschillende talen, waaronder Nederlands. Voor de Nederlandse taal zijn er twee varianten van BERT beschikbaar: RobBERT en BERTje. RobBERT wordt beschouwd als krachtiger dan BERTje. Het belangrijkste verschil tussen GPT-3 en BERT is volgens \textcite{Mottesi2023} de architectuur. GPT-3 is een autoregressief model dat alleen rekening houdt met de linkercontext bij het voorspellen of genereren van tekst, terwijl BERT bidirectioneel is en zowel de linker- als de rechtercontext in overweging neemt. De bidirectionele werking van BERT is geschikt voor sentimentanalyse, waarbij begrip van de volledige zincontext noodzakelijk is. Omdat GPT-3 toegang heeft tot meer informatie (45TB) dan BERT (3TB), kan dit een voordeel bieden tijdens taalbewerkingen zoals vereenvoudigen, parafraseren of vertalen. Ten slotte verschillen de LLM's ook qua grootte. Hoewel beide modellen erg groot zijn, is GPT-3 aanzienlijk groter dan BERT, mede door de uitgebreide trainingsdatasetgrootte \autocite{Brown2020}. Er is echter een nieuw generatief taalmodel genaamd LLaMa, dat sterker is dan GPT-3 en vergelijkbare modellen, terwijl het slechts tien keer minder parameters gebruikt. Helaas is LLaMa momenteel nog niet beschikbaar als online webtoepassing of API \autocite{Hern2023, Touvron2023}.  De evolutie van pre-trained taalmodellen wordt in \ref{img:graph-language-models} weergegeven. De performantie van de modellen ten opzichte van de grootte volgt een lineaire functie.
+
+\medspace
 
 \begin{figure}[H]
-	\includegraphics[width=6cm]{img/bing-ai-prometheus.png}
-	\caption{Afbeelding van \textcite{Ribas2023}.}
-\end{figure}
-
-\begin{figure}[H]
-	\includegraphics{img/bing-ai-chatbot-example.png}
-	\caption{In deze afbeelding wordt er een online wetenschappelijk artikel meegegeven. Er wordt geen titel of onderwerp meegegeven, maar de Bing AI chatbot is in staat om een abstraherende samenvatting te maken van het artikel. Daarna geeft de chatbot verder uitleg over een bepaald onderwerp en geeft het extra referenties mee.}
+	\includegraphics[width=10cm]{img/graph-language-models.png}
+	\caption{Afbeelding van \textcite{Simon2021}}
+	\label{img:graph-language-models}
 \end{figure}
 
 \medspace
 
-In recente literatuur is Huggingface beschreven als een platform of portaalsite voor het delen van ML-modellen en datasets. De bibliotheek biedt een scala aan API's en tools die gemakkelijk te downloaden en trainen zijn voor pretrained modellen voor prevalente NLP-taken, zoals tekstclassificatie, taalmodellering en samenvatting. Deze modellen kunnen worden gefinetuned op specifieke datasets, waardoor ontwikkelaars snel modellen kunnen bouwen en inzetten voor vereenvoudigings- en samenvattingstaken. Voor wetenschappelijke documenten en artikelen bestaan er al enkele modellen en datasets: \footnote{https://huggingface.co/sambydlo/bart-large-scientific-lay-summarisation}, \footnote{https://huggingface.co/haining/scientific\_abstract\_simplification}
+Microsoft en OpenAI hebben een nauwe samenwerking waarbij het conversationele taalmodel van Bing gebruikmaakt van GPT-3. Door de Prometheus-technologie, visueel weergegeven in figuur \ref{img:prometheus-visual}, van Microsoft kan deze chatbot verder bouwen en verwijzingen bieden naar andere websites \autocite{Ribas2023}. Deze verwijzingen zijn mogelijk omdat Prometheus de Bing-index-, ranking- en antwoordresultaten combineert met het redeneervermogen van OpenAI’s GPT-modellen. Via de \textit{Bing Orchestrator} genereert Prometheus iteratief een set interne queries om zo binnen de gegeven gesprekscontext nauwkeurige antwoorden op gebruikersvragen te bieden \autocite{Ribas2023}. Bing AI is momenteel in de testfase en is beschikbaar als webpagina en browserextensie voor Microsoft Edge. Het gebruik van extraherende en abstraherende samenvattingen maakt de chatbot interessant, maar er is nog onderzoek nodig naar de credibiliteit en correctheid van de verstrekte verwijzingen. Het is belangrijk om op te merken dat er geen officiële API beschikbaar is en de limiet tijdens een conversatie beperkt is tot 2000 tokens, in tegenstelling tot GPT-3.
 
-\subsection{Conclusie}
+\medspace
+
+\begin{figure}[H]
+	\includegraphics[width=10cm]{img/bing-ai-prometheus.png}
+	\caption{Afbeelding van \textcite{Ribas2023}}
+	\label{img:prometheus-visual}
+\end{figure}
+
+\medspace
 
 Experten halen het GPT-3 model en ChatGPT aan als de toekomst voor gepersonaliseerde en adaptieve uitleg aan scholieren. Bing AI biedt een extra dat revolutionair kan zijn bij het opzoeken van uitleg voor zoektermen, zonder het verlies aan bronvermelding. Huidige toepassingen staan mogelijks in een spreekwoordelijke schaduw eenmaal leessoftware voor scholieren met dyslexie worden ontwikkeld met AI. De mogelijkheden van GPT-3 zijn eindeloos en toepassingen die hiervan gebruik maken, kunnen in het onderwijs ingezet worden als ondersteunende software.
 
+% TODO TERUGKOPPELING
+
 
 \section{De valkuilen bij AI en NLP.}
-% 3 Met welke valkuilen bij taalverwerking met AI moeten ontwikkelaars rekening houden?
-AI en ML zijn volop in groei. NLP gebruikt AI en ML om menselijke taal te verwerken, terwijl NLU deze technologieën gebruikt om menselijke taal te begrijpen. Hoewel deze technologieën veelbelovend zijn, moeten AI-ontwikkelaars rekening houden met veelvoorkomende en genegligeerde uitdagingen en valkuilen \autocite{Sciforce2020, Roldos2020, Khurana2022}. Deze sectie beantwoordt de volgende onderzoeksvraag: "Met welke valkuilen bij taalverwerking met AI moeten ontwikkelaars rekening houden?"
+
+AI en ML zijn volop in groei. NLP gebruikt AI en ML om menselijke taal te verwerken, terwijl NLU deze technologieën gebruikt om menselijke taal te begrijpen. Hoewel deze technologieën veelbelovend zijn, moeten AI-ontwikkelaars rekening houden met veelvoorkomende en genegligeerde uitdagingen en valkuilen \autocite{Sciforce2020, Roldos2020, Khurana2022}. Deze sectie beantwoordt de volgende onderzoeksvraag: 
+
+\begin{itemize}
+	\item Met welke valkuilen bij taalverwerking met AI moeten ontwikkelaars rekening houden?
+\end{itemize}
 
 \medspace
 
-NLP- en NLU-toepassingen behoren tot de duurste om te ontwikkelen, wat een obstakel kan vormen voor veel IT-professionals. Het gebrek aan NLP-expertise, de kwaliteit en kwantiteit van data, de integratie en deployment van modellen en de transparantie van modellen zijn allemaal factoren die bijdragen aan deze hoge kosten \autocite{IBM2022}. Software-ontwikkelaars verkiezen volgens  voor \textit{black-box} modellen bij de ontwikkeling en finetuning van een NLP-toepassing met AI. Al is het verschil qua nauwkeurigheid minimaal, de afweging wordt gemaakt bij de transparantie van het model. Na een transformatie wordt er niet aangegeven waarom specifieke transformaties werden uitgevoerd, bijvoorbeeld het vervangen van een woord door een eenvoudiger synoniem. White-box taalmodellen zijn er in schaarse hoeveelheden \autocite{Punardeep2020}.
+Het ontwikkelen van NLP- en NLU-toepassingen is duur en vormt een obstakel voor veel IT-professionals vanwege factoren zoals het gebrek aan NLP-expertise, de kwaliteit en kwantiteit van data, de integratie en deployment van modellen en de transparantie van modellen \autocite{IBM2022}. Bij de ontwikkeling en finetuning van een NLP-toepassing met AI verkiezen software-ontwikkelaars \textit{black-box} modellen. Hoewel het verschil in nauwkeurigheid minimaal is, wordt de afweging gemaakt op basis van de transparantie van het model. Na een transformatie wordt niet aangegeven waarom specifieke transformaties zijn uitgevoerd, zoals het vervangen van een woord door een eenvoudiger synoniem. \textit{White-box} taalmodellen zijn schaars \autocite{Punardeep2020}.
 
 \medspace 
 
-Homoniemen kunnen volgens \textcite{Roldos2020} problemen veroorzaken bij sequence labeling of het labelen van tokens in een doorlopende tekst. Bijvoorbeeld bij het woord ‘bank’ is het niet duidelijk voor de machine of het gaat over de geldinstelling of het meubel. Word Sense Disambiguation (WSD), PoS-tagging en contextual embeddings kunnen de betekenis van een woord achterhalen op basis van de context \autocite{Eisenstein2019, Liu2020}. Het gebruik van synoniemen en antoniemen in NLP-systemen kan verbeterd worden door het gebruik van candidate generation en synonym detection, en meertalige transformers zoals BERT bieden een oplossing voor het gebrek aan niet-Engelstalige toepassingen \autocite{Dandekar2016, Roldos2020}.
+Sequence labeling kan worden bemoeilijkt door homoniemen, zoals beschreven in onderzoek door \textcite{Roldos2020}. Een voorbeeld hiervan is het woord 'bank', dat voor de machine niet duidelijk aangeeft of het gaat om de financiële instelling of het meubelstuk. Methoden zoals Word Sense Disambiguation (WSD), PoS-tagging en contextual embeddings kunnen de betekenis van woorden bepalen op basis van de context \autocite{Eisenstein2019, Liu2020}. Het verbeteren van NLP-systemen met synoniemen en antoniemen kan worden bereikt door het gebruik van candidate generation en synonym detection, terwijl meertalige transformers zoals BERT een oplossing bieden voor de beperkte toepassingen in andere talen dan het Engels \autocite{Dandekar2016, Roldos2020}.
 
 \medspace
 
-Tekstvereenvoudiging is bedoeld om gelijke kansen te bieden aan iedereen, maar ethische overwegingen en bewustzijn van de behoeften van de eindgebruiker zijn belangrijk bij het ontwikkelen van adaptieve tekstvereenvoudigingstoepassingen, zoals beschreven in onderzoeken van \textcite{Niemeijer2010, Xu2015, Gooding2022}. De eindgebruiker moet de keuze hebben om te kiezen welke delen van de tekst vereenvoudigd moeten worden, wat kan worden bereikt door synoniemen te kiezen of zinnen te markeren die moeilijk te begrijpen zijn.
+Verschillende studies hebben aangetoond dat tekstvereenvoudiging bedoeld is om gelijke kansen te bieden aan iedereen. Bij het ontwikkelen van adaptieve tekstvereenvoudigingstoepassingen is het echter belangrijk om ethische overwegingen en bewustzijn van de behoeften van de eindgebruiker in acht te nemen, zoals beschreven in onderzoeken van \textcite{Niemeijer2010}, \textcite{Xu2015}, en \textcite{Gooding2022}. Om de eindgebruiker meer controle te geven, moet deze de keuze hebben om te kiezen welke delen van de tekst vereenvoudigd moeten worden, wat kan worden bereikt door synoniemen te gebruiken of zinnen te markeren die moeilijk te begrijpen zijn.
 
 \medspace
 
-Iedereen kan converseren met een chatbot, maar de gepaste en verwachte antwoorden krijgen vergt een doordachte input. Een onnauwkeurige prompt of gebrek aan trainingsdata kan leiden tot onjuiste output, terwijl het gebruik van conditionele expressies of finetunen van hyperparameters kan helpen de betrouwbaarheid van het antwoord te vergroten \autocite{Miszczak2023, Jiang2023}.
+Hoewel iedereen kan converseren met een chatbot, vereist het verkrijgen van gepaste en verwachte antwoorden een doordachte input. Onnauwkeurige prompts of een gebrek aan trainingsdata kunnen leiden tot onjuiste output. Door het gebruik van conditionele expressies of het finetunen van hyperparameters kan echter de betrouwbaarheid van de antwoorden worden vergroot \autocite{Miszczak2023, Jiang2023}.
 
 \medspace
 
-Vergeleken met andere ML- of NLP-taken vergt het beoordelen van een vereenvoudigde tekst voldoende aandacht en opvolging van de ontwikkelaar. Evaluatiemetrieken zoals ROUGE en BLEU zijn beperkt, omdat ze geen rekening houden met de semantiek tussen een referentietekst en een vereenvoudigde tekst. Als valnet kunnen ontwikkelaars menselijk evaluatie inschakelen om de vereenvoudigde tekst van een taalmodel te beoordelen volgens \textcite{Fabbri2020}. De onderzoekers stimuleren verder onderzoek naar nieuwe standaarden en \textit{best practices} voor betrouwbare menselijke beoordeling. De doelgroep waarvoor een tekst wordt vereenvoudigd, moeten nauw in het proces worden opgenomen \autocite{Iskender2021}.
+Het beoordelen van vereenvoudigde teksten vereist de nodige opvolging van ontwikkelaars in vergelijking met andere ML- of NLP-taken. Evaluatiemetrieken zoals ROUGE en BLEU zijn beperkt omdat ze geen rekening houden met de semantiek tussen een referentietekst en een vereenvoudigde of samengevatte tekst. Om dit probleem op te lossen, beveelt \textcite{Fabbri2020} aan dat ontwikkelaars menselijke evaluatie inschakelen om de vereenvoudigde tekst van een taalmodel te beoordelen. De onderzoekers dringen aan op verdere studie naar nieuwe standaarden en beste praktijken voor betrouwbare menselijke beoordeling. Bovendien moeten de doelgroepen voor wie de tekst wordt vereenvoudigd, nauw betrokken worden bij het proces \autocite{Iskender2021}.
 
+\medspace
+
+\ref{table:summary-hurdles}
+
+\medspace
+
+\begin{center}
+	\begin{tabular}{ m{4cm} | m{10cm} | }
+		\hline
+		\textbf{Probleem} & \textbf{Oplossing} \\
+		\hline
+		Dure ontwikkeling en onderhoud van taalmodellen & Voorkeur voor black-box modellen bij ontwikkeling en finetuning. API's kunnen als alternatief dienen op zelf-gehoste taalmodellen. \\
+		\hline
+		Homoniemen kunnen sequence labeling bemoeilijken & Word Sense Disambiguation, PoS-tagging en contextual embeddings. \\
+		\hline
+		Paternalisme & Ontwikkeling van gepersonaliseerde tekstvereenvoudigingstoepassingen moeten de eindgebruiker meer controle geven, zoals het kiezen welke delen van de tekst vereenvoudigd moeten worden, het gebruik van synoniemen of het markeren van zinnen die moeilijk te begrijpen zijn. \\
+		\hline
+		Onnauwkeurige prompts & Gebruik van conditionele expressies bij prompts of one-shot summary uitvoeren. \\
+		\hline
+		Onnauwkeurige evaluatie van tekstvereenvoudiging & Menselijke evaluatie toepassen of gebruik maken van ROUGE-L metrieken die wel de semantiek in achting nemen. 
+		\hline
+		\caption{Samenvattend schema met vaak voorkomende struikelblokken bij NLP-applicaties.}
+		\label{table:summary-hurdles}
+	\end{tabular}
+\end{center}
 
 \section{Conclusie}
 
-De noden van scholieren met fonologische dyslexie in de derde graad van het middelbaar gaan verder dan gewoon moeizaam lezen.  Het ontcijferen en automatiseren van woordeherkenning gebeurt langzaam. Er zijn bewezen voordelen van MTV en aangepaste visuele weergaven op kinderen en jongeren met dyslexie. De leesbaarheid van wetenschappelijke artikelen bevindt zich in een dalende trend. Het formaat, gebruik van vakjargon en ingewikkelde woordenschat en ten slotte de moeizame syntax en zinsbouw sluiten een algemene doelgroep uit bij het lezen van wetenschappelijke artikelen. Enkel wetenschappelijk geletterden zijn in staat om deze artikelen te lezen. Het uniforme formaat van een wetenschappelijk artikel biedt kansen aan voor een geautomatiseerde aanpak tot het vereenvoudigen van een tekst.
-
-\medspace
-
-Experten halen meerdere bewezen tactieken aan om teksten automatisch te vereenvoudigen op maat voor een scholier met dyslexie. Handmatig worden teksten vereenvoudigd aan de hand van leesbaarheidsformules of intuïtie. Zinnen moeten lexicaal, syntactisch en semantisch worden vereenvoudigd. Teksten samenvatten maakt de tekst korter zonder het verlies van de kernboodschap. Voor deze vier transformaties zijn er taalmodellen beschikbaar in de vorm van API's of open-source software. Huidige software dat de overheid uitleent aan scholieren met dyslexie in het middelbaar onderwijs fungeert voornamelijk als voorleessoftware. Nieuwe en opkomende technologieën en taalmodellen zoals GPT-3 blinken uit om tekstvereenvoudiging mogelijk te maken. De ontwikkeling met LLM's is in opmars, maar ontwikkelaars moeten bewust zijn dat andere taalmodellen zoals BERT voor taken zoals semantische analyse minder rekenkracht vereisen voor eenzelfde en soms beter resultaat. 
+Wetenschappelijke artikelen intensief lezen is voor scholieren met dyslexie in de derde graad van het middelbaar niet enkel moeizaam, maar gaat verder dan dat. Deze scholieren kunnen moeite ondervinden bij het ontcijferen en automatiseren van woordherkenning. MTS en aangepaste visuele weergaven bieden bewezen voordelen voor scholieren met dyslexie, maar de leesbaarheid van wetenschappelijke artikelen neemt af. Het gebruik van vakjargon, ingewikkelde woordenschat en moeizame syntax sluiten een algemeen publiek uit en maken het enkel mogelijk voor wetenschappelijk geletterden om deze artikelen te lezen. Een uniform formaat biedt echter kansen voor geautomatiseerde vereenvoudiging van tekst, waarbij experts tactieken hebben ontwikkeld om teksten te vereenvoudigen op maat voor scholieren met dyslexie, zoals het toepassen van leesbaarheidsformules of intuïtie, en het vereenvoudigen van zinnen op lexicaal, syntactisch en semantisch niveau en samenvattingen. Er zijn taalmodellen beschikbaar in de vorm van API's of open-source software die deze transformaties kunnen uitvoeren. Momenteel fungeert software die door de overheid wordt uitgeleend aan scholieren met dyslexie voornamelijk als voorleessoftware, maar nieuwe technologieën zoals GPT-3 en LLM's bieden mogelijkheden voor tekstvereenvoudiging. Ontwikkelaars moeten zich echter bewust zijn van het feit dat andere taalmodellen zoals BERT voor taken zoals semantische analyse soms betere resultaten leveren met minder rekenkracht.
