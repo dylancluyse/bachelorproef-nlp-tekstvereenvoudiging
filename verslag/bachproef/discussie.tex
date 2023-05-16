@@ -2,124 +2,119 @@
 %% Discussie
 %%=============================================================================
 
-\chapter{\IfLanguageName{dutch}{Discussie}{Discussion}}%
+\chapter{\IfLanguageName{dutch}{Discussie}{Discussie}}%
 \label{ch:discussie}
 
-In dit hoofdstuk worden de resultaten uit de requirementsanalyse, vergelijkende studie en de ontwikkeling van het prototype besproken. 
+% TODO https://www.scribbr.nl/scriptie-structuur/discussie-scriptie-voorbeeld/
 
-\section{Requirementsanalyse}
 
-% 1. Validiteit aantonen: Heb je gemeten wat gemeten moest worden? Zijn je conclusies generaliseerbaar? Ga (indien van toepassing) in op de interne validiteit en externe validiteit. Zijn je bronnen en methoden betrouwbaar?
+% Validiteit van onderzoek aanwijzen
 
-De geteste toepassingen opgesomd in \ref{table:shortlist-tools} representeren de top-of-the-line toepassingen voor tekstvereenvoudiging. Webtools presenteren op hun sites verschillende functionaliteiten die aan de eindgebruiker worden uitgeleend. Deze zijn terug te vinden bij het uittesten en er is geen sprake van false advertising. Er is een Moscow-schema opgesteld, geïllustreerd in figuur \ref{table:criteria-requirementsanalysis}, dat de beoordeling van de geteste tools weergeeft aan de hand van de criteria.
+Voor dit onderzoek zijn drie verschillende onderzoeksmethoden toegepast om te bepalen hoe ontwikkelaars een optimale vorm van gepersonaliseerde ATS kunnen bieden aan scholieren met dyslexie in de derde graad van het middelbaar onderwijs. Afhankelijk van de voortgang van individuele toepassingen, zouden de resultaten van de requirementsanalyse consistent zijn. Hetzelfde geldt voor de vergelijkende studie, waarbij de Huggingface-taalmodellen vergelijkbare tot identieke resultaten zouden behalen. Ontwikkelaars kunnen de stappen in het stappenplan volgen om een gelijksoortig resultaat te bereiken.
 
-\begin{center}
-	\begin{tabular}{ | m{4cm} | m{12cm} | } 
-		\hline
-		\textbf{MoSCoW-principe} & Functionaliteit \\
-		\hline
-		Must-have & Gepersonaliseerde vereenvoudiging aanbieden, waaronder lexicale en syntactische vereenvoudiging aanbieden, na het toevoegen van een respectievelijke API-sleutel. \\
-		& Wetenschappelijke artikelen in PDF-vorm opladen. \\
-		& Personaliseerbare site: lettertype -en grootte aanpassen, tekstformaat aanpassen, achtergrondkleur aanpassen \\
-		& Lokale opzet \\
-		\hline
-		Should-have & Glossary genereren na handmatige selectie van moeilijke woorden \\
-		& Personaliseerbare PDF- of Worddocumentlay-out \\
-		& Uitvoer als PDF of Word-bestand teruggeven. \\
-		& Tekstanalyse voor en na de vereenvoudiging aanbieden. \\
-		\hline
-		Could-have & Glossary genereren na automatische selectie van moeilijke woorden \\
-		\hline
-		Wont-have & Beschikbaarheid tot de tool zonder Docker Desktop, in de vorm van online webtoepassing of browserextensie. \\
-		& Beschikbaarheid tot de standaard- en gepersonaliseerde opties zonder API-sleutels \\
-		\hline
-	\end{tabular}
-\end{center}
 
-\medspace
+% Resultaten interpreteren
 
-Woorden- en synoniemenlijsten kunnen een ondersteunend middel aanbieden voor zowel scholieren met dyslexie als zonder bij het lezen van wetenschappelijke artikelen en wordt aangeboden in Kurzweil. Automatisch genereren is enkel prevalent bij ChatGPT en de Bing chatbot, maar de tools houden geen rekening met de doelgroep, tenzij expliciet aangegeven met een one-shot summary. Andere tools houden helemaal geen rekening met de doelgroep en kunnen enkel woordenlijsten genereren op basis van gekozen woorden.
+Uit de resultaten van de requirementsanalyse blijkt dat zowel erkende toepassingen als online tools zonder chatbot weinig functionaliteiten bieden voor gepersonaliseerde ATS. De twee geteste GPT-3 tools, namelijk ChatGPT en Bing Chatbot, bieden wel deze functionaliteiten, maar missen intuïtieve handelingen waardoor leeks er moeilijk mee kunnen werken. Dit resultaat komt overeen met de verwachting dat bestaande tools niet gespecialiseerd zijn in gepersonaliseerde ATS op maat van scholieren met dyslexie in de derde graad van het middelbaar onderwijs. Een mogelijke verklaring voor dit resultaat is de populariteit aan samenvattingstools vergeleken met vereenvoudigingstools. Daarnaast bieden Bing Chatbot en ChatGPT enkel een conversationele chatbot aan, zonder de focus op een tool bedoeld voor gepersonaliseerde ATS.
 
-\medspace
 
-In figuur \ref{img:tryout-bing-ai} wordt er een online wetenschappelijk artikel meegegeven. Er wordt geen titel of onderwerp meegegeven, maar de Bing AI chatbot is in staat om een abstraherende samenvatting te maken van het artikel. Daarna kan de chatbot meer uitleg geven over een bepaald onderwerp, alsook de referenties naar de oorspronkelijke bron meegeven. 
+Uit de vergelijkende studie van taalmodellen voor gepersonaliseerde ATS bleek zowel de drie uitgeteste HuggingFace-modellen via API, alsook het uitgeteste GPT-3 model via API, in staat zijn om moeilijke woorden te achterhalen en te vervangen. HuggingFace-modellen zijn echter beperkt en vereisen een vertaling naar het Engels, vergeleken met het GPT-3 model dat capabel is om gepersonaliseerde ATS aan te bieden zonder verplichte vertaling. Dit resultaat is eveneens in overeenstemming met de verwachting dat GPT-3 beter capabel is in om gepersonaliseerde ATS aan te bieden, vergeleken met vrij beschikbare HuggingFace taalmodellen. Een mogelijke verklaring voor dit resultaat is de data waarop deze taalmodellen zijn getraind, alsook de complexiteit van de taalmodellen mede door het aantal parameters waaruit deze bestaan. De drie HuggingFace-taalmodellen zijn voornamelijk getraind op wetenschappelijke data, maar niet perse op wetenschappelijke artikelen die al eerder zijn geschreven voor de doelgroep van 16 tot 18-jarigen met dyslexie in het middelbaar onderwijs. GPT-3 beschikt over een stuk meer parameters en kan daarmee ook meer complexere taalverwerkingen behandelen.
 
-\begin{figure}[H]
-	\includegraphics{img/bing-ai-chatbot-example.png}
-	\caption{Resultaat Bing Chatbot}
-	\label{img:tryout-bing-ai}
-\end{figure}
 
-\medspace
+Uit de ontwikkeling van het prototype bleek dat ontwikkelaars met vrij beschikbare middelen en API's in staat zijn om gepersonaliseerde ATS aan te reiken aan scholieren met dyslexie in de derde graad van het middelbaar onderwijs. Dit resultaat is in overeenstemming met de verwachting dat ontwikkelaars over de nodige tools beschikken om een dergelijk prototype voor gepersonaliseerde ATS te kunnen realiseren. Een mogelijke verklaring voor dit resultaat is de beschikbaarheid aan open-source tools en Python-libraries die complexe opdrachten, zoals het genereren van dynamische PDF- of Word-documenten, eenvoudig kunnen aanbieden aan ontwikkelaars.
 
-Momenteel is het onhaalbaar om syntactische vereenvoudiging toe te passen op de oorspronkelijke tekst met de huidige softwaretools die worden gebruikt in het middelbaar onderwijs. Online webtoepassingen bieden weliswaar mogelijkheden om de moeilijkheidsgraad van de zinsstructuur te verlagen, maar ze zijn voornamelijk gericht op het verkorten van de oorspronkelijke tekst ofwel het maken van een samenvatting. Het aanpassen van tangconstructies, verwijswoorden, voorzetseluitdrukkingen, samengestelde werkwoorden en onregelmatige werkwoorden blijft daarom een uitdaging voor deze toepassingen. Zelfs het schrijven in de actieve stem kan problematisch zijn, en de beschikbare prompts zijn beperkt tot vooraf gedefinieerde transformaties.
 
-\medspace
+% Eigen interpretatie
 
-Het uploaden van een PDF wordt beschouwd als een onmisbare optie bij de geteste tools, maar ChatGPT en Bing Chat beschikken niet over deze functie. De software die wordt gebruikt in het onderwijs kan geen tekst uit PDF's extraheren, in tegenstelling tot webtoepassingen die deze mogelijkheid wel bieden. De geteste tools zijn voornamelijk gericht op samenvatting van teksten. Hoewel ChatGPT en Bing Chatbot teksten kunnen genereren in een schrijfstijl vergelijkbaar met die van mensen, zijn ze niet in staat om PDF's te verwerken. Het kopiëren en plakken van tekst uit het originele document kan leiden tot fouten en is omslachtig, daarom moet er worden gewerkt aan verbetering van deze werkwijze. Bestaande tools hebben moeite met het extraheren van tekst uit oudere PDF's, dus het prototype moet een oplossing bieden voor dit mogelijke probleem.
+Aan het resultaat ligt mogelijk ook ten grondslag dat ...
 
-\medspace
 
-Uitgezonderd van Simplish en Rewordify bieden de uitgeteste tools geen ingebouwde tekstanalysemodule en bieden onvoldoende inzicht op leesgraadsmetrieken van zowel het ingegeven document als het vereenvoudigde document. Simplish steekt boven de rest uit door aan de hand van kleurcodes criteria over de vereenvoudigde tekst mee te geven, waaronder niet-veranderende woorden, adequate vertalingen, uitleg naar de voetnoot, homoniemen of woorden die geen eenvoudigere synoniemen hebben. Zoals aangegeven in \ref{img:simplish-output} duidt de vergelijkende weergave de verschillen aan tussen de oorspronkelijke en vereenvoudigde tekst en met behulp van kleurcodes worden de verschillende transformaties aangegeven. Scholarcy vult hierop aan en biedt meer inzichten in de leesbaarheidsgraad van de vereenvoudigde tekst, zoals geïllustreerd in \ref{img:scholarcy}.
 
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{img/simplish-output.png}
-	\caption{Illustratie van de tekstanalyse bij Simplish na een tekstvereenvoudiging.}
-	\label{img:simplish-output}
-\end{figure}
+% Samenhang theoretisch kader
 
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{img/scholarcy-attempt.png}
-	\caption{Illustratie van de tekstanalyse bij Rewordify.}
-	\label{img:scholarcy}
-\end{figure}
 
-% 3. Beperkingen bespreken
 
-De requirementsanalyse neemt geen functionaliteiten op van obscure proof-of-concepten. Deze ontbreken de nodige testen en zekerheid dat deze effectieve gepersonaliseerde en geautomatiseerde tekstvereenvoudiging aanbieden. Twee van de online tools, namelijk Resoomer en Scispace, bieden uitsluitend samenvattingsfunctionaliteiten aan. Resoomer is sneller geneigd om de belangrijkste zinnen te markeren en vervolgens deze in een kortere tekst terug te geven. Dit kan een effect hebben op de betrouwbaarheid van de functionaliteiten, alsook op de leesgraadmetrieken.
 
-\begin{figure}[H]
-	\includegraphics{img/typeset-example.png}
-	\caption{Schermafbeelding van SciSpace}
-\end{figure}
 
-\section{Vergelijkende studie}
+% Implicaties aanduiden
 
-Modellen T1, T2 en T3 zijn, zoals verwezen in de bijlage, niet in staat om syntactische vereenvoudiging op een tekst toe te passen. Enkel T4 kan via prompt P2, P3, P4, P5 en P6 de syntax van een zin verlagen. Alle uitgeteste taalmodellen zijn echter wel in staat om lexicale vereenvoudiging te realiseren, al wordt de inschatting van de doelgroep in twijfel getrokken. De referentieteksten schatten de doelgroep correct in, door reeds gekend jargon niet aan te passen, maar nieuwe jargon wel aan te passen naargelang er een beschikbaar synoniem is.
+
+
+
+
+
+% Beperkingen bespreken
+
+
+
+
+
+
+
+% Suggesties voor vervolgonderzoek
+
+
+
+
+Uit de vergelijkende studie komen lichte verschillen aan het licht tussen de verschillende tools betreffende hun leesgraadsscores bij FRE, Gunning Fog en SMOG. Het prototype, gebruikt voor gepersonaliseerde ATS, scoren beter dan de niet-GPT-3 taalmodellen. Een niet-gepersonaliseerde tekstvereenvoudiging heeft amper verschil qua leesgraadsscore en heeft problemen in de doorlopende tekst, waarbij het taalmodel soms woorden plaatst die niet nuttig zijn in de context. Hierdoor wordt de bruikbaarheid van deze scores en het gebruik van de Python-bibliotheek in twijfel getrokken. Hoewel deze scores een goed alternatief zijn om de leesbaarheid te meten, houden ze geen rekening met verkeerd geïnterpreteerde resultaten, zoals letterlijk overgenomen bronvermeldingen of verkeerd gegenereerde woordenschat door het taalmodel. Deze fouten zijn minder vaak aanwezig bij het vereenvoudigen van teksten met GPT-3. Er is meer onderzoek nodig om de bruikbaarheid van deze scores te bepalen en om te begrijpen hoe de scores zich verhouden tot de kwaliteit van de vereenvoudigde tekst. 
 
 \medspace
 
-De modellen T1, T2 en T3 zijn niet in staat om syntactische vereenvoudiging op een tekst toe te passen. Alleen T4 kan via de prompts P2, P3, P4, P5 en P6 de zinsstructuur verlagen. Hoewel alle geteste taalmodellen in staat zijn om lexicale vereenvoudiging te realiseren, wordt de nauwkeurigheid van de doelgroepsinschatting in twijfel getrokken. De referentieteksten schatten de doelgroep correct in door bekend jargon niet aan te passen, maar wel nieuwe jargon aan te passen als er een beschikbaar synoniem is. 
+Het vergelijken met een referentietekst blijft een handmatige vergelijking en biedt een inkijk in hoe lectoren teksten kunnen vereenvoudigen. De vergelijkende studie hield geen rekening met het hoofdstuk waarin een zin werd beoordeeld. Vragen naar het verschil na een tekstvereenvoudiging per hoofdstuk in een wetenschappelijk artikel kan daarmee niet beantwoord worden en moet opgevolgd worden in een verder onderzoek.
 
 \medspace
 
-In tegenstelling tot GPT-3 zijn de modellen T1, T2 en T3 niet in staat om het formaat van de uitvoer aan te passen. De uitvoer blijft een doorlopende tekst. In de referetietekst past één van de auteurs het formaat aan naar tabelvorm voor enkele paragrafen, waar de inhoud beter in tabelvorm kan gestructureerd worden. Alleen bij de prompts P5 en P6 wordt er expliciet gevraagd om een formaatwijziging, anders geeft T4 vrijwel altijd een doorlopende tekst terug. Zonder de expliciete aanduiding is het model niet in staat om dit zelf te bepalen. Verder onderzoek moet uitwijzen of T4 in staat is om zelfstandig deze bepaling kan maken, zo niet kan deze formaatwijziging niet automatisch bepaald worden en is er tussenkomst van de eindgebruiker vereist. Dit moet ook zo opgenomen worden als een functionaliteit in het prototype.
+LLM's, waaronder GPT-3, zijn in staat om vragen te beantwoorden. Een mogelijke toevoeging aan dit prototype is het kunnen stellen van vragen omtrent de inhoud. Eerder onderzoek rond GPT-3 heeft uitgewezen dat het model in staat is om een tekst door te nemen, en deze vervolgens te gebruiken als kennis om vragen te beantwoorden. De tekstinhoud van een wetenschappelijk artikel wordt niet bijgehouden in dit prototype, maar een volgend onderzoek dat hier wel rekening mee houdt kan wederom een revolutionaire oplossing bieden in het kader van ondersteunend intensief lezen. 
 
 \medspace
 
-Hoewel T4 in staat is om zinsyntaxtransformaties uit te voeren, kan deze problemen ondervinden bij het verwerken van alle meegegeven transformaties. Het taalmodel kan transformaties ontbreken als alle transformaties in één prompt zijn betrokken. Een voorgestelde aanpak om dit tegen te gaan, bestaat uit een pipeline van hoogstens drie prompts die elkaar opvolgen, zoals geïllustreerd in figuur ...
+
+Bestaande taalmodellen vereenvoudigen de ontwikkeling van toepassingen op het gebied van semantische analyse, kernwoordenidentificatie en het extraheren van samenvattingen. Het gebouwde prototype toont aan dat reeds ge-finetunede taalmodellen, beschikbaar op HuggingFace, een oplossing bieden voor niet-gepersonaliseerde ATS. Voor meer gepersonaliseerde ATS, bestaande uit granulaire lexicale en syntactische vereenvoudigingstaken, zijn LLM's zoals GPT-3 geschikt. Ontwikkelaars moeten echter rekening houden met de schaal van de modellen bij het maken van deze keuze. Hoewel vrij beschikbare modellen op HuggingFace in staat zijn om abstraherende samenvattingen of lexicale vereenvoudiging mogelijk te maken, staan ze in de schaduw van GPT-3, dat voor ontwikkelaars vrij beschikbaar is in de vorm van een API.
+
+
+Alhoewel GPT-3 een overkill is voor NLP-taken, waaronder kernwoordherkenning of extraherende samenvatting, die kosteneffectief kunnen aangepakt worden zonder het gebruik van GPT-3. Een LLM hoeft niet voor iedere functionaliteit ingezet te worden, zo om kostenbesparend te werken. Het GPT-3 model maakt complexe en granulaire NLP-transformaties op lexicaal en syntactisch niveau mogelijk voor gepersonaliseerde ATS. Echter houdt het model geen rekening met referenties buiten de getrainde data, wat tot problemen bij de \textit{data integrity} kan leiden. Bing AI daarentegen doet dit wel en vormt een goede fundering voor ontwikkelaars om meer referentiemateriaal aan te bieden in ondersteunende software binnen het onderwijs. Verder onderzoek op de toepassing van deze AI via een mogelijke API is zeker nodig en kan baanbrekend zijn voor de onderwijssector. 
+
+\subsubsection{Verdere finetuning en pre-training van taalmodellen.}
+
+HuggingFace-taalmodellen bieden een gratis alternatief voor ontwikkelaars bij het creëren van prototypes of volledig functionerende webtoepassingen. Hoewel deze modellen in staat zijn om tekst te vereenvoudigen zonder hinder van idiomen en ambiguïteit, zijn ze niet bestand tegen ontbrekende woorden en wordt er geen rekening gehouden met de doelgroep, wat bij geautomatiseerde tekstvereenvoudiging van wetenschappelijke artikelen een belemmering kan vormen. Het huidige prototype maakt geen gebruik van verdere finetuning op HuggingFace-taalmodellen.
 
 \medspace
 
-Ontwikkelaars hebben toegang tot T1, T2 en T3 via HuggingFace voor lexicale vereenvoudigingstaken. Deze taalmodellen zijn echter ontoereikend voor gepersonaliseerde tekstvereenvoudiging en daarom is T4 een geschikter model voor het vereenvoudigen van wetenschappelijke artikelen op maat. GPT-3 presteert goed op gepersonaliseerde vereenvoudigingstaken, maar het is belangrijk om op te merken dat geen enkel taalmodel de doelgroep altijd nauwkeurig kan inschatten. Extra trainingsdata, zoals leerstof of wetenschappelijke artikelen die wel op het niveau van een 16-18-jarige is geschreven, kan het model steunen bij de doelgroepsinschatting. Het gebruik van Engelstalige prompts waarin expliciet de gewenste uitvoertaal wordt vermeld, resulteert in coherentere teksten dan bij een Nederlandstalige prompt.
+Het toegepaste GPT-3 model is enkel gefinetuned per API-parameters en bevat geen vooraf getrainde extra data van wetenschappelijke papers. Er is echter wetenschappelijke data beschikbaar die kan worden gebruikt om het GPT-3 taalmodel accurater te maken op interpretatie van complexiteit bij wetenschappelijke artikelen. Er is een licht effect waargenomen op de verschillen in lexicale complexiteit tussen de HuggingFace-taalmodellen die wel getraind zijn op wetenschappelijke papers in vergelijking met taalmodellen die getraind zijn op algemene data, maar meer onderzoek is nodig om deze verschillen beter te begrijpen binnen de context van wetenschappelijke papers. Het is belangrijk op te merken dat de taalmodellen van OpenAI voortdurend evolueren en dat er overwogen wordt om GPT-2 achterwege te laten in het licht van verdere edities van de GPT-modellen. Op dit moment worden GPT-4 en Bing AI uitgerold, maar deze zijn nog niet klaar voor gebruik in productie, dus verder onderzoek is nodig naar het gebruik van deze modellen in het onderwijs. GPT-3 kan een baanbrekende oplossing aanbieden voor geautomatiseerde tekstvereenvoudiging van wetenschappelijke artikelen.
 
-\section{Opbouw van het prototype}
+% Aanradingen voor volgende onderzoeken GPT-3
+\begin{itemize}
+	\item Het gebruik van GPT-3 maakt het mogelijk om moeilijke woorden snel en efficiënt te identificeren binnen een doorlopende tekst. Toekomstig onderzoek zou zich kunnen richten op het potentieel van de combinatie van GPT-3 en full-text-search technologieën, waarbij specifieke zoektermen en thema's worden gebruikt om woordenlijsten te genereren. Dit zou kunnen bijdragen aan een nog meer geoptimaliseerde ondersteuning van het leerproces.
+\end{itemize}
 
-Het prototype voldoet aan alle functionaliteiten die zijn gespecificeerd in het Moscow-schema \ref{img:moscow}. Het overtreft daarmee elke andere tool uit de requirementsanalyse op alle gebieden. Het is vooral op het gebied van formaatwijzigingen de beste, wat suggereert dat het prototype de huidige staat van deze toepassingen weergeeft, gezien de consistente ontwikkeling van de personalisatieopties. Op het gebied van tekstvereenvoudiging scoort het prototype vergelijkbaar of iets beter dan wat GPT-3 kan, wat voor zich spreekt aangezien het twee identieke taalmodellen zijn.
+Met alsmaar grotere taalmodellen, zoals het opkomende GPT-4 en LLaMa, is er ook meer onderzoek nodig naar de verschillen op taalvlak ten opzichte van de toename in parameters. Het GPT-3 model dat in dit onderzoek werd gebruikt, maakte enkel gebruik van aangepaste parameters zoals de \textit{temperature} en \textit{top\_p}. Hoewel de overstap naar andere taalmodellen kostelijk kan zijn voor ontwikkelaars, is het belangrijk om te onderzoeken of en hoe deze nieuwe modellen kunnen bijdragen tot betere resultaten. Het is echter eerder uitgewezen dat de grootte van taalmodellen alsmaar minder relevant wordt. 
 
-\medspace
 
-Ontwikkelaars kunnen de opgebouwde flowchart volgen om team van vier rollen, namelijk systeem, data, NLP en web ontwikkelaars, te begeleiden doorheen de ontwikkeling van een toepassing voor tekstvereenvoudiging. De flowchart benadrukt dat deze handelingen ook perfect parallel kunnen worden uitgevoerd. Jupyter notebooks bieden een ontwikkelaarsvriendelijke manier om de code vooraf met eenduidige visuele feedback te kunnen testen.
+\subsubsection{Software ontwikkelen voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs}
 
-\medspace
-
-Dit prototype maakt geen gebruik van lokaal gehoste taalmodellen. Zo vermindert de nodige rekenkracht en geheugenruimte op het systeem waarop het prototype draait in vergelijking met een lokaal gehost taalmodel. Wanneer ontwikkelaars de toepassing willen uitrollen naar het grote publiek, kunnen ze overschakelen naar lokaal gehoste taalmodellen in plaats van taalmodellen per API. Door de taalmodellen verder te finetunen en te trainen op meer datasets, kunnen AI-ontwikkelaars betere resultaten behalen. 
-
-\medspace
-
-Het ontwikkelen van gebruikersvriendelijke handelingen kan gemakkelijk en snel worden ontwikkeld met behulp van HTML, CSS en JavaScript, zonder de nood van een complex framework. Uit onderzoek blijkt echter dat deze methoden eenvoudig te ontwikkelen zijn, zelfs door pas afgestudeerde bachelorstudenten. AI-softwarebedrijven zouden meer moeten inzetten op personalisatie-opties voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs, omdat zij momenteel het meest betrokken zijn bij de digitalisering. Later kunnen softwareontwikkelaars overgaan op een complexer of robuuster framework. Verder onderzoek is nodig naar het ideale framework om een gepersonaliseerde weergave mogelijk te maken, aangezien dit momenteel nog wordt gedaan met handmatige JavaScript-functies. Een front-end framework dat dit alles beheert, zou handiger zijn voor webontwikkelaars.
+De erkende software uitgeleend aan scholieren met dyslexie in de derde graad van het middelbaar onderwijs voldoet niet aan de noden. De software biedt ondersteunende functionaliteiten aan zoals het aanmaken van een woordenlijst, alsook het markeren van zinnen om deze later om te vormen naar een tekst. Syntactische vereenvoudiging of abstraherende samenvatting zijn niet tot de orde. Online toepassingen staan verder en reiken functionaliteiten aan die hoogstaand zijn en reproduceerbaar zijn voor mensen met informaticakennis. Echter is er geen manusje-van-alles en er is daarmee nood aan een toepassing die alle functionaliteiten kan combineren. De erkende softwarepakketten zoals Kurzweil kunnen opgeschaald worden, zodat deze de functionaliteiten hebben om verbeterde tekstvereenvoudigingstechnieken aan te reiken aan scholieren met dyslexie in de derde graad van het middelbaar onderwijs. 
 
 \medspace
 
-Dit prototype is momenteel alleen beschikbaar in een lokale omgeving en kan nog niet worden gebruikt door het grote publiek. Het prototype kan teksten lexicaal en syntactisch vereenvoudigen wanneer deze in PDF- of volledige tekstformaat worden ingevoerd. Het prototype heeft functionaliteit voor zowel docenten als studenten, die elk verschillende prioriteiten hebben. Hoewel testen nog nodig zijn, wordt dit wel aangeraden. Onderzoekers op het gebied van logopedie kunnen het prototype testen bij studenten met dyslexie na een (begeleide) installatie van de vereiste set-up. Ook onderzoekers op het gebied van onderwijs kunnen dit gebruiken om de meningen van zowel studenten als docenten te verzamelen en zo de effectiviteit van het prototype te beoordelen. Deze experimenten zijn belangrijk omdat ze kunnen wijzen op de effectiviteit van het prototype.
+Onderzoek naar het verschil tussen het laten schrijven van prompts en vooraf gedefinieerde prompts is schaars, maar deze keuze kan een effect hebben op het gedrag of ervaring van de eindgebruiker. De doelgroep wordt expliciet aangeduid in de prompts en is daarmee parameteriseerbaar. Er is verder onderzoek nodig naar de effecten op het meegeven van doelgroepen via prompts en of deze al dan niet rekening houden met de doelgroep. 
 
+\medspace
+
+Het prototype is ontwikkeld met een snelle en intuïtieve deployment in gedachten. Door het meegegeven script-bestand is enkel de installatie van Docker Desktop vereist. Al is een online deployment optimaler, voor experimentdoeleinden is deze opzet ideaal en met een intuïtieve handeling kunnen leeks ook van dit prototype gebruikmaken, inclusief met de gegeven instructies. 
+
+\begin{itemize}
+	\item Onderzoekers binnen het vakdomein logopedie kunnen dit prototype gebruiken om experimenten af te nemen die het effect op leesbegrip achterhalen bij scholieren met dyslexie in de derde graad van het middelbaar onderwijs. 
+	\item Onderzoekers binnen het vakdomein secundair onderwijs kunnen de effecten bij leerlingen en leerkrachten in het middelbaar onderwijs waarnemen en concluderen of deze tool al dan niet van pas kan komen. 
+\end{itemize}
+
+\medspace
+
+Er is echter meer onderzoek nodig naar hoe de inzet van webtoepassingen en browserextensies voor tekstvereenvoudiging in het onderwijs kan worden verbeterd. Hero van \textcite{Bingel2018} biedt eveneens een browserextensie aan, maar dit is enkel voor selecte websites. 
+
+
+\medspace
+
+Functionaliteiten combineren is een haalbare zaak voor zowel klein- als grootschalige softwareondernemingen. Het prototype is opgebouwd uit kennis en tools die aangeleerd worden in alle richtingen Toegepaste Informatica bij alle Vlaamse hogescholen. Met gebruik van kant-en-klare taalmodellen, API's en gekende programmeertalen zijn ontwikkelaars ertoe in staat om een webtoepassing te ontwikkelen die ondersteuning kan bieden aan scholieren met dyslexie in de derde graad van het middelbaar onderwijs. 
+
+
+Dit prototype is gebouwd op eerder onderzochte visuele kenmerken en de impact van een vereenvoudigde tekst op de leessnelheid -en begrip bij een scholier met dyslexie tijdens het intensief lezen van een tekst. Het prototype werd niet uitgetest bij het doelpubliek en fungeert enkel als meting van de haalbaarheid voor een dergelijke tool. 

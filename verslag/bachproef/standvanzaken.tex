@@ -46,10 +46,10 @@ Leesvaardigheid is geen aangeboren vaardigheid, maar iets dat mensen zelf moeten
 
 % TODO hoeveel percentage van de websites houdt rekening met dyslexie?
 
-De digitalisering is de voorbije twintig jaar enkel maar in stijgende lijn en scholieren in de tweede en derde graad zijn door het gebruik van smartphones en laptops hier het meeste vatbaar op, zowel voor thuisgebruik als binnen het onderwijs. Tieners tussen 15 en 18 zijn volgens \textcite{Harvard2023} digitaal geletterd, daarom speelt de digitale weergave een essentiële rol bij een dergelijke online toepassing. Verder omschrijft dit artikel een checklist van technische elementen waaraan een webpagina of toepassing aan moet voldoen om een leesbare ervaring te voorzien voor scholieren met dyslexie. Deze noden worden weergegeven in tabel \ref{table:dyslexia-necessaries} en zijn gebaseerd op onderzoeken van \textcite{Santana2012, Harvard2023}.
+De digitalisering evolueerde de voorbije twintig jaar in stijgende lijn en scholieren in de tweede en derde graad zijn door het gebruik van smartphones en laptops hier het meeste vatbaar voor, zowel voor thuisgebruik als binnen het onderwijs. Tieners tussen 15 en 18 zijn volgens \textcite{Harvard2023} digitaal geletterd, daarom speelt de digitale weergave een essentiële rol bij een dergelijke online toepassing. Verder omschrijft dit artikel een checklist van technische elementen waaraan een webpagina of toepassing moet voldoen om een leesbare ervaring te voorzien voor scholieren met dyslexie. Deze noden worden weergegeven in tabel \ref{table:dyslexia-necessaries} en zijn gebaseerd op onderzoeken van \textcite{Santana2012, Harvard2023}.
 
-\begin{center}[H]
-		\begin{table}
+\begin{center}
+		\begin{table}[H]
 	\begin{tabular}{ | m{8cm} | m{8cm} | } 
 		\hline
 		Zachtgele, -groene of -bruine ahtergrondkleur & Consistente lay-out \\
@@ -78,8 +78,8 @@ Deze factoren worden opgesomd in \ref{table:scientific-paper-struggles}. Hoewel 
 
 \medspace
 
-\begin{center}[H]
-	\begin{table}
+\begin{center}
+	\begin{table}[H]
 	\begin{tabular}{| m{4cm} | m{10cm} |}
 		\hline
 		\textbf{Probleem} & \textbf{Oplossing} \\
@@ -104,7 +104,7 @@ Scholieren met verschillende achtergronden hebben vaak een verschillende achterg
 
 \medspace
 
-Er zijn door de jaren heen leesbaarheidsscores ontwikkeld om teksten objectief te kunnen beoordelen, aangezien ontoegankelijke en ingewikkelde zinsstructuren ook experts in het vakgebied kunnen hinderen. Er zijn twee bekende leesbaarheidsscores weergegeven in tabel \ref{table:readability-scores}. Dankzij Python-libraries, zoals Textstat\footnote{textstat} en Readability\footnote{https://pypi.org/project/readability/}, is het herschrijven van de formules niet meer nodig en bieden ze een snelle oplossing voor ontwikkelaars om een leesgraadscore te berekenen. Ook online toepassingen, zoals Textinspector, kunnen analytisch inzicht geven in de complexiteit van Engelstalige teksten. Er bestaat momenteel geen alternatief voor Nederlandstalige wetenschappelijke artikelen. Het is wel belangrijk om te benadrukken dat deze leesbaarheidsscores geen rekening houden met de achtergrondkennis van mogelijke lezers.
+Er zijn door de jaren heen leesbaarheidsscores ontwikkeld om teksten objectief te kunnen beoordelen, aangezien ontoegankelijke en ingewikkelde zinsstructuren ook experts in het vakgebied kunnen hinderen. Er zijn twee bekende leesbaarheidsscores weergegeven in tabel \ref{table:readability-scores}. Dankzij Python-libraries, zoals Textstat\footnote{textstat} en Readability\footnote{https://pypi.org/project/readability/}, is het herschrijven van de formules niet meer nodig en bieden ze een snelle oplossing voor ontwikkelaars om een leesgraadscore te berekenen. Ook online toepassingen, zoals Textinspector\footnote{https://textinspector.com/}, kunnen analytisch inzicht geven in de complexiteit van Engelstalige teksten. Er bestaat momenteel geen alternatief voor Nederlandstalige wetenschappelijke artikelen. Het is wel belangrijk om te benadrukken dat deze leesbaarheidsscores geen rekening houden met de achtergrondkennis van mogelijke lezers.
 
 \begin{center}
 	\begin{table}[H]
@@ -124,7 +124,7 @@ Er zijn door de jaren heen leesbaarheidsscores ontwikkeld om teksten objectief t
 
 \medspace
 
-Diverse onderzoeken van de afgelopen tien jaar wijzen uit dat wetenschappelijke teksten steeds complexer worden, wat deze teksten voor niet-experten en niet-doctoraatsstudenten ontoegankelijk maakt vanwege het gebruik van technisch jargon en ingewikkelde zinsstructuren \autocite{Ball2017, PlavenSigray2017, Jones2019}. Deze trend begon volgens onderzoek al in de tweede helft van de twintigste eeuw \autocite{Hayes1992}.
+Diverse onderzoeken van de afgelopen tien jaar wijzen uit dat wetenschappelijke teksten steeds complexer worden, wat deze teksten voor niet-experten en niet-doctoraatsstudenten minder toegankelijk maakt vanwege het gebruik van technisch jargon en ingewikkelde zinsstructuren \autocite{Ball2017, PlavenSigray2017, Jones2019}. Deze trend begon volgens onderzoek al in de tweede helft van de twintigste eeuw \autocite{Hayes1992}.
 
 \medspace
 
@@ -140,6 +140,10 @@ Volgens onderzoek van \textcite{PlavenSigray2017} is de taal van wetenschappelij
 
 Onbegrijpelijke en ontoegankelijke zinsstructuren hinderen ook vakexperten. Zo toonde onderzoek van \textcite{McNutt2014} aan dat begrip van de methodologie en resultaten cruciaal is in het kader van reproduceerbaarheid; enkel zo kunnen wetenschappers op correcte wijze een studie reproduceren en wetenschappelijke inzichten bevestigen of met verdere resultaten verrijken. Experimenten van \textcite{Hubbard2017} wijzen namelijk uit dat het net vooral de methodologie en resultaten van een wetenschappelijk artikel zijn die een hoge leesgraad vergen. In deze context is ook het onderzoek van \textcite{Hartley1999} en \textcite{Snow2010} relevant waarin ze aantonen dat het herschrijven van abstracts de begrijpbaarheid ervan kan verhogen.
 
+\medspace
+
+Volgens \textcite{Hollenkamp2020} en \textcite{McCombes2022} moeten vereenvoudigde of samengevatte wetenschappelijke artikelen drie vragen kunnen beantwoorden: waarom werd het onderzoek uitgevoerd, wat zijn de experimenten en wat zijn de conclusies van de onderzoekers? Dit omvat de achtergrondinformatie, hypotheses, methoden, resultaten, implicaties, beperkingen en aanbevelingen. Om de tekst begrijpelijker te maken, kan deze worden omgezet in een ander formaat, zoals post-it notes, tabelvorm of opsommingen \autocite{Rijkhoff2022}. 
+
 % TODO conclusie voor de noden van wetenschappelijke artikelen en noden van dyslexie
 
 
@@ -149,11 +153,11 @@ Onbegrijpelijke en ontoegankelijke zinsstructuren hinderen ook vakexperten. Zo t
 \subsection{Manuele tekstvereenvoudiging}
 % Hoe worden teksten handmatig vereenvoudigd voor scholieren met dyslexie? 
 
-Voor sommige lezers kan het intensief lezen van een complexe tekst echter een uitdaging zijn, zoals scholieren met dyslexie. Om deze groep te helpen, wordt vaak \textit{manual text simplification} toegepast. \textit{Manual text simplification} of MTS kan worden bereikt door het gebruik van eenvoudige woordenschat, zinsstructuren en formaatwijzigingen.
+Voor sommige lezers kan het intensief lezen van een complexe tekst echter een uitdaging zijn, zoals scholieren met dyslexie. Om deze groep te helpen, wordt vaak \textit{manual text simplification} toegepast \autocite{Siddharthan2014}. \textit{Manual text simplification} of MTS kan worden bereikt door het gebruik van eenvoudige woordenschat, zinsstructuren en formaatwijzigingen. MTS is het proces waarbij het technische leesniveau en het woordgebruik van een geschreven tekst wordt verminderd. Dit leidt tot een betere leeservaring zonder het verlies van de kerninhoud tijdens het lezen van de tekst.
 
 \begin{center}
 		\begin{table}[H]
-			\begin{tabular}{ | m{4cm} | m{10cm} | } 
+			\begin{tabular}{ | m{4cm} | m{11cm} | } 
 			\hline
 			Lexicale vereenvoudiging & Moeilijke woorden vervangen door eenvoudigere synoniemen \\ 
 				& Woorden- en synoniemenlijst maken \\
@@ -169,7 +173,7 @@ Voor sommige lezers kan het intensief lezen van een complexe tekst echter een ui
 			& Actieve stem gebruiken \\
 			& Onregelmatige werkwoorden vermijden \\
 			\hline
-			Formaat- aanpassingen & Marges aanpassen \\
+			Formaatwijzigingen & Marges aanpassen \\
 			& Lettertype en -grootte aanpassen \\
 			& Woord- en karakterspatiëring aanpassen \\
 			& Herschrijven en -structureren als opsomming of tabelvorm \\
@@ -180,10 +184,6 @@ Voor sommige lezers kan het intensief lezen van een complexe tekst echter een ui
 		\label{table:manual-simplification}
 	\end{table}
 \end{center}
-
-\medspace
-
-Volgens \textcite{Hollenkamp2020} en \textcite{McCombes2022} moeten vereenvoudigde of samengevatte wetenschappelijke artikelen drie vragen kunnen beantwoorden: waarom werd het onderzoek uitgevoerd, wat zijn de experimenten en wat zijn de conclusies van de onderzoekers? Dit omvat de achtergrondinformatie, hypotheses, methoden, resultaten, implicaties, beperkingen en aanbevelingen. Om de tekst begrijpelijker te maken, kan deze worden omgezet in een ander formaat, zoals post-it notes, tabelvorm of opsommingen \autocite{Rijkhoff2022}. 
 
 \subsection{Bevoordelende effecten van MTS bij scholieren met dyslexie}
 
@@ -199,19 +199,19 @@ Onderzoek toont aan dat vereenvoudigde teksten het leesbegrip en woordherkenning
 
 \medspace
 
-Er is weinig onderzoek gedaan naar de effecten van syntactische vereenvoudiging op kinderen en scholieren met dyslexie. In het experiment van \textcite{Linderholm2000} had het aanpassen van causale structuren een significant effect op het leesbegrip en de foutenmarge van de bevraagden met een lage leesgraad. Door coherentieonderbrekingen te herstellen en tekstgebeurtenissen in een tijdsafhankelijke volgorde te plaatsen, konden zowel vaardige als minder vaardige lezers profiteren van de revisies. Verbaal parafraseren had geen significant effect op lezers met dyslexie, volgens \textcite{Rello2013c}. De bevraagden waren tussen de 13 en 37 jaar oud, met een gemiddelde leeftijd van 21 jaar. Het tekstformaat bleef ongewijzigd, maar lettertypes werden aangepast.
+Hoewel onderzoeken de positieve effecten van lexicale vereenvouding voor lezers met dyslexie onderstrepen, is er relatief weinig onderzoek gedaan naar de effecten van syntactische vereenvoudiging op kinderen en scholieren met dyslexie. In het experiment van \textcite{Linderholm2000} had het aanpassen van causale structuren een significant effect op het leesbegrip en de foutenmarge van de bevraagden met een lage leesgraad. Door coherentieonderbrekingen te herstellen en tekstgebeurtenissen in een tijdsafhankelijke volgorde te plaatsen, konden zowel vaardige als minder vaardige lezers profiteren van de revisies. Verbaal parafraseren had geen significant effect op lezers met dyslexie, volgens \textcite{Rello2013c}. De bevraagden waren tussen de 13 en 37 jaar oud, met een gemiddelde leeftijd van 21 jaar. Het tekstformaat bleef ongewijzigd, maar lettertypes werden aangepast.
 
 \medspace
 
-Volgens onderzoek van \textcite{Nandhini2013} kan het personaliseren van samenvattingen de leesbaarheid van scholieren met dyslexie verbeteren. Het experiment maakt gebruik van onaangepaste zinnen uit de oorspronkelijke tekst die op maat van de lezer zijn gepresenteerd en herstructureert deze volgens de oorspronkelijke tekst. Door de belangrijkste zinnen onaangepast te laten en de structuur aan te passen, wordt de tekst toegankelijker gemaakt voor de lezer. Hoewel de resulterende logische structuur door de onderzoekers in twijfel werd getrokken, was de leesbaarheid van de deelnemers significant beter dan bij de oorspronkelijke tekst, zonder negatieve effecten op het leesbegrip.
+Een andere vorm van aanpassingen waarmee geëxperimenteerd werd om de leesbaarheid van teksten voor de doelgroep te verhogen, is het personaliseren van samenvattingen \autocite{Nandhini2013}. Het experiment in het onderzoek maakt gebruik van onaangepaste zinnen uit de oorspronkelijke tekst die op maat van de lezer zijn gepresenteerd en herstructureert deze volgens de oorspronkelijke tekst. Door de belangrijkste zinnen onaangepast te laten en de structuur aan te passen, wordt de tekst toegankelijker gemaakt voor de lezer. Hoewel de resulterende logische structuur door de onderzoekers in twijfel werd getrokken, was de leesbaarheid van teksten bij de deelnemers significant beter dan bij de oorspronkelijke tekst, zonder negatieve effecten op het leesbegrip.
 
 \medspace
 
-Onderzoeken hebben aangetoond dat scholieren met dyslexie gevoeliger zijn voor veranderingen in visuele parameters, zoals lettertype, karakterafstand, tekst- en achtergrondkleur en grijswaarden. Om de leesbaarheid te verbeteren, worden minimalistische ontwerpen met pictogrammen en afbeeldingen aanbevolen, evenals lettergrootte groter dan 14pt en een sans-serif, monospaced of roman lettertype. Volgens \textcite{Rello2015, Bezem2016, Rello2017} zijn lichtgrijze achtergronden met zwart lettertype op een gele achtergrond, of zachtgele, -groene of lichtblauwe achtergrondkleuren de beste kleurencombinaties. Het gebruik van lettertypen zoals OpenDys heeft geen effect op lezers met of zonder dyslexie, terwijl cursieve lettertypen worden afgeraden, aldus \textcite{Rello2013b, Rello2015}.
+Tot slot hebben onderzoeken aangetoond dat scholieren met dyslexie gevoeliger zijn voor veranderingen in visuele parameters, zoals lettertype, karakterafstand, tekst- en achtergrondkleur en grijswaarden. Om de leesbaarheid te verbeteren, worden minimalistische ontwerpen met pictogrammen en afbeeldingen aanbevolen, evenals lettergrootte groter dan 14pt en een sans-serif, monospaced of roman lettertype. Volgens \textcite{Rello2015, Bezem2016, Rello2017} zijn lichtgrijze achtergronden met zwart lettertype op een gele achtergrond, of zachtgele, -groene of lichtblauwe achtergrondkleuren de beste kleurencombinaties. Het gebruik van lettertypen zoals OpenDys heeft geen effect op lezers met of zonder dyslexie, terwijl cursieve lettertypen worden afgeraden, aldus \textcite{Rello2013b, Rello2015}.
 
 \medspace
 
-In tabel \ref{table:benefits-mts} worden de bewezen technologieën opgesomd met hun samenhangend voordeel.
+In tabel \ref{table:benefits-mts} worden de bewezen strategieën opgesomd met hun samenhangend voordeel.
 
 \medspace
 
@@ -248,10 +248,10 @@ In tabel \ref{table:benefits-mts} worden de bewezen technologieën opgesomd met 
 	\end{table}
 \end{center}
 
-\subsection{Aanpak voor ATV.}
+\subsection{Aanpak voor ATS.}
 % Welke toepassingen, tools en modellen zijn er beschikbaar om Nederlandse geautomatiseerde tekstvereenvoudiging met AI mogelijk te maken? 
 
-Tekstvereenvoudiging is het proces waarbij het technische leesniveau en het woordgebruik van een geschreven tekst wordt verminderd. Dit leidt tot een betere leeservaring zonder het verlies van de kerninhoud tijdens het lezen van de tekst. Met de laatste evolutie in machinaal leraren is dit een proces dat geautomatiseerd kan worden. \textit{Automatic text simplification} of ATS is een onderdeel van natuurlijke taalverwerking binnen machinaal leren (ML). Dit omvat verschillende technieken zoals tekstanalyse, taalherkenning, -generatie, spraakherkenning en -synthese, en semantische analyse. NLP stelt computers in staat om menselijke taal te begrijpen en te communiceren op een natuurlijke manier. 
+Met de laatste evolutie in machinaal leren is dit een proces dat geautomatiseerd kan worden. \textit{Automatic text simplification} of ATS is een onderdeel van natuurlijke taalverwerking binnen machinaal leren (ML). Dit omvat verschillende technieken zoals tekstanalyse, taalherkenning, -generatie, spraakherkenning en -synthese, en semantische analyse. NLP stelt computers in staat om menselijke taal te begrijpen en te communiceren op een natuurlijke manier. 
 
 \medspace
 
@@ -259,7 +259,7 @@ De begrippen die volgen worden behandeld in \textcite{Sohom2019, Eisenstein2019}
 
 \medspace
 
-Tokenisatie splitst zinnen op basis van tokens. Er zijn vier manieren om tokens in een tekst te splitsen en zo een woordenschat op te bouwen, namelijk op woord-, karakter-, subwoord- en zinniveau, volgens onderzoek van \textcite{Menzli2023}. Bij karakter-tokenisatie neemt de inputlengte toe, maar heeft volgens \textcite{Ribeiro2018} weinig bruikbare use cases. Het opsplitsen van zeldzame woorden in kleinere stukken om een woordenschat op te bouwen biedt voordelen ten opzichte van tokenisatie op woordniveau, aldus \autocite{Iredale2022}.
+Tokenisatie splitst zinnen op basis van tokens. Er zijn vier manieren om tokens in een tekst te splitsen en zo een woordenschat op te bouwen, namelijk op woord-, karakter-, subwoord- en zinniveau, volgens onderzoek van \textcite{Menzli2023}. Bij karakter-tokenisatie neemt de inputlengte toe, maar dit heeft volgens \textcite{Ribeiro2018} weinig bruikbare use cases. Het opsplitsen van zeldzame woorden in kleinere stukken om een woordenschat op te bouwen biedt voordelen ten opzichte van tokenisatie op woordniveau, aldus \autocite{Iredale2022}.
 
 \medspace
 
@@ -267,15 +267,15 @@ In NLP is het lemmatiseren gebaseerd op stemming, maar het houdt ook rekening me
 
 \medspace
 
-Om de betekenis van elk woord in een tekst te begrijpen, moet een machine in staat zijn om de betekenis achter elk token te begrijpen. Dit is waar \textit{sequence labeling} om de hoek komt kijken, volgens \textcite{Eisenstein2019}. Elk woord in een tekst wordt gekoppeld aan een label voor \textit{Part-of-Speech} (PoS) of \textit{Named-Entity-Recognition} (NER). Deze fase van NLP achterhaalt de structuur van een tekst. PoS-tagging richt zich op de grammaticale categorieën van woorden, terwijl NER-labeling zich richt op het herkennen van specifieke entiteiten in een tekst. Bij PoS-tagging worden de woorden in een zin geanalyseerd. Elk woord wordt gekoppeld aan een grammaticale categorie, zoals een zelfstandig naamwoord, werkwoord, bijvoeglijk naamwoord of bijwoord. \textit{PoS-tagging} helpt bij het begrijpen van de syntactische structuur van een zin en is nuttig bij parsing en machinevertaling. Een voorbeeld van PoS-tagging is te zien in figuur \ref{fig:pos-labeling} en is afkomstig uit \textcite{Bilisci2021}.
+Om de betekenis van elk woord in een tekst te begrijpen, moet een machine in staat zijn om de betekenis achter elk token te begrijpen. Dit is waar \textit{sequence labeling} om de hoek komt kijken, volgens \textcite{Eisenstein2019}. Elk woord in een tekst wordt gekoppeld aan een label voor \textit{Part-of-Speech} (PoS) of \textit{Named Entity Recognition} (NER). Deze fase van NLP achterhaalt de structuur van een tekst. PoS-tagging richt zich op de grammaticale categorieën van woorden, terwijl NER-labeling zich richt op het herkennen van specifieke entiteiten in een tekst. Bij PoS-tagging worden de woorden in een zin geanalyseerd. Elk woord wordt gekoppeld aan een grammaticale categorie, zoals een zelfstandig naamwoord, werkwoord, bijvoeglijk naamwoord of bijwoord. \textit{PoS-tagging} helpt bij het begrijpen van de syntactische structuur van een zin en is nuttig bij parsing en machinevertaling. Een voorbeeld van PoS-tagging is te zien in figuur \ref{fig:pos-labeling} en is afkomstig uit \textcite{Bilisci2021}.
 
-\begin{figure}[H]
-	\begin{center}
+\begin{center}
+	\begin{figure}[H]
 		\includegraphics[width=10cm]{img/poslabeling.png}
-	\end{center}
-	\caption{Voorbeeld van PoS-labeling. }
-	\label{fig:pos-labeling}
-\end{figure}
+		\caption{Voorbeeld van PoS-labeling \autocite{Bilisci2021}.}
+		\label{fig:pos-labeling}
+	\end{figure}
+\end{center}
 
 \medspace
 
@@ -297,7 +297,7 @@ Verschillende onderzoeken hebben aangetoond dat lexicale vereenvoudiging een bel
 
 \begin{center}
 \begin{table}[H]
-	\begin{tabular}{ | m{6cm} | m{6cm} | } 
+	\begin{tabular}{ | m{7cm} | m{7cm} | } 
 		\hline
 		\textbf{Databank} & \textbf{Ondersteunde talen} \\
 		\hline
@@ -343,7 +343,7 @@ Om wetenschappelijke artikelen toegankelijker en begrijpelijker te maken, is het
 
 \medspace
 
-Bij het extraherend samenvatten van teksten worden de belangrijkste zinnen gemarkeerd en opnieuw geformuleerd. Dit kan echter leiden tot onsamenhangende uitvoertekst, zoals \textcite{Khan2014} heeft aangetoond. Om de kernzinnen te bepalen, kunnen verschillende methoden worden gebruikt, zoals woordfrequentie, zinpositie -en gelijkenissen, de cue-methode, titels, de rest van het document, proper nouns, woordgebruik en de afstand tussen text units met entiteiten, aldus \textcite{Khan2014}. Verschillende technieken voor het extraherend samenvatten van teksten, waaronder graafgebaseerde methoden, maximal marginal relevance (MMR) en metaheuristiek-gebaseerde ES, zijn onderzocht door \textcite{Verma2020} en worden verder beschreven in tabel \ref{table:extractive-summarization}.
+Bij het extraherend samenvatten van teksten worden de belangrijkste zinnen gemarkeerd en opnieuw geformuleerd. Dit kan echter leiden tot onsamenhangende uitvoertekst, zoals \textcite{Khan2014} heeft aangetoond. Om de kernzinnen te bepalen, kunnen verschillende methoden worden gebruikt, zoals woordfrequentie, zinpositie -en gelijkenissen, de cue-methode, titels, de rest van het document, proper nouns, woordgebruik en de afstand tussen text units met entiteiten, aldus \textcite{Khan2014}. Verschillende technieken voor het extraherend samenvatten van teksten, waaronder graafgebaseerde methoden, maximal marginal relevance (MMR) en metaheuristiek gebaseerde ES, zijn onderzocht door \textcite{Verma2020} en worden verder beschreven in tabel \ref{table:extractive-summarization}.
 
 \begin{center}
 	\begin{table}[H]
@@ -367,7 +367,7 @@ De extraherende samenvatting van nieuwsartikelen kan beïnvloed worden door de v
 
 \begin{itemize}
 	\item Het lineaire gewichtsmodel, waarbij elke teksteenheid wordt gewogen op basis van factoren zoals de positie van de zin en het aantal keren dat deze voorkomt.
-	\item Het gewichtsmodel op basis van de statistische relevantie van een eenheid, waarbij rekening wordt gehouden met de aanwezigheid van woorden in (sub)titels.
+	\item Het gewichtsmodel op basis van de statistische relevantie van een eenheid, waarbij rekening wordt gehouden met de aanwezigheid van woorden in titels.
 \end{itemize}
 
 \medspace
@@ -504,21 +504,21 @@ OpenAI biedt documentatie aan voor het GPT-3 taalmodel met vier verschillende en
 
 \begin{center}
 	\begin{table}[H]
-	\begin{tabular}{ m{2cm} | m{10cm} | m{5cm} | }
+	\begin{tabular}{ m{2cm} | m{13cm} | }
 		\hline
-		Parameter & Omschrijving & Mogelijke waarden \\
+		Parameter & Omschrijving \\
 		\hline
-		model & Het GPT-3 model om te gebruiken & davinci, curie, babbage, ada, text-davinci-002, text-curie-001, text-babbage-001, text-ada-001, davinci-codex \\
+		model & Het GPT-3 model om te gebruiken: davinci, curie, babbage, ada, text-davinci-002, text-curie-001, text-babbage-001, text-ada-001, davinci-codex \\
 		\hline
-		temperature & De gulzigheid van een generatief model. Een lagere waarde zal conservatieve en voorspelbare tekst teruggeven. Hogere waarden zullen meer gevarieerde en onverwachtse tekst teruggeven, wat beter werkt bij creatieve toepassingen. & Een kommagetal tussen 0 en 1. \\
+		temperature & De gulzigheid van een generatief model. Een lagere waarde zal conservatieve en voorspelbare tekst teruggeven. Hogere waarden zullen meer gevarieerde en onverwachtse tekst teruggeven, wat beter werkt bij creatieve toepassingen: een kommagetal tussen 0 en 1. \\
 		\hline
-		max\_tokens & Het maximaal aantal tokens (woorden of subwoorden) dat het generatief model kan teruggeven. & Een getal tussen 1 and 2048. \\
+		max\_tokens & Het maximaal aantal tokens (woorden of subwoorden) dat het generatief model kan teruggeven: een getal tussen 1 and 2048. \\
 		\hline
-		top\_p & Vergelijkbaar met temperature, maar deze waarde onderhoudt de probability distribution voor common tokens. Hoe lager de waarde, hoe waarschijnlijker de woordenschat dat het model zal overwegen bij het genereren van tekst. Een hoge waarde is toepasselijker wanneer een toepassing gericht is op nauwkeurigheid en correctheid. & Een kommagetal tussen 0 en 1. \\
+		top\_p & Vergelijkbaar met temperature, maar deze waarde onderhoudt de probability distribution voor common tokens. Hoe lager de waarde, hoe waarschijnlijker de woordenschat dat het model zal overwegen bij het genereren van tekst. Een hoge waarde is toepasselijker wanneer een toepassing gericht is op nauwkeurigheid en correctheid: een kommagetal tussen 0 en 1. \\
 		\hline
-		stop & Een tekstwaarde (woord/symbool) tot waar het model zal genereren. When the model generates a string that matches any of the specified strings, it stops generating text. & Een lijst van string-waarden, of een enkele string. \\
+		stop & Een tekstwaarde (woord/symbool) tot waar het model zal genereren. When the model generates a string that matches any of the specified strings, it stops generating text: een lijst van string-waarden, of een enkele string. \\
 		\hline
-		presence\_penalty & Factor die bepaalt hoe regelmatig woorden voorkomen. & Een kommagetal tussen 0 en 1 \\
+		presence\_penalty & Factor die bepaalt hoe regelmatig woorden voorkomen: een kommagetal tussen 0 en 1 \\
 		\hline
 	\end{tabular}
 		\caption{Tabel met alle GPT-3 parameters.}
