@@ -46,6 +46,7 @@ De requirementsanalyse neemt geen functionaliteiten op van obscure proof-of-conc
 \begin{figure}[H]
 	\includegraphics{img/typeset-example.png}
 	\caption{Schermafbeelding van SciSpace}
+	\label{img:scispace-example}
 \end{figure}
 
 \section{Vergelijkende studie}
@@ -62,7 +63,11 @@ In tegenstelling tot GPT-3 zijn de modellen T1, T2 en T3 niet in staat om het fo
 
 \medspace
 
-Hoewel T4 in staat is om zinsyntaxtransformaties uit te voeren, kan deze problemen ondervinden bij het verwerken van alle meegegeven transformaties. Het taalmodel kan transformaties ontbreken als alle transformaties in één prompt zijn betrokken. Een voorgestelde aanpak om dit tegen te gaan, bestaat uit een pipeline van hoogstens drie prompts die elkaar opvolgen, zoals geïllustreerd in figuur ...
+Tijd speelt ook een rol en zowel aangesproken per API, als lokaal draaiend, scoren T1 en T2 ondermaats. Dit kan oplopen tot hoogstens 30 seconden voor een zin van tien tot dertig woorden, vergeleken met T3 die dezelfde zin in minder dan 10 seconden kan vereenvoudigen.
+
+\medspace
+
+Hoewel T3 in staat is om zinsyntaxtransformaties uit te voeren, ervaart deze problemen ondervinden bij het verwerken van alle meegegeven transformaties. Het taalmodel kan transformaties ontbreken als alle transformaties in één prompt zijn betrokken. Een voorgestelde aanpak om dit tegen te gaan, bestaat uit een pipeline van hoogstens drie prompts die elkaar opvolgen, zoals geïllustreerd in figuur ...
 
 \medspace
 

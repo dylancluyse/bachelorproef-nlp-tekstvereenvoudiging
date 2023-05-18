@@ -35,25 +35,29 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {3.2}{\ignorespaces Criteria waarop toepassingen worden afgetoetst in de requirementsanalyse\relax }}{38}{table.caption.32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.3}{\ignorespaces De GPT-3-prompts die in de vergelijkende studie aan bod komen.\relax }}{41}{table.caption.33}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces Het Moscow-schema, opgebouwd door middel van de requirementsanalyse.\relax }}{39}{table.caption.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.4}{\ignorespaces Gebruikte programmeertalen in het prototype voor tekstvereenvoudiging.\relax }}{42}{table.caption.34}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Gebruikte taalmodellen in de vergelijkende studie\relax }}{40}{table.caption.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.5}{\ignorespaces Gebruikte Python-libraries en hun respectievelijke functie in het prototype.\relax }}{43}{table.caption.35}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces De GPT-3-prompts die in de vergelijkende studie aan bod komen.\relax }}{42}{table.caption.35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.6}{\ignorespaces Gebruikte SpaCy Word-embeddings\relax }}{45}{table.caption.37}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces Gebruikte programmeertalen in het prototype voor tekstvereenvoudiging.\relax }}{43}{table.caption.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.7}{\ignorespaces Taken van de webontwikkelaar bij het uitwerken van het lerarencomponent.\relax }}{48}{table.caption.39}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces Gebruikte Python-libraries en hun respectievelijke functie in het prototype.\relax }}{44}{table.caption.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.8}{\ignorespaces Taken van de NLP Engineer bij het uitwerken van het lerarencomponent.\relax }}{49}{table.caption.40}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces Gebruikte SpaCy Word-embeddings\relax }}{46}{table.caption.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.9}{\ignorespaces Taken van data engineer bij het uitwerken van het lerarencomponent.\relax }}{49}{table.caption.41}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces Taken van de webontwikkelaar bij het uitwerken van het lerarencomponent.\relax }}{49}{table.caption.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.10}{\ignorespaces Taken van de system engineer bij het uitwerken van het lerarencomponent.\relax }}{50}{table.caption.42}%
+\contentsline {table}{\numberline {3.10}{\ignorespaces Taken van de NLP Engineer bij het uitwerken van het lerarencomponent.\relax }}{50}{table.caption.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.11}{\ignorespaces Taken van NLP engineer bij het uitwerken van het scholierencomponent.\relax }}{51}{table.caption.44}%
+\contentsline {table}{\numberline {3.11}{\ignorespaces Taken van data engineer bij het uitwerken van het lerarencomponent.\relax }}{50}{table.caption.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.12}{\ignorespaces Taken van data engineer bij het uitwerken van het scholierencomponent.\relax }}{51}{table.caption.45}%
+\contentsline {table}{\numberline {3.12}{\ignorespaces Taken van de system engineer bij het uitwerken van het lerarencomponent.\relax }}{51}{table.caption.44}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.13}{\ignorespaces Taken van NLP engineer bij het uitwerken van het scholierencomponent.\relax }}{52}{table.caption.46}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.14}{\ignorespaces Taken van data engineer bij het uitwerken van het scholierencomponent.\relax }}{52}{table.caption.47}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

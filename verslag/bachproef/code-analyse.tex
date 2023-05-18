@@ -1,102 +1,153 @@
 \chapter{\IfLanguageName{dutch}{Code voor tekstanalyse}{Attachment 1}}%
 \label{ch:bijlage-code}
 
+\begin{lstlisting}[language=Python, caption={Script voor fase 1 van de vergelijkende studie.}, label={code:verg-studie-phase-1}]
+import os, re
+
+def add_newline_after_dot(input_file, output_file):
+	with open(input_file, 'r', encoding='utf-8') as file:
+		text = file.read()
+	text = re.sub(r'\d', '', text)
+	modified_text = text.replace('.', '.\n')
+	with open(output_file, 'w', encoding='utf-8') as file:
+		file.write(modified_text)
+
+folder_path = 'scripts\pdf'
+original_scientific_papers = [f for f in os.listdir(folder_path)]
+
+for paper in original_scientific_papers:
+	input_file =  folder_path + '/' + paper
+	output_file = folder_path + '/' + 'RE_' + paper
+	add_newline_after_dot(input_file, output_file)
+\end{lstlisting}
+
+\newpage
+
+\begin{center}
+	\begin{lstlisting}[language=Python, caption={Script voor de tweede fase van de vergelijkende studie.}, label={code:verg-studie-phase-2}]
+import os
+import pandas as pd
+from deep_translator import GoogleTranslator
+
+output_csv = 'results.csv'
+
+def translate_dutch_to_english(dutch_text_file):
+	with open(dutch_text_file, 'r', encoding='utf-8') as file:
+		dutch_sentences = file.readlines()
+		dutch_sentences = [sentence.strip() for sentence in dutch_sentences]
+
+	english_sentences = []
+	for sentence in dutch_sentences:
+		translated = GoogleTranslator(source='nl', target='en').translate(sentence)
+		english_sentences.append(translated)
+		df = pd.DataFrame({'Dutch': dutch_sentences, 'English': english_sentences})
+		df.to_csv(str(dutch_text_file).split('.')[0] + '.csv', index=False)
+
+
+	folder_path = 'scripts/pdf/'
+	original_scientific_papers = [f for f in os.listdir(folder_path)]
+
+	for paper in original_scientific_papers:
+		if paper.startswith('RE_') and paper.endswith('.txt'):
+			print(f'STARTING {paper}')
+			dutch_text_file = folder_path + paper
+			translate_dutch_to_english(dutch_text_file)
+	\end{lstlisting}
+\end{center}
+
+\newpage
 
 \begin{center}
 	\begin{lstlisting}[language=Python, caption={Script voor text-analyse met Readability}, label={code:script-for-text-analysis}]
-		from pdfminer.high_level import extract_pages
-		from pdfminer.layout import LTTextContainer, LTChar
-		import spacy
-		from langdetect import detect
-		import pandas as pd
-		import os
-		import readability
+from pdfminer.high_level import extract_pages
+from pdfminer.layout import LTTextContainer, LTChar
+import spacy
+from langdetect import detect
+import pandas as pd
+import os
+import readability
 		
 		
-		folder_path = 'scripts\pdf'
-		dutch_spacy_model = "nl_core_news_md"
-		english_spacy_model = "en_core_web_sm"
+folder_path = 'scripts\pdf'
+dutch_spacy_model = "nl_core_news_md"
+english_spacy_model = "en_core_web_sm"
 		
-		dict = {
-			'nl':'nl_core_news_md',
-			'en':'en_core_web_sm'
-		}
+dict = {nl':'nl_core_news_md',en':'en_core_web_sm'}
 		
-		total_df = None
+total_df = None
 		
-		def get_sentence_length(sentence):
-		doc = nlp(sentence)
-		return len(doc)
+def get_sentence_length(sentence):
+	doc = nlp(sentence)
+	return len(doc)
 		
-		pdf_files = [f for f in os.listdir(folder_path)]
+pdf_files = [f for f in os.listdir(folder_path)]
 		
-		for pdf in pdf_files:
-		
-		if pdf.endswith('pdf'):
+for pdf in pdf_files:
+	if pdf.endswith('pdf'):
 		print(f'...{pdf} starting to read')
 		all_pages = extract_pages(
-		pdf_file='scripts\pdf/'+ pdf,
-		page_numbers=[0],
-		maxpages=999
+			pdf_file='scripts\pdf/'+ pdf,
+			page_numbers=[0],
+			maxpages=999
 		)
 		
 		full_text = ""
 		for page_layout in all_pages:
-		for element in page_layout:
-		if isinstance(element, LTTextContainer):		
-		for text_line in element:
-		full_text += text_line.get_text()
+			for element in page_layout:
+				if isinstance(element, LTTextContainer):		
+					for text_line in element:
+						full_text += text_line.get_text()
+					elif pdf.endswith('txt'):
+						print(f'...{pdf} starting to read')
+					with open('scripts\pdf/'+ pdf, 'r') as file:
+						full_text = file.read()
 		
-		elif pdf.endswith('txt'):
-		print(f'...{pdf} starting to read')
-		with open('scripts\pdf/'+ pdf, 'r') as file:
-		full_text = file.read()
+				else:
+					print(f'...{pdf} not a valid file...')
+					break
 		
-		else:
-		print(f'...{pdf} not a valid file...')
-		pass
+				full_text = full_text.strip()
+				full_text = full_text.replace('\n', ' ')
+				lang = detect(full_text)
 		
-		full_text = full_text.strip()
-		full_text = full_text.replace('\n', ' ')
-		lang = detect(full_text)
+				model = dict.get(detect(full_text), dict.get('en'))
+				nlp = spacy.load(model)
+				doc = nlp(full_text)
 		
-		model = dict.get(detect(full_text), dict.get('en'))
-		nlp = spacy.load(model)
-		doc = nlp(full_text)
+				sentences = []
+				for sentence in doc.sents:
+					sentences.append(str(sentence))
 		
-		sentences = []
-		for sentence in doc.sents:
-		sentences.append(str(sentence))
+				df = pd.DataFrame(sentences, columns=['sentence'])
+				df['source'] = pdf.split('_')[0]
 		
-		df = pd.DataFrame(sentences, columns=['sentence'])
-		df['source'] = pdf.split('_')[0]
+				try:
+					df['title'] = pdf.split('_')[1].split('.')[0]
+				except:
+					df['title'] = pdf.split('_')[1]
 		
-		try:
-		df['title'] = pdf.split('_')[1].split('.')[0]
-		except:
-		df['title'] = pdf.split('_')[1]
+				df['sentence_length'] = df['sentence'].apply(get_sentence_length)
 		
-		df['sentence_length'] = df['sentence'].apply(get_sentence_length)
+				df = df[df['sentence_length'] > 4]   
 		
-		df = df[df['sentence_length'] > 4]   
+				for key in readability.getmeasures("test")['readability grades'].keys():
+					df[key] = df['sentence'].apply(lambda x: readability.getmeasures(x)['readability grades'][key])
 		
-		for key in readability.getmeasures("test")['readability grades'].keys():
-		df[key] = df['sentence'].apply(lambda x: readability.getmeasures(x)['readability grades'][key])
+				word_usage_cols = readability.getmeasures("test")['word usage'].keys()
 		
-		word_usage_cols = readability.getmeasures("test")['word usage'].keys()
-		for key in word_usage_cols:
-		df[key] = df['sentence'].apply(lambda x: readability.getmeasures(x, lang=lang)['word usage'][key])
+				for key in word_usage_cols:
+					df[key] = df['sentence'].apply(lambda x: readability.getmeasures(x, lang=lang)['word usage'][key])
 		
-		sentence_beginnings_cols = readability.getmeasures("test")['sentence beginnings'].keys()
-		for key in sentence_beginnings_cols:
-		df[key] = df['sentence'].apply(lambda x: readability.getmeasures(x, lang=lang)['sentence beginnings'][key])
+				sentence_beginnings_cols = readability.getmeasures("test")['sentence beginnings'].keys()
+				for key in sentence_beginnings_cols:
+					df[key] = df['sentence'].apply(lambda x: readability.getmeasures(x, lang=lang)['sentence beginnings'][key])
 		
-		if total_df is None:
-		total_df = df
-		else:
-		if not df.empty:
-		total_df = pd.concat([total_df, df], ignore_index=True)
+				if total_df is None:
+					total_df = df
+				else:
+					if not df.empty:
+						total_df = pd.concat([total_df, df], ignore_index=True)
 		
-		total_df.to_csv(path_or_buf='text-analysis-simplification.csv', index=False)
+				total_df.to_csv(path_or_buf='text-analysis-simplification.csv', index=False)
 	\end{lstlisting}
 \end{center}

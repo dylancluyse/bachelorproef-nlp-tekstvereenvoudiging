@@ -5,25 +5,32 @@
 \chapter{\IfLanguageName{dutch}{Methodologie}{Methodology}}%
 \label{ch:methodologie}
 
-Door de vergaarde kennis uit de literatuurstudie in hoofdstuk \ref{ch:stand-van-zaken} over de mogelijke noden van scholieren met dyslexie, de complexiteit van wetenschappelijke artikelen, de technieken voor MTS en ATS, en de bijhorende valkuilen bij taalverwerking met AI, kunnen onderzoeksmethoden worden toegepast om een antwoord te vinden op de onderzoeksvraag. Hiervoor moeten drie onderzoeksmethoden toegepast worden, met als hoofddoel het ontwikkelen van een prototype voor gepersonaliseerde ATS om wetenschappelijke artikelen te vereenvoudigen voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs.
+% Door de vergaarde kennis uit de literatuurstudie in hoofdstuk \ref{ch:stand-van-zaken} over de mogelijke noden van scholieren met dyslexie, de complexiteit van wetenschappelijke artikelen, de technieken voor MTS en ATS, en de bijhorende valkuilen bij taalverwerking met AI, kunnen onderzoeksmethoden worden toegepast om een antwoord te vinden op de onderzoeksvraag. 
+
+
+Hiervoor moeten drie onderzoeksmethoden toegepast worden, met als hoofddoel het ontwikkelen van een prototype voor gepersonaliseerde ATS om wetenschappelijke artikelen te vereenvoudigen voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs.
 
 \section{Requirementsanalyse}
 \label{sec:requirementsanalyse}
 
-Om must-haves van wont-haves te kunnen onderscheiden, moet het onderzoek stilstaan bij de benodigde functionaliteiten in een prototype voor tekstvereenvoudiging door middel van een requirementsanalyse. Deze onderzoeksfase doelt op het uittesten van een shortlist van tools op hun functionaliteiten voor gepersonaliseerde ATS. De requirementsanalyse analyseert toepassingen die enerzijds de overheid aan scholieren met dyslexie in het onderwijs aanbiedt, anderzijds online tools die leerkrachten of scholieren kunnen gebruiken om teksten te vereenvoudigen. Zo kan de requirementsanalyse een antwoord bieden op de volgende twee subvragen, aan de hand van de technieken voor tekstvereenvoudiging beschreven in hoofdstuk \ref{ch:stand-van-zaken}. 
+Om \textit{must-haves} van \textit{wont-haves} bij de ontwikkeling van een prototype voor tekstvereenvoudiging te kunnen onderscheiden, moet het onderzoek stilstaan bij de vereiste functionaliteiten door middel van een requirementsanalyse. Ten eerste moet deze onderzoeksfase zich richten op het uittesten van een shortlist van tools met tekstvereenvoudigingsfunctionaliteiten op hun capabiliteiten voor gepersonaliseerde ATS. Bovendien moeten zowel erkende toepassingen van de overheid gericht op deze casus, alsook toepassingen die leerkrachten of scholieren kunnen gebruiken om teksten te vereenvoudigen, geanalyseerd worden. Deze analyse verduidelijkt hoe sterk deze toepassingen aanleunen op een tekst vereenvoudigd door een leerkracht die een gepersonaliseerde tekstvereenvoudiging maakt van een wetenschappelijk artikel, specifiek op maat voor een scholier met dyslexie. Op deze manier kan de requirementsanalyse een antwoord geven op de volgende twee deelvragen van het onderzoek, aan de hand van de technieken voor MTS en ATS beschreven in hoofdstuk \ref{ch:stand-van-zaken}.
 
 \begin{itemize}
 	\item Welke functies ontbreken AI-toepassingen om geautomatiseerde tekstvereenvoudiging mogelijk te maken voor scholieren met dyslexie in de derde graad middelbaar onderwijs?
-	\item Welke manuele methoden voor tekstvereenvoudiging komen niet in deze tools voor?
+	\item Welke manuele methoden voor tekstveree²nvoudiging komen niet in deze tools voor?
 \end{itemize}
 
-Op dit moment beschikken scholen over vijf softwarepakketten. De requirementsanalyse neemt enkel drie van deze vijf op, omwille van hun prevalentie in het onderwijs. Online beschikbare tools kunnen ook bijdragen aan het automatiseren van processen voor leerkrachten, zoals eerder besproken in hoofdstuk \ref{ch:stand-van-zaken}. De requirementsanalyse betrekt enkel de tools met onderschreven tekstvereenvoudigingscapaciteiten en laat zo pure samenvattingstools buiten het onderzoek. De verzamelde informatie uit sectie \ref{sec:beschikbare-tools-en-taalmodellen} bepaalt de shortlist van tools met veelbelovende functionaliteiten, zichtbaar in tabel \ref{table:shortlist-tools}.
+\medspace
+
+Zoals aangewezen in sectie \ref{sec:beschikbare-tools-en-taalmodellen} beschikken scholen over vijf door de overheid erkende softwarepakketten, maar de requirementsanalyse neemt enkel drie van deze vijf op omwille van hun prevalente toepassing in het onderwijs. Daarnaast kunnen online beschikbare tools ook scholieren met dyslexie ondersteunen bij het intensief lezen van complexe teksten met ATS, zoals bewezen in \textcite{Bingel2018}. De requirementsanalyse betrekt enkel tools met onderschreven tekstvereenvoudigingscapaciteiten en laat zo pure samenvattingstools erbuiten. Deze shortlist van tools worden weergegeven in \ref{table:shortlist-tools}.
+
+\medspace
 
 \begin{center}
 	\begin{table}[H]
 		\begin{tabular}{ | m{6cm} | m{6cm} | } 
 			\hline
-			\textbf{Erkende software} & Online beschikbare tools \\
+			\textbf{Erkende software} & \textbf{Online beschikbare tools} \\
 			\hline
 			Sprintplus (ES1) & Simplish (OB1) \\
 			Kurzweil3000 (ES2) & SciSpace (OB2) \\ 
@@ -31,12 +38,19 @@ Op dit moment beschikken scholen over vijf softwarepakketten. De requirementsana
 			& Bing Chatbot (OB4)\\
 			\hline
 		\end{tabular}
-	\label{table:shortlist-tools}	
 	\caption{Shortlist van uit te testen tools en toepassingen voor tekstvereenvoudiging.}
+	\label{table:shortlist-tools}	
 	\end{table}
 \end{center}
 
-De benoemde MTS-technieken uit tabel \ref{table:manual-simplification} en tabel \ref{table:scientific-paper-struggles} dienen om de shortlist van tools te valideren op hun bruikbaarheid, specifiek voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs. Met behulp van de criteria beschreven in tabel \ref{table:criteria-requirementsanalysis} gebruikt de requirementsanalyse deze technieken om de gebruikte en ontbrekende MTS-technieken in de tools te achterhalen,  alsook als deze tools in staat zijn om wetenschappelijke artikelen kunnen vereenvoudigen naargelang bewezen tactieken. Deze analyse verduidelijkt hoe sterk deze toepassingen aanleunen op een tekst vereenvoudigd door een leerkracht die een gepersonaliseerde tekstvereenvoudiging maakt van een wetenschappelijk artikel, specifiek op maat voor een scholier met dyslexie.
+De opgesomde MTS-technieken uit \ref{table:manual-simplification} en \ref{table:scientific-paper-struggles} dienen als bouwsteen om de shortlist te valideren op bruikbaarheid voor gepersonaliseerde ATS binnen het onderwijs, specifiek voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs. Met behulp van de criteria beschreven in tabel \ref{table:criteria-requirementsanalysis} past de requirementsanalyse deze technieken toe om de gebruikte en ontbrekende MTS-technieken in de tools te achterhalen,  alsook of deze tools in staat zijn om wetenschappelijke artikelen te kunnen vereenvoudigen. 
+
+\medspace
+
+% TODO bronnen
+Functionaliteiten worden teruggevonden op basis van een verkenning in de tool en alle aangeboden functies komen aan bod in deze onderzoeksfase. Artikelen van ... en ... dienen als testmiddel voor deze onderzoeksfase. De tools ondergaan een evaluatie om hun vermogen om een wetenschappelijk artikel in PDF-formaat te vereenvoudigen, indien dat mogelijk is. Als dit niet mogelijk is, gebeurt het kopiëren en plakken van de tekst in de toepassing. Vervolgens vindt een evaluatie van de eventuele beperkingen of tekortkomingen plaats. 
+
+
 
 \begin{center}
 	\begin{table}[H]
@@ -75,13 +89,13 @@ De benoemde MTS-technieken uit tabel \ref{table:manual-simplification} en tabel 
 	\end{table}
 \end{center}
 
-De tools ondergaan een test om hun vermogen om een wetenschappelijk artikel in PDF-formaat te vereenvoudigen, indien dat mogelijk is. Als dit niet mogelijk is, gebeurt het kopiëren en plakken van de tekst in de toepassing. Vervolgens vindt een evaluatie van de eventuele beperkingen of tekortkomingen plaats. Het resultaat van deze onderzoeksfase bestaat uit een Moscow-schema dat fungeert als bouwsteen voor de ontwikkeling van het prototype van een webtoepassing voor tekstvereenvoudiging, specifiek om wetenschappelijke artikelen op maat voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs te vereenvoudigen.
+% Het resultaat van deze onderzoeksfase bestaat uit een Moscow-schema dat fungeert als bouwsteen voor de ontwikkeling van het prototype van een webtoepassing voor tekstvereenvoudiging, specifiek om wetenschappelijke artikelen op maat voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs te vereenvoudigen. De geteste toepassingen opgesomd in \ref{table:shortlist-tools} representeren de top-of-the-line toepassingen voor tekstvereenvoudiging. Webtools presenteren op hun sites verschillende functionaliteiten die aan de eindgebruiker worden uitgeleend. Deze zijn terug te vinden bij het uittesten en er is geen sprake van false advertising. Er is een Moscow-schema opgesteld, geïllustreerd in figuur \ref{table:criteria-requirementsanalysis}, dat de beoordeling van de geteste tools weergeeft aan de hand van de criteria.
 
 \medspace
 
-De geteste toepassingen opgesomd in \ref{table:shortlist-tools} representeren de top-of-the-line toepassingen voor tekstvereenvoudiging. Webtools presenteren op hun sites verschillende functionaliteiten die aan de eindgebruiker worden uitgeleend. Deze zijn terug te vinden bij het uittesten en er is geen sprake van false advertising. Er is een Moscow-schema opgesteld, geïllustreerd in figuur \ref{table:criteria-requirementsanalysis}, dat de beoordeling van de geteste tools weergeeft aan de hand van de criteria.
-
 \begin{center}
+	\begin{table}
+
 	\begin{tabular}{ | m{4cm} | m{12cm} | } 
 		\hline
 		\textbf{MoSCoW-principe} & Functionaliteit \\
@@ -102,14 +116,10 @@ De geteste toepassingen opgesomd in \ref{table:shortlist-tools} representeren de
 		& Beschikbaarheid tot de standaard- en gepersonaliseerde opties zonder API-sleutels \\
 		\hline
 	\end{tabular}
+	\label{img:moscow-table}
+	\caption{Het Moscow-schema, opgebouwd door middel van de requirementsanalyse.}
+	\end{table}
 \end{center}
-
-
-
-
-
-
-
 
 
 
@@ -117,20 +127,72 @@ De geteste toepassingen opgesomd in \ref{table:shortlist-tools} representeren de
 \section{Vergelijkende studie}
 \label{sec:vergelijkende-studie}
 
-Taalmodellen zijn nodig om teksten te kunnen vereenvoudigen, maar een toepassing voor tekstvereenvoudiging binnen de casus van wetenschappelijke artikelen moet gebruik maken van een taalmodel dat het meest aansluit op deze casus. Om het prototype af te stemmen op één taalmodel, vereist een antwoord op de volgende vraag. 
+Teksten vereenvoudigen met ATS kan niet efficiënt verlopen zonder een taalmodel, maar een toepassing voor tekstvereenvoudiging binnen de casus van wetenschappelijke artikelen moet gebruik maken van een taalmodel die het meest aansluit op deze casus. Om het prototype af te stemmen op één taalmodel, vereist er een antwoord op de volgende vraag. 
 
 \begin{itemize}
-	\item Welk taalmodel of LLM is geschikt voor ATS van wetenschappelijke artikelen voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs, met dezelfde of gelijkaardige kwaliteiten als lexicale vereenvoudiging met MTS?
+	\item Welk taalmodel of LLM is geschikt voor ATS van wetenschappelijke artikelen voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs, met dezelfde of gelijkaardige kwaliteiten als gepersonaliseerde tekstvereenvoudiging met MTS?
 \end{itemize}
 
 
 % Hoe ga je het doen? 
-Gezien de schaarse hoeveelheid aan gespecialiseerde taalmodellen, specifiek gericht op het vereenvoudigen van wetenschappelijke artikelen of taalmodellen met een personaliseerbaar karakter, beoordeelt de vergelijkende studie alle vermelde taalmodellen, beschreven in \ref{table:huggingface-models}. 
-De vergelijkende studie vergelijkt twee wetenschappelijke artikelen met een MTS-referentietekst, geschreven door twee lectoren en twee scholieren. Deze vier personen baseren zich op vooraf meegekregen richtlijnen, toegelicht in de bijlage. Omdat GPT-3 en de HuggingFace-taalmoddelen enkel per commandline of Python-script werken, krijgt het taalmodel alle bruikbare testinhoud in plain-text. Deze bruikbare tekstinhoud omvat alle tekst uit het wetenschappelijk artikel, met uitzondering op de bibliografie en inhoudsopgave.
+Gezien de schaarse hoeveelheid aan gespecialiseerde taalmodellen, specifiek gericht op het vereenvoudigen van wetenschappelijke artikelen of taalmodellen met een personaliseerbaar karakter, beoordeelt de vergelijkende studie alle vermelde taalmodellen die speicifiek op ATS gericht zijn, beschreven in \ref{table:huggingface-models}. 
+
+\begin{center}
+	\begin{table}[H]
+		\begin{tabular}{ | m{4cm} | m{12cm} | } 
+			\hline
+			\textbf{Verwijzing} & \textbf{Taalmodel} \\
+			\hline
+			T1 & Haining Scientific Abstract Simplification\footnote{https://huggingface.co/haining/scientific\_abstract\_simplification} \\
+			\hline
+			T2 & Keep It Simple\footnote{https://huggingface.co/philippelaban/keep\_it\_simple} \\
+			\hline
+			T3 & GPT-3 \\
+			\hline
+		\end{tabular}
+		\caption{Gebruikte taalmodellen in de vergelijkende studie}
+		\label{table:vergelijkende-studie-taalmodellen}
+	\end{table}
+\end{center}
 
 \medspace
 
-Het Python-script maakt gebruik van de volgende Python-bibliotheken: PDFMiner, Readability, OpenAI en Requests. API-calls naar de HuggingFace server gebeurt met de requests-library, terwijl deze requests voor GPT-3 perfect binnen eenzelfde library kan gebeuren. Tabel \ref{table:tested-prompts} geeft de gebruikte prompts voor de testen bij het GPT-3 model weer. Het script dat het GPT-3 model aanspreekt past een lage temperature toe om een probabilisch vertrouwd antwoord te verkrijgen, alsook een hoge \textit{top\_p} waarde om een hoge woordfrequentie te bekomen, zoals aangegeven in de documentatie van OpenAI.
+Zo vergelijkt deze onderzoeksfase de leesgraadsmetrieken van de oorspronkelijke wetenschappelijke artikelen zoals in \ref{sec:requirementsanalyse}, met referentietekst vereenvoudigd door MTS en teksten vereenvoudigd met ATS. 
+
+
+\medspace 
+
+De referentieteksten zijn geschreven door twee leerkrachten binnen het vakgebied onderwijs, en twee scholieren van de derde graad in het middelbaar onderwijs zonder dyslexie. Deze vier personen baseren zich op vooraf meegekregen richtlijnen, toegelicht in de bijlage. 
+
+\medspace
+
+Zinnen worden vereenvoudigd om zo te vergelijken welk taalmodel beter in staat is voor gepersonaliseerde tekstvereenvoudiging. Hiervoor zijn vier scripts nodig.
+
+\medspace
+
+% SCRIPT 1
+Eerst volgt er een voorbereiding van de tekstinhoud. Hier wordt namelijk de inhoud van de wetenschappelijke artikelen opgehaald, en vervolgens in een tekstbestand geplaatst. Dit gebeurt manueel. Dit gebeurt met de code verwezen in \ref{code:verg-studie-phase-1}. Aangezien GPT-3 en de HuggingFace-taalmodellen enkel per commandline of Python-script werken, krijgt het taalmodel alle bruikbare testinhoud in \textit{plain-text}. Deze bruikbare tekstinhoud omvat alle tekst uit het wetenschappelijk artikel, met uitzondering op de bibliografie en inhoudsopgave.
+
+
+% SCRIPT 2
+Zoals eerder verwezen, moeten de taalmodellen via HuggingFace eerst vertaald worden naar Engelstalige tekst. Zo staat het vertalen in de tweede fase centraal, verwezen in script \ref{code:verg-studie-phase-2}. Aangezien het onderzoek probeert te werken met zo vaak mogelijk open-source of vrij beschikbare software, wordt er gebruik gemaakt van de \textit{deep\_translator} Python-bibliotheek. Het script itereert iedere zin en vertaalt de zin naar het Engels, indien dit een niet-Engelstalige zin is. Het resultaat van dit script is een csv-bestand met daarin twee kolommen, alle Nederlandstalige en alle vertaalde Engelstalige zinnen van één artikel. Bij een Engelstalig artikel bevatten de twee kolommen dezelfde waarden. De kolommen worden gesepareerd met een pipe-symbool.
+
+\medspace
+
+% SCRIPT 3
+Vervolgens wordt iedere zin aan het taalmodel gegeven, zo om voor elke zin een vereenvoudigde versie te krijgen. T1 en T2 vereenvoudigen de Engelstalige zinnen, in tegenstelling tot T3 en de verwante prompts die de Nederlandstalige zin vereenvoudigen. Bij het schrijven van de prompt wordt er rekening gehouden met de verwachte \textit{output format}. 
+
+Eerst worden de specifieke tokenizers en modellen van T1 en T2 gedeclareerd, alsook wordt de API-sleutel voor GPT-3 ingesteld. Het script itereert over alle tekstbestanden aangemaakt in fase 2 of in script \ref{code:verg-studie-phase-2}.
+
+
+% Dit maakt het behandelen van niet-Engelstalige wetenschappelijke artikelen moeilijk. 
+
+\medspace
+
+Taalmodellen via HuggingFace worden lokaal opgezet en worden niet aangepast. Tabel \ref{table:tested-prompts} geeft de gebruikte prompts voor de testen bij het GPT-3 model weer. Zowel het Seq2Seq als het toegepaste GPT-3 model maken gebruik van een nul-temperature en een top-p waarde van 90\%, zo om een probabilisch vertrouwd antwoord te verkrijgen, alsook om een hoge woordfrequentie te bekomen, zoals eerder aangegeven in \ref{table:gpt-3-parameters}.
+
+
+% API-calls naar de HuggingFace server gebeurt met de requests-library, terwijl deze requests voor GPT-3 perfect binnen eenzelfde library kan gebeuren. 
 
 \medspace
 
@@ -142,17 +204,13 @@ Zoals eerder aangehaald kunnen prompt-gebaseerde testen verschillende resultaten
 			\hline
 			\textbf{Naam} & \textbf{Prompt} \\
 			\hline
-			P1 & Simplify this text in Dutch \\
+			P1 & Simplify this sentence in Dutch \\
 			\hline
 			P2 & Simplify a text for students (age 16-18 years old) by replacing difficult words, keeping technical jargon, replacing words longer than 18 letters, writing acronyms in full, replacing a word only once with a synonym, giving brief explanations when necessary, and avoiding percentages. \\
 			\hline
 			P3 & Simplify a text by breaking them into shorter sentences with a maximum of ten words. Change pronouns like 'they', 'their', or 'he' to names. Replace complex sentence constructions and prepositional phrases with simpler alternatives, but leave them unchanged if no simpler option is available. \\
 			\hline
 			P4 & Simplify an article for students (age 16-18 years old) by replacing difficult words (except technical jargon learned in the 2nd grade), words longer than 18 letters, and avoiding percentages. Use synonyms only once and give brief explanations if necessary. Write acronyms in full and replace pronouns with names. Simplify sentence constructions and prepositional phrases, splitting sentences into a maximum of ten words, but leave them unchanged if no simpler alternative is available. \\
-			\hline
-			P5 & Simplify this text for students by writing it in a table-format. \\
-			\hline
-			P6 & Simplify this text for students by writing it as a summation. \\
 			\hline
 		\end{tabular}
 		\label{table:tested-prompts}
@@ -311,7 +369,11 @@ Het prototype gebruikt een taalmodel van \textit{HuggingFace} voor extraherende 
 
 \subsection{Personaliseerbaarheid aanreiken}
 
-SC en BART-SC transformeren de tekst op lexicaal en syntactisch niveau. Zij bekijken enkel de gekregen zin. Andere taalmodellen zijn eerder geneigd om extra tekst toe te voegen. Er kan niet achterhaald worden waarom dat deze extra tekst wordt meegegeven. BART-SC kan bijzaak behouden, terwijl SC sneller de neiging heeft om enkel de kernzaak te behouden in de vereenvoudigde tekst. Bij de inference API's moet er expliciet worden aangegeven om welke transformatie dit gaat door kernwoorden zoals 'summarize:'.
+% TODO GPT-3
+
+transformeren de tekst op lexicaal en syntactisch niveau. Zij bekijken enkel de gekregen zin. Andere taalmodellen zijn eerder geneigd om extra tekst toe te voegen. Er kan niet achterhaald worden waarom dat deze extra tekst wordt meegegeven. BART-SC kan bijzaak behouden, terwijl SC sneller de neiging heeft om enkel de kernzaak te behouden in de vereenvoudigde tekst. 
+
+Bij de inference API van T1 moet er expliciet worden aangegeven om welke transformatie dit gaat door kernwoorden zoals 'simplify:'.
 
 \medspace
 
@@ -453,17 +515,8 @@ De taken van de NLP engineer blijven vrijwel dezelfde, dus hier wordt er verweze
 	\end{table}
 \end{center}
 
-Docker wordt gebruikt als opzet voor de ontwikkelaars. Een scriptbestand vereenvoudigt de opstart van deze webapplicatie in tegenstelling tot de opstart per terminal. De nodige Python-bibliotheken worden alvorens opgehaald met Pipreq. Alle taalmodellen worden per API aangesproken, ofwel één Docker-container voor de webapplicatie volstaat voor dit prototype.
-
-\subsection{Conclusie}
-
-Flowchart voor ontwikkeling
-1. Requirementsanalyse + opzet moscow.
-2. Te gebruiken taalmodellen achterhalen.
-3. Functies schrijven in Jupyter notebooks of soortgelijke scripts.
-
-Het prototype gebruikt API's waaronder de \textit{HuggingFace} Inference APIs en de GPT-3 API. Aanvullend hierop kunnen ontwikkelaars deze modellen extra trainen op basis van de gewenste casus. 
-
 \medspace
 
-Ontwikkelaars moeten rekening houden met het gebrek aan structuur bij het ophalen van tekstinhoud uit een PDF-bestand.
+Ten slotte maakt het prototype gebruik van Docker voor de lokale opzet. Een scriptbestand, in Powershell of Bash, vereenvoudigt de opstart van deze webapplicatie, in tegenstelling tot de opstart per terminal. Alvorens installeert Docker met behulp van de voorafgegeven instructies de nodige Python-bibliotheken met het Pipreq-commando. Omdat het prototype gebruik maakt van de API's van de taalmodellen, hoeft het prototype geen gebruik te maken van een aparte container voor het taalmodel.
+
+% Ontwikkelaars moeten rekening houden met het gebrek aan structuur bij het ophalen van tekstinhoud uit een PDF-bestand.

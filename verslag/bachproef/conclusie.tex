@@ -5,24 +5,20 @@
 \chapter{Conclusie}%
 \label{ch:conclusie}
 
-\subsubsection{Welke specifieke noden hebben scholieren met dyslexie van de derde graad middelbaar onderwijs bij het begrijpen van complexere teksten?}
+In deze scriptie is gezocht naar een antwoord op de volgende onderzoeksvraag:
 
+\begin{itemize}
+	\item Hoe kan een wetenschappelijke artikel automatisch vereenvoudigd worden, gericht op de unieke noden van scholieren met dyslexie in de derde graad middelbaar onderwijs?
+\end{itemize}
 
-\subsubsection{Welke aanpakken zijn er voor tekstvereenvoudiging?}
+\medspace
 
-% Hoe worden teksten handmatig vereenvoudigd voor scholieren met dyslexie?
-% Welke toepassingen, tools en modellen zijn er beschikbaar om Nederlandse geautomatiseerde tekstvereenvoudiging met AI mogelijk te maken?
-% Hoe kunnen geautomatiseerde tekstvereenvoudiging en gepersonaliseerde tekstvereenvoudiging gecombineerd worden?
+Uit de requirementsanalyse werden nieuwe inzichten gegeven omtrent het bestaand toepassen van ATS. Zo beschikken online tools echter te weinig over gepersonaliseerde ATS-functionaliteiten, zoals gebleken in sectie \ref{sec:requirementsanalyse}. Daarnaast maken weinig tools gebruik van gepersonaliseerde weergaveopties, die echter een bewezen effect hebben op het leesbegrip van een scholier met dyslexie in de derde graad van het middelbaar onderwijs.
 
+\medspace
 
-\subsubsection{Welke functies ontbreken AI-toepassingen om geautomatiseerde tekstvereenvoudiging mogelijk te maken voor scholieren met dyslexie in de derde graad middelbaar onderwijs?}
-% Welke manuele methoden voor tekstvereenvoudiging ontbreken in deze tools?
+Uit de vergelijkende studie blijkt dat GPT-3 de leesbaarheid van een wetenschappelijke tekst, gemeten met FRE en Gunning FOG, kan verbeteren door middel van gepersonaliseerde ATS. Andere geteste taalmodellen uit HuggingFace behalen minder accurate resultaten en vereisen een extra vertaalfase, die redundant is bij het aanspreken van de GPT-3 API.
 
- 
-\subsubsection{Met welke valkuilen bij taalverwerking met AI moeten ontwikkelaars rekening houden?}
+\medspace
 
-
-\subsubsection{Welke taalmodellen of LLM's zijn geschikt voor automatische tekstvereenvoudiging voor vereenvoudigde wetenschappelijke artikelen voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs met dezelfde of gelijkaardige kwaliteiten als manuele tekstvereenvoudiging?}
-
-
-\subsubsection{Hoe kan een intuïtieve lokale webtoepassing worden ontwikkeld die zowel scholieren met dyslexie als leerkrachten helpt bij het vereenvoudigen van wetenschappelijke artikelen met behoud van semantiek, jargon en zinsstructuren?}
+Uit de ontwikkeling van het prototype voor gepersonaliseerde ATS is gebleken dat open-source AI- en NLP-technologieën hoogstaand genoeg zijn om kwaliteitsvolle tekstvereenvoudigingssoftware te ontwikkelen. Zo kunnen ontwikkelaars gebruik maken van PDFMiner om tekstinhoud uit wetenschappelijke artikelen te extraheren, OpenAI's GPT-3 model via de API om gepersonaliseerde ATS mogelijk te maken en ten slotte Pandoc om dynamische en gepersonaliseerde PDF-documenten automatisch te genereren. Binnen een webapplicatie kunnen complexe commandline-handelingen afgehandeld worden door eenduidige handelingen gebouwd in Javascript en HTML\&CSS.
