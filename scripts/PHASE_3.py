@@ -3,14 +3,11 @@ from pdfminer.layout import LTTextContainer
 import spacy
 from langdetect import detect
 import pandas as pd
-import os
-import readability
-import requests, spacy, os, numpy as np
-import time, json, requests
+import requests, spacy, os
 from langdetect import detect
 from googletrans import Translator
-from bs4 import BeautifulSoup
 from deep_translator import GoogleTranslator
+import openai
 
 
 
@@ -66,7 +63,6 @@ class HuggingFaceModels:
             else:
                 result  = self.query({"inputs": str(translated),"parameters": {"max_length": len(sentence)+10},"options":{"wait_for_model":True}}, API_URL)
             
-            
             if 'generated_text' in result[0]:
                 translated = GoogleTranslator(source='auto', target='nl').translate(str(result[0]['generated_text']))
                 return translated
@@ -78,15 +74,6 @@ class HuggingFaceModels:
         except:
             return text
 
-def get_sentence_length(sentence):
-    txt_language = detect(sentence)
-    dic_language = languages.get(txt_language)
-    nlp = spacy.load(dic_language)
-    doc = nlp(sentence)
-    return len()
-
-
-
 def tokenize_text(text):
     txt_language = detect(text)
     dic_language = languages.get(txt_language)
@@ -94,19 +81,17 @@ def tokenize_text(text):
     doc = nlp(text)
     return doc.sents
 
-
 def process_file(file_path):
     with open(folder_path + '/' + file_path, "r", encoding='utf8') as file:
         text = file.read()
         tokens = tokenize_text(text)
         return tokens
 
-
-hf = HuggingFaceModels(key='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')
+hf = HuggingFaceModels(os.get('hf_key'))
+gpt = openai.key(os.get('openai_key'))
 original_scientific_papers = [f for f in os.listdir(folder_path)]
 for paper in original_scientific_papers[3:]:
     sentence_tokens = process_file(paper) 
-    print(paper)       
     for sentence in sentence_tokens:
         for model in huggingfacemodels.keys():
             filename = "SIMPLIFIED_"+model+'_'+paper

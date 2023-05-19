@@ -4679,6 +4679,42 @@
       \verb https://huggingface.co/blog/large-language-models
       \endverb
     \endentry
+    \entry{Sleuwaegen2022}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ee5ec7e2e73bf331850da1c51fe0b59f}{%
+           family={Sleuwaegen},
+           familyi={S\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {KU Leuven - Faculteit Economie en Bedrijfswetenschappen}%
+      }
+      \strng{namehash}{ee5ec7e2e73bf331850da1c51fe0b59f}
+      \strng{fullhash}{ee5ec7e2e73bf331850da1c51fe0b59f}
+      \strng{bibnamehash}{ee5ec7e2e73bf331850da1c51fe0b59f}
+      \strng{authorbibnamehash}{ee5ec7e2e73bf331850da1c51fe0b59f}
+      \strng{authornamehash}{ee5ec7e2e73bf331850da1c51fe0b59f}
+      \strng{authorfullhash}{ee5ec7e2e73bf331850da1c51fe0b59f}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{KU Leuven}
+      \field{month}{11}
+      \field{title}{Nederland versus België:&nbsp; verschillen in economische&nbsp; dynamiek en beleid}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://feb.kuleuven.be/research/les/pdf/LES%202022%20-%20197.pdf
+      \endverb
+      \verb{url}
+      \verb https://feb.kuleuven.be/research/les/pdf/LES%202022%20-%20197.pdf
+      \endverb
+    \endentry
     \entry{Snow2010}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=fd29fa5a48764d64e337a2f14107bdbd}{%
@@ -5142,6 +5178,40 @@
       \field{title}{LLaMA: Open and Efficient Foundation Language Models}
       \field{year}{2023}
       \keyw{Computation and Language (cs.CL),FOS: Computer and information sciences,FOS: Computer and information sciences}
+    \endentry
+    \entry{VanBrakel2022}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8dcc1a6596a6a31687310485fcb0e1f1}{%
+           family={{Van Brakel}},
+           familyi={V\bibinitperiod},
+           given={{Rosamunde Elise}},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {Dutch}%
+      }
+      \strng{namehash}{8dcc1a6596a6a31687310485fcb0e1f1}
+      \strng{fullhash}{8dcc1a6596a6a31687310485fcb0e1f1}
+      \strng{bibnamehash}{8dcc1a6596a6a31687310485fcb0e1f1}
+      \strng{authorbibnamehash}{8dcc1a6596a6a31687310485fcb0e1f1}
+      \strng{authornamehash}{8dcc1a6596a6a31687310485fcb0e1f1}
+      \strng{authorfullhash}{8dcc1a6596a6a31687310485fcb0e1f1}
+      \field{sortinit}{V}
+      \field{sortinithash}{02432525618c08e2b03cac47c19764af}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1379-0250}
+      \field{journaltitle}{Tijdschrift voor Mensenrechten}
+      \field{number}{1}
+      \field{title}{De controle op het gebruik van algoritmische surveillance- onder druk? Een exploratie door de lens van de relationele ethiek}
+      \field{volume}{2022}
+      \field{year}{2022}
+      \field{pages}{23\bibrangedash 28}
+      \range{pages}{6}
     \endentry
     \entry{VanDerMeer2022}{misc}{}
       \name{author}{1}{}{%
