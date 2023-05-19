@@ -18,8 +18,8 @@ Om wetenschappelijke artikelen te vereenvoudigen op maat van de unieke noden van
 
 Leesvaardigheid is geen aangeboren vaardigheid, maar iets dat mensen zelf moeten aanleren \autocite{Bonte2020, VanDerMeer2022}. Hoewel dit proces vlot kan verlopen, kunnen mensen met dyslexie benadeeld worden tijdens dit proces.  Dyslexie wordt gekenmerkt door beperkt lezen en kan het voorlezen traag, radend en letter-voor-letter maken. Mensen met dyslexie kunnen tijdens het intensief lezen verschillende drempels ervaren; die worden in tabel \ref{table:dyslexia-hurdles} opgesomd.
 
-\begin{center}[H]
-	\begin{table}
+\begin{center}
+	\begin{table}[H]
 	\begin{tabular}{ | m{10cm} | m{6cm} | } 
 		\hline
 		\textbf{Kenmerk} & \textbf{Bron} \\ 
@@ -44,9 +44,7 @@ Leesvaardigheid is geen aangeboren vaardigheid, maar iets dat mensen zelf moeten
 
 \medspace
 
-% TODO hoeveel percentage van de websites houdt rekening met dyslexie?
-
-De digitalisering evolueerde de voorbije twintig jaar in stijgende lijn en scholieren in de tweede en derde graad zijn door het gebruik van smartphones en laptops hier het meeste vatbaar voor, zowel voor thuisgebruik als binnen het onderwijs. Tieners tussen 15 en 18 zijn volgens \textcite{Harvard2023} digitaal geletterd, daarom speelt de digitale weergave een essentiële rol bij een dergelijke online toepassing. Verder omschrijft dit artikel een checklist van technische elementen waaraan een webpagina of toepassing moet voldoen om een leesbare ervaring te voorzien voor scholieren met dyslexie. Deze noden worden weergegeven in tabel \ref{table:dyslexia-necessaries} en zijn gebaseerd op onderzoeken van \textcite{Santana2012, Harvard2023}.
+De digitalisering evolueerde de voorbije twintig jaar in stijgende lijn en scholieren in de tweede en derde graad zijn, door het gebruik van smartphones en laptops, hier het meeste vatbaar bij zowel thuisgebruik als gebruik in het onderwijs. Daarom speelt de digitale weergave van een webtoepassing een belangrijke rol volgens \textcite{Harvard2023}. Verder omschrijft dit artikel een checklist van technische elementen waaraan een webpagina of toepassing moet voldoen om een leesbare ervaring te voorzien voor scholieren met dyslexie. Deze noden worden weergegeven in tabel \ref{table:dyslexia-necessaries} en zijn gebaseerd op onderzoeken van \textcite{Santana2012, Harvard2023}.
 
 \begin{center}
 		\begin{table}[H]
@@ -63,7 +61,7 @@ De digitalisering evolueerde de voorbije twintig jaar in stijgende lijn en schol
 		Huidige positie benadrukken &  \\
 		\hline
 	\end{tabular}
-	\caption{Oplossingen die software-ontwikkelaars kunnen aanreiken bij een toepassing of website.}
+	\caption{Oplossingen die software-ontwikkelaars kunnen aanreiken bij een toepassing of website. Bron: \autocite{Harvard2023}.}
 	\label{table:dyslexia-necessaries}
 	\end{table}
 \end{center}
@@ -100,16 +98,12 @@ Deze factoren worden opgesomd in \ref{table:scientific-paper-struggles}. Hoewel 
 	\end{table}
 \end{center}
 
-\medspace
-
 Scholieren met verschillende achtergronden hebben vaak een verschillende achtergrondkennis, wat invloed kan hebben op het tekstbegrip. Bijvoorbeeld, scholieren met een achtergrond in fysica kunnen sneller de draad oppikken bij het lezen van fysica-gerelateerde artikelen dan scholieren met een economische achtergrond. Dit maakt het moeilijk om de leesbaarheid van een tekst objectief te beoordelen, omdat jargon voor de ene groep scholieren als gemakkelijk kan worden beschouwd, terwijl het voor de andere groep juist moeilijk kan zijn. Er is dus een verschil in behoeften tussen de verschillende groepen scholieren.
 
 \medspace
 
 
 Er zijn door de jaren heen leesbaarheidsscores ontwikkeld om teksten objectief te kunnen beoordelen, aangezien ontoegankelijke en ingewikkelde zinsstructuren ook experts in het vakgebied kunnen hinderen. Er zijn twee bekende leesbaarheidsscores weergegeven in tabel \ref{table:readability-scores}. Dankzij Python-libraries, zoals Textstat\footnote{textstat} en Readability\footnote{https://pypi.org/project/readability/}, is het herschrijven van de formules niet meer nodig en bieden ze een snelle oplossing voor ontwikkelaars om een leesgraadscore te berekenen. Ook online toepassingen, zoals Textinspector\footnote{https://textinspector.com/}, kunnen analytisch inzicht geven in de complexiteit van Engelstalige teksten. Er bestaat momenteel geen alternatief voor Nederlandstalige wetenschappelijke artikelen. Het is wel belangrijk om te benadrukken dat deze leesbaarheidsscores geen rekening houden met de achtergrondkennis van mogelijke lezers.
-
-% TODO bronnen
 
 \begin{center}
 	\begin{table}[H]
@@ -121,7 +115,7 @@ Er zijn door de jaren heen leesbaarheidsscores ontwikkeld om teksten objectief t
 		\hline
 		Gunning FOG (FOG) & Deze leesbaarheidsscore wordt berekend op tekstbasis. \\
 		\hline
-		Complexe woorden volgens Dale-Chall & Dit is een lijst met woorden die volgens Amerikaanse tieners als complex worden geacht.
+		Complexe woorden volgens \textit{Dale-Chall} & Dit is een lijst met woorden die volgens Amerikaanse tieners als complex worden geacht. \\
 		\hline
 	\end{tabular}
 	\label{table:readability-scores}
@@ -129,21 +123,17 @@ Er zijn door de jaren heen leesbaarheidsscores ontwikkeld om teksten objectief t
 	\end{table}
 \end{center}
 
-\medspace
-
 Diverse onderzoeken van de afgelopen tien jaar wijzen uit dat wetenschappelijke teksten steeds complexer worden, wat deze teksten voor niet-experten en niet-doctoraatsstudenten minder toegankelijk maakt vanwege het gebruik van technisch jargon en ingewikkelde zinsstructuren \autocite{Ball2017, PlavenSigray2017, Jones2019}. Deze trend begon volgens onderzoek al in de tweede helft van de twintigste eeuw \autocite{Hayes1992}.
 
 \medspace
 
-Volgens onderzoek van \textcite{PlavenSigray2017} is de taal van wetenschappelijke artikelen de laatste jaren steeds complexer geworden. Uit een vergelijkende studie tussen abstracts en de rest van de inhoud van wetenschappelijke tijdschriften blijkt dat abstracts het meest complexe deel van een artikel vormen. De evolutie van de leesbaarheid wordt weergegeven in figuur \ref{img:fre-ndc}, waarbij de FRE- (links) en NDC-scores (rechts) getoond worden. Het onderzoek schat dat op dit moment 22\% van alle wetenschappelijke artikelen op het niveau van een masterstudent in het Engels geschreven zijn, tegenover 14\% in 1960. Deze trend is belangrijk om op te volgen in het komende decennium, omdat het een obstakel kan vormen voor toekomstige generaties.
+Volgens onderzoek van \textcite{PlavenSigray2017} is de taal van wetenschappelijke artikelen de laatste jaren steeds complexer geworden. Uit een vergelijkende studie tussen abstracts en de rest van de inhoud van wetenschappelijke tijdschriften blijkt dat abstracts het meest complexe deel van een artikel vormen. De evolutie van de leesbaarheid wordt weergegeven in figuur \ref{img:fre-ndc}, waarop de FRE en NDC scores getoond worden. Het onderzoek schat dat nu 22\% van alle wetenschappelijke artikelen op het niveau van een masterstudent in het Engels geschreven zijn, tegenover 14\% in 1960. Deze trend is belangrijk om op te volgen in de komende decennia, omdat het een obstakel kan vormen voor toekomstige generaties.
 
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{img/fre-ndc.png}
-	\caption{Afbeelding uit \textcite{PlavenSigray2017}}
+	\caption{De toename van vereiste leesgraad volgens FRE (links) en NDC (rechts). Bron: \autocite{PlavenSigray2017}}
 	\label{img:fre-ndc}
 \end{figure}
-
-\medspace
 
 Onbegrijpelijke en ontoegankelijke zinsstructuren hinderen ook vakexperten. Zo toonde onderzoek van \textcite{McNutt2014} aan dat begrip van de methodologie en resultaten cruciaal is in het kader van reproduceerbaarheid; enkel zo kunnen wetenschappers op correcte wijze een studie reproduceren en wetenschappelijke inzichten bevestigen of met verdere resultaten verrijken. Experimenten van \textcite{Hubbard2017} wijzen namelijk uit dat het net vooral de methodologie en resultaten van een wetenschappelijk artikel zijn die een hoge leesgraad vergen. In deze context is ook het onderzoek van \textcite{Hartley1999} en \textcite{Snow2010} relevant waarin ze aantonen dat het herschrijven van abstracts de begrijpbaarheid ervan kan verhogen.
 
@@ -155,16 +145,13 @@ Volgens \textcite{Hollenkamp2020} en \textcite{McCombes2022} moeten vereenvoudig
 
 Wetenschappelijke artikelen zijn voornamelijk in PDF-formaat terug te vinden. Dit formaat valt eenvoudig in te lezen met verschillende Python-pakketten, waaronder PDFMiner of PyPDF. Wel kunnen ontwikkelaars problemen ondervinden bij het inlezen van PDF-bestanden, waarbij niet alle tekst of amper tekst uit de PDF kan worden geëxtraheerd. Als oplossing kunnen ontwikkelaars gebruik maken van \textit{optical character recognition} of OCR. In Python zijn er pakketten die deze technologie eenvoudig kunnen realiseren, namelijk EasyOCR en Tesserat.
 
-% TODO conclusie voor de noden van wetenschappelijke artikelen en noden van dyslexie
-
-
 \section{Aanpakken voor tekstvereenvoudiging}
 % Welke aanpakken zijn er voor geautomatiseerde tekstvereenvoudiging? 
 
 \subsection{Manuele tekstvereenvoudiging}
 % Hoe worden teksten handmatig vereenvoudigd voor scholieren met dyslexie? 
 
-Voor sommige lezers kan het intensief lezen van een complexe tekst echter een uitdaging zijn, zoals scholieren met dyslexie. Om deze groep te helpen, wordt vaak \textit{manual text simplification} toegepast \autocite{Siddharthan2014}. \textit{Manual text simplification} of MTS kan worden bereikt door het gebruik van eenvoudige woordenschat, zinsstructuren en formaatwijzigingen. MTS is het proces waarbij het technische leesniveau en het woordgebruik van een geschreven tekst wordt verminderd. Dit leidt tot een betere leeservaring zonder het verlies van de kerninhoud tijdens het lezen van de tekst.
+Voor sommige lezers kan het intensief lezen van een complexe tekst echter een uitdaging zijn, zoals scholieren met dyslexie. Om deze groep te helpen, wordt vaak \textit{manual text simplification} toegepast \autocite{Siddharthan2014}. \textit{Manual text simplification} of MTS kan worden bereikt door het gebruik van eenvoudige woordenschat, zinsstructuren en structurele aanpassingen. MTS is het proces waarbij het technische leesniveau en het woordgebruik van een geschreven tekst wordt verminderd. Dit leidt tot een betere leeservaring zonder het verlies van de kerninhoud tijdens het lezen van de tekst.
 
 \begin{center}
 		\begin{table}[H]
@@ -184,7 +171,7 @@ Voor sommige lezers kan het intensief lezen van een complexe tekst echter een ui
 			& Actieve stem gebruiken \\
 			& Onregelmatige werkwoorden vermijden \\
 			\hline
-			Formaatwijzigingen & Marges aanpassen \\
+			Structurele aanpassingen & Marges aanpassen \\
 			& Lettertype en -grootte aanpassen \\
 			& Woord- en karakterspatiëring aanpassen \\
 			& Herschrijven en -structureren als opsomming of tabelvorm \\
@@ -228,7 +215,7 @@ In tabel \ref{table:benefits-mts} worden de bewezen strategieën opgesomd met hu
 
 \begin{center}
 	\begin{table}[H]
-	\begin{tabular}{ | m{6cm} | m{6cm} | } 
+	\begin{tabular}{ | m{7cm} | m{7cm} | } 
 	\hline
 	\textbf{Techniek} & \textbf{Bewezen voordeel} \\
 	\hline
@@ -262,19 +249,15 @@ In tabel \ref{table:benefits-mts} worden de bewezen strategieën opgesomd met hu
 \subsection{Aanpak voor ATS.}
 % Welke toepassingen, tools en modellen zijn er beschikbaar om Nederlandse geautomatiseerde tekstvereenvoudiging met AI mogelijk te maken? 
 
-Met de laatste evolutie in machinaal leren is dit een proces dat geautomatiseerd kan worden. \textit{Automatic text simplification} of ATS is een onderdeel van natuurlijke taalverwerking binnen machinaal leren (ML). Dit omvat verschillende technieken zoals tekstanalyse, taalherkenning, -generatie, spraakherkenning en -synthese, en semantische analyse. NLP stelt computers in staat om menselijke taal te begrijpen en te communiceren op een natuurlijke manier. 
+Met de laatste evolutie in machinaal leren is dit een proces dat geautomatiseerd kan worden. \textit{Automatic text simplification} of ATS is een onderdeel van natuurlijke taalverwerking binnen machinaal leren (ML). Dit omvat verschillende technieken zoals tekstanalyse, taalherkenning, -generatie, spraakherkenning en -synthese, en semantische analyse. NLP stelt computers in staat om menselijke taal te begrijpen en te communiceren op een natuurlijke manier. De begrippen die volgen worden behandeld in \textcite{Sohom2019, Eisenstein2019} en zijn cruciaal voor de daaropvolgende concepten.
 
 \medspace
 
-De begrippen die volgen worden behandeld in \textcite{Sohom2019, Eisenstein2019} en zijn cruciaal voor de daaropvolgende concepten.
+Zo dient tokenisatie om zinnen op basis van tokens te splitsen. Er zijn vier manieren om tokens in een tekst te splitsen en zo een woordenschat op te bouwen, namelijk op woord-, karakter-, subwoord- en zinniveau, volgens onderzoek van \textcite{Menzli2023}. Bij karaktertokenisatie neemt de inputlengte toe, maar dit heeft volgens \textcite{Ribeiro2018} weinig bruikbare \textit{use cases}. Het opsplitsen van zeldzame woorden in kleinere stukken om een woordenschat op te bouwen biedt voordelen ten opzichte van woordtokenisatie, aldus \autocite{Iredale2022}.
 
 \medspace
 
-Tokenisatie splitst zinnen op basis van tokens. Er zijn vier manieren om tokens in een tekst te splitsen en zo een woordenschat op te bouwen, namelijk op woord-, karakter-, subwoord- en zinniveau, volgens onderzoek van \textcite{Menzli2023}. Bij karakter-tokenisatie neemt de inputlengte toe, maar dit heeft volgens \textcite{Ribeiro2018} weinig bruikbare use cases. Het opsplitsen van zeldzame woorden in kleinere stukken om een woordenschat op te bouwen biedt voordelen ten opzichte van tokenisatie op woordniveau, aldus \autocite{Iredale2022}.
-
-\medspace
-
-In NLP is het lemmatiseren gebaseerd op stemming, maar het houdt ook rekening met de betekenis van elk woord. Er zijn Nederlandstalige modellen beschikbaar voor lemmatiseren, zoals JohnSnow\footnote{https://nlp.johnsnowlabs.com/2020/05/03/lemma\_nl.html}. Bij omgekeerd lemmatiseren wordt een afgeleide van de stam bepaald, bijvoorbeeld enkelvoud of meervoud voor zelfstandige naamwoorden zoals 'hond' \autocite{Eisenstein2019}. Bij het parseren krijgt elk woord of zinsdeel een label toegewezen, zoals zelfstandig naamwoord, bijwoord, werkwoord, bijzin of stopwoord. Het identificeren van zinsdelen wordt 'chunking' genoemd. Parsing heeft een ambiguïteitsprobleem omdat bijvoorbeeld een 'plant' niet gelijk is aan de vervoeging van het werkwoord 'planten' \autocite{Eisenstein2019}.
+In NLP is het lemmatiseren gebaseerd op \textit{stemming}, ofwel een NLP-taak waarbij de stam van een woord wordt genomen, maar het houdt ook rekening met de betekenis van elk woord. Er zijn Nederlandstalige modellen beschikbaar voor lemmatiseren, zoals JohnSnow\footnote{https://nlp.johnsnowlabs.com/2020/05/03/lemma\_nl.html}. Bij omgekeerd lemmatiseren wordt een afgeleide van de stam bepaald, bijvoorbeeld enkelvoud of meervoud voor zelfstandige naamwoorden zoals 'hond' \autocite{Eisenstein2019}. Bij het \textit{parsen} krijgt elk woord of zinsdeel een label toegewezen, zoals zelfstandig naamwoord, bijwoord, werkwoord, bijzin of stopwoord. Het identificeren van zinsdelen wordt \textit{chunking} genoemd. \textit{Parsing} is vatbaar op ambiguïteit, omdat bijvoorbeeld een 'plant' niet gelijk is aan de vervoeging van het werkwoord 'planten' \autocite{Eisenstein2019}.
 
 \medspace
 

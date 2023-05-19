@@ -5,39 +5,21 @@ In dit hoofdstuk worden de resultaten uit de requirementsanalyse, vergelijkende 
 
 \section{Requirementsanalyse}
 
-Kurzweil, Simplish, ChatGPT en Bing Chat zijn de enige tools in de shortlist die in staat zijn om een woordenlijst, na handmatige woordselectie, te kunnen genereren. Automatisch moeilijke woorden selecteren en een verwante definitie genereren is enkel prevalent bij ChatGPT en de Bing Chat, maar de tools houden geen rekening met de doelgroep, tenzij expliciet aangegeven met een \textit{one-shot summary}. Andere tools houden geen rekening met de doelgroep en kunnen enkel woordenlijsten genereren op basis van gekozen woorden en een vaste definitie uit een woordenboek of andere lexicale databank.
+%  De software die wordt gebruikt in het onderwijs kan geen tekst uit PDF's extraheren, in tegenstelling tot webtoepassingen die deze mogelijkheid wel bieden. De geteste tools zijn voornamelijk gericht op samenvatting van teksten. Hoewel ChatGPT en Bing Chatbot teksten kunnen genereren in een schrijfstijl vergelijkbaar met die van mensen, zijn ze niet in staat om PDF's te verwerken. Het kopiëren en plakken van tekst uit het originele document kan leiden tot fouten en is omslachtig, daarom moet er worden gewerkt aan verbetering van deze werkwijze. Bestaande tools hebben moeite met het extraheren van tekst uit oudere PDF's, dus het prototype moet een oplossing bieden voor dit mogelijke probleem.
+
+ChatGPT en Bing Chat zijn capabel om alle lexicale en syntactische vereenvoudigingstechnieken te realiseren. Tools, buiten Bing Chat en ChatGPT, zijn niet in staat om een formaatwijziging toe te passen. Enkel MTS is hiertoe voorlopig in staat, maar ChatGPT en Bing Chat maken gebruik van een technisch capabel taalmodel die deze taak kan realiseren. Het achterliggende taalmodel van beide tools is online via API beschikbaar. Daarmee is het aanbieden van gepersonaliseerde tekstvereenvoudiging bestaande uit verschillende lexicale, syntactische en structurele aanpassingen een \textit{must-have} voor prototype. Zoals uitgewezen in de literatuurstudie zijn er Python-libraries die dit mogelijk maken, en daarmee vormt deze taak eveneens als een \textit{must-have} voor het prototype. Geen enkele uitgeteste tool maakt gebruik van een personaliseerbare website. Daarop nog maken de uitgeteste sites weinig gebruik van de aangeraden aanschouwelijkheidsopties weergegeven in tabel \ref{table:dyslexia-necessaries}. Het prototype kan hiermee uitpakken en daarom vormt de personaliseerbare site als een \textit{must-have} voor het prototype. Om de tool te kunnen doorgeven aan vakexperten, wordt het prototype eveneens ontworpen met een lokale opzet in gedachten. Tools zoals Docker kunnen dit realiseren. Alle tools, buiten ChatGPT en Bing Chat, zijn in staat om een PDF met de vereenvoudigde tekstinhoud te genereren.
 
 \medspace
 
-Met de huidige erkende softwaretools in het onderwijs is het moeilijk om syntactische vereenvoudiging toe te passen op wetenschappelijke artikelen. Online webtoepassingen bieden weliswaar mogelijkheden om de moeilijkheidsgraad van de zinsstructuur te verlagen, maar ze zijn voornamelijk gericht op het verkorten van de oorspronkelijke tekst, of het maken van een samenvatting. Het aanpassen van tangconstructies, verwijswoorden, voorzetseluitdrukkingen, samengestelde werkwoorden en onregelmatige werkwoorden blijft daarom een uitdaging voor deze toepassingen. Zelfs het schrijven in de actieve stem kan problematisch zijn, en de beschikbare prompts zijn beperkt tot vooraf gedefinieerde transformaties.
+Zowel Kurzweil3000 als Simplish bieden gegenereerde woordenlijsten aan, na de handmatige selectie van de gebruiker. Deze toevoeging is eerder ondersteunend, zoals aangewezen in tabel \ref{table:benefits-mts}. Daardoor is deze taak een \textit{should-have} voor het prototype. Zoals eerder aangehaald zijn tools in staat om een PDF te genereren, maar deze output is noch gepersonaliseerd noch heeft de eindgebruiker inbreng op hoe de uitvoer eruit moet zien. Open-sourcepakketten maken dit haalbaar en daarmee vormt deze taak een \textit{should-have}.
 
 \medspace
 
-Het uploaden van een PDF wordt beschouwd als een onmisbare optie bij de geteste tools, maar ChatGPT en Bing Chat beschikken niet over deze functie. De software die wordt gebruikt in het onderwijs kan geen tekst uit PDF's extraheren, in tegenstelling tot webtoepassingen die deze mogelijkheid wel bieden. De geteste tools zijn voornamelijk gericht op samenvatting van teksten. Hoewel ChatGPT en Bing Chatbot teksten kunnen genereren in een schrijfstijl vergelijkbaar met die van mensen, zijn ze niet in staat om PDF's te verwerken. Het kopiëren en plakken van tekst uit het originele document kan leiden tot fouten en is omslachtig, daarom moet er worden gewerkt aan verbetering van deze werkwijze. Bestaande tools hebben moeite met het extraheren van tekst uit oudere PDF's, dus het prototype moet een oplossing bieden voor dit mogelijke probleem.
+Enkel Simplish en Rewordify bieden een ingebouwde tekstanalysemodele aan, zoals weergegeven in figuren \ref{img:simplish-output} en \ref{img:scholarcy}. Andere tools beschikken over geen leesgraadsmetrieken, noch van het ingegeven document, noch van het vereenvoudigde document. Simplish maakt gebruik van kleurcodecriteria om meer transparantie aan te reiken over de getransformeerde tekst, waaronder niet-veranderende woorden, adequate vertalingen, uitleg naar de voetnoot, homoniemen of woorden die geen eenvoudigere synoniemen hebben. Zoals aangegeven in figuur \ref{img:simplish-output} duidt de vergelijkende weergave de verschillen aan tussen de oorspronkelijke en vereenvoudigde tekst en met behulp van kleurcodes worden de verschillende transformaties aangegeven. Rewordify vult hierop aan en biedt meer inzichten in de leesbaarheidsgraad van de vereenvoudigde tekst, zoals geïllustreerd in figuur \ref{img:scholarcy}. Experimenten met Simplish en Rewordify wijzen uit dat dit een haalbare taak is, maar deze taak behoort niet tot prioriteit van het prototype en is daarmee een \textit{could-have}. Geen tool maakt gebruik van automatische selectie van moeilijke woorden, buiten ChatGPT en Bing Chat die dit enkel kunnen doen na een expliciete commando. ChatGPT en Bing Chat wijzen uit dat dit een haalbare taak is, mits het gebruik van een expliciete prompt, en daarom vormt deze taak een \textit{could-have} voor het prototype.
 
 \medspace
 
-Uitgezonderd van Simplish en Rewordify bieden de uitgeteste tools geen ingebouwde tekstanalysemodule en bieden onvoldoende inzicht op leesgraadsmetrieken van zowel het ingegeven document als het vereenvoudigde document. Simplish steekt boven de rest uit door aan de hand van kleurcodes criteria over de vereenvoudigde tekst mee te geven, waaronder niet-veranderende woorden, adequate vertalingen, uitleg naar de voetnoot, homoniemen of woorden die geen eenvoudigere synoniemen hebben. Zoals aangegeven in \ref{img:simplish-output} duidt de vergelijkende weergave de verschillen aan tussen de oorspronkelijke en vereenvoudigde tekst en met behulp van kleurcodes worden de verschillende transformaties aangegeven. Scholarcy vult hierop aan en biedt meer inzichten in de leesbaarheidsgraad van de vereenvoudigde tekst, zoals geïllustreerd in \ref{img:scholarcy}.
-
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{img/simplish-output.png}
-	\caption{Illustratie van de tekstanalyse bij Simplish na een tekstvereenvoudiging.}
-	\label{img:simplish-output}
-\end{figure}
-
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{img/scholarcy-attempt.png}
-	\caption{Illustratie van de tekstanalyse bij Rewordify.}
-	\label{img:scholarcy}
-\end{figure}
-
-De requirementsanalyse neemt geen functionaliteiten op van obscure proof-of-concepten. Deze ontbreken de nodige testen en zekerheid dat deze effectieve gepersonaliseerde en geautomatiseerde tekstvereenvoudiging aanbieden. Twee van de online tools, namelijk Resoomer en Scispace, bieden uitsluitend samenvattingsfunctionaliteiten aan. Resoomer is sneller geneigd om de belangrijkste zinnen te markeren en vervolgens deze in een kortere tekst terug te geven. Dit kan een effect hebben op de betrouwbaarheid van de functionaliteiten, alsook op de leesgraadmetrieken.
-
-\begin{figure}[H]
-	\includegraphics{img/typeset-example.png}
-	\caption{Schermafbeelding van SciSpace}
-	\label{img:scispace-example}
-\end{figure}
+De uitgeteste tools zijn allemaal online beschikbaar. Toch is dit onderzoek te kleinschalig om een volledig online beschikbare webtoepassing waar te maken en wordt deze taak als een \textit{wont-have} ingeschat. Daarmee blijft de opzet van de webtoepassing binnen een lokale omgeving. Ten slotte zijn de gebruikte tools of taalmodellen niet mogelijk binnen een lokale opzet. Zo is het GPT-3 model te groot om op een laptop lokaal te doen draaien. Daarom is de lokale hosting van het taalmodel een \textit{wont-have} voor het prototype. 
 
 \section{Vergelijkende studie}
 

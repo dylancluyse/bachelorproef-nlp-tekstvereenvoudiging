@@ -7,7 +7,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.1}{\ignorespaces Specifieke drempels bij het intensief lezen van een tekst.\relax }}{7}{table.caption.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {2.2}{\ignorespaces Oplossingen die software-ontwikkelaars kunnen aanreiken bij een toepassing of website.\relax }}{8}{table.caption.9}%
+\contentsline {table}{\numberline {2.2}{\ignorespaces Oplossingen die software-ontwikkelaars kunnen aanreiken bij een toepassing of website. Bron: \autocite {Harvard2023}.\relax }}{8}{table.caption.9}%
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {2.3}{\ignorespaces Complexe leesfactoren van een wetenschappelijk artikel.\relax }}{9}{table.caption.10}%
 \defcounter {refsection}{0}\relax 
@@ -35,37 +35,39 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {3.2}{\ignorespaces Criteria waarop toepassingen worden afgetoetst in de requirementsanalyse\relax }}{38}{table.caption.32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.3}{\ignorespaces De toegepaste GPT-3-prompts in de requirementsanalyse.\relax }}{39}{table.caption.33}%
+\contentsline {table}{\numberline {3.3}{\ignorespaces De toegepaste GPT-3-prompts in de requirementsanalyse.\relax }}{42}{table.caption.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.4}{\ignorespaces Het Moscow-schema, opgebouwd door middel van de requirementsanalyse.\relax }}{40}{table.caption.35}%
+\contentsline {table}{\numberline {3.4}{\ignorespaces Het Moscow-schema, opgebouwd door middel van de requirementsanalyse.\relax }}{44}{table.caption.38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.5}{\ignorespaces Gebruikte taalmodellen in de vergelijkende studie\relax }}{41}{table.caption.36}%
+\contentsline {table}{\numberline {3.5}{\ignorespaces Gebruikte taalmodellen in de vergelijkende studie\relax }}{45}{table.caption.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.6}{\ignorespaces De GPT-3-prompts die in de vergelijkende studie aan bod komen.\relax }}{42}{table.caption.37}%
+\contentsline {table}{\numberline {3.6}{\ignorespaces De GPT-3-prompts die in de vergelijkende studie aan bod komen.\relax }}{46}{table.caption.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.7}{\ignorespaces Gebruikte programmeertalen in het prototype voor tekstvereenvoudiging.\relax }}{44}{table.caption.38}%
+\contentsline {table}{\numberline {3.7}{\ignorespaces Gebruikte programmeertalen in het prototype voor tekstvereenvoudiging.\relax }}{48}{table.caption.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.8}{\ignorespaces Gebruikte Python-libraries en hun respectievelijke functie in het prototype.\relax }}{44}{table.caption.39}%
+\contentsline {table}{\numberline {3.8}{\ignorespaces Gebruikte Python-libraries en hun respectievelijke functie in het prototype.\relax }}{48}{table.caption.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.9}{\ignorespaces Gebruikte SpaCy Word-embeddings\relax }}{47}{table.caption.42}%
+\contentsline {table}{\numberline {3.9}{\ignorespaces Gebruikte SpaCy Word-embeddings\relax }}{51}{table.caption.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.10}{\ignorespaces Alle beschikbare functionaliteiten in \relax }}{48}{table.caption.43}%
+\contentsline {table}{\numberline {3.10}{\ignorespaces Alle beschikbare functionaliteiten in \relax }}{52}{table.caption.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.11}{\ignorespaces Taken van de webontwikkelaar bij het uitwerken van het lerarencomponent.\relax }}{51}{table.caption.45}%
+\contentsline {table}{\numberline {3.11}{\ignorespaces Taken van de webontwikkelaar bij het uitwerken van het lerarencomponent.\relax }}{55}{table.caption.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.12}{\ignorespaces Taken van de NLP Engineer bij het uitwerken van het lerarencomponent.\relax }}{52}{table.caption.46}%
+\contentsline {table}{\numberline {3.12}{\ignorespaces Taken van de NLP Engineer bij het uitwerken van het lerarencomponent.\relax }}{56}{table.caption.49}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.13}{\ignorespaces Taken van data engineer bij het uitwerken van het lerarencomponent.\relax }}{52}{table.caption.47}%
+\contentsline {table}{\numberline {3.13}{\ignorespaces Taken van data engineer bij het uitwerken van het lerarencomponent.\relax }}{56}{table.caption.50}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.14}{\ignorespaces Taken van de system engineer bij het uitwerken van het lerarencomponent.\relax }}{53}{table.caption.48}%
+\contentsline {table}{\numberline {3.14}{\ignorespaces Taken van de system engineer bij het uitwerken van het lerarencomponent.\relax }}{57}{table.caption.51}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.15}{\ignorespaces Taken van NLP engineer bij het uitwerken van het scholierencomponent.\relax }}{54}{table.caption.51}%
+\contentsline {table}{\numberline {3.15}{\ignorespaces Taken van NLP engineer bij het uitwerken van het scholierencomponent.\relax }}{58}{table.caption.54}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.16}{\ignorespaces Taken van data engineer bij het uitwerken van het scholierencomponent.\relax }}{54}{table.caption.52}%
+\contentsline {table}{\numberline {3.16}{\ignorespaces Taken van data engineer bij het uitwerken van het scholierencomponent.\relax }}{58}{table.caption.55}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.1}{\ignorespaces Aantal zinnen per \relax }}{58}{table.caption.56}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Aantal zinnen per \relax }}{62}{table.caption.56}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
