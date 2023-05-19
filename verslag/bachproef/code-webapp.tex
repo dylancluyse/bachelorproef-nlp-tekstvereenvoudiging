@@ -1,0 +1,444 @@
+\chapter{\IfLanguageName{dutch}{Code voor het prototype}{Attachment 2}}%
+\label{ch:bijlage-code-2}
+
+
+\begin{lstlisting}[language=Python, caption={Reader-klasse}, label={code:reader-klasse}]
+SENTENCES\_PER\_PARAGRAPH = 5
+	
+dict = {
+	'nl':'nl_core_news_md',
+	'en':'en_core_web_md'
+}
+	
+
+	def get_full_text_dict(self, all_pages):
+		total = ""
+		for page_layout in all_pages:
+			for element in page_layout:
+				if isinstance(element, LTTextContainer):
+					for text_line in element:
+						total += text_line.get_text()
+		return total
+	
+	
+	def get_full_text_from_image(self, all_pages):
+		img_files = []
+		num_pages = 0
+		for i, page in enumerate(all_pages):
+			file = f'page_{num_pages}.jpg'
+			page.save(file, 'JPEG')
+			img_files.append(file)
+			num_pages += 1
+		
+		full_text = []
+		reader = easyocr.Reader(['nl'])
+		for f in img_files:
+			result = reader.readtext(f, detail=0)
+			full_text.append(" ".join(result))
+			os.remove(f)
+		
+		return " ".join(full_text)
+	
+	def get_full_text_site(self, full_text):
+		try:
+			lang = detect(full_text)
+		except:
+			lang = 'en'
+	
+		if lang in dict:
+			nlp = spacy.load(dict.get(lang))
+		else:
+			nlp = spacy.load(dict.get('en'))
+	
+		full_text = str(full_text).replace('\n', ' ')
+	
+		doc = nlp(full_text)
+		sentences = []
+		for sentence in doc.sents:
+			sentences.append(sentence)
+	
+		pad_size = SENTENCES_PER_PARAGRAPH - (len(sentences) % SENTENCES_PER_PARAGRAPH)
+		padded_a = np.pad(sentences, (0, pad_size), mode='empty')
+		paragraphs = padded_a.reshape(-1, SENTENCES_PER_PARAGRAPH)
+	
+		text_w_pos = []
+		for paragraph in paragraphs:
+			paragraph_w_pos = []
+		try:
+			for sentence in paragraph:
+			dict_sentence = {}
+			for token in sentence:
+				dict_sentence[token.text] = str(token.pos_).lower()
+				paragraph_w_pos.append(dict_sentence)    
+				text_w_pos.append(paragraph_w_pos)
+		except:
+			pass
+			
+		return text_w_pos
+\end{lstlisting}
+
+
+\begin{lstlisting}[language=Python, caption={HuggingFace-klasse}, label={code:huggingface-klasse}]
+class HuggingFaceModels:
+	def __init__(self, key=None):
+		global huggingface_api_key
+		try:
+			huggingface_api_key = key
+		except:
+			huggingface_api_key = 'not_submitted'
+	
+	""""""
+	def query(self, payload, API_URL):
+		headers = {"Authorization": f"Bearer {huggingface_api_key}"}
+		response = requests.post(API_URL, headers=headers, json=payload)
+		return response.json()
+	
+	""""""
+	def scientific_simplify(self, text, lm_key):
+		length = len(text)
+		API_URL = huggingfacemodels.get(lm_key)
+		gt = Translator()
+		translated_text = gt.translate(text=text,src='nl',dest='en').text
+		result = self.query({"inputs": str(translated_text),"parameters": {"max_length": length},"options":{"wait_for_model":True}}, API_URL)[0]['generated_text']
+		result = gt.translate(text=result,src='en',dest='nl').text
+		return result
+	
+	def summarize(self, text, lm_key):
+		gt = Translator()        
+		soup = BeautifulSoup(text, 'html.parser')
+		tags = soup.find_all(True)
+		split_text = {}
+		for tag in tags:
+			if tag.name == 'h3':
+				current_key = tag.text
+			if tag.name == 'p':
+				split_text[current_key] = tag.text
+	
+		for key in split_text.keys():
+			split_text[key] = str(split_text[key]).strip('\n').replace('\n', ' ').replace('\\','')
+	
+		result_dict = {}
+		for key in split_text.keys():
+			text = split_text[key]
+			origin_lang = detect(text)
+			nlp = spacy.load(languages.get(origin_lang, 'en'))
+			doc = nlp(text)
+	
+		sentences = []
+		for s in doc.sents:
+			try:
+				text = gt.translate(text=str(s), dest='en').text
+				sentences.append(text)
+			except Exception as e:
+				print(e)
+	
+		API_URL = huggingfacemodels.get(lm_key)
+		sentences = np.array(sentences)
+		pad_size = 3 - (sentences.size % 3)
+		padded_a = np.pad(sentences, (0, pad_size), mode='empty')
+		paragraphs = padded_a.reshape(-1, 3)
+	
+		output = []
+		text = ""
+		for i in paragraphs:
+			length = len(str(i))
+			result = self.query({"inputs": str(i),"parameters": {"max_length": length},"options":{"wait_for_model":True}}, API_URL)
+	
+		try:
+			if 'generated_text' in result[0]:
+				text = result[0].get('generated_text')
+	
+			if 'summary_text' in result[0]:
+				text = result[0].get('summary_text')
+		except Exception as e:
+			print(e)
+	
+		lang = detect(text)
+		try:
+			text = gt.translate(text=str(text),src=lang, dest='nl').text 
+		except Exception as e:
+			print(str(e))
+		
+		output.append(text)
+		result_dict[key] = output
+		return(result_dict)            
+	
+	"""@returns a translated sentence"""
+	def translate_sentence(self, sentence):
+		translator  = Translator()
+		result = translator.translate(
+			text=sentence,
+			dest='nl'
+		)
+		return result.text
+\end{lstlisting}
+
+\begin{lstlisting}[language=Python, caption={Reader-klasse}, label={code:reader-klasse}]
+class GPT():
+	""" @sets openai.api_key """
+	def __init__(self, key=None):
+		global gpt_api_key
+		if key is None:
+			gpt_api_key = 'not-submitted'
+			openai.api_key = key
+		else:
+			gpt_api_key = key
+			openai.api_key = key
+	
+	""" @returns prompt, result from gpt """
+	def look_up_word_gpt(self, word, context):
+		try:
+			prompt = f"""
+		Give a simple Dutch explanation in one sentence for this word in the given context. Give the PoS-tag and Dutch definition: '{word}'
+		context: {context}
+		format: PoS-tag | definition
+		///
+	"""
+	
+			result = openai.Completion.create(
+				prompt=prompt,
+				temperature=0,
+				max_tokens=50,
+				model=COMPLETIONS_MODEL,
+				top_p=0.9,
+				stream=False
+			)["choices"][0]["text"].strip(" \n")    
+			return result, word, prompt	
+		except Exception as e:
+			return 'error', str(e), str(e)
+	
+	""" @returns prompt, result from gpt """
+	def give_synonym(self, word, context):
+		try:
+			prompt = f"""
+			Give a Dutch synonym for '{word}'. If there is no Dutch synonym available, explain it between curly brackets.
+			context:
+			{context}
+			"""
+			
+			result = openai.Completion.create(
+				prompt=prompt,
+				temperature=0,
+				max_tokens=10,
+				model=COMPLETIONS_MODEL,
+				top_p=0.9,
+				stream=False
+				)["choices"][0]["text"].strip(" \n")    
+			return result, word, prompt
+		except Exception as e:
+			return 'Open AI outage of problemen', str(e)
+		
+	def personalised_simplify(self, sentence, personalisation):
+	if 'summary' in personalisation:
+		prompt = f"""
+		Simplify the sentences in the given text and {", ".join(personalisation)}
+		:return: A list of simplified sentences divided by a '|' sign
+		///
+		{sentence}
+		"""
+	else:
+		prompt = f"""
+		Explain this in own Dutch words and {", ".join(personalisation)}
+		///
+		{sentence}
+		"""
+	
+	try:
+		result = openai.Completion.create(
+			prompt=prompt,
+			temperature=0,
+			max_tokens=len(prompt),
+			model=COMPLETIONS_MODEL,
+			top_p=0.9,
+			stream=False
+		)["choices"][0]["text"].strip(" \n")
+	
+		if 'summary' in personalisation:
+			result = result.split('|')
+		else:
+			result = [result]
+		
+		return result, prompt
+	except Exception as e:
+		return str(e), prompt 
+	
+	def personalised_simplify_w_prompt(self, sentences, personalisation):
+		try:
+			result = openai.Completion.create(
+			prompt=personalisation,
+			temperature=0,
+			max_tokens=len(personalisation)+len(sentences),
+			model=COMPLETIONS_MODEL,
+			top_p=0.9,
+			stream=False
+			)["choices"][0]["text"].strip(" \n")
+			return result, personalisation
+		except Exception as e:
+			return str(e), personalisation
+		
+	
+	def summarize(self, full_text_dict, personalisation):
+		soup = BeautifulSoup(full_text_dict, 'html.parser')
+		tags = soup.find_all(True)
+		split_text = {}
+	
+	for tag in tags:
+		if tag.name == 'h3':
+			current_key = tag.text
+	
+		if tag.name == 'p':
+			split_text[current_key] = tag.text
+		
+		for key in split_text.keys():
+			split_text[key] = str(split_text[key]).strip('\n')\
+					.strip('\\').replace('\\','')
+	
+		new_text = {}
+		for title in split_text.keys():
+			text = split_text[title]
+		if len(text) > 1000:
+			index = len(text) // 2
+			text_to_prompt = [text[:index], text[index:] ]
+		else:
+			text_to_prompt = [text]
+	
+		full_chunk_result = ""
+		for chunk in text_to_prompt:	
+			# TODO aangepast voor oorspronkelijke taal
+			if 'summation' not in personalisation:
+			prompt = f"""
+			Rewrite this with {", ".join(personalisation)}
+			///
+			{chunk}
+			"""
+			else:
+			prompt = f"""
+			Rewrite this as a list of simplified Dutch sentences with {", ".join(personalisation)}
+			:return: A list of simplified sentences divided by a '|' sign
+			///
+			{chunk}
+			"""
+	
+			full_chunk_result += str(openai.Completion.create(prompt=prompt,temperature=0,max_tokens=500,model=COMPLETIONS_MODEL,top_p=0.9,stream=False)["choices"][0]["text"].strip(" \n"))
+		new_text[title] = [full_chunk_result]
+		return new_text
+\end{lstlisting}
+
+\medspace
+
+\begin{lstlisting}[language=Python, caption={Writer-klasse omvattende de code om dynamische PDF- en Word-documenten te genereren.}, label={code:writer-klasse}]
+import subprocess, io, os, pypandoc
+from datetime import date
+import zipfile
+
+
+markdown_file = "saved_files/file.md"
+zip_filename = 'saved_files/simplified_docs.zip'
+pdf_file = "saved_files/output.pdf"
+docx_file = "saved_files/output.docx"
+DATE_NOW = str(date.today())
+
+
+class Creator():
+	def create_header(self, title, margin, fontsize, chosen_font, chosen_title_font, word_spacing, type_spacing):
+		with open(markdown_file, 'w', encoding='utf-8') as f:
+			f.write("---\n")
+			f.write(f"title: {title}\n") 
+			f.write(f"mainfont: {chosen_font}.ttf\n")
+			f.write(f"titlefont: {chosen_title_font}.ttf\n")
+			f.write(f'date: {DATE_NOW}\n')
+			f.write(f'document: article\n')
+			f.write(f'geometry: margin={margin}cm\n')
+			f.write(f'fontsize: {fontsize}pt\n')
+			f.write('header-includes:\n')
+			f.write(f'- \spaceskip={word_spacing}cm\n')
+			f.write(f'- \\usepackage{{setspace}}\n')
+			f.write(f'- \{type_spacing}\n')
+			f.write("---\n")
+	
+	
+	def generate\_glossary(self, list):
+		with open(markdown_file, 'a', encoding='utf-8') as f:
+			f.write("---\n")
+			f.write("# Woordenlijst\n")
+			f.write("| Woord | Soort | Definitie |\n")
+			f.write("| --- | --- | --- |\n")
+			for word in list.keys(): 
+				f.write(f"| {word} | {list[word]['type']} | {list[word]['definition']} |\n")
+	
+	""""""
+	def generate_summary(self, full_text):
+		with open(markdown_file,'a', encoding="utf-8", errors="surrogateescape") as f:
+			for key in full_text.keys():
+				title = str(key).replace('\n',' ')
+				text = full_text[key]
+				f.write('\n\n')
+				f.write(f'## {title}')
+				f.write('\n\n')
+				f.write(" ".join(text))
+				f.write('\n\n')
+	
+	
+	def generate_summary_w_summation(self, full_text):
+		with open(markdown_file,'a', encoding="utf-8", errors="surrogateescape") as f:
+			for key in full_text.keys():
+				title = str(key).replace('\n',' ')
+				text = full_text[key][0].split('|')
+				f.write('\n\n')
+				f.write(f'## {title}')
+				for sentence in text:    
+				f.write('\n\n')
+				f.write(f'* {sentence}')
+				f.write('\n\n')
+	
+	
+	def create_pdf(self, title, margin, list, full_text, fonts, word_spacing, type_spacing, summation):
+		if title is not None:
+			self.create_header(title=title, margin=margin, fontsize=14, chosen_font=fonts[0], chosen_title_font=fonts[1], word_spacing=word_spacing, type_spacing=type_spacing)
+		else:
+			self.create_header(title='Vereenvoudigde tekst', margin=0.5, fontsize=14, chosen_font=fonts[0], chosen_title_font=fonts[1], word_spacing=word_spacing, type_spacing=type_spacing)
+	
+		"""GLOSSARY"""
+		if len(list) != 0:
+			self.generate_glossary(list=list)
+		
+		"""SUMMARY"""
+		if summation:
+			self.generate_summary_w_summation(full_text=full_text)
+		else:
+			self.generate_summary(full_text=full_text)
+	
+		"""FILE_CREATION"""
+		pypandoc.convert_file(source_file=markdown_file, to='docx', outputfile=docx_file,   extra_args=["-M2GB", "+RTS", "-K64m", "-RTS"])
+		pypandoc.convert_file(source_file=markdown_file, to='pdf',  outputfile=pdf_file,    extra_args=['--pdf-engine=xelatex'])
+		with zipfile.ZipFile(zip_filename, 'w') as myzip:
+		myzip.write(pdf_file)
+		myzip.write(docx_file)
+\end{lstlisting}
+
+
+\begin{lstlisting}[language=Powershell, caption={Script voor het opstarten van de Docker-container voor Windows-gebruikers}, label={code:shell-boot}]
+@echo off
+
+cd web-app
+docker stop text-application-prototype
+docker rm text-application-prototype
+
+docker rmi text-app
+
+docker build -t text-app .
+docker run --name text-application-prototype --network webapp_simplification -d -p 5000:5000 text-app
+\end{lstlisting}
+
+\begin{lstlisting}[language=Bash, caption={Script voor het opstarten van de Docker-container voor Unix-gebruikers}, label={code:bash-boot}]
+#!/bin/sh
+	
+cd web-app || exit
+docker stop text-application-prototype
+docker rm text-application-prototype
+	
+docker rmi text-app
+	
+docker build -t text-app .
+docker run --name text-application-prototype --network webapp_simplification -d -p 5000:5000 text-app
+\end{lstlisting}

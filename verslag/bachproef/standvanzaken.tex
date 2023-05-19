@@ -92,6 +92,8 @@ Deze factoren worden opgesomd in \ref{table:scientific-paper-struggles}. Hoewel 
 		\hline
 		Complexe concepten & Paragrafen herschrijven zodat ze eerst uitleg geven op een high-level niveau. Vervolgens lagen van complexiteit toevoegen om de lezer te begeleiden doorheen de methodologie, discussie en conclusie van het wetenschappelijk artikel. \\ 
 		\hline
+		Cijfermateriaal bij resultaten & De interpretatie van percentages of cijfermateriaal schrijven. Zoals 'ongeveer een kwart van de bevolking' in plaats van '24.97\% van de bevolking'. \\
+		\hline
 	\end{tabular}
 	\label{table:scientific-paper-struggles}
 	\caption{Complexe leesfactoren van een wetenschappelijk artikel.}
@@ -103,6 +105,7 @@ Deze factoren worden opgesomd in \ref{table:scientific-paper-struggles}. Hoewel 
 Scholieren met verschillende achtergronden hebben vaak een verschillende achtergrondkennis, wat invloed kan hebben op het tekstbegrip. Bijvoorbeeld, scholieren met een achtergrond in fysica kunnen sneller de draad oppikken bij het lezen van fysica-gerelateerde artikelen dan scholieren met een economische achtergrond. Dit maakt het moeilijk om de leesbaarheid van een tekst objectief te beoordelen, omdat jargon voor de ene groep scholieren als gemakkelijk kan worden beschouwd, terwijl het voor de andere groep juist moeilijk kan zijn. Er is dus een verschil in behoeften tussen de verschillende groepen scholieren.
 
 \medspace
+
 
 Er zijn door de jaren heen leesbaarheidsscores ontwikkeld om teksten objectief te kunnen beoordelen, aangezien ontoegankelijke en ingewikkelde zinsstructuren ook experts in het vakgebied kunnen hinderen. Er zijn twee bekende leesbaarheidsscores weergegeven in tabel \ref{table:readability-scores}. Dankzij Python-libraries, zoals Textstat\footnote{textstat} en Readability\footnote{https://pypi.org/project/readability/}, is het herschrijven van de formules niet meer nodig en bieden ze een snelle oplossing voor ontwikkelaars om een leesgraadscore te berekenen. Ook online toepassingen, zoals Textinspector\footnote{https://textinspector.com/}, kunnen analytisch inzicht geven in de complexiteit van Engelstalige teksten. Er bestaat momenteel geen alternatief voor Nederlandstalige wetenschappelijke artikelen. Het is wel belangrijk om te benadrukken dat deze leesbaarheidsscores geen rekening houden met de achtergrondkennis van mogelijke lezers.
 
@@ -143,6 +146,10 @@ Onbegrijpelijke en ontoegankelijke zinsstructuren hinderen ook vakexperten. Zo t
 \medspace
 
 Volgens \textcite{Hollenkamp2020} en \textcite{McCombes2022} moeten vereenvoudigde of samengevatte wetenschappelijke artikelen drie vragen kunnen beantwoorden: waarom werd het onderzoek uitgevoerd, wat zijn de experimenten en wat zijn de conclusies van de onderzoekers? Dit omvat de achtergrondinformatie, hypotheses, methoden, resultaten, implicaties, beperkingen en aanbevelingen. Om de tekst begrijpelijker te maken, kan deze worden omgezet in een ander formaat, zoals post-it notes, tabelvorm of opsommingen \autocite{Rijkhoff2022}. 
+
+\medspace
+
+Wetenschappelijke artikelen zijn voornamelijk in PDF-formaat terug te vinden. Dit formaat valt eenvoudig in te lezen met verschillende Python-pakketten, waaronder PDFMiner of PyPDF. Wel kunnen ontwikkelaars problemen ondervinden bij het inlezen van PDF-bestanden, waarbij niet alle tekst of amper tekst uit de PDF kan worden geëxtraheerd. Als oplossing kunnen ontwikkelaars gebruik maken van \textit{optical character recognition} of OCR. In Python zijn er pakketten die deze technologie eenvoudig kunnen realiseren, namelijk EasyOCR en Tesserat.
 
 % TODO conclusie voor de noden van wetenschappelijke artikelen en noden van dyslexie
 

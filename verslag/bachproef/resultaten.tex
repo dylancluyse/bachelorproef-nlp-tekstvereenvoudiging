@@ -51,19 +51,102 @@ De requirementsanalyse neemt geen functionaliteiten op van obscure proof-of-conc
 
 \section{Vergelijkende studie}
 
-Modellen T1, T2 en T3 zijn, zoals verwezen in de bijlage, niet in staat om syntactische vereenvoudiging op een tekst toe te passen. Enkel T4 kan via prompt P2, P3, P4, P5 en P6 de syntax van een zin verlagen. Alle uitgeteste taalmodellen zijn echter wel in staat om lexicale vereenvoudiging te realiseren, al wordt de inschatting van de doelgroep in twijfel getrokken. De referentieteksten schatten de doelgroep correct in, door reeds gekend jargon niet aan te passen, maar nieuwe jargon wel aan te passen naargelang er een beschikbaar synoniem is.
+\subsubsection{Beoordeling op basis van leesgraadsmetrieken -en kenmerken.}
+
+Na een tekstvereenvoudiging ligt het aantal zinnen bij T1, T2 en T3 hoger dan dat van de oorspronkelijke tekst. Elke prompt van T4 maakt gebruik van meer zinnen dan het oorspronkelijk artikel, zoals aangewezen in tabel \ref{table:resultaten-aantal-woorden}.
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{ | m{3cm} | m{3cm} | m{3cm} | } 
+		\hline
+		Bron & #Zinnen in A1 & #Zinnen in A2 \\
+		\hline
+		Oorspronkelijk & 78  & 159 \\ 
+		\hline
+		MTS (door leerkracht) & 43 & 45 \\
+		\hline
+		MTS (door leerling) & n.v.t. & 50 \\
+		\hline
+		T1 & 101 & 209 \\
+		\hline
+		T2 & 82 & 209 \\
+		\hline
+		T3 & 100 & 209 \\
+		\hline
+		T4 P1 & 61 & 98 \\
+		\hline
+		T4 P2 & 89 & 133 \\
+		\hline
+		T4 P3 & 39 & 55 \\
+		\hline
+	\end{tabular}
+	\label{table:resultaten-aantal-woorden}
+	\caption{Aantal zinnen per }
+\end{table}
+
+T1, T2 en T3 gebruiken gemiddeld minder woorden per zin dan het oorspronkelijk artikel. Enkel P3 is in staat om gemiddeld minder woorden per zin te gebruiken, vergeleken met P1 en P2 die elk gemiddeld meer dan 19 woorden per zin gebruiken, zoals aangegeven in figuren \ref{img:boxplot-min-max-avg-words-a1} en \ref{img:boxplot-min-max-avg-words-a2}.
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{img/boxplot-avg-a1.png}
+	\caption{Overzicht van het minimum, maximum en gemiddeld aantal woorden per zin per model in artikel 1.}
+	\label{img:boxplot-min-max-avg-words-a1}
+\end{figure}
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{img/boxplot-avg-a2.png}
+	\caption{Overzicht van het minimum, maximum en gemiddeld aantal woorden per zin per model in artikel 2.}
+	\label{img:boxplot-min-max-avg-words-a2}
+\end{figure}
 
 \medspace
 
-De modellen T1, T2 en T3 zijn niet in staat om syntactische vereenvoudiging op een tekst toe te passen. Alleen T4 kan via de prompts P2, P3, P4, P5 en P6 de zinsstructuur verlagen. Hoewel alle geteste taalmodellen in staat zijn om lexicale vereenvoudiging te realiseren, wordt de nauwkeurigheid van de doelgroepsinschatting in twijfel getrokken. De referentieteksten schatten de doelgroep correct in door bekend jargon niet aan te passen, maar wel nieuwe jargon aan te passen als er een beschikbaar synoniem is. 
+De FRE-scores bij alle geteste taalmodellen en MTS-referentieteksten zijn niet significant hoger of lager, vergeleken met het oorspronkelijk wetenschappelijk artikel, zoals aangetoond in figuren \ref{img:boxplot-fre-a1} en \ref{img:boxplot-fre-a2}. Eveneens zijn de FOG-scores ook niet significant hoger of lager bij de vereenvoudigde wetenschappelijke artikelen zoals aangewezen in \ref{img:boxplot-fog-a1}, \ref{img:boxplot-fog-a2}.
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{img/boxplot-fre-a1.png}
+	\caption{Boxplot van de FRE-scores voor A1.}
+	\label{img:boxplot-fre-a1}
+\end{figure}
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{img/boxplot-fre-a2.png}
+	\caption{Boxplot van de FRE-scores voor A2.}
+	\label{img:boxplot-fre-a2}
+\end{figure}
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{img/boxplot-fog-a1.png}
+	\caption{Boxplot van de FOG-scores voor A1.}
+	\label{img:boxplot-fog-a1}
+\end{figure}
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{img/boxplot-fog-a2.png}
+	\caption{Boxplot van de FOG-scores voor A2.}
+	\label{img:boxplot-fog-a2}
+\end{figure}
+
+
+
+
+
+\subsubsection{Beoordeling op basis van referentieteksten en capaciteiten}
+
+Modellen T1 en T2 zijn niet in staat om syntactische vereenvoudiging op een tekst toe te passen. T3 is bij alle prompts in staat om de syntax van een zin te verlagen. Daarnaast zijn er Alle uitgeteste taalmodellen zijn echter wel in staat om lexicale vereenvoudiging te realiseren, al wordt de inschatting van de doelgroep in twijfel getrokken. De referentieteksten schatten de doelgroep correct in, door reeds gekend jargon niet aan te passen, maar nieuwe jargon wel aan te passen naargelang er een beschikbaar synoniem is.
+
+\medspace
+
+De modellen T1, T2 en T3 zijn niet in staat om syntactische vereenvoudiging op een tekst toe te passen. Alleen T4 kan via de prompts P2, P3, P4, P5 en P6 de zinsstructuur verlagen. Hoewel alle geteste taalmodellen in staat zijn om lexicale vereenvoudiging te realiseren, wordt de nauwkeurigheid van de doelgroepsinschatting in twijfel getrokken. De referentieteksten schatten de doelgroep correct in door bekend jargon niet aan te passen, maar wel nieuwe jargon aan te passen als er een beschikbaar synoniem is.  Daarnaast kan T3-P1 ook de coherentie van een meegegeven paragraaf bevorderen, door onder meer omslachtige zinsstructuren aan te passen naar signaalwoorden.
 
 \medspace
 
 In tegenstelling tot GPT-3 zijn de modellen T1, T2 en T3 niet in staat om het formaat van de uitvoer aan te passen. De uitvoer blijft een doorlopende tekst. In de referetietekst past één van de auteurs het formaat aan naar tabelvorm voor enkele paragrafen, waar de inhoud beter in tabelvorm kan gestructureerd worden. Alleen bij de prompts P5 en P6 wordt er expliciet gevraagd om een formaatwijziging, anders geeft T4 vrijwel altijd een doorlopende tekst terug. Zonder de expliciete aanduiding is het model niet in staat om dit zelf te bepalen. Verder onderzoek moet uitwijzen of T4 in staat is om zelfstandig deze bepaling kan maken, zo niet kan deze formaatwijziging niet automatisch bepaald worden en is er tussenkomst van de eindgebruiker vereist. Dit moet ook zo opgenomen worden als een functionaliteit in het prototype.
 
+Het formaat van de uitvoer bij de modellen T1 en T2 zijn identiek aan dat van de oorspronkelijke tekst, namelijk in de vorm van een doorlopende tekst. Deze twee modellen zijn niet in staat om het voorbeeld van één van de auteurs te volgen, door het formaat van de 
+
 \medspace
 
-Tijd speelt ook een rol en zowel aangesproken per API, als lokaal draaiend, scoren T1 en T2 ondermaats. Dit kan oplopen tot hoogstens 30 seconden voor een zin van tien tot dertig woorden, vergeleken met T3 die dezelfde zin in minder dan 10 seconden kan vereenvoudigen.
+De \textit{execution time} bij zowel T1 en T2 scoren ondermaats, zowel via \textit{inference API} als lokaal draaiend. Dit kan oplopen tot hoogstens 30 seconden voor een zin van tien tot dertig woorden, vergeleken met T3 die dezelfde zin in minder dan 10 seconden kan vereenvoudigen.
 
 \medspace
 
@@ -71,7 +154,8 @@ Hoewel T3 in staat is om zinsyntaxtransformaties uit te voeren, ervaart deze pro
 
 \medspace
 
-Ontwikkelaars hebben toegang tot T1, T2 en T3 via HuggingFace voor lexicale vereenvoudigingstaken. Deze taalmodellen zijn echter ontoereikend voor gepersonaliseerde tekstvereenvoudiging en daarom is T4 een geschikter model voor het vereenvoudigen van wetenschappelijke artikelen op maat. GPT-3 presteert goed op gepersonaliseerde vereenvoudigingstaken, maar het is belangrijk om op te merken dat geen enkel taalmodel de doelgroep altijd nauwkeurig kan inschatten. Extra trainingsdata, zoals leerstof of wetenschappelijke artikelen die wel op het niveau van een 16-18-jarige is geschreven, kan het model steunen bij de doelgroepsinschatting. Het gebruik van Engelstalige prompts waarin expliciet de gewenste uitvoertaal wordt vermeld, resulteert in coherentere teksten dan bij een Nederlandstalige prompt.
+% TODO NIET HIER
+% Ontwikkelaars hebben toegang tot T1, T2 en T3 via HuggingFace voor lexicale vereenvoudigingstaken. Deze taalmodellen zijn echter ontoereikend voor gepersonaliseerde tekstvereenvoudiging en daarom is T4 een geschikter model voor het vereenvoudigen van wetenschappelijke artikelen op maat. GPT-3 presteert goed op gepersonaliseerde vereenvoudigingstaken, maar het is belangrijk om op te merken dat geen enkel taalmodel de doelgroep altijd nauwkeurig kan inschatten. Extra trainingsdata, zoals leerstof of wetenschappelijke artikelen die wel op het niveau van een 16-18-jarige is geschreven, kan het model steunen bij de doelgroepsinschatting. Het gebruik van Engelstalige prompts waarin expliciet de gewenste uitvoertaal wordt vermeld, resulteert in coherentere teksten dan bij een Nederlandstalige prompt.
 
 \section{Opbouw van het prototype}
 
