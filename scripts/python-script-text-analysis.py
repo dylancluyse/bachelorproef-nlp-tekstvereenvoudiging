@@ -1,10 +1,17 @@
 from pdfminer.high_level import extract_pages
-from pdfminer.layout import LTTextContainer, LTChar
+from pdfminer.layout import LTTextContainer
 import spacy
 from langdetect import detect
 import pandas as pd
 import os
 import readability
+import requests, spacy, os, numpy as np
+import time, json, requests
+from langdetect import detect
+from googletrans import Translator
+from bs4 import BeautifulSoup
+from deep_translator import GoogleTranslator
+
 
 
 folder_path = 'scripts\pdf'
@@ -17,79 +24,92 @@ dict = {
 }
 
 total_df = None
+gt = Translator()
+
+huggingfacemodels = {
+    'T1':"https://api-inference.huggingface.co/models/haining/scientific_abstract_simplification",
+    'T2': "https://api-inference.huggingface.co/models/sambydlo/bart-large-scientific-lay-summarisation",
+    'T3': "https://api-inference.huggingface.co/models/philippelaban/keep_it_simple"
+}
+
+max_length = 2000
+COMPLETIONS_MODEL = "text-davinci-003"
+EMBEDDING_MODEL = "text-embedding-ada-002"
+
+languages = {
+    'nl':'nl_core_news_md',
+    'en':'en_core_web_md'
+}
+
+class HuggingFaceModels:
+    def __init__(self, key=None):
+        global huggingface_api_key
+        try:
+            huggingface_api_key = key
+        except:
+            huggingface_api_key = 'not_submitted'
+
+    """"""
+    def query(self, payload, API_URL):
+        headers = {"Authorization": f"Bearer {huggingface_api_key}"}
+        response = requests.post(API_URL, headers=headers, json=payload)
+        return response.json()
+    
+    """"""
+    def scientific_simplify(self, text, lm_key):
+        try:
+            API_URL = huggingfacemodels.get(lm_key)
+            translated = GoogleTranslator(source='auto', target='en').translate(str(text))
+            
+            if lm_key == 'T1':
+                result = self.query({"inputs": str('simplify: ' + str(translated)),"parameters": {"max_length": len(sentence)+10},"options":{"wait_for_model":True}}, API_URL)
+            else:
+                result  = self.query({"inputs": str(translated),"parameters": {"max_length": len(sentence)+10},"options":{"wait_for_model":True}}, API_URL)
+            
+            
+            if 'generated_text' in result[0]:
+                translated = GoogleTranslator(source='auto', target='nl').translate(str(result[0]['generated_text']))
+                return translated
+            elif 'summary_text' in result[0]:
+                translated = GoogleTranslator(source='auto', target='nl').translate(str(result[0]['summary_text']))
+                return translated
+            else:
+                return None
+        except:
+            return text
 
 def get_sentence_length(sentence):
+    txt_language = detect(sentence)
+    dic_language = languages.get(txt_language)
+    nlp = spacy.load(dic_language)
     doc = nlp(sentence)
-    return len(doc)
-
-pdf_files = [f for f in os.listdir(folder_path)]
-
-for pdf in pdf_files:
-
-    if pdf.endswith('pdf'):
-        print(f'...{pdf} starting to read')
-        all_pages = extract_pages(
-        pdf_file='scripts\pdf/'+ pdf,
-        page_numbers=[0],
-        maxpages=999
-        )
-
-        full_text = ""
-        for page_layout in all_pages:
-            for element in page_layout:
-                if isinstance(element, LTTextContainer):
-                    for text_line in element:
-                        full_text += text_line.get_text()
-
-    elif pdf.endswith('txt'):
-        print(f'...{pdf} starting to read')
-        with open('scripts\pdf/'+ pdf, 'r') as file:
-            full_text = file.read()
-
-    else:
-        print(f'...{pdf} not a valid file...')
-        pass
-
-    full_text = full_text.strip()
-    full_text = full_text.replace('\n', ' ')
-    lang = detect(full_text)
-
-    model = dict.get(detect(full_text), dict.get('en'))
-    nlp = spacy.load(model)
-    doc = nlp(full_text)
-
-    sentences = []
-    for sentence in doc.sents:
-        sentences.append(str(sentence))
-
-    df = pd.DataFrame(sentences, columns=['sentence'])
-    df['source'] = pdf.split('_')[0]
-    
-    try:
-        df['title'] = pdf.split('_')[1].split('.')[0]
-    except:
-        df['title'] = pdf.split('_')[1]
-
-    df['sentence_length'] = df['sentence'].apply(get_sentence_length)
-
-    df = df[df['sentence_length'] > 4]   
-
-    for key in readability.getmeasures("test")['readability grades'].keys():
-        df[key] = df['sentence'].apply(lambda x: readability.getmeasures(x)['readability grades'][key])
-
-    word_usage_cols = readability.getmeasures("test")['word usage'].keys()
-    for key in word_usage_cols:
-        df[key] = df['sentence'].apply(lambda x: readability.getmeasures(x, lang=lang)['word usage'][key])
-
-    sentence_beginnings_cols = readability.getmeasures("test")['sentence beginnings'].keys()
-    for key in sentence_beginnings_cols:
-        df[key] = df['sentence'].apply(lambda x: readability.getmeasures(x, lang=lang)['sentence beginnings'][key])
-
-    if total_df is None:
-        total_df = df
-    else:
-        if not df.empty:
-            total_df = pd.concat([total_df, df], ignore_index=True)
+    return len()
 
 
-total_df.to_csv(path_or_buf='text-analysis-simplification.csv', index=False)
+
+def tokenize_text(text):
+    txt_language = detect(text)
+    dic_language = languages.get(txt_language)
+    nlp = spacy.load(dic_language)
+    doc = nlp(text)
+    return doc.sents
+
+
+def process_file(file_path):
+    with open(folder_path + '/' + file_path, "r", encoding='utf8') as file:
+        text = file.read()
+        tokens = tokenize_text(text)
+        return tokens
+
+
+hf = HuggingFaceModels(key='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')
+original_scientific_papers = [f for f in os.listdir(folder_path)]
+for paper in original_scientific_papers[3:]:
+    sentence_tokens = process_file(paper) 
+    print(paper)       
+    for sentence in sentence_tokens:
+        for model in huggingfacemodels.keys():
+            filename = "SIMPLIFIED_"+model+'_'+paper
+            with open(filename, 'a', encoding='utf-8') as f:
+                output = hf.scientific_simplify(str(sentence), model)
+                f.write(str(output)) 

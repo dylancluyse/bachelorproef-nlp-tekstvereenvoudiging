@@ -31,43 +31,59 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Een mogelijke weergaven van de homepagina.\relax }}{45}{figure.caption.38}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Resultaat Bing Chat\relax }}{39}{figure.caption.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Voorbeeldweergave van de instellingenpagina.\relax }}{45}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Een mogelijke weergaven van de homepagina.\relax }}{45}{figure.caption.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Stappenplan voor de ontwikkeling van het component voor lectoren.\relax }}{50}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Voorbeeldweergave van de instellingenpagina.\relax }}{46}{figure.caption.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Stappenplan voor de ontwikkeling van het component voor scholieren.\relax }}{53}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Stappenplan voor de ontwikkeling van het component voor lectoren.\relax }}{51}{figure.caption.44}%
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Resultaat Bing Chatbot\relax }}{56}{figure.caption.51}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Illustratie van de tekstanalyse bij Simplish na een tekstvereenvoudiging.\relax }}{57}{figure.caption.52}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Illustratie van de tekstanalyse bij Rewordify.\relax }}{58}{figure.caption.53}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Schermafbeelding van SciSpace\relax }}{59}{figure.caption.54}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Overzicht van het minimum, maximum en gemiddeld aantal woorden per zin per model in artikel 1.\relax }}{60}{figure.caption.56}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Overzicht van het minimum, maximum en gemiddeld aantal woorden per zin per model in artikel 2.\relax }}{61}{figure.caption.57}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.7}{\ignorespaces \relax }}{61}{figure.caption.58}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.8}{\ignorespaces \relax }}{62}{figure.caption.59}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.9}{\ignorespaces \relax }}{62}{figure.caption.60}%
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.10}{\ignorespaces \relax }}{63}{figure.caption.61}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Stappenplan voor de ontwikkeling van het component voor scholieren.\relax }}{53}{figure.caption.50}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Illustratie van de tekstanalyse bij Simplish na een tekstvereenvoudiging.\relax }}{56}{figure.caption.53}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Illustratie van de tekstanalyse bij Rewordify.\relax }}{57}{figure.caption.54}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Schermafbeelding van SciSpace\relax }}{58}{figure.caption.55}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Overzicht van het minimum, maximum en gemiddeld aantal woorden per zin per model in artikel 1.\relax }}{59}{figure.caption.57}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Overzicht van het minimum, maximum en gemiddeld aantal woorden per zin per model in artikel 2.\relax }}{60}{figure.caption.58}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Boxplot van de FRE-scores voor A1.\relax }}{60}{figure.caption.59}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Boxplot van de FRE-scores voor A2.\relax }}{61}{figure.caption.60}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Boxplot van de FOG-scores voor A1.\relax }}{61}{figure.caption.61}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Boxplot van de FOG-scores voor A2.\relax }}{62}{figure.caption.62}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Complexe woorden per model.\relax }}{62}{figure.caption.63}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Gemiddeld aantal complexe woorden per zin gegroepeerd op model.\relax }}{63}{figure.caption.64}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Gemiddeld aantal lange woorden per zin gegroepeerd op model.\relax }}{63}{figure.caption.65}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Gemiddeld aantal lange woorden per zin gegroepeerd op model.\relax }}{64}{figure.caption.66}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Gemiddeld aantal lange woorden per zin gegroepeerd op model.\relax }}{64}{figure.caption.67}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Gemiddeld aantal lange woorden per zin gegroepeerd op model.\relax }}{65}{figure.caption.68}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Gemiddeld aantal lange woorden per zin gegroepeerd op model.\relax }}{65}{figure.caption.69}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Gemiddeld aantal lange woorden per zin gegroepeerd op model.\relax }}{66}{figure.caption.70}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {A.1}{\ignorespaces \autocite {Readable2021}\relax }}{79}{figure.caption.62}%
+\contentsline {figure}{\numberline {A.1}{\ignorespaces \autocite {Readable2021}\relax }}{82}{figure.caption.71}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

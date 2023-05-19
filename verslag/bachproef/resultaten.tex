@@ -5,17 +5,7 @@ In dit hoofdstuk worden de resultaten uit de requirementsanalyse, vergelijkende 
 
 \section{Requirementsanalyse}
 
-Woorden- en synoniemenlijsten kunnen een ondersteunend middel aanbieden voor zowel scholieren met dyslexie als zonder bij het lezen van wetenschappelijke artikelen en wordt aangeboden in Kurzweil. Automatisch genereren is enkel prevalent bij ChatGPT en de Bing chatbot, maar de tools houden geen rekening met de doelgroep, tenzij expliciet aangegeven met een \textit{one-shot summary}. Andere tools houden helemaal geen rekening met de doelgroep en kunnen enkel woordenlijsten genereren op basis van gekozen woorden.
-
-\medspace
-
-In figuur \ref{img:tryout-bing-ai} wordt er een online wetenschappelijk artikel meegegeven. Er wordt geen titel of onderwerp meegegeven, maar de Bing AI chatbot is in staat om een abstraherende samenvatting te maken van het artikel. Daarna kan de chatbot meer uitleg geven over een bepaald onderwerp, alsook de referenties naar de oorspronkelijke bron meegeven. 
-
-\begin{figure}[H]
-	\includegraphics{img/bing-ai-chatbot-example.png}
-	\caption{Resultaat Bing Chatbot}
-	\label{img:tryout-bing-ai}
-\end{figure}
+Kurzweil, Simplish, ChatGPT en Bing Chat zijn de enige tools in de shortlist die in staat zijn om een woordenlijst, na handmatige woordselectie, te kunnen genereren. Automatisch moeilijke woorden selecteren en een verwante definitie genereren is enkel prevalent bij ChatGPT en de Bing Chat, maar de tools houden geen rekening met de doelgroep, tenzij expliciet aangegeven met een \textit{one-shot summary}. Andere tools houden geen rekening met de doelgroep en kunnen enkel woordenlijsten genereren op basis van gekozen woorden en een vaste definitie uit een woordenboek of andere lexicale databank.
 
 \medspace
 
@@ -126,8 +116,65 @@ De FRE-scores bij alle geteste taalmodellen en MTS-referentieteksten zijn niet s
 	\label{img:boxplot-fog-a2}
 \end{figure}
 
+% TODO
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{img/violinplot-complex-a1.png}
+	\caption{Complexe woorden per model.}
+	\label{img:violinplot-complex-a1}
+\end{figure}
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{img/violinplot-complex-a2.png}
+	\caption{Gemiddeld aantal complexe woorden per zin gegroepeerd op model.}
+	\label{img:violinplot-complex-a2}
+\end{figure}
+
+T1, T2 en T3 maken bij A1 en A2 gebruik van langere woorden ten opzichte van de oorspronkelijke tekst, in tegen stelling tot de drie T4 prompts die wel gebruik maken van kortere woorden en zo gelijkaardige resultaten bekomen als de MTS-referentieteksten. Deze verhouding wordt aangewezen in figuren 
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{img/violinplot-long-a1.png}
+	\caption{Gemiddeld aantal lange woorden per zin gegroepeerd op model.}
+	\label{img:violinplot-long-a1}
+\end{figure}
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{img/violinplot-long-a2.png}
+	\caption{Gemiddeld aantal lange woorden per zin gegroepeerd op model.}
+	\label{img:violinplot-long-a2}
+\end{figure}
 
 
+% TODO mogelijk actief passief gebruik
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{img/boxplot-aux-a1.png}
+	\caption{Gemiddeld aantal lange woorden per zin gegroepeerd op model.}
+	\label{img:histplot-aux-a1}
+\end{figure}
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{img/boxplot-aux-a2.png}
+	\caption{Gemiddeld aantal lange woorden per zin gegroepeerd op model.}
+	\label{img:histplot-aux-a2}
+\end{figure}
+
+% tobe
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{img/boxplot-tobe-a1.png}
+	\caption{Gemiddeld aantal lange woorden per zin gegroepeerd op model.}
+	\label{img:histplot-tobe-a1}
+\end{figure}
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{img/boxplot-tobe-a2.png}
+	\caption{Gemiddeld aantal lange woorden per zin gegroepeerd op model.}
+	\label{img:histplot-tobe-a2}
+\end{figure}
+
+
+% NB: all readability formulas were developed for English, so the scales of the outcomes are only meaningful for English texts. The Dale-Chall measure uses the original word list for English, but for Dutch and German lists of frequent words are used that were not specifically selected for recognizability by school children.
 
 
 \subsubsection{Beoordeling op basis van referentieteksten en capaciteiten}

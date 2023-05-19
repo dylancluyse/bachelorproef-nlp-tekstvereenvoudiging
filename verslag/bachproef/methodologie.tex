@@ -7,13 +7,12 @@
 
 % Door de vergaarde kennis uit de literatuurstudie in hoofdstuk \ref{ch:stand-van-zaken} over de mogelijke noden van scholieren met dyslexie, de complexiteit van wetenschappelijke artikelen, de technieken voor MTS en ATS, en de bijhorende valkuilen bij taalverwerking met AI, kunnen onderzoeksmethoden worden toegepast om een antwoord te vinden op de onderzoeksvraag. 
 
-
 Hiervoor moeten drie onderzoeksmethoden toegepast worden, met als hoofddoel het ontwikkelen van een prototype voor gepersonaliseerde ATS om wetenschappelijke artikelen te vereenvoudigen voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs.
 
 \section{Requirementsanalyse}
 \label{sec:requirementsanalyse}
 
-Om \textit{must-haves} van \textit{wont-haves} bij de ontwikkeling van een prototype voor tekstvereenvoudiging te kunnen onderscheiden, moet het onderzoek stilstaan bij de vereiste functionaliteiten door middel van een requirementsanalyse. Ten eerste moet deze onderzoeksfase zich richten op het uittesten van een shortlist van tools met tekstvereenvoudigingsfunctionaliteiten op hun capabiliteiten voor gepersonaliseerde ATS. Bovendien moeten zowel erkende toepassingen van de overheid gericht op deze casus, alsook toepassingen die leerkrachten of scholieren kunnen gebruiken om teksten te vereenvoudigen, geanalyseerd worden. Deze analyse verduidelijkt hoe sterk deze toepassingen aanleunen op een tekst vereenvoudigd door een leerkracht die een gepersonaliseerde tekstvereenvoudiging maakt van een wetenschappelijk artikel, specifiek op maat voor een scholier met dyslexie. Op deze manier kan de requirementsanalyse een antwoord geven op de volgende twee deelvragen van het onderzoek, aan de hand van de technieken voor MTS en ATS beschreven in hoofdstuk \ref{ch:stand-van-zaken}.
+Om \textit{must-haves} van \textit{wont-haves} bij de ontwikkeling van een prototype voor tekstvereenvoudiging te kunnen onderscheiden, moet het onderzoek stilstaan bij de vereiste functionaliteiten. Dit gebeurt door middel van een requirementsanalyse. Zo test deze onderzoeksfase een shortlist van tools met tekstvereenvoudigingsfunctionaliteiten op hun capabiliteiten voor gepersonaliseerde ATS. Deze lijst omvat zowel erkende toepassingen van de overheid gericht op deze casus, alsook toepassingen die leerkrachten of scholieren kunnen gebruiken om teksten te vereenvoudigen. Op deze manier kan de requirementsanalyse een antwoord geven op de volgende twee deelvragen van het onderzoek, aan de hand van de technieken voor MTS en ATS beschreven in hoofdstuk \ref{ch:stand-van-zaken}.
 
 \begin{itemize}
 	\item Welke functies ontbreken AI-toepassingen om geautomatiseerde tekstvereenvoudiging mogelijk te maken voor scholieren met dyslexie in de derde graad middelbaar onderwijs?
@@ -22,9 +21,7 @@ Om \textit{must-haves} van \textit{wont-haves} bij de ontwikkeling van een proto
 
 \medspace
 
-Zoals aangewezen in sectie \ref{sec:beschikbare-tools-en-taalmodellen} beschikken scholen over vijf door de overheid erkende softwarepakketten, maar de requirementsanalyse neemt enkel drie van deze vijf op omwille van hun prevalente toepassing in het onderwijs. Daarnaast kunnen online beschikbare tools ook scholieren met dyslexie ondersteunen bij het intensief lezen van complexe teksten met ATS, zoals bewezen in \textcite{Bingel2018}. De requirementsanalyse betrekt enkel tools met onderschreven tekstvereenvoudigingscapaciteiten en laat zo pure samenvattingstools erbuiten. Deze shortlist van tools worden weergegeven in \ref{table:shortlist-tools}.
-
-\medspace
+Zoals aangewezen in sectie \ref{sec:beschikbare-tools-en-taalmodellen}, beschikken scholen over vijf door de overheid erkende softwarepakketten, maar de requirementsanalyse betrekt enkel drie van deze vijf door het huidige gebruik in het onderwijs. Daarnaast kunnen online beschikbare tools ook scholieren met dyslexie ondersteunen bij het intensief lezen van complexe teksten met ATS, zoals bewezen in \textcite{Bingel2018}. Daarmee betrekt de requirementsanalyse enkel tools met onderschreven tekstvereenvoudigingscapaciteiten en laat daarmee samenvattingstools erbuiten. Deze shortlist van tools worden weergegeven in \ref{table:shortlist-tools}.
 
 \begin{center}
 	\begin{table}[H]
@@ -32,25 +29,18 @@ Zoals aangewezen in sectie \ref{sec:beschikbare-tools-en-taalmodellen} beschikke
 			\hline
 			\textbf{Erkende software} & \textbf{Online beschikbare tools} \\
 			\hline
-			Sprintplus (ES1) & Simplish (OB1) \\
-			Kurzweil3000 (ES2) & SciSpace (OB2) \\ 
-			AlineaSuite	(ES3) & ChatGPT (OB3) \\
-			& Bing Chatbot (OB4)\\
+			Sprintplus & Simplish \\
+			Kurzweil3000 & SciSpace \\ 
+			AlineaSuite & ChatGPT \\
+			& Bing Chat\\
 			\hline
 		\end{tabular}
-	\caption{Shortlist van uit te testen tools en toepassingen voor tekstvereenvoudiging.}
-	\label{table:shortlist-tools}	
+		\caption{Shortlist van uit te testen tools en toepassingen voor tekstvereenvoudiging.}
+		\label{table:shortlist-tools}	
 	\end{table}
 \end{center}
 
-De opgesomde MTS-technieken uit \ref{table:manual-simplification} en \ref{table:scientific-paper-struggles} dienen als bouwsteen om de shortlist te valideren op bruikbaarheid voor gepersonaliseerde ATS binnen het onderwijs, specifiek voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs. Met behulp van de criteria beschreven in tabel \ref{table:criteria-requirementsanalysis} past de requirementsanalyse deze technieken toe om de gebruikte en ontbrekende MTS-technieken in de tools te achterhalen,  alsook of deze tools in staat zijn om wetenschappelijke artikelen te kunnen vereenvoudigen. 
-
-\medspace
-
-% TODO bronnen
-Functionaliteiten worden teruggevonden op basis van een verkenning in de tool en alle aangeboden functies komen aan bod in deze onderzoeksfase. Artikelen van ... en ... dienen als testmiddel voor deze onderzoeksfase. De tools ondergaan een evaluatie om hun vermogen om een wetenschappelijk artikel in PDF-formaat te vereenvoudigen, indien dat mogelijk is. Als dit niet mogelijk is, gebeurt het kopiëren en plakken van de tekst in de toepassing. Vervolgens vindt een evaluatie van de eventuele beperkingen of tekortkomingen plaats. 
-
-
+De eerder opgesomde MTS-technieken uit tabellen \ref{table:manual-simplification} en \ref{table:scientific-paper-struggles} dienen als bouwstenen om de shortlist van tools te kunnen valideren op bruikbaarheid voor gepersonaliseerde ATS binnen het onderwijs, specifiek voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs. Met behulp van de criteria beschreven in tabel \ref{table:criteria-requirementsanalysis}, experimenteert deze onderzoeksfase met de toegelichte tools om de gebruikte en ontbrekende MTS-technieken in de tools te achterhalen, alsook of deze tools in staat zijn om wetenschappelijke artikelen te kunnen vereenvoudigen. Functionaliteiten worden teruggevonden op basis van een verkenning in de tool en alle aangeboden functies komen aan bod in deze onderzoeksfase. 
 
 \begin{center}
 	\begin{table}[H]
@@ -88,6 +78,49 @@ Functionaliteiten worden teruggevonden op basis van een verkenning in de tool en
 		\caption{Criteria waarop toepassingen worden afgetoetst in de requirementsanalyse}
 	\end{table}
 \end{center}
+
+\medspace
+
+% TODO deel van samenvatting van wetenschappelijk artikel
+% De tools ondergaan een evaluatie om hun vermogen om een wetenschappelijk artikel in PDF-formaat te vereenvoudigen, indien dat mogelijk is. Als dit niet mogelijk is, gebeurt het kopiëren en plakken van de tekst in de toepassing. Vervolgens vindt een evaluatie van de eventuele beperkingen of tekortkomingen plaats. 
+
+Alle invoer voor SprintPlus, Kurzweil3000, AlineaSuite, Simplish en SciSpace gebeurt met een PDF-upload.
+
+\medspace
+
+De invoer van Bing Chat gebeurt per \textit{plain-text} of per link. Teksten extraheren gebeurt manueel en dient nadien als invoer voor de chatbot. Beide chatbots krijgen dezelfde tekst, met elk vijf verschillende prompts toegediend om te achterhalen of de chatbot in staat is om lexicale, syntactische en formaatwijzigingen uit te kunnen voeren. Deze prompts staan vermeld in \ref{table:tested-prompts-requirementsanalysis}. De link naar de online beschikbare versie van het wetenschappelijk artikel wordt meegegeven aan Bing Chat en ChatGPT. De link naar een wetenschappelijk artikel meegeven aan Bing Chat staat geïllustreerd in figuur \ref{img:tryout-bing-ai}.
+
+\begin{center}
+	\begin{table}[H]
+		\begin{tabular}{ | m{2cm} | m{14cm} | } 
+			\hline
+			\textbf{Naam} & \textbf{Prompt} \\
+			\hline
+			P1 & Vereenvoudig deze tekst \\
+			\hline
+			P2 & Vereenvoudig deze tekst voor studenten (16-18 jaar) door moeilijke woorden te vervangen, vakjargon te schrappen, woorden langer dan 18 letters te vervangen, acroniemen voluit te schrijven, een woord slechts eenmaal door een synoniem te vervangen, korte uitleg te geven wanneer dat nodig is, en percentages te vervangen. \\
+			\hline
+			P3 & Vereenvoudig een tekst door deze op te delen in kortere zinnen van maximaal tien woorden. Verander voornaamwoorden als 'zij', 'hun' of 'hij' in namen. Vervang complexe zinsconstructies en voorzetselzinnen door eenvoudiger alternatieven, maar laat ze ongewijzigd als er geen eenvoudiger optie beschikbaar is. \\
+			\hline
+			P4 & Schrijf de tekst als opsomming. \\
+			\hline
+			P5 & Schrijf de tekst in tabelformaat. \\
+			\hline
+		\end{tabular}
+		\label{table:tested-prompts-requirementsanalysis}
+		\caption{De toegepaste GPT-3-prompts in de requirementsanalyse.}
+	\end{table}
+\end{center}
+
+\begin{figure}[H]
+	\includegraphics{img/bing-ai-chatbot-example.png}
+	\caption{Resultaat Bing Chat}
+	\label{img:tryout-bing-ai}
+\end{figure}
+
+\medspace
+
+
 
 % Het resultaat van deze onderzoeksfase bestaat uit een Moscow-schema dat fungeert als bouwsteen voor de ontwikkeling van het prototype van een webtoepassing voor tekstvereenvoudiging, specifiek om wetenschappelijke artikelen op maat voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs te vereenvoudigen. De geteste toepassingen opgesomd in \ref{table:shortlist-tools} representeren de top-of-the-line toepassingen voor tekstvereenvoudiging. Webtools presenteren op hun sites verschillende functionaliteiten die aan de eindgebruiker worden uitgeleend. Deze zijn terug te vinden bij het uittesten en er is geen sprake van false advertising. Er is een Moscow-schema opgesteld, geïllustreerd in figuur \ref{table:criteria-requirementsanalysis}, dat de beoordeling van de geteste tools weergeeft aan de hand van de criteria.
 
