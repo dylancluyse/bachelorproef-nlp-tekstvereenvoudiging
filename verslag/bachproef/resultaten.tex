@@ -23,133 +23,17 @@ De uitgeteste tools zijn allemaal online beschikbaar. Toch is dit onderzoek te k
 
 Na een tekstvereenvoudiging ligt het aantal zinnen bij T1, T2 en T3 hoger dan dat van de oorspronkelijke tekst. Elke prompt van T4 maakt gebruik van meer zinnen dan het oorspronkelijk artikel, zoals aangewezen in tabel \ref{table:resultaten-aantal-woorden}.
 
-\begin{table}[h]
-	\centering
-	\begin{tabular}{ | m{3cm} | m{3cm} | m{3cm} | } 
-		\hline
-		Bron & #Zinnen in A1 & #Zinnen in A2 \\
-		\hline
-		Oorspronkelijk & 78  & 159 \\ 
-		\hline
-		MTS (door leerkracht) & 43 & 45 \\
-		\hline
-		MTS (door leerling) & n.v.t. & 50 \\
-		\hline
-		T1 & 101 & 209 \\
-		\hline
-		T2 & 82 & 209 \\
-		\hline
-		T3 & 100 & 209 \\
-		\hline
-		T4 P1 & 61 & 98 \\
-		\hline
-		T4 P2 & 89 & 133 \\
-		\hline
-		T4 P3 & 39 & 55 \\
-		\hline
-	\end{tabular}
-	\label{table:resultaten-aantal-woorden}
-	\caption{Aantal zinnen per }
-\end{table}
+\medspace
 
 T1, T2 en T3 gebruiken gemiddeld minder woorden per zin dan het oorspronkelijk artikel. Enkel P3 is in staat om gemiddeld minder woorden per zin te gebruiken, vergeleken met P1 en P2 die elk gemiddeld meer dan 19 woorden per zin gebruiken, zoals aangegeven in figuren \ref{img:boxplot-min-max-avg-words-a1} en \ref{img:boxplot-min-max-avg-words-a2}.
-
-\begin{figure}
-	\includegraphics[width=\linewidth]{img/boxplot-avg-a1.png}
-	\caption{Overzicht van het minimum, maximum en gemiddeld aantal woorden per zin per model in artikel 1.}
-	\label{img:boxplot-min-max-avg-words-a1}
-\end{figure}
-
-\begin{figure}
-	\includegraphics[width=\linewidth]{img/boxplot-avg-a2.png}
-	\caption{Overzicht van het minimum, maximum en gemiddeld aantal woorden per zin per model in artikel 2.}
-	\label{img:boxplot-min-max-avg-words-a2}
-\end{figure}
 
 \medspace
 
 De FRE-scores bij alle geteste taalmodellen en MTS-referentieteksten zijn niet significant hoger of lager, vergeleken met het oorspronkelijk wetenschappelijk artikel, zoals aangetoond in figuren \ref{img:boxplot-fre-a1} en \ref{img:boxplot-fre-a2}. Eveneens zijn de FOG-scores ook niet significant hoger of lager bij de vereenvoudigde wetenschappelijke artikelen zoals aangewezen in \ref{img:boxplot-fog-a1}, \ref{img:boxplot-fog-a2}.
 
-\begin{figure}
-	\includegraphics[width=\linewidth]{img/boxplot-fre-a1.png}
-	\caption{Boxplot van de FRE-scores voor A1.}
-	\label{img:boxplot-fre-a1}
-\end{figure}
-
-\begin{figure}
-	\includegraphics[width=\linewidth]{img/boxplot-fre-a2.png}
-	\caption{Boxplot van de FRE-scores voor A2.}
-	\label{img:boxplot-fre-a2}
-\end{figure}
-
-\begin{figure}
-	\includegraphics[width=\linewidth]{img/boxplot-fog-a1.png}
-	\caption{Boxplot van de FOG-scores voor A1.}
-	\label{img:boxplot-fog-a1}
-\end{figure}
-
-\begin{figure}
-	\includegraphics[width=\linewidth]{img/boxplot-fog-a2.png}
-	\caption{Boxplot van de FOG-scores voor A2.}
-	\label{img:boxplot-fog-a2}
-\end{figure}
-
-% TODO
-
-\begin{figure}
-	\includegraphics[width=\linewidth]{img/violinplot-complex-a1.png}
-	\caption{Complexe woorden per model.}
-	\label{img:violinplot-complex-a1}
-\end{figure}
-
-\begin{figure}
-	\includegraphics[width=\linewidth]{img/violinplot-complex-a2.png}
-	\caption{Gemiddeld aantal complexe woorden per zin gegroepeerd op model.}
-	\label{img:violinplot-complex-a2}
-\end{figure}
+\medspace
 
 T1, T2 en T3 maken bij A1 en A2 gebruik van langere woorden ten opzichte van de oorspronkelijke tekst, in tegen stelling tot de drie T4 prompts die wel gebruik maken van kortere woorden en zo gelijkaardige resultaten bekomen als de MTS-referentieteksten. Deze verhouding wordt aangewezen in figuren 
-
-\begin{figure}
-	\includegraphics[width=\linewidth]{img/violinplot-long-a1.png}
-	\caption{Gemiddeld aantal lange woorden per zin gegroepeerd op model.}
-	\label{img:violinplot-long-a1}
-\end{figure}
-
-\begin{figure}
-	\includegraphics[width=\linewidth]{img/violinplot-long-a2.png}
-	\caption{Gemiddeld aantal lange woorden per zin gegroepeerd op model.}
-	\label{img:violinplot-long-a2}
-\end{figure}
-
-
-% TODO mogelijk actief passief gebruik
-
-\begin{figure}
-	\includegraphics[width=\linewidth]{img/boxplot-aux-a1.png}
-	\caption{Gemiddeld aantal lange woorden per zin gegroepeerd op model.}
-	\label{img:histplot-aux-a1}
-\end{figure}
-
-\begin{figure}
-	\includegraphics[width=\linewidth]{img/boxplot-aux-a2.png}
-	\caption{Gemiddeld aantal lange woorden per zin gegroepeerd op model.}
-	\label{img:histplot-aux-a2}
-\end{figure}
-
-% tobe
-
-\begin{figure}
-	\includegraphics[width=\linewidth]{img/boxplot-tobe-a1.png}
-	\caption{Gemiddeld aantal lange woorden per zin gegroepeerd op model.}
-	\label{img:histplot-tobe-a1}
-\end{figure}
-
-\begin{figure}
-	\includegraphics[width=\linewidth]{img/boxplot-tobe-a2.png}
-	\caption{Gemiddeld aantal lange woorden per zin gegroepeerd op model.}
-	\label{img:histplot-tobe-a2}
-\end{figure}
 
 
 % NB: all readability formulas were developed for English, so the scales of the outcomes are only meaningful for English texts. The Dale-Chall measure uses the original word list for English, but for Dutch and German lists of frequent words are used that were not specifically selected for recognizability by school children.
@@ -168,11 +52,6 @@ De modellen T1, T2 en T3 zijn niet in staat om syntactische vereenvoudiging op e
 \medspace
 
 De \textit{execution time} van T1 en T2 per API kan oplopen tot hoogstens 30 seconden voor een zin van tien tot dertig woorden, vergeleken met T3 die dezelfde zin in minder dan 10 seconden kan vereenvoudigen.
-
-\medspace
-
-% TODO NIET HIER
-% Ontwikkelaars hebben toegang tot T1, T2 en T3 via HuggingFace voor lexicale vereenvoudigingstaken. Deze taalmodellen zijn echter ontoereikend voor gepersonaliseerde tekstvereenvoudiging en daarom is T4 een geschikter model voor het vereenvoudigen van wetenschappelijke artikelen op maat. GPT-3 presteert goed op gepersonaliseerde vereenvoudigingstaken, maar het is belangrijk om op te merken dat geen enkel taalmodel de doelgroep altijd nauwkeurig kan inschatten. Extra trainingsdata, zoals leerstof of wetenschappelijke artikelen die wel op het niveau van een 16-18-jarige is geschreven, kan het model steunen bij de doelgroepsinschatting. Het gebruik van Engelstalige prompts waarin expliciet de gewenste uitvoertaal wordt vermeld, resulteert in coherentere teksten dan bij een Nederlandstalige prompt.
 
 \section{Opbouw van het prototype}
 

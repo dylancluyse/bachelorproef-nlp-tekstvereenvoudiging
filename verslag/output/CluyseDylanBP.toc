@@ -45,63 +45,69 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Requirementsanalyse}{36}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Vergelijkende studie}{42}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Vergelijkende studie}{43}{section.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.3}Prototype voor tekstvereenvoudiging}{48}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Tool voor leerkrachten}{52}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.1}Tool voor leerkrachten}{51}{subsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Tekstvereenvoudiging}{54}{table.caption.50}%
+\contentsline {subsubsection}{Tekstvereenvoudiging}{53}{table.caption.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Tool voor scholieren}{58}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.2}Tool voor scholieren}{54}{subsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Resultaten}{65}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Resultaten}{56}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Requirementsanalyse}{65}{section.4.1}%
+\contentsline {section}{\numberline {4.1}Requirementsanalyse}{56}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Vergelijkende studie}{66}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Vergelijkende studie}{57}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Beoordeling op basis van referentieteksten en capaciteiten}{68}{figure.caption.80}%
+\contentsline {subsubsection}{Beoordeling op basis van referentieteksten en capaciteiten}{58}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Opbouw van het prototype}{75}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Opbouw van het prototype}{59}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusie}{77}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Conclusie}{61}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Discussie}{79}{chapter.6}%
+\contentsline {chapter}{\numberline {6}Discussie}{63}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{84}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{68}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{84}{section.A.1}%
+\contentsline {section}{\numberline {A.1}Introductie}{68}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{86}{section.A.2}%
+\contentsline {section}{\numberline {A.2}State-of-the-art}{70}{section.A.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Tekstvereenvoudiging}{86}{subsection.A.2.1}%
+\contentsline {subsection}{\numberline {A.2.1}Tekstvereenvoudiging}{70}{subsection.A.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Noden van scholieren met dyslexie}{86}{subsection.A.2.2}%
+\contentsline {subsection}{\numberline {A.2.2}Noden van scholieren met dyslexie}{70}{subsection.A.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Huidige toepassingen}{88}{subsection.A.2.3}%
+\contentsline {subsection}{\numberline {A.2.3}Huidige toepassingen}{72}{subsection.A.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.4}Ontwikkelen met AI}{88}{subsection.A.2.4}%
+\contentsline {subsection}{\numberline {A.2.4}Ontwikkelen met AI}{72}{subsection.A.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{89}{section.A.3}%
+\contentsline {section}{\numberline {A.3}Methodologie}{73}{section.A.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{91}{section.A.4}%
+\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{75}{section.A.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Code voor tekstanalyse}{92}{appendix.B}%
+\contentsline {chapter}{\numberline {B}Algemene richtlijnen voor de referentieteksten}{76}{appendix.B}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Code voor het prototype}{99}{appendix.C}%
+\contentsline {subsection}{\numberline {B.0.1}Lexicale vereenvoudiging}{78}{subsection.B.0.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {D}Algemene richtlijnen}{109}{appendix.D}%
+\contentsline {subsection}{\numberline {B.0.2}Syntactische vereenvoudiging}{78}{subsection.B.0.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.0.1}Lexicale vereenvoudiging}{111}{subsection.D.0.1}%
+\contentsline {subsection}{\numberline {B.0.3}Samenvatten}{78}{subsection.B.0.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.0.2}Syntactische vereenvoudiging}{111}{subsection.D.0.2}%
+\contentsline {section}{\numberline {B.1}Specifieke richtlijnen voor A1}{79}{section.B.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {D.0.3}Samenvatten}{111}{subsection.D.0.3}%
+\contentsline {section}{\numberline {B.2}Specifieke richtlijnen voor A2}{80}{section.B.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.1}Specifieke richtlijnen voor A1}{112}{section.D.1}%
+\contentsline {chapter}{\numberline {C}Code voor tekstanalyse}{82}{appendix.C}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {D.2}Specifieke richtlijnen voor A2}{113}{section.D.2}%
+\contentsline {chapter}{\numberline {D}Ontwikkeling van prototype: stappenplan}{89}{appendix.D}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{115}{appendix*.82}%
+\contentsline {chapter}{\numberline {E}Code voor het prototype}{94}{appendix.E}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {F}Figuren Vergelijkende Studie}{104}{appendix.F}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {G}Schermafbeeldingen van het prototype}{112}{appendix.G}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{117}{appendix*.79}%
 \contentsfinish 
