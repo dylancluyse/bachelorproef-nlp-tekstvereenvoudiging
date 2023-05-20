@@ -55,11 +55,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {3.12}{\ignorespaces De subjectieve metrieken voor de vergelijking van de vereenvoudigde teksten door ATS met de referentieteksten.\relax }}{48}{table.caption.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.13}{\ignorespaces Gebruikte programmeertalen in het prototype voor tekstvereenvoudiging.\relax }}{49}{table.caption.44}%
+\contentsline {table}{\numberline {3.13}{\ignorespaces Gebruikte programmeertalen in het prototype voor tekstvereenvoudiging.\relax }}{49}{table.caption.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.14}{\ignorespaces Gebruikte Python-libraries en hun respectievelijke functie in het prototype.\relax }}{49}{table.caption.45}%
+\contentsline {table}{\numberline {3.14}{\ignorespaces Gebruikte Python-libraries en hun respectievelijke functie in het prototype.\relax }}{50}{table.caption.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.15}{\ignorespaces Alle beschikbare functionaliteiten in \relax }}{52}{table.caption.46}%
+\contentsline {table}{\numberline {3.15}{\ignorespaces Alle beschikbare functionaliteiten in \relax }}{53}{table.caption.47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.16}{\ignorespaces Gebruikte parameters om de definitie van een woord te genereren met GPT-3.\relax }}{54}{table.caption.48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.17}{\ignorespaces Benodigde labels voor een gepersonaliseerd document met Pandoc.\relax }}{55}{table.caption.49}%
+\defcounter {refsection}{0}\relax 
+\contentsline {table}{\numberline {3.18}{\ignorespaces De gebruikte functies in de Creator-klasse.\relax }}{56}{table.caption.50}%
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
@@ -71,27 +83,23 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {E.1}{\ignorespaces Taken van de webontwikkelaar bij het uitwerken van het lerarencomponent.\relax }}{92}{table.caption.57}%
 \defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {E.2}{\ignorespaces Taken van de NLP Engineer bij het uitwerken van het lerarencomponent.\relax }}{92}{table.caption.58}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {D.1}{\ignorespaces Taken van de webontwikkelaar bij het uitwerken van het lerarencomponent.\relax }}{90}{table.caption.49}%
+\contentsline {table}{\numberline {E.4}{\ignorespaces Taken van de system engineer bij het uitwerken van het lerarencomponent.\relax }}{93}{table.caption.60}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {D.2}{\ignorespaces Taken van de NLP Engineer bij het uitwerken van het lerarencomponent.\relax }}{90}{table.caption.50}%
+\contentsline {table}{\numberline {E.3}{\ignorespaces Taken van data engineer bij het uitwerken van het lerarencomponent.\relax }}{93}{table.caption.59}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {D.4}{\ignorespaces Taken van de system engineer bij het uitwerken van het lerarencomponent.\relax }}{91}{table.caption.52}%
+\contentsline {table}{\numberline {E.5}{\ignorespaces Taken van NLP engineer bij het uitwerken van het scholierencomponent.\relax }}{94}{table.caption.62}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {D.3}{\ignorespaces Taken van data engineer bij het uitwerken van het lerarencomponent.\relax }}{91}{table.caption.51}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {D.5}{\ignorespaces Taken van NLP engineer bij het uitwerken van het scholierencomponent.\relax }}{92}{table.caption.54}%
-\defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {D.6}{\ignorespaces Taken van data engineer bij het uitwerken van het scholierencomponent.\relax }}{93}{table.caption.55}%
+\contentsline {table}{\numberline {E.6}{\ignorespaces Taken van data engineer bij het uitwerken van het scholierencomponent.\relax }}{95}{table.caption.63}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {F.1}{\ignorespaces Aantal zinnen per \relax }}{104}{table.caption.56}%
+\contentsline {table}{\numberline {G.1}{\ignorespaces Aantal zinnen (gemeten met Spacy sentence embeddings) per tekst.\relax }}{117}{table.caption.64}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \contentsfinish 
