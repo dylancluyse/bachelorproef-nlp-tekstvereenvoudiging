@@ -1909,6 +1909,8 @@ INPUT img/flowchart-requirementsanalyse.jpg
 INPUT ./img/flowchart-vergelijkende-studie.jpg
 INPUT ./img/flowchart-vergelijkende-studie.jpg
 INPUT img/flowchart-vergelijkende-studie.jpg
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT ./img/flowchart-general-development.jpg
 INPUT ./img/flowchart-general-development.jpg
 INPUT img/flowchart-general-development.jpg

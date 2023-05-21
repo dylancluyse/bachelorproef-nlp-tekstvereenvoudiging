@@ -45,15 +45,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.1}Requirementsanalyse}{36}{section.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Vergelijkende studie}{43}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Vergelijkende studie}{42}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Prototype voor tekstvereenvoudiging}{48}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Prototype voor tekstvereenvoudiging}{47}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Ontwikkeling en personaliseerbaarheid van de webpagina's ontwikkelen}{50}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.1}Ontwikkeling en personaliseerbaarheid van de webpagina's ontwikkelen}{49}{subsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Wetenschappelijke artikelen opladen}{51}{subsection.3.3.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Lerarencomponent}{52}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.2}Lerarencomponent}{51}{subsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.3}Scholierencomponent}{56}{subsection.3.3.3}%
 \defcounter {refsection}{0}\relax 
@@ -89,7 +87,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{74}{section.A.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Algemene richtlijnen voor de referentieteksten}{75}{appendix.B}%
+\contentsline {chapter}{\numberline {B}Referentieteksten: Richtlijnen}{75}{appendix.B}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {B.0.1}Lexicale vereenvoudiging}{77}{subsection.B.0.1}%
 \defcounter {refsection}{0}\relax 
@@ -101,17 +99,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {B.2}Specifieke richtlijnen voor A2}{79}{section.B.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Requirementsanalyse: schermafbeeldingen van uitgevoerde experimenten}{81}{appendix.C}%
+\contentsline {chapter}{\numberline {C}Figures: Requirementsanalyse}{81}{appendix.C}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {D}Code voor tekstanalyse}{84}{appendix.D}%
+\contentsline {chapter}{\numberline {D}Code: Vergelijkende Studie}{84}{appendix.D}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {E}Ontwikkeling van prototype: stappenplan}{91}{appendix.E}%
+\contentsline {chapter}{\numberline {E}Figuren: Ontwikkeling Van Het Prototype}{91}{appendix.E}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {F}Code voor het prototype}{96}{appendix.F}%
+\contentsline {chapter}{\numberline {F}Code: Ontwikkeling Van Het Prototype}{96}{appendix.F}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {G}Figuren Vergelijkende Studie}{117}{appendix.G}%
+\contentsline {chapter}{\numberline {G}Figuren: Vergelijkende Studie}{117}{appendix.G}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {H}Schermafbeeldingen van het prototype}{125}{appendix.H}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{131}{appendix*.88}%
+\contentsline {chapter}{Bibliografie}{131}{appendix*.90}%
 \contentsfinish 

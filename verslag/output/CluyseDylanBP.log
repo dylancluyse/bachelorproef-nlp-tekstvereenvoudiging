@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2023.5.5)  20 MAY 2023 19:20
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2023.5.5)  21 MAY 2023 15:08
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2251,9 +2251,8 @@ Overfull \hbox (13.09216pt too wide) in paragraph at lines 153--153
  []
 
 
-Overfull \hbox (8.66953pt too wide) in paragraph at lines 153--153
-\TU/Montserrat(1)/b/n/17.28 geautomatiseerde en gepersonaliseerde tekstvereenvo
-u-
+Underfull \hbox (badness 10000) in paragraph at lines 153--153
+
  []
 
 
@@ -2300,7 +2299,7 @@ an de webpagina’s ont-
 [5
 
 ]
-Overfull \hbox (0.66792pt too wide) detected at line 114
+Overfull \hbox (0.66792pt too wide) detected at line 112
  \TU/Montserrat(1)/b/n/10.95 125
  []
 
@@ -2825,33 +2824,22 @@ Overfull \hbox (1.97966pt too wide) in paragraph at lines 18--19
 omatiseerde tekstvereen-
  []
 
+[36
 
+]
 Overfull \hbox (4.83762pt too wide) in paragraph at lines 19--20
 []\TU/Montserrat(1)/m/n/10.95 Welke manuele methoden voor tekstvereenvoudiging 
 komen niet in deze tools
  []
 
-[36
-
-]
 File: img/flowchart-requirementsanalyse.jpg Graphic file (type bmp)
 <img/flowchart-requirementsanalyse.jpg>
- [37]
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
-[]|\TU/Montserrat(1)/m/n/10.95 Lexicale vereenvou-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-[]|\TU/Montserrat(1)/m/n/10.95 Structurele aanpas-
- []
-
-
+[37]
 Overfull \hbox (3.8604pt too wide) in paragraph at lines 56--86
 [][] 
  []
 
-[38] [39]
+[38]
 Underfull \hbox (badness 6961) in paragraph at lines 100--100
 []|\TU/Montserrat(1)/m/n/10.95 De controle op het gebruik van algoritmische
  []
@@ -2862,195 +2850,278 @@ Overfull \hbox (3.86041pt too wide) in paragraph at lines 96--105
  []
 
 
-Overfull \hbox (32.31316pt too wide) in paragraph at lines 117--134
+Overfull \hbox (32.31316pt too wide) in paragraph at lines 119--136
 [][] 
  []
 
-[40]
-
-Package caption Warning: \label without proper reference on input line 184.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `table:afgetoetste-criteria' on page 41 undefined on i
-nput line 151.
-
-
-Overfull \hbox (1.07079pt too wide) in paragraph at lines 157--157
+[39]
+Overfull \hbox (1.07079pt too wide) in paragraph at lines 159--159
 []|\TU/Montserrat(1)/m/n/10.95 O2| 
  []
 
 
-Overfull \hbox (1.01604pt too wide) in paragraph at lines 157--157
+Overfull \hbox (1.01604pt too wide) in paragraph at lines 159--159
 []|\TU/Montserrat(1)/m/n/10.95 O3| 
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 159--159
+Underfull \hbox (badness 2556) in paragraph at lines 161--161
 []|\TU/Montserrat(1)/m/n/10.95 Woorden met minder lettergrepen ge-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--164
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
 []|\TU/Montserrat(1)/m/n/10.95 P1-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--164
+Underfull \hbox (badness 10000) in paragraph at lines 166--166
 []|\TU/Montserrat(1)/m/n/10.95 P1-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
 []|\TU/Montserrat(1)/m/n/10.95 P4,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 180--180
 []|\TU/Montserrat(1)/m/n/10.95 P4,
  []
 
 
-Overfull \hbox (33.75475pt too wide) in paragraph at lines 155--185
+Overfull \hbox (33.75475pt too wide) in paragraph at lines 157--186
  [][] 
  []
 
-[41]
-
-Package caption Warning: \label without proper reference on input line 184.
-See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `table:afgetoetste-criteria' on page 42 undefined on i
-nput line 188.
-
-[42]
-Underfull \hbox (badness 2285) in paragraph at lines 198--199
+[40] [41]
+Underfull \hbox (badness 2285) in paragraph at lines 200--201
 []|\TU/Montserrat(1)/m/n/10.95 Formaatwijzigingen toepassen aan de oorspronkeli
 jke
  []
 
 
-Overfull \hbox (3.8604pt too wide) in paragraph at lines 192--213
+Overfull \hbox (3.8604pt too wide) in paragraph at lines 194--216
 [][] 
  []
 
-[43]
-Overfull \hbox (0.856pt too wide) in paragraph at lines 227--228
-\TU/Montserrat(1)/m/n/10.95 vermelde taalmodellen die op ATS gericht zijn, besc
-hreven in reftable:vergelijkende-
- []
-
-
-Overfull \hbox (3.8604pt too wide) in paragraph at lines 231--244
+[42]
+Overfull \hbox (3.8604pt too wide) in paragraph at lines 234--247
 [][] 
  []
 
 File: img/flowchart-vergelijkende-studie.jpg Graphic file (type bmp)
 <img/flowchart-vergelijkende-studie.jpg>
-[44] [45]
-Overfull \hbox (3.8604pt too wide) in paragraph at lines 303--314
+[43]
+./methodologie.tex:276: Missing $ inserted.
+<inserted text> 
+                $
+l.276 ...odels/releases/tag/nl_core_news_md-3.5.0}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 9.00096pt on input line 276.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 6.00064pt on input line 276.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(2)/m/n' will be
+(Font)              scaled to size 5.00053pt on input line 276.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 8.99904pt on input line 276.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 5.99936pt on input line 276.
+LaTeX Font Info:    Font shape `TU/FiraMathRegular(3)/m/n' will be
+(Font)              scaled to size 4.99947pt on input line 276.
+./methodologie.tex:276: Missing $ inserted.
+<inserted text> 
+                $
+l.276 ...odels/releases/tag/nl_core_news_md-3.5.0}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./methodologie.tex:276: Missing } inserted.
+<inserted text> 
+                }
+l.276 ...odels/releases/tag/nl_core_news_md-3.5.0}
+                                                   \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./methodologie.tex:276: Extra }, or forgotten \endgroup.
+\@makefntext ...out #1\ifFN@hangfoot \par \egroup 
+                                                  \fi 
+l.276 ...odels/releases/tag/nl_core_news_md-3.5.0}
+                                                   \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./methodologie.tex:278: Missing $ inserted.
+<inserted text> 
+                $
+l.278 ...models/releases/tag/en_core_web_md-3.5.0}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./methodologie.tex:278: Missing $ inserted.
+<inserted text> 
+                $
+l.278 ...models/releases/tag/en_core_web_md-3.5.0}
+                                                   \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./methodologie.tex:278: Missing } inserted.
+<inserted text> 
+                }
+l.278 ...models/releases/tag/en_core_web_md-3.5.0}
+                                                   \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./methodologie.tex:278: Extra }, or forgotten \endgroup.
+\@makefntext ...out #1\ifFN@hangfoot \par \egroup 
+                                                  \fi 
+l.278 ...models/releases/tag/en_core_web_md-3.5.0}
+                                                   \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+[44]
+Overfull \hbox (3.8604pt too wide) in paragraph at lines 306--317
 [][] 
  []
 
-[46]
-Overfull \hbox (3.8604pt too wide) in paragraph at lines 325--344
+
+Overfull \hbox (3.8604pt too wide) in paragraph at lines 328--347
 [][] 
  []
 
+[45]
+Underfull \hbox (badness 10000) in paragraph at lines 363--363
+\TU/Montserrat(1)/m/n/10.95 dat geen eenvoudiger synoniem
+ []
 
-Underfull \hbox (badness 1939) in paragraph at lines 360--360
+
+Underfull \hbox (badness 10000) in paragraph at lines 365--365
+[]|\TU/Montserrat(1)/m/n/10.95 Passieve zinconstructies herschrij-
+ []
+
+
+Underfull \hbox (badness 1939) in paragraph at lines 367--367
 []|\TU/Montserrat(1)/m/n/10.95 Schrijven als tabelvorm of opsom-
  []
 
-[47]
+[46]
 File: img/flowchart-general-development.jpg Graphic file (type bmp)
 <img/flowchart-general-development.jpg>
- [48]
-Underfull \hbox (badness 10000) in paragraph at lines 395--396
+
+Underfull \hbox (badness 10000) in paragraph at lines 401--402
 []|\TU/Montserrat(1)/m/n/10.95 De toepassing gebruikersvriendelijker maken,
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 395--396
+Underfull \hbox (badness 5696) in paragraph at lines 401--402
 \TU/Montserrat(1)/m/n/10.95 personalisatie-opties voor de site doorvoeren en de
 
  []
 
 
-Overfull \hbox (3.8604pt too wide) in paragraph at lines 389--408
+Overfull \hbox (3.8604pt too wide) in paragraph at lines 395--414
 [][] 
  []
 
-
-Overfull \hbox (3.8604pt too wide) in paragraph at lines 415--436
+[47]
+Overfull \hbox (3.8604pt too wide) in paragraph at lines 421--442
 [][] 
  []
 
-[49] [50]
+[48] [49] [50]
+Underfull \hbox (badness 3942) in paragraph at lines 480--480
+[]|\TU/Montserrat(1)/m/n/10.95 Specifieke prompt meegeven per
+ []
 
-LaTeX Warning: Reference `code:reader-klasse' on page 51 undefined on input lin
-e 458.
 
-
-LaTeX Warning: Reference `code:reader-klasse' on page 51 undefined on input lin
-e 458.
-
-[51]
-Underfull \hbox (badness 5756) in paragraph at lines 472--473
+Underfull \hbox (badness 5756) in paragraph at lines 482--483
 \TU/Montserrat(1)/m/n/10.95 nen leerkrachten checkboxes afvinken
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 474--474
+Underfull \hbox (badness 2600) in paragraph at lines 484--484
 []|\TU/Montserrat(1)/m/n/10.95 Werkwoorden, bijvoeglijke en zelf-
  []
 
 
-Underfull \hbox (badness 7433) in paragraph at lines 474--475
+Underfull \hbox (badness 7433) in paragraph at lines 484--485
 \TU/Montserrat(1)/m/n/10.95 woorden verandert naar het gekozen
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 478--479
+Underfull \hbox (badness 1852) in paragraph at lines 488--489
 \TU/Montserrat(1)/m/n/10.95 voorkomen dienen om de woordenlijst
  []
 
 
-Overfull \hbox (3.8604pt too wide) in paragraph at lines 466--483
+Overfull \hbox (3.8604pt too wide) in paragraph at lines 476--493
 [][] 
  []
 
-[52] [53]
-Underfull \hbox (badness 10000) in paragraph at lines 500--500
+[51]
+Overfull \hbox (6.36577pt too wide) in paragraph at lines 498--499
+\TU/Montserrat(1)/m/n/10.95 het HTML-document verwijdert. Naast zinnen verwijde
+ren kunnen leraren ook woor-
+ []
+
+[52]
+Underfull \hbox (badness 10000) in paragraph at lines 509--509
 []|\TU/Montserrat(1)/m/n/10.95 Geef een eenvoudige definitie voor
  []
 
+
+Underfull \hbox (badness 6380) in paragraph at lines 530--530
+[]|\TU/Montserrat(1)/m/n/10.95 Geef een eenvoudiger synoniem voor
+ []
+
+[53]
+Underfull \hbox (badness 1117) in paragraph at lines 553--553
+[]|\TU/Montserrat(1)/m/n/10.95 De lengte van de oorspronkelijke tekst,
+ []
+
 [54]
-Underfull \hbox (badness 4518) in paragraph at lines 522--522
+Underfull \hbox (badness 4518) in paragraph at lines 571--571
 []|\TU/Montserrat(1)/m/n/10.95 Surveillance met artifici-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 539--539
+Underfull \hbox (badness 10000) in paragraph at lines 588--588
 []|\TU/Montserrat(1)/m/n/10.95 De nodige YAML-header voor het markdown-
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 542--542
+Underfull \hbox (badness 2556) in paragraph at lines 591--591
 []|\TU/Montserrat(1)/m/n/10.95 Generate summary with
  []
 
 
-Overfull \hbox (3.86041pt too wide) in paragraph at lines 536--545
+Overfull \hbox (3.86041pt too wide) in paragraph at lines 585--594
 [][] 
  []
 
-[55]
-
-LaTeX Warning: Reference `code:' on page 56 undefined on input line 555.
-
-[56]) (./resultaten.tex [57]
+[55] [56]) (./resultaten.tex [57]
 Hoofdstuk 4.
 [58
 
@@ -3161,16 +3232,7 @@ File: img/simplish-output.png Graphic file (type bmp)
 <img/simplish-output.png>
 File: img/scholarcy-attempt.png Graphic file (type bmp)
 <img/scholarcy-attempt.png>
-) (./code-analyse.tex
-
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 26.66998pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.66998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
-
-[82] [83]
+) (./code-analyse.tex [82] [83]
 B\babelshorthand{"y}lage D.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 4.
@@ -6098,6 +6160,9 @@ l.35 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+[96
+
+]
 
 ./code-webapp.tex:36: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -6122,9 +6187,6 @@ l.37 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[96
-
-]
 
 ./code-webapp.tex:39: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -18155,18 +18217,18 @@ physiological tracking of speech-structure
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `CluyseDylanBP.out' has not changed.
-(rerunfilecheck)             Checksum: E286EBD7943FC8531E6464585791E818;4464.
+(rerunfilecheck)             Checksum: 121D283B032289A14B5691621699CCF1;4414.
 Package logreq Info: Writing requests to 'CluyseDylanBP.run.xml'.
 \openout1 = `CluyseDylanBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49019 strings out of 478657
- 955318 string characters out of 5861314
- 2454085 words of memory out of 5000000
- 67670 multiletter control sequences out of 15000+600000
- 406506 words of font info for 101 fonts, out of 8000000 for 9000
+ 49051 strings out of 478657
+ 956779 string characters out of 5861314
+ 2454196 words of memory out of 5000000
+ 67691 multiletter control sequences out of 15000+600000
+ 407983 words of font info for 113 fonts, out of 8000000 for 9000
  351 hyphenation exceptions out of 8191
- 113i,14n,139p,2569b,7101s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 113i,15n,139p,2569b,7101s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../output/CluyseDylanBP.xdv (150 pages, 3576152 bytes).
+Output written on ../output/CluyseDylanBP.xdv (150 pages, 3584192 bytes).
