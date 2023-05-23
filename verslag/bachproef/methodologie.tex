@@ -7,7 +7,7 @@
 
 % Door de vergaarde kennis uit de literatuurstudie in hoofdstuk \ref{ch:stand-van-zaken} over de mogelijke noden van scholieren met dyslexie, de complexiteit van wetenschappelijke artikelen, de technieken voor MTS en ATS, en de bijhorende valkuilen bij taalverwerking met AI, kunnen onderzoeksmethoden worden toegepast om een antwoord te vinden op de onderzoeksvraag. 
 
-Om de onderzoeksvraag verder te kunnen beantwoorden, is het nodig om de vergaarde kennis uit de literatuurstudie toe te passen in drie onderzoeksmethoden. Zo doelt dit onderzoek om een prototype te ontwikkelen voor gepersonaliseerde ATS die wetenschappelijke artikelen vereenvoudigd voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs. Eerst moet het onderzoek stilstaan bij de vereiste functionaliteiten. Vervolgens gaat het onderzoek na welk taalmodel geschikt is voor gepersonaliseerde ATS en ten slotte volgt de ontwikkeling van het prototype voor gepersonaliseerde ATS.
+Om een antwoord te vormen op de onderzoeksvraag, moet de vergaarde kennis uit de literatuurstudie in drie onderzoeksmethoden. Zo doelt dit onderzoek om een prototype te ontwikkelen voor gepersonaliseerde ATS die wetenschappelijke artikelen vereenvoudigd voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs. Eerst staat het onderzoek stil bij de vereiste functionaliteiten. Vervolgens achterhaalt het onderzoek het geschikte taalmodel voor gepersonaliseerde ATS. Tenslotte volgt de ontwikkeling van een prototype voor ATS-vereenvoudiging van .
 
 \section{Requirementsanalyse}
 \label{sec:requirementsanalyse}
@@ -28,7 +28,7 @@ Zo vereist de requirementsanalyse een bedachtzame aanpak, weergegeven op de flow
 \end{figure}
 
 % TOOLSELECTIE 
-Allereerst start het onderzoek met een toolselectie. Zoals aangewezen in sectie \ref{sec:beschikbare-tools-en-taalmodellen}, leent de overheid vijf softwarepakketten uit aan middelbare scholen, maar de requirementsanalyse betrekt enkel drie van deze vijf, want hun functionaliteiten zijn toepasselijk voor deze casus. Naast deze softwarepakketten kunnen online beschikbare tools ook scholieren met dyslexie ondersteunen bij het intensief lezen van wetenschappelijke artikelen met ATS, zoals bewezen in \textcite{Bingel2018}. Daarom betrekt de requirementsanalyse enkel tools met onderschreven ATS-functionaliteiten en laat daarmee pure samenvattingstools erbuiten. Tabel \ref{table:shortlist-tools} toont een overzicht van de te experimenteren tools.
+Allereerst start het onderzoek met een toolselectie. Zoals aangewezen in sectie \ref{sec:beschikbare-tools-en-taalmodellen}, leent de overheid vijf softwarepakketten uit aan middelbare scholen. Echter zal de requirementsanalyse drie van deze vijf in de analyse opnemen, want hun functionaliteiten zijn toepasselijk voor deze casus. Naast deze softwarepakketten kunnen online beschikbare tools ook scholieren met dyslexie ondersteunen bij het begrijpend lezen van wetenschappelijke artikelen met ATS, zoals bewezen in \textcite{Bingel2018}. Daarom betrekt de requirementsanalyse enkel tools met onderschreven ATS-functionaliteiten en laat daarmee pure samenvattingstools erbuiten. Tabel \ref{table:shortlist-tools} toont een overzicht van de te experimenteren tools.
 
 \begin{center}
 	\begin{table}[H]
@@ -48,8 +48,26 @@ Allereerst start het onderzoek met een toolselectie. Zoals aangewezen in sectie 
 	\end{table}
 \end{center}
 
+Als realistisch testmateriaal, maken de experimenten gebruik van twee gepubliceerde wetenschappelijke artikelen. Zo kunnen deze artikelen relevante zijn voor leerkrachten om aan scholieren in de derde graad van het middelbaar onderwijs te geven als leesvoer. Beide artikelen volgen de kenmerken van een wetenschappelijk artikel, zoals beschreven in tabel \ref{table:scientific-paper-struggles}, en passen vakjargon en wetenschappelijke concepten in een compact formaat. Tabel \ref{table:referentieteksten-bronvermelding} geeft een overzicht van de twee artikelen en de bijhorende bronvermelding.
+
+\begin{center}
+	\begin{table}[H]
+		\begin{tabular}{ | m{10cm} | m{5cm} | } 
+			\hline
+			\textbf{Titel} & \textbf{Bronvermelding} \\
+			\hline
+			De controle op het gebruik van algoritmische surveillance- onder druk? Een exploratie door de lens van de relationele ethiek & \autocite{VanBrakel2022} \\
+			\hline
+			Nederland versus België: verschillen in economische dynamiek en beleid. & \autocite{Sleuwaegen2022} \\
+			\hline
+		\end{tabular}
+		\caption{Bronvermeldingen voor de twee wetenschappelijke artikelen.}
+		\label{table:referentieteksten-bronvermelding}
+	\end{table}
+\end{center}
+
 % Inclusiecritera
-Vervolgens moet het onderzoek richtlijnen formuleren waarop de requirementsanalyse kan aftoetsen. Zo vormen de eerder benoemde MTS-technieken uit tabel \ref{table:scientific-paper-struggles} en \ref{table:manual-simplification} de bouwstenen om functionaliteiten uit de shortlist te valideren. Met behulp van de richtlijnen beschreven in tabel \ref{table:criteria-requirementsanalysis}, experimenteert deze onderzoeksfase met de toegelichte tools om de beschikbare en ontbrekende MTS-technieken te achterhalen, alsook of deze tools in staat zijn om wetenschappelijke artikelen te kunnen vereenvoudigen.
+Vervolgens formuleert het onderzoek richtlijnen waarop de geteste tools aan moeten voldoen. Zo vormen de eerder benoemde MTS-technieken uit tabellen \ref{table:scientific-paper-struggles} en \ref{table:manual-simplification} de bouwstenen om functionaliteiten uit de shortlist te valideren. Tabel \ref{table:criteria-requirementsanalysis} geeft een opsomming van de MTS-technieken waaraan tools moeten voldoen. Het onderzoek achterhaalt dit aan de hand van experimenten. Daarnaast dient dit schema om een inschatting van de functionaliteiten van deze tools te maken.
 
 \begin{center}
 	\begin{table}[H]
@@ -88,31 +106,40 @@ Vervolgens moet het onderzoek richtlijnen formuleren waarop de requirementsanaly
 	\end{table}
 \end{center}
 
-% Wetenschappelijke artikelen kiezen
-Het testmateriaal bestaat uit twee gepubliceerde wetenschappelijke artikelen. Zo kunnen deze artikelen relevante onderwerpen zijn als leesvoer voor scholieren in de derde graad van het middelbaar onderwijs. Beide artikelen volgen de kenmerken van een wetenschappelijk artikel zoals beschreven in tabel \ref{table:scientific-paper-struggles} en bevatten vakjargon en wetenschappelijke concepten in een compact formaat. Tabel \ref{table:referentieteksten-bronvermelding} geeft een overzicht van de twee artikelen en de bijhorende bronvermelding.
+Om een overzicht te hebben van de functionaliteiten volgens prioriteit, bouwt het onderzoek een Moscow-schema vanuit de opgestelde richtlijnen. Zo komen belangrijke functionaliteiten, die nodig zijn om gepersonaliseerde tekstvereenvoudiging met ATS mogelijk te maken, in de categorie \textit{must-haves} terecht. Alle vereiste functionaliteiten om (gepersonaliseerde) ATS mogelijk te maken, moet als \textit{must-have} in het Moscow-schema voorkomen. Irrelevante functionaliteiten binnen de scope van een prototype of niet toepasselijk voor de doelgroep plaatst het onderzoek als \textit{wont-have}.
 
 \begin{center}
 	\begin{table}[H]
-		\begin{tabular}{ | m{10cm} | m{5cm} | } 
+		\begin{tabular}{ | m{4cm} | m{11cm} | } 
 			\hline
-			\textbf{Titel} & \textbf{Bronvermelding} \\
+			\textbf{MoSCoW-principe} & Functionaliteit \\
 			\hline
-			De controle op het gebruik van algoritmische surveillance- onder druk? Een exploratie door de lens van de relationele ethiek & \autocite{VanBrakel2022} \\
+			Must-have & Gepersonaliseerde vereenvoudiging aanbieden, waaronder lexicale en syntactische vereenvoudiging aanbieden, na het toevoegen van een respectievelijke API-sleutel. \\
+			& Wetenschappelijke artikelen in PDF-vorm opladen. \\
+			& Formaatwijzigingen toepassen aan de oorspronkelijke tekst. \\
+			& Personaliseerbare toepassing: lettertype -en grootte aanpassen, tekstformaat aanpassen, achtergrondkleur aanpassen \\
+			& Lokale opzet \\
 			\hline
-			Nederland versus België: verschillen in economische dynamiek en beleid. & \autocite{Sleuwaegen2022} \\
+			Should-have & Glossary genereren na handmatige selectie van moeilijke woorden \\
+			& Personaliseerbare PDF- of Word-document lay-out \\
+			& Uitvoer als PDF of Word-bestand teruggeven. \\
+			& Wetenschappelijke artikelen in PDF-vorm opladen met OCR \\
+			& Tekstanalyse voor en na de vereenvoudiging aanbieden. \\
+			\hline
+			Could-have & Glossary genereren na automatische selectie van moeilijke woorden \\
+			\hline
+			Wont-have & Beschikbaarheid tot de tool zonder Docker Desktop, in de vorm van online webtoepassing of browserextensie. \\
+			& Beschikbaarheid tot de standaard- en gepersonaliseerde opties zonder API-sleutels \\
 			\hline
 		\end{tabular}
-		\caption{Bronvermeldingen voor de twee wetenschappelijke artikelen.}
-		\label{table:referentieteksten-bronvermelding}
+		\caption{Het Moscow-schema, opgebouwd door middel van de requirementsanalyse.}
+		\label{img:moscow-table}
 	\end{table}
 \end{center}
 
 \medspace
 
-% Opties voor gepersonaliseerde vereenvoudiging kiezen
-Vervolgens komen experimenten over de opties rond gepersonaliseerde ATS aan bod. Voordat de gepersonaliseerde ATS-technieken aan bod komen, moeten de tools kunnen beschikken over de inhoud van de wetenschappelijke artikelen. Bij SprintPlus, Kurzweil3000, AlineaSuite, Simplish, Rewordify en SciSpace gebeurt de invoer via pdf-upload, in tegenstelling tot Bing Chat en ChatGPT waarbij \textit{plain-text} of een link de enige vormen van invoer zijn. De tekstinhoud uit de PDF extraheren gebeurt dan manueel en deze tekst dient daarna als invoer voor de chatbot. Beide chatbots krijgen de prompt, gevolgd door een stuk van het wetenschappelijk artikel. Met vijf verschillende prompts kan het onderzoek de functionaliteit om lexicale, syntactische of structurele aanpassingen op een tekst achterhalen. Tabel \ref{table:tested-prompts-requirementsanalysis} vermeldt de toegepaste prompts. Tijdens het experiment krijgen de chatbots eerst een link naar het wetenschappelijk artikel mee, zoals aangegeven in figuur \ref{img:tryout-bing-ai}. Als de chatbot deze functionaliteit niet heeft, dan krijgt de chatbot de tekstinhoud van het wetenschappelijk artikel als \textit{plain-text} mee. 
-
-% Vijf prompts, weergegeven in tabel \ref{table:tested-prompts-requirementsanalysis}, dienen als testmiddel om de chatbots te evalueren op hun gebruikte lexicale en syntactische vereenvoudigingstechnieken of de structurele aanpassingen waartoe zij in staat zijn.
+Vervolgens komen experimenten rond de opties rond gepersonaliseerde ATS aan bod. Tools moeten over een invoermethode voor wetenschappelijke artikelen kunnen beschikken. Eindgebruikers kunnen enkel pdf's inladen bij SprintPlus, Kurzweil3000, AlineaSuite, Simplish, Rewordify en SciSpace. In tegenstelling tot Bing Chat en ChatGPT waarbij \textit{plain-text} of een link naar het wetenschappelijk artikel de enige vormen van invoer kunnen zijn. De tekstinhoud uit de PDF extraheren gebeurt dan manueel en deze tekst dient daarna als invoer voor de chatbot. Beide chatbots krijgen de prompt, gevolgd door een stuk van het wetenschappelijk artikel. Met vijf verschillende prompts kan het onderzoek de functionaliteit om lexicale, syntactische of structurele aanpassingen op een tekst achterhalen. Tabel \ref{table:tested-prompts-requirementsanalysis} vermeldt de toegepaste prompts. Chatbots krijgen eerst een link naar het wetenschappelijk artikel mee, zoals aangegeven in figuur \ref{img:tryout-bing-ai}. Als de chatbot hier niet over beschikt, dan krijgt de chatbot de tekstinhoud van het wetenschappelijk artikel in \textit{plain-text} mee.
 
 \begin{center}
 	\begin{table}[H]
@@ -140,91 +167,19 @@ Vervolgens komen experimenten over de opties rond gepersonaliseerde ATS aan bod.
 
 \medspace
 
-% Woordenlijst genereren
-Daarna komen experimenten rond opmaakopties aan bod. Kurzweil, SprintPlus en AlineaSuite bieden opties aan bij het instellingenscherm om lettertype, -kleur en -grootte en de achtergrondkleur aan te passen naar wens van de eindgebruiker. Andere toepassingen beschikken niet over opmaakopties voor noch de site noch het uitvoerbestand, waardoor het testen van deze functionaliteit bij deze toepassingen niet mogelijk is.
+Daarna komen experimenten rond opmaakopties aan bod. Kurzweil, SprintPlus en AlineaSuite bieden opmaakopties aan bij het instellingenscherm. Zo kunnen eindgebruikers het lettertype, -kleur -en grootte en de achtergrondkleur aanpassen naar keuze. Als een toepassing niet over opmaakopties beschikt, dan stopt het experiment rond opmaakopties voor die toepassing.
 
 \medspace
 
-% Structurele opties aanpassen
 Ten slotte test het onderzoek de capaciteiten om het formaat van teksten aan te passen aan de hand van structurele aanpassingen. Zo vragen P4 en P5 specifiek naar een structurele aanpassing, terwijl P1, P2 en P3 minstens een doorlopende tekst als resultaat verwachten. Andere beschikbare tools missen checkboxen of keuzelijsten om deze keuze aan te reiken, waardoor het testen van deze functionaliteit niet mogelijk is.
-
-\medspace
-
-Op basis van de testen kan de volgende criteria worden afgetoetst, weergegeven in tabel \ref{table:afgetoetste-criteria}.
-
-\begin{table}[H]
-	\centering
-\begin{tabular}{ | m{8cm} | m{0.5cm} | m{0.5cm} | m{0.5cm} | m{0.5cm} | m{0.5cm} | m{0.5cm} | m{1cm} | m{1cm} | }
-		\hline
-		Richtlijn & E1 & E2 & E3 & O1 & O2 & O3 & O4 & O5 \\ \hline
-		Rekening houden met doelgroep & - & - & - & - & - & - & P2 & P2 \\ \hline
-		Woorden met minder lettergrepen gebruiken & - & X & - & X & - & - & P1-6 & P1-6 \\ \hline
-		Extra uitleg schrijven bij zinnen & - & X & - & - & - & - & P1-3 & P1-3 \\ \hline
-		Paragrafen herschrijven zodat ze eerst uitleg geven op een high-level niveau & - & - & - & - & - & - & P2 & P2 \\ \hline
-		Woordenlijst aanmaken & X & X & X & X & - & - & P6 & P6 \\ \hline
-		Synoniemenlijst aanmaken & - & X & - & - & - & - & P6 & P6 \\ \hline
-		Idiomen vervangen door eenvoudigere synoniemen & - & - & - & X & - & - & P1-3,6 & P1-3,6 \\ \hline
-		Zinnen inkorten & - & - & - & X & X & X & P3-5 & P3-5 \\ \hline
-		Verwijswoorden aanpassen & - & - & - & - & - & - & P3 & P3 \\ \hline
-		Voorzetseluitdrukkingen aanpassen & - & - & - & - & - & - & P3 & P3 \\ \hline
-		Samengestelde werkwoorden aanpassen & - & - & - & - & - & - & P3 & P3 \\ \hline
-		Actieve stem toepassen & - & - & - & - & - & - & - & - \\ \hline
-		Enkel regelmatige werkwoorden gebruiken & - & - & - & - & - & - & P3 & P3 \\ \hline
-		Achtergrondkleur aanpassen & X & X & X & - & - & - & - & - \\ \hline
-		Woord- en karakterspatiëring & - & X & X & - & - & - & - & - \\ \hline
-		Consistente lay-out & X & X & X & - & - & - & P1-6 & P1-6 \\ \hline
-		Duidelijk zichtbare koppenstructuur & - & - & - & - & - & - & - & - \\ \hline
-		Huidige positie benadrukken & - & - & - & - & - & - & - & - \\ \hline
-		Waarschuwingen geven omtrent formulieren en sessies & - & - & - & X & - & X & - & - \\ \hline
-		Inhoud visueel groeperen & - & X & X & - & - & - & - & - \\ \hline
-		Tekst herschrijven als tabel & - & - & - & - & - & - & P4, P6 & P4, P6 \\ \hline
-		Tekst herschrijven als opsomming & - & - & - & - & - & - & P5 & P5 \\ \hline
-		Artikel opladen als PDF & X & X & X & X & X & X & - & - \\ \hline
-		Artikel opladen als \textit{plain-text} & - & - & - & - & - & - & P1-6 & P1-6 \\ \hline
-		Artikel opladen via link & - & - & - & - & X* & - & P1-6* & - \\ \hline
-	\end{tabular}
-\caption{Afgetoetste criteria volgens de experimenten.}
-\label{table:afgetoetste-criteria}
-\end{table}
-
-Deze experimenten leiden tot een Moscow-schema. Dit schema dient als bouwsteen voor de ontwikkeling van een prototype voor gepersonaliseerde ATS voor wetenschappelijke artikelen, specifiek op maat voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs. Op basis van de afgetoetste richtlijnen uit tabel \ref{table:afgetoetste-criteria} is het volgende Moscow-schema, weergegeven in tabel \ref{img:moscow-table}, opgesteld.
-
-\begin{center}
-	\begin{table}[H]
-	\begin{tabular}{ | m{4cm} | m{11cm} | } 
-		\hline
-		\textbf{MoSCoW-principe} & Functionaliteit \\
-		\hline
-		Must-have & Gepersonaliseerde vereenvoudiging aanbieden, waaronder lexicale en syntactische vereenvoudiging aanbieden, na het toevoegen van een respectievelijke API-sleutel. \\
-		& Wetenschappelijke artikelen in PDF-vorm opladen. \\
-		& Formaatwijzigingen toepassen aan de oorspronkelijke tekst. \\
-		& Personaliseerbare toepassing: lettertype -en grootte aanpassen, tekstformaat aanpassen, achtergrondkleur aanpassen \\
-		& Lokale opzet \\
-		\hline
-		Should-have & Glossary genereren na handmatige selectie van moeilijke woorden \\
-		& Personaliseerbare PDF- of Worddocumentlay-out \\
-		& Uitvoer als PDF of Word-bestand teruggeven. \\
-		& Wetenschappelijke artikelen in PDF-vorm opladen met OCR \\
-		& Tekstanalyse voor en na de vereenvoudiging aanbieden. \\
-		\hline
-		Could-have & Glossary genereren na automatische selectie van moeilijke woorden \\
-		\hline
-		Wont-have & Beschikbaarheid tot de tool zonder Docker Desktop, in de vorm van online webtoepassing of browserextensie. \\
-		& Beschikbaarheid tot de standaard- en gepersonaliseerde opties zonder API-sleutels \\
-		\hline
-	\end{tabular}
-	\caption{Het Moscow-schema, opgebouwd door middel van de requirementsanalyse.}
-	\label{img:moscow-table}
-	\end{table}
-\end{center}
 
 \section{Vergelijkende studie}
 \label{sec:vergelijkende-studie}
 
-Om een geschikte vereenvoudiging van wetenschappelijke artikelen voor scholieren met dyslexie te genereren, moet het prototype beschikken over een taalmodel geschikt voor gepersonaliseerde ATS. Om de uitvoer van het prototype hierop nauwkeurig af te stemmen, vereist een antwoord op de volgende vraag.
+Om geschikte vereenvoudigde wetenschappelijke artikelen voor scholieren met dyslexie in de derde graad van het onderwijs te genereren, moet het achterliggende taalmodel over voldoende taalbewerkingen kunnen beschikken om gepersonaliseerde ATS mogelijk te maken. Om de uitvoer van het prototype hierop nauwkeurig af te stemmen, vereist het onderzoek een antwoord op de volgende vraag.
 
 \begin{itemize}
-	\item Welk taalmodel of LLM is geschikt voor ATS van wetenschappelijke artikelen voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs, met dezelfde of gelijkaardige kwaliteiten als gepersonaliseerde MTS?
+	\item Welk taalmodel is geschikt voor tekstvereenvoudiging met ATS van wetenschappelijke artikelen voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs, met dezelfde of gelijkaardige kwaliteiten als gepersonaliseerde tekstvereenvoudiging met MTS?
 \end{itemize}
 
 Gezien de schaarse hoeveelheid aan gespecialiseerde taalmodellen, bewezen om wetenschappelijke artikelen te vereenvoudigen, beoordeelt de vergelijkende studie alle vermelde taalmodellen die op ATS gericht zijn. Deze taalmodellen staan opgesomd in tabel \ref{table:vergelijkende-studie-taalmodellen}.
@@ -249,7 +204,7 @@ Gezien de schaarse hoeveelheid aan gespecialiseerde taalmodellen, bewezen om wet
 	\end{table}
 \end{center}
 
-Met een \textit{mixed-methods} onderzoek kan de vergelijkende studie taalmodellen beoordelen op objectief en subjectief niveau. Zowel leesgraadmetrieken als subjectieve metingen aan de hand van een referentietekst komen aan bod. De gebruikte wetenschappelijke artikelen zijn identiek aan de taalmodellen in tabel \ref{table:referentieteksten-bronvermelding}. Om realistisch referentiemateriaal te verkrijgen, schrijven twee leerkrachten en twee leerlingen zonder dyslexie zelf een vereenvoudiging van de twee wetenschappelijke artikelen met MTS. Deze vier personen baseren zich op vooraf meegekregen richtlijnen, toegelicht in de bijlage \ref{ch:referentietekst}. De vergelijkende studie omvat vijf fasen, weergegeven op het stappenplan in figuur \ref{img:flowchart-vergelijkende-studie-metrics}. Zo vergelijkt deze onderzoeksfase de leesgraadsmetrieken van de oorspronkelijke wetenschappelijke artikelen zoals in sectie \ref{sec:requirementsanalyse}, met referentieteksten vereenvoudigd met MTS en teksten vereenvoudigd met ATS.  % De vergelijking verloopt eerst objectief aan de hand van de leesgraadsmetrieken benoemd in tabel \ref{table:verg-studie-metrieken}.
+Met een \textit{mixed-methods} onderzoek kan de vergelijkende studie taalmodellen beoordelen op objectief en subjectief niveau. Zowel objectieve metingen aan de hand van leesgraadmetrieken als subjectieve metingen aan de hand van handmatige metingen en interpretaties komen aan bod. De gebruikte wetenschappelijke artikelen zijn identiek aan de taalmodellen in tabel \ref{table:referentieteksten-bronvermelding}. Om realistisch referentiemateriaal te verkrijgen, schrijven twee leerkrachten en twee leerlingen zonder dyslexie zelf een vereenvoudiging van de twee wetenschappelijke artikelen met MTS. Deze vier personen baseren zich op vooraf meegekregen richtlijnen, toegelicht in de bijlage \ref{ch:referentietekst}. De vergelijkende studie omvat vijf fasen, weergegeven op het stappenplan in figuur \ref{img:flowchart-vergelijkende-studie-metrics}. Zo vergelijkt deze onderzoeksfase de leesgraadsmetrieken van de oorspronkelijke wetenschappelijke artikelen zoals in sectie \ref{sec:requirementsanalyse}, met referentieteksten vereenvoudigd met MTS en teksten vereenvoudigd met ATS.
 
 \begin{figure}
 \includegraphics[width=\linewidth]{img/flowchart-vergelijkende-studie.jpg}
@@ -320,8 +275,19 @@ Na de vertaalfase spreekt het script de taalmodellen aan om de inhoud van de wet
 \end{center}
 
 
-% 
-Vervolgens berekent het script leesgraadsmetrieken met de \textit{readability} Python-bibliotheek. Leesgraadsformules dienen, zoals aangegeven in \textcite{Nenkova2004}, als objectieve maatstaf bij deze vergelijkende studie. Code-blok \ref{code:verg-studie-phase-4} maakt een dataframe aan met de Pandas-bibliotheek. Het resultaat van dit script is een \textit{Pandas-dataframe} met alle leesbaarheidsmetrieken uit de \textit{readability}-library. Ten slotte slaat het script de \textit{Pandas-dataframe} op als CSV-bestand. In de volgende fase komt het visualiseren en interpreteren van de resultaten aan bod, waarbij een \textit{Jupyter-notebook} Matplotlib gebruikt om resultaten te visualiseren.
+Vervolgens berekent het script leesgraadsmetrieken met de \textit{readability} Python-bibliotheek. Leesgraadsformules dienen, zoals aangegeven in \textcite{Nenkova2004}, als objectieve maatstaf bij deze vergelijkende studie. 
+
+\begin{itemize}
+	\item 
+	\item FRE en FOG zijn relevant omdat ze de moeilijkheidsgraad van een zin of tekst objectief kunnen meten.
+	\item Het aantal complexe en lange woorden kan wijzen op de gebruikte substitution generation van het taalmodel.
+	\item Het aantal hulpwerkwoorden en vervoegingen van 'zijn' kan aanduiden op mogelijke passieve stem, wat eerder als hinderende taal werd gezien in de literatuurstudie door (...).
+\end{itemize}
+
+
+
+
+Listing \ref{code:verg-studie-phase-4} maakt een dataframe aan met de Pandas-bibliotheek. Het resultaat van dit script is een \textit{Pandas-dataframe} met alle leesbaarheidsmetrieken uit de \textit{readability}-library. Ten slotte slaat het script de \textit{Pandas-dataframe} op als CSV-bestand. In de volgende fase komt het visualiseren en interpreteren van de resultaten aan bod, waarbij een \textit{Jupyter-notebook} Matplotlib gebruikt om resultaten te visualiseren.
 
 \begin{center}
 	\begin{table}[H]
@@ -350,27 +316,23 @@ Vervolgens berekent het script leesgraadsmetrieken met de \textit{readability} P
 \end{center}
 
 %
-In tegenstelling tot de objectieve maatstaf kan de subjectieve evaluatie niet via leesgraadsmetrieken verlopen. De referentietekst dient hier als hulpmiddel om de referentietekst, ofwel het verwachte resultaat, te vergelijken met de vereenvoudigde tekst door een taalmodel. Naast leesgraadsmetrieken moeten de vereenvoudigde teksten eveneens de semantiek van de tekst kunnen behouden, alsook de volledige kern van de tekstinhoud nog steeds bijhouden. Zo moeten de referentieteksten capabel zijn om alle meegegeven vragen te beantwoorden. De aftoetsing gebeurt volgens de metrieken weergegeven in tabel \ref{table:verg-studie-reftekst-metrieken}.
+Tenslotte komen de resultaten van de menselijke beoordeling aan bod. Deze fase van de vergelijkende studie staat stil bij aspecten die leesmetrieken niet kunnen meten, waaronder de normen vermeld in tabel \ref{table:criteria-vergelijkende-studie-human-obv}. De referentietekst dient hier als hulpmiddel om de referentietekst, ofwel het verwachte resultaat, te vergelijken met de vereenvoudigde tekst door een taalmodel. 
 
-\begin{center}
-	\begin{table}[H]
-		\begin{tabular}{ | m{7cm} | m{7cm} | } 
-			\hline
-			\textbf{Metriek} & \textbf{Vereenvoudigingstechniek} \\
-			\hline
-			Inschatting van de doelgroep & Lexicale vereenvoudiging \\
-			\hline
-			Extra uitleg schrijven bij een woord dat geen eenvoudiger synoniem heeft & Lexicale vereenvoudiging \\ \hline
-			\hline
-			Passieve zinconstructies herschrijven naar actieve zinconstructies & Syntactische vereenvoudiging \\ \hline
-			\hline
-			Schrijven als tabelvorm of opsomming & Structurele aanpassing \\
-			\hline
-		\end{tabular}
-	\caption{De subjectieve metrieken voor de vergelijking van de vereenvoudigde teksten door ATS met de referentieteksten.}
-	\label{table:verg-studie-reftekst-metrieken}
-	\end{table}
-\end{center}
+\begin{table}
+	\begin{tabular}{| m{6cm} | m{6cm} |}
+		\hline
+		\textbf{Metriek} & \textbf{Vereenvoudigingstechniek} \\ \hline
+		Acroniemen behouden & Lexicale vereenvoudiging 	\\ \hline
+		Inschatting van de doelgroep & Lexicale vereenvoudiging	\\ \hline
+		Behoud van kern- en bijzaken & Lexicale vereenvoudiging \\ \hline
+		Bronvermelding behouden &  ... \\ \hline
+		Schrijven in tabelvorm of als opsomming & Structurele aanpassing \\ \hline
+		Passieve zinconstructies herschrijven naar actieve zinconstructies & Syntactische vereenvoudiging \\ \hline
+		Citeren en parafraseren & ... \\ \hline
+	\end{tabular}
+	\caption{Criteria voor menselijke observatie bij de vergelijkende studie.}
+	\label{table:criteria-vergelijkende-studie-human-obv}
+\end{table}
 
 \section{Prototype voor tekstvereenvoudiging}
 
@@ -422,7 +384,7 @@ Allereerst bepaalt het onderzoek het gebruikte taalmodel voor gepersonaliseerde 
 		\hline
 		\textbf{Python-bibliotheek} & \textbf{Functionaliteit} \\
 		\hline
-		Flask					& Het framework van de webtoepassing. Deze combineert front-end en back-end en past binnen de scope van een prototype. \\ % later kan dan geopteerd worden voor een aparte front-end en back-end
+		Flask					& Het framework van de webtoepassing. Deze combineert front-end en back-end en past binnen de scope van een prototype. \\ 
 		\hline
 		PDFMiner 				& Tekstinhoud van PDF's inlezen. \\ 
 		\hline
@@ -436,7 +398,7 @@ Allereerst bepaalt het onderzoek het gebruikte taalmodel voor gepersonaliseerde 
 		\hline
 		Requests				& HuggingFace API aanspreken en informatie ophalen van een lexicale databank API. \\
 		\hline
-		BeautifulSoup			& HTML-content \textit{parsen} zodat de aangepaste inhoud van een leerkracht correct geformatteerd kan worden naar een PDF. \\
+		BeautifulSoup			& HTML-content \textit{parsen} voor een correcte formatting. \\
 		\hline
 	\end{tabular}
 	\caption{Gebruikte Python-libraries en hun respectievelijke functie in het prototype.}
@@ -450,22 +412,22 @@ De homepagina, weergegeven op figuur \ref{img:homepage}, biedt een kort overzich
 
 \medspace
 
-Voordat de ontwikkeling van het prototype deze splitsing maakt, moet de extractie van tekstinhoud uit een wetenschappelijk artikel gebeuren. Zo biedt het prototype twee manieren aan om wetenschappelijke artikelen in te laten: \textit{plaintext} of via een PDF-bestand. Deze functie wordt hergebruikt voor het leraren- en het scholierencomponent. Echter zijn niet alle \textit{PDF extractors} foutbestendig, want zoals eerder aangewezen in tabel \ref{sec:requirementsanalyse} kunnen \textit{extractors} ook tekst niet opnemen. Als valnet biedt het prototype een OCR-optie aan. Deze functionaliteit omvat de ontwikkeling van functionaliteiten aan de front-end en aan de back-end.
+Voordat de ontwikkeling van het prototype deze splitsing maakt, moet de extractie van tekstinhoud uit een wetenschappelijk artikel gebeuren. Zo biedt het prototype twee manieren aan om wetenschappelijke artikelen in te laten: \textit{plaintext} of via een PDF-bestand. Het prototype hergebruikt deze functie voor het leraren- en het scholierencomponent. Echter zijn niet alle \textit{PDF extractors} foutbestendig, want zoals eerder aangewezen in tabel \ref{sec:requirementsanalyse} kunnen \textit{extractors} ook tekst niet opnemen. Als valnet biedt het prototype een OCR-optie aan. Deze functionaliteit omvat de ontwikkeling van functionaliteiten aan de front-end en aan de back-end.
 
 \medspace
 
-De front-end kent enkel de toevoeging van een checkbox en twee \textit{input-tags}, namelijk een \textit{file-input} en een \textit{textarea-input}. De \textit{file-input} geeft de binaries van het PDF-bestand mee van de front-end naar de back-end die het PDF-bestand tijdelijk \textit{in-memory} opslaat. Daarnaast krijgt de back-end de keuze van de gebruiker tussen normale en OCR-upload mee als boolean, waarbij 1 gelijk staat aan een OCR-afhandeling. Ten slotte gebruikt het formulier een POST-request om alle meegekregen informatie door te sturen naar de back-end. Na het ontvangen van de request van de front-end, handelt de Flask back-end het bestand verder af zoals aangewezen in codeblok \ref{code:inlezen-wetenschappelijk-artikel-front-end-back-end}. Eerst controleert de \textit{back-end} het type invoer. Vervolgens spreekt de Flask back-end de Reader-klasse aan die de tekst formatteert tot een bruikbaar formaat voor de webtoepassing. 
+De front-end kent enkel de toevoeging van een checkbox en twee \textit{input-tags}, namelijk een \textit{file-input} en een \textit{textarea-input}. De \textit{file-input} geeft de binaries van het PDF-bestand mee van de front-end naar de back-end die het PDF-bestand tijdelijk \textit{in-memory} opslaat. Daarnaast krijgt de back-end de keuze van de gebruiker tussen normale en OCR-upload mee als boolean, waarbij 1 gelijk staat aan een OCR-afhandeling. Ten slotte gebruikt het formulier een POST-request om alle meegekregen informatie door te sturen naar de back-end. Na het ontvangen van de request van de front-end, handelt de Flask back-end het bestand verder af zoals aangewezen in listing \ref{code:inlezen-wetenschappelijk-artikel-front-end-back-end}. Eerst controleert de \textit{back-end} het type invoer. Vervolgens spreekt de Flask back-end de Reader-klasse aan die de tekst formatteert tot een bruikbaar formaat voor de webtoepassing. 
 
 \begin{enumerate}
-	\item PDFMiner itereert doorheen alle PDF-pagina's en extraheert vervolgens de tekst op iedere pagina. Deze methode resulteert in een string-object met alle geëxtraheerde tekst uit een PDF. De uitgewerkte code staat uitgeschreven in \ref{code:inlezen-van-pdf}.
-	\item De Python-bibliotheek EasyOCR voorziet een eenduidige en ontwikkelaarsvriendelijke manier om PDF-pagina's op te slaan als JPG of PNG. EasyOCR itereert doorheen alle pagina's in een PDF en slaat de pagina's op als JPG. Vervolgens leest EasyOCR de tekst op iedere pagina in en houdt dit bij tot het einde van het script. Na het inlezen van de tekst, verwijdert het script de aangemaakte afbeeldingen om zo geheugenruimte te besparen. Net zoals bij de eerste methode, resulteert deze methode in een string-object met alle tekst uit de PDF. De uitgewerkte code staat uitgeschreven in \ref{code:reader-ocr}
+	\item PDFMiner itereert doorheen alle PDF-pagina's en extraheert vervolgens de tekst op iedere pagina. Deze methode resulteert in een string-object met alle geëxtraheerde tekst uit een PDF. De uitgewerkte listing staat uitgeschreven in \ref{code:inlezen-van-pdf}.
+	\item De Python-bibliotheek EasyOCR voorziet een eenduidige en ontwikkelaarsvriendelijke manier om PDF-pagina's op te slaan als JPG of PNG. EasyOCR itereert doorheen alle pagina's in een PDF en slaat de pagina's op als JPG. Vervolgens leest EasyOCR de tekst op iedere pagina in en houdt dit bij tot het einde van het script. Na het inlezen van de tekst, verwijdert het script de aangemaakte afbeeldingen om zo geheugenruimte te besparen. Net zoals bij de eerste methode, resulteert deze methode in een string-object met alle tekst uit de PDF. De uitgewerkte code staat uitgeschreven in listing \ref{code:reader-ocr}
 \end{enumerate}
 
 Na het extraheren van de tekstinhoud, komt een formatteerfase aan bod waarbij het systeem de tekst omvormt naar het gewenste formaat van de gebruiker. Eerst transformeert de back-end de geëxtraheerde tekst naar arrays van zinnen met Spacy sentence embeddings. Zoals aangegeven in \ref{code:reader-formatting} staat de standaardparameter voor het aantal zinnen per paragraaf ingesteld op vijf zinnen, maar gebruikers kunnen dit aanpassen via het HTML-formulier bij de instellingen. Om de PoS-tag bij het respectievelijke woord bij te houden, gebruikt het prototype een \textit{key-value pair} datastructuur. Zo verwijst de sleutel naar een woord in een zin en de waarde verwijst naar de PoS-tag. Het prototype is ontworpen voor alleen Nederlandstalige en Engelstalige wetenschappelijke artikelen. Daarom laadt Spacy enkel twee embeddingsmodellen op, namelijk de embeddingsmodellen vermeldt in tabel \ref{table:wordembeddings-spacy}. Hardcoderen is uit den boze en daarom maakt het prototype gebruik van een \textit{dictionary} die de naam van deze embeddingsmodellen bijhoudt. Zo hoeft er enkel een taalherkenning plaats te vinden. Fouttolerantie aanbieden kan in de vorm van een standaardtaal in de dictionary, namelijk het Nederlands, of door vooraf de taal van de opgeladen tekst via een HTML-formulier aan de gebruiker te vragen.
 
 \medspace
 
-Zowel het leraren- als het scholierencomponent passen deze dynamische HTML-structuur binnen hun weergave toe. Zo zijn er vier verschillende klassen die aan span-tags in deze weergave worden toegekend. Door middel van een Jinja-iteratie, krijgt iedere span-tag een specifieke klasse afhankelijk van de key of iteratie. Zo is er een overkoepelende span-tag 'sentence', alsook voor ieder woord in een zin hoort er een span-tag met \textit{nouns}, \textit{adjectives} of \textit{verbs}. Andere woorden, zoals conjuncties, behoren tot de klasse 'other'.
+Zowel het leraren- als het scholierencomponent passen deze dynamische HTML-structuur binnen hun weergave toe. Zo zijn er vier verschillende klassen die aan span-tags in deze weergave worden toegekend. Door middel van een Jinja-iteratie, krijgt iedere \textit{span-tag} een specifieke klasse afhankelijk van de key of iteratie. Zo is er een overkoepelende span-tag \textit{sentence}, alsook voor ieder woord in een zin hoort er een span-tag met \textit{nouns}, \textit{adjectives} of \textit{verbs}. Andere woorden, zoals conjuncties, behoren tot de klasse \textit{other}.
 
 \subsection{Lerarencomponent}
 
@@ -487,7 +449,7 @@ Na het extraheren van de tekstinhoud van een wetenschappelijk artikel, komt de o
 			\hline
 			Woord toevoegen aan de woordenlijst & Een \textit{eventlistener} handelt de functionaliteit af door de woorden en hun zin van voorkomen tijdelijk op te slaan in een storage. Het formulier houdt dit bij en geeft het vervolgens mee bij het indienen. Deze woorden en hun respectievelijke zin van voorkomen dienen om de woordenlijst op te vullen in het gegenereerde PDF of Word-bestand. \\ 
 			\hline
-			Sleutel en sessieherkenning & Detectie met JS of een sessievariabele bestaat. \\
+			Sleutel en sessieherkenning & . \\
 			\hline 
 		\end{tabular}
 	\caption{Alle beschikbare functionaliteiten in }
@@ -495,11 +457,11 @@ Na het extraheren van de tekstinhoud van een wetenschappelijk artikel, komt de o
 	\end{table}
 \end{center}
 
-Leraren kunnen handmatig zinnen uit de tekst verwijderen. Hiervoor gebruikt de \textit{front-end} een \textit{eventlistener} die de aangeklikte span-tag van klasse 'sentence' uit het HTML-document verwijdert. Naast zinnen verwijderen kunnen leraren ook woorden aan een woordenlijst toevoegen. Hiervoor gebruikt de front-end een JS-script met een \textit{eventlistener} die een woord en de toebehorende zin toevoegt aan een \textit{textarea}. Deze \textit{textarea} gebruikt een \textit{pipe}-symbool als separator om nadien de text te splitsen en een array te bekomen. Om de leerkracht opties aan te reiken voor gepersonaliseerde ATS, bevat het HTML-document een formulier met keuzes aan. Dit formulier bevat alle nodige MTS-technieken uit tabel \ref{table:criteria-requirementsanalysis}. Na een POST-request krijgt de back-end deze parameters die het systeem nadien verwerkt in de prompt voor het GPT-3 taalmodel, zoals aangewezen in codeblok \ref{listing:gpt-class}. Leraren kunnen ook het uitvoerbestand personaliseren met lettertypes, gekozen regeleinde, woord-spatiëring en de marge van het document. Nadat de back-end de inhoud van dit formulier ontvangt, neemt de GPT-klasse de aanvraag over. Deze klasse verwerkt drie functionaliteiten, namelijk definities en synoniemen opzoeken en gepersonaliseerde ATS.
+Leraren kunnen handmatig zinnen uit de tekst verwijderen. Hiervoor gebruikt de \textit{front-end} een \textit{eventlistener} die de aangeklikte span-tag van klasse 'sentence' uit het HTML-document verwijdert. Naast zinnen verwijderen kunnen leraren ook woorden aan een woordenlijst toevoegen. Hiervoor gebruikt de front-end een JS-script met een \textit{eventlistener} die een woord en de toebehorende zin toevoegt aan een \textit{textarea}. Deze \textit{textarea} gebruikt een \textit{pipe}-symbool als separator om nadien de text te splitsen en een array te bekomen. Om de leerkracht opties aan te reiken voor gepersonaliseerde ATS, bevat het HTML-document een formulier met keuzes aan. Dit formulier bevat alle nodige MTS-technieken uit tabel \ref{table:criteria-requirementsanalysis}. Na een POST-request krijgt de back-end deze parameters die het systeem nadien verwerkt in de prompt voor het GPT-3 taalmodel, zoals aangewezen in listing \ref{listing:gpt-class}. Leraren kunnen ook het uitvoerbestand personaliseren met lettertypes, gekozen regeleinde, woord-spatiëring en de marge van het document. Nadat de back-end de inhoud van dit formulier ontvangt, neemt de GPT-klasse de aanvraag over. Deze klasse verwerkt drie functionaliteiten, namelijk definities en synoniemen opzoeken en gepersonaliseerde ATS.
 
 \medspace
 
-Allereerst dient de \textit{look-up} functie om de definitie van een woord te achterhalen. Met behulp van de prompt beschreven in codeblok \ref{listing:gpt-class} stuurt de Python back-end een API-call naar de GPT-3 API. Om de uitvoer zo probabilisch mogelijk te maken, gebruikt de GPT-3 API-call een \textit{nultemperature}. Tabel \ref{table:gpt-3-look-up} weergeeft de gebruikte parameters bij de API-call om een woord op te zoeken. Daarna haalt het script het verkregen antwoord uit de JSON-response om deze vervolgens tijdelijk bij te houden in een dictionary.
+Allereerst dient de \textit{look-up} functie om de definitie van een woord te achterhalen. Met behulp van de prompt beschreven in listing \ref{listing:gpt-class} stuurt de Python back-end een API-call naar de GPT-3 API. Om de uitvoer zo probabilisch mogelijk te maken, gebruikt de GPT-3 API-call een \textit{nultemperature}. Tabel \ref{table:gpt-3-look-up} weergeeft de gebruikte parameters bij de API-call om een woord op te zoeken. Daarna haalt het script het verkregen antwoord uit de JSON-response om deze vervolgens tijdelijk bij te houden in een dictionary.
 
 \begin{center}
 	\begin{table}[H]
@@ -520,7 +482,7 @@ Allereerst dient de \textit{look-up} functie om de definitie van een woord te ac
 
 \medspace
 
-Vervolgens gebruikt het prototype ook de GPT-klasse om een synoniem op te zoeken. Hiervoor spreekt de API de functie \textit{give-synonym} aan verwezen in codeblok \ref{listing:gpt-class}. Tabel \ref{table:gpt-3-synonym} toont een overzicht van de gebruikte parameters om de synoniem van een woord te genereren.
+Vervolgens gebruikt het prototype ook de GPT-klasse om een synoniem op te zoeken. Hiervoor spreekt de API de functie \textit{give-synonym} aan verwezen in listing \ref{listing:gpt-class}. Tabel \ref{table:gpt-3-synonym} toont een overzicht van de gebruikte parameters om de synoniem van een woord te genereren.
 
 \begin{center}
 	\begin{table}[H]
@@ -541,7 +503,7 @@ Vervolgens gebruikt het prototype ook de GPT-klasse om een synoniem op te zoeken
 
 \medspace
 
-Daarna komt de vereenvoudiging van zinnen aan bod. Echter moet het script rekening houden met twee aspecten. Allereerst kan de leerkracht kiezen voor een opsomming van de tekst. Daarnaast moet de inputlengte conform zijn aan de beperkingen van de GPT-3 API. Wetenschappelijke artikelen zijn bijna altijd groter dan de mogelijk inputlengte en daarom maakt het script gebruik van een splitsingsfase. Zo breekt het script de volledige tekst op per 1000 tokens, zodat de inputprompt over marge beschikt en daardoor alle nodige gepersonaliseerde ATS-opties mee kan geven. De code voor de gepersonaliseerde ATS staat weergegeven in codeblok \ref{listing:gpt-class}. Tabel \ref{table:gpt-3-sentence-simplification} geeft een overzicht weer van de gebruikte parameters.
+Daarna komt de vereenvoudiging van zinnen aan bod. Echter moet het script rekening houden met twee aspecten. Allereerst kan de leerkracht kiezen voor een opsomming van de tekst. Daarnaast moet de inputlengte overeenstemmen met de beperkingen van de GPT-3 API. Wetenschappelijke artikelen zijn bijna altijd langer dan de mogelijk inputlengte. Daarom splitst het prototype de oorspronkelijke tekst op per 1000 tokens, zodat de inputprompt over marge beschikt en daardoor alle nodige gepersonaliseerde ATS-opties mee kan geven. Bij deze splitsing houdt het script rekening met de volledigheid van een zin. De code voor de gepersonaliseerde ATS staat weergegeven in listing \ref{listing:gpt-class}. Tabel \ref{table:gpt-3-sentence-simplification} geeft een overzicht weer van de gebruikte parameters.
 
 \begin{center}
 	\begin{table}[H]
@@ -562,7 +524,7 @@ Daarna komt de vereenvoudiging van zinnen aan bod. Echter moet het script rekeni
 
 \medspace
 
-Ten slotte giet het script de \textit{plain-text} van vereenvoudigde tekstinhoud en de woordenlijsten in een PDF- of DOCX-bestand. Zo maakt de Creator-klasse PDF's en docx-documenten volgens de meegegeven opmaakopties en maakt gebruik van Pandoc via Python. De code voor deze klasse is terug te vinden in codeblok \ref{code:writer-klasse}. Pandoc gebruikt een tweestapsbeweging, waarbij het eerst \textit{plain-text} naar een markdownformaat omzet en vervolgens het Markdown-bestand naar een PDF of Word-document converteert. Daarvoor is een YAML-header nodig die de elementen, beschreven in tabel \ref{table:personalized-pdf-word-document-with-pandoc}, moet bevatten. Het script voegt de meegekregen instellingen toe aan de YAML-header. De verschillende functionaliteiten van deze klasse staan opgesomd in tabel \ref{table:functions-creator-class}. Om de woordenlijst aan het markdown-bestand toe te voegen, bouwt het script eerst een \textit{dictionary}-structuur op met de positie van het woord als key en als values de woord, de PoS-tag en de opgehaalde gepersonaliseerde betekenis. Het prototype moet rekening houden met homoniemen en daarom kan de key hier niet het woord zijn. Bij een lege woordenlijst komen deze bewerkingen niet aan bod. Het script slaat de vereenvoudigde tekst nadien op in een \textit{dictionary}-structuur. Vervolgens print het script de vereenvoudigde tekst uit naar het markdown-bestand door alle titels van de \textit{dictionary}-structuur te doorlopen. Een titel uitprinten in markdown syntax moet voorafgaan aan één of twee hashtags. Daarna komt een breakline. Na de titel print het script de vereenvoudigde tekst per paragraaf uit. Bij een opsomming gaat een asterisk-symbool vooraf. Vervolgens converteert Pandoc het Markdown-bestand naar een PDF-bestand gebouwd met de XeLateX engine of een Word-bestand met de meegekregen binaries. Functie \textit{create-pdf} in codeblok \ref{code:writer-klasse} bouwt deze documenten op. Hoewel Flask maar één bestand kan teruggeven, comprimeert het script met de \textit{zipfile} bibliotheek deze twee bestanden tot één bestand. Zo krijgt de eindgebruiker alsnog zowel het docx- als het PDF-document. 
+Ten slotte giet het script de \textit{plain-text} van vereenvoudigde tekstinhoud en de woordenlijsten in een PDF- of DOCX-bestand. Zo maakt de Creator-klasse PDF's en docx-documenten volgens de meegegeven opmaakopties en maakt gebruik van Pandoc via Python. De code voor deze klasse is terug te vinden in listing \ref{code:writer-klasse}. Pandoc gebruikt een tweestapsbeweging, waarbij het eerst \textit{plain-text} naar een markdownformaat omzet en vervolgens het Markdown-bestand naar een PDF of Word-document converteert. Daarvoor is een YAML-header nodig die de elementen, beschreven in tabel \ref{table:personalized-pdf-word-document-with-pandoc}, moet bevatten. Het script voegt de meegekregen instellingen toe aan de YAML-header. De verschillende functionaliteiten van deze klasse staan opgesomd in tabel \ref{table:functions-creator-class}. Om de woordenlijst aan het markdown-bestand toe te voegen, bouwt het script eerst een \textit{dictionary}-structuur op met de positie van het woord als key en als values de woord, de PoS-tag en de opgehaalde gepersonaliseerde betekenis. Het prototype moet rekening houden met homoniemen en daarom kan de key hier niet het woord zijn. Bij een lege woordenlijst komen deze bewerkingen niet aan bod. Het script slaat de vereenvoudigde tekst nadien op in een \textit{dictionary}-structuur. Vervolgens print het script de vereenvoudigde tekst uit naar het markdown-bestand door alle titels van de \textit{dictionary}-structuur te doorlopen. Een titel uitprinten in markdown syntax moet voorafgaan aan twee \textit{hashtags}, gevolgd door een \textit{breakline}. Na de titel print het script de vereenvoudigde tekst per paragraaf uit. Bij een opsomming gaat een asterisk-symbool vooraf. Vervolgens converteert Pandoc het Markdown-bestand naar een PDF-bestand gebouwd met de XeLateX engine of een Word-bestand met de meegekregen binaries. Functie \textit{create-pdf} in listing \ref{code:writer-klasse} bouwt deze documenten op. Hoewel Flask maar één bestand kan teruggeven, comprimeert het script met de \textit{zipfile} bibliotheek deze twee bestanden tot één bestand. Zo krijgt de eindgebruiker alsnog zowel het docx- als het PDF-document. 
 
 \begin{table}[H]
 	\begin{tabular}{ | m{5cm}| m{5cm} | }
@@ -597,22 +559,24 @@ Ten slotte giet het script de \textit{plain-text} van vereenvoudigde tekstinhoud
 
 \subsection{Scholierencomponent}
 
-De taken van de NLP engineer blijven vrijwel identiek, daarmee verwijst dit onderdeel terug naar tabel \ref{table:tasks-nlp-engineer}. Daarnaast vallen de taken van de systeemingenieur in dezelfde lijn als die bij het lerarencomponent en verwijst daarmee naar de taken verwezen in tabel \ref{table:tasks-system-engineer}. Figuur \ref{img:stappenplan-scholars} geeft een stappenplan weer voor de ontwikkeling van het scholierencomponent.
+De taken van de \textit{NLP engineer} blijven vrijwel identiek, daarmee verwijst dit onderdeel terug naar tabel \ref{table:tasks-nlp-engineer}. Daarnaast vallen de taken van de \textit{system engineer} in dezelfde lijn als de taken bij het lerarencomponent en verwijst daarmee naar de taken verwezen in tabel \ref{table:tasks-system-engineer}. Figuur \ref{img:stappenplan-scholars} toont een stappenplan voor de ontwikkeling van het scholierencomponent.
 
 \medspace
 
-HTML, CSS en Jinja vormen de bouwstenen voor deze webpagina. De algemene weergave van dit component lijkt als dat van de uitgeteste chatbots, maar is hier afgetoetst op de benodigde opmaakopties verwezen in tabel \ref{table:dyslexia-necessaries}. Figuur \ref{img:proto-homescreen-scholieren} presenteert een voorbeeldweergave van het scholierencomponent. De front-end beschikt al over de PoS-tags en daarmee kan de gebruiker zelf kleuren selecteren om specifieke woorden te markeren. Figuur \ref{img:proto-pos-tagging-scholieren} toont een voorbeeldweergave van deze functionaliteit. Adjectieven uit de tekst verwijderen is mogelijk zonder taalmodel. Aangezien alle woorden gekoppeld worden aan een PoS-tag, hoeft enkel een JS-functie alle span-tags uit de verwante klasse uit het HTML-document te filteren.
+HTML, CSS en Jinja vormen de bouwstenen voor deze webpagina. De algemene weergave van dit component lijkt als dat van de uitgeteste chatbots, maar is hier afgetoetst op de benodigde opmaakopties verwezen in tabel \ref{table:dyslexia-necessaries}. Net zoals bij het lerarencomponent, moet het prototype een oorspronkelijke weergaven van het wetenschappelijk artikel kunnen tonen. 
 
 \medspace
 
-Scholieren kunnen weergegeven tekst markeren met hun cursor om deze vervolgens te vereenvoudigen op maat van hun noden. Zo kan de webpagina, waarbij een scholier een opsomming wilt van een tekst, eruit zien zoals in figuur \ref{img:proto-scholieren-step-1} en figuur \ref{img:proto-scholieren-step-3}. Allereerst slaat JS de gemarkeerde tekst en meegekregen ATS-opties en geeft deze door aan de back-end met een API-call. Vervolgens verwerkt de back-end deze aanvraag door een nieuwe aanvraag te sturen naar GPT-3, met daarin een prompt die de tekst en de gekozen ATS-technieken bevat. Als de tekst doorlopend is, dan verwerkt JS dit resultaat als een p-tag. Als de scholier eerder koos voor een opsomming, dan wordt er in de prompt ook expliciet een formaat verwacht. Op basis van dit formaat wordt er een ul-tag aangemaakt waarin de array van zinnen wordt geitereerd met een li-tag. 
+De front-end beschikt al over de PoS-tags en daarmee kan de gebruiker zelf kleuren selecteren om specifieke woorden te markeren. Adjectieven uit de tekst verwijderen is mogelijk zonder taalmodel. Zo hoeft enkel een JS-functie alle span-tags uit de verwante klasse uit te filteren, aangezien de PoS-tag bij ieder woord wordt bijgehouden.
+
+\medspace
+
+Scholieren kunnen weergegeven tekst markeren met hun cursor om deze vervolgens te vereenvoudigen op maat van hun noden. Zo kan de webpagina, waarbij een scholier een opsomming wilt van een tekst, eruit zien zoals in figuur \ref{img:proto-scholieren-step-1} en figuur \ref{img:proto-scholieren-step-3}. Eerst slaat JS de gemarkeerde tekst en meegekregen ATS-opties op en geeft deze door aan de back-end met een API-call. Vervolgens verwerkt de back-end deze aanvraag door een nieuwe aanvraag te sturen naar GPT-3, met daarin een prompt die de tekst en de gekozen ATS-technieken bevat. Als de tekst doorlopend is, dan verwerkt JS dit resultaat als een p-tag. Als de scholier eerder koos voor een opsomming, dan wordt er in de prompt ook expliciet een formaat verwacht. Op basis van dit formaat wordt er een ul-tag aangemaakt waarin de array van zinnen wordt geitereerd met een li-tag. 
 
 \medspace
 
 Scholieren kunnen zelf vragen stellen door de tekst te markeren en vervolgens op de verwante knop te drukken. Daarna stuurt een JS-call zowel de vraag van de gebruiker en de gemarkeerde tekst naar de Flask back-end. Die verwerkt de aanvraag met de functie in de zelfgemaakte GPT-klasse. Om het systeem robuust te maken, krijgt de prompt een extra veiligheidsmaatregel mee, namelijk 'op basis van deze tekst ///'. Om transparantie van het model te garanderen, geeft de back-end ook de prompt mee aan de front-end. Deze twee stappen worden afgebeeld in figuur \ref{img:step-1-proto-vraagstelling} en figuur \ref{img:step-2-proto-vraagstelling}.
 
-\medspace
-
 \subsection{Lokale opzet}
 
-Ten slotte maakt het prototype gebruik van Docker voor de lokale opzet. Doordat het prototype enkel API's van taalmodellen aanspreekt, werkt het prototype met enkel één Docker-container. Code \ref{code:dockerfile} toont de gebruikte code van de Dockerfile. Voor het opstarten van de webapplicatie moet de Docker-container eerst de benodigde word-embeddings van Spacy installeren. Een scriptbestand in Powershell, zoals weergegeven in \ref{code:shell-boot}, of Bash zoals weergegeven in \ref{code:bash-boot}, maakt de opstart van deze webapplicatie intuïtiever dan via commandline. Het Pipreq-commando genereert een lijst van Python-bibliotheken die Docker vooraf moet installeren. 
+Ten slotte gebruikt het prototype Docker voor de lokale opzet. Omdat het prototype alleen API's van taalmodellen aanspreekt, werkt het prototype met één Docker-container. Listing \ref{code:dockerfile} toont de gebruikte code van de Dockerfile. Voor het opstarten van de webapplicatie moet de Docker-container eerst de benodigde word-embeddings van Spacy installeren. Een scriptbestand in Powershell, zoals weergegeven in \ref{code:shell-boot}, of Bash zoals weergegeven in \ref{code:bash-boot}, maakt de opstart van deze webapplicatie intuïtiever dan via commandline. Het Pipreq-commando maakt een lijst van Python-bibliotheken die Docker vooraf moet installeren.
