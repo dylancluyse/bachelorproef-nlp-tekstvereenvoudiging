@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2023.5.23)  23 MAY 2023 20:12
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2023.5.23)  24 MAY 2023 07:53
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2319,8 +2319,18 @@ Overfull \hbox (1.58821pt too wide) in paragraph at lines 66--66
  []
 
 
-Overfull \hbox (1.60962pt too wide) detected at line 106
- \TU/Montserrat(1)/b/n/10.95 105
+Overfull \hbox (2.46373pt too wide) detected at line 104
+ \TU/Montserrat(1)/b/n/10.95 100
+ []
+
+
+Overfull \hbox (1.86148pt too wide) detected at line 106
+ \TU/Montserrat(1)/b/n/10.95 107
+ []
+
+
+Overfull \hbox (0.61317pt too wide) detected at line 110
+ \TU/Montserrat(1)/b/n/10.95 133
  []
 
 )
@@ -2359,13 +2369,8 @@ n wetenschappelijk artikel met
  []
 
 
-Overfull \hbox (0.42703pt too wide) detected at line 110
- []\TU/Montserrat(1)/m/n/10.95 105
- []
-
-
-Overfull \hbox (1.21542pt too wide) detected at line 112
- []\TU/Montserrat(1)/m/n/10.95 108
+Overfull \hbox (0.59128pt too wide) detected at line 110
+ []\TU/Montserrat(1)/m/n/10.95 107
  []
 
 )
@@ -2373,13 +2378,13 @@ Overfull \hbox (1.21542pt too wide) detected at line 112
 \openout11 = `CluyseDylanBP.lof'.
 
  [8] (../output/CluyseDylanBP.lot
-Overfull \hbox (7.29776pt too wide) in paragraph at lines 30--30
+Overfull \hbox (7.29776pt too wide) in paragraph at lines 32--32
  [][] [][][]\TU/Montserrat(1)/m/n/10.95 Samenvattend schema met vaak voorkomend
 e struikelblokken bij NLP- 
  []
 
 
-Overfull \hbox (8.65558pt too wide) in paragraph at lines 38--38
+Overfull \hbox (8.65558pt too wide) in paragraph at lines 40--40
  [][] [][][]\TU/Montserrat(1)/m/n/10.95 Richtlijnen waarop toepassingen worden 
 afgetoetst in de requirements- 
  []
@@ -2387,32 +2392,22 @@ afgetoetst in de requirements-
 [9
 
 ]
-Overfull \hbox (0.89787pt too wide) detected at line 92
- []\TU/Montserrat(1)/m/n/10.95 106
- []
-
-
-Overfull \hbox (0.89787pt too wide) detected at line 94
- []\TU/Montserrat(1)/m/n/10.95 106
- []
-
-
-Overfull \hbox (0.59128pt too wide) detected at line 96
- []\TU/Montserrat(1)/m/n/10.95 107
- []
-
-
-Overfull \hbox (0.59128pt too wide) detected at line 98
- []\TU/Montserrat(1)/m/n/10.95 107
- []
-
-
-Overfull \hbox (1.21542pt too wide) detected at line 100
+Overfull \hbox (1.21542pt too wide) detected at line 94
  []\TU/Montserrat(1)/m/n/10.95 108
  []
 
 
-Overfull \hbox (0.89787pt too wide) detected at line 102
+Overfull \hbox (1.21542pt too wide) detected at line 96
+ []\TU/Montserrat(1)/m/n/10.95 108
+ []
+
+
+Overfull \hbox (0.89787pt too wide) detected at line 98
+ []\TU/Montserrat(1)/m/n/10.95 109
+ []
+
+
+Overfull \hbox (0.89787pt too wide) detected at line 100
  []\TU/Montserrat(1)/m/n/10.95 109
  []
 
@@ -2421,13 +2416,23 @@ Overfull \hbox (0.89787pt too wide) detected at line 102
 \openout12 = `CluyseDylanBP.lot'.
 
  [10] (../output/CluyseDylanBP.lol
-Overfull \hbox (1.47823pt too wide) detected at line 6
+Overfull \hbox (1.47823pt too wide) detected at line 2
  []\TU/Montserrat(1)/m/n/10.95 100
  []
 
 
-Overfull \hbox (0.29562pt too wide) detected at line 8
- []\TU/Montserrat(1)/m/n/10.95 103
+Overfull \hbox (0.42703pt too wide) detected at line 6
+ []\TU/Montserrat(1)/m/n/10.95 102
+ []
+
+
+Overfull \hbox (0.42703pt too wide) detected at line 8
+ []\TU/Montserrat(1)/m/n/10.95 105
+ []
+
+
+Overfull \hbox (0.40512pt too wide) detected at line 22
+ []\TU/Montserrat(1)/m/n/10.95 120
  []
 
 
@@ -2437,19 +2442,14 @@ amische PDF- en Word-documenten
  []
 
 
-Overfull \hbox (0.40512pt too wide) detected at line 24
- []\TU/Montserrat(1)/m/n/10.95 120
+Overfull \hbox (0.18613pt too wide) detected at line 26
+ []\TU/Montserrat(1)/m/n/10.95 124
  []
 
 
 Overfull \hbox (21.84668pt too wide) in paragraph at lines 32--32
  [][] [][][]\TU/Montserrat(1)/m/n/10.95 Script voor het opstarten van de Docker
 -container voor Windows-gebruikers[][] [][]  
- []
-
-
-Overfull \hbox (0.40512pt too wide) detected at line 34
- []\TU/Montserrat(1)/m/n/10.95 130
  []
 
 )
@@ -2602,36 +2602,42 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--91
 []|\TU/Montserrat(1)/m/n/10.95 Complexe concep-
  []
 
-[8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 118--118
+[8]
+Overfull \hbox (4.20616pt too wide) in paragraph at lines 101--102
+\TU/Montserrat(1)/m/n/10.95 van fysica-gerelateerde artikelen dan scholieren me
+t een economische achtergrond.
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 117--117
 []|\TU/Montserrat(1)/m/n/10.95 Complexe woorden vol-
  []
 
 
-Overfull \hbox (3.86041pt too wide) in paragraph at lines 110--121
+Overfull \hbox (3.86041pt too wide) in paragraph at lines 109--120
 [][] 
  []
 
 File: img/fre-ndc.png Graphic file (type bmp)
 <img/fre-ndc.png>
 [10]
-Overfull \hbox (15.71828pt too wide) in paragraph at lines 142--143
+Overfull \hbox (15.71828pt too wide) in paragraph at lines 141--142
 \TU/Montserrat(1)/m/n/10.95 mengevatte wetenschappelijke artikelen drie vragen 
 kunnen beantwoorden: waarom
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 160--160
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 []|\TU/Montserrat(1)/m/n/10.95 Lexicale vereenvou-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 174--174
+Underfull \hbox (badness 10000) in paragraph at lines 173--173
 []|\TU/Montserrat(1)/m/n/10.95 Structurele aanpas-
  []
 
 
-Overfull \hbox (3.8604pt too wide) in paragraph at lines 158--181
+Overfull \hbox (3.8604pt too wide) in paragraph at lines 157--180
 [][] 
  []
 
@@ -2639,18 +2645,18 @@ Overfull \hbox (3.8604pt too wide) in paragraph at lines 158--181
 File: img/readability-mean-fixation-duration.png Graphic file (type bmp)
 <img/readability-mean-fixation-duration.png>
  [13]
-Overfull \hbox (8.24753pt too wide) in paragraph at lines 208--209
+Overfull \hbox (8.24753pt too wide) in paragraph at lines 207--208
 \TU/Montserrat(1)/m/n/10.95 zijn voor veranderingen in visuele parameters, zoal
 s lettertype, karakterafstand, tekst-
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 231--231
+Underfull \hbox (badness 1215) in paragraph at lines 230--230
 []|\TU/Montserrat(1)/m/n/10.95 Tekstgebeurtenissen in een tijdsaf-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 233--233
+Underfull \hbox (badness 10000) in paragraph at lines 232--232
 []|\TU/Montserrat(1)/m/n/10.95 Coherentieonderbrekingen herstel-
  []
 
@@ -2661,188 +2667,226 @@ File: img/poslabeling.png Graphic file (type bmp)
 File: img/lexical-simplification-pipeline.png Graphic file (type bmp)
 <img/lexical-simplification-pipeline.png>
  [18] [19]
-Underfull \hbox (badness 10000) in paragraph at lines 348--348
+Underfull \hbox (badness 10000) in paragraph at lines 347--347
 []|\TU/Montserrat(1)/m/n/10.95 MMR-gebaseerde
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--352
+Underfull \hbox (badness 10000) in paragraph at lines 351--351
 []|\TU/Montserrat(1)/m/n/10.95 Metaheuristiek-
  []
 
 
-Overfull \hbox (32.31316pt too wide) in paragraph at lines 346--355
+Overfull \hbox (32.31316pt too wide) in paragraph at lines 345--354
 [][] 
  []
 
 [20] [21]
-Overfull \hbox (5.88762pt too wide) in paragraph at lines 375--376
+Overfull \hbox (2.09892pt too wide) in paragraph at lines 374--375
 []\TU/Montserrat(1)/m/n/10.95 Extraherende samenvattingen kunnen leiden tot een
- onsamenhangende tekst. Een
+ onsamenhangende tekst. Ab-
  []
 
 [22]
-Overfull \hbox (2.45831pt too wide) in paragraph at lines 396--397
+Overfull \hbox (2.45831pt too wide) in paragraph at lines 395--396
 \TU/Montserrat(1)/m/n/10.95 in de vorm van voorleessoftware ([]De Craemer e.a.,
  [][]2018[][][]; OnderwijsVlaanderen, [][]2023[][]).
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 418--419
+Underfull \hbox (badness 10000) in paragraph at lines 417--418
 []|\TU/Montserrat(1)/m/n/10.95 Voorleessoftware met ondersteuningsmogelijkheden
  voor
  []
 
 
-Overfull \hbox (32.31316pt too wide) in paragraph at lines 412--435
+Overfull \hbox (32.31316pt too wide) in paragraph at lines 411--434
 [][] 
  []
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 453--453
+Underfull \hbox (badness 10000) in paragraph at lines 452--452
 []|\TU/Montserrat(1)/m/n/10.95 Longformer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--455
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
 []|\TU/Montserrat(1)/m/n/10.95 Haining Scientific
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 455--455
+Underfull \hbox (badness 10000) in paragraph at lines 454--454
 \TU/Montserrat(1)/m/n/10.95 Abstract Simplifica-
  []
 
 
-Underfull \hbox (badness 1590) in paragraph at lines 457--457
+Underfull \hbox (badness 1590) in paragraph at lines 456--456
 []|\TU/Montserrat(1)/m/n/10.95 BART Large Scienti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--459
+Underfull \hbox (badness 10000) in paragraph at lines 458--458
 []|\TU/Montserrat(1)/m/n/10.95 T5 finetuned text
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 459--459
+Underfull \hbox (badness 10000) in paragraph at lines 458--458
 \TU/Montserrat(1)/m/n/10.95 simplification mo-
  []
 
 
-Overfull \hbox (32.31316pt too wide) in paragraph at lines 448--464
+Overfull \hbox (32.31316pt too wide) in paragraph at lines 447--463
 [][] 
  []
 
-[25]
+[25] [26]
 File: img/chatgpt-example-simplification-gooding.png Graphic file (type bmp)
 <img/chatgpt-example-simplification-gooding.png>
 File: img/chatgpt-example-different-versions-gooding.png Graphic file (type bmp
 )
 <img/chatgpt-example-different-versions-gooding.png>
- [26]
+ [27]
 File: img/chatgpt-example-evaluation-gooding.png Graphic file (type bmp)
 <img/chatgpt-example-evaluation-gooding.png>
-
-Overfull \hbox (11.86533pt too wide) in paragraph at lines 499--500
-\TU/Montserrat(1)/m/n/10.95 engine bij gekomen, namelijk GPT-3 Turbo die wordt 
-gebruikt door Chat-GPT. Davinci-
+ [28]
+Underfull \hbox (badness 7081) in paragraph at lines 511--512
+[]|\TU/Montserrat(1)/m/n/10.95 davinci, curie, babbage,
  []
 
 
-Overfull \hbox (1.50179pt too wide) in paragraph at lines 507--507
-[]|\TU/Montserrat(1)/m/n/10.95 Parameter| 
+Underfull \hbox (badness 10000) in paragraph at lines 511--512
+\TU/Montserrat(1)/m/n/10.95 curie-001, text-babbage-
  []
 
 
-Overfull \hbox (13.03214pt too wide) in paragraph at lines 511--511
-[]|\TU/Montserrat(1)/m/n/10.95 temperature| 
+Underfull \hbox (badness 1052) in paragraph at lines 513--513
+\TU/Montserrat(1)/m/n/10.95 del. Een lagere waarde kan voor-
  []
 
 
-Overfull \hbox (9.52814pt too wide) in paragraph at lines 513--513
-[]|\TU/Montserrat(1)/m/n/10.95 max_tokens| 
+Underfull \hbox (badness 2671) in paragraph at lines 513--513
+\TU/Montserrat(1)/m/n/10.95 waarden daarentegen kunnen on-
  []
 
 
-Overfull \hbox (40.02388pt too wide) in paragraph at lines 519--519
-[]|\TU/Montserrat(1)/m/n/10.95 presence_penalty| 
+Underfull \hbox (badness 2951) in paragraph at lines 513--513
+\TU/Montserrat(1)/m/n/10.95 verwachtse tekst teruggeven, wat
  []
 
 
-Overfull \hbox (3.4604pt too wide) in paragraph at lines 505--522
+Underfull \hbox (badness 4048) in paragraph at lines 515--516
+[]|\TU/Montserrat(1)/m/n/10.95 Een getal tussen 1 and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+[]|\TU/Montserrat(1)/m/n/10.95 Vergelijkbaar met temperature,
+ []
+
+
+Underfull \hbox (badness 5345) in paragraph at lines 517--517
+\TU/Montserrat(2)/m/it/10.95 probability distribution \TU/Montserrat(1)/m/n/10.
+95 voor \TU/Montserrat(2)/m/it/10.95 com-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+\TU/Montserrat(1)/m/n/10.95 gen gericht op nauwkeurigheid
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 517--517
+\TU/Montserrat(1)/m/n/10.95 maken beter gebruik van hoge
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 519--519
+[]|\TU/Montserrat(1)/m/n/10.95 Een tekstwaarde (woord/symbool)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 521--521
+[]|\TU/Montserrat(1)/m/n/10.95 presence pe-
+ []
+
+
+Overfull \hbox (15.4604pt too wide) in paragraph at lines 507--524
 [][] 
  []
 
-[27] [28]
+[29] [30]
 File: img/chatgpt-engines-mean-regret.png Graphic file (type bmp)
 <img/chatgpt-engines-mean-regret.png>
+ [31]
+Underfull \hbox (badness 10000) in paragraph at lines 549--549
+[]|\TU/Montserrat(1)/m/n/10.95 Specifieke sleutelwoor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 550--550
+[]|\TU/Montserrat(1)/m/n/10.95 De context waarin de
+ []
+
 File: img/prompt-engineering-medium.png Graphic file (type bmp)
 <img/prompt-engineering-medium.png>
- [29]
-Overfull \hbox (5.2537pt too wide) in paragraph at lines 563--564
+[32]
+Overfull \hbox (5.2537pt too wide) in paragraph at lines 572--573
 []\TU/Montserrat(1)/m/n/10.95 Expansion/reduction-prompts genereren een beknopt
 e output met voldoende
  []
 
-[30]
 File: img/graph-language-models.png Graphic file (type bmp)
 <img/graph-language-models.png>
-
-Overfull \hbox (1.74486pt too wide) in paragraph at lines 582--583
-\TU/Montserrat(1)/m/n/10.95 nele taalmodel van Bing gebruikmaakt van GPT-3. Met
- de Prometheus-technologie
- []
-
-[31] [32]
-Overfull \hbox (0.61458pt too wide) in paragraph at lines 609--610
+[33] [34]
+Overfull \hbox (0.61458pt too wide) in paragraph at lines 610--611
 []\TU/Montserrat(1)/m/n/10.95 Verschillende studies hebben aangetoond dat tekst
 vereenvoudiging bedoeld is om
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 627--627
+[35]
+Underfull \hbox (badness 10000) in paragraph at lines 628--628
 []|\TU/Montserrat(1)/m/n/10.95 Dure ontwikkeling
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 627--627
+Underfull \hbox (badness 10000) in paragraph at lines 628--628
 \TU/Montserrat(1)/m/n/10.95 en onderhoud van
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 629--629
+Underfull \hbox (badness 10000) in paragraph at lines 630--630
 []|\TU/Montserrat(1)/m/n/10.95 Homoniemen kun-
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 629--629
+Underfull \hbox (badness 1762) in paragraph at lines 630--630
 \TU/Montserrat(1)/m/n/10.95 nen sequence labe-
  []
 
 
-Underfull \hbox (badness 3989) in paragraph at lines 631--632
+Underfull \hbox (badness 3989) in paragraph at lines 632--633
 []|\TU/Montserrat(1)/m/n/10.95 Ontwikkeling van gepersonaliseerde tekstvereen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 633--633
+Underfull \hbox (badness 10000) in paragraph at lines 634--634
 []|\TU/Montserrat(1)/m/n/10.95 Onnauwkeurige
  []
 
 
-Underfull \hbox (badness 7238) in paragraph at lines 635--635
+Underfull \hbox (badness 7238) in paragraph at lines 636--636
 \TU/Montserrat(1)/m/n/10.95 luatie van tekstver-
  []
 
-./standvanzaken.tex:636: Misplaced \noalign.
+./standvanzaken.tex:637: Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.636 ^^I^^I\hline
+l.637 ^^I^^I\hline
                   
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-[33]) (./methodologie.tex [34] [35]
+[36]) (./methodologie.tex [37]
 Hoofdstuk 3.
 
 Overfull \hbox (1.97966pt too wide) in paragraph at lines 18--19
@@ -2850,7 +2894,7 @@ Overfull \hbox (1.97966pt too wide) in paragraph at lines 18--19
 omatiseerde tekstvereen-
  []
 
-[36
+[38
 
 ]
 Overfull \hbox (4.83762pt too wide) in paragraph at lines 19--20
@@ -2860,7 +2904,7 @@ komen niet in deze tools
 
 File: img/flowchart-requirementsanalyse.jpg Graphic file (type bmp)
 <img/flowchart-requirementsanalyse.jpg>
-[37]
+[39]
 Underfull \hbox (badness 6961) in paragraph at lines 59--59
 []|\TU/Montserrat(1)/m/n/10.95 De controle op het gebruik van algoritmische
  []
@@ -2881,7 +2925,7 @@ Overfull \hbox (3.8604pt too wide) in paragraph at lines 74--104
 [][] 
  []
 
-[38] [39]
+[40] [41]
 Underfull \hbox (badness 2285) in paragraph at lines 119--120
 []|\TU/Montserrat(1)/m/n/10.95 Formaatwijzigingen toepassen aan de oorspronkeli
 jke
@@ -2892,19 +2936,19 @@ Overfull \hbox (3.8604pt too wide) in paragraph at lines 113--135
 [][] 
  []
 
-[40]
+[42]
 Overfull \hbox (32.31316pt too wide) in paragraph at lines 146--163
 [][] 
  []
 
-[41]
+[43]
 Overfull \hbox (3.8604pt too wide) in paragraph at lines 189--202
 [][] 
  []
 
 File: img/flowchart-vergelijkende-studie.jpg Graphic file (type bmp)
 <img/flowchart-vergelijkende-studie.jpg>
-[42]
+[44]
 ./methodologie.tex:231: Missing $ inserted.
 <inserted text> 
                 $
@@ -2993,12 +3037,12 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[43]
+[45]
 Overfull \hbox (3.8604pt too wide) in paragraph at lines 261--272
 [][] 
  []
 
-[44]
+[46]
 Overfull \hbox (3.8604pt too wide) in paragraph at lines 294--313
 [][] 
  []
@@ -3013,10 +3057,10 @@ Underfull \hbox (badness 1708) in paragraph at lines 330--330
 \TU/Montserrat(1)/m/n/10.95 schrijven naar actieve zincon-
  []
 
-[45]
+[47]
 File: img/flowchart-general-development.jpg Graphic file (type bmp)
 <img/flowchart-general-development.jpg>
- [46]
+ [48]
 Underfull \hbox (badness 10000) in paragraph at lines 363--364
 []|\TU/Montserrat(1)/m/n/10.95 De toepassing gebruikersvriendelijker maken,
  []
@@ -3037,7 +3081,7 @@ Overfull \hbox (3.8604pt too wide) in paragraph at lines 383--404
 [][] 
  []
 
-[47]
+[49]
 Overfull \hbox (14.9104pt too wide) in paragraph at lines 411--412
 \TU/Montserrat(1)/m/n/10.95 kunnen aanpassen naargelang hun voorkeuren. Zoals a
 angeraden door [],
@@ -3049,7 +3093,7 @@ Overfull \hbox (6.44974pt too wide) in paragraph at lines 411--412
 pties van de website. Deze
  []
 
-[48] [49]
+[50] [51]
 Underfull \hbox (badness 3942) in paragraph at lines 442--442
 []|\TU/Montserrat(1)/m/n/10.95 Specifieke prompt meegeven per
  []
@@ -3079,13 +3123,13 @@ Overfull \hbox (3.8604pt too wide) in paragraph at lines 438--455
 [][] 
  []
 
-[50]
+[52]
 Overfull \hbox (6.36577pt too wide) in paragraph at lines 460--461
 \TU/Montserrat(1)/m/n/10.95 het HTML-document verwijdert. Naast zinnen verwijde
 ren kunnen leraren ook woor-
  []
 
-[51]
+[53]
 Underfull \hbox (badness 10000) in paragraph at lines 471--471
 []|\TU/Montserrat(1)/m/n/10.95 Geef een eenvoudige definitie voor
  []
@@ -3095,17 +3139,17 @@ Underfull \hbox (badness 6380) in paragraph at lines 492--492
 []|\TU/Montserrat(1)/m/n/10.95 Geef een eenvoudiger synoniem voor
  []
 
-[52]
+[54]
 Underfull \hbox (badness 1117) in paragraph at lines 515--515
 []|\TU/Montserrat(1)/m/n/10.95 De lengte van de oorspronkelijke tekst,
  []
 
-[53]
+[55]
 Underfull \hbox (badness 4518) in paragraph at lines 533--533
 []|\TU/Montserrat(1)/m/n/10.95 Surveillance met artifici-
  []
 
-[54]
+[56]
 Underfull \hbox (badness 10000) in paragraph at lines 550--550
 []|\TU/Montserrat(1)/m/n/10.95 De nodige YAML-header voor het markdown-
  []
@@ -3120,13 +3164,13 @@ Overfull \hbox (3.86041pt too wide) in paragraph at lines 547--556
 [][] 
  []
 
-[55]) (./resultaten.tex
+[57]) (./resultaten.tex
 Overfull \hbox (1.76944pt too wide) in paragraph at lines 582--1
 \TU/Montserrat(1)/m/n/10.95 type alleen API’s van taalmodellen aanspreekt, werk
 t het prototype met één Docker-
  []
 
-[56] [57]
+[58] [59]
 Hoofdstuk 4.
 
 Overfull \hbox (1.07079pt too wide) in paragraph at lines 16--16
@@ -3168,9 +3212,9 @@ Overfull \hbox (33.75475pt too wide) in paragraph at lines 14--43
  [][] 
  []
 
-[58
+[60
 
-] [59]
+] [61]
 Overfull \hbox (1.78253pt too wide) in paragraph at lines 54--54
 |[][]\TU/Montserrat(0)/b/n/14.4 Geschikte taalmodel voor gepersonaliseerde teks
 tver-
@@ -3181,10 +3225,10 @@ Package caption Warning: \label without proper reference on input line 88.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `table:resultaten-aantal-zinnen' on page 60 undefined 
+LaTeX Warning: Reference `table:resultaten-aantal-zinnen' on page 62 undefined 
 on input line 61.
 
-[60]
+[62]
 ./resultaten.tex:67: You can't use `macro parameter character #' in internal ve
 rtical mode.
 <recently read> ##
@@ -3249,15 +3293,6 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
 
-[61] [62]
-
-Package fancyhdr Warning: \headheight is too small (14.0pt): 
-(fancyhdr)                Make it at least 26.66998pt, for example:
-(fancyhdr)                \setlength{\headheight}{26.66998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
-
 [63] [64]
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
@@ -3277,6 +3312,15 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
 
 [67] [68]
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 26.66998pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.66998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
+
+[69] [70]
 Overfull \hbox (2.52351pt too wide) in paragraph at lines 202--203
 []\TU/Montserrat(1)/m/n/10.95 Geen taalmodel wijkt af van de hoofdgedachte van 
 het oorspronkelijke wetenschap-
@@ -3298,10 +3342,10 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
 
-[69]
+[71]
 File: img/website-instellingen.png Graphic file (type bmp)
 <img/website-instellingen.png>
- [70]
+ [72]
 File: img/proto-lerarencomponent.png Graphic file (type bmp)
 <img/proto-lerarencomponent.png>
 File: img/proto-melding.png Graphic file (type bmp)
@@ -3315,12 +3359,12 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
 
-[71]
+[73]
 File: img/proto-pos-tagging.png Graphic file (type bmp)
 <img/proto-pos-tagging.png>
 File: img/proto-opsomming-1.png Graphic file (type bmp)
 <img/proto-opsomming-1.png>
- [72]
+ [74]
 File: img/proto-opsomming-3.png Graphic file (type bmp)
 <img/proto-opsomming-3.png>
 File: img/proto-vraagstelling-1.png Graphic file (type bmp)
@@ -3336,7 +3380,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
 
-[73] [74]) (./conclusie.tex
+[75] [76]) (./conclusie.tex
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
 (fancyhdr)                Make it at least 26.66998pt, for example:
@@ -3345,7 +3389,7 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
 
-[75]
+[77]
 Hoofdstuk 5.
 
 Overfull \hbox (18.02141pt too wide) in paragraph at lines 14--15
@@ -3353,11 +3397,11 @@ Overfull \hbox (18.02141pt too wide) in paragraph at lines 14--15
 rsonaliseerde ATS-functionaliteiten,
  []
 
-[76
-
-]) (./discussie.tex [77]
-Hoofdstuk 6.
 [78
+
+]) (./discussie.tex [79]
+Hoofdstuk 6.
+[80
 
 ]
 Overfull \hbox (31.1787pt too wide) in paragraph at lines 20--21
@@ -3371,7 +3415,7 @@ Overfull \hbox (1.37376pt too wide) in paragraph at lines 22--23
 getraind zijn op algemene data
  []
 
-[79]) [80]
+[81]) [82]
 B\babelshorthand{"y}lage A.
 
 Overfull \hbox (5.03624pt too wide) in paragraph at lines 210--211
@@ -3386,7 +3430,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 da-2030-stem-competenties-voor-een-
  []
 
-[81
+[83
 
 ]
 Overfull \hbox (3.46771pt too wide) in paragraph at lines 34--35
@@ -3394,51 +3438,51 @@ Overfull \hbox (3.46771pt too wide) in paragraph at lines 34--35
 oor nieuwe toepassingen zorgde. Tekst-
  []
 
-[82]
+[84]
 Overfull \hbox (2.54906pt too wide) in paragraph at lines 38--39
 []\TU/Montserrat(1)/m/n/10.95 Tekstvereenvoudiging behoort tot de zijtak van \T
 U/Montserrat(2)/m/it/10.95 Natural Language Processing \TU/Montserrat(1)/m/n/10
 .95 (NLP)
  []
 
-[83]
+[85]
 Overfull \hbox (14.44443pt too wide) in paragraph at lines 54--55
 []\TU/Montserrat(1)/m/n/10.95 Het onderzoek van []Sciforce ([][]2020[][]) haalt
  aan dat het merendeel van NLP-toepassingen
  []
 
-[84]
+[86]
 Overfull \hbox (1.14409pt too wide) in paragraph at lines 65--66
 \TU/Montserrat(1)/m/n/10.95 wel gebruikt worden, zijn vooral online leerplatfor
 men voor zelfstandig werken. Ook
  []
 
-[85]
+[87]
 File: img/Screenshot_302.png Graphic file (type bmp)
 <img/Screenshot_302.png>
- [86] [87]) (./referentietekst.tex [88]
+ [88] [89]) (./referentietekst.tex [90]
 B\babelshorthand{"y}lage B.
-[89
+[91
 
-] [90]
+] [92]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 28.
 
-[91] [92] [93]) (./experimenten.tex [94]
+[93] [94] [95]) (./experimenten.tex [96]
 B\babelshorthand{"y}lage C.
 File: img/typeset-example.png Graphic file (type bmp)
 <img/typeset-example.png>
 File: img/bing-ai-chatbot-example.png Graphic file (type bmp)
 <img/bing-ai-chatbot-example.png>
-[95
+[97
 
 ]
 File: img/simplish-output.png Graphic file (type bmp)
 <img/simplish-output.png>
 File: img/scholarcy-attempt.png Graphic file (type bmp)
 <img/scholarcy-attempt.png>
-) (./code-analyse.tex [96] [97]
+) (./code-analyse.tex [98] [99]
 B\babelshorthand{"y}lage D.
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 4.
@@ -3650,7 +3694,7 @@ l.21 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[98
+[100
 
 ]
 
@@ -3992,7 +4036,7 @@ l.55 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[99]
+[101]
 
 ./code-analyse.tex:62: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -4584,7 +4628,7 @@ l.110 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[100]
+[102]
 
 ./code-analyse.tex:111: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -5130,7 +5174,7 @@ l.155 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[101]
+[103]
 
 ./code-analyse.tex:156: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -5372,7 +5416,7 @@ l.175 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[102]
+[104]
 
 ./code-analyse.tex:182: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -5963,11 +6007,11 @@ l.230 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[103]) (./stappenplan.tex [104]
+[105]) (./stappenplan.tex [106]
 B\babelshorthand{"y}lage E.
 File: img/flowchart-development.jpg Graphic file (type bmp)
 <img/flowchart-development.jpg>
-[105
+[107
 
 ]
 Underfull \hbox (badness 1728) in paragraph at lines 53--54
@@ -5981,16 +6025,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 down-
  []
 
-[106]
+[108]
 File: img/flowchart-development-scholars.jpg Graphic file (type bmp)
 <img/flowchart-development-scholars.jpg>
- [107]
+ [109]
 Underfull \hbox (badness 1728) in paragraph at lines 113--114
 []|\TU/Montserrat(1)/m/n/10.95 Code in back-end implementeren voor PDF-upload v
 ia in-
  []
 
-[108]) (./code-webapp.tex [109]
+[110]) (./code-webapp.tex [111]
 B\babelshorthand{"y}lage F.
 
 ./code-webapp.tex:5: Package xcolor Error: Undefined color `commentsColor'.
@@ -6366,7 +6410,7 @@ l.35 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[110
+[112
 
 ]
 
@@ -6490,7 +6534,7 @@ l.45 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[111]
+[113]
 
 ./code-webapp.tex:51: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -6779,7 +6823,7 @@ l.77 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[112]
+[114]
 
 ./code-webapp.tex:83: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -7213,7 +7257,7 @@ l.118 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[113]
+[115]
 
 ./code-webapp.tex:124: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -7804,7 +7848,7 @@ l.172 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[114]
+[116]
 
 ./code-webapp.tex:173: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -8370,7 +8414,7 @@ l.222 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[115]
+[117]
 
 ./code-webapp.tex:223: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -8961,7 +9005,7 @@ l.271 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[116]
+[118]
 
 ./code-webapp.tex:272: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -9575,7 +9619,7 @@ l.322 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[117]
+[119]
 
 ./code-webapp.tex:323: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -10118,7 +10162,7 @@ l.370 from
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[118]
+[120]
 
 ./code-webapp.tex:371: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -10710,7 +10754,7 @@ l.419 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[119]
+[121]
 
 ./code-webapp.tex:420: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -11244,7 +11288,7 @@ l.463 }
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[120]
+[122]
 
 ./code-webapp.tex:465: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -11857,7 +11901,7 @@ l.514 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[121]
+[123]
 
 ./code-webapp.tex:515: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -13454,7 +13498,7 @@ l.565 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[122]
+[124]
 
 ./code-webapp.tex:566: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -14059,7 +14103,7 @@ l.615 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[123]
+[125]
 
 ./code-webapp.tex:616: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -14675,7 +14719,7 @@ l.666 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[124]
+[126]
 
 ./code-webapp.tex:667: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -15290,7 +15334,7 @@ l.717 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[125]
+[127]
 
 ./code-webapp.tex:718: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -15895,7 +15939,7 @@ l.768 \end{lstlisting}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[126] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+[128] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
@@ -16519,7 +16563,7 @@ l.819 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[127]
+[129]
 
 ./code-webapp.tex:820: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -17136,7 +17180,7 @@ l.870 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[128]
+[130]
 
 ./code-webapp.tex:871: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -18038,7 +18082,7 @@ l.925 docker
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[129]
+[131]
 
 ./code-webapp.tex:925: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -18191,14 +18235,14 @@ l.939 docker
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) [130]
+) [132]
 Overfull \hbox (2.13918pt too wide) in paragraph at lines 228--228
 \TU/Montserrat(1)/m/n/10.95 Dutch. \TU/Montserrat(2)/m/it/10.95 Computational L
 inguistics in the Netherlands Journal\TU/Montserrat(1)/m/n/10.95 , \TU/Montserr
 at(2)/m/it/10.95 8\TU/Montserrat(1)/m/n/10.95 , 24–48. [][]$[][][][][] []
  []
 
-[131
+[133
 
 
 ]
@@ -18220,13 +18264,13 @@ Overfull \hbox (17.6088pt too wide) in paragraph at lines 228--228
  and university: Post-diploma
  []
 
-[132]
+[134]
 Overfull \hbox (0.81898pt too wide) in paragraph at lines 228--228
 \TU/Montserrat(2)/m/it/10.95 shop on Speech and Language Processing for Assisti
 ve Technologies (SLPAT-
  []
 
-[133]
+[135]
 Overfull \hbox (15.62875pt too wide) in paragraph at lines 228--228
 [][]\TU/Montserrat(1)/m/n/10.95 Iredale, G. (2022). An overview of tokenization
  algorithms in NLP. [][]$[][][][][] [] [] [] [][][][][][][][][][][][][][] []
@@ -18245,7 +18289,7 @@ Overfull \hbox (12.61131pt too wide) in paragraph at lines 228--228
  technical overview. [][]$[][][][][] [] [] [] [][][][][][][][][][] []
  []
 
-[134]
+[136]
 ./CluyseDylanBP.tex:228: Misplaced alignment tab character &.
 <argument> Guide &
                   amp; examples
@@ -18282,13 +18326,13 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[135]
+[137]
 Overfull \hbox (4.29759pt too wide) in paragraph at lines 228--228
 \TU/Montserrat(1)/m/n/10.95 Part of Speech Tagger [http://eprints.ewi.utwente.n
 l/14662 ; 20th Benelux Con-
  []
 
-[136]
+[138] [139]
 Overfull \hbox (18.56651pt too wide) in paragraph at lines 228--228
 \TU/Montserrat(2)/m/it/10.95 on Natural Language Processing 2014\TU/Montserrat(
 1)/m/n/10.95 , \TU/Montserrat(2)/m/it/10.95 4\TU/Montserrat(1)/m/n/10.95 (1). [
@@ -18296,7 +18340,6 @@ Overfull \hbox (18.56651pt too wide) in paragraph at lines 228--228
 ][][][][][] []
  []
 
-[137]
 ./CluyseDylanBP.tex:228: Misplaced alignment tab character &.
 <argument> Nederland versus België:&
                                     nbsp; verschillen in economische&nbsp; d...
@@ -18327,7 +18370,7 @@ Overfull \hbox (13.72885pt too wide) in paragraph at lines 228--228
 nbsp; verschillen in economischenbsp;
  []
 
-[138]
+[140]
 Overfull \hbox (4.93161pt too wide) in paragraph at lines 228--228
 \TU/Montserrat(1)/m/n/10.95 Smith, J. & Schmidt, D. C. (2023). A Prompt Pattern
  Catalog to Enhance Prompt
@@ -18339,23 +18382,23 @@ Overfull \hbox (19.16676pt too wide) in paragraph at lines 228--228
 physiological tracking of speech-structure
  []
 
-[139] (../output/CluyseDylanBP.aux)
+[141] (../output/CluyseDylanBP.aux)
 
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `CluyseDylanBP.out' has not changed.
-(rerunfilecheck)             Checksum: 4D6A88A89B31C66337CDE6B785EA742C;4435.
+(rerunfilecheck)             Checksum: 1390E9B8F5A829C33B4B44529260FE13;4435.
 Package logreq Info: Writing requests to 'CluyseDylanBP.run.xml'.
 \openout1 = `CluyseDylanBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49038 strings out of 478657
- 956456 string characters out of 5861313
- 2456008 words of memory out of 5000000
- 67684 multiletter control sequences out of 15000+600000
- 407983 words of font info for 113 fonts, out of 8000000 for 9000
+ 49053 strings out of 478657
+ 956905 string characters out of 5861313
+ 2459018 words of memory out of 5000000
+ 67698 multiletter control sequences out of 15000+600000
+ 407991 words of font info for 114 fonts, out of 8000000 for 9000
  351 hyphenation exceptions out of 8191
  113i,15n,139p,2569b,7101s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../output/CluyseDylanBP.xdv (150 pages, 3575444 bytes).
+Output written on ../output/CluyseDylanBP.xdv (152 pages, 3571024 bytes).

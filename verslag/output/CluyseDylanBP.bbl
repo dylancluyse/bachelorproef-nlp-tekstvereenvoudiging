@@ -1647,6 +1647,53 @@
       \verb https://openai.com/blog/introducing-chatgpt-and-whisper-apis
       \endverb
     \endentry
+    \entry{Gupta2019}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=5d6b2380cc77db4fc3cb25eb9f394d45}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={Som},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=ce6485123ecc3103cef2a56d947b4e08}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={S.\bibnamedelimi K},
+           giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{f315a8e08da002ad08d75677b2afe629}
+      \strng{fullhash}{f315a8e08da002ad08d75677b2afe629}
+      \strng{bibnamehash}{f315a8e08da002ad08d75677b2afe629}
+      \strng{authorbibnamehash}{f315a8e08da002ad08d75677b2afe629}
+      \strng{authornamehash}{f315a8e08da002ad08d75677b2afe629}
+      \strng{authorfullhash}{f315a8e08da002ad08d75677b2afe629}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Summarization, is to reduce the size of the document while preserving the meaning, is one of the most researched areas among the Natural Language Processing (NLP) community. Summarization techniques, on the basis of whether the exact sentences are considered as they appear in the original text or new sentences are generated using natural language processing techniques, are categorized into extractive and abstractive techniques. Extractive summarization has been a very extensively researched topic and has reached to its maturity stage. Now the research has shifted towards the abstractive summarization. The complexities underlying with the natural language text makes abstractive summarization a difficult and a challenging task. This paper presents a comprehensive review of the various works performed in abstractive summarization field. For this purpose, we have selected the recent papers on this topic from Elsevier, ACM, IEEE, Springer, ACL Anthology, Cornell University Library and Google Scholar. The papers are categorized according to the type of abstractive technique used. The paper lists down the various challenges and discusses the future direction for research in this field. Along with these, we have identified the advantages and disadvantages of various methods used for abstractive summarization. We have also listed down the various tools which have been used or developed by researchers for abstractive summarization. The paper also discusses the evaluation techniques being used for assessing the abstractive summaries.}
+      \field{issn}{0957-4174}
+      \field{journaltitle}{Expert Systems with Applications}
+      \field{title}{Abstractive summarization: An overview of the state of the art}
+      \field{volume}{121}
+      \field{year}{2019}
+      \field{pages}{49\bibrangedash 65}
+      \range{pages}{17}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.eswa.2018.12.011
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0957417418307735
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0957417418307735
+      \endverb
+      \keyw{Abstractive summarization,Concept finding,Semantic-Based summarization,Ontology-Based summarization,Deep learning}
+    \endentry
     \entry{Hahn2000}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=b1b23e913d226bd63c4c7022beb08edd}{%
