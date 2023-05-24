@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2023.5.23)  24 MAY 2023 19:44
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2023.5.23)  24 MAY 2023 19:53
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2067,26 +2067,26 @@ runsystem(rm CluyseDylanBP.aex)...executed.
 (../output/CluyseDylanBP.aux)
 \openout1 = `CluyseDylanBP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 136.
-LaTeX Font Info:    ... okay on input line 136.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 139.
+LaTeX Font Info:    ... okay on input line 139.
 Package biblatex Info: Trying to load language 'dutch' -> 'dutch-apa'...
 Package biblatex Info: ... file 'dutch-apa.lbx' found.
 
@@ -2123,8 +2123,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'CluyseDylanBP.bbl' found.
 
 (../output/CluyseDylanBP.bbl)
-Package biblatex Info: Reference section=0 on input line 136.
-Package biblatex Info: Reference segment=0 on input line 136.
+Package biblatex Info: Reference section=0 on input line 139.
+Package biblatex Info: Reference segment=0 on input line 139.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -2166,7 +2166,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 136.
+Package hyperref Info: Link coloring ON on input line 139.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -2178,9 +2178,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count529
 )
-LaTeX Info: Redefining \ref on input line 136.
-LaTeX Info: Redefining \pageref on input line 136.
-LaTeX Info: Redefining \nameref on input line 136.
+LaTeX Info: Redefining \ref on input line 139.
+LaTeX Info: Redefining \pageref on input line 139.
+LaTeX Info: Redefining \nameref on input line 139.
 
 (../output/CluyseDylanBP.out) (../output/CluyseDylanBP.out)
 \@outlinefile=\write9
@@ -2196,7 +2196,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 )
-LaTeX Info: Redefining \microtypecontext on input line 136.
+LaTeX Info: Redefining \microtypecontext on input line 139.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: No adjustment of tracking.
@@ -2207,7 +2207,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 \c@lstlisting=\count530
-Package hyperref Info: Option `pageanchor' set `false' on input line 142.
+Package hyperref Info: Option `pageanchor' set `false' on input line 145.
 
 (/usr/share/texlive/texmf-dist/tex/generic/stringenc/se-ascii-print.def
 File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
@@ -2246,34 +2246,34 @@ File: se-ascii-print.def 2019/11/29 v1.12 stringenc: Printable ASCII characters
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (13.09216pt too wide) in paragraph at lines 153--153
+Overfull \hbox (13.09216pt too wide) in paragraph at lines 156--156
 \TU/Montserrat(0)/b/n/24.88 graad middelbaar onderwijs ondersteu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
 
  []
 
-Invalid UTF-8 byte or sequence at line 153 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 153 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 153 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 153 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 153 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 153 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 153 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 153 replaced by U+FFFD.
-Invalid UTF-8 byte or sequence at line 153 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 156 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 156 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 156 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 156 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 156 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 156 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 156 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 156 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 156 replaced by U+FFFD.
 File: graphics//hogent_logo.eps Graphic file (type eps)
 <graphics//hogent_logo.eps>
 [1
@@ -2282,7 +2282,7 @@ File: graphics//hogent_logo.eps Graphic file (type eps)
 
 
 ] [2]
-Package hyperref Info: Option `pageanchor' set `true' on input line 154.
+Package hyperref Info: Option `pageanchor' set `true' on input line 157.
  (./voorwoord.tex) (./samenvatting.tex [3
 
 
@@ -5293,104 +5293,32 @@ Underfull \hbox (badness 1708) in paragraph at lines 556--556
 [53]
 File: img/flowchart-general-development.jpg Graphic file (type bmp)
 <img/flowchart-general-development.jpg>
- [54]
-Underfull \hbox (badness 10000) in paragraph at lines 595--596
+ [54] [55]
+Underfull \hbox (badness 10000) in paragraph at lines 601--602
 []|\TU/Montserrat(1)/m/n/10.95 De toepassing gebruikersvriendelijker maken,
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 595--596
+Underfull \hbox (badness 5696) in paragraph at lines 601--602
 \TU/Montserrat(1)/m/n/10.95 personalisatie-opties voor de site doorvoeren en de
 
  []
 
 
-Overfull \hbox (3.8604pt too wide) in paragraph at lines 589--608
+Overfull \hbox (3.8604pt too wide) in paragraph at lines 595--614
 [][] 
  []
 
-[55]
-Overfull \hbox (3.8604pt too wide) in paragraph at lines 615--636
+
+Overfull \hbox (3.8604pt too wide) in paragraph at lines 621--642
 [][] 
  []
 
 [56]
-Overfull \hbox (14.80795pt too wide) in paragraph at lines 643--644
+Overfull \hbox (14.80795pt too wide) in paragraph at lines 649--650
 \TU/Montserrat(1)/m/n/10.95 Baeza-Yates, Dempere-Marco e.a. ([][]2013[][]). Het
  instellingenscherm is een HTML-bestand
  []
-
-
-./methodologie.tex:647: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.647 PER_SET_SESSION_NAME 
-                           = 'personalized_settings'
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:649: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.649 @app.r
-            oute('/get-settings-user',methods=['POST'])
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:649: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.649 @app.r
-            oute('/get-settings-user',methods=['POST'])
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:650: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.650 def 
-          return_personal_settings_dict():
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:651: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.651 ^^I
-         if PER_SET_SESSION_NAME in session:
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:652: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.652 ^^I
-         ^^Ireturn jsonify(session[PER_SET_SESSION_NAME])
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 
 ./methodologie.tex:653: Package xcolor Error: Undefined color `commentsColor'.
@@ -5399,20 +5327,8 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.653 ^^I
-         else:
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:654: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.654 ^^I
-         ^^Ireturn jsonify(result='session does not exist')
+l.653 PER_SET_SESSION_NAME 
+                           = 'personalized_settings'
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -5423,8 +5339,20 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.655 ^^I
-         
+l.655 @app.r
+            oute('/get-settings-user',methods=['POST'])
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:655: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.655 @app.r
+            oute('/get-settings-user',methods=['POST'])
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -5435,8 +5363,8 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.656 @app.r
-            oute('/change-settings-user', methods=['POST'])
+l.656 def 
+          return_personal_settings_dict():
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -5447,11 +5375,12 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.657 def 
-          change_personal_settings():
+l.657 ^^I
+         if PER_SET_SESSION_NAME in session:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+[57]
 
 ./methodologie.tex:658: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -5460,7 +5389,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.658 ^^I
-         try:
+         ^^Ireturn jsonify(session[PER_SET_SESSION_NAME])
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -5472,7 +5401,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.659 ^^I
-         ^^Isession[PER_SET_SESSION_NAME] = dict(request.form)
+         else:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -5484,7 +5413,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.660 ^^I
-         ^^Imsg = 'Succesvol aangepast!'
+         ^^Ireturn jsonify(result='session does not exist')
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -5496,7 +5425,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.661 ^^I
-         except Exception as e:
+         
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -5507,8 +5436,8 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.662 ^^I
-         ^^Imsg = str(e)
+l.662 @app.r
+            oute('/change-settings-user', methods=['POST'])
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -5519,8 +5448,8 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.663 ^^I
-         ^^Iflash(msg)
+l.663 def 
+          change_personal_settings():
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -5532,6 +5461,78 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.664 ^^I
+         try:
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:665: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.665 ^^I
+         ^^Isession[PER_SET_SESSION_NAME] = dict(request.form)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:666: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.666 ^^I
+         ^^Imsg = 'Succesvol aangepast!'
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:667: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.667 ^^I
+         except Exception as e:
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:668: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.668 ^^I
+         ^^Imsg = str(e)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:669: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.669 ^^I
+         ^^Iflash(msg)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:670: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.670 ^^I
          return render_template('settings.html')
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -5546,173 +5547,29 @@ File: lstlang2.sty 2020/03/24 1.8d listings language file
 File: lstlang3.sty 2020/03/24 1.8d listings language file
 )
 
-./methodologie.tex:667: Package Listings Error: Couldn't load requested languag
+./methodologie.tex:673: Package Listings Error: Couldn't load requested languag
 e.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.667 ...bpagina.}, label={code:window-onload-js}]
+l.673 ...bpagina.}, label={code:window-onload-js}]
                                                   
 The following languages weren't loadable:
     ,javascript$
 This may cause errors in the sequel.
 
 
-./methodologie.tex:667: Package Listings Error: language javascript undefined.
+./methodologie.tex:673: Package Listings Error: language javascript undefined.
 
 See the Listings package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.667 ...bpagina.}, label={code:window-onload-js}]
+l.673 ...bpagina.}, label={code:window-onload-js}]
                                                   
 The language is not loadable. Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:668: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.668 window.o
-              nload = async function () {
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:669: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.669 ^^I
-         var url = `http://localhost:5000/get-settings-user`;
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:670: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.670 ^^I
-         const response = await fetch(url, { method: 'POST' });
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:670: Package xcolor Error: Undefined color `stringColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.670 ...t response = await fetch(url, { method: '
-                                                  POST' });
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:670: Package xcolor Error: Undefined color `stringColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.670 ...ponse = await fetch(url, { method: 'POST'
-                                                   });
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:670: Package xcolor Error: Undefined color `stringColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.670 ...ponse = await fetch(url, { method: 'POST'
-                                                   });
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:671: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.671 ^^I
-         var result = await response.json();
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:672: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.672 ^^I
-         document.body.style.fontSize        = result.fontSize+'px';
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:672: Package xcolor Error: Undefined color `stringColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.672 ...style.fontSize        = result.fontSize+'
-                                                  px';
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:672: Package xcolor Error: Undefined color `stringColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.672 ...le.fontSize        = result.fontSize+'px'
-                                                  ;
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:672: Package xcolor Error: Undefined color `stringColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.672 ...le.fontSize        = result.fontSize+'px'
-                                                  ;
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:673: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.673 ^^I
-         document.body.style.fontFamily      = result.fontSettings;
-Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
@@ -5722,8 +5579,8 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.674 ^^I
-         document.body.style.backgroundColor = result.favcolor;
+l.674 window.o
+              nload = async function () {
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -5735,43 +5592,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.675 ^^I
-         document.body.style.lineHeight      = result.lineHeight+'cm';
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:675: Package xcolor Error: Undefined color `stringColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.675 ...yle.lineHeight      = result.lineHeight+'
-                                                  cm';
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:675: Package xcolor Error: Undefined color `stringColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.675 ....lineHeight      = result.lineHeight+'cm'
-                                                  ;
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:675: Package xcolor Error: Undefined color `stringColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.675 ....lineHeight      = result.lineHeight+'cm'
-                                                  ;
+         var url = `http://localhost:5000/get-settings-user`;
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -5783,7 +5604,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.676 ^^I
-         document.body.style.wordSpacing     = result.wordSpacing+'cm';
+         const response = await fetch(url, { method: 'POST' });
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -5794,8 +5615,8 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.676 ...le.wordSpacing     = result.wordSpacing+'
-                                                  cm';
+l.676 ...t response = await fetch(url, { method: '
+                                                  POST' });
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -5806,8 +5627,8 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.676 ...wordSpacing     = result.wordSpacing+'cm'
-                                                  ;
+l.676 ...ponse = await fetch(url, { method: 'POST'
+                                                   });
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -5818,12 +5639,11 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.676 ...wordSpacing     = result.wordSpacing+'cm'
-                                                  ;
+l.676 ...ponse = await fetch(url, { method: 'POST'
+                                                   });
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[57]
 
 ./methodologie.tex:677: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -5832,7 +5652,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.677 ^^I
-         document.body.style.textAlign       = result.textAlign;
+         var result = await response.json();
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -5843,83 +5663,192 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.678 }
+l.678 ^^I
+         document.body.style.fontSize        = result.fontSize+'px';
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:678: Package xcolor Error: Undefined color `stringColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.678 ...style.fontSize        = result.fontSize+'
+                                                  px';
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:678: Package xcolor Error: Undefined color `stringColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.678 ...le.fontSize        = result.fontSize+'px'
+                                                  ;
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:678: Package xcolor Error: Undefined color `stringColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.678 ...le.fontSize        = result.fontSize+'px'
+                                                  ;
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:679: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.679 ^^I
+         document.body.style.fontFamily      = result.fontSettings;
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:680: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.680 ^^I
+         document.body.style.backgroundColor = result.favcolor;
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:681: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.681 ^^I
+         document.body.style.lineHeight      = result.lineHeight+'cm';
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:681: Package xcolor Error: Undefined color `stringColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.681 ...yle.lineHeight      = result.lineHeight+'
+                                                  cm';
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:681: Package xcolor Error: Undefined color `stringColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.681 ....lineHeight      = result.lineHeight+'cm'
+                                                  ;
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:681: Package xcolor Error: Undefined color `stringColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.681 ....lineHeight      = result.lineHeight+'cm'
+                                                  ;
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:682: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.682 ^^I
+         document.body.style.wordSpacing     = result.wordSpacing+'cm';
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:682: Package xcolor Error: Undefined color `stringColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.682 ...le.wordSpacing     = result.wordSpacing+'
+                                                  cm';
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:682: Package xcolor Error: Undefined color `stringColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.682 ...wordSpacing     = result.wordSpacing+'cm'
+                                                  ;
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:682: Package xcolor Error: Undefined color `stringColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.682 ...wordSpacing     = result.wordSpacing+'cm'
+                                                  ;
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:683: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.683 ^^I
+         document.body.style.textAlign       = result.textAlign;
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:684: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.684 }
        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
-./methodologie.tex:692: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.692 ^^I
-         def get_full_text_from_pdf(self, all_pages):
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:693: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.693 ^^I
-         ^^Itotal = ""
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:694: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.694 ^^I
-         ^^Ifor page_layout in all_pages:
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:695: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.695 ^^I
-         ^^I^^Ifor element in page_layout:
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:696: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.696 ^^I
-         ^^I^^I^^Iif isinstance(element, LTTextContainer):
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:697: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.697 ^^I
-         ^^I^^I^^Ifor text_line in element:
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+[58]
 
 ./methodologie.tex:698: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -5928,7 +5857,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.698 ^^I
-         ^^I^^I^^I^^Itotal += text_line.get_text()
+         def get_full_text_from_pdf(self, all_pages):
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -5940,80 +5869,79 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.699 ^^I
+         ^^Itotal = ""
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:700: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.700 ^^I
+         ^^Ifor page_layout in all_pages:
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:701: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.701 ^^I
+         ^^I^^Ifor element in page_layout:
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:702: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.702 ^^I
+         ^^I^^I^^Iif isinstance(element, LTTextContainer):
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:703: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.703 ^^I
+         ^^I^^I^^Ifor text_line in element:
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:704: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.704 ^^I
+         ^^I^^I^^I^^Itotal += text_line.get_text()
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:705: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.705 ^^I
          ^^I^^I^^I^^Ireturn total
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[58]
-
-./methodologie.tex:707: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.707 ^^I
-         def get_full_text_from_image(self, all_pages):
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:708: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.708 ^^I
-         ^^Iimg_files = []
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:709: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.709 ^^I
-         ^^Inum_pages = 0
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:710: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.710 ^^I
-         ^^Ifor i, page in enumerate(all_pages):
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:711: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.711 ^^I
-         ^^I^^Ifile = f'page_{num_pages}.jpg'
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./methodologie.tex:712: Package xcolor Error: Undefined color `commentsColor'.
-
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.712 ^^I
-         ^^I^^Ipage.save(file, 'JPEG')
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6025,7 +5953,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.713 ^^I
-         ^^I^^Iimg_files.append(file)
+         def get_full_text_from_image(self, all_pages):
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6037,7 +5965,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.714 ^^I
-         ^^I^^Inum_pages += 1
+         ^^Iimg_files = []
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6049,7 +5977,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.715 ^^I
-         ^^I
+         ^^Inum_pages = 0
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6061,7 +5989,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.716 ^^I
-         ^^Ifull_text = []
+         ^^Ifor i, page in enumerate(all_pages):
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6073,7 +6001,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.717 ^^I
-         ^^Ireader = easyocr.Reader(['nl'])
+         ^^I^^Ifile = f'page_{num_pages}.jpg'
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6085,7 +6013,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.718 ^^I
-         ^^Ifor f in img_files:
+         ^^I^^Ipage.save(file, 'JPEG')
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6097,7 +6025,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.719 ^^I
-         ^^I^^Iresult = reader.readtext(f, detail=0)
+         ^^I^^Iimg_files.append(file)
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6109,7 +6037,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.720 ^^I
-         ^^I^^Ifull_text.append(" ".join(result))
+         ^^I^^Inum_pages += 1
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6121,7 +6049,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.721 ^^I
-         ^^I^^Ios.remove(f)
+         ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6133,80 +6061,80 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.722 ^^I
-         ^^Ireturn " ".join(full_text)
+         ^^Ifull_text = []
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 [59]
 
-./methodologie.tex:730: Package xcolor Error: Undefined color `commentsColor'.
+./methodologie.tex:723: Package xcolor Error: Undefined color `commentsColor'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.730 def 
-          get_full_text_site(self, full_text):
+l.723 ^^I
+         ^^Ireader = easyocr.Reader(['nl'])
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./methodologie.tex:731: Package xcolor Error: Undefined color `commentsColor'.
+./methodologie.tex:724: Package xcolor Error: Undefined color `commentsColor'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.731 ^^I
-         try:
+l.724 ^^I
+         ^^Ifor f in img_files:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./methodologie.tex:732: Package xcolor Error: Undefined color `commentsColor'.
+./methodologie.tex:725: Package xcolor Error: Undefined color `commentsColor'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.732 ^^I
-         ^^Ilang = detect(full_text)
+l.725 ^^I
+         ^^I^^Iresult = reader.readtext(f, detail=0)
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./methodologie.tex:733: Package xcolor Error: Undefined color `commentsColor'.
+./methodologie.tex:726: Package xcolor Error: Undefined color `commentsColor'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.733 ^^I
-         except:
+l.726 ^^I
+         ^^I^^Ifull_text.append(" ".join(result))
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./methodologie.tex:734: Package xcolor Error: Undefined color `commentsColor'.
+./methodologie.tex:727: Package xcolor Error: Undefined color `commentsColor'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.734 ^^I
-         ^^Ilang = 'en'
+l.727 ^^I
+         ^^I^^Ios.remove(f)
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./methodologie.tex:735: Package xcolor Error: Undefined color `commentsColor'.
+./methodologie.tex:728: Package xcolor Error: Undefined color `commentsColor'.
 
 See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.735 ^^I
-         
+l.728 ^^I
+         ^^Ireturn " ".join(full_text)
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6217,8 +6145,8 @@ See the xcolor package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.736 ^^I
-         if lang in dict:
+l.736 def 
+          get_full_text_site(self, full_text):
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6230,7 +6158,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.737 ^^I
-         ^^Inlp = spacy.load(dict.get(lang))
+         try:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6242,7 +6170,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.738 ^^I
-         else:
+         ^^Ilang = detect(full_text)
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6254,7 +6182,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.739 ^^I
-         ^^Inlp = spacy.load(dict.get('en'))
+         except:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6266,7 +6194,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.740 ^^I
-         
+         ^^Ilang = 'en'
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6278,7 +6206,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.741 ^^I
-         full_text = str(full_text).replace('\n', ' ')
+         
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6290,7 +6218,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.742 ^^I
-         
+         if lang in dict:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6302,10 +6230,11 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.743 ^^I
-         doc = nlp(full_text)
+         ^^Inlp = spacy.load(dict.get(lang))
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+[60]
 
 ./methodologie.tex:744: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -6314,7 +6243,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.744 ^^I
-         sentences = []
+         else:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6326,7 +6255,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.745 ^^I
-         for sentence in doc.sents:
+         ^^Inlp = spacy.load(dict.get('en'))
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6338,7 +6267,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.746 ^^I
-         ^^Isentences.append(sentence)
+         
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6350,7 +6279,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.747 ^^I
-         
+         full_text = str(full_text).replace('\n', ' ')
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6362,8 +6291,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.748 ^^I
-         ^^Ipad_size = SENTENCES_PER_PARAGRAPH - (len(sentences) % SENTENCES...
-
+         
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6375,7 +6303,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.749 ^^I
-         ^^Ipadded_a = np.pad(sentences, (0, pad_size), mode='empty')
+         doc = nlp(full_text)
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6387,7 +6315,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.750 ^^I
-         ^^Iparagraphs = padded_a.reshape(-1, SENTENCES_PER_PARAGRAPH)
+         sentences = []
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6399,7 +6327,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.751 ^^I
-         
+         for sentence in doc.sents:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6411,7 +6339,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.752 ^^I
-         ^^Itext_w_pos = []
+         ^^Isentences.append(sentence)
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6423,7 +6351,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.753 ^^I
-         ^^Ifor paragraph in paragraphs:
+         
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6435,7 +6363,8 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.754 ^^I
-         ^^I^^Iparagraph_w_pos = []
+         ^^Ipad_size = SENTENCES_PER_PARAGRAPH - (len(sentences) % SENTENCES...
+
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6447,7 +6376,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.755 ^^I
-         ^^Itry:
+         ^^Ipadded_a = np.pad(sentences, (0, pad_size), mode='empty')
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6459,7 +6388,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.756 ^^I
-         ^^I^^Ifor sentence in paragraph:
+         ^^Iparagraphs = padded_a.reshape(-1, SENTENCES_PER_PARAGRAPH)
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6471,7 +6400,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.757 ^^I
-         ^^I^^I^^Idict_sentence = {}
+         
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6483,7 +6412,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.758 ^^I
-         ^^I^^I^^Ifor token in sentence:
+         ^^Itext_w_pos = []
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6495,7 +6424,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.759 ^^I
-         ^^I^^I^^I^^Idict_sentence[token.text] = str(token.pos_).lower()
+         ^^Ifor paragraph in paragraphs:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6507,11 +6436,10 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.760 ^^I
-         ^^I^^I^^I^^Iparagraph_w_pos.append(dict_sentence)
+         ^^I^^Iparagraph_w_pos = []
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[60]
 
 ./methodologie.tex:761: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -6520,7 +6448,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.761 ^^I
-         ^^I^^I^^I^^Itext_w_pos.append(paragraph_w_pos)
+         ^^Itry:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6532,7 +6460,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.762 ^^I
-         ^^Iexcept:
+         ^^I^^Ifor sentence in paragraph:
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6544,7 +6472,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.763 ^^I
-         ^^I^^Ipass
+         ^^I^^I^^Idict_sentence = {}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -6556,78 +6484,150 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.764 ^^I
+         ^^I^^I^^Ifor token in sentence:
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:765: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.765 ^^I
+         ^^I^^I^^I^^Idict_sentence[token.text] = str(token.pos_).lower()
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:766: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.766 ^^I
+         ^^I^^I^^I^^Iparagraph_w_pos.append(dict_sentence)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:767: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.767 ^^I
+         ^^I^^I^^I^^Itext_w_pos.append(paragraph_w_pos)
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:768: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.768 ^^I
+         ^^Iexcept:
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:769: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.769 ^^I
+         ^^I^^Ipass
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./methodologie.tex:770: Package xcolor Error: Undefined color `commentsColor'.
+
+See the xcolor package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.770 ^^I
          return text_w_pos
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 777--777
+Underfull \hbox (badness 3942) in paragraph at lines 783--783
 []|\TU/Montserrat(1)/m/n/10.95 Specifieke prompt meegeven per
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 779--780
+Underfull \hbox (badness 1009) in paragraph at lines 785--786
 \TU/Montserrat(1)/m/n/10.95 aan de vereenvoudigde tekst moet vol-
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 781--781
+Underfull \hbox (badness 2600) in paragraph at lines 787--787
 []|\TU/Montserrat(1)/m/n/10.95 Werkwoorden, bijvoeglijke en zelf-
  []
 
 
-Underfull \hbox (badness 7433) in paragraph at lines 781--782
+Underfull \hbox (badness 7433) in paragraph at lines 787--788
 \TU/Montserrat(1)/m/n/10.95 woorden verandert naar het gekozen
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 785--786
+Underfull \hbox (badness 1852) in paragraph at lines 791--792
 \TU/Montserrat(1)/m/n/10.95 voorkomen dienen om de woordenlijst
  []
 
 
-Overfull \hbox (3.8604pt too wide) in paragraph at lines 773--790
+Overfull \hbox (3.8604pt too wide) in paragraph at lines 779--796
 [][] 
  []
 
 [61]
-Overfull \hbox (6.36577pt too wide) in paragraph at lines 802--803
+Overfull \hbox (6.36577pt too wide) in paragraph at lines 808--809
 \TU/Montserrat(1)/m/n/10.95 het HTML-document verwijdert. Naast zinnen verwijde
 ren kunnen leraren ook woor-
  []
 
 [62]
-Underfull \hbox (badness 10000) in paragraph at lines 813--813
+Underfull \hbox (badness 10000) in paragraph at lines 819--819
 []|\TU/Montserrat(1)/m/n/10.95 Geef een eenvoudige definitie voor
  []
 
 
-Underfull \hbox (badness 6380) in paragraph at lines 834--834
+Underfull \hbox (badness 6380) in paragraph at lines 840--840
 []|\TU/Montserrat(1)/m/n/10.95 Geef een eenvoudiger synoniem voor
  []
 
 [63]
-Underfull \hbox (badness 1117) in paragraph at lines 857--857
+Underfull \hbox (badness 1117) in paragraph at lines 863--863
 []|\TU/Montserrat(1)/m/n/10.95 De lengte van de oorspronkelijke tekst,
  []
 
 [64]
-Underfull \hbox (badness 4518) in paragraph at lines 875--875
+Underfull \hbox (badness 4518) in paragraph at lines 881--881
 []|\TU/Montserrat(1)/m/n/10.95 Surveillance met artifici-
  []
 
 [65]
-Underfull \hbox (badness 10000) in paragraph at lines 892--892
+Underfull \hbox (badness 10000) in paragraph at lines 898--898
 []|\TU/Montserrat(1)/m/n/10.95 De nodige YAML-header voor het markdown-
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 895--895
+Underfull \hbox (badness 2556) in paragraph at lines 901--901
 []|\TU/Montserrat(1)/m/n/10.95 Generate summary with
  []
 
 
-Overfull \hbox (3.86041pt too wide) in paragraph at lines 889--898
+Overfull \hbox (3.86041pt too wide) in paragraph at lines 895--904
 [][] 
  []
 
@@ -6880,7 +6880,7 @@ getraind zijn op algemene data
 [90]) [91]
 B\babelshorthand{"y}lage A.
 
-Overfull \hbox (5.03624pt too wide) in paragraph at lines 211--212
+Overfull \hbox (5.03624pt too wide) in paragraph at lines 214--215
 \TU/Montserrat(1)/m/n/10.95 schappelijke artikelen. Gepersonaliseerde \TU/Monts
 errat(2)/m/it/10.95 automated text simplification \TU/Montserrat(1)/m/n/10.95 (
 ATS) helpt
@@ -18423,7 +18423,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ) [127]
-Overfull \hbox (2.13918pt too wide) in paragraph at lines 228--228
+Overfull \hbox (2.13918pt too wide) in paragraph at lines 231--231
 \TU/Montserrat(1)/m/n/10.95 Dutch. \TU/Montserrat(2)/m/it/10.95 Computational L
 inguistics in the Netherlands Journal\TU/Montserrat(1)/m/n/10.95 , \TU/Montserr
 at(2)/m/it/10.95 8\TU/Montserrat(1)/m/n/10.95 , 24–48. [][]$[][][][][] []
@@ -18433,60 +18433,60 @@ at(2)/m/it/10.95 8\TU/Montserrat(1)/m/n/10.95 , 24–48. [][]$[][][][][] []
 
 
 ]
-Overfull \hbox (2.47417pt too wide) in paragraph at lines 228--228
+Overfull \hbox (2.47417pt too wide) in paragraph at lines 231--231
 [][]\TU/Montserrat(1)/m/n/10.95 Dandekar, N. (2016). How to use machine learnin
 g to find synonyms. [][]$[][][][][] [] [] [] [][][][][][] []
  []
 
 
-Overfull \hbox (30.04782pt too wide) in paragraph at lines 228--228
+Overfull \hbox (30.04782pt too wide) in paragraph at lines 231--231
 [][][] [] [][][][][][][][][] [] [][][] [][] [][] [][] [][][] [][] [][][][][][][
 ] [][] [][][][][][][][] [][] [][] [][] [][][][] [][] [][][][][][][][] [][] [][]
 [][][][][][][][][][]$[][] 
  []
 
 
-Overfull \hbox (17.6088pt too wide) in paragraph at lines 228--228
+Overfull \hbox (17.6088pt too wide) in paragraph at lines 231--231
 \TU/Montserrat(1)/m/n/10.95 E. M. (2022). Students with dyslexia between school
  and university: Post-diploma
  []
 
 
-Overfull \hbox (3.2645pt too wide) in paragraph at lines 228--228
+Overfull \hbox (3.2645pt too wide) in paragraph at lines 231--231
 [][]\TU/Montserrat(1)/m/n/10.95 Galliussi, J. e.a. (2020). Inter-letter spacing
 , inter-word spacing, and font with dyslexia-
  []
 
 [129]
-Overfull \hbox (0.81898pt too wide) in paragraph at lines 228--228
+Overfull \hbox (0.81898pt too wide) in paragraph at lines 231--231
 \TU/Montserrat(2)/m/it/10.95 shop on Speech and Language Processing for Assisti
 ve Technologies (SLPAT-
  []
 
 [130]
-Overfull \hbox (15.62875pt too wide) in paragraph at lines 228--228
+Overfull \hbox (15.62875pt too wide) in paragraph at lines 231--231
 [][]\TU/Montserrat(1)/m/n/10.95 Iredale, G. (2022). An overview of tokenization
  algorithms in NLP. [][]$[][][][][] [] [] [] [][][][][][][][][][][][][][] []
  []
 
 
-Overfull \hbox (4.43297pt too wide) in paragraph at lines 228--228
+Overfull \hbox (4.43297pt too wide) in paragraph at lines 231--231
 \TU/Montserrat(2)/m/it/10.95 sing\TU/Montserrat(1)/m/n/10.95 . Pearson Educatio
 n. [][]$[][][][][] [] [] [] [][][][][] [] [][][][][][] [] [][] [] [][][][][] []
  [][] [] [][][][][][][][][][][][]$[][] 
  []
 
 
-Overfull \hbox (12.61131pt too wide) in paragraph at lines 228--228
+Overfull \hbox (12.61131pt too wide) in paragraph at lines 231--231
 [][]\TU/Montserrat(1)/m/n/10.95 Li, C. (2022). OpenAI’s GPT-3 language model: A
  technical overview. [][]$[][][][][] [] [] [] [][][][][][][][][][] []
  []
 
 [131]
-./CluyseDylanBP.tex:228: Misplaced alignment tab character &.
+./CluyseDylanBP.tex:231: Misplaced alignment tab character &.
 <argument> Guide &
                   amp; examples
-l.228 \printbibliography[heading=bibintoc]
+l.231 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -18495,10 +18495,10 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./CluyseDylanBP.tex:228: Misplaced alignment tab character &.
+./CluyseDylanBP.tex:231: Misplaced alignment tab character &.
 <argument> What is prompt engineering in AI &
                                              amp; Why It Matters
-l.228 \printbibliography[heading=bibintoc]
+l.231 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -18507,10 +18507,10 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./CluyseDylanBP.tex:228: Misplaced alignment tab character &.
+./CluyseDylanBP.tex:231: Misplaced alignment tab character &.
 <argument> The ultimate guide 2023 [GPT-3 &
                                            amp; chatgpt]
-l.228 \printbibliography[heading=bibintoc]
+l.231 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -18520,23 +18520,23 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 [132]
-Overfull \hbox (4.29759pt too wide) in paragraph at lines 228--228
+Overfull \hbox (4.29759pt too wide) in paragraph at lines 231--231
 \TU/Montserrat(1)/m/n/10.95 Part of Speech Tagger [http://eprints.ewi.utwente.n
 l/14662 ; 20th Benelux Con-
  []
 
 [133] [134]
-Overfull \hbox (18.56651pt too wide) in paragraph at lines 228--228
+Overfull \hbox (18.56651pt too wide) in paragraph at lines 231--231
 \TU/Montserrat(2)/m/it/10.95 on Natural Language Processing 2014\TU/Montserrat(
 1)/m/n/10.95 , \TU/Montserrat(2)/m/it/10.95 4\TU/Montserrat(1)/m/n/10.95 (1). [
 ][]$[][][][][] [] [] [] [][][] [] [][][] [] [][] [] [][][][][] [] [][][][][][][
 ][][][][][] []
  []
 
-./CluyseDylanBP.tex:228: Misplaced alignment tab character &.
+./CluyseDylanBP.tex:231: Misplaced alignment tab character &.
 <argument> Nederland versus België:&
                                     nbsp; verschillen in economische&nbsp; d...
-l.228 \printbibliography[heading=bibintoc]
+l.231 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -18545,10 +18545,10 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./CluyseDylanBP.tex:228: Misplaced alignment tab character &.
+./CluyseDylanBP.tex:231: Misplaced alignment tab character &.
 <argument> ...ë:&nbsp; verschillen in economische&
                                                   nbsp; dynamiek en beleid
-l.228 \printbibliography[heading=bibintoc]
+l.231 \printbibliography[heading=bibintoc]
                                           
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -18558,19 +18558,19 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 
-Overfull \hbox (13.72885pt too wide) in paragraph at lines 228--228
+Overfull \hbox (13.72885pt too wide) in paragraph at lines 231--231
 [][]\TU/Montserrat(1)/m/n/10.95 Sleuwaegen, L. (2022). Nederland versus België:
 nbsp; verschillen in economischenbsp;
  []
 
 [135]
-Overfull \hbox (4.93161pt too wide) in paragraph at lines 228--228
+Overfull \hbox (4.93161pt too wide) in paragraph at lines 231--231
 \TU/Montserrat(1)/m/n/10.95 Smith, J. & Schmidt, D. C. (2023). A Prompt Pattern
  Catalog to Enhance Prompt
  []
 
 
-Overfull \hbox (19.16676pt too wide) in paragraph at lines 228--228
+Overfull \hbox (19.16676pt too wide) in paragraph at lines 231--231
 [][]\TU/Montserrat(1)/m/n/10.95 Zhang, M., Riecke, L. & Bonte, M. (2021). Neuro
 physiological tracking of speech-structure
  []
@@ -18580,18 +18580,18 @@ physiological tracking of speech-structure
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `CluyseDylanBP.out' has not changed.
-(rerunfilecheck)             Checksum: 6C4E01753955D6CB1F43AEA29660020A;4271.
+(rerunfilecheck)             Checksum: 38248A7A71C1A5CFFE7C1C0064E351A2;4271.
 Package logreq Info: Writing requests to 'CluyseDylanBP.run.xml'.
 \openout1 = `CluyseDylanBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49056 strings out of 478657
- 957018 string characters out of 5861313
- 2459810 words of memory out of 5000000
- 67700 multiletter control sequences out of 15000+600000
+ 49057 strings out of 478657
+ 957023 string characters out of 5861313
+ 2459848 words of memory out of 5000000
+ 67701 multiletter control sequences out of 15000+600000
  407991 words of font info for 114 fonts, out of 8000000 for 9000
  351 hyphenation exceptions out of 8191
  113i,15n,139p,2569b,7101s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../output/CluyseDylanBP.xdv (147 pages, 3564872 bytes).
+Output written on ../output/CluyseDylanBP.xdv (147 pages, 3565532 bytes).

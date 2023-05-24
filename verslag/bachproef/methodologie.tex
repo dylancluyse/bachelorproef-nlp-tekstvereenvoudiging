@@ -473,19 +473,19 @@ Als het script alle meetwaarden succesvol kan verkrijgen, dan maakt het script e
 			\hline
 			\textbf{Leesgraadscore} & \textbf{Vereenvoudigingstechniek }\\
 			\hline
-			FOG & Lexicale en syntactische vereenvoudiging \\
+			FOG & LS en SS \\
 			\hline
-			FRE & Lexicale en syntactische vereenvoudiging \\
+			FRE & LS en SS \\
 			\hline
-			Aantal woorden per zinnen & Syntactische vereenvoudiging \\
+			Aantal woorden per zinnen & SS \\
 			\hline
-			Aantal complexe woorden per zin volgens Dale Chall index & Lexicale vereenvoudiging \\
+			Aantal complexe woorden per zin volgens Dale Chall index & LS \\
 			\hline
-			Aantal lange woorden per zin & Lexicale vereenvoudiging \\
+			Aantal lange woorden per zin & LS \\
 			\hline
-			Aantal gebruikte hulpwerkwoorden & Syntactische vereenvoudiging. \\
+			Aantal gebruikte hulpwerkwoorden & SS \\
 			\hline
-			Aantal zinnen met een vervoeging van het werkwoord 'zijn' & Syntactische vereenvoudiging. \\
+			Aantal zinnen met een vervoeging van het werkwoord 'zijn' & SS \\
 			\hline
 		\end{tabular}
 		\caption{De objectieve metrieken voor de vergelijking van de vereenvoudigde teksten met de oorspronkelijke tekst en de referentieteksten.}
@@ -544,7 +544,7 @@ Als het script alle meetwaarden succesvol kan verkrijgen, dan maakt het script e
 
 Tenslotte komen de resultaten van de menselijke beoordeling aan bod. Deze fase van de vergelijkende studie staat stil bij aspecten die leesmetrieken niet kunnen meten, waaronder de normen vermeld in tabel \ref{table:criteria-vergelijkende-studie-human-obv}. De referentietekst dient hier als hulpmiddel om de referentietekst, ofwel het verwachte resultaat, te vergelijken met de vereenvoudigde tekst door een taalmodel. 
 
-\begin{table}
+\begin{table}[H]
 	\begin{tabular}{| m{6cm} | m{6cm} |}
 		\hline
 		\textbf{Metriek} & \textbf{Vereenvoudigingstechniek} \\ \hline
@@ -570,11 +570,14 @@ Met het Moscow-schema en het geschikte taalmodel voor gepersonaliseerde ATS, kan
 
 Voor de ontwikkeling van het prototype volgt het onderzoek de flowchart op figuur \ref{img:general-overview-prototype}. Deze flowchart toont zes algemene fasen. Zo start het onderzoek met een voorbereidende fase waarin het onderzoek de nodige technieken en taalmodellen opsomt. Vervolgens start het onderzoek met de ontwikkeling van de back end en front end. Vervolgens komt de ontwikkeling van het lerarencomponent, gevolgd door de ontwikkeling van het scholierencomponent aan bod. Daarna moet het onderzoek stilstaan bij de opzet van het prototype met behulp van Docker. Ten slotte evalueert het onderzoek het gemaakte prototype aan de hand van het Moscow-schema en de vergelijkende studie. Het lerarencomponent moet wetenschappelijke artikelen kunnen vereenvoudigen, na selectie van gepersonaliseerde ATS-technieken. Daarnaast moet het scholierencomponent ondersteuning bieden. In dit component van het prototype moeten scholieren met dyslexie in \textit{real-time} aanpassingen kunnen maken aan de tekst, alsook ondersteuning krijgen tijdens het begrijpend lezen van een tekst. Gepersonaliseerde opmaakopties moeten over de volledige prototype gelijk blijven.
 
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{img/flowchart-general-development.jpg}
-	\caption{Algemeen overzicht van de ontwikkeling van het prototype voor ATS van wetenschappelijke artikelen.}
-	\label{img:general-overview-prototype}
-\end{figure}
+
+\begin{sidewaysfigure}
+	\begin{figure}[H]
+		\includegraphics[width=\linewidth]{img/flowchart-general-development.jpg}
+		\caption{Algemeen overzicht van de ontwikkeling van het prototype voor ATS van wetenschappelijke artikelen.}
+		\label{img:general-overview-prototype}
+	\end{figure}
+\end{sidewaysfigure}
 
 \subsubsection{Taalmodellen selecteren}
 

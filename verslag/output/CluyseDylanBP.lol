@@ -9,9 +9,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {3.5}De back end functie die de aanpassingen uit het formulier opslaat als sessievariabele.}{57}{lstlisting.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {3.6}De onload-functie die de gepersonaliseerde opmaakopties regelt bij het inladen van een webpagina.}{57}{lstlisting.3.6}%
+\contentsline {lstlisting}{\numberline {3.6}De onload-functie die de gepersonaliseerde opmaakopties regelt bij het inladen van een webpagina.}{58}{lstlisting.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {3.7}Een PDF inlezen met PDFMiner}{58}{lstlisting.3.7}%
+\contentsline {lstlisting}{\numberline {3.7}Een PDF inlezen met PDFMiner}{59}{lstlisting.3.7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {3.8}Een PDF inlezen met OCR}{59}{lstlisting.3.8}%
 \defcounter {refsection}{0}\relax 

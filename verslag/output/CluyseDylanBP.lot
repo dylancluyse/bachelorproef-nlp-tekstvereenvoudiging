@@ -55,27 +55,27 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {table}{\numberline {3.11}{\ignorespaces Criteria voor menselijke observatie bij de vergelijkende studie.\relax }}{54}{table.caption.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.12}{\ignorespaces Gebruikte programmeertalen in het prototype voor tekstvereenvoudiging.\relax }}{56}{table.caption.45}%
+\contentsline {table}{\numberline {3.12}{\ignorespaces Gebruikte programmeertalen in het prototype voor tekstvereenvoudiging.\relax }}{56}{table.caption.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.13}{\ignorespaces Gebruikte Python-libraries en hun respectievelijke functie in het prototype.\relax }}{56}{table.caption.46}%
+\contentsline {table}{\numberline {3.13}{\ignorespaces Gebruikte Python-libraries en hun respectievelijke functie in het prototype.\relax }}{57}{table.caption.47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.14}{\ignorespaces Alle beschikbare functionaliteiten in \relax }}{62}{table.caption.47}%
+\contentsline {table}{\numberline {3.14}{\ignorespaces Alle beschikbare functionaliteiten in \relax }}{62}{table.caption.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.15}{\ignorespaces Gebruikte parameters om de definitie van een woord te genereren met GPT-3.\relax }}{63}{table.caption.48}%
+\contentsline {table}{\numberline {3.15}{\ignorespaces Gebruikte parameters om de definitie van een woord te genereren met GPT-3.\relax }}{63}{table.caption.49}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.16}{\ignorespaces Gebruikte parameters om het synoniem van een woord te genereren met GPT-3.\relax }}{64}{table.caption.49}%
+\contentsline {table}{\numberline {3.16}{\ignorespaces Gebruikte parameters om het synoniem van een woord te genereren met GPT-3.\relax }}{64}{table.caption.50}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.17}{\ignorespaces Gebruikte parameters om zinnen te vereenvoudigen met GPT-3.\relax }}{64}{table.caption.50}%
+\contentsline {table}{\numberline {3.17}{\ignorespaces Gebruikte parameters om zinnen te vereenvoudigen met GPT-3.\relax }}{64}{table.caption.51}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.18}{\ignorespaces Benodigde labels voor een gepersonaliseerd document met Pandoc.\relax }}{66}{table.caption.51}%
+\contentsline {table}{\numberline {3.18}{\ignorespaces Benodigde labels voor een gepersonaliseerd document met Pandoc.\relax }}{66}{table.caption.52}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {3.19}{\ignorespaces De gebruikte functies in de Creator-klasse.\relax }}{66}{table.caption.52}%
+\contentsline {table}{\numberline {3.19}{\ignorespaces De gebruikte functies in de Creator-klasse.\relax }}{66}{table.caption.53}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.1}{\ignorespaces Afgetoetste criteria volgens de experimenten.\relax }}{70}{table.caption.53}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Afgetoetste criteria volgens de experimenten.\relax }}{70}{table.caption.54}%
 \defcounter {refsection}{0}\relax 
-\contentsline {table}{\numberline {4.2}{\ignorespaces Aantal zinnen (gemeten met Spacy sentence embeddings) per tekst.\relax }}{72}{table.caption.54}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Aantal zinnen (gemeten met Spacy sentence embeddings) per tekst.\relax }}{72}{table.caption.55}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
