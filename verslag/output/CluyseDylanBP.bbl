@@ -1365,6 +1365,40 @@
       \verb :Reducing lexical complexity as a tool to increase text accessibility.pdf:PDF
       \endverb
     \endentry
+    \entry{Galliussi2020}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f1b3d9986eef848b63a3d8f0b126d6a5}{%
+           family={Galliussi},
+           familyi={G\bibinitperiod},
+           given={Jessica},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{54956ab1593ea1a58dea5cc69d0feb38}
+      \strng{fullhash}{54956ab1593ea1a58dea5cc69d0feb38}
+      \strng{bibnamehash}{54956ab1593ea1a58dea5cc69d0feb38}
+      \strng{authorbibnamehash}{54956ab1593ea1a58dea5cc69d0feb38}
+      \strng{authornamehash}{54956ab1593ea1a58dea5cc69d0feb38}
+      \strng{authorfullhash}{54956ab1593ea1a58dea5cc69d0feb38}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annals of Dyslexia}
+      \field{title}{Inter-letter spacing, inter-word spacing, and font with dyslexia-friendly features: testing text readability in people with and without dyslexia}
+      \field{volume}{70}
+      \field{year}{2020}
+      \field{pages}{141\bibrangedash 152}
+      \range{pages}{12}
+    \endentry
     \entry{Garbacea2021}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=6f7b7e6d6cd38a15f6be00643ce82f71}{%
@@ -4388,6 +4422,39 @@
       \verb https://www.nytimes.com/2023/01/12/technology/chatgpt-schools-teachers.html
       \endverb
     \endentry
+    \entry{Ruelas2020}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f101cab2e374f69192863880ac632b9}{%
+           family={Ruelas\bibnamedelima Inzunza},
+           familyi={R\bibinitperiod\bibinitdelim I\bibinitperiod},
+           given={Ernesto},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{8f101cab2e374f69192863880ac632b9}
+      \strng{fullhash}{8f101cab2e374f69192863880ac632b9}
+      \strng{bibnamehash}{8f101cab2e374f69192863880ac632b9}
+      \strng{authorbibnamehash}{8f101cab2e374f69192863880ac632b9}
+      \strng{authornamehash}{8f101cab2e374f69192863880ac632b9}
+      \strng{authorfullhash}{8f101cab2e374f69192863880ac632b9}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The American Biology Teacher}
+      \field{month}{11}
+      \field{title}{Reconsidering the Use of the Passive Voice in Scientific Writing}
+      \field{volume}{82}
+      \field{year}{2020}
+      \field{pages}{563\bibrangedash 565}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1525/abt.2020.82.8.563
+      \endverb
+    \endentry
     \entry{Santana2012}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=4901012779fa5f896bf8e8c3bcae0848}{%
@@ -5702,7 +5769,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{Harvard2023}
 \endrefsection
 \endinput
 
