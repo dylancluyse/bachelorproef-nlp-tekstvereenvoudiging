@@ -19,21 +19,21 @@
 \usepackage{tikz}
 
 \lstdefinelanguage{Python}{
-	keywords=[1]{},
+	keywords=[1]{request},
 	keywordstyle=[1]\color{Bittersweet},
-	keywords=[2]{}, % ML-typen
+	keywords=[2]{form}, % ML-typen
 	keywordstyle=[2]\color{purple},	
 	keywords=[3]{}, 
 	keywordstyle=[3]\color{violet},
-	keywords=[4]{},
+	keywords=[4]{reader, writer},
 	keywordstyle=[4]\color{RoyalBlue},
 	keywords=[5]{},
 	keywordstyle=[5]\color{Aquamarine}\bfseries,
-	keywords=[6]{},
+	keywords=[6]{setup\_scholars\_teachers, teaching\_tool},
 	keywordstyle=[6]\color{OliveGreen}\bfseries,
-	keywords=[7]{},
+	keywords=[7]{def, function, for, in},
 	keywordstyle=[7]\color{PineGreen},
-	keywords=[8]{pickuplatitude, pickuplongitude, dropofflatitude, dropofflongitude}, %input
+	keywords=[8]{}, %input
 	keywordstyle=[8]\color{Periwinkle},
 	identifierstyle=\color{black},
 	sensitive=false,
@@ -43,6 +43,15 @@
 	stringstyle=\color{Sepia}\ttfamily,
 	morestring=[b]',
 	morestring=[b]"
+}
+
+% JavaScript
+\lstdefinelanguage{JavaScript}{
+	morekeywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
+	morecomment=[s]{/*}{*/},
+	morecomment=[l]//,
+	morestring=[b]",
+	morestring=[b]'
 }
 
 
@@ -117,7 +126,7 @@
 \title[]%
     {Scholieren met dyslexie van de derde graad middelbaar onderwijs ondersteunen bij het intensief lezen van wetenschappelijke artikelen via geautomatiseerde en gepersonaliseerde tekstvereenvoudiging}
 \academicyear{\advance\year by -1 \the\year--\advance\year by 1 \the\year}
-\examperiod{1}
+\examperiod{2}
 \degreesought{\IfLanguageName{dutch}{Professionele bachelor in de toegepaste informatica}{Bachelor of applied computer science}}
 \partialthesis{false} %% To display 'in partial fulfilment'
 %\institution{Internshipcompany BVBA.}

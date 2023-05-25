@@ -11,18 +11,19 @@ Deze scriptie tracht een antwoord te bieden op de volgende onderzoeksvraag:
 	\item Hoe kan een wetenschappelijk artikel automatisch vereenvoudigd worden, gericht op de unieke noden van scholieren met dyslexie in de derde graad middelbaar onderwijs?
 \end{itemize}
 
-De requirementsanalyse bood nieuwe inzichten in de huidige toepassingen van ATS. Zo beschikken online tools te weinig over gepersonaliseerde ATS-functionaliteiten, zoals gebleken in sectie \ref{sec:requirementsanalyse}. Daarnaast maken weinig tools gebruik van gepersonaliseerde weergaveopties, die echter een bewezen effect hebben op het leesbegrip van een scholier met dyslexie in de derde graad van het middelbaar onderwijs.
+% ontbrekende mts en ontbrekende
+Allereerst geeft de requirementsanalyse nieuwe inzichten in de huidige toepassingen voor ATS. Zo beschikken online tools te weinig over gepersonaliseerde ATS-functionaliteiten, zoals gebleken in sectie \ref{sec:requirementsanalyse}. Daarnaast maken geen tools buiten software specifiek voor scholieren met dyslexie geen gebruik van gepersonaliseerde opmaakopties. Toepassingen die wél wetenschappelijke artikelen kunnen opladen, beschikken over onvoldoende functionaliteiten om gepersonaliseerde ATS mogelijk te maken. Daarnaast ontbreken toepassingen die wél gepersonaliseerde ATS kunnen aanreiken over de nodige middelen om wetenschappelijke artikelen op een eenduidige manier op te laden. Om deze tools te kunnen gebruiken, moeten gebruikers \textit{commandline-interfaces} of chatbots gebruiken.
 
 \medspace
 
-Uit de vergelijkende studie blijkt dat GPT-3 de leesbaarheid van een wetenschappelijke tekst kan bevorderen door gebruik te maken van eenvoudigere synoniemen en structurele aanpassingen, waaronder het schrijven van tekst als een opsomming. Andere geteste taalmodellen uit HuggingFace behalen zwakkere resultaten en vereisen een extra vertaalfase, die redundant is bij het aanspreken van de GPT-3 API.
+% welk taalmodel gebruiken?
+De vergelijkende studie wijst uit dat de geteste taalmodellen in staat zijn om LS mogelijk te maken. SS is enkel beschikbaar bij het GPT-3 model. Dit taalmodel kan doelgroepen in grote lijnen inschatten, alsook formaatwijzigingen toepassen zoals het herschrijven van een tekst als opsomming of in tabelvorm. Andere geteste HF-taalmodellen behalen zwakkere resultaten en vereisen een extra vertaalfase, die niet nodig is bij het aanspreken van de GPT-3 API.
 
 \medspace
 
+% hoe een prototype opzetten?
 Uit de ontwikkeling van het prototype voor gepersonaliseerde ATS bleek dat \textit{open-source} AI en NLP-technologieën voldoende hoogstaand genoeg zijn om kwaliteitsvolle tekstvereenvoudigingssoftware te ontwikkelen. Zo kunnen ontwikkelaars gebruikmaken van PDFMiner om tekstinhoud uit wetenschappelijke artikelen te extraheren, van OpenAI's GPT-3 model via de API om gepersonaliseerde ATS mogelijk te maken en ten slotte van Pandoc om dynamische en gepersonaliseerde PDF-documenten automatisch te genereren. Binnen een webapplicatie kunnen eenduidige handelingen, gebouwd in JavaScript en HTML\&CSS, complexe commandlinehandelingen afhandelen.
 
-
 \medspace
 
-
-Ontwikkelaars hebben toegang tot T1, T2 en T3 via HuggingFace voor lexicale vereenvoudigingstaken. Deze taalmodellen zijn echter ontoereikend voor gepersonaliseerde tekstvereenvoudiging en daarom is T4 een geschikter model voor het vereenvoudigen van wetenschappelijke artikelen op maat. GPT-3 presteert goed op gepersonaliseerde vereenvoudigingstaken, maar het is belangrijk om op te merken dat geen enkel taalmodel de doelgroep altijd nauwkeurig kan inschatten. Extra trainingsdata, zoals leerstof of wetenschappelijke artikelen die wel op het niveau van een 16-18-jarige zijn geschreven, kan het model steunen bij de doelgroepsinschatting. Het gebruik van Engelstalige prompts met expliciete vermelding van de gewenste uitvoertaal, resulteert in coherentere teksten dan bij een Nederlandstalige prompt.
+Ontwikkelaars hebben toegang tot T1, T2 en T3 via HuggingFace voor lexicale vereenvoudigingstaken. Deze taalmodellen zijn echter ontoereikend voor gepersonaliseerde tekstvereenvoudiging en daarom is T4 een geschikter model voor het vereenvoudigen van wetenschappelijke artikelen op maat. T4 presteert goed op gepersonaliseerde vereenvoudigingstaken, maar het is belangrijk om op te merken dat geen enkel taalmodel de doelgroep altijd nauwkeurig kan inschatten. Extra trainingsdata, zoals leerstof of wetenschappelijke artikelen die wel op het niveau van een 16-18-jarige zijn geschreven, kan het model steunen bij de doelgroepsinschatting. Het gebruik van Engelstalige prompts met expliciete vermelding van de gewenste uitvoertaal, resulteert in coherentere teksten dan bij een Nederlandstalige prompt.

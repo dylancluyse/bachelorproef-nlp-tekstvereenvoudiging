@@ -3,11 +3,56 @@
 
 In dit hoofdstuk worden de resultaten uit de requirementsanalyse, vergelijkende studie en de ontwikkeling van het prototype besproken. 
 
+Dit hoofdstuk van het onderzoek bespreekt de resultaten van de drie onderzoeksmethoden. Allereerst geeft het onderzoek de resultaten van de requirementsanalyse, door middel van een bespreking van het toegepaste moscow-schema op de geteste tools. Daarna staat het onderzoek stil bij de objectieve en subjectieve leesgraadscores afgeleid uit de vergelijkende studie. Tot slot bespreekt het onderzoek het ontwikkelde prototype, alsook hoe dit prototype staat tegenover andere tools. De aftoetsing gebeurt op basis van de functionaliteiten voor gepersonaliseerde ATS op maat voor scholieren met dyslexie bij het begrijpend lezen van wetenschappelijke artikelen. 
+
 \section{Ontbrekende functies bij AI-toepassingen}
 
-% Onderzoeksvraag 1 Welke functies ontbreken AI-toepassingen om geautomatiseerde tekstvereenvoudiging mogelijk te maken voor scholieren met dyslexie in de derde graad middelbaar onderwijs?
+Op basis van de testen kan de volgende criteria worden afgetoetst, weergegeven in tabel \ref{table:afgetoetste-criteria}. Alle labels voor de \textit{must-haves} staan vetgedrukt.
 
-Op basis van de testen kan de volgende criteria worden afgetoetst, weergegeven in tabel \ref{table:afgetoetste-criteria}. Alle \textit{must-haves} zijn vetgedrukt.
+
+\medspace
+
+Alle geteste toepassingen, buiten O4 en O5, laten gebruikers toe om wetenschappelijk artikelen als pdf opladen. Figuur \ref{img:scispace-example} toont hoe O2 gebruikers in het oorspronkelijke bestand kan laten werken. O4 en O5 beschikken enkel over een \textit{plain-text} invoermethode. O2 en O5 kunnen online wetenschappelijke artikelen via URL, maar dit gebeurt echter bij één van de twee uitgeteste wetenschappelijke artikelen.
+
+\begin{figure}[H]
+	\includegraphics{img/typeset-example.png}
+	\caption{Informatie opvragen van een wetenschappelijk artikel met SciSpace}
+	\label{img:scispace-example}
+\end{figure}
+
+% Lexicale vereenvoudiging
+Alle uitgeteste tools passen moeilijke woorden aan naar een eenvoudiger alternatief. O1, O3, O4 en O5 kunnen een extra definitie aan de woorden toevoegen, maar enkel wanneer er geen eenvoudiger alternatief is. Figuur \ref{img:simplish-output} toont hoe O1 een extra definitie in de voetnoot plaatst. Figuur \ref{img:scholarcy} toont aan dat O3 op taalniveau de doelgroep probeert in te schatten met \textit{rewordifying level}. O4 en O5 passen de doelgroep aan naargelang de meegegeven doelgroep in de prompt. Andere uitgeteste tools passen de woorden aan, maar bieden geen transparantie over de inschatting van de doelgroep.
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{img/simplish-output.png}
+	\caption{Illustratie van de tekstanalyse bij Simplish na een tekstvereenvoudiging.}
+	\label{img:simplish-output}
+\end{figure}
+	
+\begin{figure}[H]
+		\includegraphics[width=\linewidth]{img/scholarcy-attempt.png}
+		\caption{Illustratie van de tekstanalyse bij Rewordify.}
+		\label{img:scholarcy}
+\end{figure}
+
+\medspace
+
+% Woordenlijst
+
+E1, E2, E3 en O1 kunnen woorden- en synoniemenlijsten genereren. De gebruiker moet hier de moeilijke woorden handmatig selecteren. Nadien bouwt de toepassing een woordenlijst. E1 geeft de eindgebruiker de keuze waarvan E1 de definitie moet halen. O1 geeft het type woord, zoals adjectieven of werkwoord, ook mee in de woordenlijst. O4 en O5 kunnen enkel een woordenlijst genereren na een expliciete prompt. Zowel handmatige als automatische woordselectie resulteren met de geteste prompt in een woordenlijst. Andere tools zijn niet in staat om een woordenlijst te genereren. De inschatting van de doelgroep bij deze moeilijke woorden gebeurt enkel manueel.
+
+\medspace
+
+E1, E2 en E3 reiken de \textit{must-have} opmaakopties aan binnen de toepassing. Andere tools ontbreken personaliseerbare opmaakopties en bieden een statische webweergave aan. E1, E2 en E3 bieden manieren aan om de aangepaste documenten op te slaan als PDF. Ten slotte biedt geen uitgeteste tool personaliseerbare opmaakopties voor de uitvoerbestanden aan. 
+
+\medspace
+
+E1, E2 en E3 kunnen geen SS-technieken toepassen op de oorspronkelijke tekst. Overige uitgeteste tools kunnen zinnen inkorten door ze te splitsen. Geen van de uitgeteste tools is in staat om automatisch de tekst naar de actieve vorm te schrijven. O4 en O5 kunnen zinnen omvormen naar de actieve stem, maar enkel als de tool een extra voornaamwoord of onderwerp in de prompt meekrijgt. O4 en O5 kunnen onregelmatige werkwoorden wegwerken. E1, E2 en E3 kunnen een extraherende samenvatting van de tekst maken, maar enkel na een handmatige selectie van de zinnen. 
+
+\medspace
+
+Tot slot slaagt enkel O4 en O5 erin om de tekst te herschrijven als opsomming of tabel. De andere uitgeteste tools kunnen dit niet automatisch doen.
+
 
 \begin{table}[H]
 	\centering
@@ -44,52 +89,26 @@ Op basis van de testen kan de volgende criteria worden afgetoetst, weergegeven i
 	\label{table:afgetoetste-criteria}
 \end{table}
 
-Huidige door de overheid erkende software kunnen woorden- en synoniemenlijsten genereren na een handmatige selectie van de woorden. Toch kunnen de geteste softwarepakketten geen syntactische vereenvoudiging toepassen op de oorspronkelijke tekst. Daarnaast ontbreken deze erkende software de nodige opmaakopties om een gepersonaliseerde leeservaring aan te bieden. Online beschikbare tools zijn in staat om ATS op zowel Nederlandstalige als Engelstalige wetenschappelijke artikelen toe te passen. Echter houdt geen enkele tool (bewust) rekening met de doelgroep. Daardoor worden alle moeilijke woorden indien mogelijk vervangen door een eenvoudiger synoniem. Indien er geen eenvoudiger synoniem is, dan wordt het woord behouden in de vereenvoudigde tekst en het taalmodel voegt geen ondersteunende definitie toe. Daarnaast maken deze geteste tools geen gebruik van gepersonaliseerde opmaakopties, noch van de webtoepassing noch van het uitvoerbestand. Alle prompts bij ChatGPT en Bing Chat kunnen de benoemde technieken voor lexicale vereenvoudiging toepassen. Enkel schrijven naar de actieve verloopt stroef en alle prompts resulteren in een zin met identieke semantiek, maar geschreven in de passieve stem. De twee chatbots voldoen niet aan de gebruiken een statische weergave en zijn daarmee niet personaliseerbaar. De twee chatbots zijn als enige in staat om structurele aanpassingen in de vorm van opsommingen of tabelstructuren toe te passen op de oorspronkelijke tekst.
-
-\medspace
-
-% Onderzoeksvraag 2
-
-ChatGPT en Bing Chat dat gepersonaliseerde ATS met evenwaardige kwaliteiten als gepersonaliseerde MTS mogelijk is, maar de online toepassingen ontbreken de nodige opmaakopties om een gepersonaliseerde leeservaring aan te kunnen bieden. Alsook kunnen deze tools geen wetenschappelijke artikelen op een intuïtieve manier inlezen, maar vereisen deze het manueel extraheren van de tekstinhoud om vervolgens deze in de chatbot chunk-by-chunk in te voeren. Daarnaast zijn deze toepassingen niet in staat om teksten naar de actieve stem te schrijven bij geen van de uitgeteste prompts. Passieve zinnen bij de verschillende prompts resulteren in een zin met dezelfde semantiek, maar opnieuw in de passieve vorm. Enkel indien expliciet aangegeven in de prompt, houdt GPT-3 rekening met de doelgroep. Andere toepassingen kunnen dit niet.
-
-\begin{figure}[H]
-	\includegraphics{img/typeset-example.png}
-	\caption{Informatie opvragen van een wetenschappelijk artikel met SciSpace}
-	\label{img:scispace-example}
-\end{figure}
-
-\begin{figure}[H]
-	\includegraphics{img/bing-ai-chatbot-example.png}
-	\caption{Tekstvereenvoudiging via de link van een wetenschappelijk artikel met Bing Chat}
-	\label{img:tryout-bing-ai}
-\end{figure}
-
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{img/simplish-output.png}
-	\caption{Illustratie van de tekstanalyse bij Simplish na een tekstvereenvoudiging.}
-	\label{img:simplish-output}
-\end{figure}
-
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{img/scholarcy-attempt.png}
-	\caption{Illustratie van de tekstanalyse bij Rewordify.}
-	\label{img:scholarcy}
-\end{figure}
 
 \section{Geschikte taalmodel voor gepersonaliseerde tekstvereenvoudiging met ATS}
 
-
-De vergelijkende studie beoordeelt de uitvoer van de uitgeteste taallmodellen, beschreven in \ref{table:vergelijkende-studie-taalmodellen}, met een subjectieve en een objectieve benadering. Zo achterhaalt deze onderzoeksmethode welk taalmodel of LLM beter aansluit bij het aanbieden van gepersonaliseerde ATS voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs. 
+De vergelijkende studie evalueert de uitvoer van de uitgeteste taallmodellen, opgesomd in \ref{table:vergelijkende-studie-taalmodellen}, met een subjectieve en een objectieve benadering. Zo achterhaalt deze onderzoeksmethode welk taalmodel of LLM beter aansluit bij het aanbieden van gepersonaliseerde ATS voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs. 
 
 \medspace
 
-Zowel A1 en A2 bevatten meer zinnen na het vereenvoudigen met T1, T2 en T3 vergeleken met de oorspronkelijke tekst, zoals weergegeven in tabel \ref{table:resultaten-aantal-zinnen}. Daarnaast gebruiken T1, T2 en T3 gemiddeld minder woorden per zin dan het oorspronkelijke artikel. Alleen P3 van T4 slaagt erin om gemiddeld minder woorden per zin te gebruiken dan de oorspronkelijke en de referentieteksten van zowel leerlingen en de referentieteksten van leerkrachten, vergeleken met P1 en P2 die elk gemiddeld meer dan 19 woorden per zin gebruiken, zoals te zien is in figuren \ref{img:boxplot-min-max-avg-words-a1} en \ref{img:boxplot-min-max-avg-words-a2}. 
+Tabel \ref{table:resultaten-aantal-zinnen} geeft het aantal zinnen per (vereenvoudigd) artikel. De MTS-referentieteksten bevatten minder zinnen dan het oorspronkelijk artikel. Het aantal zinnen na ATS met T1, T2 en T3 is gehalveerd tot minder dan een kwart van oorspronkelijke hoeveelheid zinnen. Enkel T4P2 genereert meer zinnen dan de oorspronkelijke versie van A1 na ATS. T4P2 genereert bij zowel A1 als A2 meer zinnen vergeleken met de andere geteste taalmodellen. T2 daarentegen genereert bij beide artikelen het minst aantal zinnen.
+
+\medspace
+
+Figuren \ref{img:boxplot-min-max-avg-words-a1} en \ref{img:boxplot-min-max-avg-words-a2} tonen de verdeling tussen het aantal gebruikte woorden per zin per taalmodel. Zo scoren alle artikelen gem
+
+Daarnaast gebruiken T1, T2 en T3 gemiddeld minder woorden per zin dan het oorspronkelijke artikel. Alleen P3 van T4 slaagt erin om gemiddeld minder woorden per zin te gebruiken dan de oorspronkelijke en de referentieteksten van zowel leerlingen en de referentieteksten van leerkrachten, vergeleken met P1 en P2 die elk gemiddeld meer dan 19 woorden per zin gebruiken, zoals te zien is in figuren . 
 
 \begin{table}[h]
 	\centering
 	\begin{tabular}{ | m{3cm} | m{3cm} | m{3cm} | } 
 		\hline
-		Bron & #Zinnen in A1 & #Zinnen in A2 \\
+		\textbf{Bron} & \textbf{#Zinnen in A1} & \textbf{#Zinnen in A2} \\
 		\hline
 		Oorspronkelijk & 78  & 159 \\ 
 		\hline
@@ -97,11 +116,11 @@ Zowel A1 en A2 bevatten meer zinnen na het vereenvoudigen met T1, T2 en T3 verge
 		\hline
 		MTS (door leerling) & n.v.t. & 50 \\
 		\hline
-		T1 & 101 & 209 \\
+		T1 & 26 & 24 \\
 		\hline
-		T2 & 82 & 209 \\
+		T2 & 11 & 7 \\
 		\hline
-		T3 & 100 & 209 \\
+		T3 & 67 & 130 \\
 		\hline
 		T4 P1 & 61 & 98 \\
 		\hline
@@ -126,7 +145,7 @@ Zowel A1 en A2 bevatten meer zinnen na het vereenvoudigen met T1, T2 en T3 verge
 	\label{img:boxplot-min-max-avg-words-a2}
 \end{figure}
 
-De FRE-scores van alle geteste taalmodellen en MTS-referentieteksten zijn niet significant hoger of lager dan die van het oorspronkelijke wetenschappelijke artikel, zoals weergegeven in figuren \ref{img:boxplot-fre-a1} en \ref{img:boxplot-fre-a2}. Evenzo zijn de FOG-scores ook niet significant hoger of lager bij de vereenvoudigde wetenschappelijke artikelen, zoals aangegeven in figuren \ref{img:boxplot-fog-a1} en \ref{img:boxplot-fog-a2}. 
+De FRE-scores van alle geteste taalmodellen en MTS-referentieteksten zijn niet significant hoger of lager dan die van het oorspronkelijke wetenschappelijke artikel, zoals weergegeven in figuren \ref{img:boxplot-fre-a1} en \ref{img:boxplot-fre-a2}. Daarnaast zijn de FOG-scores niet significant hoger of lager bij de vereenvoudigde wetenschappelijke artikelen, zoals aangegeven in figuren \ref{img:boxplot-fog-a1} en \ref{img:boxplot-fog-a2}. 
 
 
 \begin{figure}
@@ -153,7 +172,7 @@ De FRE-scores van alle geteste taalmodellen en MTS-referentieteksten zijn niet s
 	\label{img:boxplot-fog-a2}
 \end{figure}
 
-T1, T2 en T3 gebruiken bij zowel A1 als A2 langere woorden vergeleken met de oorspronkelijke tekst, in tegenstelling tot alle T4 prompts die wel langere woorden wegwerken en zo een gelijk resultaat bekomen als de MTS referentieteksten. Deze verhouding wordt aangewezen in figuur \ref{img:violinplot-long-a1} en figuur \ref{img:violinplot-long-a2}. Daarnaast vervangen T1, T2 en T3 ook minder complexe woorden vergeleken met T4 en de MTS-referentietekst. Dit verschil wordt geïllustreerd in figuur \ref{img:violinplot-complex-a1} en figuur \ref{img:violinplot-complex-a2}.
+T1, T2 en T3 gebruiken bij zowel A1 als A2 langere woorden vergeleken met de oorspronkelijke tekst, in tegenstelling tot alle T4 prompts die wel langere woorden wegwerken en zo een gelijk resultaat bekomen als de MTS referentieteksten. Deze verhouding wordt aangewezen in figuren \ref{img:violinplot-long-a1} en \ref{img:violinplot-long-a2}. Daarnaast vervangen T1, T2 en T3 ook minder complexe woorden vergeleken met T4 en de MTS-referentietekst. Dit verschil wordt geïllustreerd in figuren \ref{img:violinplot-complex-a1} en \ref{img:violinplot-complex-a2}.
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{img/violinplot-complex-a1.png}
@@ -205,18 +224,7 @@ Ten slotte gebruiken T1, T2 en T3 minder hulpwerkwoorden en vervoegingen van het
 	\label{img:histplot-tobe-a2}
 \end{figure}
 
-
-\begin{itemize}
-	\item Acroniemen behouden
-	\item Inschatting van de doelgroep
-	\item Behoud van kern- en bijzaken
-	\item Bronvermelding behouden
-	\item Formaatwijzigingen
-	\item Citeren en parafraseren
-\end{itemize}
-
-
-T4P1 en T4P2 vertalen Engelstalige vaktermen naar het Nederlands. Zo blijft de afkorting voor DPKIA intact, maar vertaalt T4P1 hetzelfde woord naar het Nederlands.  T1, T2, T3 en T4P3 houden hier echter geen rekening mee en behouden de oorspronkelijke versie van de tekst. Bij de handmatige vereenvoudiging schrijft de auteur alle afkortingen voluit, zoals beschreven in de richtlijnen. % GPT heeft geen weet wat deze acroniemen zijn.
+T4P1 en T4P2 vertalen Engelstalige vaktermen naar het Nederlands. Zo blijft de afkorting voor DPKIA intact, maar vertaalt T4P1 hetzelfde woord naar het Nederlands.  T1, T2, T3 en T4P3 houden hier echter geen rekening mee en behouden de oorspronkelijke versie van de tekst. De auteurs schrijven alle afkortingen voluit, zoals beschreven in de richtlijnen.
 
 \medspace
 
@@ -224,23 +232,21 @@ Alle taalmodellen kunnen lexicale vereenvoudiging toepassen. De handmatig vereen
 
 \medspace
 
-Geen taalmodel wijkt af van de hoofdgedachte van het oorspronkelijke wetenschappelijk artikel. Hoewel T1, T2 en T3 deels afgebroken zinnen kan genereren, bevatten deze zinnen de hoofdgedachte. Tenslotte verwerken T1, T2 en T3 de APA- en California bronvermeldingen niet in de vereenvoudigde teksten. Hoewel T4 deze wel verwerkt, bevat de tekst na een vereenvoudiging deze bronvermeldingen niet meer. % Het taalmodel verwerkt of herwerkt deze tekst niet.
+T4P3 verkort lange zinnen door deze op te splitsen. T1, T2 en T3 behalen een gelijke zinslengte als dat van de oorspronkelijke zin. T4P1 en T4P2 kunnen snel langere zinnen genereren, maar smelten geen twee zinnen met elkaar samen.
 
 \medspace
 
-T4P3 maakt de zinnen korter door langere zinnen op te splitsen. T1, T2 en T3 behalen een gelijke zinslengte als dat van de oorspronkelijke zin. T4P1 en T4P2 voegen 
+Geen taalmodel wijkt af van de hoofdgedachte van het oorspronkelijke wetenschappelijk artikel. Hoewel T1, T2 en T3 deels afgebroken zinnen kan genereren, bevatten deze zinnen de hoofdgedachte. T2 bevat minder dan 10\% van het oorspronkelijk artikel en ontbreekt daarbij bijzaken die nodig zijn om alle vragen in \ref{ch:referentietekst} te kunnen begrijpen en te beantwoorden. Tenslotte verwerken T1, T2 en T3 de APA- en California bronvermeldingen niet in de vereenvoudigde teksten. Hoewel T4 deze wel verwerkt, bevat de tekst na een vereenvoudiging deze bronvermeldingen niet meer.
 
-% Taalmodellen T1, T2 en T3 zijn niet in staat om syntactische vereenvoudiging op een tekst toe te passen. Alleen T4 kan via P1, P2 en P3 de zinsyntax verlagen. Hoewel alle geteste taalmodellen in staat zijn om lexicale vereenvoudiging te realiseren, wordt de nauwkeurigheid van de doelgroepsinschatting in twijfel getrokken. De referentieteksten schatten de doelgroep correct in door bekend jargon niet aan te passen, maar wel nieuwe jargon aan te passen als er een beschikbaar synoniem is. Daarnaast kan P1 van T4 ook de coherentie van een meegegeven paragraaf bevorderen, door onder meer omslachtige zinsstructuren aan te passen naar signaalwoorden. 
+\medspace
 
-% T4 heeft verschillende voordelen ten opzichte van T1, T2 en T3 bij gepersonaliseerde ATS voor wetenschappelijke artikelen. Ten eerste kan T4 het aantal zinnen verminderen, terwijl T1, T2 en T3 juist meer zinnen genereren in de vereenvoudigde tekst. T4 slaagt er ook in om gemiddeld minder woorden per zin te gebruiken dan de oorspronkelijke tekst, terwijl de andere modellen dit niet kunnen bereiken. Daarnaast weet T4 langere woorden weg te laten en complexe woorden beter te vervangen dan T1, T2 en T3. Dit resulteert in vereenvoudigde wetenschappelijke artikelen die vergelijkbaar zijn met de referentieteksten. T4 is ook uniek in zijn vermogen om de zinsyntax te verlagen en de coherentie van een paragraaf te verbeteren door signaalwoorden toe te passen. Een ander voordeel van T4 is dat het flexibeler is in het aanpassen van het formaat van de uitvoer. Terwijl T1, T2 en T3 alleen doorlopende tekst produceren, kan T4 ook het formaat wijzigen naar een tabelvorm of opsomming indien expliciet gevraagd. Deze voordelen maken T4 een aantrekkelijke keuze ten opzichte van T1, T2 en T3 bij gepersonaliseerde ATS van wetenschappelijke artikelen voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs.
+Ter conclusie scoren de drie prompts van T4 beter op iedere gemeten techniek. Het taalmodel en de verwante drie prompts genereren coherente teksten met een verlaagde lexicale complexiteit. Echter houden de geteste taalmodellen weinig tot geen rekening met afkortingen of bronvermeldingen.
 
 \section{Het prototype voor tekstvereenvoudiging met ATS vergeleken met top-of-the-line tools.}
 
 % deelvraag: Hoe kan een intuïtieve en lokale webtoepassing worden ontwikkeld die zowel scholieren met dyslexie als docenten helpt bij het vereenvoudigen van wetenschappelijke artikelen met behoud van semantiek, jargon en zinsstructuren?
 
-Vanuit de homepagina kunnen eindgebruikers drie schermen kiezen: het lerarencomponent, het scholierencomponent en een instellingenpagina.
-
-In de instellingenpagina kunnen eindgebruikers de opmaakopties aanpassen naargelang hun keuze. 
+Gebruikers kunnen vanuit de homepagina drie schermen kiezen: het lerarencomponent, het scholierencomponent en een instellingenpagina. In de instellingenpagina kunnen eindgebruikers de opmaakopties aanpassen naargelang hun keuze. Figuur \ref{img:website-instellingen} toont alle aanpasbare opmaakopties 
 
 \begin{center}
 	\begin{figure}[H]
@@ -250,7 +256,7 @@ In de instellingenpagina kunnen eindgebruikers de opmaakopties aanpassen naargel
 	\end{figure}
 \end{center}
 
-Bovendien stelt het prototype gebruikers in staat om op basis van gegeven parameters automatisch personaliseerbare PDF- en Word-documenten te genereren.
+Bovendien stelt het prototype gebruikers in staat om op basis van gekregen parameters automatisch personaliseerbare pdf en docx-documenten te genereren.
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{img/proto-lerarencomponent.png}
@@ -276,6 +282,8 @@ Figuur \ref{img:proto-pos-tagging-scholieren} toont een voorbeeldweergave van de
 	\end{figure}
 \end{center}
 
+Scholieren kunnen zinnen selecteren om daarna deze tekst te laten vereenvoudigen met gepersonaliseerde ATS. Figuren \ref{img:proto-scholieren-step-1} en \ref{img:proto-scholieren-step-3} tonen hoe een gebruiker van gemarkeerde doorlopende tekst een opsomming kan maken met het prototype. Het prototype kan doorlopende tekst omvormen naar een opsomming van tekst. Echter beschikt het prototype geen functionaliteit om doorlopende tekst naar een tabel om te vormen.
+
 \begin{center}
 	\begin{figure}[H]
 		\includegraphics[width=\linewidth]{img/proto-opsomming-1.png}
@@ -287,12 +295,12 @@ Figuur \ref{img:proto-pos-tagging-scholieren} toont een voorbeeldweergave van de
 \begin{center}
 	\begin{figure}[H]
 		\includegraphics[width=\linewidth]{img/proto-opsomming-3.png}
-		\caption{Stap 3 van een gepersonaliseerde tekstvereenvoudiging in het scholierencomponent.}
+		\caption{Stap 2 van een gepersonaliseerde tekstvereenvoudiging in het scholierencomponent.}
 		\label{img:proto-scholieren-step-3}
 	\end{figure}
 \end{center}
 
-Het scholierencomponent biedt functionaliteiten aan om een ondersteunende ervaring aan scholieren toe te lenen. Zo kunnen scholieren specifieke zinnen vereenvoudigen door middel van gepersonaliseerde ATS. Figuren \ref{img:step-1-proto-vraagstelling} en \ref{img:step-2-proto-vraagstelling} tonen een tweede functionaliteit. Zo kunnen scholieren specifieke vragen stellen aan het prototype door middel van een gecentreerd invoerscherm.
+Figuren \ref{img:step-1-proto-vraagstelling} en \ref{img:step-2-proto-vraagstelling} tonen een tweede functionaliteit. Zo kunnen scholieren specifieke vragen stellen aan het prototype door middel van een gecentreerd invoerscherm.
 
 \begin{center}
 	\begin{figure}
@@ -310,10 +318,20 @@ Het scholierencomponent biedt functionaliteiten aan om een ondersteunende ervari
 	\end{figure}
 \end{center}
 
-De ontwikkeling van een prototype voor een gepersonaliseerde ATS van wetenschappelijke artikelen heeft tot doel om ontwikkelaars inzicht te verschaffen in de mogelijkheden om een coherente en lokale webtoepassing te ontwikkelen. Na evaluatie blijkt het prototype te voldoen aan de gespecificeerde functionaliteiten zoals vastgesteld in het Moscow-schema of tabel \ref{img:moscow-table}. Hiermee overtreft het prototype alle andere geteste tools in tabel \ref{table:overview-tools} op alle fronten. Eerdere belemmeringen, zoals het wijzigen van het formaat, waren enkel mogelijk via de commandline of via een chatbot. Het huidige prototype heeft echter intuïtieve handelingen geïmplementeerd om deze obstakels te overwinnen. 
+Na evaluatie en experimenten blijkt het prototype te voldoen aan de gespecificeerde \textit{must-have} functionaliteiten, zoals vastgesteld in het moscow-schema of tabel \ref{img:moscow-table}. Het onderzoek overloopt deze functionaliteiten.
 
-Het prototype bevat functionaliteiten waarmee eindgebruikers wetenschappelijke artikelen kunnen inladen. Daarna krijgen zowel de leraren als de scholieren de mogelijkheid om de tekst te manipuleren door middel van gepersonaliseerde ATS. Zo bevat het prototype alle must-haves uit het moscow-schema. Daarnaast bevat het prototype geen enkele wont-have.
+\medspace
 
-Deze functionaliteiten zijn vergelijkbaar met andere geteste tools in de requirementsanalyse, maar gaan verder dan wat momenteel beschikbaar is in chatbots die geavanceerde logica gebruiken voor gepersonaliseerde ATS. Zowel scholieren als docenten kunnen ook de opmaakopties van de toepassing aanpassen aan hun persoonlijke voorkeuren bij het lezen van wetenschappelijke artikelen. 
+Het prototype biedt twee manieren aan om pdf-bestanden in te lezen, namelijk via OCR en via PDFMiner. Daarnaast kan plain-text ook dienen als voer voor het prototype. Dit maakt het prototype gelijkwaardig aan de uitgeteste tools.
+
+\medspace
+
+Alle eindgebruikers kunnen de opmaakopties van de toepassing aanpassen aan hun persoonlijke voorkeuren bij het lezen van wetenschappelijke artikelen. Alsook de opmaak van het uitvoerbestand personaliseren. De koppenstructuur, 
+
+Ontbrekende should-haves en wont-haves.
+
+\medspace
+
+Tot slot bevat het prototype geen \textit{wont-have}. Zo ontbreekt het prototype een luistercomponent waarbij scholieren de vereenvoudigde tekst kunnen beluisteren. Deze functionaliteit is wel aanwezig bij E1, E2 en E3. Daarnaast is het prototype niet beschikbaar als browserextensie. Andere uitgeteste tools beschikken hier ook niet over. Tot slot is het prototype enkel in een lokale omgeving beschikbaar. Andere uitgeteste toepassingen zijn online beschikbaar. 
 
 % Dit wordt gerealiseerd door woordenlijsten te reproduceren na een zorgvuldige handmatige selectie van moeilijke woorden. Het prototype is lokaal op te zetten met behulp van Docker, hoewel voor het gebruik ervan een internetverbinding vereist is, net als bij andere tools in tabel \ref{table:overview-tools}.
