@@ -19,42 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{apa/global//global/global}
-    \entry{Vlaanderen2020}{misc}{}
-      \list{publisher}{1}{%
-        {Vlaamse overheid}%
-      }
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{journaltitle}{www.vlaanderen.be}
-      \field{month}{3}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb https://www.vlaanderen.be/publicaties/begrijpend-leesonderwijs-in-de-basisscholen-kwaliteitsvol-sterke-en-zwakke-punten-van-de-huidige-praktijk
-      \endverb
-      \verb{url}
-      \verb https://www.vlaanderen.be/publicaties/begrijpend-leesonderwijs-in-de-basisscholen-kwaliteitsvol-sterke-en-zwakke-punten-van-de-huidige-praktijk
-      \endverb
-    \endentry
-    \entry{CAS2021}{misc}{}
-      \list{publisher}{1}{%
-        {Charlesworth Author Services}%
-      }
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{journaltitle}{How to make complex scientific concepts more accessible - Charlesworth Author Services}
-      \field{month}{9}
-      \field{year}{2021}
-      \verb{urlraw}
-      \verb https://www.cwauthors.com/article/How-to-write-about-complex-scientific-concepts-in-simple-accessible-language
-      \endverb
-      \verb{url}
-      \verb https://www.cwauthors.com/article/How-to-write-about-complex-scientific-concepts-in-simple-accessible-language
-      \endverb
-    \endentry
     \entry{Althunayyan2021}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=f1254c5c258ecf733ecf852af5a9f4f5}{%
@@ -417,6 +381,49 @@
       \field{title}{Bestaat Dyslexie?: En is het een relevante vraag?}
       \field{year}{2020}
     \endentry
+    \entry{Fernando2021}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9fc39be960ade3cfaafbc92b8316cef4}{%
+           family={Botelho},
+           familyi={B\bibinitperiod},
+           given={Fernando\bibnamedelimb H.\bibnamedelimi F.},
+           giveni={F\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor & Francis}%
+      }
+      \strng{namehash}{9fc39be960ade3cfaafbc92b8316cef4}
+      \strng{fullhash}{9fc39be960ade3cfaafbc92b8316cef4}
+      \strng{bibnamehash}{9fc39be960ade3cfaafbc92b8316cef4}
+      \strng{authorbibnamehash}{9fc39be960ade3cfaafbc92b8316cef4}
+      \strng{authornamehash}{9fc39be960ade3cfaafbc92b8316cef4}
+      \strng{authorfullhash}{9fc39be960ade3cfaafbc92b8316cef4}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Assistive Technology}
+      \field{note}{PMID: 34951832}
+      \field{number}{sup1}
+      \field{title}{Accessibility to digital technology: Virtual barriers, real opportunities}
+      \field{volume}{33}
+      \field{year}{2021}
+      \field{pages}{27\bibrangedash 34}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1080/10400435.2021.1945705
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/10400435.2021.1945705
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/10400435.2021.1945705
+      \endverb
+    \endentry
     \entry{Brown2020}{misc}{}
       \name{author}{31}{}{%
         {{un=0,uniquepart=base,hash=7c16e8d36475e58d4f2d161e6ecb7704}{%
@@ -775,6 +782,37 @@
       \field{title}{A Survey on Neural Abstractive Summarization Methods and Factual Consistency of Summarization}
       \field{year}{2022}
       \keyw{Computation and Language (cs.CL),FOS: Computer and information sciences,FOS: Computer and information sciences}
+    \endentry
+    \entry{CAS2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=17bae5e1850c2d395b053b75acd1d5b5}{%
+           family={{Charlesworth Author Services}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Charlesworth Author Services}%
+      }
+      \strng{namehash}{17bae5e1850c2d395b053b75acd1d5b5}
+      \strng{fullhash}{17bae5e1850c2d395b053b75acd1d5b5}
+      \strng{bibnamehash}{17bae5e1850c2d395b053b75acd1d5b5}
+      \strng{authorbibnamehash}{17bae5e1850c2d395b053b75acd1d5b5}
+      \strng{authornamehash}{17bae5e1850c2d395b053b75acd1d5b5}
+      \strng{authorfullhash}{17bae5e1850c2d395b053b75acd1d5b5}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{How to make complex scientific concepts more accessible - Charlesworth Author Services}
+      \field{month}{9}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.cwauthors.com/article/How-to-write-about-complex-scientific-concepts-in-simple-accessible-language
+      \endverb
+      \verb{url}
+      \verb https://www.cwauthors.com/article/How-to-write-about-complex-scientific-concepts-in-simple-accessible-language
+      \endverb
     \endentry
     \entry{Chowdhary2020}{book}{}
       \name{author}{1}{}{%
@@ -3527,6 +3565,37 @@
       \verb 10.1017/S1041610210000037
       \endverb
     \endentry
+    \entry{Vlaanderen2020}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e2b881798bfc9efd4183b78e573a2140}{%
+           family={{Onderwijsinspectie Overheid Vlaanderen}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Vlaamse overheid}%
+      }
+      \strng{namehash}{e2b881798bfc9efd4183b78e573a2140}
+      \strng{fullhash}{e2b881798bfc9efd4183b78e573a2140}
+      \strng{bibnamehash}{e2b881798bfc9efd4183b78e573a2140}
+      \strng{authorbibnamehash}{e2b881798bfc9efd4183b78e573a2140}
+      \strng{authornamehash}{e2b881798bfc9efd4183b78e573a2140}
+      \strng{authorfullhash}{e2b881798bfc9efd4183b78e573a2140}
+      \field{sortinit}{O}
+      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{www.vlaanderen.be}
+      \field{month}{3}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.vlaanderen.be/publicaties/begrijpend-leesonderwijs-in-de-basisscholen-kwaliteitsvol-sterke-en-zwakke-punten-van-de-huidige-praktijk
+      \endverb
+      \verb{url}
+      \verb https://www.vlaanderen.be/publicaties/begrijpend-leesonderwijs-in-de-basisscholen-kwaliteitsvol-sterke-en-zwakke-punten-van-de-huidige-praktijk
+      \endverb
+    \endentry
     \entry{OnderwijsVlaanderen2023}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6b5966c9fecb2d7a2f975270bf80b47f}{%
@@ -4143,6 +4212,56 @@
       \field{pages}{72\bibrangedash 80}
       \range{pages}{9}
     \endentry
+    \entry{Rello2012a}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=beb516ae4b9334129c564a1d33d9ec9b}{%
+           family={Rello},
+           familyi={R\bibinitperiod},
+           given={Luz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ecd6fb01cce2230c5d4a653f1df9cb57}{%
+           family={Kanvinde},
+           familyi={K\bibinitperiod},
+           given={Gaurang},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=14e9e2c7e918f62ba13b9e040fb7f468}{%
+           family={Baeza-Yates},
+           familyi={B\bibinithyphendelim Y\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Lyon, France}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{5f8b0dbae47e570be334bb804b81d6ad}
+      \strng{fullhash}{a76335588d8c2243e2f83afbb4bbab25}
+      \strng{bibnamehash}{a76335588d8c2243e2f83afbb4bbab25}
+      \strng{authorbibnamehash}{a76335588d8c2243e2f83afbb4bbab25}
+      \strng{authornamehash}{5f8b0dbae47e570be334bb804b81d6ad}
+      \strng{authorfullhash}{a76335588d8c2243e2f83afbb4bbab25}
+      \field{extraname}{1}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, we offer set of guidelines and a web service that presents Web texts in a more more accessible way to people with dyslexia. The layout guidelines for developing this service are based on a user study with a group of twenty two dyslexic users. The data collected from our study combines qualitative data from interviews and questionnaires and quantitative data from tests carried out using eye tracking. We analyze and compare both kinds of data and present a set of layout guidelines for making the text Web more readable for dyslexic users. To the best of our knowledge, our methodology for defining dyslexic-friendly guidelines and our web service are novel.}
+      \field{isbn}{9781450310192}
+      \field{journaltitle}{Proceedings of the International Cross-Disciplinary Conference on Web Accessibility}
+      \field{series}{W4A '12}
+      \field{title}{Layout Guidelines for Web Text and a Web Service to Improve Accessibility for Dyslexics}
+      \field{year}{2012}
+      \keyw{browsing web service,web accessibility,dyslexia,readability,accessibility guidelines,usability tests}
+    \endentry
     \entry{Rello2012}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=beb516ae4b9334129c564a1d33d9ec9b}{%
@@ -4176,8 +4295,10 @@
       \strng{authorbibnamehash}{a76335588d8c2243e2f83afbb4bbab25}
       \strng{authornamehash}{5f8b0dbae47e570be334bb804b81d6ad}
       \strng{authorfullhash}{a76335588d8c2243e2f83afbb4bbab25}
+      \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradate}{2}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{year}
       \true{uniqueprimaryauthor}

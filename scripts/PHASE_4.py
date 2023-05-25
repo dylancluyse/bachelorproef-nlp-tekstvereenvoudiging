@@ -24,6 +24,11 @@ for paper in scientific_papers:
         text = file.read()
     nlp = spacy.load(languages.get('nl'))
     doc = nlp(text)
+
+    total_sentences = 0
+    for sent in doc.sents:
+        total_sentences += 1
+
     
     for sent in doc.sents:
         try:

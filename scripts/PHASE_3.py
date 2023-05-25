@@ -8,7 +8,7 @@ from langdetect import detect
 from googletrans import Translator
 from deep_translator import GoogleTranslator
 import openai
-
+import numpy as np
 
 
 folder_path = 'scripts\pdf'
@@ -85,11 +85,22 @@ def process_file(file_path):
     with open(folder_path + '/' + file_path, "r", encoding='utf8') as file:
         text = file.read()
         tokens = tokenize_text(text)
-        return tokens
+        sentences = []
+        for s in tokens:
+            try:
+                sentences.append(s)
+            except Exception as e:
+                print(e)
+        
+        sentences = np.array(sentences)
+        pad_size = 5 - (sentences.size % 5)
+        padded_a = np.pad(sentences, (0, pad_size), mode='empty')
+        paragraphs = padded_a.reshape(-1, 5)
+        return paragraphs
 
-hf = HuggingFaceModels('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')
+hf = HuggingFaceModels(os.getenv('huggingface-api-key'))
 original_scientific_papers = [f for f in os.listdir(folder_path)]
-print(original_scientific_papers)
+
 for paper in original_scientific_papers:
     sentence_tokens = process_file(paper) 
     for sentence in sentence_tokens:
