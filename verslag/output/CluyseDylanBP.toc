@@ -47,79 +47,87 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Vergelijkende studie}{45}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Prototype voor tekstvereenvoudiging}{53}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Prototype voor tekstvereenvoudiging}{54}{section.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Taalmodellen selecteren}{54}{figure.caption.45}%
+\contentsline {subsubsection}{Taalmodellen selecteren}{55}{figure.caption.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Programmeertalen, frameworks en verwante libraries selecteren}{56}{figure.caption.45}%
+\contentsline {subsubsection}{Programmeertalen, frameworks en verwante libraries selecteren}{55}{figure.caption.45}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Back end opzet}{57}{table.caption.47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{PDFMiner implementatie}{59}{lstnumber.3.6.11}%
+\contentsline {subsubsection}{PDFMiner implementatie}{60}{lstnumber.3.7.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{EasyOCR implementatie}{59}{lstnumber.3.7.8}%
+\contentsline {subsubsection}{EasyOCR implementatie}{60}{lstnumber.3.8.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Geëxtraheerde inhoud formatteren naar een webpagina.}{60}{lstnumber.3.8.16}%
+\contentsline {subsubsection}{Geëxtraheerde inhoud formatteren naar een webpagina.}{61}{lstnumber.3.9.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Invulformulier maken voor het lerarencomponent.}{61}{lstnumber.3.9.35}%
+\contentsline {subsubsection}{Invulformulier maken voor het lerarencomponent.}{62}{lstnumber.3.11.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Prompts schrijven voor gepersonaliseerde ATS}{62}{table.caption.48}%
+\contentsline {subsubsection}{Prompts schrijven voor gepersonaliseerde ATS in het lerarencomponent}{63}{table.caption.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Back end functies maken voor gepersonaliseerde ATS}{62}{table.caption.48}%
+\contentsline {subsubsection}{Back end functies maken voor gepersonaliseerde ATS}{64}{table.caption.50}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Pandoc implementatie}{65}{table.caption.51}%
+\contentsline {subsubsection}{Pandoc implementatie}{67}{lstnumber.3.14.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}De ontwikkeling van het scholierencomponent.}{66}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.1}De ontwikkeling van het scholierencomponent.}{70}{subsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}De opzet voor een lokale webtoepassing.}{67}{subsection.3.3.2}%
+\contentsline {subsubsection}{Display maken voor scholierencomponent}{70}{table.caption.52}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.3}Experimenten en vergelijkende studie met het prototype.}{67}{subsection.3.3.3}%
+\contentsline {subsubsection}{Prompts schrijven voor gepersonaliseerde ATS}{70}{table.caption.52}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Resultaten}{69}{chapter.4}%
+\contentsline {subsubsection}{Back end functies schrijven voor gepersonaliseerde ATS}{71}{table.caption.52}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Ontbrekende functies bij AI-toepassingen}{69}{section.4.1}%
+\contentsline {subsubsection}{Front end implementatie voor ATS functionaliteiten}{71}{lstnumber.3.20.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Geschikte taalmodel voor gepersonaliseerde tekstvereenvoudiging met ATS}{71}{section.4.2}%
+\contentsline {subsection}{\numberline {3.3.2}De opzet voor een lokale webtoepassing.}{73}{subsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Het prototype voor tekstvereenvoudiging met ATS vergeleken met top-of-the-line tools.}{80}{section.4.3}%
+\contentsline {subsection}{\numberline {3.3.3}Experimenten en vergelijkende studie met het prototype.}{74}{subsection.3.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusie}{87}{chapter.5}%
+\contentsline {chapter}{\numberline {4}Resultaten}{75}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Discussie}{89}{chapter.6}%
+\contentsline {section}{\numberline {4.1}Ontbrekende functies bij AI-toepassingen}{75}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{92}{appendix.A}%
+\contentsline {section}{\numberline {4.2}Geschikte taalmodel voor gepersonaliseerde tekstvereenvoudiging met ATS}{77}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.1}Introductie}{92}{section.A.1}%
+\contentsline {section}{\numberline {4.3}Het prototype voor tekstvereenvoudiging met ATS vergeleken met top-of-the-line tools.}{86}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.2}State-of-the-art}{94}{section.A.2}%
+\contentsline {chapter}{\numberline {5}Conclusie}{93}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.1}Tekstvereenvoudiging}{94}{subsection.A.2.1}%
+\contentsline {chapter}{\numberline {6}Discussie}{95}{chapter.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.2}Noden van scholieren met dyslexie}{94}{subsection.A.2.2}%
+\contentsline {chapter}{\numberline {A}Onderzoeksvoorstel}{98}{appendix.A}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.3}Huidige toepassingen}{96}{subsection.A.2.3}%
+\contentsline {section}{\numberline {A.1}Introductie}{98}{section.A.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A.2.4}Ontwikkelen met AI}{96}{subsection.A.2.4}%
+\contentsline {section}{\numberline {A.2}State-of-the-art}{100}{section.A.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.3}Methodologie}{97}{section.A.3}%
+\contentsline {subsection}{\numberline {A.2.1}Tekstvereenvoudiging}{100}{subsection.A.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{99}{section.A.4}%
+\contentsline {subsection}{\numberline {A.2.2}Noden van scholieren met dyslexie}{100}{subsection.A.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}Referentieteksten: Richtlijnen}{100}{appendix.B}%
+\contentsline {subsection}{\numberline {A.2.3}Huidige toepassingen}{102}{subsection.A.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.0.1}Lexicale vereenvoudiging}{102}{subsection.B.0.1}%
+\contentsline {subsection}{\numberline {A.2.4}Ontwikkelen met AI}{102}{subsection.A.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.0.2}Syntactische vereenvoudiging}{102}{subsection.B.0.2}%
+\contentsline {section}{\numberline {A.3}Methodologie}{103}{section.A.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B.0.3}Samenvatten}{102}{subsection.B.0.3}%
+\contentsline {section}{\numberline {A.4}Verwacht resultaat, conclusie}{105}{section.A.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.1}Specifieke richtlijnen voor A1}{103}{section.B.1}%
+\contentsline {chapter}{\numberline {B}Referentieteksten: Richtlijnen}{106}{appendix.B}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {B.2}Specifieke richtlijnen voor A2}{104}{section.B.2}%
+\contentsline {subsection}{\numberline {B.0.1}Lexicale vereenvoudiging}{108}{subsection.B.0.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Figures: Requirementsanalyse}{106}{appendix.C}%
+\contentsline {subsection}{\numberline {B.0.2}Syntactische vereenvoudiging}{108}{subsection.B.0.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {D}Code: Ontwikkeling Van Het Prototype}{109}{appendix.D}%
+\contentsline {subsection}{\numberline {B.0.3}Samenvatten}{108}{subsection.B.0.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografie}{128}{appendix*.84}%
+\contentsline {section}{\numberline {B.1}Specifieke richtlijnen voor A1}{109}{section.B.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {B.2}Specifieke richtlijnen voor A2}{110}{section.B.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}Figures: Requirementsanalyse}{112}{appendix.C}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {D}Code: Ontwikkeling Van Het Prototype}{115}{appendix.D}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliografie}{127}{appendix*.83}%
 \contentsfinish 

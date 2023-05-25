@@ -132,7 +132,6 @@ Om een overzicht te hebben van de functionaliteiten volgens prioriteit, bouwt he
 			& Uitvoer als PDF of Word-bestand teruggeven. \\
 			& Wetenschappelijke artikelen in PDF-vorm opladen met OCR. \\
 			& Tekstanalyse voor en na de vereenvoudiging aanbieden. \\
-			& Tekst herschrijven als tabel. \\
 			\hline
 			Could-have 
 			& Gebruikersfeedback \\
@@ -142,6 +141,7 @@ Om een overzicht te hebben van de functionaliteiten volgens prioriteit, bouwt he
 			& Enkel regelmatige werkwoorden gebruiken. \\
 			& Extraherende samenvatting \\
 			& Abstraherende samenvatting \\
+			& Tekst herschrijven in tabelvorm \\
 			\hline
 			Wont-have & \\
 			& Mobiele versie of \textit{responsive design}. \\
@@ -551,10 +551,10 @@ Tenslotte komen de resultaten van de menselijke beoordeling aan bod. Deze fase v
 		Acroniemen behouden & Lexicale vereenvoudiging 	\\ \hline
 		Inschatting van de doelgroep & Lexicale vereenvoudiging	\\ \hline
 		Behoud van kern- en bijzaken & Lexicale vereenvoudiging \\ \hline
-		Bronvermelding behouden &  ... \\ \hline
 		Schrijven in tabelvorm of als opsomming & Structurele aanpassing \\ \hline
 		Passieve zinconstructies herschrijven naar actieve zinconstructies & Syntactische vereenvoudiging \\ \hline
-		Citeren en parafraseren & ... \\ \hline
+		Bronvermelding behouden &  N.v.t. \\ \hline
+		Citeren en parafraseren & N.v.t. \\ \hline
 	\end{tabular}
 	\caption{Criteria voor menselijke observatie bij de vergelijkende studie.}
 	\label{table:criteria-vergelijkende-studie-human-obv}
@@ -585,7 +585,7 @@ Allereerst bepaalt het onderzoek een taalmodel of meerdere taalmodellen voor gep
 
 \subsubsection{Programmeertalen, frameworks en verwante libraries selecteren}
 
-Omwille van de beschikbaarheid van GPT-3 en HuggingFace-taalmodellen via API-calls, zijn python en javascript geschikte keuzes voor dit prototype. Voor een snelle en gratis ontwikkeling, gebruikt het prototype \textit{open-source} pakketten. Tabel \ref{table:technologies} toont een breed overzicht van alle gebruikte programmeertalen. Hierop vult tabel \ref{table:python-libraries} aan door een overzicht te geven van alle gebruikte python-libraries.
+Omwille van de beschikbaarheid van GPT-3 via API-calls, kunnen python en javascript geschikte keuzes voor dit prototype. Voor een snelle en gratis ontwikkeling gebruikt het prototype \textit{open-source} pakketten. Tabel \ref{table:technologies} toont een breed overzicht van alle gebruikte programmeertalen. Hierop vult tabel \ref{table:python-libraries} aan door een overzicht te geven van alle gebruikte python-libraries.
 
 \begin{center}
 	\begin{table}[H]
@@ -631,8 +631,6 @@ Omwille van de beschikbaarheid van GPT-3 en HuggingFace-taalmodellen via API-cal
 		\hline
 		OpenAI					& GPT-3 API aanspreken. \\
 		\hline
-		Requests				& HuggingFace API aanspreken en informatie ophalen van een lexicale databank API. \\
-		\hline
 		BeautifulSoup			& HTML-content in het lerarencomponent \textit{parsen} voor een correcte formatting. \\
 		\hline
 	\end{tabular}
@@ -643,9 +641,9 @@ Omwille van de beschikbaarheid van GPT-3 en HuggingFace-taalmodellen via API-cal
 
 \subsubsection{Back end opzet}
 
-Na het kiezen van de taalmodellen en de technologieën en frameworks, start het onderzoek met de front end implementatie. Allereerst voegt het onderzoek een homepagina toe dat als portaal zal dienen voor de leraren- en scholierencomponenten. Allereerst implementeert het onderzoek de nodige personaliseerbare opmaakopties. Zoals aangeraden door \textcite{Galliussi2020}, moeten ontwikkelaars rekening houden met de opmaakopties van de website. Zo maakt het prototype gebruik van alle parameters onderzocht door \textcite{Rello2013a, Rello2013b}. Het instellingenscherm is een HTML-bestand waarin een formulier alle aanpasbare parameters oplijst. Tabel ... toont de opgenomen parameters. De standaardparameters volgen de aangeraden parameters van (...). Het formulier stuurt vervolgens een POST-request naar de back end. De back end verwerkt deze aanvraag en slaat de ontvangen dictionary op als sessievariabele, zoals weergegeven in listing \ref{code:back-end-session-personalized}. Ten slotte moet de front end dit bij iedere wegpagina inladen. Dit inladen gebeurt met een \textit{window onload}, zoals weergegeven in listing \ref{code:window-onload-js}. Zo hoeven eindgebruikers deze parameters niet bij iedere webpagina opnieuw aan te passen.
+Na het kiezen van de taalmodellen en de technologieën en frameworks, start het onderzoek met de front end implementatie. Allereerst voegt het onderzoek een homepagina toe dat als portaal zal dienen voor de leraren- en scholierencomponenten. Allereerst implementeert het onderzoek de nodige personaliseerbare opmaakopties. Zoals aangeraden door \textcite{Galliussi2020}, moeten ontwikkelaars rekening houden met de opmaakopties van de website. Zo maakt het prototype gebruik van alle parameters onderzocht door \textcite{Rello2013a, Rello2013b}. Het instellingenscherm is een HTML-bestand waarin een formulier alle aanpasbare parameters oplijst. Tabel ... toont de opgenomen parameters. De standaardparameters volgen de aangeraden parameters van (...). Het formulier stuurt vervolgens een POST-request naar de back end. De back end verwerkt deze aanvraag en slaat de ontvangen dictionary op als sessievariabele, zoals weergegeven in listing \ref{code:back-end-session-personalized}. 
 
-% TODO tabel toevoegen
+
 \begin{lstlisting}[language=python, caption={De back end functie die de aanpassingen uit het formulier opslaat als sessievariabele.}, label={code:back-end-session-personalized}]
 PER_SET_SESSION_NAME = 'personalized_settings'
 
@@ -667,6 +665,8 @@ def change_personal_settings():
 	return render_template('settings.html')
 \end{lstlisting}
 
+Ten slotte moet de \textit{front end} deze opmaakopties bij iedere wegpagina inladen. Het inladen gebeurt met een \textit{window onload}, zoals weergegeven in listing \ref{code:window-onload-js}. Zo hoeven eindgebruikers deze parameters niet bij iedere webpagina opnieuw aan te passen.
+
 \begin{lstlisting}[language=javascript, caption={De onload-functie die de gepersonaliseerde opmaakopties regelt bij het inladen van een webpagina.}, label={code:window-onload-js}]
 window.onload = async function () {
 	var url = `http://localhost:5000/get-settings-user`;
@@ -686,6 +686,50 @@ Naast de gepersonaliseerde opmaakopties, moet het prototype ook over een systeem
 \medspace
 
 De \textit{front end} kent enkel de toevoeging van een checkbox en twee \textit{input-tags}, namelijk een \textit{file-input} en een \textit{textarea-input}. De \textit{file-input} geeft de binaries van het PDF-bestand mee van de front-end naar de back end die het PDF-bestand tijdelijk \textit{in-memory} opslaat. Daarnaast krijgt de back end de keuze van de gebruiker tussen normale en OCR-upload mee als boolean, waarbij 1 gelijk staat aan een OCR-afhandeling. Ten slotte gebruikt het formulier een POST-request om alle meegekregen informatie door te sturen naar de back end. Na het ontvangen van de request van de front-end, handelt de Flask back end het bestand verder af zoals aangewezen in listing \ref{code:inlezen-wetenschappelijk-artikel-front-end-back-end}. Eerst controleert de \textit{back end} het type invoer. Vervolgens spreekt de Flask back end de Reader-klasse aan die de tekst formatteert tot een bruikbaar formaat voor de webtoepassing. Daarna gebruikt de Reader-klasse één van twee mogelijke technieken. 
+
+\begin{lstlisting}[language=Python, caption={Koppeling tussen front-end en back-end voor het inlezen van een wetenschappelijk artikel}, label={code:inlezen-wetenschappelijk-artikel-front-end-back-end}]
+def setup_scholars_teachers(request):
+	settings = request.form
+	if 'fullText' in request.form:
+		text = request.form['fullText']
+		langs = detect_langs(text)
+		reader = Reader()
+		dict_text = reader.get_full_text_site(text)                
+	elif 'pdf' in request.files:
+		if 'advanced' not in settings:
+			pdf = request.files['pdf']
+			pdf_data = BytesIO(pdf.read())
+			all_pages = extract_pages(pdf_data,page_numbers=None,maxpages=999)
+			langs = detect_langs(str(all_pages))
+			reader = Reader()
+			full_text = reader.get_full_text_dict(all_pages)
+			dict_text = reader.get_full_text_site(full_text)
+		else:
+			pdf = request.files['pdf']
+			pdf_data = pdf.read()
+			pages = convert_from_bytes(pdf_data)
+			reader = Reader()
+			img_text = reader.get_full_text_from_image(pages)
+			langs = detect_langs(img_text)
+			dict_text = reader.get_full_text_site(img_text)                            
+			return dict_text, langs, 'voorbeeldtitel', 'voorbeeldonderwerp'
+			
+@app.route('/for-scholars', methods=['GET','POST'])
+def teaching_tool():
+	try:
+		dict_text, langs, title, subject = setup_scholars_teachers(request)
+		return render_template('for-scholars.html', pdf=dict_text, lang=langs, title=title, subject=subject)
+	except Exception as e:
+		return render_template('error.html',error=str(e))
+	
+@app.route('/for-teachers', methods=['GET','POST'])
+def analysing_choosing_for_teachers():
+	try:
+		dict_text, langs, title, subject = setup_scholars_teachers(request)
+		return render_template('for-teachers.html', pdf=dict_text, lang=langs, title=title, subject=subject)
+	except Exception as e:
+		return render_template('error.html',error=str(e))
+\end{lstlisting}
 
 \subsubsection{PDFMiner implementatie}
 
@@ -727,45 +771,64 @@ PDFMiner kan tekst missen bij de pdf-extractie. Daarom voorziet het prototype ee
 
 \subsubsection{Geëxtraheerde inhoud formatteren naar een webpagina.}
 
-Na het extraheren van de tekstinhoud, komt een formatteerfase aan bod. Hier vormt het systeem de tekst om naar het gewenste formaat voor de front end. Allereerst transformeert de back end de string van geëxtraheerde tekst naar \textit{arrays} van zinnen met Spacy \textit{word embeddings} en \textit{sentence embeddings}. Deze functie staat beschreven in listing \ref{code:reader-formatting}. Het prototype bundelt vijf zinnen met de \textit{reshape-functie} van Numpy. Eindgebruikers kunnen deze parameter aanpassen in het instellingenscherm. Om de PoS-tag bij het respectievelijke woord bij te houden, gebruikt het prototype een \textit{key-value pair} datastructuur. Zo verwijst de sleutel naar een woord in een zin en de waarde verwijst naar de PoS-tag. Het prototype houdt rekening met enkel Nederlandstalige en Engelstalige wetenschappelijke artikelen. Daarom laadt het prototype hoogstens twee embeddingsmodellen op. Deze embeddingsmodellen staan vermeld in tabel \ref{table:wordembeddings-spacy}. Het prototype vermijdt hardcoderen. Daarom maakt het gebruik van een \textit{dictionary} die de naam van deze embeddingsmodellen bijhoudt. Het prototype gebruikt Engels als standaardtaal, als de back end de taal niet kan herkennen of als de taal niet in de lijst van de dictionary staat. Zowel het leraren- als het scholierencomponent passen deze dynamische HTML-structuur in hun weergave toe. Zo zijn er vier verschillende klassen die aan span-tags in deze weergave worden toegekend. Door middel van een Jinja-iteratie, krijgt iedere \textit{span-tag} een specifieke klasse afhankelijk van de key of iteratie. Zo is er een overkoepelende span-tag \textit{sentence}, alsook voor ieder woord in een zin hoort er een span-tag met \textit{nouns}, \textit{adjectives} of \textit{verbs}. Andere woorden, zoals conjuncties, behoren tot de klasse \textit{other}. Na het extraheren van de tekstinhoud van een wetenschappelijk artikel, komt de ontwikkeling van de leraren- en scholierencomponenten aan bod. Hoewel ontwikkelaars de ontwikkeling van beide componenten kunenn parallel laten lopen, start het onderzoek met de werkwijze voor de ontwikkeling van het lerarencomponent.
+Na het extraheren van de tekstinhoud, komt een formatteerfase aan bod. Hier vormt het systeem de tekst om naar het gewenste formaat voor de front end. Allereerst transformeert de back end de string van geëxtraheerde tekst naar \textit{arrays} van zinnen met Spacy \textit{word embeddings} en \textit{sentence embeddings}. Deze functie staat beschreven in listing \ref{code:reader-formatting}. Het prototype bundelt vijf zinnen met de \textit{reshape-functie} van Numpy. Eindgebruikers kunnen deze parameter aanpassen in het instellingenscherm. Om de PoS-tag bij het respectievelijke woord bij te houden, gebruikt het prototype een \textit{key-value pair} datastructuur. Zo verwijst de sleutel naar een woord in een zin en de waarde verwijst naar de PoS-tag. Het prototype houdt rekening met enkel Nederlandstalige en Engelstalige wetenschappelijke artikelen. Daarom laadt het prototype hoogstens twee embeddingsmodellen op. Deze embeddingsmodellen staan vermeld in tabel \ref{table:wordembeddings-spacy}. Het prototype vermijdt hardcoderen. Daarom maakt het gebruik van een \textit{dictionary} die de naam van deze embeddingsmodellen bijhoudt. Het prototype gebruikt Engels als standaardtaal, als de back end de taal niet kan herkennen of als de taal niet in de lijst van de dictionary staat. 
 
 \begin{lstlisting}[language=Python, caption={Het formatteren van de tekst naar een formaat voor de website.}, label={code:reader-formatting}]
-def get_full_text_site(self, full_text):
+	def get_full_text_site(self, full_text):
 	try:
-		lang = detect(full_text)
+	lang = detect(full_text)
 	except:
-		lang = 'en'
+	lang = 'en'
 	
 	if lang in dict:
-		nlp = spacy.load(dict.get(lang))
+	nlp = spacy.load(dict.get(lang))
 	else:
-		nlp = spacy.load(dict.get('en'))
+	nlp = spacy.load(dict.get('en'))
 	
 	full_text = str(full_text).replace('\n', ' ')
 	
 	doc = nlp(full_text)
 	sentences = []
 	for sentence in doc.sents:
-		sentences.append(sentence)
+	sentences.append(sentence)
 	
-		pad_size = SENTENCES_PER_PARAGRAPH - (len(sentences) % SENTENCES_PER_PARAGRAPH)
-		padded_a = np.pad(sentences, (0, pad_size), mode='empty')
-		paragraphs = padded_a.reshape(-1, SENTENCES_PER_PARAGRAPH)
+	pad_size = SENTENCES_PER_PARAGRAPH - (len(sentences) % SENTENCES_PER_PARAGRAPH)
+	padded_a = np.pad(sentences, (0, pad_size), mode='empty')
+	paragraphs = padded_a.reshape(-1, SENTENCES_PER_PARAGRAPH)
 	
-		text_w_pos = []
-		for paragraph in paragraphs:
-			paragraph_w_pos = []
-		try:
-			for sentence in paragraph:
-				dict_sentence = {}
-				for token in sentence:
-					dict_sentence[token.text] = str(token.pos_).lower()
-					paragraph_w_pos.append(dict_sentence)    
-					text_w_pos.append(paragraph_w_pos)
-		except:
-			pass
+	text_w_pos = []
+	for paragraph in paragraphs:
+	paragraph_w_pos = []
+	try:
+	for sentence in paragraph:
+	dict_sentence = {}
+	for token in sentence:
+	dict_sentence[token.text] = str(token.pos_).lower()
+	paragraph_w_pos.append(dict_sentence)    
+	text_w_pos.append(paragraph_w_pos)
+	except:
+	pass
 	return text_w_pos
 \end{lstlisting}
+
+Zowel het leraren- als het scholierencomponent passen deze dynamische HTML-structuur in hun weergave toe. Zo zijn er vier verschillende klassen die aan span-tags in deze weergave worden toegekend. Door middel van een Jinja-iteratie, krijgt iedere \textit{span-tag} een specifieke klasse afhankelijk van de key of iteratie. Deze iteratie toont listing \ref{code:html-span-tags} voor. Zo is er een overkoepelende span-tag \textit{sentence}, alsook voor ieder woord in een zin hoort er een span-tag met \textit{nouns}, \textit{adjectives} of \textit{verbs}. Andere woorden, zoals conjuncties, behoren tot de klasse \textit{other}. Na het extraheren van de tekstinhoud van een wetenschappelijk artikel, komt de ontwikkeling van het leraren- en scholierencomponent aan bod. Hoewel ontwikkelaars de ontwikkeling van beide componenten parallel kunnen laten lopen, start het onderzoek met de werkwijze voor de ontwikkeling van het lerarencomponent.
+
+\begin{lstlisting}[language=html, caption={Het doorlopen van de PDF-tekst op de webpagina en het toekennen van de span-tags.}, label={code:html-span-tags}]
+{% for paragraph in pdf %}
+	<p class="left-side">
+		{% for sentence in paragraph %}
+		<span class="sentence">
+			{% for word in sentence %}
+			{% if sentence[word] != 'space' %}
+			<span class={{sentence[word]}}>{{word}}</span>
+			{% endif %}
+			{% endfor %}
+		</span>
+	{% endfor %}
+	</p>
+{% endfor %}
+\end{lstlisting}
+
 
 \subsubsection{Invulformulier maken voor het lerarencomponent.}
 
@@ -795,9 +858,45 @@ Zo kunnen leerkrachten beschikken over een tool waarin zij de geëxtraheerde tek
 	\end{table}
 \end{center}
 
-\subsubsection{Prompts schrijven voor gepersonaliseerde ATS}
+\subsubsection{Prompts schrijven voor gepersonaliseerde ATS in het lerarencomponent}
 
-% TODO tabel met alle prompts
+Het onderzoek stelt de prompts op volgens de richtlijnen beschreven in tabel \ref{table:techniques-for-good-prompts}. Daarnaast past het Intent- en Contextualization prompts toe zoals aangeraden door \textcite{White2023}. Tabel \ref{table:prompts-lerarencomponent} geeft een overzicht van alle opgestelde prompts die het prototype gebruikt in het lerarencomponent. Daarnaast gebruikt iedere API-call de parameters omschreven in tabel \ref{table:gpt-3-parameters-lerarencomponent}.
+
+\begin{center}
+	
+\end{center}
+\begin{table}[H]
+	\begin{tabular}{ | m{5cm} | m{10cm} |}
+		\hline
+		\textbf{Functionaliteit} & \textbf{Prompt} \\ \hline
+		Synoniem opzoeken & Geef een eenvoudiger synoniem voor '{woord}'. Context {context}. \\ \hline
+		Definitie opzoeken & Geef een eenvoudige definitie voor '{woord}'. Context {context}.\\ \hline
+		Zin vereenvoudigen & \\ \hline
+		Gepersonaliseerde ATS & \\ \hline
+		Gepersonaliseerde ATS als opsomming & Herschrijf dit als een lijst van vereenvoudigde zinnen met (gepersonaliseerde opties) :return: een lijst van vereenvoudigde zinnen gesplitst door een '|' teken /// {context}\\ \hline
+	\end{tabular}
+	\caption{Tabel met de gebruikte prompts voor het lerarencomponent.}
+	\label{table:prompts-lerarencomponent}
+\end{table}
+
+\begin{center}
+	\begin{table}[H]
+		\begin{tabular}{| m{5cm}| m{10cm} |}
+			\hline
+			Parameter & Gebruikte waarde \\ \hline
+			Prompt & Zie tabel \ref{table:prompts-lerarencomponent} \\ \hline
+			Temperature & 0 \\ \hline
+			Max tokens & De lengte van het woord vermeerdert met tien tokens als het over het opzoeken van een definitie of synoniem gaat. \\ 
+			& Of de lengte van de zin vermeerdert met twintig tokens indien het over vereenvoudiging van een zin gaat. \\
+			\hline
+			Model & Da Vinci 3 \\ \hline
+			Top-p & 90\% \\ \hline
+			Stream & False \\ \hline
+		\end{tabular}
+		\caption{Gebruikte parameters om de definitie van een woord te genereren met GPT-3.}
+		\label{table:gpt-3-parameters-lerarencomponent}
+	\end{table}
+\end{center}
 
 
 \subsubsection{Back end functies maken voor gepersonaliseerde ATS}
@@ -806,73 +905,100 @@ Leraren kunnen handmatig zinnen uit de tekst verwijderen. Hiervoor gebruikt de \
 
 \medspace
 
-Allereerst dient de \textit{look-up} functie om de definitie van een woord te achterhalen. Met behulp van de prompt beschreven in listing \ref{listing:gpt-class} stuurt de python back end een API-call naar de GPT-3 API. Om de uitvoer zo probabilisch mogelijk te maken, gebruikt de GPT-3 API-call een \textit{nultemperature}. Tabel \ref{table:gpt-3-look-up} weergeeft de gebruikte parameters bij de API-call om een woord op te zoeken. Daarna haalt het script het verkregen antwoord uit de JSON-response om deze vervolgens tijdelijk bij te houden in een dictionary.
+Allereerst dient de \textit{look-up} functie om de definitie van een woord te achterhalen. Zo beschrijft listing \ref{listing:gpt-look-up-word} de functie om met GPT-3 een eenvoudige definitie van een woord te genereren. Om de uitvoer zo waarschijnlijk mogelijk te maken, gebruikt de GPT-3 API-call een \textit{nultemperature}. Daarna haalt het script het verkregen antwoord uit de JSON-response om deze vervolgens tijdelijk bij te houden in een dictionary.
 
-\begin{center}
-	\begin{table}[H]
-		\begin{tabular}{| m{5cm}| m{8cm} |}
-			\hline
-			Parameter & Gebruikte waarde \\ \hline
-			Prompt & Geef een eenvoudige definitie voor '{woord}' in max 1 zin. Context {context}. \\ \hline
-			Temperature & 0 \\ \hline
-			Max tokens & De lengte van het woord vermeerdert met tien tokens. \\ \hline
-			Model & Da Vinci 3 \\ \hline
-			Top-p & 90\% \\ \hline
-			Stream & False \\ \hline
-		\end{tabular}
-	\caption{Gebruikte parameters om de definitie van een woord te genereren met GPT-3.}
-	\label{table:gpt-3-look-up}
-	\end{table}
-\end{center}
+\begin{lstlisting}[language=Python, caption={Een functie om met GPT-3 een vereenvoudigde definitie voor een woord te genereren.}, label={listing:gpt-look-up-word}]
+def look_up_word_gpt(self, word, context):
+	try:
+	prompt = f"""
+	Give a simple Dutch explanation in one sentence for this word in the given context. Give the PoS-tag and Dutch definition: '{word}'
+	context: {context}
+	format: PoS-tag | definition
+	"""
 
-\medspace
+	result = openai.Completion.create(
+	prompt=prompt,
+	temperature=0,
+	max_tokens=50,
+	model=COMPLETIONS_MODEL,
+	top_p=0.9,
+	stream=False
+	)["choices"][0]["text"].strip(" \n")    
+	return result, word, prompt	
+	except Exception as e:
+	return 'error', str(e), str(e)
+\end{lstlisting}
 
-Vervolgens gebruikt het prototype ook de GPT-klasse om een synoniem op te zoeken. Hiervoor spreekt de API de functie \textit{give-synonym} aan verwezen in listing \ref{listing:gpt-class}. Tabel \ref{table:gpt-3-synonym} toont een overzicht van de gebruikte parameters om de synoniem van een woord te genereren.
+Vervolgens gebruikt de back end het GPT-3 model om een synoniem op te zoeken. Hiervoor spreekt de API de functie \textit{give-synonym} aan, verwezen in listing \ref{listing:gpt-class}.
 
-\begin{center}
-	\begin{table}[H]
-		\begin{tabular}{| m{5cm}| m{8cm} |}
-			\hline
-			Parameter & Gebruikte waarde \\ \hline
-			Prompt & Geef een eenvoudiger synoniem voor '{woord}'. Context {context}. \\ \hline
-			Temperature & 0 \\ \hline
-			Max tokens & De lengte van het woord vermeerdert met tien tokens. \\ \hline
-			Model & Da Vinci 3 \\ \hline
-			Top-p & 90\% \\ \hline
-			Stream & False \\ \hline
-		\end{tabular}
-		\caption{Gebruikte parameters om het synoniem van een woord te genereren met GPT-3.}
-		\label{table:gpt-3-synonym}
-	\end{table}
-\end{center}
+\begin{lstlisting}[language=Python, caption={Een synoniem genereren of ophalen met GPT-3.}, label={listing:gpt-give-synonym}]
+	""" @returns prompt, result from gpt """
+	def give_synonym(self, word, context):
+	try:
+	prompt = f"""
+	Give a Dutch synonym for '{word}'. If there is no Dutch synonym available, explain it between curly brackets.
+	context:
+	{context}
+	"""
+	
+	result = openai.Completion.create(
+	prompt=prompt,
+	temperature=0,
+	max_tokens=10,
+	model=COMPLETIONS_MODEL,
+	top_p=0.9,
+	stream=False
+	)["choices"][0]["text"].strip(" \n")    
+	return result, word, prompt
+	except Exception as e:
+	return 'Open AI outage of problemen', str(e)
+\end{lstlisting}
+	
+Daarna komt de vereenvoudiging van zinnen aan bod. Listing \ref{listing:gpt-personalised-simplify} bevat de code die deze API-call afhandelt. Echter moet het script rekening houden met twee aspecten. Allereerst kan de leerkracht kiezen voor een opsomming van de tekst. Daarnaast moet de inputlengte overeenstemmen met de beperkingen van de GPT-3 API. Wetenschappelijke artikelen zijn bijna altijd langer dan de mogelijk inputlengte. Daarom splitst het prototype de oorspronkelijke tekst op per 1000 tokens, zodat de inputprompt over marge beschikt en daardoor alle nodige gepersonaliseerde ATS-opties mee kan geven. Bij deze splitsing houdt het script rekening met de volledigheid van een zin. 
+	
+\begin{lstlisting}[language=Python, caption={Een zin gepersonaliseerd vereenvoudigen met GPT-3.}, label={listing:gpt-personalised-simplify}]
+def personalised_simplify(self, sentence, personalisation):
+	if 'summary' in personalisation:
+		prompt = f"""
+		Simplify the sentences in the given text and {", ".join(personalisation)}
+		:return: A list of simplified sentences divided by a '|' sign
+		///
+		{sentence}
+		"""
+	else:
+		prompt = f"""
+		Explain this in own Dutch words and {", ".join(personalisation)}
+		///
+		{sentence}
+		"""
+	
+	try:
+		result = openai.Completion.create(
+		prompt=prompt,
+		temperature=0,
+		max_tokens=len(prompt),
+		model=COMPLETIONS_MODEL,
+		top_p=0.9,
+		stream=False
+		)["choices"][0]["text"].strip(" \n")
+		
+		if 'summary' in personalisation:
+			result = result.split('|')
+		else:
+			result = [result]
+			
+			return result, prompt
+	except Exception as e:
+		return str(e), prompt 
+\end{lstlisting}
 
-\medspace
-
-Daarna komt de vereenvoudiging van zinnen aan bod. Echter moet het script rekening houden met twee aspecten. Allereerst kan de leerkracht kiezen voor een opsomming van de tekst. Daarnaast moet de inputlengte overeenstemmen met de beperkingen van de GPT-3 API. Wetenschappelijke artikelen zijn bijna altijd langer dan de mogelijk inputlengte. Daarom splitst het prototype de oorspronkelijke tekst op per 1000 tokens, zodat de inputprompt over marge beschikt en daardoor alle nodige gepersonaliseerde ATS-opties mee kan geven. Bij deze splitsing houdt het script rekening met de volledigheid van een zin. De code voor de gepersonaliseerde ATS staat weergegeven in listing \ref{listing:gpt-class}. Tabel \ref{table:gpt-3-sentence-simplification} geeft een overzicht weer van de gebruikte parameters.
-
-\begin{center}
-	\begin{table}[H]
-		\begin{tabular}{| m{5cm}| m{8cm} |}
-			\hline
-			Parameter & Gebruikte waarde \\ \hline
-			Prompt & Vereenvoudig deze zinnen op basis van {MTS-technieken} :return: Een lijst van vereenvoudigde zinnen opgesplitst door een '|' sign /// {zin} \\ \hline
-			Temperature & 0 \\ \hline
-			Max tokens & De lengte van de oorspronkelijke tekst, vermeerdert met 30 tokens. \\ \hline
-			Model & Da Vinci 3 \\ \hline
-			Top-p & 90\% \\ \hline
-			Stream & False \\ \hline
-		\end{tabular}
-		\caption{Gebruikte parameters om zinnen te vereenvoudigen met GPT-3.}
-		\label{table:gpt-3-sentence-simplification}
-	\end{table}
-\end{center}
 
 \subsubsection{Pandoc implementatie}
 
-Ten slotte giet het script de \textit{plain-text} van vereenvoudigde tekstinhoud en de woordenlijsten in een PDF- of DOCX-bestand. Zo maakt de Creator-klasse PDF's en docx-documenten volgens de meegegeven opmaakopties en maakt gebruik van Pandoc via python. De code voor deze klasse is terug te vinden in listing \ref{code:writer-klasse}. Pandoc gebruikt een tweestapsbeweging, waarbij het eerst \textit{plain-text} naar een markdownformaat omzet en vervolgens het Markdown-bestand naar een PDF of Word-document converteert. Daarvoor is een YAML-header nodig die de elementen, beschreven in tabel \ref{table:personalized-pdf-word-document-with-pandoc}, moet bevatten. Het script voegt de meegekregen instellingen toe aan de YAML-header. De verschillende functionaliteiten van deze klasse staan opgesomd in tabel \ref{table:functions-creator-class}. Om de woordenlijst aan het markdown-bestand toe te voegen, bouwt het script eerst een \textit{dictionary}-structuur op met de positie van het woord als key en als values de woord, de PoS-tag en de opgehaalde gepersonaliseerde betekenis. Het prototype moet rekening houden met homoniemen en daarom kan de key hier niet het woord zijn. Bij een lege woordenlijst komen deze bewerkingen niet aan bod. Het script slaat de vereenvoudigde tekst nadien op in een \textit{dictionary}-structuur. Vervolgens print het script de vereenvoudigde tekst uit naar het markdown-bestand door alle titels van de \textit{dictionary}-structuur te doorlopen. Een titel uitprinten in markdown syntax moet voorafgaan aan twee \textit{hashtags}, gevolgd door een \textit{breakline}. Na de titel print het script de vereenvoudigde tekst per paragraaf uit. Bij een opsomming gaat een asterisk-symbool vooraf. Vervolgens converteert Pandoc het Markdown-bestand naar een PDF-bestand gebouwd met de XeLateX engine of een Word-bestand met de meegekregen binaries. Functie \textit{create-pdf} in listing \ref{code:writer-klasse} bouwt deze documenten op. Hoewel Flask maar één bestand kan teruggeven, comprimeert het script met de \textit{zipfile} bibliotheek deze twee bestanden tot één bestand. Zo krijgt de eindgebruiker alsnog zowel het docx- als het PDF-document. 
+Ten slotte giet het script de \textit{plain-text} van vereenvoudigde tekstinhoud en de woordenlijsten in een PDF- of DOCX-bestand. Zo maakt de Creator-klasse PDF's en docx-documenten volgens de meegegeven opmaakopties en maakt gebruik van Pandoc via python.  Pandoc gebruikt een tweestapsbeweging, waarbij het eerst \textit{plain-text} naar een markdownformaat omzet en vervolgens het Markdown-bestand naar een PDF of Word-document converteert. Daarvoor is een YAML-header nodig die de elementen, beschreven in tabel \ref{table:personalized-pdf-word-document-with-pandoc}, moet bevatten. Het script in listing \ref{} voegt de meegekregen instellingen toe aan de YAML-header. 
 
 \begin{table}[H]
-	\begin{tabular}{ | m{5cm}| m{5cm} | }
+	\begin{tabular}{ | m{5cm}| m{10cm} | }
 		\hline
 		\textbf{Label in YAML-header} & \textbf{Voorbeeldwaarde} \\ \hline
 		Title & Surveillance met artificiële intelligentie. \\ \hline
@@ -888,28 +1014,237 @@ Ten slotte giet het script de \textit{plain-text} van vereenvoudigde tekstinhoud
 	\label{table:personalized-pdf-word-document-with-pandoc}
 \end{table}
 
-\begin{table}[H]
-	\begin{tabular}{ | m{5cm}| m{10cm} | }
-		\hline
-		Naam van de functie & Functionaliteit \\ \hline
-		Create header & De nodige YAML-header voor het markdown-bestand aanmaken. \\ \hline
-		Generate glossary & Een woordenlijst aanmaken. \\ \hline
-		Generate summary & Deze functie vult het markdown-bestand met de vereenvoudigde tekst, gesplitst door de titels die de leerkracht heeft gekozen. \\ \hline
-		Generate summary with summation & Indien de leerkracht een opsomming wenste, dan dient de titel nog steeds al separator, maar het script print de zinnen uit als opsomming conform aan de Markdown-syntax. \\ \hline
-		Create PDF & De functies gebruikt alle bovenstaande functies indien nodig en maakt de PDF- en Word-bestanden. Nadien zal de functie de twee bestanden comprimeren tot één zip-bestand. \\ \hline
-	\end{tabular}
-	\caption{De gebruikte functies in de Creator-klasse.}
-	\label{table:functions-creator-class}
-\end{table}
+Listing \ref{code:yaml-header-function} bouwt de YAML-header op voor het markdownbestand. Deze header is volledig parameteriseerbaar.
 
+\begin{lstlisting}[language=Python, caption={Writer-klasse omvattende de code om dynamische PDF- en Word-documenten te genereren.}, label={code:yaml-header-function}]
+	markdown_file = "saved_files/file.md"
+	DATE_NOW = str(date.today())
+	
+	class Creator():
+	def create_header(self, title, margin, fontsize, chosen_font, chosen_title_font, word_spacing, type_spacing):
+		with open(markdown_file, 'w', encoding='utf-8') as f:
+			f.write("---\n")
+			f.write(f"title: {title}\n") 
+			f.write(f"mainfont: {chosen_font}.ttf\n")
+			f.write(f"titlefont: {chosen_title_font}.ttf\n")
+			f.write(f'date: {DATE_NOW}\n')
+			f.write(f'document: article\n')
+			f.write(f'geometry: margin={margin}cm\n')
+			f.write(f'fontsize: {fontsize}pt\n')
+			f.write('header-includes:\n')
+			f.write(f'- \spaceskip={word_spacing}cm\n')
+			f.write(f'- \\usepackage{{setspace}}\n')
+			f.write(f'- \{type_spacing}\n')
+			f.write("---\n")
+\end{lstlisting}
+
+Om de woordenlijst aan het markdown-bestand toe te voegen, bouwt het script eerst een \textit{dictionary}-structuur op met de positie van het woord als key en als values de woord, de PoS-tag en de opgehaalde gepersonaliseerde betekenis. Het prototype moet rekening houden met homoniemen en daarom kan de key hier niet het woord zijn. Bij een lege woordenlijst komen deze bewerkingen niet aan bod. 
+
+\begin{lstlisting}[language=Python, caption={Een woordenlijst genereren met de Writer-klasse.}, label={code:writer-glossary-klasse}]
+def generate\_glossary(self, list):
+with open(markdown_file, 'a', encoding='utf-8') as f:
+f.write("---\n")
+f.write("# Woordenlijst\n")
+f.write("| Woord | Soort | Definitie |\n")
+f.write("| --- | --- | --- |\n")
+for word in list.keys(): 
+f.write(f"| {word} | {list[word]['type']} | {list[word]['definition']} |\n")
+\end{lstlisting}
+
+Deze functie vult het markdown-bestand met de vereenvoudigde tekst, gesplitst door de titels die de leerkracht heeft gekozen. Het script slaat de vereenvoudigde tekst nadien op in een \textit{dictionary}-structuur. Vervolgens print het script de vereenvoudigde tekst uit naar het markdown-bestand door alle titels van de \textit{dictionary}-structuur te doorlopen. Een titel uitprinten in markdown syntax moet voorafgaan aan twee \textit{hashtags}, gevolgd door een \textit{breakline}. 
+
+\begin{lstlisting}[language=Python, caption={Een doorlopende tekst toevoegen aan het markdownbestand met de Writer-klasse.}, label={code:writer-doorlopende-klasse}]
+def generate_simplification(self, full_text):
+with open(markdown_file,'a', encoding="utf-8", errors="surrogateescape") as f:
+for key in full_text.keys():
+title = str(key).replace('\n',' ')
+text = full_text[key]
+f.write('\n\n')
+f.write(f'## {title}')
+f.write('\n\n')
+f.write(" ".join(text))
+f.write('\n\n')
+\end{lstlisting}
+
+Indien de leerkracht een opsomming wenste, dan dient de titel nog steeds al separator, maar het script print de zinnen uit als opsomming conform aan de Markdown-syntax. Na de titel print het script de vereenvoudigde tekst per paragraaf uit. Bij een opsomming gaat een asterisk-symbool vooraf. Vervolgens converteert Pandoc het Markdown-bestand naar een PDF-bestand gebouwd met de XeLateX engine of een Word-bestand met de meegekregen binaries. 
+
+\begin{lstlisting}[language=Python, caption={Een opsomming toevoegen aan het markdownbestand met de Writer-klasse.}, label={code:writer-summation-klasse}]
+def generate_simplification_w_summation(self, full_text):
+with open(markdown_file,'a', encoding="utf-8", errors="surrogateescape") as f:
+for key in full_text.keys():
+title = str(key).replace('\n',' ')
+text = full_text[key][0].split('|')
+f.write('\n\n')
+f.write(f'## {title}')
+for sentence in text:    
+f.write('\n\n')
+f.write(f'* {sentence}')
+f.write('\n\n')
+\end{lstlisting}
+
+Tenslotte maakt het script de pdf en docx-bestanden van de vereenvoudigde teksten. De functie verwezen in listing \ref{code:writer-create-pdf} gebruikt alle bovenstaande (nodige) functies. Daarna genereert Pandoc de pdf en docx-bestanden. Nadien zal de functie deze twee bestanden comprimeren tot één zip-bestand. Hoewel Flask maar één bestand kan teruggeven, comprimeert het script met de \textit{zipfile} bibliotheek deze twee bestanden tot één bestand. Zo krijgt de eindgebruiker alsnog zowel het docx als het pdf-document. 
+
+\begin{lstlisting}[language=Python, caption={Een zip-bestand aanmaken met daarin een docx en pdf bestand van de vereenvoudigde tekst.}, label={code:writer-create-pdf}]
+def create_pdf(self, title, margin, list, full_text, fonts, word_spacing, type_spacing, summation):
+if title is not None:
+self.create_header(title=title, margin=margin, fontsize=14, chosen_font=fonts[0], chosen_title_font=fonts[1], word_spacing=word_spacing, type_spacing=type_spacing)
+else:
+self.create_header(title='Vereenvoudigde tekst', margin=0.5, fontsize=14, chosen_font=fonts[0], chosen_title_font=fonts[1], word_spacing=word_spacing, type_spacing=type_spacing)
+
+"""GLOSSARY"""
+if len(list) != 0:
+self.generate_glossary(list=list)
+
+"""SUMMARY"""
+if summation:
+self.generate_summary_w_summation(full_text=full_text)
+else:
+self.generate_summary(full_text=full_text)
+
+"""FILE_CREATION"""
+pypandoc.convert_file(source_file=markdown_file, to='docx', outputfile=docx_file,   extra_args=["-M2GB", "+RTS", "-K64m", "-RTS"])
+pypandoc.convert_file(source_file=markdown_file, to='pdf',  outputfile=pdf_file,    extra_args=['--pdf-engine=xelatex'])
+with zipfile.ZipFile(zip_filename, 'w') as myzip:
+myzip.write(pdf_file)
+myzip.write(docx_file)
+\end{lstlisting}
+
+De functionaliteiten van het lerarencomponent stoppen hier. Vervolgens komt het scholierencomponent aan bod, waarbij de nadruk ligt op het ontwikkelen van een ondersteunende tool.
 
 \subsection{De ontwikkeling van het scholierencomponent.}
 
-De algemene weergave van dit component lijkt als dat van de uitgeteste chatbots. Net zoals bij het lerarencomponent, moet het prototype een oorspronkelijke weergave van het wetenschappelijk artikel kunnen tonen. De front-end beschikt al over de PoS-tags, dus met de JS-functie verwezen in (??) kunnen deze woorden een specifieke kleur krijgen als markering. Adjectieven uit de tekst verwijderen is mogelijk zonder taalmodel, want met een JS-functie kan het prototype achterhalen welke PoS-tag een woord heeft. Scholieren kunnen weergegeven tekst markeren met hun cursor om deze vervolgens te vereenvoudigen op maat van hun noden. Zo kan de webpagina, waarbij een scholier een opsomming wilt van een tekst, eruit zien zoals in figuur \ref{img:proto-scholieren-step-1} en figuur \ref{img:proto-scholieren-step-3}. Eerst slaat JS de gemarkeerde tekst en meegekregen ATS-opties op en geeft deze door aan de back end met een API-call. Vervolgens verwerkt de back end deze aanvraag door een nieuwe aanvraag te sturen naar GPT-3, met daarin een prompt die de tekst en de gekozen ATS-technieken bevat. De prompt specifieert het formaat waaraan de uitvoer van het taalmodel moet voldoen.  Als de tekst doorlopend is, dan verwerkt JS dit resultaat als een p-tag.  Als het taalmodel een opsomming moest genereren, dan zal de front-end alle zinnen doorlopen en uitprinten tussen twee li-tags.
+Tabel \ref{table:beschikbare-functionaliteiten-scholierencomponent} geeft een overzicht van alle functionaliteiten die in het scholierencomponent moeten zitten.
+
+\begin{table}
+	\begin{tabular}{| m{10cm} | m{5cm} |}
+		\hline
+		\textbf{Functionaliteit} & \textbf{JS/GPT-3} \\ \hline
+		Zinnen verwijderen & Enkel JS \\ \hline
+		Zinnen vereenvoudigen met gepersonaliseerde keuzes & GPT-3 en JS \\ \hline
+		Zinnen vereenvoudigen met prompt & GPT-3 en JS \\ \hline
+		Woord aan woordenlijst toevoegen & GPT-3 en JS \\ \hline
+		Woorden (werkwoorden, bijvoeglijke en zelfstandige naamwoorden) markeren & JS \\ \hline
+	\end{tabular}
+	\caption{Beschikbare functionaliteiten in het scholierencomponent.}
+	\label{table:beschikbare-functionaliteiten-scholierencomponent}
+\end{table}
+
+\subsubsection{Display maken voor scholierencomponent}
+
+Net zoals bij het lerarencomponent, moet het prototype een oorspronkelijke weergave van het wetenschappelijk artikel kunnen tonen. Het onderzoek baseert de lay-out op dat van de erkende softwarepakketten, alsook de uitgeteste chatbots. 
+
+\subsubsection{Prompts schrijven voor gepersonaliseerde ATS}
+
+De prompts in tabel \ref{table:prompts-lerarencomponent} kan het scholierencomponent overnemen van het lerarencomponent. Aanvullend op deze prompts kunnen scholieren ook zelf een prompt schrijven.
+
+\subsubsection{Back end functies schrijven voor gepersonaliseerde ATS}
+
+Om zinnen in de doorlopende tekst te verwijderen, moet de front end over de nodige span-tags beschikken. Bij het inlezen van de PDF voert de back end dit al uit, zoals verwezen in listing \ref{code:reader-formatting}. Daarom hoeft het onderzoek geen nieuwe functie in de back end te schrijven. Vervolgens moet de back end over een functie beschikken om een zin te vereenvoudigen. Het lerarencomponent gebruikt al dergelijk functie. Daarmee hergebruikt de \textit{back end} de functie in listing \ref{listing:gpt-personalised-simplify}. 
 
 \medspace
 
-Scholieren kunnen zelf vragen stellen door de tekst te markeren en vervolgens op de verwante knop te drukken. Daarna stuurt een JS-call zowel de vraag van de gebruiker en de gemarkeerde tekst naar de Flask back end. Die verwerkt de aanvraag met de functie in de zelfgemaakte GPT-klasse. Om het systeem robuust te maken, krijgt de prompt een extra veiligheidsmaatregel mee, namelijk 'op basis van deze tekst ///'. Om transparantie van het model te garanderen, geeft de back end ook de prompt mee aan de front-end. Figuur \ref{img:step-1-proto-vraagstelling} en figuur \ref{img:step-2-proto-vraagstelling} tonen deze stappen.
+Zinnen baseren op een zelfgemaakte prompt moet de \textit{back end} echter wel toevoegen. Zo gebruikt de back end de functie in listing \ref{code:custom-prompt} om een \textit{custom prompt} te verwerken. Deze functie stuurt de oorspronkelijke prompt, samen met de context, door naar de GPT-3 API.
+
+\begin{lstlisting}[language=python, caption={Een API-call sturen naar GPT-3 met een custom prompt.}, label={code:custom-prompt}]
+def personalised_simplify_w_prompt(self, sentences, personalisation):
+	try:
+		result = openai.Completion.create(
+			prompt=personalisation,
+			temperature=0,
+			max_tokens=len(personalisation)+len(sentences),
+			model=COMPLETIONS_MODEL,
+			top_p=0.9,
+			stream=False
+		)["choices"][0]["text"].strip(" \n")
+		return result, personalisation
+	except Exception as e:
+		return str(e), personalisation
+\end{lstlisting}
+
+% 4.
+
+Vervolgens heeft de back end als een functie die een woord opzoekt met GPT-3. Deze functie staat beschreven in listing \ref{listing:gpt-look-up-word} en de back end kan deze functie zonder problemen hergebruiken. Ten slotte hoeft de \textit{back end} geen nieuwe functie te krijgen om woordmarkering af te handelen.
+
+\subsubsection{Front end implementatie voor ATS functionaliteiten}
+
+% 1.
+
+Allereerst kan de \textit{front end} zonder hulp van de \textit{back end} zinnen met JS verwijderen. Alle woorden in een zin bundelt de front end in een span-tag van de klasse 'sentence'. Als de gebruiker dergelijk span-tag aanklikt, dan verwijdert de \textit{front end} de gekozen span-tag.
+
+% 2.
+
+Eerst slaat JS de gemarkeerde tekst en meegekregen ATS-opties op en geeft deze door aan de back end met een API-call. Vervolgens verwerkt de back end deze aanvraag door een nieuwe aanvraag te sturen naar GPT-3, met daarin een prompt die de tekst en de gekozen ATS-technieken bevat. De prompt specifieert het formaat waaraan de uitvoer van het taalmodel moet voldoen.  Als de tekst doorlopend is, dan verwerkt JS dit resultaat als een p-tag.  Als het taalmodel een opsomming moest genereren, dan zal de front-end alle zinnen doorlopen en uitprinten tussen twee li-tags.
+
+% 3.
+
+Listing \ref{code:frontend-add-word-to-glossary} toont de aanpak om via de front end een woord, pos-tag en definitie toe te voegen aan de woordenlijst tabel. De front end handelt enkel aanvragen voor werkwoorden, adjectieven, hulpwerkwoorden en zelfsandige naamwoorden af. Eenmaal de scholier op een woord drukt, stuurt de front end een aanvraag naar de back end. Hiervoor stuurt de front end de context en het woord naar de back end. De front end voegt nadien een nieuwe rij aan de tabel toe met daar in het woord, de PoS-tag en de definitie.
+
+\begin{lstlisting}[language=javascript, caption={Een woord aan de woordenlijst toevoegen in het scholierencomponent.}, label={code:frontend-add-word-to-glossary}]
+document.addEventListener("DOMContentLoaded", () => {
+	const spans = document.querySelectorAll(".verb, .adj, .noun, .aux");
+	spans.forEach((span) => {
+		span.addEventListener("click", async (event) => {
+			const radioButton = document.querySelector("#explainWords");
+			if (radioButton && !radioButton.checked) {
+				return;
+			}
+			let leftSideTag = span.closest("p");
+			let rightSideTag = leftSideTag.nextElementSibling;
+			sentence_of_origin = span.closest(".sentence");
+			
+			var context = "";
+			for (const child of sentence_of_origin.children) {
+				context = context + " " + child.textContent;
+			}
+			const word = event.target.textContent;
+			const response = await fetch(`http://localhost:5000/look-up-word`, {
+				method: "POST",
+				headers: { "Content-Type": "application/json" },
+				body: JSON.stringify({ word: word, sentence: context }),
+			});
+			result = await response.json();
+			
+			if (result.result == "error") {
+				alert("Incorrect API key provided: " + result.word);
+			} else {
+				var pos_tag = result.result.split('|')[0];
+				var definition = result.result.split('|')[1];
+				let table = document.querySelector(".table-glossary");
+				let newRow = table.insertRow(-1);
+				let cell1 = newRow.insertCell(0);
+				let cell2 = newRow.insertCell(1);
+				let cell3 = newRow.insertCell(2);
+				cell1.innerHTML = result.word;
+				cell2.innerHTML = pos_tag;
+				cell3.innerHTML = definition;
+			}
+		});
+	});
+});
+\end{lstlisting}
+
+% 4.
+
+Ten slotte moet de front end specifieke woorden kunnen markeren. De front-end beschikt al over de PoS-tags. Zo kan de front end met de JS-functie in listing \ref{code:frontend-mark-pos-tag} deze woorden een specifieke kleur geven als markering. De listing toont enkel het markeren van zelfstandige naamwoorden. Daarnaast kan de front end ook adjectieven uit de tekst verwijderen zonder taalmodel. Zo hoeft de JS-functie enkel de span-tags van de klasse 'adj' verwijderen uit de document.
+
+\begin{lstlisting}[language=javascript, caption={Zelfstandige naamwoorden in het scholierencomponent markeren.}, label={code:frontend-mark-pos-tag}]
+const nouns = document.getElementById('noun-show');
+
+nouns.addEventListener('change', function () {
+	if (this.checked) {
+		const color = document.getElementById('colorForNouns').value;
+		const elements = document.querySelectorAll("span.noun");
+		elements.forEach(function (element) {
+			element.style.color = color;
+		});
+	} else {
+		const elements = document.querySelectorAll("span.noun");
+		elements.forEach(function (element) {
+			element.style.color = "black";
+		});
+	}
+});
+\end{lstlisting}
 
 \subsection{De opzet voor een lokale webtoepassing.}
 

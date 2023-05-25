@@ -87,10 +87,10 @@ def process_file(file_path):
         tokens = tokenize_text(text)
         return tokens
 
-hf = HuggingFaceModels(os.get('hf_key'))
-gpt = openai.key(os.get('openai_key'))
+hf = HuggingFaceModels('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')
 original_scientific_papers = [f for f in os.listdir(folder_path)]
-for paper in original_scientific_papers[3:]:
+print(original_scientific_papers)
+for paper in original_scientific_papers:
     sentence_tokens = process_file(paper) 
     for sentence in sentence_tokens:
         for model in huggingfacemodels.keys():
