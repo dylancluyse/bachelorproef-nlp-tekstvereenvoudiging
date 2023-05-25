@@ -7,13 +7,13 @@ In dit hoofdstuk worden de resultaten uit de requirementsanalyse, vergelijkende 
 
 % Onderzoeksvraag 1 Welke functies ontbreken AI-toepassingen om geautomatiseerde tekstvereenvoudiging mogelijk te maken voor scholieren met dyslexie in de derde graad middelbaar onderwijs?
 
-Op basis van de testen kan de volgende criteria worden afgetoetst, weergegeven in tabel \ref{table:afgetoetste-criteria}.
+Op basis van de testen kan de volgende criteria worden afgetoetst, weergegeven in tabel \ref{table:afgetoetste-criteria}. Alle \textit{must-haves} zijn vetgedrukt.
 
 \begin{table}[H]
 	\centering
 	\begin{tabular}{ | m{8cm} | m{0.5cm} | m{0.5cm} | m{0.5cm} | m{0.5cm} | m{0.5cm} | m{0.5cm} | m{1cm} | m{1cm} | }
 		\hline
-		Richtlijn & E1 & E2 & E3 & O1 & O2 & O3 & O4 & O5 \\ \hline
+		\textbf{Richtlijn} & \textbf{E1} & \textbf{E2} & \textbf{E3} & \textbf{O1} & \textbf{O2} & \textbf{O3} & \textbf{O4} & \textbf{O5} \\ \hline
 		Rekening houden met doelgroep & - & - & - & - & - & - & P2 & P2 \\ \hline
 		Woorden met minder lettergrepen gebruiken & - & X & - & X & - & - & P1-6 & P1-6 \\ \hline
 		Extra uitleg schrijven bij zinnen & - & X & - & - & - & - & P1-3 & P1-3 \\ \hline
@@ -49,7 +49,32 @@ Huidige door de overheid erkende software kunnen woorden- en synoniemenlijsten g
 \medspace
 
 % Onderzoeksvraag 2
-ChatGPT en Bing Chat bewijzen dat gepersonaliseerde ATS met evenwaardige kwaliteiten als gepersonaliseerde MTS mogelijk is, maar de online toepassingen ontbreken de nodige opmaakopties om een gepersonaliseerde leeservaring aan te kunnen bieden. Alsook kunnen deze tools geen wetenschappelijke artikelen op een intuïtieve manier inlezen, maar vereisen deze het manueel extraheren van de tekstinhoud om vervolgens deze in de chatbot chunk-by-chunk in te voeren. Daarnaast zijn deze toepassingen niet in staat om teksten naar de actieve stem te schrijven bij geen van de uitgeteste prompts. Passieve zinnen bij de verschillende prompts resulteren in een zin met dezelfde semantiek, maar opnieuw in de passieve vorm. Enkel indien expliciet aangegeven, houdt GPT-3 rekening met de doelgroep waar andere toepassingen niet ertoe in staat zijn.
+
+ChatGPT en Bing Chat dat gepersonaliseerde ATS met evenwaardige kwaliteiten als gepersonaliseerde MTS mogelijk is, maar de online toepassingen ontbreken de nodige opmaakopties om een gepersonaliseerde leeservaring aan te kunnen bieden. Alsook kunnen deze tools geen wetenschappelijke artikelen op een intuïtieve manier inlezen, maar vereisen deze het manueel extraheren van de tekstinhoud om vervolgens deze in de chatbot chunk-by-chunk in te voeren. Daarnaast zijn deze toepassingen niet in staat om teksten naar de actieve stem te schrijven bij geen van de uitgeteste prompts. Passieve zinnen bij de verschillende prompts resulteren in een zin met dezelfde semantiek, maar opnieuw in de passieve vorm. Enkel indien expliciet aangegeven in de prompt, houdt GPT-3 rekening met de doelgroep. Andere toepassingen kunnen dit niet.
+
+\begin{figure}[H]
+	\includegraphics{img/typeset-example.png}
+	\caption{Informatie opvragen van een wetenschappelijk artikel met SciSpace}
+	\label{img:scispace-example}
+\end{figure}
+
+\begin{figure}[H]
+	\includegraphics{img/bing-ai-chatbot-example.png}
+	\caption{Tekstvereenvoudiging via de link van een wetenschappelijk artikel met Bing Chat}
+	\label{img:tryout-bing-ai}
+\end{figure}
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{img/simplish-output.png}
+	\caption{Illustratie van de tekstanalyse bij Simplish na een tekstvereenvoudiging.}
+	\label{img:simplish-output}
+\end{figure}
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{img/scholarcy-attempt.png}
+	\caption{Illustratie van de tekstanalyse bij Rewordify.}
+	\label{img:scholarcy}
+\end{figure}
 
 \section{Geschikte taalmodel voor gepersonaliseerde tekstvereenvoudiging met ATS}
 
@@ -213,19 +238,9 @@ T4P3 maakt de zinnen korter door langere zinnen op te splitsen. T1, T2 en T3 beh
 
 % deelvraag: Hoe kan een intuïtieve en lokale webtoepassing worden ontwikkeld die zowel scholieren met dyslexie als docenten helpt bij het vereenvoudigen van wetenschappelijke artikelen met behoud van semantiek, jargon en zinsstructuren?
 
-De ontwikkeling van een prototype voor een gepersonaliseerde ATS van wetenschappelijke artikelen heeft tot doel om ontwikkelaars inzicht te verschaffen in de mogelijkheden om een coherente en lokale webtoepassing te ontwikkelen. Na evaluatie blijkt het prototype te voldoen aan de gespecificeerde functionaliteiten zoals vastgesteld in het Moscow-schema of tabel \ref{img:moscow-table}. 
+Vanuit de homepagina kunnen eindgebruikers drie schermen kiezen: het lerarencomponent, het scholierencomponent en een instellingenpagina.
 
-Hiermee overtreft het prototype alle andere geteste tools in tabel \ref{table:overview-tools} op alle fronten. Eerdere belemmeringen, zoals het wijzigen van het formaat, waren enkel mogelijk via de commandline of via een chatbot. Het huidige prototype heeft echter intuïtieve handelingen geïmplementeerd om deze obstakels te overwinnen. 
-
-\begin{center}
-	\begin{figure}[H]
-		\includegraphics[width=\linewidth]{img/proto-homescreen.png}
-		\caption{Een mogelijke weergaven van de homepagina.}		
-		\label{img:homepage}
-	\end{figure}
-\end{center}
-
-Het prototype is uitgerust met functionaliteiten waarmee wetenschappelijke artikelen op consistente wijze kunnen worden ingeladen, waarna de gebruikers gepersonaliseerde ATS kunnen toepassen. Deze functionaliteiten zijn vergelijkbaar met andere geteste tools in de requirementsanalyse, maar gaan verder dan wat momenteel beschikbaar is in chatbots die geavanceerde logica gebruiken voor gepersonaliseerde ATS. Zowel scholieren als docenten kunnen ook de opmaakopties van de toepassing aanpassen aan hun persoonlijke voorkeuren bij het lezen van wetenschappelijke artikelen. 
+In de instellingenpagina kunnen eindgebruikers de opmaakopties aanpassen naargelang hun keuze. 
 
 \begin{center}
 	\begin{figure}[H]
@@ -277,6 +292,8 @@ Figuur \ref{img:proto-pos-tagging-scholieren} toont een voorbeeldweergave van de
 	\end{figure}
 \end{center}
 
+Het scholierencomponent biedt functionaliteiten aan om een ondersteunende ervaring aan scholieren toe te lenen. Zo kunnen scholieren specifieke zinnen vereenvoudigen door middel van gepersonaliseerde ATS. Figuren \ref{img:step-1-proto-vraagstelling} en \ref{img:step-2-proto-vraagstelling} tonen een tweede functionaliteit. Zo kunnen scholieren specifieke vragen stellen aan het prototype door middel van een gecentreerd invoerscherm.
+
 \begin{center}
 	\begin{figure}
 		\includegraphics[width=\linewidth]{img/proto-vraagstelling-1.png}
@@ -292,5 +309,11 @@ Figuur \ref{img:proto-pos-tagging-scholieren} toont een voorbeeldweergave van de
 		\label{img:step-2-proto-vraagstelling}
 	\end{figure}
 \end{center}
+
+De ontwikkeling van een prototype voor een gepersonaliseerde ATS van wetenschappelijke artikelen heeft tot doel om ontwikkelaars inzicht te verschaffen in de mogelijkheden om een coherente en lokale webtoepassing te ontwikkelen. Na evaluatie blijkt het prototype te voldoen aan de gespecificeerde functionaliteiten zoals vastgesteld in het Moscow-schema of tabel \ref{img:moscow-table}. Hiermee overtreft het prototype alle andere geteste tools in tabel \ref{table:overview-tools} op alle fronten. Eerdere belemmeringen, zoals het wijzigen van het formaat, waren enkel mogelijk via de commandline of via een chatbot. Het huidige prototype heeft echter intuïtieve handelingen geïmplementeerd om deze obstakels te overwinnen. 
+
+Het prototype bevat functionaliteiten waarmee eindgebruikers wetenschappelijke artikelen kunnen inladen. Daarna krijgen zowel de leraren als de scholieren de mogelijkheid om de tekst te manipuleren door middel van gepersonaliseerde ATS. Zo bevat het prototype alle must-haves uit het moscow-schema. Daarnaast bevat het prototype geen enkele wont-have.
+
+Deze functionaliteiten zijn vergelijkbaar met andere geteste tools in de requirementsanalyse, maar gaan verder dan wat momenteel beschikbaar is in chatbots die geavanceerde logica gebruiken voor gepersonaliseerde ATS. Zowel scholieren als docenten kunnen ook de opmaakopties van de toepassing aanpassen aan hun persoonlijke voorkeuren bij het lezen van wetenschappelijke artikelen. 
 
 % Dit wordt gerealiseerd door woordenlijsten te reproduceren na een zorgvuldige handmatige selectie van moeilijke woorden. Het prototype is lokaal op te zetten met behulp van Docker, hoewel voor het gebruik ervan een internetverbinding vereist is, net als bij andere tools in tabel \ref{table:overview-tools}.
