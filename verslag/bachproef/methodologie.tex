@@ -112,7 +112,7 @@ Om een overzicht te hebben van de functionaliteiten volgens prioriteit, bouwt he
 
 \begin{center}
 	\begin{table}[H]
-		\begin{tabular}{ | m{2cm} | m{12cm} | } 
+		\begin{tabular}{ | m{2cm} | m{13cm} | } 
 			\hline
 			\textbf{MoSCoW-principe} & \textbf{Functionaliteit} \\
 			\hline
@@ -515,7 +515,7 @@ Als het script alle meetwaarden succesvol kan verkrijgen, dan maakt het script e
 	\end{lstlisting}
 \end{center}
 
-In de vijfde en laatste fase komt het visualiseren en interpreteren van de resultaten aan bod, waarbij het onderzoek een \textit{Jupyter-notebook} en \textit{Matplotlib} gebruikt om resultaten te visualiseren. Listing \ref{code:generation-boxplot} illustreert het genereren van een boxplot die metrieken over het woordgebruik van de verschillende taalmodellen bij A1 visualiseert. Allereerst gebruikt de Jupyter-notebook een kleinere dataframe met enkel de data van artikel 1. Daarna groepeert het script de data op basis van modellen. Het aantal woorden per zin fungeert als geaggregeerd veld. Met Matplotlib kan het script vervolgens een eenvoudige boxplot genereren.
+In de vijfde en laatste fase komt het visualiseren en interpreteren van de resultaten aan bod, waarbij het onderzoek een \textit{Jupyter-notebook} en \textit{Matplotlib} gebruikt om resultaten te visualiseren. Listing \ref{code:generation-boxplot} illustreert het genereren van een boxplot. De boxplot visualiseert het woordgebruik van de verschillende taalmodellen bij A1. Allereerst gebruikt de Jupyter-notebook een kleinere dataframe met enkel de data van artikel 1. Daarna groepeert het script de data op basis van modellen. Het aantal woorden per zin fungeert als geaggregeerd veld. Met Matplotlib kan het script vervolgens een eenvoudige boxplot genereren.
 
 
 \begin{lstlisting}[language=Python, caption={Code om een boxplot voor het aantal woorden per zin te genereren.}, label={code:generation-boxplot}]	

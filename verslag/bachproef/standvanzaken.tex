@@ -113,7 +113,7 @@ Onderzoeken en ontwikkelaars zorgden voor de geautomatiseerde berekening van lee
 		\hline
 		\textbf{Score} & \textbf{Uitleg} \\ 
 		\hline
-		Flesch Reading Ease (FRE) & Deze leesbaarheidsscore berekent de moeilijkheidsgraad op zinbasis. Hoe hoger de score, hoe 'eenvoudiger' de zin \textcite{Cantos2019, Readable2021}. \\
+		Flesch Reading Ease (FRE) & Deze leesbaarheidsscore berekent de moeilijkheidsgraad op zinbasis. Hoe hoger de score, hoe 'eenvoudiger' de zin \autocite{Cantos2019, Readable2021}. \\
 		\hline
 		Gunning FOG (FOG) & In tegenstelling tot FRE, berekent FOG de moeilijkheidsgraad op basis van de volledige tekst \autocite{Cantos2019}. \\
 		\hline
@@ -161,7 +161,7 @@ Voor sommige lezers kan het begrijpend lezen van een complexe tekst echter een u
 
 \begin{center}
 		\begin{table}[H]
-			\begin{tabular}{ | m{1cm} | m{8cm} | m{6cm} | } 
+			\begin{tabular}{ | m{2.5cm} | m{8cm} | m{4.5cm} | } 
 			\hline
 			\textbf{Type vereenvoudiging} & \textbf{Techniek} & \textbf{Bron} \\ \hline
 			
@@ -284,7 +284,7 @@ Om de betekenis van elk woord in een tekst te begrijpen, moet een machine in sta
 
 \medspace
 
-Met NER-labeling kunnen systemen zo namen van personen, organisaties en locaties herkennen en classificeren. Het haalt specifieke informatie uit een tekst, zoals het identificeren van de namen van personen, plaatsen of bedrijven die in nieuwsartikelen, of het extraheren van belangrijke data of getallen uit financiële rapporten, aldus \textcite{Jurafsky2014}. Er zijn vier vormen van NER-labeling, zoals beschreven door \textcite{Li2018}: \textit{dictionary-based}, \textit{rule-based}, \textit{ML-based} en \textit{deep learning-based}. De eerste twee maken gebruik van vooraf gedefinieerde woordenboeken en regels, terwijl de laatste twee gebruik maken van statistische of neurale netwerken om te leren hoe entiteiten te herkennen. Elke vorm maakt gebruik van representaties om entiteiten te modelleren. \textcite{Poel2008} heeft een neurale netwerkmodel onderzocht voor PoS-tagging van Nederlandstalige teksten. Het model behaalde een nauwkeurigheid van 97,88\% voor bekende woorden en 41,67\% voor onbekende woorden en maakte gebruik van de Corpus Gesproken Nederlands (CGN) als trainingsdata. In de verwerking van tekst maken NLP-systemen gebruik van embeddings om woorden numeriek te representeren. Traditionele word embeddings bouwen een woordenschat op zonder de betekenis ervan in context te begrijpen. Contextuele word embeddings begrijpen daarentegen wel de context van een woord \autocite{Eisenstein2019}. 
+Met NER-labeling kunnen systemen zo namen van personen, organisaties en locaties herkennen en classificeren. Het haalt specifieke informatie uit een tekst, zoals het identificeren van de namen van personen, plaatsen of bedrijven die in nieuwsartikelen, of het extraheren van belangrijke data of getallen uit financiële rapporten, aldus \textcite{Jurafsky2014}. Er zijn vier vormen van NER-labeling, zoals beschreven door \textcite{Li2018}: \textit{dictionary-based}, \textit{rule-based}, \textit{ML-based} en \textit{deep learning-based}. De eerste twee maken gebruik van vooraf gedefinieerde woordenboeken en regels, terwijl de laatste twee gebruik maken van statistische of neurale netwerken om te leren hoe entiteiten te herkennen. Elke vorm maakt gebruik van representaties om entiteiten te modelleren. \textcite{Poel2008} hebben een neurale netwerkmodel onderzocht voor PoS-tagging van Nederlandstalige teksten. Het model behaalde een nauwkeurigheid van 97,88\% voor bekende woorden en 41,67\% voor onbekende woorden en maakte gebruik van de Corpus Gesproken Nederlands (CGN) als trainingsdata. In de verwerking van tekst maken NLP-systemen gebruik van embeddings om woorden numeriek te representeren. Traditionele word embeddings bouwen een woordenschat op zonder de betekenis ervan in context te begrijpen. Contextuele word embeddings begrijpen daarentegen wel de context van een woord \autocite{Eisenstein2019}. 
 
 \section{De verschillende soorten ATS}
 
@@ -324,7 +324,7 @@ Diverse onderzoeken hebben aangetoond dat lexicale vereenvoudiging een belangrij
 
 \medspace
 
-\textit{Syntactic simplification} (SS) of syntactische vereenvoudiging is een toepassing om de complexiteit van een zin te verminderen. Het past de grammatica en zinsstructuur van de tekst aan. Dit gebeurt door het combineren van twee zinnen tot één eenvoudigere zin of door de syntax te vereenvoudigen, terwijl de inhouden behouden blijft. Een voorbeeld van zo'n model is ontwikkeld door \textcite{Kandula2010} voor medische informatie. Het model bestaat uit drie modules, die zinnen met meer dan tien woorden vereenvoudigen en eventueel vervangen door kortere zinnen. Het omvat een PoS Tagger, een Grammar Simplifier en een Output Validator als onderdelen van de architectuur.
+\textit{Syntactic simplification} (SS) of syntactische vereenvoudiging is een toepassing om de complexiteit van een zin te verminderen. Het past de grammatica en zinsstructuur van de tekst aan. Dit gebeurt door het combineren van twee zinnen tot één eenvoudigere zin of door de syntax te vereenvoudigen, terwijl de inhouden behouden blijft. \textcite{Kandula2010} onderzochten de ontwikkeling van dergelijk model voor medische informatie. Het model bestaat uit drie modules, die zinnen met meer dan tien woorden vereenvoudigen en eventueel vervangen door kortere zinnen. Het omvat een PoS Tagger, een Grammar Simplifier en een Output Validator als onderdelen van de architectuur.
 
 \medspace
 

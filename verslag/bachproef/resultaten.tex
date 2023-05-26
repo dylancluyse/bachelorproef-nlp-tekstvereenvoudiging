@@ -3,6 +3,8 @@
 
 Dit hoofdstuk bespreekt de resultaten uit de requirementsanalyse, vergelijkende studie en de ontwikkeling van het prototype besproken. Zo bespreekt dit hoofdstuk de resultaten van de drie onderzoeksmethoden. Eerst geeft het onderzoek de resultaten van de requirementsanalyse, door middel van een bespreking van het toegepaste moscow-schema op de geteste tools. Daarna staat het onderzoek stil bij de objectieve en subjectieve resultaten uit de vergelijkende studie. Tot slot bespreekt het onderzoek het ontwikkelde prototype, alsook hoe dit prototype staat tegenover andere tools. De aftoetsing gebeurt op basis van de functionaliteiten voor gepersonaliseerde ATS op maat voor scholieren met dyslexie bij het begrijpend lezen van wetenschappelijke artikelen. 
 
+Dit hoofdstuk reikt enkel de belangrijkste code-snippets aan. De volledige code is op deze GitHub-repository\footnote{https://github.com/Dyashen/text-simplification-tool}.
+
 \section{Ontbrekende functies bij AI-toepassingen}
 
 Op basis van de experimenten, uitgevoerd in \ref{sec:requirementsanalyse}, toetst het onderzoek de toepassingen af volgens de criteria weergegeven in tabel \ref{table:afgetoetste-criteria}.
@@ -35,7 +37,7 @@ Op basis van de experimenten, uitgevoerd in \ref{sec:requirementsanalyse}, toets
 		Tekst herschrijven als tabel & - & - & - & - & - & - & P4, P6 & P4, P6 \\ \hline
 		Tekst herschrijven als opsomming & - & - & - & - & - & - & P5 & P5 \\ \hline
 		Artikel opladen als pdf & X & X & X & - & X & X & - & - \\ \hline
-		Artikel opladen als \textit{plain-text} & - & - & - & - & - & - & P1-6 & P1-6 \\ \hline
+		Artikel opladen als \textit{plain-text} & - & - & - & X & - & X & P1-6 & P1-6 \\ \hline
 		Artikel opladen via link & - & - & - & - & X* & - & P1-6* & - \\ \hline
 	\end{tabular}
 	\caption{Afgetoetste criteria volgens de experimenten.}
@@ -348,7 +350,7 @@ Alle eindgebruikers kunnen de opmaakopties van de toepassing aanpassen aan hun p
 
 \medspace
 
-Ontbrekende should-haves en wont-haves.
+Het prototype beschikt over enkele \textit{should-haves}. Zo geeft het prototype geen tekstanalyse aan de eindgebruiker. Door middel van eenduidige handelingen kunnen de eindgebruikers zinnen markeren. Het prototype past de zin aan door een \textit{in-line} definitie toe te voegen. Daarnaast biedt het prototype geen expliciete knoppen voor extraherende of abstraherende samenvatting aan. Tot slot geeft het 
 
 \medspace
 
