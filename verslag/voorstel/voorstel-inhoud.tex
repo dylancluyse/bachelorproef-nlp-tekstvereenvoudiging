@@ -79,11 +79,12 @@ Voor Germaanse talen zijn er enkele datasets en word embeddings beschikbaar die 
 
 Volgens \textcite{Garbacea2021} is het belangrijk dat AI-ontwikkelaars niet alleen aandacht besteden aan het aanpassen van woorden en zinnen, maar ook aan de gebruiker meegeven waarom iets is aangepast. De onderzoekers wijzen op twee ethische aspecten. Eerst moet de toepassing duidelijk aangeven waarom een woord of zin is aangepast. Het model moet de moeilijkheidsgraad van de woorden of zinnen bewijzen. \textcite{Iavarone2021} beschrijft een methode met regressiemodellen om de moeilijkheidsgraad te bepalen door een gemiddeld moeilijkheidspercentage per zin te berekenen. Daarnaast benadrukt \textcite{Garbacea2021} het belang van het markeren van de complexere delen van een tekst. Hiervoor haalt hetzelfde onderzoek methoden aan zoals \textit{lexical} of \textit{deep learning}.
 
-Er is een tactvolle aanpak nodig om een vereenvoudigde tekst met AI te beoordelen. De studie van \textcite{Swayamdipta2019} haalt aan dat er extra nood is aan NLP-modellen waarbij de tekst zijn kernboodschap behoudt. Samen met Microsoft Research bouwden ze NLP-modellen die gericht waren op de bewaring van zinsstructuur en -context door \emph{scaffolded learning}. Hiervoor maakten de onderzoekers gebruik van een voorspellingsmethode die de positie van woorden en zinnen in een document beoordeelde. De Flesch-Kincaid leesbaarheidstest is volgens \newline \textcite{Readable2021} een alternatieve manier om vereenvoudigde tekstinhoud te beoordelen, zonder de nood aan \textit{pre-trained} modellen. Deze score kan eenvoudig worden berekend met de \textit{Python-library} \textit{textstat}\footnote{https://pypi.org/project/textstat/}. 
+Er is een tactvolle aanpak nodig om een vereenvoudigde tekst met AI te beoordelen. De studie van \textcite{Swayamdipta2019} haalt aan dat er extra nood is aan NLP-modellen waarbij de tekst zijn kernboodschap behoudt. Samen met Microsoft Research bouwden ze NLP-modellen die gericht waren op de bewaring van zinsstructuur en -context door \emph{scaffolded learning}. Hiervoor maakten de onderzoekers gebruik van een voorspellingsmethode die de positie van woorden en zinnen in een document beoordeelde. De Flesch-Kincaid leesbaarheidstest is volgens \newline \textcite{Readable2021} een alternatieve manier om vereenvoudigde tekstinhoud te beoordelen, zonder de nood aan \textit{pre-trained} modellen. Figuur \ref{img:readable-scheme} geeft de indeling per doelgroep weer. Deze score kan eenvoudig worden berekend met de \textit{Python-library} \textit{textstat}\footnote{https://pypi.org/project/textstat/}. 
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{img/Screenshot_302.png}
-	\caption{\autocite{Readable2021}}
+	\caption{De indeling van leesgraadscores per doelgroep. Bron: \autocite{Readable2021}}
+	\label{img:readable-scheme}
 \end{figure}
 
 %---------- Methodologie ------------------------------------------------------

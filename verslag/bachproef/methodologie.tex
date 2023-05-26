@@ -28,7 +28,7 @@ Figuur \ref{img:flowchart-requirementsanalyse} toont de flowchart om de requirem
 \end{figure}
 
 % TOOLSELECTIE 
-Allereerst start het onderzoek met een toolselectie. Zoals aangewezen in sectie \ref{sec:beschikbare-tools-en-taalmodellen}, leent de overheid vijf softwarepakketten uit aan middelbare scholen. Echter neemt de requirementsanalyse drie van deze vijf in de analyse op, want hun functionaliteiten zijn passend voor deze doelgroep. De overige twee zijn minder aanwezig in het onderwijs. Daarnaast toont een zoekopdracht aan dat deze tools geen lexicale vereenvoudiging toepassen. 
+Allereerst start het onderzoek met een toolselectie. Zoals aangewezen in sectie \ref{sec:beschikbare-tools-en-taalmodellen}, leent de overheid vijf softwarepakketten uit aan middelbare scholen. Echter neemt de requirementsanalyse drie van deze vijf in de analyse op, want hun functionaliteiten zijn passend voor deze doelgroep. De overige twee zijn minder aanwezig in het onderwijs. Daarnaast toont een zoekopdracht aan dat deze tools geen LS toepassen. 
 
 Naast deze erkende softwarepakketten kunnen online beschikbare tools ook scholieren met dyslexie ondersteunen bij het begrijpend lezen van wetenschappelijke artikelen met ATS, zoals bewezen in \textcite{Bingel2018}. Daarom betrekt de requirementsanalyse enkel tools met onderschreven ATS-functionaliteiten en laat daarmee pure samenvattingstools erbuiten. Tabel \ref{table:shortlist-tools} toont een overzicht van de te experimenteren tools.
 
@@ -126,7 +126,7 @@ Om een overzicht te hebben van de functionaliteiten volgens prioriteit, bouwt he
 			& Tekst herschrijven als opsomming. \\
 			\hline
 			Should-have & \\
-			& Tekst-analyse \\
+			& Tekstanalyse \\
 			& Extra (in-line) uitleg schrijven bij moeilijke woordenschat. \\
 			& Personaliseerbare PDF- of Word-document lay-out. \\
 			& Uitvoer als PDF of Word-bestand teruggeven. \\
@@ -156,7 +156,7 @@ Om een overzicht te hebben van de functionaliteiten volgens prioriteit, bouwt he
 
 \medspace
 
-Vervolgens komen experimenten rond de opties rond gepersonaliseerde ATS aan bod. Eindgebruikers moeten wetenschappelijke artikelen kunnen opladen. Eindgebruikers kunnen enkel pdf's inladen bij SprintPlus, Kurzweil3000, AlineaSuite, Simplish, Rewordify en SciSpace. In tegenstelling tot Bing Chat en ChatGPT waarbij \textit{plain-text} of een link naar het wetenschappelijk artikel de enige vormen van invoer zijn. De tekstinhoud uit de PDF extraheren gebeurt dan manueel en deze tekst dient daarna als invoer voor de chatbot. Beide chatbots krijgen de prompt, gevolgd door een stuk van het wetenschappelijk artikel. Met zes verschillende prompts kan het onderzoek de functionaliteit om LS, SS of structurele aanpassingen op een tekst door een toepassing achterhalen. Tabel \ref{table:tested-prompts-requirementsanalysis} vermeldt de toegepaste prompts. Toepassingen krijgen eerst een link van het wetenschappelijk artikel, zoals aangegeven in figuur \ref{img:tryout-bing-ai}. Als de toepassing hier niet over beschikt, dan krijgt de chatbot de tekstinhoud van het wetenschappelijk artikel in \textit{plain-text} mee. 
+Vervolgens komen experimenten rond de opties rond gepersonaliseerde ATS aan bod. Eindgebruikers moeten wetenschappelijke artikelen kunnen opladen. Eindgebruikers kunnen enkel pdf's inladen bij SprintPlus, Kurzweil3000, AlineaSuite, Simplish, Rewordify en SciSpace. In tegenstelling tot Bing Chat en ChatGPT waarbij \textit{plain-text} of een link naar het wetenschappelijk artikel de enige vormen van invoer zijn. De tekstinhoud uit de PDF extraheren gebeurt dan manueel en deze tekst dient daarna als invoer voor de chatbot. Beide chatbots krijgen de prompt, gevolgd door een stuk van het wetenschappelijk artikel. Met zes verschillende prompts kan het onderzoek de functionaliteit om LS, SS of structurele aanpassingen op een tekst door een toepassing achterhalen. Tabel \ref{table:tested-prompts-requirementsanalysis} vermeldt de toegepaste prompts. Toepassingen krijgen eerst een link van het wetenschappelijk artikel. Als de toepassing hier niet over beschikt, dan krijgt de chatbot de tekstinhoud van het wetenschappelijk artikel in \textit{plain-text} mee. 
 
 \begin{center}
 	\begin{table}[H]
@@ -517,9 +517,10 @@ Als het script alle meetwaarden succesvol kan verkrijgen, dan maakt het script e
 	\end{lstlisting}
 \end{center}
 
-In de volgende fase komt het visualiseren en interpreteren van de resultaten aan bod, waarbij een \textit{Jupyter-notebook} Matplotlib gebruikt om resultaten te visualiseren. Listing \ref{} illustreert het genereren van een boxplot die metrieken over het woordgebruik van de verschillende taalmodellen bij A1 visualiseert. Allereerst gebruikt de Jupyter-notebook een kleinere dataframe met enkel de data van artikel 1. Daarna groepeert het script de data op basis van modellen. Het aantal woorden per zin fungeert als geaggregeerd veld. Met Matplotlib kan het script vervolgens een eenvoudige boxplot genereren.
+In de vijfde en laatste fase komt het visualiseren en interpreteren van de resultaten aan bod, waarbij het onderzoek een \textit{Jupyter-notebook} en \textit{Matplotlib} gebruikt om resultaten te visualiseren. Listing \ref{code:generation-boxplot} illustreert het genereren van een boxplot die metrieken over het woordgebruik van de verschillende taalmodellen bij A1 visualiseert. Allereerst gebruikt de Jupyter-notebook een kleinere dataframe met enkel de data van artikel 1. Daarna groepeert het script de data op basis van modellen. Het aantal woorden per zin fungeert als geaggregeerd veld. Met Matplotlib kan het script vervolgens een eenvoudige boxplot genereren.
 
-\begin{lstlisting}
+
+\begin{lstlisting}[language=Python, caption={Code om een boxplot voor het aantal woorden per zin te genereren.}, label={code:generation-boxplot}]	
 artikel_1 = df[(df['paper'] == 'Artikel 1 AI') & (df['FRE'] > 0)]
 data = artikel_1.groupby('model')['words_per_sentence']
 data_list = [group[1].tolist() for group in data]
@@ -532,7 +533,7 @@ plt.ylabel('Woorden per zin')
 plt.savefig('boxplot-avg-a1.png')
 \end{lstlisting}
 
-Verder lijst tabel \ref{table:verg-studie-metrieken} alle leesgraadscores op, samen met de toegepaste visualisatietechniek. De boxplots dienen om de spreiding van een leesgraadscore te tonen. Zo kan het onderzoek achterhalen hoe gespreid de gebruikte woordenschat is op het vlak van de leesgraadscores FRE en FOG. De spreiding bij het aantal woorden per zinnen geeft het onderzoek ook weer als een boxplot. Zo kan het onderzoek de regelmaat van korte zinnen achterhalen uit een tekst. De \textit{violinplots} dienen om de verdeling van moeilijke of lange woorden weer te geven. Tot slot maakt het onderzoek gebruik van een staafdiagram om het aantal hulpwerkwoorden of aantal zinnen met een vervoeging van het werkwoord 'zijn' te visualiseren.
+Verder toont tabel \ref{table:verg-studie-metrieken} alle leesgraadscores, samen met de toegepaste visualisatietechniek. De boxplots dienen om de spreiding van een leesgraadscore te tonen. Zo kan het onderzoek achterhalen hoe gespreid de gebruikte woordenschat is op het vlak van de leesgraadscores FRE en FOG. De spreiding bij het aantal woorden per zinnen geeft het onderzoek ook weer als een boxplot. Zo kan het onderzoek de regelmaat van korte zinnen achterhalen uit een tekst. De \textit{violinplots} dienen om de verdeling van moeilijke of lange woorden weer te geven. Tot slot maakt het onderzoek gebruik van een staafdiagram om het aantal hulpwerkwoorden of aantal zinnen met een vervoeging van het werkwoord 'zijn' te visualiseren.
 
 \begin{center}
 	\begin{table}[H]
@@ -563,16 +564,16 @@ Verder lijst tabel \ref{table:verg-studie-metrieken} alle leesgraadscores op, sa
 Tenslotte komen de resultaten van de menselijke beoordeling aan bod. Deze fase van de vergelijkende studie staat stil bij aspecten die leesmetrieken niet kunnen meten, waaronder de normen vermeld in tabel \ref{table:criteria-vergelijkende-studie-human-obv}. De referentietekst dient hier als hulpmiddel om de referentietekst, ofwel het verwachte resultaat, te vergelijken met de vereenvoudigde tekst door een taalmodel. 
 
 \begin{table}[H]
-	\begin{tabular}{| m{6cm} | m{6cm} |}
+	\begin{tabular}{| m{10cm} | m{2cm} |}
 		\hline
 		\textbf{Metriek} & \textbf{Vereenvoudigingstechniek} \\ \hline
-		Acroniemen behouden & Lexicale vereenvoudiging 	\\ \hline
-		Inschatting van de doelgroep & Lexicale vereenvoudiging	\\ \hline
-		Behoud van kern- en bijzaken & Lexicale vereenvoudiging \\ \hline
-		Schrijven in tabelvorm of als opsomming & Structurele aanpassing \\ \hline
-		Passieve zinconstructies herschrijven naar actieve zinconstructies & Syntactische vereenvoudiging \\ \hline
-		Bronvermelding behouden &  N.v.t. \\ \hline
-		Citeren en parafraseren & N.v.t. \\ \hline
+		Acroniemen behouden & LS 	\\ \hline
+		Inschatting van de doelgroep & LS	\\ \hline
+		Behoud van kern- en bijzaken & LS \\ \hline
+		Schrijven in tabelvorm of als opsomming & SA \\ \hline
+		Passieve zinconstructies herschrijven naar actieve zinconstructies & SS \\ \hline
+		Bronvermelding behouden &  SA \\ \hline
+		Citeren en parafraseren & SS en SA. \\ \hline
 	\end{tabular}
 	\caption{Criteria voor menselijke observatie bij de vergelijkende studie.}
 	\label{table:criteria-vergelijkende-studie-human-obv}
@@ -917,7 +918,7 @@ Het onderzoek stelt de prompts op volgens de richtlijnen beschreven in tabel \re
 
 \subsubsection{Back end functies maken voor gepersonaliseerde ATS}
 
-Leraren kunnen handmatig zinnen uit de tekst verwijderen. Hiervoor gebruikt de \textit{front end} een \textit{eventlistener} die de aangeklikte span-tag van klasse 'sentence' uit het HTML-document verwijdert. Naast zinnen verwijderen kunnen leraren ook woorden aan een woordenlijst toevoegen. Hiervoor gebruikt de front-end een JS-script met een \textit{eventlistener} die een woord en de toebehorende zin toevoegt aan een \textit{textarea}. Deze \textit{textarea} gebruikt een \textit{pipe}-symbool als separator om nadien de text te splitsen en een array te bekomen. Om de leerkracht opties aan te reiken voor gepersonaliseerde ATS, bevat het HTML-document een formulier met keuzes aan. Dit formulier bevat alle nodige MTS-technieken uit tabel \ref{table:criteria-requirementsanalysis}. Na een POST-request krijgt de back end deze parameters die het systeem nadien verwerkt in de prompt voor het GPT-3 taalmodel, zoals aangewezen in listing \ref{listing:gpt-class}. Leraren kunnen ook het uitvoerbestand personaliseren met lettertypes, gekozen regeleinde, woord-spatiëring en de marge van het document. Nadat de back end de inhoud van dit formulier ontvangt, neemt de GPT-klasse de aanvraag over. Deze klasse verwerkt drie functionaliteiten, namelijk definities en synoniemen opzoeken en gepersonaliseerde ATS.
+Leraren kunnen handmatig zinnen uit de tekst verwijderen. Hiervoor gebruikt de \textit{front end} een \textit{eventlistener} die de aangeklikte span-tag van klasse 'sentence' uit het HTML-document verwijdert. Naast zinnen verwijderen kunnen leraren ook woorden aan een woordenlijst toevoegen. Hiervoor gebruikt de front-end een JS-script met een \textit{eventlistener} die een woord en de toebehorende zin toevoegt aan een \textit{textarea}. Deze \textit{textarea} gebruikt een \textit{pipe}-symbool als separator om nadien de text te splitsen en een array te bekomen. Om de leerkracht opties aan te reiken voor gepersonaliseerde ATS, bevat het HTML-document een formulier met keuzes aan. Dit formulier bevat alle nodige MTS-technieken uit tabel \ref{table:criteria-requirementsanalysis}. Na een POST-request krijgt de back end deze parameters die het systeem nadien verwerkt in de prompt voor het GPT-3 taalmodel. Leraren kunnen ook het uitvoerbestand personaliseren met lettertypes, gekozen regeleinde, woord-spatiëring en de marge van het document. Nadat de back end de inhoud van dit formulier ontvangt, neemt de GPT-klasse de aanvraag over. Deze klasse verwerkt drie functionaliteiten, namelijk definities en synoniemen opzoeken en gepersonaliseerde ATS.
 
 \medspace
 
@@ -945,7 +946,7 @@ def look_up_word_gpt(self, word, context):
 	return 'error', str(e), str(e)
 \end{lstlisting}
 
-Vervolgens gebruikt de back end het GPT-3 model om een synoniem op te zoeken. Hiervoor spreekt de API de functie \textit{give-synonym} aan, verwezen in listing \ref{listing:gpt-class}.
+Vervolgens gebruikt de back end het GPT-3 model om een synoniem op te zoeken. Hiervoor spreekt de API de functie \textit{give-synonym} aan, verwezen in listing \ref{listing:gpt-give-synonym}.
 
 \begin{lstlisting}[language=Python, caption={Een synoniem genereren of ophalen met GPT-3.}, label={listing:gpt-give-synonym}]
 	""" @returns prompt, result from gpt """
@@ -1011,7 +1012,7 @@ def personalised_simplify(self, sentence, personalisation):
 
 \subsubsection{Pandoc implementatie}
 
-Ten slotte giet het script de \textit{plain-text} van vereenvoudigde tekstinhoud en de woordenlijsten in een pdf of docx-bestand. Zo maakt de Creator-klasse PDF's en docx-documenten volgens de meegegeven opmaakopties en maakt gebruik van Pandoc via python.  Pandoc gebruikt een tweestapsbeweging, waarbij het eerst \textit{plain-text} naar een markdownformaat omzet en vervolgens het Markdown-bestand naar een PDF of Word-document converteert. Daarvoor is een YAML-header nodig die de elementen, beschreven in tabel \ref{table:personalized-pdf-word-document-with-pandoc}, moet bevatten. Het script in listing \ref{} voegt de meegekregen instellingen toe aan de YAML-header. 
+Ten slotte giet het script de \textit{plain-text} van vereenvoudigde tekstinhoud en de woordenlijsten in een pdf of docx-bestand. Zo maakt de Creator-klasse PDF's en docx-documenten volgens de meegegeven opmaakopties en maakt gebruik van Pandoc via python.  Pandoc gebruikt een tweestapsbeweging, waarbij het eerst \textit{plain-text} naar een markdownformaat omzet en vervolgens het Markdown-bestand naar een PDF of Word-document converteert. Daarvoor is een YAML-header nodig die de elementen, beschreven in tabel \ref{table:personalized-pdf-word-document-with-pandoc}, moet bevatten.
 
 \begin{table}[H]
 	\begin{tabular}{ | m{5cm}| m{10cm} | }
@@ -1265,6 +1266,51 @@ nouns.addEventListener('change', function () {
 \subsection{De opzet voor een lokale webtoepassing.}
 
 Via commandline kunnen eindgebruikers het prototype opstarten. Het prototype online plaatsen valt buiten de scope van dit onderzoek, maar Docker biedt wel een alternatief om een eenduidige opzet van het prototype te garanderen. Omdat het prototype enkel API's van taalmodellen aanspreekt, werkt het prototype met één Docker-container. Listing \ref{code:dockerfile} toont de gebruikte code van de Dockerfile. Voor het opstarten van de webapplicatie moet de Docker-container eerst de benodigde word-embeddings van Spacy installeren. Een scriptbestand in Powershell, zoals weergegeven in \ref{code:shell-boot}, of Bash zoals weergegeven in \ref{code:bash-boot}, maakt de opstart van deze webapplicatie intuïtiever dan via commandline. Het Pipreq-commando maakt een lijst van python-bibliotheken die Docker vooraf moet installeren. Voor een efficiënte ontwikkeling, moet de Docker-opzet pas laat in het ontwikkelproces gebeuren. Het requirements bestand moet alle nodige Python en front end packages bevatten. Dit proces als eerste laten verlopen kan de versies tegen het einde van de ontwikkeling gedateerd maken. Ten laatste moeten ook alle lettertypen zich in de lokale map bevinden, want Pandoc moet over alle lettertypen beschikken om een nieuw pdf of docx-bestand te kunnen maken.
+
+\begin{lstlisting}[language=Dockerfile, caption={Dockerfile voor het prototype.}, label={code:dockerfile}]
+	FROM python:3.8-slim-buster
+	
+	WORKDIR /app
+	
+	COPY requirements.txt requirements.txt
+	
+	RUN apt-get update && apt-get install -y pandoc texlive-xetex texlive poppler-utils
+	
+	RUN pip3 install -r requirements.txt \
+	&& python3 -m spacy download nl_core_news_md \
+	&& python3 -m spacy download en_core_web_md
+	
+	COPY . .
+	
+	CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=5000"]
+\end{lstlisting}
+
+
+\begin{lstlisting}[language=Powershell, caption={Script voor het opstarten van de Docker-container voor Windows-gebruikers}, label={code:shell-boot}]
+	@echo off
+	
+	cd web-app
+	docker stop text-application-prototype
+	docker rm text-application-prototype
+	
+	docker rmi text-app
+	
+	docker build -t text-app .
+	docker run --name text-application-prototype --network webapp_simplification -d -p 5000:5000 text-app
+\end{lstlisting}
+
+\begin{lstlisting}[language=Bash, caption={Script voor het opstarten van de Docker-container voor Unix-gebruikers}, label={code:bash-boot}]
+	#!/bin/sh
+	
+	cd web-app || exit
+	docker stop text-application-prototype
+	docker rm text-application-prototype
+	
+	docker rmi text-app
+	
+	docker build -t text-app .
+	docker run --name text-application-prototype --network webapp_simplification -d -p 5000:5000 text-app
+\end{lstlisting}
 
 
 \subsection{Experimenten en vergelijkende studie met het prototype.}

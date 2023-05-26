@@ -381,6 +381,153 @@
       \field{title}{Bestaat Dyslexie?: En is het een relevante vraag?}
       \field{year}{2020}
     \endentry
+    \entry{Bosmans2022c}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a323fbad45da0012f502bb0baed5dbe4}{%
+           family={Bosmans},
+           familyi={B\bibinitperiod},
+           given={An},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e30d4f32404849b750a97226e7368385}{%
+           family={Croon},
+           familyi={C\bibinitperiod},
+           given={Stefaan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a8401a8d0b07e30edbfbd8d1841a992}{%
+           family={Verreycken},
+           familyi={V\bibinitperiod},
+           given={Veronique},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Vlaamse overheid}%
+      }
+      \strng{namehash}{82a86e5b8efe92ba858d1fc48614f2ab}
+      \strng{fullhash}{97fbbeb8c4417469ced839796f9a31f8}
+      \strng{bibnamehash}{97fbbeb8c4417469ced839796f9a31f8}
+      \strng{authorbibnamehash}{97fbbeb8c4417469ced839796f9a31f8}
+      \strng{authornamehash}{82a86e5b8efe92ba858d1fc48614f2ab}
+      \strng{authorfullhash}{97fbbeb8c4417469ced839796f9a31f8}
+      \field{extraname}{1}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{www.vlaanderen.be}
+      \field{title}{Woordgebruik - Moeilijke constructies}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.vlaanderen.be/taaladvies/taaladviezen/teksten-schrijven/formulering/zinsbouw-moeilijke-constructies
+      \endverb
+      \verb{url}
+      \verb https://www.vlaanderen.be/taaladvies/taaladviezen/teksten-schrijven/formulering/zinsbouw-moeilijke-constructies
+      \endverb
+    \endentry
+    \entry{Bosmans2022b}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a323fbad45da0012f502bb0baed5dbe4}{%
+           family={Bosmans},
+           familyi={B\bibinitperiod},
+           given={An},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e30d4f32404849b750a97226e7368385}{%
+           family={Croon},
+           familyi={C\bibinitperiod},
+           given={Stefaan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a8401a8d0b07e30edbfbd8d1841a992}{%
+           family={Verreycken},
+           familyi={V\bibinitperiod},
+           given={Veronique},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Vlaamse overheid}%
+      }
+      \strng{namehash}{82a86e5b8efe92ba858d1fc48614f2ab}
+      \strng{fullhash}{97fbbeb8c4417469ced839796f9a31f8}
+      \strng{bibnamehash}{97fbbeb8c4417469ced839796f9a31f8}
+      \strng{authorbibnamehash}{97fbbeb8c4417469ced839796f9a31f8}
+      \strng{authornamehash}{82a86e5b8efe92ba858d1fc48614f2ab}
+      \strng{authorfullhash}{97fbbeb8c4417469ced839796f9a31f8}
+      \field{extraname}{2}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{www.vlaanderen.be}
+      \field{title}{Woordgebruik - Moeilijke Woorden}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.vlaanderen.be/taaladvies/taaladviezen/teksten-schrijven/formulering/woordgebruik-moeilijke-woorden
+      \endverb
+      \verb{url}
+      \verb https://www.vlaanderen.be/taaladvies/taaladviezen/teksten-schrijven/formulering/woordgebruik-moeilijke-woorden
+      \endverb
+    \endentry
+    \entry{Bosmans2022a}{misc}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a323fbad45da0012f502bb0baed5dbe4}{%
+           family={Bosmans},
+           familyi={B\bibinitperiod},
+           given={An},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e30d4f32404849b750a97226e7368385}{%
+           family={Croon},
+           familyi={C\bibinitperiod},
+           given={Stefaan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9a8401a8d0b07e30edbfbd8d1841a992}{%
+           family={Verreycken},
+           familyi={V\bibinitperiod},
+           given={Veronique},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Vlaamse overheid}%
+      }
+      \strng{namehash}{82a86e5b8efe92ba858d1fc48614f2ab}
+      \strng{fullhash}{97fbbeb8c4417469ced839796f9a31f8}
+      \strng{bibnamehash}{97fbbeb8c4417469ced839796f9a31f8}
+      \strng{authorbibnamehash}{97fbbeb8c4417469ced839796f9a31f8}
+      \strng{authornamehash}{82a86e5b8efe92ba858d1fc48614f2ab}
+      \strng{authorfullhash}{97fbbeb8c4417469ced839796f9a31f8}
+      \field{extraname}{3}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradate}{3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{www.vlaanderen.be}
+      \field{title}{Woordgebruik - Synoniemen}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.vlaanderen.be/taaladvies/taaladviezen/teksten-schrijven/formulering/woordgebruik-synoniemen
+      \endverb
+      \verb{url}
+      \verb https://www.vlaanderen.be/taaladvies/taaladviezen/teksten-schrijven/formulering/woordgebruik-synoniemen
+      \endverb
+    \endentry
     \entry{Fernando2021}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9fc39be960ade3cfaafbc92b8316cef4}{%
@@ -754,6 +901,44 @@
       \field{pages}{145\bibrangedash 150}
       \range{pages}{6}
     \endentry
+    \entry{Cantos2019}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8f8032de4e213f16374e94a63bbb79e7}{%
+           family={Cantos},
+           familyi={C\bibinitperiod},
+           given={Pascual},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7770669369101b845b2da2f757a7552a}{%
+           family={Almela},
+           familyi={A\bibinitperiod},
+           given={Ángela},
+           giveni={Á\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{269ae631e05ff89c046e62a6f0972966}
+      \strng{fullhash}{269ae631e05ff89c046e62a6f0972966}
+      \strng{bibnamehash}{269ae631e05ff89c046e62a6f0972966}
+      \strng{authorbibnamehash}{269ae631e05ff89c046e62a6f0972966}
+      \strng{authornamehash}{269ae631e05ff89c046e62a6f0972966}
+      \strng{authorfullhash}{269ae631e05ff89c046e62a6f0972966}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Vigo International Journal of Applied Linguistics}
+      \field{month}{05}
+      \field{title}{Readability indices for the assessment of textbooks: a feasibility study in the context of EFL}
+      \field{year}{2019}
+      \field{pages}{31\bibrangedash 52}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.35869/vial.v0i16.92
+      \endverb
+    \endentry
     \entry{Cao2022}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ea3d6db7f14619daaf5f84dd3b03b2b6}{%
@@ -923,6 +1108,107 @@
       \verb{file}
       \verb :persbericht_-_kwart_van_bedrijven_gebruikt_artificiele_intelligentie_-_vlaanderen_bij_beste_leerlingen_van_de_klas.pdf:PDF
       \endverb
+    \endentry
+    \entry{Crossley2012}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ebb21dd6ad6f0f369156ed09ca8e1a2d}{%
+           family={Crossley},
+           familyi={C\bibinitperiod},
+           given={Scott\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b44ff66e8575bdd84a41facb081c6d51}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6409c3788ec2fc34ee42c342d6da492}{%
+           family={McNamara},
+           familyi={M\bibinitperiod},
+           given={Danielle\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6db181ac48c3466e41e0acb5003c580a}
+      \strng{fullhash}{e52ea1b8c2b48b61c29bdc11f5687bda}
+      \strng{bibnamehash}{e52ea1b8c2b48b61c29bdc11f5687bda}
+      \strng{authorbibnamehash}{e52ea1b8c2b48b61c29bdc11f5687bda}
+      \strng{authornamehash}{6db181ac48c3466e41e0acb5003c580a}
+      \strng{authorfullhash}{e52ea1b8c2b48b61c29bdc11f5687bda}
+      \field{extraname}{1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Texts are routinely simplified to make them more comprehensible for second language learners. However, the effects of simplification upon the linguistic features of texts remain largely unexplored. Here we examine the effects of one type of text simplification: intuitive text simplification. We use the computational tool, Coh-Metrix, to examine linguistic differences between proficiency levels of a corpus of 300 news texts that had been simplified to three levels of simplification (beginner, intermediate, advanced). The main analysis reveals significant differences between levels for a wide range of linguistic features, particularly between beginner and advanced levels. The results show that lower level texts are generally less lexically and syntactically sophisticated than higher-level texts. The analysis also reveals that lower level texts contain more cohesive features than higher-level texts. The analysis also provides strong evidence that these linguistic features can be used to classify levels of simplified reading texts. Overall, the findings support the notion that intuitively simplified texts at the beginning level contain more linguistic features related to comprehensible input than intuitively simplified texts at the advanced level.}
+      \field{journaltitle}{Language Teaching Research}
+      \field{number}{1}
+      \field{title}{Text simplification and comprehensible input: A case for an intuitive approach}
+      \field{volume}{16}
+      \field{year}{2012}
+      \field{pages}{89\bibrangedash 108}
+      \range{pages}{20}
+    \endentry
+    \entry{Crossley2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ebb21dd6ad6f0f369156ed09ca8e1a2d}{%
+           family={Crossley},
+           familyi={C\bibinitperiod},
+           given={Scott\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e147cbe4fee3d36dadefda4afc5c07c8}{%
+           family={Skalicky},
+           familyi={S\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=05ba2862f3eaebe07839b7abd008aaba}{%
+           family={Dascalu},
+           familyi={D\bibinitperiod},
+           given={Mihai},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6db181ac48c3466e41e0acb5003c580a}
+      \strng{fullhash}{aa0e9ede5905418a4372c82ac44087c5}
+      \strng{bibnamehash}{aa0e9ede5905418a4372c82ac44087c5}
+      \strng{authorbibnamehash}{aa0e9ede5905418a4372c82ac44087c5}
+      \strng{authornamehash}{6db181ac48c3466e41e0acb5003c580a}
+      \strng{authorfullhash}{aa0e9ede5905418a4372c82ac44087c5}
+      \field{extraname}{2}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Background Advances in natural language processing (NLP) and computational linguistics have facilitated major improvements on traditional readability formulas that aim at predicting the overall difficulty of a text. Recent studies have identified several types of linguistic features that are theoretically motivated and predictive of human judgments of text readability, which outperform predictions made by traditional readability formulas, such as Flesch–Kincaid. The purpose of this study is to develop new readability models using advanced NLP tools to measure both text comprehension and reading speed. Methods This study used crowdsourcing techniques to collect human judgments of text comprehension and reading speed across a diverse variety of topic domains (science, technology and history). Linguistic features taken from state-of-the-art NLP tools were used to develop models explaining human judgments of text comprehension and reading speed. The accuracy of these models was then compared with classic readability formulas. Results The results indicated that models employing linguistic features more theoretically related to text comprehension and reading speed outperform classic readability models. Conclusions This study developed new readability formulas based on advanced NLP tools for both text comprehension and reading speed. These formulas, based on linguistic features that better represent theoretical and behavioural accounts of the reading process, significantly outperformed classic readability formulas.}
+      \field{journaltitle}{Journal of Research in Reading}
+      \field{number}{3-4}
+      \field{title}{Moving beyond classic readability formulas: new methods and new models}
+      \field{volume}{42}
+      \field{year}{2019}
+      \field{pages}{541\bibrangedash 561}
+      \range{pages}{21}
+      \verb{doi}
+      \verb https://doi.org/10.1111/1467-9817.12283
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1111/1467-9817.12283
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-9817.12283
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/1467-9817.12283
+      \endverb
+      \keyw{readability,natural language processing,crowdsourcing,text comprehension,text reading speed}
     \endentry
     \entry{Dandekar2016}{misc}{}
       \name{author}{1}{}{%
@@ -2310,6 +2596,72 @@
       \verb https://aclanthology.org/2021.humeval-1.10
       \endverb
     \endentry
+    \entry{JavoureyDrevet2022}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=aceeb1ebab26b11c5fcf41563de70f9b}{%
+           family={Javourey-Drevet},
+           familyi={J\bibinithyphendelim D\bibinitperiod},
+           given={Ludivine},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5eb827933f36322cfcc39a63e9f7b963}{%
+           family={Dufau},
+           familyi={D\bibinitperiod},
+           given={Stéphane},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ced3ac226f0d9d941ca90107499df87}{%
+           family={François},
+           familyi={F\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2d6c91557f3b168f0a6f4351a0c4e095}{%
+           family={Gala},
+           familyi={G\bibinitperiod},
+           given={Núria},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=527f47ae2c6b790d1f74701c02ccae69}{%
+           family={Ginestié},
+           familyi={G\bibinitperiod},
+           given={Jacques},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e212b94004207f2183c4cdcd48cc694d}{%
+           family={Ziegler},
+           familyi={Z\bibinitperiod},
+           given={Johannes\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{e4ad538fcebbe3af5820919a6da24f9f}
+      \strng{fullhash}{70eb3ee223c359c58374c68d57070357}
+      \strng{bibnamehash}{70eb3ee223c359c58374c68d57070357}
+      \strng{authorbibnamehash}{70eb3ee223c359c58374c68d57070357}
+      \strng{authornamehash}{e4ad538fcebbe3af5820919a6da24f9f}
+      \strng{authorfullhash}{70eb3ee223c359c58374c68d57070357}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Psycholinguistics}
+      \field{number}{2}
+      \field{title}{Simplification of literary and scientific texts to improve reading fluency and comprehension in beginning readers of French}
+      \field{volume}{43}
+      \field{year}{2022}
+      \field{pages}{485\bibrangedash 512}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1017/S014271642100062X
+      \endverb
+    \endentry
     \entry{Jiang2023}{misc}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9e56913c23909ff64f37cd44e0035a3b}{%
@@ -2612,6 +2964,60 @@
       \verb{url}
       \verb https://doi.org/10.3102/0013189X20912798
       \endverb
+    \endentry
+    \entry{Leroy2013}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=0ed0c6789c54d3d1c2f71198ff22e812}{%
+           family={Leroy},
+           familyi={L\bibinitperiod},
+           given={Gondy},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0582db81566df6dabf0146eb50f90b65}{%
+           family={Kauchak},
+           familyi={K\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fbc7958043f4cb80d9a5975decd05db}{%
+           family={Mouradi},
+           familyi={M\bibinitperiod},
+           given={Obay},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e4621081781f70702e4e01c2e2fa72c0}
+      \strng{fullhash}{d713ed7ffe4d59c2a68dcdc56287f099}
+      \strng{bibnamehash}{d713ed7ffe4d59c2a68dcdc56287f099}
+      \strng{authorbibnamehash}{d713ed7ffe4d59c2a68dcdc56287f099}
+      \strng{authornamehash}{e4621081781f70702e4e01c2e2fa72c0}
+      \strng{authorfullhash}{d713ed7ffe4d59c2a68dcdc56287f099}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Purpose Low patient health literacy has been associated with cost increases in medicine because it contributes to inadequate care. Providing explanatory text is a convenient approach to distribute medical information and increase health literacy. Unfortunately, writing text that is easily understood is challenging. This work tests two text features for their impact on understanding: lexical simplification and coherence enhancement. Methods A user study was conducted to test the features’ effect on perceived and actual text difficulty. Individual sentences were used to test perceived difficulty. Using a 5-point Likert scale, participants compared eight pairs of original and simplified sentences. Abstracts were used to test actual difficulty. For each abstract, four versions were created: original, lexically simplified, coherence enhanced, and lexically simplified and coherence enhanced. Using a mixed design, one group of participants worked with the original and lexically simplified documents (no coherence enhancement) while a second group worked with the coherence enhanced versions. Actual difficulty was measured using a Cloze measure and multiple-choice questions. Results Using Amazon's Mechanical Turk, 200 people participated of which 187 qualified based on our data qualification tests. A paired-samples t-test for the sentence ratings showed a significant reduction in difficulty after lexical simplification (p<.001). Results for actual difficulty are based on the abstracts and associated tasks. A two-way ANOVA for the Cloze test showed no effect of coherence enhancement but a main effect for lexical simplification, with the simplification leading to worse scores (p=.004). A follow-up ANOVA showed this effect exists only for function words when coherence was not enhanced (p=.008). In contrast, a two-way ANOVA for answering multiple-choice questions showed a significant beneficial effect of coherence enhancement (p=.003) but no effect of lexical simplification. Conclusions Lexical simplification reduced the perceived difficulty of texts. Coherence enhancement reduced the actual difficulty of text when measured using multiple-choice questions. However, the Cloze measure results showed that lexical simplification can negatively impact the flow of the text.}
+      \field{issn}{1386-5056}
+      \field{journaltitle}{International Journal of Medical Informatics}
+      \field{number}{8}
+      \field{title}{A user-study measuring the effects of lexical simplification and coherence enhancement on perceived and actual text difficulty}
+      \field{volume}{82}
+      \field{year}{2013}
+      \field{pages}{717\bibrangedash 730}
+      \range{pages}{14}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.ijmedinf.2013.03.001
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1386505613000592
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1386505613000592
+      \endverb
+      \keyw{Comprehension,Readability,Health literacy,Consumer health information,Patient education,Information systems,Medical informatics computing}
     \endentry
     \entry{Li2022}{misc}{}
       \name{author}{1}{}{%
@@ -3070,6 +3476,60 @@
       \verb{url}
       \verb https://data-en-maatschappij.ai/nieuws/school-innovation-forum-2021
       \endverb
+    \endentry
+    \entry{Matarese2013}{inbook}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9f00a9b54dbcba4284cdc7d28fe5dbfa}{%
+           family={Matarese},
+           familyi={M\bibinitperiod},
+           given={Valerie},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=9f00a9b54dbcba4284cdc7d28fe5dbfa}{%
+           family={Matarese},
+           familyi={M\bibinitperiod},
+           given={Valerie},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Chandos Publishing}%
+      }
+      \strng{namehash}{9f00a9b54dbcba4284cdc7d28fe5dbfa}
+      \strng{fullhash}{9f00a9b54dbcba4284cdc7d28fe5dbfa}
+      \strng{bibnamehash}{9f00a9b54dbcba4284cdc7d28fe5dbfa}
+      \strng{authorbibnamehash}{9f00a9b54dbcba4284cdc7d28fe5dbfa}
+      \strng{authornamehash}{9f00a9b54dbcba4284cdc7d28fe5dbfa}
+      \strng{authorfullhash}{9f00a9b54dbcba4284cdc7d28fe5dbfa}
+      \strng{editorbibnamehash}{9f00a9b54dbcba4284cdc7d28fe5dbfa}
+      \strng{editornamehash}{9f00a9b54dbcba4284cdc7d28fe5dbfa}
+      \strng{editorfullhash}{9f00a9b54dbcba4284cdc7d28fe5dbfa}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract: Scientific literacy is a fundamental attribute that supports researchers in both research and research writing. This chapter describes the rationale and design of a course that uses strategic, critical reading to teach research writing to doctoral candidates. The course, ‘Effective Biomedical Reading and Writing’, was designed by an authors’ editor with scientific qualifications. In the course, students are guided through the independent writing of a research paper using their own data, according to a scheme in which a paper is built up around the results. Through reading and critical discussion of published papers representing a range of qualities and topics, students develop a framework of knowledge that helps them assess the effectiveness of their own writing. They are supported throughout the course, in reading and writing, by the instructor’s knowledge of the research topics and methodologies. Subject specialists who work as language professionals and who acquire language teaching skills are uniquely positioned to develop courses for doctoral students in their own fields.}
+      \field{booktitle}{Supporting Research Writing}
+      \field{isbn}{978-1-84334-666-1}
+      \field{series}{Chandos Information Professional Series}
+      \field{title}{5 - Using strategic, critical reading of research papers to teach scientific writing: the reading–research–writing continuum}
+      \field{year}{2013}
+      \field{pages}{73\bibrangedash 89}
+      \range{pages}{17}
+      \verb{doi}
+      \verb https://doi.org/10.1016/B978-1-84334-666-1.50005-9
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/B9781843346661500059
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/B9781843346661500059
+      \endverb
+      \keyw{browsing,second-language reading,literature-based learning,peer discussion,small-group learning}
     \endentry
     \entry{McCombes2022}{misc}{}
       \name{author}{1}{}{%
@@ -4055,6 +4515,69 @@
       \field{month}{10}
       \field{title}{Good fonts for dyslexia}
       \field{year}{2013}
+    \endentry
+    \entry{Rello2013d}{article}{}
+      \name{author}{4}{ul=3}{%
+        {{un=0,uniquepart=base,hash=beb516ae4b9334129c564a1d33d9ec9b}{%
+           family={Rello},
+           familyi={R\bibinitperiod},
+           given={Luz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=14e9e2c7e918f62ba13b9e040fb7f468}{%
+           family={Baeza-Yates},
+           familyi={B\bibinithyphendelim Y\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=2787e952842479085b9dd0655c85ad1c}{%
+           family={Bott},
+           familyi={B\bibinitperiod},
+           given={Stefan},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c64a04423df54f4b8a0c897a023033d}{%
+           family={Saggion},
+           familyi={S\bibinitperiod},
+           given={Horacio},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro, Brazil}%
+      }
+      \list{publisher}{1}{%
+        {Association for Computing Machinery}%
+      }
+      \strng{namehash}{151b0ddb43761304c846c44414facf1f}
+      \strng{fullhash}{1031e9a96ab01882ff004f4874c90c63}
+      \strng{bibnamehash}{1031e9a96ab01882ff004f4874c90c63}
+      \strng{authorbibnamehash}{1031e9a96ab01882ff004f4874c90c63}
+      \strng{authornamehash}{151b0ddb43761304c846c44414facf1f}
+      \strng{authorfullhash}{1031e9a96ab01882ff004f4874c90c63}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present a user study for two different automatic strategies that simplify text content for people with dyslexia. The strategies considered are the standard one (replacing a complex word with the most simpler synonym) and a new one that presents several synonyms for a complex word if the user requests them. We compare texts transformed by both strategies with the original text and to a gold standard manually built. The study was undertook by 96 participants, 47 with dyslexia plus a control group of 49 people without dyslexia. To show device independence, for the new strategy we used three different reading devices. Overall, participants with dyslexia found texts presented with the new strategy significantly more readable and comprehensible. To the best of our knowledge, this is the largest user study of its kind.}
+      \field{isbn}{9781450318440}
+      \field{journaltitle}{Proceedings of the 10th International Cross-Disciplinary Conference on Web Accessibility}
+      \field{series}{W4A '13}
+      \field{title}{Simplify or Help? Text Simplification Strategies for People with Dyslexia}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1145/2461121.2461126
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1145/2461121.2461126
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1145/2461121.2461126
+      \endverb
+      \keyw{smartphone,tablet,laptop,readability,understandability,text simplification,dyslexia,eye-tracking}
     \endentry
     \entry{Rello2013a}{article}{}
       \name{author}{4}{ul=3}{%
