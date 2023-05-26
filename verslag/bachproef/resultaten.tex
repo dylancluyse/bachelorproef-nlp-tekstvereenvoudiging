@@ -5,56 +5,7 @@ Dit hoofdstuk bespreekt de resultaten uit de requirementsanalyse, vergelijkende 
 
 \section{Ontbrekende functies bij AI-toepassingen}
 
-Op basis van de testen kan de volgende criteria worden afgetoetst, weergegeven in tabel \ref{table:afgetoetste-criteria}.
-
-\subsubsection{Must-haves}
-
-Alle geteste toepassingen, buiten O4 en O5, laten gebruikers toe om wetenschappelijk artikelen als pdf opladen. Figuur \ref{img:scispace-example} toont hoe O2 gebruikers in het oorspronkelijke bestand kan laten werken. O4 en O5 beschikken enkel over een \textit{plain-text} invoermethode. O2 en O5 kunnen online wetenschappelijke artikelen via URL, maar dit gebeurt echter bij één van de twee uitgeteste wetenschappelijke artikelen.
-
-\begin{figure}[H]
-	\includegraphics{img/typeset-example.png}
-	\caption{Informatie opvragen van een wetenschappelijk artikel met SciSpace}
-	\label{img:scispace-example}
-\end{figure}
-
-Alle uitgeteste tools passen moeilijke woorden aan naar een eenvoudiger alternatief. O1, O3, O4 en O5 kunnen een extra definitie aan de woorden toevoegen, maar enkel wanneer er geen eenvoudiger alternatief is. Figuur \ref{img:simplish-output} toont hoe O1 een extra definitie in de voetnoot plaatst. Figuur \ref{img:scholarcy} toont aan dat O3 op taalniveau de doelgroep probeert in te schatten met \textit{rewordifying level}. O4 en O5 passen de doelgroep aan naargelang de meegegeven doelgroep in de prompt. Andere uitgeteste tools passen de woorden aan, maar bieden geen transparantie over de inschatting van de doelgroep.
-
-\medspace
-
-% must-have
-E1, E2, E3 en O1 kunnen woorden- en synoniemenlijsten genereren. De gebruiker moet hier de moeilijke woorden handmatig selecteren. Nadien bouwt de toepassing een woordenlijst. E1 geeft de eindgebruiker de keuze waarvan E1 de definitie moet halen. O1 geeft het type woord, zoals adjectieven of werkwoord, ook mee in de woordenlijst. O4 en O5 kunnen enkel een woordenlijst genereren na een expliciete prompt. Zowel handmatige als automatische woordselectie resulteren met de geteste prompt in een woordenlijst. Andere tools zijn niet in staat om een woordenlijst te genereren. De inschatting van de doelgroep bij deze moeilijke woorden gebeurt enkel manueel.
-
-\medspace
-
-E1, E2 en E3 reiken de \textit{must-have} opmaakopties aan binnen de toepassing. Andere tools ontbreken personaliseerbare opmaakopties en bieden een statische webweergave aan. E1, E2 en E3 bieden manieren aan om de aangepaste documenten op te slaan als PDF. Ten slotte biedt geen uitgeteste tool personaliseerbare opmaakopties voor de uitvoerbestanden aan. 
-
-\medspace
-
-E1, E2 en E3 kunnen geen SS-technieken toepassen op de oorspronkelijke tekst. Overige uitgeteste tools kunnen zinnen inkorten door ze te splitsen. Geen van de uitgeteste tools is in staat om automatisch de tekst naar de actieve vorm te schrijven. O4 en O5 kunnen zinnen omvormen naar de actieve stem, maar enkel als de tool een extra voornaamwoord of onderwerp in de prompt meekrijgt. O4 en O5 kunnen onregelmatige werkwoorden wegwerken. E1, E2 en E3 kunnen een extraherende samenvatting van de tekst maken, maar enkel na een handmatige selectie van de zinnen. 
-
-\medspace
-
-Tot slot slaagt enkel O4 en O5 erin om de tekst te herschrijven als opsomming of tabel. De andere uitgeteste tools kunnen dit niet automatisch doen.
-
-\subsubsection{Should-haves}
-
-% should-have
-O1 en O3 geven automatisch tekstanalyse na de vereenvoudiging van een tekst, zoals weergegeven in figuren \ref{img:simplish-output} en \ref{img:scholarcy}. Andere tools, inclusief de verwante prompts van O4 en O5, reiken dit niet automatisch aan. 
-
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{img/simplish-output.png}
-	\caption{Illustratie van de tekstanalyse bij Simplish na een tekstvereenvoudiging.}
-	\label{img:simplish-output}
-\end{figure}
-
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{img/scholarcy-attempt.png}
-	\caption{Illustratie van de tekstanalyse bij Rewordify.}
-	\label{img:scholarcy}
-\end{figure}
-
-\medspace
-
+Op basis van de experimenten, uitgevoerd in \ref{sec:requirementsanalyse}, toetst het onderzoek de toepassingen af volgens de criteria weergegeven in tabel \ref{table:afgetoetste-criteria}.
 
 \begin{table}[H]
 	\centering
@@ -83,13 +34,81 @@ O1 en O3 geven automatisch tekstanalyse na de vereenvoudiging van een tekst, zoa
 		Inhoud visueel groeperen & - & X & X & - & - & - & - & - \\ \hline
 		Tekst herschrijven als tabel & - & - & - & - & - & - & P4, P6 & P4, P6 \\ \hline
 		Tekst herschrijven als opsomming & - & - & - & - & - & - & P5 & P5 \\ \hline
-		Artikel opladen als PDF & X & X & X & X & X & X & - & - \\ \hline
+		Artikel opladen als pdf & X & X & X & - & X & X & - & - \\ \hline
 		Artikel opladen als \textit{plain-text} & - & - & - & - & - & - & P1-6 & P1-6 \\ \hline
 		Artikel opladen via link & - & - & - & - & X* & - & P1-6* & - \\ \hline
 	\end{tabular}
 	\caption{Afgetoetste criteria volgens de experimenten.}
 	\label{table:afgetoetste-criteria}
 \end{table}
+
+\subsubsection{Must-haves}
+
+De geteste toepassingen laten gebruikers toe om wetenschappelijk artikelen als pdf opladen. Uitzonderlijk O4 en O5 laten dit niet toe. Figuur \ref{img:scispace-example} toont hoe O2 gebruikers in het oorspronkelijke bestand kan laten werken. O4 en O5 beschikken enkel over een \textit{plain-text} invoermethode. O2 en O5 kunnen online wetenschappelijke artikelen via URL, maar dit gebeurt echter bij één van de twee uitgeteste wetenschappelijke artikelen.
+
+\begin{figure}[H]
+	\includegraphics{img/typeset-example.png}
+	\caption{Informatie opvragen van een wetenschappelijk artikel met SciSpace}
+	\label{img:scispace-example}
+\end{figure}
+
+Alle uitgeteste tools passen moeilijke woorden aan naar een eenvoudiger alternatief. O1, O3, O4 en O5 kunnen een extra definitie aan de woorden toevoegen, maar enkel wanneer er geen eenvoudiger alternatief is. Figuur \ref{img:simplish-output} toont hoe O1 een extra definitie in de voetnoot plaatst. Figuur \ref{img:scholarcy} toont aan dat O3 op taalniveau de doelgroep probeert in te schatten met \textit{rewordifying level}. O4 en O5 passen de doelgroep aan naargelang de meegegeven doelgroep in de prompt. Andere uitgeteste tools passen de woorden aan, maar bieden geen transparantie over de inschatting van de doelgroep.
+
+\medspace
+
+% must-have
+E1, E2, E3 en O1 kunnen woorden- en synoniemenlijsten genereren. De gebruiker moet hier de moeilijke woorden handmatig selecteren. Nadien bouwt de toepassing een woordenlijst. E1 geeft de eindgebruiker de keuze waarvan E1 de definitie moet halen. O1 geeft het type woord, zoals adjectieven of werkwoord, ook mee in de woordenlijst. O4 en O5 kunnen enkel een woordenlijst genereren na een expliciete prompt. Zowel handmatige als automatische woordselectie resulteren met de geteste prompt in een woordenlijst. Andere tools zijn niet in staat om een woordenlijst te genereren. De inschatting van de doelgroep bij deze moeilijke woorden gebeurt enkel manueel.
+
+\medspace
+
+E1, E2 en E3 reiken de \textit{must-have} opmaakopties aan binnen de toepassing. Andere tools ontbreken personaliseerbare opmaakopties en bieden een statische webweergave aan. Ten slotte biedt geen uitgeteste tool personaliseerbare opmaakopties voor de uitvoerbestanden aan. 
+
+\medspace
+
+E1, E2 en E3 kunnen geen SS-technieken toepassen op de oorspronkelijke tekst. Overige uitgeteste tools kunnen zinnen inkorten door ze te splitsen. Geen van de uitgeteste tools is in staat om automatisch de tekst naar de actieve vorm te schrijven. O4 en O5 kunnen zinnen omvormen naar de actieve stem, maar enkel als de tool een extra voornaamwoord of onderwerp in de prompt meekrijgt.
+
+\medspace
+
+Tot slot slagen O2, O4 en O5 erin om de tekst te herschrijven als opsomming. O2 doet dit automatisch. O4 en O5 moeten deze vraag expliciet in hun prompt krijgen. De andere uitgeteste tools kunnen dit niet automatisch doen.
+
+\subsubsection{Should-haves}
+
+O1 en O3 tonen automatisch tekstanalyse na de vereenvoudiging van een tekst, zoals weergegeven in figuren \ref{img:simplish-output} en \ref{img:scholarcy}. Deze tools tonen het aantal zinnen, het aantal complexe woorden en het aantal lange woorden voor zowel het oorspronkelijk als het vereenvoudigde artikel. Andere tools, inclusief de verwante prompts van O4 en O5, reiken dit niet automatisch aan. 
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{img/simplish-output.png}
+	\caption{Illustratie van de tekstanalyse bij Simplish na een tekstvereenvoudiging.}
+	\label{img:simplish-output}
+\end{figure}
+
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{img/scholarcy-attempt.png}
+	\caption{Illustratie van de tekstanalyse bij Rewordify.}
+	\label{img:scholarcy}
+\end{figure}
+
+Alle uitgeteste tools, met uitzondering op O1, O4 en O5, bieden een manier aan om zonder tussenstap pdf-bestanden op te slaan. Geen toepassing biedt een functionaliteit aan om de vereenvoudigde versie als docx-bestand op te slaan.
+
+\medspace
+
+De requirementsanalyse kan niet achterhalen of de toepassingen gebruik maken van OCR. Wel maakt O2 gebruik van een andere inlees-techniek dan de andere tools. Zo kan het systeem alle uitgeteste wetenschappelijke artikelen inlezen. De gebruiker markeert enkel aanpassingen in het artikel, terwijl de uitvoer rechts in beeld komt. Zo kan de gebruiker de aanpassing niet zien. Daarentegen beschikken O1 en O3 over een weergave waarbij de eindgebruiker duidelijk de verschillen tussen oorspronkelijk en vereenvoudigd kan zien. Andere uitgeteste tools maken geen gebruik van deze weergave.
+
+\subsubsection{Could-haves}
+
+De geteste tools beschikken over de nodige functionaliteiten om gebruikerfeedback te geven. Zo voeren de uitgeteste tools pop-ups toe om de eindgebruiker attent te maken van een aanpassing. O4 en O5 bieden dit echter niet aan. 
+
+\medspace
+
+O4 en O5 zijn de enige geteste tools die tekst in een tabelformaat kunnen schrijven, maar enkel na een expliciete prompt. Daarnaast beschikt geen van de geteste tools over een functionaliteit om automatisch de moeilijke woorden of vakterminologie op te halen uit een tekst. O4 en O5 gaven de woordenlijst in tabelvorm terug. Daarnaast kunnen O4 en O5 dit enkel met een expliciete prompt. Tot slot kunnen O1, O2, O4 en O5 onregelmatige werkwoorden wegwerken. Andere toepassingen kunnen dit niet uitvoeren.
+
+\medspace
+
+O1, O2, O3, O4 en O5 kunnen extraherende en abstraherende samenvattingen maken van de oorspronkelijke tekst. E1, E2 en E3 kunnen een extraherende samenvatting van de tekst maken, maar enkel na een handmatige selectie van de zinnen. 
+
+
+\subsubsection{Wont-haves}
+
+O4, O5 beschikken over een mobiele versie. O1, O2 en O3 kunnen gebruikers via een mobiel apparaat bekijken, maar leent geen speciale interface voor deze gebruikers toe. E1, E2 en E3 bieden geen mobiele versie aan. Enkel E1, E2 en E3 beschikken over luistersoftware. Browser bevatten een ingebouwde luistertool, maar geen van de geteste tools beschikt over \textit{text-to-speech} systeem. Tot slot beschikken de geteste toepassingen over geen integratie met andere spelcheckers. De browserextensie van Grammarly werkt bij zowel O1, O2, O3, O4 en O5.
 
 
 \section{Geschikte taalmodel voor gepersonaliseerde tekstvereenvoudiging met ATS}

@@ -544,7 +544,6 @@ Hoewel onderzoeken rond GPT-3 nog volop in ontwikkeling zijn, bestaan er vergeli
 
 \medspace
 
-
 Met neurale netwerken kan het taalmodel patronen in de input herkennen. Deze patronen dienen om voorspellingen te maken over de output \autocite{Liu2020}. Via prompts hebben mensen toegang tot krachtige taalmodellen, zoals GPT-3 of BERT \autocite{McFarland2023, Harwell2023}. Figuur \ref{img:prompt-engineering} illustreert de werking van deze vaardigheid. Onderzoek van \textcite{Liu2020} benadrukt het belang van goed opgestelde prompts. Hiervoor kunnen eindgebruikers de technieken in tabel \ref{table:techniques-for-good-prompts}. Zo moeten deze werk kunnen produceren op maat van het doel. Zo benadrukt de onderzoeker dat een prompt concreet moet zijn. Bij het opstellen van een prompt voor een zoekopdracht is het cruciaal om voldoende parameters op te nemen om te voorkomen dat het model te algemeen blijft en afwijkt van de intentie van de gebruiker. Effectieve prompt engineering voor AI leidt tot hoogwaardige trainingsgegevens, waardoor het AI-model nauwkeurige voorspellingen en beslissingen kan maken \autocite{Liu2020}.
 
 \begin{table}
@@ -648,16 +647,16 @@ Tot slot beantwoordt de literatuurstudie de volgende onderzoeksvragen.
 % 	\item Welke specifieke noden hebben scholieren met dyslexie van de derde graad middelbaar onderwijs bij het begrijpen van complexere teksten?
 %   \item Wat zijn de specifieke kenmerken van wetenschappelijke artikelen?
 
-Begrijpend lezen is voor scholieren met dyslexie in de derde graad van het middelbaar niet enkel moeizaam, maar gaat verder dan dat. Deze scholieren kunnen moeite ondervinden bij het decoderen en automatiseren van woordherkenning. MTS en aangepaste opmaakopties bieden bewezen voordelen voor scholieren met dyslexie. Zo kunnen MTS-technieken, besproken in \ref{table:benefits-mts}, scholieren met dyslexie helpen bij het begrijpend lezen van wetenschappelijke artikelen. Tabel \ref{table:scientific-paper-struggles} somt alle complexe leesfactoren op, alsook hoe lezers deze moeilijke materie kunnen aanpakken. Het gebruik van vakjargon, ingewikkelde woordenschat en moeizame syntax sluiten een algemeen publiek uit en maken het enkel mogelijk voor wetenschappelijk geletterden om deze artikelen te lezen.
+Begrijpend lezen is voor scholieren met dyslexie in de derde graad van het middelbaar niet enkel moeizaam, maar gaat verder dan dat. Deze scholieren kunnen moeite ondervinden bij het decoderen en automatiseren van woordherkenning. MTS en aangepaste opmaakopties bieden bewezen voordelen voor scholieren met dyslexie. Het gebruik van vakjargon, ingewikkelde woordenschat en moeizame syntax sluiten een algemeen publiek uit en maken het enkel mogelijk voor wetenschappelijk geletterden om deze artikelen te lezen. Zo kunnen MTS-technieken, besproken in \ref{table:benefits-mts}, scholieren met dyslexie helpen bij het begrijpend lezen van wetenschappelijke artikelen. Tabel \ref{table:scientific-paper-struggles} somt alle complexe leesfactoren op, alsook hoe lezers deze moeilijke materie kunnen aanpakken. Deze twee tabellen moeten dienen als aftoetscriteria bij de ontwikkeling van een prototype voor gepersonaliseerde ATS. 
 
 \medspace
 
-Een uniform formaat en de evolutie van LLM's bieden kansen voor gepersonaliseerde ATS aan, waarbij experts tactieken hebben ontwikkeld om teksten te vereenvoudigen op maat voor scholieren met dyslexie. Gerichte menselijke vergelijkingen en leesbaarheidsformules dienen als evaluatie voor de vereenvoudigde teksten door ATS.
+Er zijn taalmodellen beschikbaar in de vorm van API's of open-source software die deze transformaties kunnen uitvoeren. De overheid leent voornamelijk leessoftware uit, maar LLM's bieden mogelijkheden aan voor gepersonaliseerde ATS. Zo kunnen de achterliggende taalmodellen van ChatGPT en Bing Chat specifieke vragen verwerken. Het onderzoek moet verschillende prompts kunnen vergelijken bij het uittesten van dit taalmodel. Verschillende LS, SS en SA-technieken moeten in deze vergelijkende studie aan bod komen. 
 
 \medspace
 
-Er zijn taalmodellen beschikbaar in de vorm van API's of open-source software die deze transformaties kunnen uitvoeren. De overheid leent voornamelijk leessoftware uit, maar LLM's bieden mogelijkheden aan voor gepersonaliseerde ATS. 
+Gerichte menselijke vergelijkingen en leesbaarheidsformules dienen als evaluatie voor de vereenvoudigde teksten door ATS. De python-bibliotheek \textit{readability} biedt de leesgraadscores, zoals weergegeven in \ref{table:readability-scores}, aan voor ontwikkelaars. Zo kan dit onderzoek de uitvoer van verschillende teksten vergelijken met een objectieve maatstaf.
 
 \medspace
 
-Tot slot Ontwikkelaars moeten zich echter bewust zijn van het feit dat andere taalmodellen zoals BERT voor taken zoals semantische analyse soms betere resultaten leveren met minder rekenkracht.
+Tot slot geeft tabel \ref{table:summary-hurdles} een overzicht van struikelblokken waarmee ontwikkelaars rekening moeten houden. In het kader van ATS voor wetenschappelijke artikelen, moet het taalmodel gebruikmaken of voldoende getraind zijn op data van wetenschappelijke artikelen en vereenvoudigde versies van diezelfde wetenschappelijke artikelen. Als het onderzoek gebruik maakt van een promptgebaseerd model, dan moeten deze prompts op maat gemaakt zijn voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs. Tot slot moet dergelijk prototype ook de gebruiker de vrijheid krijgen om teksten te markeren waarvan deze persoon een vereenvoudigde versie wilt.

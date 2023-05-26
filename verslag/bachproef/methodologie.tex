@@ -112,7 +112,7 @@ Om een overzicht te hebben van de functionaliteiten volgens prioriteit, bouwt he
 
 \begin{center}
 	\begin{table}[H]
-		\begin{tabular}{ | m{2cm} | m{11cm} | } 
+		\begin{tabular}{ | m{2cm} | m{12cm} | } 
 			\hline
 			\textbf{MoSCoW-principe} & \textbf{Functionaliteit} \\
 			\hline
@@ -125,28 +125,24 @@ Om een overzicht te hebben van de functionaliteiten volgens prioriteit, bouwt he
 			& Duidelijk zichtbare koppenstructuur. \\
 			& Tekst herschrijven als opsomming. \\
 			\hline
-			Should-have & \\
-			& Tekstanalyse \\
+			Should-have & Tekstanalyse \\
 			& Extra (in-line) uitleg schrijven bij moeilijke woordenschat. \\
 			& Personaliseerbare PDF- of Word-document lay-out. \\
-			& Uitvoer als PDF of Word-bestand teruggeven. \\
+			& Uitvoer als pdf of docx-bestand teruggeven. Het onderzoek gebruikt geen PrintToPDF. \\
 			& Wetenschappelijke artikelen in PDF-vorm opladen met OCR. \\
 			& Tekstanalyse voor en na de vereenvoudiging aanbieden. \\
 			\hline
-			Could-have 
-			& Gebruikersfeedback \\
+			Could-have & Huidige positie benadrukken.\\
 			& Woordenschat genereren na automatische CWI. \\
-			& Huidige positie benadrukken. \\
 			& Waarschuwingen geven omtrent formulieren en sessies. \\
 			& Enkel regelmatige werkwoorden gebruiken. \\
 			& Extraherende samenvatting \\
 			& Abstraherende samenvatting \\
 			& Tekst herschrijven in tabelvorm \\
 			\hline
-			Wont-have & \\
-			& Mobiele versie of \textit{responsive design}. \\
+			Wont-have & Mobiele versie of \textit{responsive design}. \\
 			& Audio-uitvoer \\
-			& Integratie met externe toepassingen, waaronder spelcheckers. \\
+			& Integratie met externe toepassingen. Het onderzoek gebruikt Grammarly als voorbeeld voor deze test. \\
 			\hline
 		\end{tabular}
 		\caption{Het moscow-schema voor de requirementsanalyse.}
@@ -1014,7 +1010,7 @@ def personalised_simplify(self, sentence, personalisation):
 
 \subsubsection{Pandoc implementatie}
 
-Ten slotte giet het script de \textit{plain-text} van vereenvoudigde tekstinhoud en de woordenlijsten in een pdf of docx-bestand. Zo maakt de Creator-klasse PDF's en docx-documenten volgens de meegegeven opmaakopties en maakt gebruik van Pandoc via python.  Pandoc gebruikt een tweestapsbeweging, waarbij het eerst \textit{plain-text} naar een markdownformaat omzet en vervolgens het Markdown-bestand naar een PDF of Word-document converteert. Daarvoor is een YAML-header nodig die de elementen, beschreven in tabel \ref{table:personalized-pdf-word-document-with-pandoc}, moet bevatten.
+Ten slotte moet het prototype de \textit{plain-text} van vereenvoudigde tekstinhoud en de woordenlijsten in een pdf of docx-bestand gieten. Zo genereert de Creator-klasse pdf en docx-documenten volgens de meegegeven opmaakopties. Het genereren van pdf en docx-documenten gebeurt met Pandoc via python.  Pandoc gebruikt een tweestapsbeweging, waarbij het eerst \textit{plain-text} naar een markdownformaat omzet en vervolgens het Markdown-bestand naar een pdf of docx-document converteert. Daarvoor is een YAML-header nodig die de elementen, beschreven in tabel \ref{table:personalized-pdf-word-document-with-pandoc}, moet bevatten.
 
 \begin{table}[H]
 	\begin{tabular}{ | m{5cm}| m{10cm} | }
@@ -1033,7 +1029,7 @@ Ten slotte giet het script de \textit{plain-text} van vereenvoudigde tekstinhoud
 	\label{table:personalized-pdf-word-document-with-pandoc}
 \end{table}
 
-Listing \ref{code:yaml-header-function} bouwt de YAML-header op voor het markdownbestand. Deze header is volledig parameteriseerbaar.
+Allereerst bouwt het prototype een markdown-bestand met daarin de YAML-header. Zo bouwt listing \ref{code:yaml-header-function} de YAML-header op. Deze header is volledig parameteriseerbaar.
 
 \begin{lstlisting}[language=Python, caption={Writer-klasse omvattende de code om dynamische PDF- en Word-documenten te genereren.}, label={code:yaml-header-function}]
 	markdown_file = "saved_files/file.md"
@@ -1057,75 +1053,72 @@ Listing \ref{code:yaml-header-function} bouwt de YAML-header op voor het markdow
 			f.write("---\n")
 \end{lstlisting}
 
-Om de woordenlijst aan het markdown-bestand toe te voegen, bouwt het script eerst een \textit{dictionary}-structuur op met de positie van het woord als key en als values de woord, de PoS-tag en de opgehaalde gepersonaliseerde betekenis. Het prototype moet rekening houden met homoniemen en daarom kan de key hier niet het woord zijn. Bij een lege woordenlijst komen deze bewerkingen niet aan bod. 
+Om de woordenlijst aan het markdown-bestand toe te voegen, bouwt het prototype vervolgens een \textit{dictionary}-structuur op met de positie van het woord als key en als values de woord, de PoS-tag en de opgehaalde gepersonaliseerde betekenis. Listing \ref{code:writer-glossary-klasse} toont deze functie. Het prototype moet rekening houden met homoniemen en daarom kan de key hier niet het woord zijn. Bij een lege woordenlijst komen deze bewerkingen niet aan bod. 
 
 \begin{lstlisting}[language=Python, caption={Een woordenlijst genereren met de Writer-klasse.}, label={code:writer-glossary-klasse}]
 def generate\_glossary(self, list):
-with open(markdown_file, 'a', encoding='utf-8') as f:
-f.write("---\n")
-f.write("# Woordenlijst\n")
-f.write("| Woord | Soort | Definitie |\n")
-f.write("| --- | --- | --- |\n")
-for word in list.keys(): 
-f.write(f"| {word} | {list[word]['type']} | {list[word]['definition']} |\n")
+	with open(markdown_file, 'a', encoding='utf-8') as f:
+		f.write("---\n")
+		f.write("# Woordenlijst\n")
+		f.write("| Woord | Soort | Definitie |\n")
+		f.write("| --- | --- | --- |\n")
+		for word in list.keys(): 
+			f.write(f"| {word} | {list[word]['type']} | {list[word]['definition']} |\n")
 \end{lstlisting}
 
-Deze functie vult het markdown-bestand met de vereenvoudigde tekst, gesplitst door de titels die de leerkracht heeft gekozen. Het script slaat de vereenvoudigde tekst nadien op in een \textit{dictionary}-structuur. Vervolgens print het script de vereenvoudigde tekst uit naar het markdown-bestand door alle titels van de \textit{dictionary}-structuur te doorlopen. Een titel uitprinten in markdown syntax moet voorafgaan aan twee \textit{hashtags}, gevolgd door een \textit{breakline}. 
+Daarna vult het script het markdownbestand op met de vereenvoudigde tekstinhoud, zoals weergegeven in listing \ref{code:writer-doorlopende-klasse}. Deze tekst is gesplitst door de titels die de leerkracht heeft gekozen. Daarna slaat het script de vereenvoudigde tekst op in een \textit{dictionary}-structuur. Vervolgens print het script de vereenvoudigde tekst uit naar het markdownbestand door alle titels van de \textit{dictionary}-structuur te doorlopen. Een titel uitprinten in markdown syntax moet voorafgaan aan twee \textit{hashtags}, gevolgd door een \textit{breakline}.
 
 \begin{lstlisting}[language=Python, caption={Een doorlopende tekst toevoegen aan het markdownbestand met de Writer-klasse.}, label={code:writer-doorlopende-klasse}]
 def generate_simplification(self, full_text):
-with open(markdown_file,'a', encoding="utf-8", errors="surrogateescape") as f:
-for key in full_text.keys():
-title = str(key).replace('\n',' ')
-text = full_text[key]
-f.write('\n\n')
-f.write(f'## {title}')
-f.write('\n\n')
-f.write(" ".join(text))
-f.write('\n\n')
+	with open(markdown_file,'a', encoding="utf-8", errors="surrogateescape") as f:
+		for key in full_text.keys():
+			title = str(key).replace('\n',' ')
+			text = full_text[key]
+			f.write('\n\n')
+			f.write(f'## {title}')
+			f.write('\n\n')
+			f.write(" ".join(text))
+			f.write('\n\n')
 \end{lstlisting}
 
-Indien de leerkracht een opsomming wenste, dan dient de titel nog steeds al separator, maar het script print de zinnen uit als opsomming conform aan de Markdown-syntax. Na de titel print het script de vereenvoudigde tekst per paragraaf uit. Bij een opsomming gaat een asterisk-symbool vooraf. Vervolgens converteert Pandoc het Markdown-bestand naar een PDF-bestand gebouwd met de XeLateX engine of een Word-bestand met de meegekregen binaries. 
+Het prototype voert een andere functie uit als de tekst een opsomming moet zijn in het uitvoerbestand. Listing \ref{code:writer-summation-klasse} toont deze functie. Als de leerkracht een opsomming wenst, dan dient de titel nog steeds al separator. Enkel zal het script de zinnen uitprinten als opsomming conform aan de markdownsyntax. Na de titel print het script de vereenvoudigde tekst per paragraaf uit. Bij een opsomming gaat een asterisk-symbool vooraf. Vervolgens converteert Pandoc het Markdown-bestand naar een PDF-bestand gebouwd met de XeLateX engine of een Word-bestand met de meegekregen binaries. 
 
 \begin{lstlisting}[language=Python, caption={Een opsomming toevoegen aan het markdownbestand met de Writer-klasse.}, label={code:writer-summation-klasse}]
 def generate_simplification_w_summation(self, full_text):
-with open(markdown_file,'a', encoding="utf-8", errors="surrogateescape") as f:
-for key in full_text.keys():
-title = str(key).replace('\n',' ')
-text = full_text[key][0].split('|')
-f.write('\n\n')
-f.write(f'## {title}')
-for sentence in text:    
-f.write('\n\n')
-f.write(f'* {sentence}')
-f.write('\n\n')
+	with open(markdown_file,'a', encoding="utf-8", errors="surrogateescape") as f:
+	for key in full_text.keys():
+		title = str(key).replace('\n',' ')
+		text = full_text[key][0].split('|')
+		f.write('\n\n')
+		f.write(f'## {title}')
+		for sentence in text:    
+		f.write('\n\n')
+		f.write(f'* {sentence}')
+		f.write('\n\n')
 \end{lstlisting}
 
-Tenslotte maakt het script de pdf en docx-bestanden van de vereenvoudigde teksten. De functie verwezen in listing \ref{code:writer-create-pdf} gebruikt alle bovenstaande (nodige) functies. Daarna genereert Pandoc de pdf en docx-bestanden. Nadien zal de functie deze twee bestanden comprimeren tot één zip-bestand. Hoewel Flask maar één bestand kan teruggeven, comprimeert het script met de \textit{zipfile} bibliotheek deze twee bestanden tot één bestand. Zo krijgt de eindgebruiker alsnog zowel het docx als het pdf-document. 
+Tenslotte maakt het script de pdf en docx-bestanden van de vereenvoudigde teksten. Listing \ref{code:writer-create-pdf} gebruikt alle bovenstaande functies indien nodig. Daarna genereert Pandoc de pdf en docx-bestanden en zal de functie deze twee bestanden comprimeren tot één zip-bestand. Hoewel Flask maar één bestand kan teruggeven, comprimeert het script met de \textit{zipfile} bibliotheek deze twee bestanden tot één bestand. Zo krijgt de eindgebruiker alsnog zowel het docx als het pdf-document. 
 
 \begin{lstlisting}[language=Python, caption={Een zip-bestand aanmaken met daarin een docx en pdf bestand van de vereenvoudigde tekst.}, label={code:writer-create-pdf}]
 def create_pdf(self, title, margin, list, full_text, fonts, word_spacing, type_spacing, summation):
-if title is not None:
-self.create_header(title=title, margin=margin, fontsize=14, chosen_font=fonts[0], chosen_title_font=fonts[1], word_spacing=word_spacing, type_spacing=type_spacing)
-else:
-self.create_header(title='Vereenvoudigde tekst', margin=0.5, fontsize=14, chosen_font=fonts[0], chosen_title_font=fonts[1], word_spacing=word_spacing, type_spacing=type_spacing)
-
-"""GLOSSARY"""
-if len(list) != 0:
-self.generate_glossary(list=list)
-
-"""SUMMARY"""
-if summation:
-self.generate_summary_w_summation(full_text=full_text)
-else:
-self.generate_summary(full_text=full_text)
-
-"""FILE_CREATION"""
-pypandoc.convert_file(source_file=markdown_file, to='docx', outputfile=docx_file,   extra_args=["-M2GB", "+RTS", "-K64m", "-RTS"])
-pypandoc.convert_file(source_file=markdown_file, to='pdf',  outputfile=pdf_file,    extra_args=['--pdf-engine=xelatex'])
-with zipfile.ZipFile(zip_filename, 'w') as myzip:
-myzip.write(pdf_file)
-myzip.write(docx_file)
+	if title is not None:
+		self.create_header(title=title, margin=margin, fontsize=14, chosen_font=fonts[0], chosen_title_font=fonts[1], word_spacing=word_spacing, type_spacing=type_spacing)
+	else:
+		self.create_header(title='Vereenvoudigde tekst', margin=0.5, fontsize=14, chosen_font=fonts[0], chosen_title_font=fonts[1], word_spacing=word_spacing, type_spacing=type_spacing)
+	
+	if len(list) != 0:
+		self.generate_glossary(list=list)
+	
+	if summation:
+		self.generate_summary_w_summation(full_text=full_text)
+	else:
+		self.generate_summary(full_text=full_text)
+	
+	pypandoc.convert_file(source_file=markdown_file, to='docx', outputfile=docx_file,   extra_args=["-M2GB", "+RTS", "-K64m", "-RTS"])
+	pypandoc.convert_file(source_file=markdown_file, to='pdf',  outputfile=pdf_file,    extra_args=['--pdf-engine=xelatex'])
+	with zipfile.ZipFile(zip_filename, 'w') as myzip:
+		myzip.write(pdf_file)
+		myzip.write(docx_file)
 \end{lstlisting}
 
 De functionaliteiten van het lerarencomponent stoppen hier. Vervolgens komt het scholierencomponent aan bod, waarbij de nadruk ligt op het ontwikkelen van een ondersteunende tool.
@@ -1138,7 +1131,7 @@ Tabel \ref{table:beschikbare-functionaliteiten-scholierencomponent} geeft een ov
 	\begin{tabular}{| m{10cm} | m{5cm} |}
 		\hline
 		\textbf{Functionaliteit} & \textbf{JS/GPT-3} \\ \hline
-		Zinnen verwijderen & Enkel JS \\ \hline
+		Zinnen verwijderen & JS \\ \hline
 		Zinnen vereenvoudigen met gepersonaliseerde keuzes & GPT-3 en JS \\ \hline
 		Zinnen vereenvoudigen met prompt & GPT-3 en JS \\ \hline
 		Woord aan woordenlijst toevoegen & GPT-3 en JS \\ \hline
