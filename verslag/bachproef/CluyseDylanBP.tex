@@ -45,15 +45,32 @@
 	morestring=[b]"
 }
 
-% JavaScript
-\lstdefinelanguage{JavaScript}{
-	morekeywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
+\lstdefinelanguage{javascript}{
+	keywords=[1]{addeventlistener, getelementbyid, queryselectorall, foreach},
+	keywordstyle=[1]\color{Bittersweet},
+	keywords=[2]{const, let, var, typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break}, % ML-typen
+	keywordstyle=[2]\color{purple},	
+	keywords=[3]{document, element, elements}, 
+	keywordstyle=[3]\color{violet},
+	keywords=[4]{nouns, adj, verb, other},
+	keywordstyle=[4]\color{RoyalBlue},
+	keywords=[5]{},
+	keywordstyle=[5]\color{Aquamarine}\bfseries,
+	keywords=[6]{setup\_scholars\_teachers, teaching\_tool},
+	keywordstyle=[6]\color{OliveGreen}\bfseries,
+	keywords=[7]{def, function, for, in},
+	keywordstyle=[7]\color{PineGreen},
+	keywords=[8]{}, %input
+	keywordstyle=[8]\color{Periwinkle},
+	identifierstyle=\color{black},
+	sensitive=false,
+	comment=[l]{//},
 	morecomment=[s]{/*}{*/},
-	morecomment=[l]//,
-	morestring=[b]",
-	morestring=[b]'
+	commentstyle=\color{red}\ttfamily,
+	stringstyle=\color{Sepia}\ttfamily,
+	morestring=[b]',
+	morestring=[b]"
 }
-
 
 \lstset{ %
 	backgroundcolor=\color{white},   

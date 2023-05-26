@@ -28,6 +28,8 @@ E1, E2, E3 en O1 kunnen woorden- en synoniemenlijsten genereren. De gebruiker mo
 
 E1, E2 en E3 reiken de \textit{must-have} opmaakopties aan binnen de toepassing. Andere tools ontbreken personaliseerbare opmaakopties en bieden een statische webweergave aan. E1, E2 en E3 bieden manieren aan om de aangepaste documenten op te slaan als PDF. Ten slotte biedt geen uitgeteste tool personaliseerbare opmaakopties voor de uitvoerbestanden aan. 
 
+\medspace
+
 E1, E2 en E3 kunnen geen SS-technieken toepassen op de oorspronkelijke tekst. Overige uitgeteste tools kunnen zinnen inkorten door ze te splitsen. Geen van de uitgeteste tools is in staat om automatisch de tekst naar de actieve vorm te schrijven. O4 en O5 kunnen zinnen omvormen naar de actieve stem, maar enkel als de tool een extra voornaamwoord of onderwerp in de prompt meekrijgt. O4 en O5 kunnen onregelmatige werkwoorden wegwerken. E1, E2 en E3 kunnen een extraherende samenvatting van de tekst maken, maar enkel na een handmatige selectie van de zinnen. 
 
 \medspace
@@ -100,9 +102,7 @@ Tabel \ref{table:resultaten-aantal-zinnen} geeft het aantal zinnen per (vereenvo
 
 \medspace
 
-Figuren \ref{img:boxplot-min-max-avg-words-a1} en \ref{img:boxplot-min-max-avg-words-a2} tonen de verdeling tussen het aantal gebruikte woorden per zin per taalmodel. Zo scoren alle artikelen gem
-
-Daarnaast gebruiken T1, T2 en T3 gemiddeld minder woorden per zin dan het oorspronkelijke artikel. Alleen P3 van T4 slaagt erin om gemiddeld minder woorden per zin te gebruiken dan de oorspronkelijke en de referentieteksten van zowel leerlingen en de referentieteksten van leerkrachten, vergeleken met P1 en P2 die elk gemiddeld meer dan 19 woorden per zin gebruiken, zoals te zien is in figuren . 
+% Daarnaast gebruiken T1, T2 en T3 gemiddeld minder woorden per zin dan het oorspronkelijke artikel. Alleen P3 van T4 slaagt erin om gemiddeld minder woorden per zin te gebruiken dan de oorspronkelijke en de referentieteksten van zowel leerlingen en de referentieteksten van leerkrachten, vergeleken met P1 en P2 die elk gemiddeld meer dan 19 woorden per zin gebruiken, zoals te zien is in figuren . 
 
 \begin{table}[h]
 	\centering
@@ -145,8 +145,7 @@ Daarnaast gebruiken T1, T2 en T3 gemiddeld minder woorden per zin dan het oorspr
 	\label{img:boxplot-min-max-avg-words-a2}
 \end{figure}
 
-De FRE-scores van alle geteste taalmodellen en MTS-referentieteksten zijn niet significant hoger of lager dan die van het oorspronkelijke wetenschappelijke artikel, zoals weergegeven in figuren \ref{img:boxplot-fre-a1} en \ref{img:boxplot-fre-a2}. Daarnaast zijn de FOG-scores niet significant hoger of lager bij de vereenvoudigde wetenschappelijke artikelen, zoals aangegeven in figuren \ref{img:boxplot-fog-a1} en \ref{img:boxplot-fog-a2}. 
-
+De FRE-scores van alle geteste taalmodellen en MTS-referentieteksten zijn niet significant hoger of lager dan die van OG, zoals weergegeven in figuren \ref{img:boxplot-fre-a1} en \ref{img:boxplot-fre-a2}. Gemiddeld bevinden alle versies van het wetenschappelijk artikel zich tussen 20 en 50. Zonder \textit{outliers} beperkt T3 de FRE van alle zinnen tot hoogstens 40. T3, T4P1, T4P2 en T4P3 genereren zinnen met een hogere FRE dan OG en MTSL. 
 
 \begin{figure}
 	\includegraphics[width=\linewidth]{img/boxplot-fre-a1.png}
@@ -160,6 +159,8 @@ De FRE-scores van alle geteste taalmodellen en MTS-referentieteksten zijn niet s
 	\label{img:boxplot-fre-a2}
 \end{figure}
 
+De FOG-scores van alle geteste taalmodellen en MTS-referentieteksten zijn niet significant hoger of lager bij de vereenvoudigde wetenschappelijke artikelen, zoals gevisualiseerd in figuren \ref{img:boxplot-fog-a1} en \ref{img:boxplot-fog-a2}. De zinnen van MTSL2 en T2 scoren een gemiddeld lagere FOG-score dan OG. T2 scoort het laagste gemiddelde van alle taalmodellen. Het gemiddelde van T2 ligt tussen 10 en 12. Tot slot scoren MTSL en andere taalmodellen gemiddeld hoger dan OG. Tot slot genereren de taalmodellen geen zinnen met een hogere FOG-score dan OG.
+
 \begin{figure}
 	\includegraphics[width=\linewidth]{img/boxplot-fog-a1.png}
 	\caption{Boxplot van de FOG-scores voor A1.}
@@ -172,67 +173,69 @@ De FRE-scores van alle geteste taalmodellen en MTS-referentieteksten zijn niet s
 	\label{img:boxplot-fog-a2}
 \end{figure}
 
-T1, T2 en T3 gebruiken bij zowel A1 als A2 langere woorden vergeleken met de oorspronkelijke tekst, in tegenstelling tot alle T4 prompts die wel langere woorden wegwerken en zo een gelijk resultaat bekomen als de MTS referentieteksten. Deze verhouding wordt aangewezen in figuren \ref{img:violinplot-long-a1} en \ref{img:violinplot-long-a2}. Daarnaast vervangen T1, T2 en T3 ook minder complexe woorden vergeleken met T4 en de MTS-referentietekst. Dit verschil wordt geïllustreerd in figuren \ref{img:violinplot-complex-a1} en \ref{img:violinplot-complex-a2}.
+Figuren \ref{img:violinplot-long-a1} en \ref{img:violinplot-long-a2} tonen het aantal gegenereerde complexe woorden (volgens DCI) per zin aan. Daarnaast genereren T1, T2 en T3 meer complexe woorden vergeleken met T4, MTSL en OG. Figuren \ref{img:violinplot-complex-a1} en \ref{img:violinplot-complex-a2} illustreren deze verschillen. Bij A1 genereert T4P3 significant minder complexe woorden per zin dan de andere taalmodellen. Bij A2 is er geen significant verschil tussen de taalmodellen.
 
-\begin{figure}
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{img/violinplot-complex-a1.png}
-	\caption{Gemiddeld aantal complexe woorden per zin gegroepeerd op model voor A1.}
+	\caption{Een violinplot van het aantal complexe woorden per zin, gegroepeerd op model voor A1.}
 	\label{img:violinplot-complex-a1}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{img/violinplot-complex-a2.png}
-	\caption{Gemiddeld aantal complexe woorden per zin gegroepeerd op model voor A2.}
+	\caption{Een violinplot van het aantal complexe woorden per zin, gegroepeerd op model voor A2.}
 	\label{img:violinplot-complex-a2}
 \end{figure}
 
-\begin{figure}
+Vervolgens visualiseren figuren \ref{img:violinplot-long-a1} en \ref{img:violinplot-long-a2} het aantal lange woorden (ofwel een woord met meer dan vier lettergrepen) per zin. MTSL, T2, T4P1, T4P2 en T4P3 genereren niet meer lange woorden per zin dan OG bij A1.
+
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{img/violinplot-long-a1.png}
-	\caption{Gemiddeld aantal lange woorden per zin gegroepeerd op model voor A1.}
+	\caption{Een violinplot van het aantal lange woorden per zin, gegroepeerd op model voor A1.}
 	\label{img:violinplot-long-a1}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{img/violinplot-long-a2.png}
-	\caption{Gemiddeld aantal lange woorden per zin gegroepeerd op model voor A2.}
+	\caption{Een violinplot van het aantal lange woorden per zin, gegroepeerd op model voor A2.}
 	\label{img:violinplot-long-a2}
 \end{figure}
 
-Ten slotte gebruiken T1, T2 en T3 minder hulpwerkwoorden en vervoegingen van het werkwoord 'zijn'. Daarnaast tonen \ref{img:histplot-aux-a1} en \ref{img:histplot-aux-a2} aan dat alle prompts van T4 een gelijke trend volgen met het aantal vervoegingen en hulpwerkwoorden vergeleken met de MTS-referentieteksten.
+Ten slotte tonen \ref{img:histplot-aux-a1} en \ref{img:histplot-aux-a2} het aantal zinnen met hulpwerkwoorden aan. Alle taalmodellen genereren zinnen met één vervoeging van het werkwoord zijn.
 
-\begin{figure}
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{img/boxplot-aux-a1.png}
-	\caption{Gemiddeld aantal hulpwerkwoorden per zin gegroepeerd op model voor A1.}
+	\caption{Een staafdiagram van het aantal zinnen met hulpwerkwoorden, gegroepeerd op model voor A1.}
 	\label{img:histplot-aux-a1}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{img/boxplot-aux-a2.png}
-	\caption{Gemiddeld aantal hulpwerkwoorden per zin gegroepeerd op model voor A2.}
+	\caption{Een staafdiagram van het aantal zinnen met hulpwerkwoorden, gegroepeerd op model voor A2.}
 	\label{img:histplot-aux-a2}
 \end{figure}
 
-\begin{figure}
+Ten slotte tonen \ref{img:histplot-aux-a1} en \ref{img:histplot-aux-a2} het aantal zinnen met minstens één vervoeging van het werkwoord 'zijn' aan. 
+
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{img/boxplot-tobe-a1.png}
-	\caption{Gemiddeld aantal vervoegingen van het werkwoord 'zijn' per zin gegroepeerd op model voor A1.}
+	\caption{Het aantal zinnen met een vervoeging van het werkwoord 'zijn', gegroepeerd op model voor A1.}
 	\label{img:histplot-tobe-a1}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{img/boxplot-tobe-a2.png}
-	\caption{Gemiddeld aantal vervoegingen van het werkwoord 'zijn' per zin gegroepeerd op model voor A2.}
+	\caption{Het aantal zinnen met een vervoeging van het werkwoord 'zijn', gegroepeerd op model voor gegroepeerd op model voor A2.}
 	\label{img:histplot-tobe-a2}
 \end{figure}
 
-T4P1 en T4P2 vertalen Engelstalige vaktermen naar het Nederlands. Zo blijft de afkorting voor DPKIA intact, maar vertaalt T4P1 hetzelfde woord naar het Nederlands.  T1, T2, T3 en T4P3 houden hier echter geen rekening mee en behouden de oorspronkelijke versie van de tekst. De auteurs schrijven alle afkortingen voluit, zoals beschreven in de richtlijnen.
+\subsubsection{Subjectieve interpretatie van de referentieteksten.}
+
+In het volgende deel bespreekt het onderzoek de subjectieve beoordeling van de resultaten. Allereerst kunnen T4P1 en T4P2 Engelstalige vaktermen vertalen naar het Nederlands. Zo blijft de afkorting voor 'DPKIA' intact, maar vertaalt T4P1 hetzelfde woord naar het Nederlands.  T1, T2, T3 en T4P3 houden hier echter geen rekening mee en behouden de oorspronkelijke versie van de tekst. De auteurs schrijven alle afkortingen voluit, zoals beschreven in de richtlijnen.
 
 \medspace
 
-Alle taalmodellen kunnen LS toepassen. De handmatig vereenvoudigde referentieteksten bevatten zinnen die vakjargon gebruiken op het niveau van 15 tot 18 jarige studenten. T4P1 kan uitleg tussen ronde haakjes schrijven, wanneer het geen eenvoudiger synoniem kan vinden. T4P1, T1, T2 en T3 passen woorden aan, maar schrijven geen extra uitleg. T4P3 past deze techniek minder toe dan de vooraf vermelde taalmodellen.
-
-\medspace
-
-T4P3 verkort lange zinnen door deze op te splitsen. T1, T2 en T3 behalen een gelijke zinslengte als dat van de oorspronkelijke zin. T4P1 en T4P2 kunnen snel langere zinnen genereren, maar smelten geen twee zinnen met elkaar samen.
+Alle taalmodellen kunnen LS toepassen. De handmatig vereenvoudigde referentieteksten bevatten zinnen die vakjargon gebruiken op het niveau van 15 tot 18 jarige studenten. T4P1 kan uitleg tussen ronde haakjes schrijven, wanneer het geen eenvoudiger synoniem kan vinden. T4P1, T1, T2 en T3 passen woorden aan, maar schrijven geen extra uitleg. T4P3 past deze techniek minder toe dan de vooraf vermelde taalmodellen. T4P3 verkort lange zinnen door deze op te splitsen. T1, T2 en T3 behalen een gelijke zinslengte als dat van de oorspronkelijke zin. T4P1 en T4P2 kunnen langere zinnen genereren, maar smelten geen twee zinnen met elkaar samen. 
 
 \medspace
 
@@ -240,7 +243,7 @@ Geen taalmodel wijkt af van de hoofdgedachte van het oorspronkelijke wetenschapp
 
 \medspace
 
-Ter conclusie scoren de drie prompts van T4 beter op iedere gemeten techniek. Het taalmodel en de verwante drie prompts genereren coherente teksten met een verlaagde lexicale complexiteit. Echter houden de geteste taalmodellen weinig tot geen rekening met afkortingen of bronvermeldingen.
+Ter conclusie van de resultaten scoren de drie prompts van T4 beter bij de subjectieve beoordeling van de resultaten. Het taalmodel en de verwante drie prompts genereren coherente teksten met een verlaagde lexicale complexiteit. Echter houden de geteste taalmodellen weinig tot geen rekening met afkortingen of bronvermeldingen.
 
 \section{Het prototype voor tekstvereenvoudiging met ATS vergeleken met top-of-the-line tools.}
 

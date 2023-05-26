@@ -59,22 +59,22 @@ Vervolgens bouwt het onderzoek een lijst op van de toetsingscriteria. Zo dienen 
 			\hline
 			\textbf{MTS-techniek} & \textbf{Functionaliteit} \\
 			\hline
-			Lexicale & Gepersonaliseerde LS, ofwel woordenschat dat niet te hooggegrepen is. Gekende woordenschat mag blijven. \\
-			vereenvoudiging & Woorden met minder lettergrepen gebruiken \\
+			LS & Gepersonaliseerde LS, ofwel woordenschat dat niet te hooggegrepen is. Gekende woordenschat mag blijven. \\
+			& Woorden met minder lettergrepen gebruiken \\
 			& Extra uitleg schrijven bij zinnen \\
 			& Paragrafen herschrijven zodat ze eerst uitleg geven op een high-level niveau, vervolgens lagen van complexiteit toevoegen om de lezer te begeleiden \\
 			& Woordenlijst aanmaken \\
 			& Idiomen vervangen door eenvoudigere synoniemen \\
 			\hline
-			Syntactische & Zinnen inkorten \\
-			vereenvoudiging & Verwijswoorden aanpassen \\
+			SS & Zinnen inkorten \\
+			& Verwijswoorden aanpassen \\
 			& Voorzetseluitdrukkingen aanpassen \\
 			& Samengestelde werkwoorden aanpassen \\
 			& Actieve stem toepassen \\
 			& Enkel regelmatige werkwoorden gebruiken \\
 			\hline
-			Structurele & Achtergrondkleur aanpassen \\
-			aanpassingen & Woord- en karakterspatiëring \\
+			SA & Achtergrondkleur aanpassen \\
+			& Woord- en karakterspatiëring \\
 			& Consistente lay-out \\
 			& Duidelijk zichtbare koppenstructuur \\
 			& Huidige positie benadrukken \\
@@ -112,7 +112,7 @@ Om een overzicht te hebben van de functionaliteiten volgens prioriteit, bouwt he
 
 \begin{center}
 	\begin{table}[H]
-		\begin{tabular}{ | m{4cm} | m{11cm} | } 
+		\begin{tabular}{ | m{2cm} | m{11cm} | } 
 			\hline
 			\textbf{MoSCoW-principe} & \textbf{Functionaliteit} \\
 			\hline
@@ -120,7 +120,7 @@ Om een overzicht te hebben van de functionaliteiten volgens prioriteit, bouwt he
 			& Woorden met minder lettergrepen gebruiken. \\
 			& Woordenlijst aanmaken na handmatige CWI. \\
 			& Wetenschappelijke artikelen in PDF-vorm opladen. \\
-			& Structurele aanpassingen toepassen op de oorspronkelijke tekst. \\
+			& SA-technieken toepassen op de oorspronkelijke tekst. \\
 			& Personaliseerbare opmaakopties, waaronder lettertype -en grootte aanpassen, tekstformaat aanpassen, achtergrondkleur aanpassen. \\
 			& Duidelijk zichtbare koppenstructuur. \\
 			& Tekst herschrijven als opsomming. \\
@@ -156,7 +156,7 @@ Om een overzicht te hebben van de functionaliteiten volgens prioriteit, bouwt he
 
 \medspace
 
-Vervolgens komen experimenten rond de opties rond gepersonaliseerde ATS aan bod. Eindgebruikers moeten wetenschappelijke artikelen kunnen opladen. Eindgebruikers kunnen enkel pdf's inladen bij SprintPlus, Kurzweil3000, AlineaSuite, Simplish, Rewordify en SciSpace. In tegenstelling tot Bing Chat en ChatGPT waarbij \textit{plain-text} of een link naar het wetenschappelijk artikel de enige vormen van invoer zijn. De tekstinhoud uit de PDF extraheren gebeurt dan manueel en deze tekst dient daarna als invoer voor de chatbot. Beide chatbots krijgen de prompt, gevolgd door een stuk van het wetenschappelijk artikel. Met zes verschillende prompts kan het onderzoek de functionaliteit om LS, SS of structurele aanpassingen op een tekst door een toepassing achterhalen. Tabel \ref{table:tested-prompts-requirementsanalysis} vermeldt de toegepaste prompts. Toepassingen krijgen eerst een link van het wetenschappelijk artikel. Als de toepassing hier niet over beschikt, dan krijgt de chatbot de tekstinhoud van het wetenschappelijk artikel in \textit{plain-text} mee. 
+Vervolgens komen experimenten op functionaliteiten voor gepersonaliseerde ATS op wetenschappelijke artikelen aan bod. Allereerst moeten eindgebruikers wetenschappelijke artikelen kunnen opladen. Indien het onderzoek een wetenschappelijk artikel niet als pdf kan opladen, dan extraheert het onderzoek de tekstinhoud van het wetenschappelijk artikel. Vervolgens krijgt de toepassing deze tekst als invoer. Zo krijgen de chatbots eerst de prompt, gevolgd door een stuk van het wetenschappelijk artikel. Met zes verschillende prompts kan het onderzoek de LS, SS en SA-functionaliteiten van een promptgebaseerde toepassing achterhalen. Tabel \ref{table:tested-prompts-requirementsanalysis} vermeldt de toegepaste prompts. Toepassingen krijgen eerst een link van het wetenschappelijk artikel. Als de toepassing hier niet over beschikt, dan krijgt de chatbot de tekstinhoud van het wetenschappelijk artikel in \textit{plain-text} mee. 
 
 \begin{center}
 	\begin{table}[H]
@@ -223,7 +223,9 @@ Er zijn weinig gespecialiseerde taalmodellen beschikbaar om wetenschappelijke ar
 
 De vergelijkende studie bestaat uit vijf fasen, weergegeven op de \textit{flowchart} in figuur \ref{img:flowchart-vergelijkende-studie-metrics}. Zo vergelijkt deze onderzoeksfase de leesgraadscores van de oorspronkelijke wetenschappelijke artikelen zoals in sectie \ref{sec:requirementsanalyse}, met referentieteksten vereenvoudigd met MTS en teksten vereenvoudigd met ATS. Met een \textit{mixed-methods} onderzoek kan de vergelijkende studie taalmodellen beoordelen op objectief en subjectief niveau. 
 
-De gebruikte wetenschappelijke artikelen zijn identiek aan de taalmodellen in tabel \ref{table:referentieteksten-bronvermelding}. Om realistisch referentiemateriaal te verkrijgen, schrijven twee leerkrachten en twee leerlingen zonder dyslexie zelf een vereenvoudiging van de twee wetenschappelijke artikelen met MTS. Deze vier personen baseren zich op vooraf meegekregen richtlijnen, toegelicht in de bijlage \ref{ch:referentietekst}. 
+\medspace
+
+De gebruikte wetenschappelijke artikelen, afgekort OG, zijn identiek aan de wetenschappelijke artikelen in tabel \ref{table:referentieteksten-bronvermelding}. Om realistisch referentiemateriaal te verkrijgen, schrijven twee leerkrachten (MTSL) en twee leerlingen zonder dyslexie (MTSL2) zelf een vereenvoudiging van de twee wetenschappelijke artikelen met MTS. Deze vier personen baseren zich op vooraf meegekregen richtlijnen, toegelicht in de bijlage \ref{ch:referentietekst}. 
 
 \begin{figure}
 \includegraphics[width=\linewidth]{img/flowchart-vergelijkende-studie.jpg}
@@ -289,7 +291,7 @@ Na de vertaling van de tekstinhoud, stuurt het script API-calls voor iedere zin 
 
 \medspace
 
-Zoals aangehaald door \textcite{Gooding2022} kunnen prompt-gebaseerde testen verschillende resultaten krijgen, afhankelijk van de gegeven input. Daarom gebruikt het script drie verschillende prompts, gebaseerd op de MTS-technieken beschreven in tabel \ref{table:manual-simplification}. Tabel \ref{table:tested-prompts} visualiseert de gebruikte prompts voor de testen met het GPT-3 model. 
+Zoals aangehaald door \textcite{Gooding2022} kunnen promptgebaseerde testen verschillende resultaten krijgen, afhankelijk van de gegeven input. Daarom gebruikt het script drie verschillende prompts, gebaseerd op de MTS-technieken beschreven in tabel \ref{table:manual-simplification}. Tabel \ref{table:tested-prompts} visualiseert de gebruikte prompts voor de testen met het GPT-3 model. 
 
 \medspace
 
@@ -399,43 +401,43 @@ Tot slot beantwoordt de HF of GPT API in JSON-formaat, bevattende de vereenvoudi
 					API_URL = huggingfacemodels.get(lm_key)
 					translated = GoogleTranslator(source='auto', target='en').translate(str(text))
 				
-		if lm_key == 'T1':
-		result = self.query({"inputs": str('simplify: ' + str(translated)),"parameters": {"max_length": len(sentence)+10},"options":{"wait_for_model":True}}, API_URL)
-		else:
-		result  = self.query({"inputs": str(translated),"parameters": {"max_length": len(sentence)+10},"options":{"wait_for_model":True}}, API_URL)
+					if lm_key == 'T1':
+					result = self.query({"inputs": str('simplify: ' + str(translated)),"parameters": {"max_length": len(sentence)+10},"options":{"wait_for_model":True}}, API_URL)
+					else:
+					result  = self.query({"inputs": str(translated),"parameters": {"max_length": len(sentence)+10},"options":{"wait_for_model":True}}, API_URL)
+					
+					
+					if 'generated_text' in result[0]:
+						translated = GoogleTranslator(source='auto', target='nl').translate(str(result[0]['generated_text']))
+						return translated
+					elif 'summary_text' in result[0]:
+						translated = GoogleTranslator(source='auto', target='nl').translate(str(result[0]['summary_text']))
+						return translated
+					else:
+						return None
+					except:
+						return text
 		
-		
-		if 'generated_text' in result[0]:
-			translated = GoogleTranslator(source='auto', target='nl').translate(str(result[0]['generated_text']))
-			return translated
-		elif 'summary_text' in result[0]:
-			translated = GoogleTranslator(source='auto', target='nl').translate(str(result[0]['summary_text']))
-			return translated
-		else:
-			return None
-		except:
-			return text
-		
-		def get_sentence_length(sentence):
-			txt_language = detect(sentence)
-			dic_language = languages.get(txt_language)
-			nlp = spacy.load(dic_language)
-			doc = nlp(sentence)
-			return len()	
-		
-		def tokenize_text(text):
-			txt_language = detect(text)
-			dic_language = languages.get(txt_language)
-			nlp = spacy.load(dic_language)
-			doc = nlp(text)
-			return doc.sents
+			def get_sentence_length(sentence):
+				txt_language = detect(sentence)
+				dic_language = languages.get(txt_language)
+				nlp = spacy.load(dic_language)
+				doc = nlp(sentence)
+				return len()	
 			
-		
-		def process_file(file_path):
-			with open(folder_path + '/' + file_path, "r", encoding='utf8') as file:
-				text = file.read()
-				tokens = tokenize_text(text)
-				return tokens
+			def tokenize_text(text):
+				txt_language = detect(text)
+				dic_language = languages.get(txt_language)
+				nlp = spacy.load(dic_language)
+				doc = nlp(text)
+				return doc.sents
+				
+			
+			def process_file(file_path):
+				with open(folder_path + '/' + file_path, "r", encoding='utf8') as file:
+					text = file.read()
+					tokens = tokenize_text(text)
+					return tokens
 				
 		
 		hf = HuggingFaceModels(key=os.getenv('huggingface_key'))
@@ -455,8 +457,8 @@ Tot slot beantwoordt de HF of GPT API in JSON-formaat, bevattende de vereenvoudi
 Vervolgens berekent het script leesgraadscores met de \textit{readability} python-bibliotheek. Leesgraadscores dienen, zoals aangegeven in \textcite{Nenkova2004}, als objectieve maatstaf bij deze vergelijkende studie. 
 
 \begin{itemize}
-	\item De FRE en FOG zijn relevant, want ze kunnen de moeilijkheidsgraad van een zin of tekst objectief meten.
-	\item Het aantal complexe en lange woorden kan wijzen op de gebruikte \textit{substitution generation} van het taalmodel.
+	\item De vergelijkende studie neemt de FRE en FOG scores op, want deze scores kunnen de moeilijkheidsgraad van een zin of tekst objectief meten.
+	\item Het aantal complexe en lange woorden kan wijzen op de gebruikte \textit{substitution generation} van het taalmodel. De DCI bepaalt de complexiteit van een woord in deze library. Ten slotte tellen alle woorden met meer dan vier lettergrepen mee als een lang woord volgens de \textit{readability}-library.
 	\item Het aantal hulpwerkwoorden en vervoegingen van 'zijn' kan aanduiden op mogelijke passieve stem, wat het onderzoek van \textcite{Ruelas2020} als 'hinderende' zinsyntax vernoemt.
 \end{itemize}
 
