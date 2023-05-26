@@ -183,7 +183,7 @@ Voor sommige lezers kan het begrijpend lezen van een complexe tekst echter een u
 			& Herschrijven als opsomming of tabelvorm & \autocite{Rello2015} \\
 			\hline
 		\end{tabular}
-		\caption{Drie algemene technieken voor MTS}
+		\caption{Drie algemene technieken voor MTS bij een algemene doelgroep.}
 		\label{table:manual-simplification}
 	\end{table}
 \end{center}
@@ -254,7 +254,7 @@ Tabel \ref{table:benefits-mts} somt de bewezen strategieën op samen met de bewe
 \subsection{Aanpak voor ATS.}
 % Welke toepassingen, tools en modellen zijn er beschikbaar om Nederlandse geautomatiseerde tekstvereenvoudiging met AI mogelijk te maken? 
 
-De laatste evolutie in machinaal leren biedt een mogelijkheid om dit proces te automatiseren. \textit{Automatic text simplification} of ATS is een onderdeel van natuurlijke taalverwerking binnen machinaal leren (ML). Dit omvat technieken zoals tekstanalyse, taalherkenning, -generatie, spraakherkenning en -synthese, en semantische analyse. NLP stelt computers in staat om menselijke taal te begrijpen en te communiceren op een natuurlijke manier. De begrippen die volgen worden behandeld in \textcite{Sohom2019, Eisenstein2019} en zijn cruciaal voor de daaropvolgende concepten.
+De laatste evolutie in machinaal leren biedt een mogelijkheid om dit proces te automatiseren. \textit{Automatic text simplification} of ATS is een onderdeel van natuurlijke taalverwerking binnen machinaal leren (ML). Dit omvat technieken zoals tekstanalyse, taalherkenning -en generatie, spraakherkenning -en synthese en semantische analyse. NLP stelt computers in staat om menselijke taal te begrijpen en te communiceren op een natuurlijke manier. De begrippen die volgen worden behandeld in \textcite{Sohom2019, Eisenstein2019} en zijn cruciaal voor de daaropvolgende concepten.
 
 \medspace
 
@@ -262,11 +262,7 @@ Zo dient tokenisatie om zinnen op basis van tokens te splitsen. Er zijn vier man
 
 \medspace
 
-In NLP is het lemmatiseren gebaseerd op \textit{stemming}, ofwel een NLP-taak waarbij de stam van een woord wordt genomen, maar het houdt ook rekening met de betekenis van elk woord. Er zijn Nederlandstalige modellen beschikbaar voor lemmatiseren, zoals JohnSnow\footnote{https://nlp.johnsnowlabs.com/2020/05/03/lemma\_nl.html}. Bij omgekeerd lemmatiseren wordt een afgeleide van de stam bepaald, bijvoorbeeld enkelvoud of meervoud voor zelfstandige naamwoorden zoals 'hond' \autocite{Eisenstein2019}. Bij het \textit{parsen} krijgt elk woord of zinsdeel een label toegewezen, zoals zelfstandig naamwoord, bijwoord, werkwoord, bijzin of stopwoord. Het identificeren van zinsdelen wordt \textit{chunking} genoemd. \textit{Parsing} is vatbaar op ambiguïteit, omdat bijvoorbeeld een 'plant' niet gelijk is aan de vervoeging van het werkwoord 'planten' \autocite{Eisenstein2019}.
-
-\medspace
-
-In NLP baseert het lemmatiseren zich op stemming, een NLP-taak waarbij deze de stam van een woord neemt, maar ook rekening houdt met de betekenis van elk woord. Er zijn Nederlandstalige modellen beschikbaar voor lemmatiseren, zoals JohnSnow⁴. Omgekeerd lemmatiseren werkt door een afgeleide vorm van de stam te bepalen, bijvoorbeeld enkelvoud of meervoud voor zelfstandige naamwoorden als ’hond’ \autocite{Eisenstein2019}. Bij het parsen krijgt elk woord of zinsdeel een label toegewezen, zoals zelfstandig naamwoord, bijwoord, werkwoord, bijzin of stopwoord. De identificatie van zinsdelen heet chunking. Parsing is vatbaar op ambiguïteit omdat bijvoorbeeld ‘een plant’ niet gelijk is aan de vervoeging van het werkwoord ’planten’ \autocite{Eisenstein2019}.
+In NLP baseert het lemmatiseren zich op stemming, een NLP-taak waarbij deze de stam van een woord neemt, maar ook rekening houdt met de betekenis van elk woord. Er zijn Nederlandstalige modellen beschikbaar voor lemmatiseren, zoals JohnSnow\footnote{https://nlp.johnsnowlabs.com/2020/05/03/lemma\_nl.html}. Omgekeerd lemmatiseren werkt door een afgeleide vorm van de stam te bepalen, bijvoorbeeld enkelvoud of meervoud voor zelfstandige naamwoorden als ’hond’ \autocite{Eisenstein2019}. Bij het parsen krijgt elk woord of zinsdeel een label toegewezen, zoals zelfstandig naamwoord, bijwoord, werkwoord, bijzin of stopwoord. De identificatie van zinsdelen heet chunking. Parsing is vatbaar op ambiguïteit omdat bijvoorbeeld ‘een plant’ niet gelijk is aan de vervoeging van het werkwoord ’planten’ \autocite{Eisenstein2019}.
 
 \medspace
 
@@ -280,13 +276,11 @@ Om de betekenis van elk woord in een tekst te begrijpen, moet een machine in sta
 	\end{figure}
 \end{center}
 
-\medspace
-
-Met NER-labeling kunnen systemen zo namen van personen, organisaties en locaties herkennen en classificeren. Het haalt specifieke informatie uit een tekst, zoals het identificeren van de namen van personen, plaatsen of bedrijven die in nieuwsartikelen, of het extraheren van belangrijke data of getallen uit financiële rapporten, aldus \textcite{Jurafsky2014}. Er zijn vier vormen van NER-labeling, zoals beschreven door \textcite{Li2018}: \textit{dictionary-based}, \textit{rule-based}, \textit{ML-based} en \textit{deep learning-based}. De eerste twee maken gebruik van vooraf gedefinieerde woordenboeken en regels, terwijl de laatste twee gebruik maken van statistische of neurale netwerken om te leren hoe entiteiten te herkennen. Elke vorm maakt gebruik van representaties om entiteiten te modelleren. \textcite{Poel2008} hebben een neurale netwerkmodel onderzocht voor PoS-tagging van Nederlandstalige teksten. Het model behaalde een nauwkeurigheid van 97,88\% voor bekende woorden en 41,67\% voor onbekende woorden en maakte gebruik van de Corpus Gesproken Nederlands (CGN) als trainingsdata. In de verwerking van tekst maken NLP-systemen gebruik van embeddings om woorden numeriek te representeren. Traditionele word embeddings bouwen een woordenschat op zonder de betekenis ervan in context te begrijpen. Contextuele word embeddings begrijpen daarentegen wel de context van een woord \autocite{Eisenstein2019}. 
+Met NER-labeling kunnen systemen zo namen van personen, organisaties en locaties herkennen en classificeren. Het haalt specifieke informatie uit een tekst, zoals het identificeren van de namen van personen, plaatsen of bedrijven die in nieuwsartikelen, of het extraheren van belangrijke data of getallen uit financiële rapporten, aldus \textcite{Jurafsky2014}. Er zijn vier vormen van NER-labeling, zoals beschreven door \textcite{Li2018}: \textit{dictionary-based}, \textit{rule-based}, \textit{ML-based} en \textit{deep learning-based}. De eerste twee maken gebruik van vooraf gedefinieerde woordenboeken en regels, terwijl de laatste twee gebruik maken van statistische of neurale netwerken om te leren hoe entiteiten te herkennen. Elke vorm maakt gebruik van representaties om entiteiten te modelleren. \textcite{Poel2008} hebben een neuraal netwerkmodel onderzocht voor PoS-tagging van Nederlandstalige teksten. Het model behaalde een nauwkeurigheid van 97,88\% voor bekende woorden en 41,67\% voor onbekende woorden en maakte gebruik van de Corpus Gesproken Nederlands (CGN) als trainingsdata. In de verwerking van tekst maken NLP-systemen gebruik van embeddings om woorden numeriek te representeren. Traditionele word embeddings bouwen een woordenschat op zonder de betekenis ervan in context te begrijpen. Contextuele word embeddings begrijpen wel de context van een woord \autocite{Eisenstein2019}. 
 
 \section{De verschillende soorten ATS}
 
-Tekstvereenvoudiging kan bijdragen aan het begrijpen van complexe informatie. Zoals onderzocht door \textcite{Siddharthan2014}, zijn er vier soorten transformaties bij ge- automatiseerde tekstvereenvoudiging, waaronder lexicale vereenvoudiging, waarbij eenvoudigere synoniemen de complexe woorden vervangen. Dit heet lexical simplification (LS) of lexicale vereenvoudiging. Bijvoorbeeld, ‘klevend’ kan ‘adhesief’ vervangen. \textcite{Kandula2010} noemt twee manieren om lexicale vereenvoudiging te bewerkstelligen: het vervangen van het woord door een synoniem of het genereren van extra uitleg. De zinsstructuur blijft hetzelfde en de kerninhoud en benadrukking van de tekst blijven behouden. Het doel van lexicale vereenvoudiging is om de moeilijkheidsgraad van de woordenschat in een zin of tekst te verlagen.
+Tekstvereenvoudiging kan bijdragen aan het begrijpen van complexe informatie. Zoals onderzocht door \textcite{Siddharthan2014}, zijn er vier soorten transformaties bij ge- automatiseerde tekstvereenvoudiging, waaronder lexicale vereenvoudiging, waarbij eenvoudigere synoniemen de complexe woorden vervangen. Dit heet \textit{lexical simplification} (LS) of lexicale vereenvoudiging. Bijvoorbeeld, ‘klevend’ kan ‘adhesief’ vervangen. \textcite{Kandula2010} noemt twee manieren om lexicale vereenvoudiging te bewerkstelligen: het vervangen van het woord door een synoniem of het genereren van extra uitleg. De zinsstructuur blijft hetzelfde en de kerninhoud en benadrukking van de tekst blijven behouden. Het doel van lexicale vereenvoudiging is om de moeilijkheidsgraad van de woordenschat in een zin of tekst te verlagen.
 
 \medspace
 
@@ -322,19 +316,19 @@ Diverse onderzoeken hebben aangetoond dat lexicale vereenvoudiging een belangrij
 
 \medspace
 
-\textit{Syntactic simplification} (SS) of syntactische vereenvoudiging is een toepassing om de complexiteit van een zin te verminderen. Het past de grammatica en zinsstructuur van de tekst aan. Dit gebeurt door het combineren van twee zinnen tot één eenvoudigere zin of door de syntax te vereenvoudigen, terwijl de inhouden behouden blijft. \textcite{Kandula2010} onderzochten de ontwikkeling van dergelijk model voor medische informatie. Het model bestaat uit drie modules, die zinnen met meer dan tien woorden vereenvoudigen en eventueel vervangen door kortere zinnen. Het omvat een PoS Tagger, een Grammar Simplifier en een Output Validator als onderdelen van de architectuur.
+\textit{Syntactic simplification} (SS) of syntactische vereenvoudiging is een techniek om de complexiteit van een zin te verminderen. Het past de grammatica en zinsstructuur van de tekst aan. Dit gebeurt door het combineren van twee zinnen tot één eenvoudigere zin of door de syntax te vereenvoudigen, terwijl de semantiek bewaren blijft. \textcite{Kandula2010} onderzochten de ontwikkeling van dergelijk model voor medische informatie. Het model bestaat uit drie modules, die zinnen met meer dan tien woorden vereenvoudigen en eventueel vervangen door kortere zinnen. Het omvat een \textit{PoS Tagger}, een Grammar Simplifier en een Output Validator als onderdelen van de architectuur.
 
 \medspace
 
 \begin{enumerate}
-	\item Ten eerste wordt de PoS Tagger-functie uit het open-source pakket OpenNLP\footnote{https://opennlp.apache.org/} gebruikt.
+	\item Ten eerste wordt de \textit{PoS Tagger}-functie uit het open-source pakket OpenNLP\footnote{https://opennlp.apache.org/} gebruikt.
 	\item Vervolgens splitst de \textit{Grammar Simplifier}-module lange zinnen in kortere zinnen door middel van het identificeren van POS-patronen en het toepassen van transformatieregels.
 	\item Tot slot controleert de \textit{Output Validator}-module de grammatica en leesbaarheid van de output van de Grammar Simplifier.
 \end{enumerate}  
 
 \medspace
 
-ATS is geen nieuw concept. Volgens onderzoeken van \textcite{Canning2000, Siddharthan2006} waren de eerste aanpakken op geautomatiseerde tekstvereenvoudiging gebouwd op rule-based modellen. Deze modellen bewerken de syntax door zinnen te splitsen, te verwijderen of de volgorde van de zinnen in een tekst aan te passen. Lexicale vereenvoudiging kwam hier niet aan de pas. Enkel bij recentere onderzoeken van \textcite{Coster2011, Bulte2018} werd het duidelijk hoe ontwikkelaars LS en SS kunnen combineren.
+ATS is geen nieuw concept. Volgens onderzoeken van \textcite{Canning2000, Siddharthan2006} zijn de eerste aanpakken op ATS gebouwd op rule-based modellen. Deze modellen bewerken de syntax door zinnen te splitsen, te verwijderen of de volgorde van de zinnen in een tekst aan te passen. LS komt hier niet aan de pas. Recentere onderzoeken van \textcite{Coster2011, Bulte2018} verduidelijken hoe ontwikkelaars LS en SS kunnen combineren.
 
 \medspace
 
@@ -346,7 +340,7 @@ Om wetenschappelijke artikelen toegankelijker en begrijpelijker te maken, is het
 
 \medspace
 
-Het proces van extraherend samenvatten markeert de belangrijkste zinnen in een tekst en herschrijft ze. Dit kan echter leiden tot onsamenhangende uitvoertekst, zoals \textcite{Khan2014} heeft aangetoond. Er zijn verschillende methoden beschikbaar om de kernzinnen te bepalen, zoals woordfrequentie, zinpositie -en gelijkenissen, de \textit{cue}-methode, titels, \textit{proper nouns}, woordgebruik en de afstand tussen \textit{text unit entities}, aldus \textcite{Khan2014}. Verschillende technieken voor het extraherend samenvatten van teksten, waaronder graafgebaseerde methoden, maximal marginal relevance (MMR) en metaheuristiek gebaseerde ES, zijn onderzocht door \textcite{Verma2020} en worden verder beschreven in tabel \ref{table:extractive-summarization}.
+Het proces van extraherend samenvatten markeert de belangrijkste zinnen in een tekst en herschrijft ze. Dit kan echter leiden tot onsamenhangende uitvoertekst, zoals \textcite{Khan2014} heeft aangetoond. Er zijn verschillende methoden beschikbaar om de kernzinnen te bepalen, zoals woordfrequentie, zinpositie -en gelijkenissen, de \textit{cue}-methode, titels, \textit{proper nouns}, woordgebruik en de afstand tussen \textit{text unit entities}, aldus \textcite{Khan2014}. Verschillende technieken voor het extraherend samenvatten van teksten, waaronder graafgebaseerde methoden, maximal marginal relevance (MMR) en metaheuristiek gebaseerde ES, zijn onderzocht door \textcite{Verma2020}. Tabel \ref{table:extractive-summarization} omschrijft deze drie methoden verder.
 
 \begin{center}
 	\begin{table}[H]
@@ -366,7 +360,7 @@ Het proces van extraherend samenvatten markeert de belangrijkste zinnen in een t
 
 \medspace
 
-Vooroordelen of een \textit{bias} kan de extraherende samenvatting van nieuwsartikelen beïnvloeden, zo blijkt uit experimenten uitgevoerd door \textcite{McKeown1999}. Deze vorm van samenvatten neemt de zinnen over zoals ze zijn. \textcite{Hahn2000} bouwde verder op deze experimenten door het combineren van \textit{knowledge-rich} en \textit{knowledge-poor} methoden, wat resulteerde in significante verbeteringen. Bij het extraherend samenvatten is het van belang om de meest relevante tekstgedeeltes te selecteren, meestal in de vorm van zinnen. Om de lexicale en statistische relevantie van een zin te kunnen bepalen, noemen \textcite{Hahn2000} twee methoden:
+Vooroordelen of \textit{bias} kan de extraherende samenvatting van nieuwsartikelen beïnvloeden, zo blijkt uit experimenten uitgevoerd door \textcite{McKeown1999}. Deze vorm van samenvatten neemt de zinnen over zoals ze zijn. \textcite{Hahn2000} bouwden verder op deze experimenten door het combineren van \textit{knowledge-rich} en \textit{knowledge-poor} methoden, wat resulteerde in significante verbeteringen. Bij het extraherend samenvatten is het van belang om de meest relevante tekstgedeeltes te selecteren, meestal in de vorm van zinnen. Om de lexicale en statistische relevantie van een zin te kunnen bepalen, noemen \textcite{Hahn2000} twee methoden:
 
 \begin{itemize}
 	\item Het lineaire gewichtsmodel, waarbij elke teksteenheid wordt gewogen op basis van factoren zoals de positie van de zin en het aantal keren dat deze voorkomt.
@@ -387,7 +381,7 @@ Ontwikkelaars moeten een andere aanpak gebruiken wanneer zij een systeem willen 
 
 \medspace
 
-Daarnaast moeten ontwikkelaars ook rekening houden met de doelgroep wanneer zij een systeem of model uitkiezen voor tekstvereenvoudiging of samenvatting. Zo moeten ontwikkelaars rekening houden met de individuele behoeften en uitdagingen van elke scholier, volgens \textcite{Gooding2022}. Dyslexie kan zich namelijk op verschillende manieren uiten bij verschillende scholieren, waarbij bijkomende symptomen niet altijd van invloed zijn op de spellingprestaties van een scholier. Om deze reden is het belangrijk om een toepassing te ontwerpen die rekening houdt met de diversiteit van dyslexie.
+Tot slot moeten ontwikkelaars rekening houden met de doelgroep wanneer zij een systeem of model uitkiezen voor tekstvereenvoudiging of samenvatting. Zo moeten ontwikkelaars rekening houden met de individuele behoeften en uitdagingen van elke scholier, volgens \textcite{Gooding2022}. Dyslexie kan zich namelijk op verschillende manieren uiten bij verschillende scholieren, waarbij bijkomende symptomen niet altijd van invloed zijn op de spellingprestaties van een scholier. Om deze reden is het belangrijk om een toepassing te ontwerpen die rekening houdt met de diversiteit van dyslexie.
 
 \section{Beschikbare tools en taalmodellen}
 \label{sec:beschikbare-tools-en-taalmodellen}
@@ -416,7 +410,7 @@ Er zijn weinig toepassingen beschikbaar om wetenschappelijke artikelen te vereen
 
 \begin{center}
 	\begin{table}[H]
-		\begin{tabular}{ | m{4cm} | m{12cm} | } 
+		\begin{tabular}{ | m{4cm} | m{11cm} | } 
 		\hline
 		\textbf{Tool} & \textbf{Algemene functionaliteit} \\
 		\hline
@@ -482,33 +476,7 @@ Dankzij de sterke evolutie in data en AI, kon de grootte van deze taalmodellen s
 	\item Tenslotte finetunen de ontwikkelaars dit verder. Om een correcte respons van het model te krijgen, passen de ontwikkelaars \textit{reinforcement learning} toe.
 \end{itemize}
 
-GPT-3 beschikt over meerdere versies, waaronder GPT-3.5 die als engine dient voor ChatGPT. Omdat onbegrijpelijke en ontoegankelijke zinsstructuren niet alleen voor leken, maar ook voor vakexperten een obstakel vormen, is het belangrijk om te benadrukken dat GPT-3.5 gericht is op conversationele doeleinden, terwijl GPT-3 in het algemeen bedoeld is om met hoogstens één prompt te werken \autocite{McNutt2014, Hubbard2017}.
-
-\medspace
-
-Volgens \textcite{Gooding2022} kan een toepassing zoals ChatGPT de leesbaarheid van een tekst op twee manieren bevorderen. Ten eerste kan het unieke versies van een tekstvereenvoudiging leveren, waardoor de gebruiker uit meerdere vereenvoudigingen kan kiezen. Figuur \ref{img:different-versions-gooding} illustreert dit verder.  Zo geeft Gooding aan dat het taalmodel de invoertekst op meerdere manieren kan vereenvoudigen. Verder bespreekt Gooding in figuur \ref{img:evaluation-gooding} de promptgebaseerde evaluatiemanier van GPT-3. Het model kan de verschillen tussen de gegenereerde teksten begrijpen en de gebruiker feedback geven. In figuur \ref{img:simplification-gooding} laat Gooding zien hoe het model LS en SS kan toepassen op een paragraaf uit een boek van de Russische schrijver Dostoevsky.
-
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{img/chatgpt-example-simplification-gooding.png}
-	\caption{Afbeelding van Gooding 2022}
-	\label{img:simplification-gooding}
-\end{figure}
-
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{img/chatgpt-example-different-versions-gooding.png}
-	\caption{Afbeelding van Gooding 2022}
-	\label{img:different-versions-gooding}
-\end{figure}
-
-\begin{figure}[H]
-	\includegraphics[width=\linewidth]{img/chatgpt-example-evaluation-gooding.png}
-	\caption{Afbeelding van Gooding 2022.}
-	\label{img:evaluation-gooding}
-\end{figure}
-
-OpenAI reikt documentatie aan voor het GPT-3 taalmodel. Daarin vermelden ze vier \textit{engines}, namelijk Davinci, Curie, Babbage en Ada. In maart 2023 kwam daar een vijfde engine bij, namelijk GPT-3 Turbo die fungeert als achterliggende engine voor Chat-GPT. Davinci-003 is het meest geavanceerde model, geschikt voor taken zoals het schrijven van essays en het genereren van code, en levert de meest menselijke antwoorden. Curie is goed in nuance, maar minder menselijk dan Davinci, terwijl Ada en Babbage minder krachtig zijn en beter geschikt zijn voor eenvoudige taken zoals het aanvullen van tekst en sentimentanalyse \autocite{Brockman2023}. Deze engines gebruiken dezelfde set hyperparameters, die ontwikkelaars kunnen aanpassen. Tabel \ref{table:gpt-3-parameters} somt deze parameters verder op.
-
-\medspace
+GPT-3 beschikt over meerdere versies, waaronder GPT-3.5 die als engine dient voor ChatGPT. Omdat onbegrijpelijke en ontoegankelijke zinsstructuren niet alleen voor leken, maar ook voor vakexperten een obstakel vormen, is het belangrijk om te benadrukken dat GPT-3.5 gericht is op conversationele doeleinden, terwijl GPT-3 in het algemeen bedoeld is om met hoogstens één prompt te werken \autocite{McNutt2014, Hubbard2017}. Verder reikt OpenAI documentatie uit voor het GPT-3 taalmodel. Daarin vermelden ze vier \textit{engines}, namelijk Davinci, Curie, Babbage en Ada. In maart 2023 kwam daar een vijfde engine bij, namelijk GPT-3 Turbo die fungeert als achterliggende engine voor Chat-GPT. Davinci-003 is het meest geavanceerde model, geschikt voor taken zoals het schrijven van essays en het genereren van code, en levert de meest menselijke antwoorden. Curie is goed in nuance, maar minder menselijk dan Davinci, terwijl Ada en Babbage minder krachtig zijn en beter geschikt zijn voor eenvoudige taken zoals het aanvullen van tekst en sentimentanalyse \autocite{Brockman2023}. Deze engines gebruiken dezelfde set hyperparameters, die ontwikkelaars kunnen aanpassen. Tabel \ref{table:gpt-3-parameters} somt deze parameters verder op.
 
 \begin{center}
 	\begin{table}[H]
@@ -530,7 +498,7 @@ OpenAI reikt documentatie aan voor het GPT-3 taalmodel. Daarin vermelden ze vier
 	\end{table}
 \end{center}
 
-Hoewel onderzoeken rond GPT-3 nog volop in ontwikkeling zijn, bestaan er vergelijkende onderzoeken naar de mogelijkheden van dit LLM. Onderzoek van \textcite{Binz2023} wijst uit dat de mean-regret score kan dienen als maatstaf om de menselijkheid van antwoorden te beoordelen. Deze studie wees verder uit dat deze modellen capabel zijn om menselijke antwoorden te produceren, zoals geïllustreerd in figuur \ref{img:mean-regret-chatgpt}. Uit het experiment van \textcite{Goyal2022} blijkt dat \textit{zero-shot} samenvattingen met GPT-3 beter presteren dan gefinetunede modellen. \autocite{Li2022} benadrukt dat GPT-3 overkill is voor sentimentanalyse. Daarvoor haalt het onderzoek aan om een kleinschaliger taalmodel te gebruiken. Daarnaast beschikken LLM's over een grotere ecologische voetafdruk, waarvoor onderzoeken van \textcite{Strubell2019, Simon2021} deze praktijk ook afraden. Uiteindelijk bestaan er al enkele tools die gebruikmaken van de GPT-3 API, waaronder Jasper AI en ChatSonic zoals aangehaald in het onderzoek van \textcite{Mottesi2023}. Experten zoals \textcite{Roose2023, Garg2022} halen het GPT-3 model en ChatGPT aan als de toekomst voor gepersonaliseerde en adaptieve uitleg aan scholieren. Bing Chat biedt een extra dat revolutionair kan zijn bij het opzoeken van uitleg voor zoektermen, zonder het verlies aan bronvermelding. Dankzij de personalisering van de prompts biedt GPT-3 mogelijkheden aan voor toepassingen in het onderwijs, aldus \textcite{Roose2023, Garg2022}.
+Hoewel onderzoeken rond GPT-3 nog volop in ontwikkeling zijn, bestaan er vergelijkende onderzoeken naar de mogelijkheden van dit LLM. Onderzoek van \textcite{Binz2023} wijst uit dat de mean-regret score kan dienen als maatstaf om de menselijkheid van antwoorden te beoordelen. Deze studie wees verder uit dat deze modellen capabel zijn om menselijke antwoorden te produceren, zoals geïllustreerd in figuur \ref{img:mean-regret-chatgpt}. Uit het experiment van \textcite{Goyal2022} blijkt dat \textit{zero-shot} samenvattingen met GPT-3 beter presteren dan gefinetunede modellen. \textcite{Li2022} benadrukt dat GPT-3 overkill is voor sentimentanalyse. Daarvoor haalt het onderzoek aan om een kleinschaliger taalmodel te gebruiken. Daarnaast beschikken LLM's over een grotere ecologische voetafdruk, waarvoor onderzoeken van \textcite{Strubell2019, Simon2021} deze praktijk ook afraden. Uiteindelijk bestaan er al enkele tools die gebruikmaken van de GPT-3 API, waaronder Jasper AI en ChatSonic zoals aangehaald in het onderzoek van \textcite{Mottesi2023}. Experten zoals \textcite{Roose2023, Garg2022} halen het GPT-3 model en ChatGPT aan als de toekomst voor gepersonaliseerde en adaptieve uitleg aan scholieren. Bing Chat biedt een extra dat revolutionair kan zijn bij het opzoeken van uitleg voor zoektermen, zonder het verlies aan bronvermelding. Dankzij de personalisering van de prompts biedt GPT-3 mogelijkheden aan voor toepassingen in het onderwijs, aldus \textcite{Roose2023, Garg2022}.
 
 \begin{figure}[H]
 	\begin{center}
@@ -579,7 +547,7 @@ BERT is een meertalige LLM die gebruikmaakt van \textit{contextual word embeddin
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=\linewidth]{img/graph-language-models.png}
-		\caption{De evolutie van LLM's \autocite{Simon2021}}
+		\caption{De evolutie van LLM's. Bron: \autocite{Simon2021}}
 		\label{img:graph-language-models}
 	\end{center}
 \end{figure}

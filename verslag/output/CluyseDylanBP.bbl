@@ -1458,6 +1458,38 @@
       \verb https://www.standaard.be/cnt/dmf20210319_05008561
       \endverb
     \endentry
+    \entry{OnderwijsVlaanderen2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e07f0edcb18289ca4efc7c7a67a89cb4}{%
+           family={{Departement onderwijs en vorming}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Onderwijs Vlaanderen}%
+      }
+      \strng{namehash}{e07f0edcb18289ca4efc7c7a67a89cb4}
+      \strng{fullhash}{e07f0edcb18289ca4efc7c7a67a89cb4}
+      \strng{bibnamehash}{e07f0edcb18289ca4efc7c7a67a89cb4}
+      \strng{authorbibnamehash}{e07f0edcb18289ca4efc7c7a67a89cb4}
+      \strng{authornamehash}{e07f0edcb18289ca4efc7c7a67a89cb4}
+      \strng{authorfullhash}{e07f0edcb18289ca4efc7c7a67a89cb4}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Vlaams Ministerie van Onderwijs en Vorming}
+      \field{title}{Voorleessoftware voor Leerlingen met Leesbeperkingen}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://onderwijs.vlaanderen.be/voorleessoftware-voor-leerlingen-met-leesbeperkingen
+      \endverb
+      \verb{url}
+      \verb https://onderwijs.vlaanderen.be/voorleessoftware-voor-leerlingen-met-leesbeperkingen
+      \endverb
+    \endentry
     \entry{Donato2022}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=d8e81a3a7edd3a121de6cffb2c1fc333}{%
@@ -2965,6 +2997,42 @@
       \verb https://doi.org/10.3102/0013189X20912798
       \endverb
     \endentry
+    \entry{Lee2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0cc492530e892f7a5966c9ef6f807cba}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jonathan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Social Impact Analytics}%
+      }
+      \strng{namehash}{0cc492530e892f7a5966c9ef6f807cba}
+      \strng{fullhash}{0cc492530e892f7a5966c9ef6f807cba}
+      \strng{bibnamehash}{0cc492530e892f7a5966c9ef6f807cba}
+      \strng{authorbibnamehash}{0cc492530e892f7a5966c9ef6f807cba}
+      \strng{authornamehash}{0cc492530e892f7a5966c9ef6f807cba}
+      \strng{authorfullhash}{0cc492530e892f7a5966c9ef6f807cba}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Medium}
+      \field{month}{4}
+      \field{title}{Extract text from unsearchable pdfs for data analysis using Python}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://medium.com/social-impact-analytics/extract-text-from-unsearchable-pdfs-for-data-analysis-using-python-a6a2ca0866dd
+      \endverb
+      \verb{url}
+      \verb https://medium.com/social-impact-analytics/extract-text-from-unsearchable-pdfs-for-data-analysis-using-python-a6a2ca0866dd
+      \endverb
+    \endentry
     \entry{Leroy2013}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=0ed0c6789c54d3d1c2f71198ff22e812}{%
@@ -4056,38 +4124,6 @@
       \verb https://www.vlaanderen.be/publicaties/begrijpend-leesonderwijs-in-de-basisscholen-kwaliteitsvol-sterke-en-zwakke-punten-van-de-huidige-praktijk
       \endverb
     \endentry
-    \entry{OnderwijsVlaanderen2023}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=6b5966c9fecb2d7a2f975270bf80b47f}{%
-           family={OnderwijsVlaanderen},
-           familyi={O\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Onderwijs Vlaanderen}%
-      }
-      \strng{namehash}{6b5966c9fecb2d7a2f975270bf80b47f}
-      \strng{fullhash}{6b5966c9fecb2d7a2f975270bf80b47f}
-      \strng{bibnamehash}{6b5966c9fecb2d7a2f975270bf80b47f}
-      \strng{authorbibnamehash}{6b5966c9fecb2d7a2f975270bf80b47f}
-      \strng{authornamehash}{6b5966c9fecb2d7a2f975270bf80b47f}
-      \strng{authorfullhash}{6b5966c9fecb2d7a2f975270bf80b47f}
-      \field{sortinit}{O}
-      \field{sortinithash}{ff8d4eeb5101e3cf3809959b3592d942}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Vlaams Ministerie van Onderwijs en Vorming}
-      \field{title}{Voorleessoftware voor Leerlingen met Leesbeperkingen}
-      \field{year}{2023}
-      \verb{urlraw}
-      \verb https://onderwijs.vlaanderen.be/voorleessoftware-voor-leerlingen-met-leesbeperkingen
-      \endverb
-      \verb{url}
-      \verb https://onderwijs.vlaanderen.be/voorleessoftware-voor-leerlingen-met-leesbeperkingen
-      \endverb
-    \endentry
     \entry{Paetzold2016}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=fc6874a9706b0d5ec3af854985947c30}{%
@@ -4483,6 +4519,41 @@
       \verb https://readable.com/readability/flesch-reading-ease-flesch-kincaid-grade-level/
       \endverb
     \endentry
+    \entry{Rello2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=beb516ae4b9334129c564a1d33d9ec9b}{%
+           family={Rello},
+           familyi={R\bibinitperiod},
+           given={Luz},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d09e49922e93f3fa71557e8dd20d20fb}{%
+           family={A.\bibnamedelimi Baeza-Yates},
+           familyi={A\bibinitperiod\bibinitdelim B\bibinithyphendelim Y\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{590c6a5f7c77fda8a5dbedaba87af94c}
+      \strng{fullhash}{590c6a5f7c77fda8a5dbedaba87af94c}
+      \strng{bibnamehash}{590c6a5f7c77fda8a5dbedaba87af94c}
+      \strng{authorbibnamehash}{590c6a5f7c77fda8a5dbedaba87af94c}
+      \strng{authornamehash}{590c6a5f7c77fda8a5dbedaba87af94c}
+      \strng{authorfullhash}{590c6a5f7c77fda8a5dbedaba87af94c}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Universal Access in the Information Society}
+      \field{title}{How to present more readable text for people with dyslexia}
+      \field{volume}{16}
+      \field{year}{2015}
+      \field{pages}{29\bibrangedash 49}
+      \range{pages}{21}
+    \endentry
     \entry{Rello2013b}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=beb516ae4b9334129c564a1d33d9ec9b}{%
@@ -4491,12 +4562,12 @@
            given={Luz},
            giveni={L\bibinitperiod},
            givenun=0}}%
-        {{un=1,uniquepart=given,hash=14e9e2c7e918f62ba13b9e040fb7f468}{%
+        {{un=0,uniquepart=base,hash=14e9e2c7e918f62ba13b9e040fb7f468}{%
            family={Baeza-Yates},
            familyi={B\bibinithyphendelim Y\bibinitperiod},
            given={Ricardo},
            giveni={R\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \strng{namehash}{d9322ae939dbc2d75171729320b266e1}
       \strng{fullhash}{d9322ae939dbc2d75171729320b266e1}
@@ -4524,12 +4595,12 @@
            given={Luz},
            giveni={L\bibinitperiod},
            givenun=0}}%
-        {{un=1,uniquepart=given,hash=14e9e2c7e918f62ba13b9e040fb7f468}{%
+        {{un=0,uniquepart=base,hash=14e9e2c7e918f62ba13b9e040fb7f468}{%
            family={Baeza-Yates},
            familyi={B\bibinithyphendelim Y\bibinitperiod},
            given={Ricardo},
            giveni={R\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=2787e952842479085b9dd0655c85ad1c}{%
            family={Bott},
            familyi={B\bibinitperiod},
@@ -4587,12 +4658,12 @@
            given={Luz},
            giveni={L\bibinitperiod},
            givenun=0}}%
-        {{un=1,uniquepart=given,hash=14e9e2c7e918f62ba13b9e040fb7f468}{%
+        {{un=0,uniquepart=base,hash=14e9e2c7e918f62ba13b9e040fb7f468}{%
            family={Baeza-Yates},
            familyi={B\bibinithyphendelim Y\bibinitperiod},
            given={Ricardo},
            giveni={R\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=dafc25901c99be13b1e2d7617dda3b8b}{%
            family={Dempere-Marco},
            familyi={D\bibinithyphendelim M\bibinitperiod},
@@ -4632,12 +4703,12 @@
            given={Luz},
            giveni={L\bibinitperiod},
            givenun=0}}%
-        {{un=1,uniquepart=given,hash=14e9e2c7e918f62ba13b9e040fb7f468}{%
+        {{un=0,uniquepart=base,hash=14e9e2c7e918f62ba13b9e040fb7f468}{%
            family={Baeza-Yates},
            familyi={B\bibinithyphendelim Y\bibinitperiod},
            given={Ricardo},
            giveni={R\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=9c64a04423df54f4b8a0c897a023033d}{%
            family={Saggion},
            familyi={S\bibinitperiod},
@@ -4665,41 +4736,6 @@
       \field{year}{2013}
       \field{pages}{501\bibrangedash 512}
       \range{pages}{12}
-    \endentry
-    \entry{Rello2015}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=beb516ae4b9334129c564a1d33d9ec9b}{%
-           family={Rello},
-           familyi={R\bibinitperiod},
-           given={Luz},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=1,uniquepart=given,hash=0e3b9dc4750427d6328226d323a11060}{%
-           family={Baeza-Yates},
-           familyi={B\bibinithyphendelim Y\bibinitperiod},
-           given={Ricardo\bibnamedelima A.},
-           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=1}}%
-      }
-      \strng{namehash}{7b3d9c5a9274b048057fc3a91816b1f7}
-      \strng{fullhash}{7b3d9c5a9274b048057fc3a91816b1f7}
-      \strng{bibnamehash}{7b3d9c5a9274b048057fc3a91816b1f7}
-      \strng{authorbibnamehash}{7b3d9c5a9274b048057fc3a91816b1f7}
-      \strng{authornamehash}{7b3d9c5a9274b048057fc3a91816b1f7}
-      \strng{authorfullhash}{7b3d9c5a9274b048057fc3a91816b1f7}
-      \field{sortinit}{R}
-      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Universal Access in the Information Society}
-      \field{title}{How to present more readable text for people with dyslexia}
-      \field{volume}{16}
-      \field{year}{2015}
-      \field{pages}{29\bibrangedash 49}
-      \range{pages}{21}
     \endentry
     \entry{Rello2017}{article}{}
       \name{author}{2}{}{%
