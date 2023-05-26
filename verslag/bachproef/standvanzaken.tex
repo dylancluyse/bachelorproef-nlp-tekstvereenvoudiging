@@ -134,11 +134,11 @@ Volgens onderzoek van \textcite{PlavenSigray2017} maken wetenschappers en onderz
 	\label{img:fre-ndc}
 \end{figure}
 
-Onbegrijpelijke en ontoegankelijke zinsstructuren hinderen ook vakexperten. Zo toonde onderzoek van \textcite{McNutt2014} aan dat begrip van de methodologie en resultaten cruciaal is in het kader van reproduceerbaarheid; enkel zo kunnen wetenschappers op correcte wijze een studie reproduceren en wetenschappelijke inzichten bevestigen of met verdere resultaten verrijken. Experimenten van \textcite{Hubbard2017} wijzen namelijk uit dat het net vooral de methodologie en resultaten van een wetenschappelijk artikel zijn die een hoge leesgraad vergen. In deze context is ook het onderzoek van \textcite{Hartley1999} en \textcite{Snow2010} relevant waarin ze aantonen dat het herschrijven van abstracts de begrijpbaarheid ervan kan verhogen.
+Onbegrijpelijke en ontoegankelijke zinsstructuren hinderen ook vakexperten. Zo toonde onderzoek van \textcite{McNutt2014} aan dat begrip van de methodologie en resultaten cruciaal is in het kader van reproduceerbaarheid; enkel zo kunnen wetenschappers op correcte wijze een studie reproduceren en wetenschappelijke inzichten bevestigen of met verdere resultaten verrijken. Experimenten van \textcite{Hubbard2017} wijzen namelijk uit dat het net vooral de methodologie en resultaten van een wetenschappelijk artikel zijn die een hoge leesgraad vergen. In deze context zijn de onderzoeken van \textcite{Hartley1999} en \textcite{Snow2010} relevant waarin ze aantonen dat het herschrijven van abstracts de begrijpbaarheid ervan kan verhogen.
 
 \medspace
 
-Volgens \textcite{Hollenkamp2020, McCombes2022} moeten vereenvoudigde of samengevatte wetenschappelijke artikelen drie vragen kunnen beantwoorden: waarom werd het onderzoek uitgevoerd, wat zijn de experimenten en wat zijn de conclusies van de onderzoekers? Dit omvat de achtergrondinformatie, hypotheses, methoden, resultaten, implicaties, beperkingen en aanbevelingen. De tekst omzetten in een ander formaat zoals post-it notes, tabelvorm of opsommingen, maakt het beter begrijpbaar \autocite{Rijkhoff2022}. 
+Volgens \textcite{Hollenkamp2020} moeten vereenvoudigde of samengevatte wetenschappelijke artikelen drie vragen kunnen beantwoorden: waarom werd het onderzoek uitgevoerd, wat zijn de experimenten en wat zijn de conclusies van de onderzoekers? Dit omvat de achtergrondinformatie, hypotheses, methoden, resultaten, implicaties, beperkingen en aanbevelingen. De tekst omzetten in een ander formaat zoals post-it notes, tabelvorm of opsommingen, maakt het beter begrijpbaar \autocite{Rijkhoff2022}. 
 
 \medspace
 
@@ -440,7 +440,7 @@ Er zijn weinig toepassingen beschikbaar om wetenschappelijke artikelen te vereen
 
 \medspace
 
-Ontwikkelaars kunnen ook zelf aan de slag gaan. Zo beschikt HuggingFace (HF) een breed scala aan API's en tools die gemakkelijk te downloaden en trainen zijn voor \textit{pretrained} modellen voor veelvoorkomende NLP-taken, zoals \textit{text classification}, taalmodellering en samenvatting. Tekstvereenvoudiging is in mindere mate aanwezig. Verder kunnen ontwikkelaars deze modellen \textit{finetunen} op specifieke datasets om modellen te bouwen voor gepersonaliseerde NLP-taken. Tot slot geeft tabel \ref{table:huggingface-models} HF-taalmodellen met hun respectievelijke casus.
+Ontwikkelaars kunnen ook zelf aan de slag gaan. Zo beschikt HuggingFace (HF) een breed scala aan API's en tools die gemakkelijk te downloaden en trainen zijn voor \textit{pretrained} modellen voor veelvoorkomende NLP-taken, zoals \textit{text classification}, taalmodellering en samenvatting. Tekstvereenvoudiging is in mindere mate aanwezig. Verder kunnen ontwikkelaars deze modellen \textit{finetunen} op specifieke datasets om modellen te bouwen voor gepersonaliseerde NLP-taken. Tot slot geeft tabel \ref{table:huggingface-models} HF-taalmodellen met hun respectievelijke casus. De volgende taalmodellen neemt de tabel op: Google Pegasus\footnote{https://ai.googleblog.com/2020/06/pegasus-state-of-art-model-for.html}, Longformer Encoder-Decoder\footnote{https://huggingface.co/docs/transformers/model\_doc/led}, Simplification\footnote{https://huggingface.co/haining/scientific\_abstract\_simplification}, BART Large Scientific Summarisation\footnote{https://huggingface.co/sambydlo/bart-large-scientific-lay-summarisation}, T5 finetuned text simplification model\footnote{https://huggingface.co/husseinMoh/t5-small-finetuned-text-simplification} en Keep It Simple\footnote{https://huggingface.co/philippelaban/keep\_it\_simple}
 
 \medspace
 
@@ -449,17 +449,17 @@ Ontwikkelaars kunnen ook zelf aan de slag gaan. Zo beschikt HuggingFace (HF) een
 	\begin{tabular}{ | m{4cm} | m{12cm} | } 
 		\hline
 		\textbf{Taalmodel} & \textbf{Specifieke casus} \\ \hline
-		Google Pegasus\footnote{https://ai.googleblog.com/2020/06/pegasus-state-of-art-model-for.html} & Samenvattingstaken voor kort tot middelgrote documenten. \\
+		Google Pegasus & Samenvattingstaken voor kort tot middelgrote documenten. \\
 		\hline
-		Longformer Encoder-Decoder\footnote{https://huggingface.co/docs/transformers/model_doc/led} (LED) & Samenvatting van lange wetenschappelijke artikelen \\
+		Longformer Encoder-Decoder (LED) & Samenvatting van lange wetenschappelijke artikelen \\
 		\hline
-		Haining Scientific Abstract Simplification\footnote{https://huggingface.co/haining/scientific_abstract_simplification} & Het lexicaal vereenvoudigen van wetenschappelijke artikelen. \\
+		Haining Scientific Abstract Simplification & Het lexicaal vereenvoudigen van wetenschappelijke artikelen. \\
 		\hline
-		BART Large Scientific Summarisation\footnote{https://huggingface.co/sambydlo/bart-large-scientific-lay-summarisation} & Het samenvatten van wetenschappelijke artikelen. \\
+		BART Large Scientific Summarisation & Het samenvatten van wetenschappelijke artikelen. \\
 		\hline
-		T5 finetuned text simplification model\footnote{https://huggingface.co/husseinMoh/t5-small-finetuned-text-simplification} & Tekstvereenvoudiging voor algemeen gebruik. \\
+		T5 finetuned text simplification model & Tekstvereenvoudiging voor algemeen gebruik. \\
 		\hline
-		Keep It Simple\footnote{https://huggingface.co/philippelaban/keep_it_simple} & Ongesuperviseerde tekstvereenvoudiging met ATS. \\
+		Keep It Simple & Ongesuperviseerde tekstvereenvoudiging met ATS. \\
 		\hline
 	\end{tabular}
 		\caption{Beschikbare en ge-finetunede HF-taalmodellen.}
@@ -480,7 +480,7 @@ GPT-3 beschikt over meerdere versies, waaronder GPT-3.5 die als engine dient voo
 
 \begin{center}
 	\begin{table}[H]
-	\begin{tabular}{ m{3cm} | m{7cm} | m{4cm} }
+	\begin{tabular}{ | m{2.5cm} | m{7cm} | m{4.5cm} | }
 		\hline
 		\textbf{Parameter} & \textbf{Omschrijving} & \textbf{Mogelijke waarden} \\ \hline
 		\textit{model} & De GPT-3 engine die ontwikkelaars kunnen gebruiken. & davinci, curie, babbage, ada, text-davinci-002, text-curie-001, text-babbage-001, text-ada-001, davinci-codex \\ \hline
@@ -586,7 +586,7 @@ Het beoordelen van vereenvoudigde teksten vereist de nodige opvolging van ontwik
 
 \begin{center}
 	\begin{table}[H]
-	\begin{tabular}{ m{4cm} | m{10cm} | }
+	\begin{tabular}{ | m{4cm} | m{10cm} | }
 		\hline
 		\textbf{Probleem} & \textbf{Oplossing} \\
 		\hline
@@ -598,7 +598,7 @@ Het beoordelen van vereenvoudigde teksten vereist de nodige opvolging van ontwik
 		\hline
 		Onnauwkeurige prompts & Gebruik van conditionele expressies bij prompts of one-shot summary uitvoeren. \\
 		\hline
-		Onnauwkeurige evaluatie van tekstvereenvoudiging & Menselijke evaluatie toepassen of gebruik maken van ROUGE-L metrieken die wel de semantiek in achting nemen. 
+		Onnauwkeurige evaluatie van tekstvereenvoudiging & Menselijke evaluatie toepassen of gebruik maken van ROUGE-L metrieken die wel de semantiek in achting nemen. \\
 		\hline
 	\end{tabular}
 	\caption{Samenvattend schema met vaak voorkomende struikelblokken bij NLP-toepassingen.}

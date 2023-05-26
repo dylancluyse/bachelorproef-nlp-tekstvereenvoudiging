@@ -1,9 +1,9 @@
 \chapter{\IfLanguageName{dutch}{Resultaten}{Results}}%
 \label{ch:resultaten}
 
-Dit hoofdstuk bespreekt de resultaten uit de requirementsanalyse, vergelijkende studie en de ontwikkeling van het prototype besproken. Zo bespreekt dit hoofdstuk de resultaten van de drie onderzoeksmethoden. Eerst geeft het onderzoek de resultaten van de requirementsanalyse, door middel van een bespreking van het toegepaste moscow-schema op de geteste tools. Daarna staat het onderzoek stil bij de objectieve en subjectieve resultaten uit de vergelijkende studie. Tot slot bespreekt het onderzoek het ontwikkelde prototype, alsook hoe dit prototype staat tegenover andere tools. De aftoetsing gebeurt op basis van de functionaliteiten voor gepersonaliseerde ATS op maat voor scholieren met dyslexie bij het begrijpend lezen van wetenschappelijke artikelen. 
+Dit hoofdstuk bespreekt de resultaten uit de requirementsanalyse, vergelijkende studie en de ontwikkeling van het prototype besproken. Zo bespreekt dit hoofdstuk de resultaten van de drie onderzoeksmethoden. Eerst geeft het onderzoek de resultaten van de requirementsanalyse, door middel van een bespreking van het toegepaste moscow-schema op de geteste tools. Daarna staat het onderzoek stil bij de machinale en menselijke resultaten uit de vergelijkende studie. Tot slot bespreekt het onderzoek het ontwikkelde prototype, alsook hoe dit prototype staat tegenover andere tools. De aftoetsing gebeurt op basis van de functionaliteiten voor gepersonaliseerde ATS op maat voor scholieren met dyslexie bij het begrijpend lezen van wetenschappelijke artikelen. 
 
-Dit hoofdstuk bevat enkel de belangrijkste listings. De volledige code kan de lezer op deze GitHub-repository\footnote{https://github.com/Dyashen/text-simplification-tool} terugvinden. De vergelijkende studie gebruikt een csv om analyses over de verkregen tekstdata te maken. Het bijbehorende csv-bestand kan de lezer terugvinden op deze GitHub-repository\footnote{https://github.com/dylancluyse/bachelorproef-nlp-tekstvereenvoudiging/blob/main/STATISTIEKEN_BACHELORPROEF_ATS.csv}.
+Dit hoofdstuk bevat enkel de belangrijkste listings. De volledige code kan de lezer op deze GitHub-repository\footnote{https://github.com/Dyashen/text-simplification-tool} terugvinden. De vergelijkende studie gebruikt een csv om analyses over de verkregen tekstdata te maken. Het bijbehorende csv-bestand kan de lezer terugvinden op deze GitHub-repository\footnote{https://github.com/dylancluyse/bachelorproef-nlp-tekstvereenvoudiging/blob/main/STATISTIEKEN\_BACHELORPROEF\_ATS.csv}.
 
 \section{Ontbrekende functies bij AI-toepassingen}
 
@@ -22,16 +22,16 @@ Op basis van de experimenten, uitgevoerd in \ref{sec:requirementsanalyse}, toets
 		Synoniemenlijst aanmaken & - & X & - & - & - & - & P6 & P6 \\ \hline
 		Idiomen vervangen door eenvoudigere synoniemen & - & - & - & X & - & - & P1-3,6 & P1-3,6 \\ \hline
 		Zinnen inkorten & - & - & - & X & X & X & P3-5 & P3-5 \\ \hline
-		Verwijswoorden aanpassen & - & - & - & - & - & - & P3 & P3 \\ \hline
+		Verwijswoorden aanpassen & - & - & - & X & - & X & P3 & P3 \\ \hline
 		Voorzetseluitdrukkingen aanpassen & - & - & - & - & - & - & P3 & P3 \\ \hline
-		Samengestelde werkwoorden aanpassen & - & - & - & - & - & - & P3 & P3 \\ \hline
+		Samengestelde werkwoorden aanpassen & - & - & - & X & - & X & P3 & P3 \\ \hline
 		Actieve stem toepassen & - & - & - & - & - & - & - & - \\ \hline
 		Enkel regelmatige werkwoorden gebruiken & - & - & - & - & - & - & P3 & P3 \\ \hline
 		Achtergrondkleur aanpassen & X & X & X & - & - & - & - & - \\ \hline
-		Woord- en karakterspatiëring & - & X & X & - & - & - & - & - \\ \hline
+		Woord- en karakterspatiëring aanpassen & - & X & X & - & - & - & - & - \\ \hline
 		Consistente lay-out & X & X & X & - & - & - & P1-6 & P1-6 \\ \hline
-		Duidelijk zichtbare koppenstructuur & - & - & - & - & - & - & - & - \\ \hline
-		Huidige positie benadrukken & - & - & - & - & - & - & - & - \\ \hline
+		Duidelijk zichtbare koppenstructuur & X & X & X & - & - & - & X & X \\ \hline
+		Huidige positie benadrukken & X & X & X & - & - & - & - & - \\ \hline
 		Waarschuwingen geven omtrent formulieren en sessies & - & - & - & X & - & X & - & - \\ \hline
 		Inhoud visueel groeperen & - & X & X & - & - & - & - & - \\ \hline
 		Tekst herschrijven als tabel & - & - & - & - & - & - & P4, P6 & P4, P6 \\ \hline
@@ -49,7 +49,7 @@ Op basis van de experimenten, uitgevoerd in \ref{sec:requirementsanalyse}, toets
 De geteste toepassingen laten gebruikers toe om wetenschappelijk artikelen als pdf opladen. Uitzonderlijk O4 en O5 laten dit niet toe. Figuur \ref{img:scispace-example} toont hoe O2 gebruikers in het oorspronkelijke bestand kan laten werken. O4 en O5 beschikken enkel over een \textit{plain-text} invoermethode. O2 en O5 kunnen online wetenschappelijke artikelen via URL, maar dit gebeurt echter bij één van de twee uitgeteste wetenschappelijke artikelen.
 
 \begin{figure}[H]
-	\includegraphics{img/typeset-example.png}
+	\includegraphics[width=\linewidth]{img/typeset-example.png}
 	\caption{Informatie opvragen van een wetenschappelijk artikel met SciSpace}
 	\label{img:scispace-example}
 \end{figure}
@@ -97,15 +97,7 @@ De requirementsanalyse kan niet achterhalen of de toepassingen gebruik maken van
 
 \subsubsection{Could-haves}
 
-De geteste tools beschikken over de nodige functionaliteiten om gebruikerfeedback te geven. Zo voeren de uitgeteste tools pop-ups toe om de eindgebruiker attent te maken van een aanpassing. O4 en O5 bieden dit echter niet aan. 
-
-\medspace
-
-O4 en O5 zijn de enige geteste tools die tekst in een tabelformaat kunnen schrijven, maar enkel na een expliciete prompt. Daarnaast beschikt geen van de geteste tools over een functionaliteit om automatisch de moeilijke woorden of vakterminologie op te halen uit een tekst. O4 en O5 gaven de woordenlijst in tabelvorm terug. Daarnaast kunnen O4 en O5 dit enkel met een expliciete prompt. Tot slot kunnen O1, O2, O4 en O5 onregelmatige werkwoorden wegwerken. Andere toepassingen kunnen dit niet uitvoeren.
-
-\medspace
-
-O1, O2, O3, O4 en O5 kunnen extraherende en abstraherende samenvattingen maken van de oorspronkelijke tekst. E1, E2 en E3 kunnen een extraherende samenvatting van de tekst maken, maar enkel na een handmatige selectie van de zinnen. 
+De geteste tools beschikken over de nodige functionaliteiten om gebruikerfeedback te geven. Zo voeren de uitgeteste tools pop-ups toe om de eindgebruiker attent te maken van een aanpassing. O4 en O5 bieden dit echter niet aan. Vervolgens zijn O4 en O5 de enige geteste tools die tekst in een tabelformaat kunnen schrijven, maar enkel na een expliciete prompt. Daarnaast beschikt geen van de geteste tools over een functionaliteit om automatisch de moeilijke woorden of vakterminologie op te halen uit een tekst. O4 en O5 gaven de woordenlijst in tabelvorm terug. Daarnaast kunnen O4 en O5 dit enkel met een expliciete prompt. O1, O2, O3, O4 en O5 kunnen extraherende en abstraherende samenvattingen maken van de oorspronkelijke tekst. E1, E2 en E3 kunnen een extraherende samenvatting van de tekst maken, maar enkel na een handmatige selectie van de zinnen. Enkel O4 en O5 kunnen een gekregen tekst herschrijven. Tot slot kunnen O1, O2, O4 en O5 onregelmatige werkwoorden wegwerken. Andere toepassingen kunnen dit niet uitvoeren.
 
 
 \subsubsection{Wont-haves}
@@ -156,13 +148,13 @@ Tabel \ref{table:resultaten-aantal-zinnen} geeft het aantal zinnen per (vereenvo
 	\label{table:resultaten-aantal-zinnen}
 \end{table}
 
-\begin{figure}
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{img/boxplot-avg-a1.png}
 	\caption{Overzicht van het minimum, maximum en gemiddeld aantal woorden per zin per model in A1.}
 	\label{img:boxplot-min-max-avg-words-a1}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{img/boxplot-avg-a2.png}
 	\caption{Overzicht van het minimum, maximum en gemiddeld aantal woorden per zin per model in A2.}
 	\label{img:boxplot-min-max-avg-words-a2}
@@ -170,13 +162,13 @@ Tabel \ref{table:resultaten-aantal-zinnen} geeft het aantal zinnen per (vereenvo
 
 De FRE-scores van alle geteste taalmodellen en MTS-referentieteksten zijn niet significant hoger of lager dan die van OG, zoals weergegeven in figuren \ref{img:boxplot-fre-a1} en \ref{img:boxplot-fre-a2}. Gemiddeld bevinden alle versies van het wetenschappelijk artikel zich tussen 20 en 50. Zonder \textit{outliers} beperkt T3 de FRE van alle zinnen tot hoogstens 40. T3, T4P1, T4P2 en T4P3 genereren zinnen met een hogere FRE dan OG en MTSL. 
 
-\begin{figure}
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{img/boxplot-fre-a1.png}
 	\caption{Boxplot van de FRE-scores voor A1.}
 	\label{img:boxplot-fre-a1}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{img/boxplot-fre-a2.png}
 	\caption{Boxplot van de FRE-scores voor A2.}
 	\label{img:boxplot-fre-a2}
@@ -184,13 +176,13 @@ De FRE-scores van alle geteste taalmodellen en MTS-referentieteksten zijn niet s
 
 De FOG-scores van alle geteste taalmodellen en MTS-referentieteksten zijn niet significant hoger of lager bij de vereenvoudigde wetenschappelijke artikelen, zoals gevisualiseerd in figuren \ref{img:boxplot-fog-a1} en \ref{img:boxplot-fog-a2}. De zinnen van MTSL2 en T2 scoren een gemiddeld lagere FOG-score dan OG. T2 scoort het laagste gemiddelde van alle taalmodellen. Het gemiddelde van T2 ligt tussen 10 en 12. Tot slot scoren MTSL en andere taalmodellen gemiddeld hoger dan OG. Tot slot genereren de taalmodellen geen zinnen met een hogere FOG-score dan OG.
 
-\begin{figure}
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{img/boxplot-fog-a1.png}
 	\caption{Boxplot van de FOG-scores voor A1.}
 	\label{img:boxplot-fog-a1}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{img/boxplot-fog-a2.png}
 	\caption{Boxplot van de FOG-scores voor A2.}
 	\label{img:boxplot-fog-a2}
@@ -224,37 +216,35 @@ Vervolgens visualiseren figuren \ref{img:violinplot-long-a1} en \ref{img:violinp
 	\label{img:violinplot-long-a2}
 \end{figure}
 
-Ten slotte tonen \ref{img:histplot-aux-a1} en \ref{img:histplot-aux-a2} het aantal zinnen met hulpwerkwoorden aan. Alle taalmodellen genereren zinnen met één vervoeging van het werkwoord zijn.
+Vervolgens tonen figuren \ref{img:histplot-aux-a1} en \ref{img:histplot-aux-a2} het aantal hulpwerkwoorden in de tekst. Deze figuren zijn geen absolute percentages en houden geen rekening met het aantal zinnen. Ten slotte tonen \ref{img:histplot-aux-a1} en \ref{img:histplot-aux-a2} het aantal vervoegingen van het werkwoord 'zijn' aan. 
 
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{img/boxplot-aux-a1.png}
-	\caption{Een staafdiagram van het aantal zinnen met hulpwerkwoorden, gegroepeerd op model voor A1.}
+	\caption{Een staafdiagram van het aantal gebruikte hulpwerkwoorden in de tekst, gegroepeerd op model voor A1.}
 	\label{img:histplot-aux-a1}
 \end{figure}
 
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{img/boxplot-aux-a2.png}
-	\caption{Een staafdiagram van het aantal zinnen met hulpwerkwoorden, gegroepeerd op model voor A2.}
+	\caption{Een staafdiagram van het aantal gebruikte hulpwerkwoorden in de tekst, gegroepeerd op model voor A2.}
 	\label{img:histplot-aux-a2}
 \end{figure}
 
-Ten slotte tonen \ref{img:histplot-aux-a1} en \ref{img:histplot-aux-a2} het aantal zinnen met minstens één vervoeging van het werkwoord 'zijn' aan. 
-
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{img/boxplot-tobe-a1.png}
-	\caption{Het aantal zinnen met een vervoeging van het werkwoord 'zijn', gegroepeerd op model voor A1.}
+	\caption{Het aantal vervoegingen van het werkwoord 'zijn', gegroepeerd op model voor A1.}
 	\label{img:histplot-tobe-a1}
 \end{figure}
 
 \begin{figure}[H]
 	\includegraphics[width=\linewidth]{img/boxplot-tobe-a2.png}
-	\caption{Het aantal zinnen met een vervoeging van het werkwoord 'zijn', gegroepeerd op model voor gegroepeerd op model voor A2.}
+	\caption{Het aantal vervoegingen van het werkwoord 'zijn', gegroepeerd op model voor A2.}
 	\label{img:histplot-tobe-a2}
 \end{figure}
 
 \subsubsection{Menselijke beoordeling van de referentieteksten.}
 
-In het volgende deel bespreekt het onderzoek de subjectieve beoordeling van de resultaten. Allereerst kunnen T4P1 en T4P2 Engelstalige vaktermen vertalen naar het Nederlands. Zo blijft de afkorting voor 'DPKIA' intact, maar vertaalt T4P1 hetzelfde woord naar het Nederlands.  T1, T2, T3 en T4P3 houden hier echter geen rekening mee en behouden de oorspronkelijke versie van de tekst. De auteurs schrijven alle afkortingen voluit, zoals beschreven in de richtlijnen.
+In het volgende deel bespreekt het onderzoek de menselijke beoordeling van de resultaten. Allereerst kunnen T4P1 en T4P2 Engelstalige vaktermen vertalen naar het Nederlands. Zo blijft de afkorting voor 'DPKIA' intact, maar vertaalt T4P1 hetzelfde woord naar het Nederlands.  T1, T2, T3 en T4P3 houden hier echter geen rekening mee en behouden de oorspronkelijke versie van de tekst. De auteurs schrijven alle afkortingen voluit, zoals beschreven in de richtlijnen.
 
 \medspace
 
@@ -266,7 +256,7 @@ Geen taalmodel wijkt af van de hoofdgedachte van het oorspronkelijke wetenschapp
 
 \medspace
 
-Ter conclusie van de resultaten scoren de drie prompts van T4 beter bij de subjectieve beoordeling van de resultaten. Het taalmodel en de verwante drie prompts genereren coherente teksten met een verlaagde lexicale complexiteit. Echter houden de geteste taalmodellen weinig tot geen rekening met afkortingen of bronvermeldingen.
+Ter conclusie van de resultaten scoren de drie prompts van T4 beter bij de menselijke beoordeling van de resultaten. Het taalmodel en de verwante drie prompts genereren coherente teksten met een verlaagde lexicale complexiteit. Echter houden de geteste taalmodellen weinig tot geen rekening met afkortingen of bronvermeldingen.
 
 \section{Het prototype voor tekstvereenvoudiging met ATS vergeleken met top-of-the-line tools.}
 
@@ -284,7 +274,7 @@ Gebruikers kunnen vanuit de homepagina drie schermen kiezen: het lerarencomponen
 
 Bovendien stelt het prototype gebruikers in staat om op basis van gekregen parameters automatisch personaliseerbare pdf en docx-documenten te genereren.
 
-\begin{figure}
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{img/proto-lerarencomponent.png}
 	\caption{Een mogelijke weergave van het lerarencomponent met het wetenschappelijk artikel van \textcite{VanBrakel2022} als input.}
 	\label{img:proto-lerarencomponent}
@@ -344,31 +334,27 @@ Figuren \ref{img:step-1-proto-vraagstelling} en \ref{img:step-2-proto-vraagstell
 	\end{figure}
 \end{center}
 
-Na evaluatie en experimenten blijkt het prototype te voldoen aan de \textit{must-have} functionaliteiten, zoals vastgesteld in het moscow-schema of tabel \ref{img:moscow-table}. Zo biedt het prototype twee manieren aan om pdf-bestanden in te lezen, namelijk via OCR en via PDFMiner. Daarnaast kan \textit{plain-text} ook dienen als voer voor het prototype. Dit valt in lijn met de verwachtte functionaliteiten omtrent pdf-upload. Tot slot kunnen gebruikers kiezen welke tekstinhoud zij willen vereenvoudigen met gepersonaliseerde ATS.
+Na evaluatie en experimenten blijkt het prototype te voldoen aan de \textit{must-have} functionaliteiten, zoals vastgesteld in het moscow-schema of tabel \ref{img:moscow-table}. Zo biedt het prototype twee manieren aan om pdf-bestanden in te lezen, namelijk via OCR en via PDFMiner. Daarnaast kan \textit{plain-text} ook dienen als voer voor het prototype. Dit valt in lijn met de verwachtte functionaliteiten omtrent pdf-upload. Tot slot kunnen gebruikers kiezen welke tekstinhoud zij willen vereenvoudigen met gepersonaliseerde ATS. De eindgebruiker kan alle vragen beantwoorden met de inhoud van het vereenvoudigde artikel, zoals aangegeven door \textcite{Hollenkamp2020} als absolute must na de vereenvoudiging of samenvatting van een wetenschappelijk artikel.
 
 \medspace
 
 Alle eindgebruikers kunnen de opmaakopties van de toepassing aanpassen aan hun persoonlijke voorkeuren bij het lezen van wetenschappelijke artikelen. Alsook de opmaak van het uitvoerbestand personaliseren. Figuur \ref{img:screenshot-pdf-attempt} toont de vereenvoudigde versie van het wetenschappelijke artikel met de parameters uit tabel \ref{table:chosen-parameters-experiment}. Het prototype kan de regeleindes, woord- en karakterspatiëring, lettertype -en grootte, koppenstructuur en marges van het uitvoerbestand aanpassen. Deze functionaliteit is niet beschikbaar bij de uitgeteste tools, behalve E1 en E2 die enkel het lettertype -en grootte kan aanpassen. 
 
-\begin{figure}
-	\includegraphics[width=10cm]{img/screenshot-prototype-pdf.png}
+\begin{figure}[H]
+	\includegraphics[width=\linewidth]{img/screenshot-prototype-pdf.png}
 	\caption{Een vereenvoudigde versie in pdf-formaat van het artikel van \textcite{VanBrakel2022} volgens het prototype.}
 	\label{img:screenshot-pdf-attempt}
 \end{figure}
 
-Figuur \ref{img:screenshot-docx-attempt} illustreert hoe Pandoc niet in staat is om een volledig personaliseerbare docx-bestand te maken. Het prototype maakt geen gebruik van de meegegeven woordspatiëring. Lettertype- en grootte, documentmarge en regeleindes past het prototype wel aan.
+Figuur \ref{img:screenshot-docx-attempt} illustreert hoe het prototype niet in staat is om een volledig personaliseerbare docx-bestand te maken. Het prototype maakt geen gebruik van de meegegeven woordspatiëring. Lettertype- en grootte, documentmarge en regeleindes past het prototype wel aan.
 
-\begin{figure}
+\begin{figure}[H]
 	\includegraphics[width=\linewidth]{img/screenshot-prototype-word.png}
 	\caption{Een vereenvoudigde versie in docx-formaat van het artikel van \textcite{VanBrakel2022} volgens het prototype.}
 	\label{img:screenshot-docx-attempt}
 \end{figure}
 
-Het prototype beschikt over enkele van de \textit{could-haves}. Zo geeft het prototype geen tekstanalyse aan de eindgebruiker. Door middel van eenduidige handelingen kunnen de eindgebruikers zinnen markeren. Het prototype kan de zin aanpassen door een \textit{in-line} definitie toe te voegen. 
-
-\medspace
-
-Vervolgens beschikt het prototype over enkele \textit{could-haves}. Allereerst maakt het prototype geen gebruik van expliciete extraherende of abstraherende samenvatting. Abstraherende samenvatting is echter wel in de vorm van een opsomming, zoals aangewezen in figuur \ref{img:screenshot-pdf-attempt} en \ref{img:screenshot-docx-attempt} terug te vinden. Vervolgens geeft het prototype een gefixeerd meldingscherm wanneer het prototype iets van de gebruiker verwacht, zoals aangegeven in figuur \ref{img:step-1-proto-vraagstelling}. Daarnaast geeft het prototype ook waarschuwingen in de formulieren aan de gebruiker, zoals weergegeven in figuur \ref{img:proto-lerarencomponent}. Tot slot is er geen functionaliteit om automatisch een woordenlijst met moeilijke woorden of vakjargon aan te maken.
+Het prototype beschikt over enkele van de \textit{should-haves}. Zo geeft het prototype geen tekstanalyse aan de eindgebruiker. Door middel van eenduidige handelingen kunnen de eindgebruikers zinnen markeren. Het prototype kan de zin aanpassen door een \textit{in-line} definitie toe te voegen. Vervolgens beschikt het prototype over enkele \textit{could-haves}. Allereerst maakt het prototype geen gebruik van expliciete extraherende of abstraherende samenvatting. Abstraherende samenvatting bestaat echter wel in de vorm van een opsomming, zoals aangewezen in figuur \ref{img:screenshot-pdf-attempt} en \ref{img:screenshot-docx-attempt}. Vervolgens geeft het prototype een gefixeerd meldingscherm wanneer het prototype iets van de gebruiker verwacht, zoals aangegeven in figuur \ref{img:step-1-proto-vraagstelling}. Daarnaast geeft het prototype ook waarschuwingen in de formulieren aan de gebruiker, zoals weergegeven in figuur \ref{img:proto-lerarencomponent}. Tot slot is er geen functionaliteit om automatisch een woordenlijst met moeilijke woorden of vakjargon aan te maken.
 
 \medspace
 

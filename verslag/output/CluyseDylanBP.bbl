@@ -3599,39 +3599,6 @@
       \endverb
       \keyw{browsing,second-language reading,literature-based learning,peer discussion,small-group learning}
     \endentry
-    \entry{McCombes2022}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=53ed0182c8a4b671fa28f5f55e89a55c}{%
-           family={McCombes},
-           familyi={M\bibinitperiod},
-           given={Shona},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{53ed0182c8a4b671fa28f5f55e89a55c}
-      \strng{fullhash}{53ed0182c8a4b671fa28f5f55e89a55c}
-      \strng{bibnamehash}{53ed0182c8a4b671fa28f5f55e89a55c}
-      \strng{authorbibnamehash}{53ed0182c8a4b671fa28f5f55e89a55c}
-      \strng{authornamehash}{53ed0182c8a4b671fa28f5f55e89a55c}
-      \strng{authorfullhash}{53ed0182c8a4b671fa28f5f55e89a55c}
-      \field{sortinit}{M}
-      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Scribbr}
-      \field{month}{11}
-      \field{title}{How to write A summary: Guide &amp; examples}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb https://www.scribbr.com/working-with-sources/how-to-summarize/
-      \endverb
-      \verb{url}
-      \verb https://www.scribbr.com/working-with-sources/how-to-summarize/
-      \endverb
-    \endentry
     \entry{McDonald2007}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c89c5fee46ef8f26ee51eb1a51c0b154}{%
