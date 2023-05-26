@@ -195,7 +195,7 @@ Om wetenschappelijke artikelen met gepersonaliseerde ATS te vereenvoudigen, moet
 	\item Welk taalmodel is geschikt voor tekstvereenvoudiging met ATS van wetenschappelijke artikelen voor scholieren met dyslexie in de derde graad van het middelbaar onderwijs, met dezelfde of gelijkaardige kwaliteiten als gepersonaliseerde tekstvereenvoudiging met MTS?
 \end{itemize}
 
-Er zijn weinig gespecialiseerde taalmodellen beschikbaar om wetenschappelijke artikelen te vereenvoudigen. Daarom beoordeelt de vergelijkende studie alle vermelde taalmodellen opgesomd in tabel \ref{table:vergelijkende-studie-taalmodellen}.
+Er zijn weinig gespecialiseerde taalmodellen beschikbaar om wetenschappelijke artikelen te vereenvoudigen. Daarom beoordeelt de vergelijkende studie alle vermelde taalmodellen opgesomd in tabel \ref{table:vergelijkende-studie-taalmodellen}. 
 
 \begin{center}
 	\begin{table}[H]
@@ -217,7 +217,7 @@ Er zijn weinig gespecialiseerde taalmodellen beschikbaar om wetenschappelijke ar
 	\end{table}
 \end{center}
 
-De vergelijkende studie bestaat uit vijf fasen, weergegeven op de \textit{flowchart} in figuur \ref{img:flowchart-vergelijkende-studie-metrics}. Zo vergelijkt deze onderzoeksfase de leesgraadscores van de oorspronkelijke wetenschappelijke artikelen zoals in sectie \ref{sec:requirementsanalyse}, met referentieteksten vereenvoudigd met MTS en teksten vereenvoudigd met ATS. Met een \textit{mixed-methods} onderzoek kan de vergelijkende studie taalmodellen beoordelen op objectief en subjectief niveau. 
+De vergelijkende studie bestaat uit vijf fasen, weergegeven op de \textit{flowchart} in figuur \ref{img:flowchart-vergelijkende-studie-metrics}. Zo vergelijkt deze onderzoeksfase de leesgraadscores van de oorspronkelijke wetenschappelijke artikelen zoals in sectie \ref{sec:requirementsanalyse}, met referentieteksten vereenvoudigd met MTS en teksten vereenvoudigd met ATS. Met een \textit{mixed-methods} onderzoek kan de vergelijkende studie taalmodellen beoordelen op objectief en subjectief niveau. De belangrijkst code komt in dit hoofdstuk aan bod. Alle scripts kan u terugvinden op de GitHub-repository\footnote{https://github.com/dylancluyse/bachelorproef-nlp-tekstvereenvoudiging/tree/main/scripts}.
 
 \medspace
 
@@ -1097,7 +1097,7 @@ def generate_simplification_w_summation(self, full_text):
 		f.write('\n\n')
 \end{lstlisting}
 
-Tenslotte maakt het script de pdf en docx-bestanden van de vereenvoudigde teksten. Listing \ref{code:writer-create-pdf} gebruikt alle bovenstaande functies indien nodig. Daarna genereert Pandoc de pdf en docx-bestanden en zal de functie deze twee bestanden comprimeren tot één zip-bestand. Hoewel Flask maar één bestand kan teruggeven, comprimeert het script met de \textit{zipfile} bibliotheek deze twee bestanden tot één bestand. Zo krijgt de eindgebruiker alsnog zowel het docx als het pdf-document. 
+Tenslotte maakt het script de pdf en docx-bestanden van de vereenvoudigde teksten. Beide bestanden maken gebruik van dezelfde YAML-header. Listing \ref{code:writer-create-pdf} gebruikt alle bovenstaande functies indien nodig. Daarna genereert Pandoc de pdf en docx-bestanden en zal de functie deze twee bestanden comprimeren tot één zip-bestand. Hoewel Flask maar één bestand kan teruggeven, comprimeert het script met de \textit{zipfile} bibliotheek deze twee bestanden tot één bestand. Zo krijgt de eindgebruiker alsnog zowel het docx als het pdf-document. 
 
 \begin{lstlisting}[language=Python, caption={Een zip-bestand aanmaken met daarin een docx en pdf bestand van de vereenvoudigde tekst.}, label={code:writer-create-pdf}]
 def create_pdf(self, title, margin, list, full_text, fonts, word_spacing, type_spacing, summation):
@@ -1311,3 +1311,22 @@ Via commandline kunnen eindgebruikers het prototype opstarten. Het prototype onl
 \subsection{Experimenten en vergelijkende studie met het prototype.}
 
 Het onderzoek rond de ontwikkeling van het prototype af met twee fasen. Het onderzoek achterhaalt of dit prototype voldoet aan twee zaken. Enerzijds achterhaalt het onderzoek of dit prototype voldoet aan de opgestelde functionaliteiten uit het moscow-schema, weergegeven in figuur \ref{img:moscow-table}. Daarmee toetst het onderzoek het prototype op basis van richtlijnen af. Nadien vergelijkt het onderzoek de functinonaliteiten met dat van andere toepassingen uit de requirementsanalyse. Ten laatste vergelijkt het onderzoek de aangemaakte wetenschappelijke artikelen, met de oorspronkelijke wetenschappelijke artikelen en referentieteksten door MTS.
+
+\medspace
+
+Alle experimenten maken gebruik van de wetenschappelijke artikelen verwezen in tabel \ref{table:referentieteksten-bronvermelding}. Als voorbeeldparameters, maken de experimenten gebruik van de parameters beschreven in tabel \ref{table:chosen-parameters-experiment}.
+
+\begin{table}
+	\begin{tabular}{| m{5cm} | m{5cm} |}
+	\hline
+	\textbf{Parameter} & \textbf{Gekozen variabele} \\ \hline
+	Standaardlettertype & Arial \\ \hline
+	Lettertype voor titel & Arial \\ \hline
+	Regeleinde & Anderhalve \\ \hline
+	Woordspatiëring (in cm) & 0.5  \\ \hline
+	Documentmarge (in cm) & 3 \\ \hline
+	Schrijven als & Opsomming \\ \hline
+	\end{tabular}
+	\caption{Gekozen parameter voor experimenten.}
+	\label{table:chosen-parameters-experiment}
+\end{table}

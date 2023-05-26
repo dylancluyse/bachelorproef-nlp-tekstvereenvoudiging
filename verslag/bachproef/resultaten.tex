@@ -3,7 +3,7 @@
 
 Dit hoofdstuk bespreekt de resultaten uit de requirementsanalyse, vergelijkende studie en de ontwikkeling van het prototype besproken. Zo bespreekt dit hoofdstuk de resultaten van de drie onderzoeksmethoden. Eerst geeft het onderzoek de resultaten van de requirementsanalyse, door middel van een bespreking van het toegepaste moscow-schema op de geteste tools. Daarna staat het onderzoek stil bij de objectieve en subjectieve resultaten uit de vergelijkende studie. Tot slot bespreekt het onderzoek het ontwikkelde prototype, alsook hoe dit prototype staat tegenover andere tools. De aftoetsing gebeurt op basis van de functionaliteiten voor gepersonaliseerde ATS op maat voor scholieren met dyslexie bij het begrijpend lezen van wetenschappelijke artikelen. 
 
-Dit hoofdstuk reikt enkel de belangrijkste code-snippets aan. De volledige code is op deze GitHub-repository\footnote{https://github.com/Dyashen/text-simplification-tool}.
+Dit hoofdstuk bevat enkel de belangrijkste listings. De volledige code kan de lezer op deze GitHub-repository\footnote{https://github.com/Dyashen/text-simplification-tool} terugvinden. De vergelijkende studie gebruikt een csv om analyses over de verkregen tekstdata te maken. Het bijbehorende csv-bestand kan de lezer terugvinden op deze GitHub-repository\footnote{https://github.com/dylancluyse/bachelorproef-nlp-tekstvereenvoudiging/blob/main/STATISTIEKEN_BACHELORPROEF_ATS.csv}.
 
 \section{Ontbrekende functies bij AI-toepassingen}
 
@@ -346,14 +346,28 @@ Na evaluatie en experimenten blijkt het prototype te voldoen aan de \textit{must
 
 \medspace
 
-Alle eindgebruikers kunnen de opmaakopties van de toepassing aanpassen aan hun persoonlijke voorkeuren bij het lezen van wetenschappelijke artikelen. Alsook de opmaak van het uitvoerbestand personaliseren. Het prototype kan de regeleindes, woord- en karakterspatiëring, lettertype -en grootte, koppenstructuur en marges van het uitvoerbestand aanpassen. Deze functionaliteit is niet beschikbaar bij de uitgeteste tools, behalve E1 en E2 die enkel het lettertype -en grootte kan aanpassen. 
+Alle eindgebruikers kunnen de opmaakopties van de toepassing aanpassen aan hun persoonlijke voorkeuren bij het lezen van wetenschappelijke artikelen. Alsook de opmaak van het uitvoerbestand personaliseren. Figuur \ref{img:screenshot-pdf-attempt} toont de vereenvoudigde versie van het wetenschappelijke artikel met de parameters uit tabel \ref{table:chosen-parameters-experiment}. Het prototype kan de regeleindes, woord- en karakterspatiëring, lettertype -en grootte, koppenstructuur en marges van het uitvoerbestand aanpassen. Deze functionaliteit is niet beschikbaar bij de uitgeteste tools, behalve E1 en E2 die enkel het lettertype -en grootte kan aanpassen. 
+
+\begin{figure}
+	\includegraphics[width=10cm]{img/screenshot-prototype-pdf.png}
+	\caption{Een vereenvoudigde versie in pdf-formaat van het artikel van \textcite{VanBrakel2022} volgens het prototype.}
+	\label{img:screenshot-pdf-attempt}
+\end{figure}
+
+Figuur \ref{img:screenshot-docx-attempt} illustreert hoe Pandoc niet in staat is om een volledig personaliseerbare docx-bestand te maken. Het prototype maakt geen gebruik van de meegegeven woordspatiëring. Lettertype- en grootte, documentmarge en regeleindes past het prototype wel aan.
+
+\begin{figure}
+	\includegraphics[width=\linewidth]{img/screenshot-prototype-word.png}
+	\caption{Een vereenvoudigde versie in docx-formaat van het artikel van \textcite{VanBrakel2022} volgens het prototype.}
+	\label{img:screenshot-docx-attempt}
+\end{figure}
+
+Het prototype beschikt over enkele van de \textit{could-haves}. Zo geeft het prototype geen tekstanalyse aan de eindgebruiker. Door middel van eenduidige handelingen kunnen de eindgebruikers zinnen markeren. Het prototype kan de zin aanpassen door een \textit{in-line} definitie toe te voegen. 
 
 \medspace
 
-Het prototype beschikt over enkele \textit{should-haves}. Zo geeft het prototype geen tekstanalyse aan de eindgebruiker. Door middel van eenduidige handelingen kunnen de eindgebruikers zinnen markeren. Het prototype past de zin aan door een \textit{in-line} definitie toe te voegen. Daarnaast biedt het prototype geen expliciete knoppen voor extraherende of abstraherende samenvatting aan. Tot slot geeft het 
+Vervolgens beschikt het prototype over enkele \textit{could-haves}. Allereerst maakt het prototype geen gebruik van expliciete extraherende of abstraherende samenvatting. Abstraherende samenvatting is echter wel in de vorm van een opsomming, zoals aangewezen in figuur \ref{img:screenshot-pdf-attempt} en \ref{img:screenshot-docx-attempt} terug te vinden. Vervolgens geeft het prototype een gefixeerd meldingscherm wanneer het prototype iets van de gebruiker verwacht, zoals aangegeven in figuur \ref{img:step-1-proto-vraagstelling}. Daarnaast geeft het prototype ook waarschuwingen in de formulieren aan de gebruiker, zoals weergegeven in figuur \ref{img:proto-lerarencomponent}. Tot slot is er geen functionaliteit om automatisch een woordenlijst met moeilijke woorden of vakjargon aan te maken.
 
 \medspace
 
 Tot slot bevat het prototype geen \textit{wont-haves}. Zo ontbreekt het prototype een luistercomponent waarbij scholieren de vereenvoudigde tekst kunnen beluisteren. Deze functionaliteit is wel aanwezig bij E1, E2 en E3. Daarnaast is het prototype niet beschikbaar als browserextensie. Andere uitgeteste tools beschikken hier ook niet over. Tot slot is het prototype enkel in een lokale omgeving beschikbaar. Andere uitgeteste toepassingen zijn online beschikbaar. 
-
-% Dit wordt gerealiseerd door woordenlijsten te reproduceren na een zorgvuldige handmatige selectie van moeilijke woorden. Het prototype is lokaal op te zetten met behulp van Docker, hoewel voor het gebruik ervan een internetverbinding vereist is, net als bij andere tools in tabel \ref{table:overview-tools}.

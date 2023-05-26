@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2023.5.23)  26 MAY 2023 10:24
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/Debian) (preloaded format=xelatex 2023.5.23)  26 MAY 2023 11:28
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -2311,48 +2311,43 @@ Overfull \hbox (1.58821pt too wide) in paragraph at lines 102--102
 [5
 
 ]
-Overfull \hbox (2.46373pt too wide) detected at line 106
+Overfull \hbox (2.46373pt too wide) detected at line 104
  \TU/Montserrat(1)/b/n/10.95 100
  []
 
 
-Overfull \hbox (2.62798pt too wide) detected at line 108
- \TU/Montserrat(1)/b/n/10.95 104
+Overfull \hbox (1.44537pt too wide) detected at line 106
+ \TU/Montserrat(1)/b/n/10.95 102
  []
 
 
-Overfull \hbox (1.46727pt too wide) detected at line 110
- \TU/Montserrat(1)/m/n/10.95 104
+Overfull \hbox (2.06953pt too wide) detected at line 108
+ \TU/Montserrat(1)/b/n/10.95 106
  []
 
 
-Overfull \hbox (0.89787pt too wide) detected at line 112
+Overfull \hbox (0.89787pt too wide) detected at line 110
  \TU/Montserrat(1)/m/n/10.95 106
  []
 
 
-Overfull \hbox (0.89787pt too wide) detected at line 114
- \TU/Montserrat(1)/m/n/10.95 106
- []
-
-
-Overfull \hbox (0.89787pt too wide) detected at line 116
- \TU/Montserrat(1)/m/n/10.95 106
- []
-
-
-Overfull \hbox (1.21542pt too wide) detected at line 118
+Overfull \hbox (1.21542pt too wide) detected at line 112
  \TU/Montserrat(1)/m/n/10.95 108
  []
 
 
-Overfull \hbox (1.21542pt too wide) detected at line 120
+Overfull \hbox (1.21542pt too wide) detected at line 114
  \TU/Montserrat(1)/m/n/10.95 108
  []
 
 
-Overfull \hbox (0.89787pt too wide) detected at line 122
- \TU/Montserrat(1)/m/n/10.95 109
+Overfull \hbox (1.21542pt too wide) detected at line 116
+ \TU/Montserrat(1)/m/n/10.95 108
+ []
+
+
+Overfull \hbox (1.52203pt too wide) detected at line 138
+ \TU/Montserrat(1)/b/n/10.95 120
  []
 
 )
@@ -2633,38 +2628,28 @@ t inlezen van pdf-bestanden:
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
-[]|\TU/Montserrat(2)/b/n/10.95 Type vereen-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 168--169
 []|\TU/Montserrat(1)/m/n/10.95 (Crossley e.a., [][]2012[][];
  []
 
 
-Underfull \hbox (badness 5756) in paragraph at lines 168--169
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+\TU/Montserrat(1)/m/n/10.95 Rello, Baeza-Yates &
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 \TU/Montserrat(1)/m/n/10.95 Saggion, [][]2013[][]; Sid-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
-[]|\TU/Montserrat(1)/m/n/10.95 (Bosmans e.a.,
+Underfull \hbox (badness 5578) in paragraph at lines 169--170
+[]|\TU/Montserrat(1)/m/n/10.95 (Bosmans e.a., [][]2022b[][];
  []
 
 
-Underfull \hbox (badness 1668) in paragraph at lines 169--170
-[][]\TU/Montserrat(1)/m/n/10.95 2022b[][]; Siddharthan,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
-[]|\TU/Montserrat(1)/m/n/10.95 (Bosmans e.a.,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
-[]|\TU/Montserrat(1)/m/n/10.95 (Bosmans e.a.,
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
+[]|\TU/Montserrat(1)/m/n/10.95 (Javourey-Drevet e.a.,
  []
 
 
@@ -2673,23 +2658,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 177--178
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
-[]|\TU/Montserrat(1)/m/n/10.95 (Bosmans e.a.,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
-[]|\TU/Montserrat(1)/m/n/10.95 (Ruelas Inzunza,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
-\TU/Montserrat(1)/m/n/10.95 Rello, Baeza-Yates,
+Underfull \hbox (badness 5908) in paragraph at lines 180--181
+[]|\TU/Montserrat(1)/m/n/10.95 (Gala & Ziegler, [][]2016[][];
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 182--183
 []|\TU/Montserrat(1)/m/n/10.95 (Rello, Baeza-Yates,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
+[]|\TU/Montserrat(1)/m/n/10.95 (Rello & Baeza-Yates,
  []
 
 
@@ -9176,6 +9156,7 @@ l.1111 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+[69]
 
 ./methodologie.tex:1112: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -9202,7 +9183,6 @@ l.1113 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[69]
 
 ./methodologie.tex:1114: Package xcolor Error: Undefined color `commentsColor'.
 
@@ -11056,8 +11036,53 @@ l.1307 ^^I
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-) (./resultaten.tex [74] [75]
+[74]) (./resultaten.tex [75]
 Hoofdstuk 4.
+./resultaten.tex:6: Missing $ inserted.
+<inserted text> 
+                $
+l.6 ...ob/main/STATISTIEKEN_BACHELORPROEF_ATS.csv}
+                                                  .
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./resultaten.tex:6: Missing $ inserted.
+<inserted text> 
+                $
+l.6 ...ob/main/STATISTIEKEN_BACHELORPROEF_ATS.csv}
+                                                  .
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./resultaten.tex:6: Missing } inserted.
+<inserted text> 
+                }
+l.6 ...ob/main/STATISTIEKEN_BACHELORPROEF_ATS.csv}
+                                                  .
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (96.49004pt too wide) in paragraph at lines 6--6
+[][][][]\TU/Montserrat(2)/m/n/9 https://github.com/dylancluyse/bachelorproef-nl
+p-tekstvereenvoudiging/blob/main/STATISTIEKEN$[][][][][][][][][][][][][][][][][
+][][][]|[]$ 
+ []
+
+./resultaten.tex:6: Extra }, or forgotten \endgroup.
+\@makefntext ...out #1\ifFN@hangfoot \par \egroup 
+                                                  \fi 
+l.6 ...ob/main/STATISTIEKEN_BACHELORPROEF_ATS.csv}
+                                                  .
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
 
 Overfull \hbox (1.36644pt too wide) in paragraph at lines 16--16
 []|\TU/Montserrat(2)/b/n/10.95 O2| 
@@ -11312,7 +11337,11 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 [95]
 File: img/proto-vraagstelling-2.png Graphic file (type bmp)
 <img/proto-vraagstelling-2.png>
- [96]) (./conclusie.tex
+File: img/screenshot-prototype-pdf.png Graphic file (type bmp)
+<img/screenshot-prototype-pdf.png>
+File: img/screenshot-prototype-word.png Graphic file (type bmp)
+<img/screenshot-prototype-word.png>
+ [96]
 
 Package fancyhdr Warning: \headheight is too small (14.0pt): 
 (fancyhdr)                Make it at least 26.66998pt, for example:
@@ -11321,25 +11350,28 @@ Package fancyhdr Warning: \headheight is too small (14.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
 
-[97]
+[97] [98]) (./conclusie.tex
+
+Package fancyhdr Warning: \headheight is too small (14.0pt): 
+(fancyhdr)                Make it at least 26.66998pt, for example:
+(fancyhdr)                \setlength{\headheight}{26.66998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-12.66998pt}.
+
+[99]
 Hoofdstuk 5.
-
-Overfull \hbox (2.37535pt too wide) in paragraph at lines 15--16
-\TU/Montserrat(1)/m/n/10.95 opladen, beschikken over onvoldoende functionalitei
-ten om gepersonaliseerde ATS
- []
-
 
 Overfull \hbox (13.92857pt too wide) in paragraph at lines 25--26
 \TU/Montserrat(1)/m/n/10.95 linehandelingen afhandelen. Ontwikkelaars kunnen me
 t eenvoudige en open-source
  []
 
-[98
-
-]) (./discussie.tex [99]
-Hoofdstuk 6.
 [100
+
+]) (./discussie.tex [101]
+Hoofdstuk 6.
+[102
 
 ]
 Overfull \hbox (31.1787pt too wide) in paragraph at lines 24--25
@@ -11347,7 +11379,7 @@ Overfull \hbox (31.1787pt too wide) in paragraph at lines 24--25
 eschikbare HuggingFace-taalmodellen.
  []
 
-[101]) [102] [103]
+[103]) [104] [105]
 B\babelshorthand{"y}lage A.
 
 Overfull \hbox (5.03624pt too wide) in paragraph at lines 240--241
@@ -11362,7 +11394,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--8
 da-2030-stem-competenties-voor-een-
  []
 
-[104
+[106
 
 ]
 Overfull \hbox (3.46771pt too wide) in paragraph at lines 34--35
@@ -11370,40 +11402,40 @@ Overfull \hbox (3.46771pt too wide) in paragraph at lines 34--35
 oor nieuwe toepassingen zorgde. Tekst-
  []
 
-[105]
+[107]
 Overfull \hbox (2.54906pt too wide) in paragraph at lines 38--39
 []\TU/Montserrat(1)/m/n/10.95 Tekstvereenvoudiging behoort tot de zijtak van \T
 U/Montserrat(2)/m/it/10.95 Natural Language Processing \TU/Montserrat(1)/m/n/10
 .95 (NLP)
  []
 
-[106]
+[108]
 Overfull \hbox (14.44443pt too wide) in paragraph at lines 54--55
 []\TU/Montserrat(1)/m/n/10.95 Het onderzoek van []Sciforce ([][]2020[][]) haalt
  aan dat het merendeel van NLP-toepassingen
  []
 
-[107]
+[109]
 Overfull \hbox (1.14409pt too wide) in paragraph at lines 65--66
 \TU/Montserrat(1)/m/n/10.95 wel gebruikt worden, zijn vooral online leerplatfor
 men voor zelfstandig werken. Ook
  []
 
-[108]
+[110]
 File: img/Screenshot_302.png Graphic file (type bmp)
 <img/Screenshot_302.png>
- [109] [110]) (./referentietekst.tex [111]
+ [111] [112]) (./referentietekst.tex [113]
 B\babelshorthand{"y}lage B.
-[112
+[114
 
-] [113] [114] [115] [116]) [117]
+] [115] [116] [117] [118]) [119]
 Overfull \hbox (2.13918pt too wide) in paragraph at lines 254--254
 \TU/Montserrat(1)/m/n/10.95 Dutch. \TU/Montserrat(2)/m/it/10.95 Computational L
 inguistics in the Netherlands Journal\TU/Montserrat(1)/m/n/10.95 , \TU/Montserr
 at(2)/m/it/10.95 8\TU/Montserrat(1)/m/n/10.95 , 24–48. [][]$[][][][][] []
  []
 
-[118
+[120
 
 
 ]
@@ -11419,7 +11451,7 @@ Overfull \hbox (30.04782pt too wide) in paragraph at lines 254--254
 [][][][][][][][][][]$[][] 
  []
 
-[119]
+[121]
 Overfull \hbox (17.6088pt too wide) in paragraph at lines 254--254
 \TU/Montserrat(1)/m/n/10.95 E. M. (2022). Students with dyslexia between school
  and university: Post-diploma
@@ -11437,13 +11469,13 @@ Overfull \hbox (0.81898pt too wide) in paragraph at lines 254--254
 ve Technologies (SLPAT-
  []
 
-[120]
+[122]
 Overfull \hbox (15.62875pt too wide) in paragraph at lines 254--254
 [][]\TU/Montserrat(1)/m/n/10.95 Iredale, G. (2022). An overview of tokenization
  algorithms in NLP. [][]$[][][][][] [] [] [] [][][][][][][][][][][][][][] []
  []
 
-[121]
+[123]
 Overfull \hbox (4.43297pt too wide) in paragraph at lines 254--254
 \TU/Montserrat(2)/m/it/10.95 sing\TU/Montserrat(1)/m/n/10.95 . Pearson Educatio
 n. [][]$[][][][][] [] [] [] [][][][][] [] [][][][][][] [] [][] [] [][][][][] []
@@ -11456,7 +11488,7 @@ Overfull \hbox (12.61131pt too wide) in paragraph at lines 254--254
  technical overview. [][]$[][][][][] [] [] [] [][][][][][][][][][] []
  []
 
-[122]
+[124]
 ./CluyseDylanBP.tex:254: Misplaced alignment tab character &.
 <argument> Guide &
                   amp; examples
@@ -11493,13 +11525,13 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-[123]
+[125]
 Overfull \hbox (4.29759pt too wide) in paragraph at lines 254--254
 \TU/Montserrat(1)/m/n/10.95 Part of Speech Tagger [http://eprints.ewi.utwente.n
 l/14662 ; 20th Benelux Con-
  []
 
-[124] [125]
+[126] [127]
 Overfull \hbox (18.56651pt too wide) in paragraph at lines 254--254
 \TU/Montserrat(2)/m/it/10.95 on Natural Language Processing 2014\TU/Montserrat(
 1)/m/n/10.95 , \TU/Montserrat(2)/m/it/10.95 4\TU/Montserrat(1)/m/n/10.95 (1). [
@@ -11537,7 +11569,7 @@ Overfull \hbox (13.72885pt too wide) in paragraph at lines 254--254
 nbsp; verschillen in economischenbsp;
  []
 
-[126]
+[128]
 Overfull \hbox (4.93161pt too wide) in paragraph at lines 254--254
 \TU/Montserrat(1)/m/n/10.95 Smith, J. & Schmidt, D. C. (2023). A Prompt Pattern
  Catalog to Enhance Prompt
@@ -11549,20 +11581,20 @@ Overfull \hbox (19.16676pt too wide) in paragraph at lines 254--254
 physiological tracking of speech-structure
  []
 
-[127] (../output/CluyseDylanBP.aux)
+[129] (../output/CluyseDylanBP.aux)
 Package rerunfilecheck Info: File `CluyseDylanBP.out' has not changed.
-(rerunfilecheck)             Checksum: 7393038F817F63A16418C38926F4408C;4107.
+(rerunfilecheck)             Checksum: BDC030F5509E561DAE0D607508D67667;4107.
 Package logreq Info: Writing requests to 'CluyseDylanBP.run.xml'.
 \openout1 = `CluyseDylanBP.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 49267 strings out of 478657
- 959336 string characters out of 5861313
- 2446722 words of memory out of 5000000
- 67942 multiletter control sequences out of 15000+600000
+ 49285 strings out of 478657
+ 959872 string characters out of 5861313
+ 2447106 words of memory out of 5000000
+ 67958 multiletter control sequences out of 15000+600000
  407991 words of font info for 114 fonts, out of 8000000 for 9000
  351 hyphenation exceptions out of 8191
  113i,15n,139p,2569b,7101s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ../output/CluyseDylanBP.xdv (138 pages, 3184508 bytes).
+Output written on ../output/CluyseDylanBP.xdv (140 pages, 3215164 bytes).

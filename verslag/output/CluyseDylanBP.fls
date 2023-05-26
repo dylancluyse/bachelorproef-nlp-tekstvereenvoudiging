@@ -2042,6 +2042,12 @@ INPUT img/proto-vraagstelling-1.png
 INPUT ./img/proto-vraagstelling-2.png
 INPUT ./img/proto-vraagstelling-2.png
 INPUT img/proto-vraagstelling-2.png
+INPUT ./img/screenshot-prototype-pdf.png
+INPUT ./img/screenshot-prototype-pdf.png
+INPUT img/screenshot-prototype-pdf.png
+INPUT ./img/screenshot-prototype-word.png
+INPUT ./img/screenshot-prototype-word.png
+INPUT img/screenshot-prototype-word.png
 INPUT ./conclusie.tex
 INPUT ./conclusie.tex
 INPUT ./conclusie.tex
