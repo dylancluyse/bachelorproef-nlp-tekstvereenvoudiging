@@ -230,7 +230,7 @@ De gebruikte wetenschappelijke artikelen, afgekort OG, zijn identiek aan de wete
 % SCRIPT 1
 Eerst volgt er een voorbereiding van de tekstinhoud. Allereerst haalt het script de inhoud van de map met wetenschappelijke artikelen op om deze vervolgens in een tekstbestand te plaatsen, zoals weergegeven in codeblok \ref{code:verg-studie-phase-1}. 
 
-\begin{lstlisting}[language=Python, caption={Script voor fase 1 van de vergelijkende studie.}, label={code:verg-studie-phase-1}]
+\begin{lstlisting}[language=Python, caption={Script voor de eerste fase van de vergelijkende studie.}, label={code:verg-studie-phase-1}]
 	def add_newline_after_dot(input_file, output_file):
 	with open(input_file, 'r', encoding='utf-8') as file:
 		text = file.read()
@@ -465,7 +465,7 @@ Listing \ref{code:verg-studie-phase-4} omvat de code voor fase 4 waarin het scri
 Als het script alle meetwaarden succesvol kan verkrijgen, dan maakt het script een nieuwe rij met de machinaal berekende leesmetrieken. Tot slot voegt het script alle rijen toe aan de DataFrame. Als er tijdens het meten van de leesbaarheid van een zin een Exception optreedt, dan verwerpt het script die zin voor dat artikel.
 
 \begin{center}
-	\begin{lstlisting}[language=Python, caption={Script voor fase 4 van de vergelijkende studie}, label={code:verg-studie-phase-4}]	
+	\begin{lstlisting}[language=Python, caption={Script voor de vierde fase van de vergelijkende studie}, label={code:verg-studie-phase-4}]	
 		simplified_folder = 'scripts/vereenvoudigde_artikelen'
 		original_folder = 'scripts/pdf'
 		

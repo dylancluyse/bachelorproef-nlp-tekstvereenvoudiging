@@ -1,11 +1,11 @@
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {3.1}Script voor fase 1 van de vergelijkende studie.}{43}{lstlisting.3.1}%
+\contentsline {lstlisting}{\numberline {3.1}Script voor de eerste fase van de vergelijkende studie.}{43}{lstlisting.3.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {3.2}Script voor de tweede fase van de vergelijkende studie.}{44}{lstlisting.3.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {3.3}Script voor de derde fase van de vergelijkende studie}{46}{lstlisting.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {3.4}Script voor fase 4 van de vergelijkende studie}{49}{lstlisting.3.4}%
+\contentsline {lstlisting}{\numberline {3.4}Script voor de vierde fase van de vergelijkende studie}{49}{lstlisting.3.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {3.5}Code om een boxplot voor het aantal woorden per zin te genereren.}{50}{lstlisting.3.5}%
 \defcounter {refsection}{0}\relax 
