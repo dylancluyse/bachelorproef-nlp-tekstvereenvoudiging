@@ -8,12 +8,13 @@
       }
 
       .container {
-        max-width: 800px;
+        max-width: 60%;
         text-align: justify;
         margin: 0 auto;
         padding: 20px;
         column-count: 2;
         column-gap: 40px;
+        transition: all 1s ease-in-out;
       }
 
       h1 {
@@ -21,20 +22,54 @@
       }
 
       .abstract {
+        max-width: 60%;
+        margin: 0 auto;
+        padding: 20px;
         text-align: justify;
         margin-bottom: 40px;
+        transition: all 1s ease-in-out;
       }
 
-      .dyslexic-text {
-        letter-spacing: 2px; /* Increase letter spacing */
-        word-spacing: 4px; /* Increase word spacing */
-        line-height: 1.5; /* Increase line height */
+      #output ul,
+      #output li {
+        transition: all 1s ease-in-out;
+      }
+
+      .dyslexic-text,
+      .dyslexic-text-abstract {
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        line-height: 1;
+        transition: all 1s ease-in-out;
+      }
+
+      .fixed-right-bar {
+        position: fixed;
+        right: 0;
+        top: 20%;
+        width: 400px;
+        height: 200px;
+        border: 1px solid #ccc;
+        background-color: white;
+      }
+
+      .fixed-right-bar label {
+        display: block;
+      }
+
+      .woordenlijst {
+        display: none;
+        max-width: 60%;
+        text-align: justify;
+        margin: 0 auto;
+        padding: 20px;
+        transition: all 1s ease-in-out;
+        border: 1px solid;
       }
     </style>
   </head>
   <body>
-    <div class="container">
-      <h1>Bachelorproef</h1>
+    <h1>Bachelorproef</h1>
 
       <div class="abstract">
         <h2>Abstract</h2>
@@ -65,7 +100,7 @@
           scholieren.
         </p>
       </div>
-
+    <div class="container">
       <div class="content">
         <h2>Introduction</h2>
         <p class="dyslexic-text">
