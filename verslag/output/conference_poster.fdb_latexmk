@@ -1,12 +1,12 @@
 # Fdb version 3
-["xdvipdfmx"] 1685949682 "../output/conference_poster.xdv" "../output/conference_poster.pdf" "../output/conference_poster" 1685949683
-  "../output/conference_poster.xdv" 1685949682 73480 4337b5327c30f4dbe7a0594b099ed459 "xelatex"
+["xdvipdfmx"] 1686409630 "../output/conference_poster.xdv" "../output/conference_poster.pdf" "../output/conference_poster" 1686409631
+  "../output/conference_poster.xdv" 1686409630 70228 396cc8ae58121de034f106397d720c49 "xelatex"
   (generated)
   "../output/conference_poster.pdf"
-["xelatex"] 1685949675 "./conference_poster.tex" "../output/conference_poster.xdv" "conference_poster" 1685949683
-  "../output/conference_poster.aux" 1685949682 2083 b60721828ae0053b30138aca6619dc80 "xelatex"
-  "../output/conference_poster.out" 1685949682 202 7055e31d049f42344bf1dc4fbe1b6824 "xelatex"
-  "./conference_poster.tex" 1685949602 11628 bf60b31392b6a20a5d0afc03d9678f98 ""
+["xelatex"] 1686409623 "./conference_poster.tex" "../output/conference_poster.xdv" "conference_poster" 1686409631
+  "../output/conference_poster.aux" 1686409630 2726 843a400749b3e3e849577cd905d241f9 "xelatex"
+  "../output/conference_poster.out" 1686409630 189 8bc86737331d1fdcdff07cfb37a7c803 "xelatex"
+  "./conference_poster.tex" 1686409599 8607 c56ca8faec3cc611b34588c29002e879 ""
   "/etc/texmf/web2c/texmf.cnf" 1684841370 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -168,14 +168,16 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1613593815 38841 799d1dd9682a55ce442e10c99777ecc1 ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1684841415 4241662 862126083866dd2e4db02d2f065f4e69 ""
   "a0size.sty" 1667980279 7966 18c6bcb6888cc6940ffa87f0038ddf6f ""
-  "conference_poster.tex" 1685949602 11628 bf60b31392b6a20a5d0afc03d9678f98 ""
+  "conference_poster.tex" 1686409599 8607 c56ca8faec3cc611b34588c29002e879 ""
   "figures//hogent_logo.eps" 1670097578 1444154 a7d7553c7aa7f914e4b1d879f2bce145 ""
   "figures//logopart.eps" 1670097578 5140 7bec7957ad4cc284bbe9ab27426702de ""
-  "figures/flowchart-onderzoeksmethdoen.jpg" 1685691484 83448 c0e9704ba8e766cec2f3d42eeea34e0c ""
-  "figures/proto-opsomming-2.png" 1684423705 213761 940bafc1774547fc0f39221379921a1d ""
-  "hogent-poster.cls" 1670097578 14814 e80d5a126ff2278d6a05e69a920e8a8b ""
+  "figures/boxplot-poster.png" 1686396524 57696 00ffc27a2148f7773c5ef7c43f0e9a57 ""
+  "figures/onderzoeksmethoden.jpg" 1686239168 97705 732e79fcb1417b59f192cc5354384ff7 ""
+  "figures/onderzoeksvragen.jpg" 1686239861 129258 85dacf5716ab4e62b9facea8b5896fe9 ""
+  "figures/verder-onderzoek.jpg" 1685951276 96231 de55b032bb14711e166f078ab676ac84 ""
+  "hogent-poster.cls" 1686397031 14814 31f84106b5908e844c65444b91c5b11d ""
   (generated)
-  "../output/conference_poster.log"
-  "../output/conference_poster.aux"
   "../output/conference_poster.xdv"
   "../output/conference_poster.out"
+  "../output/conference_poster.aux"
+  "../output/conference_poster.log"

@@ -110,6 +110,9 @@ Scripts:
 * Alle tekstinhoud moet omgevormd worden naar een document dat scholieren kunnen terugkrijgen. Daardoor kunnen ontwikkelaars gebruikmaken van Pandoc. Alle vereenvoudigde tekstinhoud wordt naar een markdown-bestand uitgeschreven, die vervolgens naar een pdf of word document wordt omgezet. Met Pandoc kan het prototype de uitvoertekst in een personaliseerbaar formaat aanreiken. 
 * Wel is de opmaak beperkt bij Word / docx-bestanden. PDF's zijn opgebouwd met de Xelatex-engine en daardoor zijn alle opmaakopties om scholieren met dyslexie te helpen, parameteriseerbaar. Werken met pandoc laat de deur ook open om vereenvoudigde wetenschappelijke artikelen te genereren in epub (of eBook) formaat en eventueel slides genereren.
 
+Hoe kan u hiermee aan de slag? 
+-- Docker + twee scriptbestanden
+-- 
 
 # Conclusie
 
@@ -123,3 +126,5 @@ Scripts:
 * De volgende iteratie van het GPT-taalmodel is wel in staat om afbeeldingen te interpreteren en te genereren. 
 * Zo kan een volgend onderzoek stilstaan bij de capabiliteiten van GPT-4 bij het interpreteren van grafieken of gevisualiseerd cijfermateriaal. 
 * Daarnaast kan het mogelijks aanschouwelijkheid voor de gebruiker aanbieden door het taalmodel nieuwe afbeeldingen en schema's te laten genereren.
+
+
